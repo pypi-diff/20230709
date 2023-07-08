@@ -708,3 +708,20 @@
 [2023-07-09 01:37:55] INFO root fetch - processPackages [augpathlib]: Remove: archive file [/home/abi/fetcher/tmp/augpathlib-0.0.9.tar.gz]
 [2023-07-09 01:37:55] INFO root fetch - main [MainThread]: End processing [augpathlib]: success
 [2023-07-09 01:37:55] INFO root fetch - main [MainThread]: Store serial: [18816572]
+[2023-07-09 01:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816572]
+[2023-07-09 01:43:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 01:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpaca-eval
+[2023-07-09 01:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-07-09 01:43:04] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-09 01:43:04] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-09 01:43:04] INFO root fetch - processPackages [alpaca-eval]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 01:43:04] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-09 01:43:04] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/f4/4b/75241f0cda36757f180224973fd27793dd20dc1d93da37bf741520dd05e8/alpaca_eval-0.1.7.tar.gz
+[2023-07-09 01:43:04] WARNING root fetch - processPackages [alpaca-eval]: Skipping package: exceeds size limit 40111973>=10485760
+[2023-07-09 01:43:04] INFO root fetch - main [MainThread]: End processing [alpaca-eval] error
+[2023-07-09 01:43:04] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-09 01:43:04] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230709/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-09 01:43:05] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-09 01:43:05] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-09 01:43:05] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-09 01:43:05] INFO root fetch - main [MainThread]: Store serial: [18816578]

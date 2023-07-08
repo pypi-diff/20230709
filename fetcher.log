@@ -351,3 +351,59 @@
 [2023-07-09 00:46:08] INFO root fetch - processPackages [assistant-improve-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/assistant_improve_toolkit-1.4.1.tar.gz]
 [2023-07-09 00:46:08] INFO root fetch - main [MainThread]: End processing [assistant-improve-toolkit]: success
 [2023-07-09 00:46:08] INFO root fetch - main [MainThread]: Store serial: [18816338]
+[2023-07-09 00:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816338]
+[2023-07-09 00:51:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metabolabpytools
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weblodge
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metabolabpy
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: service-markets
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtmetabolabpy
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autotraders
+[2023-07-09 00:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yaccounts
+[2023-07-09 00:51:17] INFO root fetch - processPackages [autotraders]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-09 00:51:17] INFO root fetch - processPackages [weblodge]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-09 00:51:17] INFO root fetch - processPackages [metabolabpytools]: New version: [0.8.21] Old Version: [0.8.14]
+[2023-07-09 00:51:17] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/fa/ff/a8723fb335c80330c505642927e4a61c306235ed61caa8130fb1cf1b1353/autotraders-1.6.1.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [metabolabpy]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-09 00:51:17] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-09 00:51:17] WARNING root fetch - processPackages [service-markets]: Skipping, unable to determine old version
+[2023-07-09 00:51:17] INFO root fetch - main [MainThread]: End processing [service-markets] error
+[2023-07-09 00:51:17] INFO root fetch - processPackages [yaccounts]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-09 00:51:17] INFO root fetch - processPackages [weblodge]: Downloading https://files.pythonhosted.org/packages/63/0d/1bccfcaea6a48ba58bfaa03cc02c65c9ae3a1ffa1fc03074f68672b93e67/weblodge-0.1.0.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/b3/30/4b53444c99c9296548d5ca17e6b8db5f3e90948858ba81bf6878be4e9ec7/metabolabpytools-0.8.14.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/52/32/9ee7ef129e923a69b6efc814c0fbcc50fde4b3c7b18988d9791d074edc99/autotraders-1.6.2.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [metabolabpy]: Downloading https://files.pythonhosted.org/packages/ab/32/e1a86aa724aabef3e01f3e432abe2c8ea8a3b1805c71f8bf8e801262ed92/metabolabpy-0.8.7.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [yaccounts]: Downloading https://files.pythonhosted.org/packages/97/98/22aa74f7096606d9753ae6b00ce20bb1f7921cf5716371a5a06d9eec6acb/yaccounts-1.0.0.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/62/cc/c79263bb59fe907df116eb56107d1e21c07edc2a1fb0aa68a574d2e99f09/qtmetabolabpy-0.8.7.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [weblodge]: Downloading https://files.pythonhosted.org/packages/b2/ff/358b696d93c56110a5c265bbb7ad606714ece4acc8e2b2c4dd33f9c91bfd/weblodge-0.1.2.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-07-09 00:51:17] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.6.1.tar.gz tmp/autotraders-1.6.2.tar.gz --markdown 20230709/a/autotraders/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-09 00:51:17] INFO root fetch - processPackages [weblodge]: executing diffoscope
+[2023-07-09 00:51:17] INFO root fetch - processPackages [weblodge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weblodge-0.1.0.tar.gz tmp/weblodge-0.1.2.tar.gz --markdown 20230709/w/weblodge/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 00:51:17] INFO root fetch - processPackages [yaccounts]: Downloading https://files.pythonhosted.org/packages/fa/97/8366fbee2b70fdb91d429485a83cd18ec95d8f430f8b6ced7fad7db0fb65/yaccounts-1.1.0.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [metabolabpytools]: Downloading https://files.pythonhosted.org/packages/b5/df/a77721317477d998a51ef7c2fc0724981cd522c0320c804a96ea4217dac1/metabolabpytools-0.8.21.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/ec/a4/83b162591fc16fdab69329864089f5f059240939c642e6c4b49e00bf8670/qtmetabolabpy-0.8.9.tar.gz
+[2023-07-09 00:51:17] INFO root fetch - processPackages [yaccounts]: executing diffoscope
+[2023-07-09 00:51:17] INFO root fetch - processPackages [yaccounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaccounts-1.0.0.tar.gz tmp/yaccounts-1.1.0.tar.gz --markdown 20230709/y/yaccounts/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 00:51:18] INFO root fetch - processPackages [metabolabpytools]: executing diffoscope
+[2023-07-09 00:51:18] INFO root fetch - processPackages [metabolabpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolabpytools-0.8.14.tar.gz tmp/metabolabpytools-0.8.21.tar.gz --markdown 20230709/m/metabolabpytools/0.8.14-0.8.21/diff.md --exclude *.pyd
+[2023-07-09 00:51:18] WARNING root fetch - processPackages [metabolabpy]: Skipping package: exceeds size limit 12237881>=10485760
+[2023-07-09 00:51:18] INFO root fetch - main [MainThread]: End processing [metabolabpy] error
+[2023-07-09 00:51:18] INFO root fetch - processPackages [qtmetabolabpy]: executing diffoscope
+[2023-07-09 00:51:18] INFO root fetch - processPackages [qtmetabolabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmetabolabpy-0.8.7.tar.gz tmp/qtmetabolabpy-0.8.9.tar.gz --markdown 20230709/q/qtmetabolabpy/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-07-09 00:51:18] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.1.0.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.1.2.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - main [MainThread]: End processing [weblodge]: success
+[2023-07-09 00:51:18] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.1.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.2.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-07-09 00:51:18] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.8.14.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - processPackages [metabolabpytools]: Remove: archive file [/home/abi/fetcher/tmp/metabolabpytools-0.8.21.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - main [MainThread]: End processing [metabolabpytools]: success
+[2023-07-09 00:51:18] INFO root fetch - processPackages [yaccounts]: Remove: archive file [/home/abi/fetcher/tmp/yaccounts-1.0.0.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - processPackages [yaccounts]: Remove: archive file [/home/abi/fetcher/tmp/yaccounts-1.1.0.tar.gz]
+[2023-07-09 00:51:18] INFO root fetch - main [MainThread]: End processing [yaccounts]: success
+[2023-07-09 00:51:19] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.8.7.tar.gz]
+[2023-07-09 00:51:19] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.8.9.tar.gz]
+[2023-07-09 00:51:19] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
+[2023-07-09 00:51:19] INFO root fetch - main [MainThread]: Store serial: [18816360]

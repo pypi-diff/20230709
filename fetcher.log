@@ -112,3 +112,87 @@
 [2023-07-09 00:19:02] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.2rc1.tar.gz]
 [2023-07-09 00:19:02] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
 [2023-07-09 00:19:02] INFO root fetch - main [MainThread]: Store serial: [18816230]
+[2023-07-09 00:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816230]
+[2023-07-09 00:24:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-enhanced-serializer
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpp-iplweb
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shallow
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FiveMCipherFinder
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botoplus
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webgui-jupyter-widgets
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntdsdotsqlite
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osmnx
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qvsed
+[2023-07-09 00:24:11] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [shallow]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [pydantic-enhanced-serializer]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [qvsed]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [bpp-iplweb]: New version: [202307.1105] Old Version: [202307.1104]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [botoplus]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ntdsdotsqlite]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [osmnx]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-09 00:24:11] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/a5/28/f9d1f76282a28b7426bb0b52d10f0b7fd7bbac3e99b842f23963bae76125/FiveMCipherFinder-2.0.0.tar.gz
+[2023-07-09 00:24:11] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/9c/8c/7b690a9415c594f2cb35f09c1f769fc5e0efcd829160447b10fb8876f830/qvsed-1.3.7.tar.gz
+[2023-07-09 00:24:11] INFO root fetch - processPackages [pydantic-enhanced-serializer]: Downloading https://files.pythonhosted.org/packages/01/72/7ae476ba409a05de5b28fb81af47237bce31ebd3f2df343ee53ec615e1bc/pydantic_enhanced_serializer-1.1.3-py3-none-any.whl
+[2023-07-09 00:24:11] INFO root fetch - processPackages [shallow]: Downloading https://files.pythonhosted.org/packages/16/84/fda2891a0437452a51ce7f3798714fac08a0e44c898f271804c7f54f252a/shallow-0.1.0.tar.gz
+[2023-07-09 00:24:11] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/50/1e/95ee9a6cc81dedd75b0ab0cabec9708b8665e6e4339930ec1ced9dd1a1b0/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl
+[2023-07-09 00:24:11] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/4f/af/5685ba01c68f0c987b7c6034b3a8663309f04e66a82861fae188d97502f7/bpp_iplweb-202307.1104-py3-none-any.whl
+[2023-07-09 00:24:11] INFO root fetch - processPackages [botoplus]: Downloading https://files.pythonhosted.org/packages/f0/ed/670d5f857796b730c0a8955a0ee41b09ee3211c80da2626230cd4e5378ea/botoplus-0.4.2.tar.gz
+[2023-07-09 00:24:11] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/8b/39/50e03baea67b9319bafa883820d872ad062140937bb5db61897910fe6ee5/osmnx-1.5.0.tar.gz
+[2023-07-09 00:24:11] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/09/e5/95748374aac61bb5acd926718db0a1e9dbf93c43e45bba6a7a5ba0a1d96f/ntdsdotsqlite-0.9.6.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/0f/ee/fd47f6fb0c15e43d6faebee52038a37b1d42887f82ce49257ab8b42c457f/FiveMCipherFinder-2.1.0.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/f1/ff/e1a5712171e0e632caaae8413bfed414c472bc7cc681c29a0ce079345b85/qvsed-1.3.8.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.7.tar.gz tmp/qvsed-1.3.8.tar.gz --markdown 20230709/q/qvsed/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-09 00:24:12] INFO root fetch - processPackages [shallow]: Downloading https://files.pythonhosted.org/packages/a1/22/fbef22a78803e43d86247914d3566b34407c7eec0bcd627e16ece114efcc/shallow-0.1.1.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-2.0.0.tar.gz tmp/FiveMCipherFinder-2.1.0.tar.gz --markdown 20230709/F/FiveMCipherFinder/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-09 00:24:12] INFO root fetch - processPackages [pydantic-enhanced-serializer]: Downloading https://files.pythonhosted.org/packages/97/f5/ccf24816db4267698d4130b1bf05e9fdea89b77a3239798a8d1b25acbaef/pydantic_enhanced_serializer-1.1.4-py3-none-any.whl
+[2023-07-09 00:24:12] INFO root fetch - processPackages [botoplus]: Downloading https://files.pythonhosted.org/packages/36/4e/13d9c1dabac26b6274d549e849be10d1853ca3a68bb3e8b62b546ca18df7/botoplus-0.5.0.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/1f/a3/289eb50ca9205a2055ce8bb305a6bf02a3874430768c2d1d15d0ef80d30f/ntdsdotsqlite-1.0.0.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/bb/7c/f88b815847f0194fd263a18f430f86b4a4f0324b7b63f68be83c0ac9708a/osmnx-1.5.1.tar.gz
+[2023-07-09 00:24:12] INFO root fetch - processPackages [shallow]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [shallow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shallow-0.1.0.tar.gz tmp/shallow-0.1.1.tar.gz --markdown 20230709/s/shallow/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 00:24:12] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/fc/d0/da80f94ec53ce62ad1628630b00e6735f285f65a586f0a53e570f18ed05d/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl
+[2023-07-09 00:24:12] INFO root fetch - processPackages [pydantic-enhanced-serializer]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [pydantic-enhanced-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_enhanced_serializer-1.1.3-py3-none-any.whl.zip tmp/pydantic_enhanced_serializer-1.1.4-py3-none-any.whl.zip --markdown 20230709/p/pydantic-enhanced-serializer/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-09 00:24:12] INFO root fetch - processPackages [botoplus]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [botoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botoplus-0.4.2.tar.gz tmp/botoplus-0.5.0.tar.gz --markdown 20230709/b/botoplus/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 00:24:12] INFO root fetch - processPackages [ntdsdotsqlite]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [ntdsdotsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntdsdotsqlite-0.9.6.tar.gz tmp/ntdsdotsqlite-1.0.0.tar.gz --markdown 20230709/n/ntdsdotsqlite/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 00:24:12] INFO root fetch - processPackages [osmnx]: executing diffoscope
+[2023-07-09 00:24:12] INFO root fetch - processPackages [osmnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmnx-1.5.0.tar.gz tmp/osmnx-1.5.1.tar.gz --markdown 20230709/o/osmnx/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-09 00:24:13] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-07-09 00:24:13] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230709/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 00:24:13] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.0.0.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.1.0.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-07-09 00:24:13] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.7.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.8.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-09 00:24:13] INFO root fetch - processPackages [pydantic-enhanced-serializer]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_enhanced_serializer-1.1.3-py3-none-any.whl.zip]
+[2023-07-09 00:24:13] INFO root fetch - processPackages [pydantic-enhanced-serializer]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_enhanced_serializer-1.1.4-py3-none-any.whl.zip]
+[2023-07-09 00:24:13] INFO root fetch - main [MainThread]: End processing [pydantic-enhanced-serializer]: success
+[2023-07-09 00:24:13] INFO root fetch - processPackages [botoplus]: Remove: archive file [/home/abi/fetcher/tmp/botoplus-0.4.2.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - processPackages [botoplus]: Remove: archive file [/home/abi/fetcher/tmp/botoplus-0.5.0.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - main [MainThread]: End processing [botoplus]: success
+[2023-07-09 00:24:13] INFO root fetch - processPackages [shallow]: Remove: archive file [/home/abi/fetcher/tmp/shallow-0.1.0.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - processPackages [shallow]: Remove: archive file [/home/abi/fetcher/tmp/shallow-0.1.1.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - main [MainThread]: End processing [shallow]: success
+[2023-07-09 00:24:13] INFO root fetch - processPackages [ntdsdotsqlite]: Remove: archive file [/home/abi/fetcher/tmp/ntdsdotsqlite-0.9.6.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - processPackages [ntdsdotsqlite]: Remove: archive file [/home/abi/fetcher/tmp/ntdsdotsqlite-1.0.0.tar.gz]
+[2023-07-09 00:24:13] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite]: success
+[2023-07-09 00:24:14] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.5.0.tar.gz]
+[2023-07-09 00:24:14] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.5.1.tar.gz]
+[2023-07-09 00:24:14] INFO root fetch - main [MainThread]: End processing [osmnx]: success
+[2023-07-09 00:24:14] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/80/d7/7a9fbdd03666f008f7d6133d32b2573099b35e2d20ad982fc552667d531f/bpp_iplweb-202307.1105-py3-none-any.whl
+[2023-07-09 00:24:15] INFO root fetch - processPackages [bpp-iplweb]: executing diffoscope
+[2023-07-09 00:24:15] INFO root fetch - processPackages [bpp-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp_iplweb-202307.1104-py3-none-any.whl.zip tmp/bpp_iplweb-202307.1105-py3-none-any.whl.zip --markdown 20230709/b/bpp-iplweb/202307.1104-202307.1105/diff.md --exclude *.pyd
+[2023-07-09 00:24:33] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1104-py3-none-any.whl.zip]
+[2023-07-09 00:24:33] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1105-py3-none-any.whl.zip]
+[2023-07-09 00:24:33] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
+[2023-07-09 00:25:11] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip]
+[2023-07-09 00:25:11] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip]
+[2023-07-09 00:25:11] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-07-09 00:25:11] INFO root fetch - main [MainThread]: Store serial: [18816258]

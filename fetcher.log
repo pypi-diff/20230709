@@ -321,3 +321,33 @@
 [2023-07-09 00:40:57] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.0.tar.gz]
 [2023-07-09 00:40:57] INFO root fetch - main [MainThread]: End processing [mercoa]: success
 [2023-07-09 00:40:57] INFO root fetch - main [MainThread]: Store serial: [18816317]
+[2023-07-09 00:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816317]
+[2023-07-09 00:46:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 00:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytaa
+[2023-07-09 00:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-ai-cli
+[2023-07-09 00:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwax
+[2023-07-09 00:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EmailXtract
+[2023-07-09 00:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assistant-improve-toolkit
+[2023-07-09 00:46:06] WARNING root fetch - processPackages [gwax]: Skipping, unable to determine old version
+[2023-07-09 00:46:06] INFO root fetch - main [MainThread]: End processing [gwax] error
+[2023-07-09 00:46:06] INFO root fetch - processPackages [pytaa]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-09 00:46:06] WARNING root fetch - processPackages [spark-ai-cli]: Skipping, unable to determine old version
+[2023-07-09 00:46:06] INFO root fetch - main [MainThread]: End processing [spark-ai-cli] error
+[2023-07-09 00:46:06] INFO root fetch - processPackages [assistant-improve-toolkit]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-09 00:46:06] WARNING root fetch - processPackages [EmailXtract]: Skipping, unable to determine old version
+[2023-07-09 00:46:06] INFO root fetch - main [MainThread]: End processing [EmailXtract] error
+[2023-07-09 00:46:06] INFO root fetch - processPackages [pytaa]: Downloading https://files.pythonhosted.org/packages/ec/1e/7bdaae9c2510dd681894e1bab7bc5775c1524346e66fbedf1b60eaeacdd3/pytaa-0.1.0.tar.gz
+[2023-07-09 00:46:06] INFO root fetch - processPackages [assistant-improve-toolkit]: Downloading https://files.pythonhosted.org/packages/7c/30/5f2a4b3934ebd29d624bbd40fccb613b97a8875e142abd08cc2a1fa76d51/assistant_improve_toolkit-1.4.0.tar.gz
+[2023-07-09 00:46:07] INFO root fetch - processPackages [pytaa]: Downloading https://files.pythonhosted.org/packages/63/8a/1319e68f72951c0f40959b5d04d13c808c6dfdc54f19eadcc1076e3daf8e/pytaa-0.2.0-py3-none-any.whl
+[2023-07-09 00:46:07] INFO root fetch - processPackages [pytaa]: executing diffoscope
+[2023-07-09 00:46:07] INFO root fetch - processPackages [pytaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytaa-0.1.0.tar.gz tmp/pytaa-0.2.0-py3-none-any.whl.zip --markdown 20230709/p/pytaa/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 00:46:07] INFO root fetch - processPackages [assistant-improve-toolkit]: Downloading https://files.pythonhosted.org/packages/d5/20/5d1a26195ec2e891f150c9095fcef54e18472f56130e2f898b687643efcc/assistant_improve_toolkit-1.4.1.tar.gz
+[2023-07-09 00:46:07] INFO root fetch - processPackages [assistant-improve-toolkit]: executing diffoscope
+[2023-07-09 00:46:07] INFO root fetch - processPackages [assistant-improve-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistant_improve_toolkit-1.4.0.tar.gz tmp/assistant_improve_toolkit-1.4.1.tar.gz --markdown 20230709/a/assistant-improve-toolkit/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-09 00:46:07] INFO root fetch - processPackages [pytaa]: Remove: archive file [/home/abi/fetcher/tmp/pytaa-0.1.0.tar.gz]
+[2023-07-09 00:46:07] INFO root fetch - processPackages [pytaa]: Remove: archive file [/home/abi/fetcher/tmp/pytaa-0.2.0-py3-none-any.whl.zip]
+[2023-07-09 00:46:07] INFO root fetch - main [MainThread]: End processing [pytaa]: success
+[2023-07-09 00:46:08] INFO root fetch - processPackages [assistant-improve-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/assistant_improve_toolkit-1.4.0.tar.gz]
+[2023-07-09 00:46:08] INFO root fetch - processPackages [assistant-improve-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/assistant_improve_toolkit-1.4.1.tar.gz]
+[2023-07-09 00:46:08] INFO root fetch - main [MainThread]: End processing [assistant-improve-toolkit]: success
+[2023-07-09 00:46:08] INFO root fetch - main [MainThread]: Store serial: [18816338]

@@ -725,3 +725,50 @@
 [2023-07-09 01:43:05] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
 [2023-07-09 01:43:05] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-07-09 01:43:05] INFO root fetch - main [MainThread]: Store serial: [18816578]
+[2023-07-09 01:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816578]
+[2023-07-09 01:48:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GoldyBot
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolibri-ml
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nir
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngsolve
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Rucopm-Conventer-Nopent
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buildlackey
+[2023-07-09 01:48:14] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.76]
+[2023-07-09 01:48:14] INFO root fetch - processPackages [GoldyBot]: New version: [5.0.dev5] Old Version: [4.0.dev9]
+[2023-07-09 01:48:14] INFO root fetch - processPackages [nir]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 01:48:14] WARNING root fetch - processPackages [Rucopm-Conventer-Nopent]: Skipping, unable to determine old version
+[2023-07-09 01:48:14] INFO root fetch - main [MainThread]: End processing [Rucopm-Conventer-Nopent] error
+[2023-07-09 01:48:14] INFO root fetch - processPackages [buildlackey]: New version: [1.0.0] Old Version: [0.8.1]
+[2023-07-09 01:48:14] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2303.post8.dev0] Old Version: [6.2.2303.post74.dev0]
+[2023-07-09 01:48:15] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/e8/20/07a6e13d2f3d5bebc6b2f40e83b87398f8c23d321eb339233a5111b4cfa5/kolibri_ml-1.1.76-py3-none-any.whl
+[2023-07-09 01:48:15] INFO root fetch - processPackages [GoldyBot]: Downloading https://files.pythonhosted.org/packages/2f/5b/9f0b94604d908439a2e72ce98551ecba298e3dfb87ac7736e9c5067313b2/GoldyBot-4.0.dev9.tar.gz
+[2023-07-09 01:48:15] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/56/2b/19a1c97f35dc4a17c3e3cd31deb81f6a7c299d8eb4023fc5847c3bdc31fe/nir-0.0.3.tar.gz
+[2023-07-09 01:48:15] INFO root fetch - processPackages [buildlackey]: Downloading https://files.pythonhosted.org/packages/32/5d/4026ceb9eebb5e911e6a167aba68e79767b8ee5725c06ee2e71194ad33b1/buildlackey-0.8.1.tar.gz
+[2023-07-09 01:48:15] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/65/00/35ba2aefbb80c53ad3f6d08932425b9e2b575ad781e2e0b35f9ef51ea19c/ngsolve-6.2.2303.post74.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 01:48:15] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 23195592>=10485760
+[2023-07-09 01:48:15] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-07-09 01:48:15] INFO root fetch - processPackages [GoldyBot]: Downloading https://files.pythonhosted.org/packages/06/b9/8ce0bc802e4ebec775270cfa40060d7b4ce9da910ef2e94cc9940f70732d/GoldyBot-5.0.dev5.tar.gz
+[2023-07-09 01:48:15] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/50/67/04bb62efff9ebcdc3b128077121a02d68c9fcf50ec1c78a07378e48f328e/nir-0.0.4.tar.gz
+[2023-07-09 01:48:15] INFO root fetch - processPackages [buildlackey]: Downloading https://files.pythonhosted.org/packages/ae/42/9012311ef6f19beda5624c70a76f8a071bc8544acbb43f7702785fe65168/buildlackey-1.0.0.tar.gz
+[2023-07-09 01:48:15] INFO root fetch - processPackages [nir]: executing diffoscope
+[2023-07-09 01:48:15] INFO root fetch - processPackages [nir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nir-0.0.3.tar.gz tmp/nir-0.0.4.tar.gz --markdown 20230709/n/nir/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 01:48:15] INFO root fetch - processPackages [buildlackey]: executing diffoscope
+[2023-07-09 01:48:15] INFO root fetch - processPackages [buildlackey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildlackey-0.8.1.tar.gz tmp/buildlackey-1.0.0.tar.gz --markdown 20230709/b/buildlackey/0.8.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 01:48:15] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-07-09 01:48:15] INFO root fetch - processPackages [GoldyBot]: executing diffoscope
+[2023-07-09 01:48:15] INFO root fetch - processPackages [GoldyBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoldyBot-4.0.dev9.tar.gz tmp/GoldyBot-5.0.dev5.tar.gz --markdown 20230709/G/GoldyBot/4.0.dev9-5.0.dev5/diff.md --exclude *.pyd
+[2023-07-09 01:48:16] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-07-09 01:48:16] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.76-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230709/k/kolibri-ml/1.1.76-1.1.8/diff.md --exclude *.pyd
+[2023-07-09 01:48:16] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.3.tar.gz]
+[2023-07-09 01:48:16] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.4.tar.gz]
+[2023-07-09 01:48:16] INFO root fetch - main [MainThread]: End processing [nir]: success
+[2023-07-09 01:48:16] INFO root fetch - processPackages [GoldyBot]: Remove: archive file [/home/abi/fetcher/tmp/GoldyBot-4.0.dev9.tar.gz]
+[2023-07-09 01:48:16] INFO root fetch - processPackages [GoldyBot]: Remove: archive file [/home/abi/fetcher/tmp/GoldyBot-5.0.dev5.tar.gz]
+[2023-07-09 01:48:16] INFO root fetch - main [MainThread]: End processing [GoldyBot]: success
+[2023-07-09 01:48:16] INFO root fetch - processPackages [buildlackey]: Remove: archive file [/home/abi/fetcher/tmp/buildlackey-0.8.1.tar.gz]
+[2023-07-09 01:48:16] INFO root fetch - processPackages [buildlackey]: Remove: archive file [/home/abi/fetcher/tmp/buildlackey-1.0.0.tar.gz]
+[2023-07-09 01:48:16] INFO root fetch - main [MainThread]: End processing [buildlackey]: success
+[2023-07-09 01:48:19] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.76-py3-none-any.whl.zip]
+[2023-07-09 01:48:19] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-07-09 01:48:19] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-07-09 01:48:19] INFO root fetch - main [MainThread]: Store serial: [18816600]

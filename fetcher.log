@@ -407,3 +407,68 @@
 [2023-07-09 00:51:19] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.8.9.tar.gz]
 [2023-07-09 00:51:19] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
 [2023-07-09 00:51:19] INFO root fetch - main [MainThread]: Store serial: [18816360]
+[2023-07-09 00:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816360]
+[2023-07-09 00:56:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-rmt
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotraders
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: service-markets
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwforecast
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hs-api
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sou-meraki
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netgen-mesher
+[2023-07-09 00:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: klu
+[2023-07-09 00:56:28] INFO root fetch - processPackages [pwforecast]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 00:56:28] INFO root fetch - processPackages [service-markets]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-09 00:56:28] INFO root fetch - processPackages [hs-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-09 00:56:28] INFO root fetch - processPackages [scikit-rmt]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-09 00:56:28] INFO root fetch - processPackages [autotraders]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-09 00:56:28] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2303.post8.dev0] Old Version: [6.2.2303.post4.dev0]
+[2023-07-09 00:56:28] WARNING root fetch - processPackages [sou-meraki]: Skipping, unable to determine old version
+[2023-07-09 00:56:28] INFO root fetch - main [MainThread]: End processing [sou-meraki] error
+[2023-07-09 00:56:28] INFO root fetch - processPackages [klu]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 00:56:28] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/47/4c/7f0bc26b69ddfaf026d6d6a4b0e79cc9f97fa5cf3b65309f6b3cac58ed62/pwforecast-1.0.0.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/f4/bc/cd3eb5b2d17831ee3c24a87bc18dbf1fde25349b9fe6765c1bc23797b9d9/scikit-rmt-0.6.1.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/e7/d5/9774eca26ef6f232f66bb38cc6361db3a0523752fcc78adf9df7ccecb300/service_markets-0.3.0.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/e2/df/0849aac975dff09ded2f0b314cde7cce74f2ba877b01f20559f87bf34f64/hs_api-0.1.6.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/a6/a1/d1e3eba2c5a31a346132d937a98078c594b24ca172f7a7176119246feb48/autotraders-1.6.3.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/cf/ea/b8cafa226928260848daa70baec62f2f2d739569ba82000f14a74b3192b9/netgen_mesher-6.2.2303.post4.dev0-cp39-cp39-win_amd64.whl
+[2023-07-09 00:56:28] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/b6/ab/5fa06842ab04ae5d14cfef3697143d847a4fa4ba79b850a0e2eb51e067f4/klu-0.1.7.tar.gz
+[2023-07-09 00:56:28] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20018734>=10485760
+[2023-07-09 00:56:28] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-07-09 00:56:28] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/75/2f/d47b202e7ece22e73845f9c42c1b1a17bde4ffbe2b3bf57dcdfe08d441d6/service_markets-0.3.1.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/91/0c/7e7961f1cf93149bae43ca288e3c5ad72d2c51353b3889a8b87900a4d11f/scikit-rmt-0.7.0.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/df/c2/06453940a89afaf6be36568a383cf84c6404f341a5fd3b70f6d5ee043c7b/pwforecast-1.0.1.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/fe/c0/5157c60d971ee16b3f7adf4c6974c5dae4520248eeb03b9e526720aa4d24/hs_api-0.1.7.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/e5/52/f4146acb6f29fcfd17261e0877af10ccba66d32512fa9bf09018e0df1436/autotraders-1.6.4.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/b1/c9/2a9f4e78c580680c6a16d7ae54190d553fdb30b0f46c56ca7d168d55eb41/klu-0.1.8.tar.gz
+[2023-07-09 00:56:28] INFO root fetch - processPackages [scikit-rmt]: executing diffoscope
+[2023-07-09 00:56:28] INFO root fetch - processPackages [scikit-rmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rmt-0.6.1.tar.gz tmp/scikit-rmt-0.7.0.tar.gz --markdown 20230709/s/scikit-rmt/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-09 00:56:28] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 00:56:28] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.0.tar.gz tmp/service_markets-0.3.1.tar.gz --markdown 20230709/s/service-markets/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-09 00:56:28] INFO root fetch - processPackages [pwforecast]: executing diffoscope
+[2023-07-09 00:56:28] INFO root fetch - processPackages [pwforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwforecast-1.0.0.tar.gz tmp/pwforecast-1.0.1.tar.gz --markdown 20230709/p/pwforecast/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 00:56:28] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-07-09 00:56:28] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.6.3.tar.gz tmp/autotraders-1.6.4.tar.gz --markdown 20230709/a/autotraders/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-09 00:56:28] INFO root fetch - processPackages [hs-api]: executing diffoscope
+[2023-07-09 00:56:28] INFO root fetch - processPackages [hs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_api-0.1.6.tar.gz tmp/hs_api-0.1.7.tar.gz --markdown 20230709/h/hs-api/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-09 00:56:29] INFO root fetch - processPackages [klu]: executing diffoscope
+[2023-07-09 00:56:29] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.7.tar.gz tmp/klu-0.1.8.tar.gz --markdown 20230709/k/klu/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 00:56:30] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.0.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.1.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 00:56:30] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.0.0.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.0.1.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: End processing [pwforecast]: success
+[2023-07-09 00:56:30] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.6.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.7.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: End processing [hs-api]: success
+[2023-07-09 00:56:30] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.3.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.4.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-07-09 00:56:30] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.7.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.8.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2023-07-09 00:56:30] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.6.1.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.7.0.tar.gz]
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: End processing [scikit-rmt]: success
+[2023-07-09 00:56:30] INFO root fetch - main [MainThread]: Store serial: [18816385]

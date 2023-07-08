@@ -535,3 +535,33 @@
 [2023-07-09 01:06:51] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
 [2023-07-09 01:06:51] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
 [2023-07-09 01:06:51] INFO root fetch - main [MainThread]: Store serial: [18816413]
+[2023-07-09 01:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816413]
+[2023-07-09 01:12:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 01:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-09 01:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezsession
+[2023-07-09 01:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typefit
+[2023-07-09 01:12:00] INFO root fetch - processPackages [typefit]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-09 01:12:00] INFO root fetch - processPackages [typefit]: Downloading https://files.pythonhosted.org/packages/07/24/e0c628cf974acd2c07a823bf1bf280d47a673cb8a0a5eb9f038243ccc479/typefit-0.5.1.tar.gz
+[2023-07-09 01:12:00] INFO root fetch - processPackages [ezsession]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 01:12:00] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 01:12:00] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 01:12:00] INFO root fetch - processPackages [ezsession]: Downloading https://files.pythonhosted.org/packages/f1/0c/75af02f3e3bc9e080bc9d28cf027c07c66dc01004f4199b508a9b2410259/ezsession-0.0.7.tar.gz
+[2023-07-09 01:12:00] INFO root fetch - processPackages [typefit]: Downloading https://files.pythonhosted.org/packages/a9/d4/0fc9ae171cf788bf3d354e8e68519e93b68d0d8528bd582b99a301d932db/typefit-0.5.2.tar.gz
+[2023-07-09 01:12:00] INFO root fetch - processPackages [typefit]: executing diffoscope
+[2023-07-09 01:12:00] INFO root fetch - processPackages [typefit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typefit-0.5.1.tar.gz tmp/typefit-0.5.2.tar.gz --markdown 20230709/t/typefit/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-09 01:12:00] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 01:12:01] INFO root fetch - processPackages [ezsession]: Downloading https://files.pythonhosted.org/packages/c2/1e/2d76954fb5d245a4714abb7b621b2fca8d27644e513df7693bd166aea97b/ezsession-0.0.8.tar.gz
+[2023-07-09 01:12:01] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 01:12:01] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 01:12:01] INFO root fetch - processPackages [ezsession]: executing diffoscope
+[2023-07-09 01:12:01] INFO root fetch - processPackages [ezsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezsession-0.0.7.tar.gz tmp/ezsession-0.0.8.tar.gz --markdown 20230709/e/ezsession/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 01:12:01] INFO root fetch - processPackages [typefit]: Remove: archive file [/home/abi/fetcher/tmp/typefit-0.5.1.tar.gz]
+[2023-07-09 01:12:01] INFO root fetch - processPackages [typefit]: Remove: archive file [/home/abi/fetcher/tmp/typefit-0.5.2.tar.gz]
+[2023-07-09 01:12:01] INFO root fetch - main [MainThread]: End processing [typefit]: success
+[2023-07-09 01:12:01] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 01:12:01] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 01:12:01] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 01:12:01] INFO root fetch - processPackages [ezsession]: Remove: archive file [/home/abi/fetcher/tmp/ezsession-0.0.7.tar.gz]
+[2023-07-09 01:12:01] INFO root fetch - processPackages [ezsession]: Remove: archive file [/home/abi/fetcher/tmp/ezsession-0.0.8.tar.gz]
+[2023-07-09 01:12:01] INFO root fetch - main [MainThread]: End processing [ezsession]: success
+[2023-07-09 01:12:01] INFO root fetch - main [MainThread]: Store serial: [18816423]

@@ -73,3 +73,42 @@
 [2023-07-09 00:13:51] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-09 00:13:51] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-09 00:13:51] INFO root fetch - main [MainThread]: Store serial: [18816218]
+[2023-07-09 00:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816218]
+[2023-07-09 00:19:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Subsearch
+[2023-07-09 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-09 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hs-api
+[2023-07-09 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threads-py
+[2023-07-09 00:19:00] INFO root fetch - processPackages [hs-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-09 00:19:00] INFO root fetch - processPackages [Subsearch]: New version: [2.36.2rc1] Old Version: [2.36.1]
+[2023-07-09 00:19:00] INFO root fetch - processPackages [threads-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 00:19:00] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 00:19:01] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/13/7a/07879e42bdd5549ec983e3df6a1e7ef6b175e1a07c6edeb90ceec207dec9/hs_api-0.1.3.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/1e/da/a860b7c940c3ccdde391279b265f6ac3dfe389d41b813cfdf515794d1f5a/threads-py-0.0.2.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/08/10/2f66b6a8fbd720f14b492410a7d85c76a28a40d74c5559983e91d2c53f1d/Subsearch-2.36.1.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/86/31/5d6385fcedbac57c52f403209932708a8d983b3282306a0b86f476e397b4/hs_api-0.1.4.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/8b/4c/569715b197f896da8d95a659259278fc2ee77b04ba4db9645ce444f611fa/Subsearch-2.36.2rc1.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/24/71/02f93fefec68d6d2c96eb37dd57d7e3695070c58e3682eb7f205d5262ada/threads-py-0.0.3.tar.gz
+[2023-07-09 00:19:01] INFO root fetch - processPackages [hs-api]: executing diffoscope
+[2023-07-09 00:19:01] INFO root fetch - processPackages [hs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_api-0.1.3.tar.gz tmp/hs_api-0.1.4.tar.gz --markdown 20230709/h/hs-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 00:19:01] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 00:19:01] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 00:19:01] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-07-09 00:19:01] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.36.1.tar.gz tmp/Subsearch-2.36.2rc1.tar.gz --markdown 20230709/S/Subsearch/2.36.1-2.36.2rc1/diff.md --exclude *.pyd
+[2023-07-09 00:19:01] INFO root fetch - processPackages [threads-py]: executing diffoscope
+[2023-07-09 00:19:01] INFO root fetch - processPackages [threads-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-py-0.0.2.tar.gz tmp/threads-py-0.0.3.tar.gz --markdown 20230709/t/threads-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 00:19:02] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.3.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.4.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - main [MainThread]: End processing [hs-api]: success
+[2023-07-09 00:19:02] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.2.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.3.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - main [MainThread]: End processing [threads-py]: success
+[2023-07-09 00:19:02] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 00:19:02] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.1.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.2rc1.tar.gz]
+[2023-07-09 00:19:02] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-07-09 00:19:02] INFO root fetch - main [MainThread]: Store serial: [18816230]

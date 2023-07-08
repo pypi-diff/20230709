@@ -672,3 +672,24 @@
 [2023-07-09 01:27:33] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-09 01:27:33] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-09 01:27:33] INFO root fetch - main [MainThread]: Store serial: [18816560]
+[2023-07-09 01:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816560]
+[2023-07-09 01:32:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 01:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serial-packets
+[2023-07-09 01:32:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sommelier
+[2023-07-09 01:32:43] INFO root fetch - processPackages [sommelier]: New version: [1.2.28] Old Version: [1.2.27]
+[2023-07-09 01:32:43] INFO root fetch - processPackages [serial-packets]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-09 01:32:43] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/e2/82/8ab45a3656e1a3da4d4a4bf3a71f8bdc1993b0b0b76bfa10c88ed55eaa6a/serial_packets-0.1.9.tar.gz
+[2023-07-09 01:32:43] INFO root fetch - processPackages [sommelier]: Downloading https://files.pythonhosted.org/packages/bf/b8/b580ae55dd66c2894dcb4e4dd690bb9de1b0a41b09127f734b009a3854c6/sommelier-1.2.27-py3-none-any.whl
+[2023-07-09 01:32:43] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/4b/44/383341a6ba825e6238c49ec5f19e5f42a24d14700ae939da1642f0b36629/serial_packets-0.2.0.tar.gz
+[2023-07-09 01:32:43] INFO root fetch - processPackages [sommelier]: Downloading https://files.pythonhosted.org/packages/1c/58/2d7d680207620b483eb5cfa3d9ebbc3978ae10b8f0baaea31c0ebd21bff1/sommelier-1.2.28-py3-none-any.whl
+[2023-07-09 01:32:44] INFO root fetch - processPackages [serial-packets]: executing diffoscope
+[2023-07-09 01:32:44] INFO root fetch - processPackages [serial-packets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serial_packets-0.1.9.tar.gz tmp/serial_packets-0.2.0.tar.gz --markdown 20230709/s/serial-packets/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 01:32:44] INFO root fetch - processPackages [sommelier]: executing diffoscope
+[2023-07-09 01:32:44] INFO root fetch - processPackages [sommelier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommelier-1.2.27-py3-none-any.whl.zip tmp/sommelier-1.2.28-py3-none-any.whl.zip --markdown 20230709/s/sommelier/1.2.27-1.2.28/diff.md --exclude *.pyd
+[2023-07-09 01:32:44] INFO root fetch - processPackages [serial-packets]: Remove: archive file [/home/abi/fetcher/tmp/serial_packets-0.1.9.tar.gz]
+[2023-07-09 01:32:44] INFO root fetch - processPackages [serial-packets]: Remove: archive file [/home/abi/fetcher/tmp/serial_packets-0.2.0.tar.gz]
+[2023-07-09 01:32:44] INFO root fetch - main [MainThread]: End processing [serial-packets]: success
+[2023-07-09 01:32:44] INFO root fetch - processPackages [sommelier]: Remove: archive file [/home/abi/fetcher/tmp/sommelier-1.2.27-py3-none-any.whl.zip]
+[2023-07-09 01:32:44] INFO root fetch - processPackages [sommelier]: Remove: archive file [/home/abi/fetcher/tmp/sommelier-1.2.28-py3-none-any.whl.zip]
+[2023-07-09 01:32:44] INFO root fetch - main [MainThread]: End processing [sommelier]: success
+[2023-07-09 01:32:44] INFO root fetch - main [MainThread]: Store serial: [18816565]

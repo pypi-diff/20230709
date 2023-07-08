@@ -240,3 +240,51 @@
 [2023-07-09 00:30:26] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230708202726.tar.gz]
 [2023-07-09 00:30:26] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-09 00:30:26] INFO root fetch - main [MainThread]: Store serial: [18816284]
+[2023-07-09 00:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816284]
+[2023-07-09 00:35:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotraders
+[2023-07-09 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffusechain
+[2023-07-09 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-07-09 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fediblockhole
+[2023-07-09 00:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hs-api
+[2023-07-09 00:35:43] INFO root fetch - processPackages [hs-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 00:35:43] INFO root fetch - processPackages [diffusechain]: New version: [0.1.3] Old Version: [0.1.1.1]
+[2023-07-09 00:35:43] INFO root fetch - processPackages [fediblockhole]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-09 00:35:43] INFO root fetch - processPackages [autotraders]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-09 00:35:43] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 00:35:43] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [diffusechain]: Downloading https://files.pythonhosted.org/packages/df/58/98435dc6bc699f0af1cabbb4c93afdc2473e33875bfeca92ba2b11ed8a21/diffusechain-0.1.1.1.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/86/31/5d6385fcedbac57c52f403209932708a8d983b3282306a0b86f476e397b4/hs_api-0.1.4.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/fa/ff/a8723fb335c80330c505642927e4a61c306235ed61caa8130fb1cf1b1353/autotraders-1.6.1.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [fediblockhole]: Downloading https://files.pythonhosted.org/packages/0f/7f/c711059000a4b0f45189cc8e5e36db9915d2c98a0dd744e166c3fa823479/fediblockhole-0.4.3.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [diffusechain]: Downloading https://files.pythonhosted.org/packages/87/16/84cdf40a1c13091b12ea6a835b945c635295cfa3b5a31f1728d45a728985/diffusechain-0.1.3.tar.gz
+[2023-07-09 00:35:43] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 00:35:43] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 00:35:43] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/c9/d8/ac8ea5c13b3e1feb254e2642e32ff3fc187a8fdaf4873cc21a73ac682d41/hs_api-0.1.5.tar.gz
+[2023-07-09 00:35:44] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/52/32/9ee7ef129e923a69b6efc814c0fbcc50fde4b3c7b18988d9791d074edc99/autotraders-1.6.2.tar.gz
+[2023-07-09 00:35:44] INFO root fetch - processPackages [fediblockhole]: Downloading https://files.pythonhosted.org/packages/53/69/8e192c9cac517001781a2d45abdbf8b79c4c3a2a4528d38db5f38575a29f/fediblockhole-0.4.4.tar.gz
+[2023-07-09 00:35:44] INFO root fetch - processPackages [hs-api]: executing diffoscope
+[2023-07-09 00:35:44] INFO root fetch - processPackages [hs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_api-0.1.4.tar.gz tmp/hs_api-0.1.5.tar.gz --markdown 20230709/h/hs-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 00:35:44] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-07-09 00:35:44] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.6.1.tar.gz tmp/autotraders-1.6.2.tar.gz --markdown 20230709/a/autotraders/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-09 00:35:44] INFO root fetch - processPackages [diffusechain]: executing diffoscope
+[2023-07-09 00:35:44] INFO root fetch - processPackages [diffusechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusechain-0.1.1.1.tar.gz tmp/diffusechain-0.1.3.tar.gz --markdown 20230709/d/diffusechain/0.1.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 00:35:44] INFO root fetch - processPackages [fediblockhole]: executing diffoscope
+[2023-07-09 00:35:44] INFO root fetch - processPackages [fediblockhole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fediblockhole-0.4.3.tar.gz tmp/fediblockhole-0.4.4.tar.gz --markdown 20230709/f/fediblockhole/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-09 00:35:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 00:35:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 00:35:44] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 00:35:45] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.4.tar.gz]
+[2023-07-09 00:35:45] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.5.tar.gz]
+[2023-07-09 00:35:45] INFO root fetch - main [MainThread]: End processing [hs-api]: success
+[2023-07-09 00:35:45] INFO root fetch - processPackages [diffusechain]: Remove: archive file [/home/abi/fetcher/tmp/diffusechain-0.1.1.1.tar.gz]
+[2023-07-09 00:35:45] INFO root fetch - processPackages [diffusechain]: Remove: archive file [/home/abi/fetcher/tmp/diffusechain-0.1.3.tar.gz]
+[2023-07-09 00:35:45] INFO root fetch - main [MainThread]: End processing [diffusechain]: success
+[2023-07-09 00:35:45] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.1.tar.gz]
+[2023-07-09 00:35:45] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.2.tar.gz]
+[2023-07-09 00:35:45] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-07-09 00:35:46] INFO root fetch - processPackages [fediblockhole]: Remove: archive file [/home/abi/fetcher/tmp/fediblockhole-0.4.3.tar.gz]
+[2023-07-09 00:35:46] INFO root fetch - processPackages [fediblockhole]: Remove: archive file [/home/abi/fetcher/tmp/fediblockhole-0.4.4.tar.gz]
+[2023-07-09 00:35:46] INFO root fetch - main [MainThread]: End processing [fediblockhole]: success
+[2023-07-09 00:35:46] INFO root fetch - main [MainThread]: Store serial: [18816304]

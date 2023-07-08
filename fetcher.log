@@ -288,3 +288,36 @@
 [2023-07-09 00:35:46] INFO root fetch - processPackages [fediblockhole]: Remove: archive file [/home/abi/fetcher/tmp/fediblockhole-0.4.4.tar.gz]
 [2023-07-09 00:35:46] INFO root fetch - main [MainThread]: End processing [fediblockhole]: success
 [2023-07-09 00:35:46] INFO root fetch - main [MainThread]: Store serial: [18816304]
+[2023-07-09 00:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816304]
+[2023-07-09 00:40:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 00:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlabci-local
+[2023-07-09 00:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aivp
+[2023-07-09 00:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Subsearch
+[2023-07-09 00:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercoa
+[2023-07-09 00:40:55] INFO root fetch - processPackages [gitlabci-local]: New version: [7.1.0] Old Version: [7.0.1]
+[2023-07-09 00:40:55] WARNING root fetch - processPackages [aivp]: Skipping, unable to determine old version
+[2023-07-09 00:40:55] INFO root fetch - main [MainThread]: End processing [aivp] error
+[2023-07-09 00:40:55] INFO root fetch - processPackages [Subsearch]: New version: [2.36.3] Old Version: [2.36.2rc1]
+[2023-07-09 00:40:55] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/26/42/73b813f8de48d9b13f06f289eca36ec9737688eb3ef6032cfeca59a9bb1b/gitlabci_local-7.0.1-py3-none-any.whl
+[2023-07-09 00:40:55] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/8b/4c/569715b197f896da8d95a659259278fc2ee77b04ba4db9645ce444f611fa/Subsearch-2.36.2rc1.tar.gz
+[2023-07-09 00:40:55] INFO root fetch - processPackages [mercoa]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 00:40:55] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/7d/3f/81a8144a6334708a13f880454bd27e5a4ceb24e8a98ef6b360cb3cfc30c7/mercoa-0.1.1.tar.gz
+[2023-07-09 00:40:56] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/c1/7d/d842db00d10c2a1aff9fb44ffe4499efdcb16d2f085d10df47dd3b7b6051/gitlabci_local-7.1.0-py3-none-any.whl
+[2023-07-09 00:40:56] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/b0/d2/565f55c4afa10f896fca3252c58c2e6b6e774e32df4131c413b33ced9ccd/Subsearch-2.36.3.tar.gz
+[2023-07-09 00:40:56] INFO root fetch - processPackages [gitlabci-local]: executing diffoscope
+[2023-07-09 00:40:56] INFO root fetch - processPackages [gitlabci-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabci_local-7.0.1-py3-none-any.whl.zip tmp/gitlabci_local-7.1.0-py3-none-any.whl.zip --markdown 20230709/g/gitlabci-local/7.0.1-7.1.0/diff.md --exclude *.pyd
+[2023-07-09 00:40:56] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-07-09 00:40:56] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.36.2rc1.tar.gz tmp/Subsearch-2.36.3.tar.gz --markdown 20230709/S/Subsearch/2.36.2rc1-2.36.3/diff.md --exclude *.pyd
+[2023-07-09 00:40:56] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/aa/2f/9a6aea04e4c2a339e6bf8dcc859dd86a83de929d6d237e47b6092f99dfc7/mercoa-0.2.0.tar.gz
+[2023-07-09 00:40:56] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-07-09 00:40:56] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.1.1.tar.gz tmp/mercoa-0.2.0.tar.gz --markdown 20230709/m/mercoa/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 00:40:57] INFO root fetch - processPackages [gitlabci-local]: Remove: archive file [/home/abi/fetcher/tmp/gitlabci_local-7.0.1-py3-none-any.whl.zip]
+[2023-07-09 00:40:57] INFO root fetch - processPackages [gitlabci-local]: Remove: archive file [/home/abi/fetcher/tmp/gitlabci_local-7.1.0-py3-none-any.whl.zip]
+[2023-07-09 00:40:57] INFO root fetch - main [MainThread]: End processing [gitlabci-local]: success
+[2023-07-09 00:40:57] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.2rc1.tar.gz]
+[2023-07-09 00:40:57] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.3.tar.gz]
+[2023-07-09 00:40:57] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-07-09 00:40:57] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.1.1.tar.gz]
+[2023-07-09 00:40:57] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.0.tar.gz]
+[2023-07-09 00:40:57] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-07-09 00:40:57] INFO root fetch - main [MainThread]: Store serial: [18816317]

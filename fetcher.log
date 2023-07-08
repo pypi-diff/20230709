@@ -565,3 +565,27 @@
 [2023-07-09 01:12:01] INFO root fetch - processPackages [ezsession]: Remove: archive file [/home/abi/fetcher/tmp/ezsession-0.0.8.tar.gz]
 [2023-07-09 01:12:01] INFO root fetch - main [MainThread]: End processing [ezsession]: success
 [2023-07-09 01:12:01] INFO root fetch - main [MainThread]: Store serial: [18816423]
+[2023-07-09 01:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816423]
+[2023-07-09 01:17:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 01:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ord-schema
+[2023-07-09 01:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nox-poetry
+[2023-07-09 01:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xml-to-acts
+[2023-07-09 01:17:10] WARNING root fetch - processPackages [xml-to-acts]: Skipping, unable to determine old version
+[2023-07-09 01:17:10] INFO root fetch - main [MainThread]: End processing [xml-to-acts] error
+[2023-07-09 01:17:10] INFO root fetch - processPackages [ord-schema]: New version: [0.3.59] Old Version: [0.3.58]
+[2023-07-09 01:17:10] INFO root fetch - processPackages [nox-poetry]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 01:17:10] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/af/9f/e61a28a11cb4abde8f49ae2b9cadbcd0c239dbd5dd1fadc2f61840e09ad3/ord-schema-0.3.58.tar.gz
+[2023-07-09 01:17:10] INFO root fetch - processPackages [nox-poetry]: Downloading https://files.pythonhosted.org/packages/37/e0/377414ccabb2e4ff8b7dbb46fcd4f1e3afcf885baf2833cc20322fc9a912/nox-poetry-1.0.2.tar.gz
+[2023-07-09 01:17:11] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/70/34/5cb397213ff7b58fb3feab639c068e86de6b1e7bb20cfea08ee8dcf9ccfe/ord-schema-0.3.59.tar.gz
+[2023-07-09 01:17:11] INFO root fetch - processPackages [nox-poetry]: Downloading https://files.pythonhosted.org/packages/e2/d6/5cb39904f944bdca94a28a6a8528f6eb7a8eb5b8ced768bb03e77c5fb4ed/nox_poetry-1.0.3.tar.gz
+[2023-07-09 01:17:11] INFO root fetch - processPackages [ord-schema]: executing diffoscope
+[2023-07-09 01:17:11] INFO root fetch - processPackages [ord-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ord-schema-0.3.58.tar.gz tmp/ord-schema-0.3.59.tar.gz --markdown 20230709/o/ord-schema/0.3.58-0.3.59/diff.md --exclude *.pyd
+[2023-07-09 01:17:11] INFO root fetch - processPackages [nox-poetry]: executing diffoscope
+[2023-07-09 01:17:11] INFO root fetch - processPackages [nox-poetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nox-poetry-1.0.2.tar.gz tmp/nox_poetry-1.0.3.tar.gz --markdown 20230709/n/nox-poetry/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 01:17:12] INFO root fetch - processPackages [nox-poetry]: Remove: archive file [/home/abi/fetcher/tmp/nox-poetry-1.0.2.tar.gz]
+[2023-07-09 01:17:12] INFO root fetch - processPackages [nox-poetry]: Remove: archive file [/home/abi/fetcher/tmp/nox_poetry-1.0.3.tar.gz]
+[2023-07-09 01:17:12] INFO root fetch - main [MainThread]: End processing [nox-poetry]: success
+[2023-07-09 01:17:12] INFO root fetch - processPackages [ord-schema]: Remove: archive file [/home/abi/fetcher/tmp/ord-schema-0.3.58.tar.gz]
+[2023-07-09 01:17:12] INFO root fetch - processPackages [ord-schema]: Remove: archive file [/home/abi/fetcher/tmp/ord-schema-0.3.59.tar.gz]
+[2023-07-09 01:17:12] INFO root fetch - main [MainThread]: End processing [ord-schema]: success
+[2023-07-09 01:17:12] INFO root fetch - main [MainThread]: Store serial: [18816433]

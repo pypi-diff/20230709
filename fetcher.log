@@ -47,3 +47,29 @@
 [2023-07-09 00:03:23] INFO root fetch - processPackages [torch-hd]: Remove: archive file [/home/abi/fetcher/tmp/torch-hd-5.2.1.tar.gz]
 [2023-07-09 00:03:23] INFO root fetch - main [MainThread]: End processing [torch-hd]: success
 [2023-07-09 00:03:23] INFO root fetch - main [MainThread]: Store serial: [18816203]
+[2023-07-09 00:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816203]
+[2023-07-09 00:08:31] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-09 00:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816205]
+[2023-07-09 00:13:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kdmt
+[2023-07-09 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-07-09 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizproxy
+[2023-07-09 00:13:37] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-09 00:13:37] WARNING root fetch - processPackages [wizproxy]: Skipping, unable to determine old version
+[2023-07-09 00:13:37] INFO root fetch - main [MainThread]: End processing [wizproxy] error
+[2023-07-09 00:13:37] INFO root fetch - processPackages [kdmt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 00:13:37] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-09 00:13:37] INFO root fetch - processPackages [kdmt]: Downloading https://files.pythonhosted.org/packages/61/0f/c7e2c86b4c85f43feb8d0beb5473f39abe0ee682dca99566ed76ebb6227f/kdmt-1.0.8-py2.py3-none-any.whl
+[2023-07-09 00:13:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-09 00:13:38] INFO root fetch - processPackages [kdmt]: Downloading https://files.pythonhosted.org/packages/83/e8/b42fe44f1b609f6c3f38794474e5b2a97e15bf99df7f927a831b4fb22198/kdmt-1.0.9-py2.py3-none-any.whl
+[2023-07-09 00:13:38] INFO root fetch - processPackages [kdmt]: executing diffoscope
+[2023-07-09 00:13:38] INFO root fetch - processPackages [kdmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdmt-1.0.8-py2.py3-none-any.whl.zip tmp/kdmt-1.0.9-py2.py3-none-any.whl.zip --markdown 20230709/k/kdmt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 00:13:38] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-09 00:13:38] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230709/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-09 00:13:39] INFO root fetch - processPackages [kdmt]: Remove: archive file [/home/abi/fetcher/tmp/kdmt-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-09 00:13:39] INFO root fetch - processPackages [kdmt]: Remove: archive file [/home/abi/fetcher/tmp/kdmt-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-09 00:13:39] INFO root fetch - main [MainThread]: End processing [kdmt]: success
+[2023-07-09 00:13:51] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-09 00:13:51] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-09 00:13:51] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-09 00:13:51] INFO root fetch - main [MainThread]: Store serial: [18816218]

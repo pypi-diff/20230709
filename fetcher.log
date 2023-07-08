@@ -772,3 +772,24 @@
 [2023-07-09 01:48:19] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
 [2023-07-09 01:48:19] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-07-09 01:48:19] INFO root fetch - main [MainThread]: Store serial: [18816600]
+[2023-07-09 01:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816600]
+[2023-07-09 01:53:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pacman-prompts
+[2023-07-09 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-07-09 01:53:28] INFO root fetch - processPackages [pacman-prompts]: New version: [1.4.2] Old Version: [1.3.2]
+[2023-07-09 01:53:28] INFO root fetch - processPackages [pacman-prompts]: Downloading https://files.pythonhosted.org/packages/ed/f0/479f33b3438f988c57768c0fecf895df78e4a59651a8efa5163b0a88546c/pacman-prompts-1.3.2.tar.gz
+[2023-07-09 01:53:28] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-09 01:53:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-09 01:53:28] INFO root fetch - processPackages [pacman-prompts]: Downloading https://files.pythonhosted.org/packages/71/86/eac6cc48a91dd3e1ae5f5832b516d89d5f865bfa5913eb930a87d4f0ea99/pacman-prompts-1.4.2.tar.gz
+[2023-07-09 01:53:28] INFO root fetch - processPackages [pacman-prompts]: executing diffoscope
+[2023-07-09 01:53:28] INFO root fetch - processPackages [pacman-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pacman-prompts-1.3.2.tar.gz tmp/pacman-prompts-1.4.2.tar.gz --markdown 20230709/p/pacman-prompts/1.3.2-1.4.2/diff.md --exclude *.pyd
+[2023-07-09 01:53:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-09 01:53:29] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-09 01:53:29] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230709/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-09 01:53:29] INFO root fetch - processPackages [pacman-prompts]: Remove: archive file [/home/abi/fetcher/tmp/pacman-prompts-1.3.2.tar.gz]
+[2023-07-09 01:53:29] INFO root fetch - processPackages [pacman-prompts]: Remove: archive file [/home/abi/fetcher/tmp/pacman-prompts-1.4.2.tar.gz]
+[2023-07-09 01:53:29] INFO root fetch - main [MainThread]: End processing [pacman-prompts]: success
+[2023-07-09 01:53:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-09 01:53:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-09 01:53:42] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-09 01:53:42] INFO root fetch - main [MainThread]: Store serial: [18816608]

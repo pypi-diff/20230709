@@ -1,0 +1,49 @@
+[2023-07-09 00:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816101]
+[2023-07-09 00:03:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 00:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scribelex
+[2023-07-09 00:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: regex-rs
+[2023-07-09 00:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-hd
+[2023-07-09 00:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yet-another-wizz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lrc-adjuster
+[2023-07-09 00:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scribelex
+[2023-07-09 00:03:21] INFO root fetch - processPackages [scribelex]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 00:03:21] INFO root fetch - processPackages [scribelex]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 00:03:21] INFO root fetch - processPackages [lrc-adjuster]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 00:03:21] WARNING root fetch - processPackages [yet-another-wizz]: Skipping, unable to determine old version
+[2023-07-09 00:03:21] INFO root fetch - main [MainThread]: End processing [yet-another-wizz] error
+[2023-07-09 00:03:21] INFO root fetch - processPackages [torch-hd]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-07-09 00:03:21] INFO root fetch - processPackages [regex-rs]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-09 00:03:21] INFO root fetch - processPackages [torch-hd]: Downloading https://files.pythonhosted.org/packages/0f/9d/9c3e624095db6fc17bc1101fbddcc3bc057ae7589f6d73873d3fd4095562/torch-hd-5.2.0.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [lrc-adjuster]: Downloading https://files.pythonhosted.org/packages/5e/e5/50f6dd3c6fb5483559c34b152f0b1191d800d0921b6016f7892ab856cc89/lrc_adjuster-0.1.1.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/86/fb/72f69c7d3674fb5221a51417b4a3c0d317828d34fca7f8bef1641bd8ca74/scribelex-1.0.2.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/86/fb/72f69c7d3674fb5221a51417b4a3c0d317828d34fca7f8bef1641bd8ca74/scribelex-1.0.2.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [regex-rs]: Downloading https://files.pythonhosted.org/packages/11/4d/b6ec09b74276a9cef85cf454de6476bf6960378b5d47dba3fb70d65ffd86/regex_rs-0.2.3.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [torch-hd]: Downloading https://files.pythonhosted.org/packages/c9/34/3a75f38611d2e78d856cd041f2a8251781a3a4e025f6a7f72bdcd512bd81/torch-hd-5.2.1.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [lrc-adjuster]: Downloading https://files.pythonhosted.org/packages/34/d2/11e8c2ef97145af31b9fa85606fb4f2f0ff49603365f53e4ac6e5d03fe85/lrc_adjuster-0.1.2.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/6d/70/198f8fa73a20675c205bce322a3be0b9b57dd9720c715ad7cd7d586999e5/scribelex-1.0.3.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/6d/70/198f8fa73a20675c205bce322a3be0b9b57dd9720c715ad7cd7d586999e5/scribelex-1.0.3.tar.gz
+[2023-07-09 00:03:21] INFO root fetch - processPackages [torch-hd]: executing diffoscope
+[2023-07-09 00:03:21] INFO root fetch - processPackages [torch-hd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-hd-5.2.0.tar.gz tmp/torch-hd-5.2.1.tar.gz --markdown 20230709/t/torch-hd/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-07-09 00:03:22] INFO root fetch - processPackages [lrc-adjuster]: executing diffoscope
+[2023-07-09 00:03:22] INFO root fetch - processPackages [lrc-adjuster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lrc_adjuster-0.1.1.tar.gz tmp/lrc_adjuster-0.1.2.tar.gz --markdown 20230709/l/lrc-adjuster/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 00:03:22] INFO root fetch - processPackages [regex-rs]: Downloading https://files.pythonhosted.org/packages/2e/56/8e8ffd1431d12684dfa3fe75cc0d51e3ff8d8a2f65d36fa4f188aa86beb7/regex_rs-0.2.4.tar.gz
+[2023-07-09 00:03:22] INFO root fetch - processPackages [scribelex]: executing diffoscope
+[2023-07-09 00:03:22] INFO root fetch - processPackages [scribelex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribelex-1.0.2.tar.gz tmp/scribelex-1.0.3.tar.gz --markdown 20230709/s/scribelex/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 00:03:22] INFO root fetch - processPackages [scribelex]: executing diffoscope
+[2023-07-09 00:03:22] INFO root fetch - processPackages [scribelex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribelex-1.0.2.tar.gz tmp/scribelex-1.0.3.tar.gz --markdown 20230709/s/scribelex/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 00:03:22] INFO root fetch - processPackages [regex-rs]: executing diffoscope
+[2023-07-09 00:03:22] INFO root fetch - processPackages [regex-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex_rs-0.2.3.tar.gz tmp/regex_rs-0.2.4.tar.gz --markdown 20230709/r/regex-rs/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-09 00:03:22] INFO root fetch - processPackages [lrc-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/lrc_adjuster-0.1.1.tar.gz]
+[2023-07-09 00:03:22] INFO root fetch - processPackages [lrc-adjuster]: Remove: archive file [/home/abi/fetcher/tmp/lrc_adjuster-0.1.2.tar.gz]
+[2023-07-09 00:03:22] INFO root fetch - main [MainThread]: End processing [lrc-adjuster]: success
+[2023-07-09 00:03:23] INFO root fetch - processPackages [scribelex]: Remove: archive file [/home/abi/fetcher/tmp/scribelex-1.0.2.tar.gz]
+[2023-07-09 00:03:23] INFO root fetch - processPackages [scribelex]: Remove: archive file [/home/abi/fetcher/tmp/scribelex-1.0.3.tar.gz]
+[2023-07-09 00:03:23] INFO root fetch - main [MainThread]: End processing [scribelex]: success
+[2023-07-09 00:03:23] INFO root fetch - main [MainThread]: End processing [scribelex]: success
+[2023-07-09 00:03:23] INFO root fetch - processPackages [regex-rs]: Remove: archive file [/home/abi/fetcher/tmp/regex_rs-0.2.3.tar.gz]
+[2023-07-09 00:03:23] INFO root fetch - processPackages [regex-rs]: Remove: archive file [/home/abi/fetcher/tmp/regex_rs-0.2.4.tar.gz]
+[2023-07-09 00:03:23] INFO root fetch - main [MainThread]: End processing [regex-rs]: success
+[2023-07-09 00:03:23] INFO root fetch - processPackages [torch-hd]: Remove: archive file [/home/abi/fetcher/tmp/torch-hd-5.2.0.tar.gz]
+[2023-07-09 00:03:23] INFO root fetch - processPackages [torch-hd]: Remove: archive file [/home/abi/fetcher/tmp/torch-hd-5.2.1.tar.gz]
+[2023-07-09 00:03:23] INFO root fetch - main [MainThread]: End processing [torch-hd]: success
+[2023-07-09 00:03:23] INFO root fetch - main [MainThread]: Store serial: [18816203]

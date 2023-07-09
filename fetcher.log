@@ -4325,3 +4325,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 07:04:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.60.tar.gz]
 [2023-07-09 07:04:20] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-09 07:04:20] INFO root fetch - main [MainThread]: Store serial: [18818016]
+[2023-07-09 07:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818016]
+[2023-07-09 07:09:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-awsx
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ticktick-py
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgo-api-types
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tastytrade-sdk
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlmd-utils
+[2023-07-09 07:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: service-markets
+[2023-07-09 07:09:30] INFO root fetch - processPackages [ticktick-py]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-09 07:09:30] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 07:09:30] WARNING root fetch - processPackages [mlmd-utils]: Skipping, unable to determine old version
+[2023-07-09 07:09:30] INFO root fetch - main [MainThread]: End processing [mlmd-utils] error
+[2023-07-09 07:09:30] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 07:09:30] INFO root fetch - processPackages [service-markets]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 07:09:30] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-09 07:09:30] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230709] Old Version: [23.8.0a230708]
+[2023-07-09 07:09:30] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230709] Old Version: [0.1.1.dev20230708]
+[2023-07-09 07:09:30] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/5e/3b/0a4c3bfe98ead735afe5f91dbb570e02c22995f0e7ad7c8c414c85dab416/service_markets-0.3.8.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/4d/e8/5491d5cfef95e88245d7b464299ca8b4a0005d2a2d6fdcc6f685d350fc01/pulumi_awsx-1.0.1.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/81/c9/cd3c19540dccfe9f5f3740ca3d6e2846aa923af623932a329907d7c6a7fa/tastytrade_sdk-0.1.2.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [ticktick-py]: Downloading https://files.pythonhosted.org/packages/c5/90/2f81fc14718dd19f715d640546a30ed20725ce42ef12737afa21bc20ec40/ticktick-py-2.0.2.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/7b/55/2971303daeb3b29db462abab651030a4f5235fcab8e84f2fe69d918a9473/dask-cuda-23.8.0a230708.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/92/0e/3b6ec3e54a08dc5ec6af747d120b1bcbf8fc49710a7b158bc47001fddffc/rapid_pe-0.1.1.dev20230708.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/c7/80/398e7784dd2803e7120ad28089dfe6bdfa9327417214be09040bf8607661/service_markets-0.3.9.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/96/46/4f4204a1ce0468e2f5c22d0ebb18da3d7fc949a87865fd0bb6d4cd4776a2/tastytrade_sdk-0.1.3.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 07:09:30] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.8.tar.gz tmp/service_markets-0.3.9.tar.gz --markdown 20230709/s/service-markets/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 07:09:30] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/cf/58/4d851ed9cb743e2e432718d7174bd3cd85bf3a63a1560e7d7e0b176f0d79/dask-cuda-23.8.0a230709.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-07-09 07:09:30] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.1.tar.gz tmp/pulumi_awsx-1.0.2.tar.gz --markdown 20230709/p/pulumi-awsx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 07:09:30] INFO root fetch - processPackages [ticktick-py]: Downloading https://files.pythonhosted.org/packages/91/7b/f1bd14f6aa2cb021c82f6f71f81f1b4057410879b71c5d261897476bc539/ticktick-py-2.0.3.tar.gz
+[2023-07-09 07:09:30] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-09 07:09:30] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.2.tar.gz tmp/tastytrade_sdk-0.1.3.tar.gz --markdown 20230709/t/tastytrade-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 07:09:30] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-09 07:09:30] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230709/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-09 07:09:31] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/72/51/f6b75cac8545a8d9b6df58b7c2bee8bfa67e8349867ba58377f7c0fb24ae/rapid_pe-0.1.1.dev20230709.tar.gz
+[2023-07-09 07:09:31] INFO root fetch - processPackages [ticktick-py]: executing diffoscope
+[2023-07-09 07:09:31] INFO root fetch - processPackages [ticktick-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticktick-py-2.0.2.tar.gz tmp/ticktick-py-2.0.3.tar.gz --markdown 20230709/t/ticktick-py/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:09:31] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-09 07:09:31] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230708.tar.gz tmp/dask-cuda-23.8.0a230709.tar.gz --markdown 20230709/d/dask-cuda/23.8.0a230708-23.8.0a230709/diff.md --exclude *.pyd
+[2023-07-09 07:09:31] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-09 07:09:31] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230708.tar.gz tmp/rapid_pe-0.1.1.dev20230709.tar.gz --markdown 20230709/r/rapid-pe/0.1.1.dev20230708-0.1.1.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 07:09:31] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.8.tar.gz]
+[2023-07-09 07:09:31] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.9.tar.gz]
+[2023-07-09 07:09:31] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 07:09:32] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.2.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.3.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-09 07:09:32] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.1.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-07-09 07:09:32] INFO root fetch - processPackages [ticktick-py]: Remove: archive file [/home/abi/fetcher/tmp/ticktick-py-2.0.2.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - processPackages [ticktick-py]: Remove: archive file [/home/abi/fetcher/tmp/ticktick-py-2.0.3.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: End processing [ticktick-py]: success
+[2023-07-09 07:09:32] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-09 07:09:32] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230708.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230709.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-09 07:09:32] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230708.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230709.tar.gz]
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-09 07:09:32] INFO root fetch - main [MainThread]: Store serial: [18818039]

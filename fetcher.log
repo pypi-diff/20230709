@@ -3314,3 +3314,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:20:27] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-16.0.1.2.1.1-py3-none-any.whl.zip]
 [2023-07-09 05:20:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
 [2023-07-09 05:20:27] INFO root fetch - main [MainThread]: Store serial: [18817643]
+[2023-07-09 05:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817643]
+[2023-07-09 05:25:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-ray
+[2023-07-09 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fieldservice-skill
+[2023-07-09 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-fieldservice
+[2023-07-09 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-07-09 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text2text
+[2023-07-09 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchlpc
+[2023-07-09 05:25:36] INFO root fetch - processPackages [langchain-ray]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-09 05:25:36] WARNING root fetch - processPackages [torchlpc]: Skipping, unable to determine old version
+[2023-07-09 05:25:36] INFO root fetch - main [MainThread]: End processing [torchlpc] error
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-09 05:25:36] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230709] Old Version: [0.0.17.dev20230708]
+[2023-07-09 05:25:36] INFO root fetch - processPackages [text2text]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-09 05:25:36] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/45/f1/f06ff8829a5d6b0267ba9f898bb0037b6a3a7ae7a0ec432e93946b31d290/text2text-1.2.5.tar.gz
+[2023-07-09 05:25:36] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/33/9a/557f74581a2cb5b2bef54fad954eac4ed0bd7209b068ee728d5d3a12089d/GANDLF-0.0.17.dev20230708.tar.gz
+[2023-07-09 05:25:36] INFO root fetch - processPackages [langchain-ray]: Downloading https://files.pythonhosted.org/packages/2b/8d/ef02da067e42c94e46f8a246cd513d12dd70c5cc65d2e2fd9ff77f23203c/langchain_ray-0.0.2.tar.gz
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/56/9e/ea06ba548face25228a8e3e991408834bf6eb714d255702fd8c7720266b8/odoo_addon_fieldservice_skill-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-09 05:25:36] INFO root fetch - processPackages [langchain-ray]: Downloading https://files.pythonhosted.org/packages/39/6e/056282ff981058d7b04bdfaebe1e2d4e1793e898d9c6a4a8c299e79f3be0/langchain_ray-0.0.4.tar.gz
+[2023-07-09 05:25:36] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/ee/a8/a43a15165817beb5c2f5bc6e020d0593f3fb495640e1e509f09ae92fa356/GANDLF-0.0.17.dev20230709.tar.gz
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/54/11/6d48f3ad2c7a4591bd3f35296f4b07859caf14e262f505e237b06a12a1e9/odoo_addon_fieldservice_skill-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-09 05:25:36] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/d0/d4/27a03ee1646b2b4dc9b02a0d11002ede202425d4dd6405a340cec67baeee/text2text-1.2.6.tar.gz
+[2023-07-09 05:25:36] INFO root fetch - processPackages [langchain-ray]: executing diffoscope
+[2023-07-09 05:25:36] INFO root fetch - processPackages [langchain-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_ray-0.0.2.tar.gz tmp/langchain_ray-0.0.4.tar.gz --markdown 20230709/l/langchain-ray/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/bc/3d/11a8f7e067c2d86acfde953d26ca1bb6972c5badbcb23298205f5d451181/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: executing diffoscope
+[2023-07-09 05:25:36] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-fieldservice-skill/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-09 05:25:37] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-09 05:25:37] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.5.tar.gz tmp/text2text-1.2.6.tar.gz --markdown 20230709/t/text2text/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-09 05:25:37] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-09 05:25:37] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230708.tar.gz tmp/GANDLF-0.0.17.dev20230709.tar.gz --markdown 20230709/G/GANDLF/0.0.17.dev20230708-0.0.17.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 05:25:37] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-07-09 05:25:37] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-09 05:25:37] INFO root fetch - processPackages [langchain-ray]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ray-0.0.2.tar.gz]
+[2023-07-09 05:25:37] INFO root fetch - processPackages [langchain-ray]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ray-0.0.4.tar.gz]
+[2023-07-09 05:25:37] INFO root fetch - main [MainThread]: End processing [langchain-ray]: success
+[2023-07-09 05:25:38] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.5.tar.gz]
+[2023-07-09 05:25:38] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.6.tar.gz]
+[2023-07-09 05:25:38] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-09 05:25:38] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-09 05:25:38] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-09 05:25:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-skill]: success
+[2023-07-09 05:25:38] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230708.tar.gz]
+[2023-07-09 05:25:38] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230709.tar.gz]
+[2023-07-09 05:25:38] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-09 05:25:38] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-09 05:25:38] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-07-09 05:25:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-07-09 05:25:38] INFO root fetch - main [MainThread]: Store serial: [18817669]

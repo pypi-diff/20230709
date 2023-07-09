@@ -7425,3 +7425,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:53:46] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-3.0.9.tar.gz]
 [2023-07-09 11:53:46] INFO root fetch - main [MainThread]: End processing [LbNightlyTools]: success
 [2023-07-09 11:53:46] INFO root fetch - main [MainThread]: Store serial: [18819405]
+[2023-07-09 11:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819405]
+[2023-07-09 11:58:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prolog-primitives
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avro.py
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synccanary
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LTADatamall
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: server-chat-pyqt-dax
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: granny-pliers
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: txt2ebook
+[2023-07-09 11:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dimsdk
+[2023-07-09 11:58:55] INFO root fetch - processPackages [LTADatamall]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 11:58:55] INFO root fetch - processPackages [avro.py]: New version: [2023.7.9] Old Version: [2023.6.30]
+[2023-07-09 11:58:55] WARNING root fetch - processPackages [server-chat-pyqt-dax]: Skipping, unable to determine old version
+[2023-07-09 11:58:55] WARNING root fetch - processPackages [synccanary]: Skipping, unable to determine old version
+[2023-07-09 11:58:55] INFO root fetch - main [MainThread]: End processing [server-chat-pyqt-dax] error
+[2023-07-09 11:58:55] INFO root fetch - main [MainThread]: End processing [synccanary] error
+[2023-07-09 11:58:55] INFO root fetch - processPackages [prolog-primitives]: New version: [1.0.1] Old Version: [0.4.2]
+[2023-07-09 11:58:55] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.17]
+[2023-07-09 11:58:55] INFO root fetch - processPackages [txt2ebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 11:58:55] INFO root fetch - processPackages [dimsdk]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-09 11:58:55] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/a9/d4/03ead0f380472fa092227e8146bcf0dfc7357c3bf0fa98f7d2b912656735/granny-pliers-0.0.17.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/fa/06/fa4708c44944937d676cc0a58802603bf6a08c536e41527b10352a96fa69/avro.py-2023.6.30.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/7c/c4/d60a564f3da745273bfa35e59033388d7e8d9e9554261bd419d45d8071c7/txt2ebook-0.1.8.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/31/9c/179619dc70f2aab10f14e53e0135b3665365ec87e3712f437d2a690f804e/prolog_primitives-0.4.2.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/e3/f0/e9793be0c9af856995f47d08f8464dd996634428973bfed42f69ec3a046b/LTADatamall-0.0.6.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [dimsdk]: Downloading https://files.pythonhosted.org/packages/76/33/97cf796e825738df317c3beb27a047e104e30d2dfaedb1ed74d9f4d69a9d/dimsdk-0.8.6.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/01/54/81330b03fe4cfd896500febd3e62a3d2631f17f521a911befcb0e012ce8d/avro.py-2023.7.9.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/2a/b8/8ad395f87b8f7685da9b3f389de9870183f09446c9f0624dfed431e3b9b8/txt2ebook-0.1.9.tar.gz
+[2023-07-09 11:58:55] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/fc/f4/d9a592958965d4e350ed42926e1ebd5a69a069e9d0224232aadafe86c718/LTADatamall-0.0.7.tar.gz
+[2023-07-09 11:58:56] INFO root fetch - processPackages [dimsdk]: Downloading https://files.pythonhosted.org/packages/df/5a/81ea94f0faa2a2dc1bb98b9b7dafdbf587501934488febdc2f1711968db8/dimsdk-0.8.7.tar.gz
+[2023-07-09 11:58:56] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/3a/66/3d21942c500dc5b937867c88ff9e1a6bc19908d600abf8c676ef799e4482/prolog_primitives-1.0.1.tar.gz
+[2023-07-09 11:58:56] INFO root fetch - processPackages [avro.py]: executing diffoscope
+[2023-07-09 11:58:56] INFO root fetch - processPackages [avro.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-2023.6.30.tar.gz tmp/avro.py-2023.7.9.tar.gz --markdown 20230709/a/avro.py/2023.6.30-2023.7.9/diff.md --exclude *.pyd
+[2023-07-09 11:58:56] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-07-09 11:58:56] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.17.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230709/g/granny-pliers/0.0.17-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 11:58:56] INFO root fetch - processPackages [LTADatamall]: executing diffoscope
+[2023-07-09 11:58:56] INFO root fetch - processPackages [LTADatamall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LTADatamall-0.0.6.tar.gz tmp/LTADatamall-0.0.7.tar.gz --markdown 20230709/L/LTADatamall/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 11:58:56] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-09 11:58:56] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-0.4.2.tar.gz tmp/prolog_primitives-1.0.1.tar.gz --markdown 20230709/p/prolog-primitives/0.4.2-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 11:58:56] INFO root fetch - processPackages [txt2ebook]: executing diffoscope
+[2023-07-09 11:58:56] INFO root fetch - processPackages [txt2ebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2ebook-0.1.8.tar.gz tmp/txt2ebook-0.1.9.tar.gz --markdown 20230709/t/txt2ebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 11:58:56] INFO root fetch - processPackages [dimsdk]: executing diffoscope
+[2023-07-09 11:58:56] INFO root fetch - processPackages [dimsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimsdk-0.8.6.tar.gz tmp/dimsdk-0.8.7.tar.gz --markdown 20230709/d/dimsdk/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-09 11:58:57] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.6.30.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.7.9.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [avro.py]: success
+[2023-07-09 11:58:57] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.6.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.7.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [LTADatamall]: success
+[2023-07-09 11:58:57] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.8.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.9.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [txt2ebook]: success
+[2023-07-09 11:58:57] INFO root fetch - processPackages [dimsdk]: Remove: archive file [/home/abi/fetcher/tmp/dimsdk-0.8.6.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - processPackages [dimsdk]: Remove: archive file [/home/abi/fetcher/tmp/dimsdk-0.8.7.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [dimsdk]: success
+[2023-07-09 11:58:57] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.17.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-07-09 11:58:57] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-0.4.2.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.1.tar.gz]
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-09 11:58:57] INFO root fetch - main [MainThread]: Store serial: [18819444]

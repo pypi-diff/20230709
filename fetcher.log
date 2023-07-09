@@ -2646,3 +2646,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:02:06] INFO root fetch - processPackages [torch-fftconv]: Remove: archive file [/home/abi/fetcher/tmp/torch_fftconv-0.1.3.tar.gz]
 [2023-07-09 04:02:06] INFO root fetch - main [MainThread]: End processing [torch-fftconv]: success
 [2023-07-09 04:02:06] INFO root fetch - main [MainThread]: Store serial: [18817345]
+[2023-07-09 04:07:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817345]
+[2023-07-09 04:07:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 04:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-07-09 04:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-wordpress
+[2023-07-09 04:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NeuroNode
+[2023-07-09 04:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bili-uas
+[2023-07-09 04:07:15] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.6]
+[2023-07-09 04:07:15] INFO root fetch - processPackages [bili-uas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 04:07:15] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-09 04:07:15] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 04:07:15] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/40/4d/00b4cf8e182780db7f65992cb52302851ffc8d766f7367b2e47e110e71ee/bili-uas-0.1.8.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-09 04:07:15] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.6.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230709/N/NeuroNode/3.6-3.9/diff.md --exclude *.pyd
+[2023-07-09 04:07:15] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-09 04:07:15] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230709/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-09 04:07:15] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/a3/c7/fab22252942d51e32399bc12f316684d59a15e5aa7d4686a5d743591c8ac/bili-uas-0.1.9.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-09 04:07:15] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-09 04:07:15] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.8.tar.gz tmp/bili-uas-0.1.9.tar.gz --markdown 20230709/b/bili-uas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 04:07:15] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-09 04:07:15] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230709/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 04:07:16] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-09 04:07:16] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.8.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.9.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-09 04:07:16] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-09 04:07:16] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-09 04:07:16] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-09 04:07:16] INFO root fetch - main [MainThread]: Store serial: [18817362]

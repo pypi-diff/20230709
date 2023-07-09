@@ -5126,3 +5126,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:12:11] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.2.0.tar.gz]
 [2023-07-09 08:12:11] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-09 08:12:11] INFO root fetch - main [MainThread]: Store serial: [18818323]
+[2023-07-09 08:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818323]
+[2023-07-09 08:17:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 08:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-07-09 08:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-07-09 08:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyconfig-configobj-backend
+[2023-07-09 08:17:19] INFO root fetch - processPackages [anyconfig-configobj-backend]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-09 08:17:19] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230708] Old Version: [2.4.0.dev20230707]
+[2023-07-09 08:17:19] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230709] Old Version: [1.6.1.dev20230707]
+[2023-07-09 08:17:19] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/85/0f/5f0f88f74df4823313770910312b6cbea90959d12d578b01a729674710ce/pyg_nightly-2.4.0.dev20230707.tar.gz
+[2023-07-09 08:17:20] INFO root fetch - processPackages [anyconfig-configobj-backend]: Downloading https://files.pythonhosted.org/packages/9a/35/081af4874a34497f3eae762876791e583a8d918f348b3673ab6f6253f114/anyconfig-configobj-backend-0.1.4.tar.gz
+[2023-07-09 08:17:20] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/5b/98/49d4cb12bc29ad05736050787f1828509aa3e21d2775695e7919ea85bbfa/pretext-1.6.1.dev20230707.tar.gz
+[2023-07-09 08:17:20] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/f2/3f/5ddbd5d189149448beebf6a8380e926293c3eede47352956fe0a50faaea8/pyg_nightly-2.4.0.dev20230708.tar.gz
+[2023-07-09 08:17:20] INFO root fetch - processPackages [anyconfig-configobj-backend]: Downloading https://files.pythonhosted.org/packages/aa/14/9949a528601b50cef31831245aab4596c7b3065de7a0cf3552f33a38e8ef/anyconfig-configobj-backend-0.2.0.tar.gz
+[2023-07-09 08:17:20] INFO root fetch - processPackages [anyconfig-configobj-backend]: executing diffoscope
+[2023-07-09 08:17:20] INFO root fetch - processPackages [anyconfig-configobj-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyconfig-configobj-backend-0.1.4.tar.gz tmp/anyconfig-configobj-backend-0.2.0.tar.gz --markdown 20230709/a/anyconfig-configobj-backend/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 08:17:20] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-09 08:17:20] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230707.tar.gz tmp/pyg_nightly-2.4.0.dev20230708.tar.gz --markdown 20230709/p/pyg-nightly/2.4.0.dev20230707-2.4.0.dev20230708/diff.md --exclude *.pyd
+[2023-07-09 08:17:20] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/28/58/ad740119396f7b66114ca8b1ac0c951047fb1e3b6b72d244f099f83e17ca/pretext-1.6.1.dev20230709.tar.gz
+[2023-07-09 08:17:21] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-09 08:17:21] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230707.tar.gz tmp/pretext-1.6.1.dev20230709.tar.gz --markdown 20230709/p/pretext/1.6.1.dev20230707-1.6.1.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 08:17:21] INFO root fetch - processPackages [anyconfig-configobj-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-configobj-backend-0.1.4.tar.gz]
+[2023-07-09 08:17:21] INFO root fetch - processPackages [anyconfig-configobj-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-configobj-backend-0.2.0.tar.gz]
+[2023-07-09 08:17:21] INFO root fetch - main [MainThread]: End processing [anyconfig-configobj-backend]: success
+[2023-07-09 08:17:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230707.tar.gz]
+[2023-07-09 08:17:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230708.tar.gz]
+[2023-07-09 08:17:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-09 08:17:24] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230707.tar.gz]
+[2023-07-09 08:17:24] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230709.tar.gz]
+[2023-07-09 08:17:24] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-09 08:17:24] INFO root fetch - main [MainThread]: Store serial: [18818337]

@@ -9154,3 +9154,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:57:32] INFO root fetch - processPackages [django-migration-linter]: Remove: archive file [/home/abi/fetcher/tmp/django-migration-linter-5.0.0.tar.gz]
 [2023-07-09 14:57:32] INFO root fetch - main [MainThread]: End processing [django-migration-linter]: success
 [2023-07-09 14:57:32] INFO root fetch - main [MainThread]: Store serial: [18820232]
+[2023-07-09 15:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820232]
+[2023-07-09 15:02:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffusechain
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTasker
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qvsed
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-script
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcedd
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-mvc
+[2023-07-09 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyTasker
+[2023-07-09 15:02:41] INFO root fetch - processPackages [pyTasker]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [django-script]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [pyTasker]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [qvsed]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [diffusechain]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [bcedd]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [fastapi-mvc]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-09 15:02:41] INFO root fetch - processPackages [diffusechain]: Downloading https://files.pythonhosted.org/packages/87/16/84cdf40a1c13091b12ea6a835b945c635295cfa3b5a31f1728d45a728985/diffusechain-0.1.3.tar.gz
+[2023-07-09 15:02:41] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/f0/7c/8ca8093a78a29f63cf5a12b529b6c5d972cb697005f5626e98fc72833ec3/pyTasker-0.6.2.tar.gz
+[2023-07-09 15:02:41] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/f0/7c/8ca8093a78a29f63cf5a12b529b6c5d972cb697005f5626e98fc72833ec3/pyTasker-0.6.2.tar.gz
+[2023-07-09 15:02:41] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/59/2b/45d494179315655fc60b46f6dffffc7d776068e6107a35bfb55d3727de98/qvsed-1.3.9.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [django-script]: Downloading https://files.pythonhosted.org/packages/58/13/fc13fc7587598573d663c63a04e38504b9fc15922f71e3c489b55a142737/django-script-1.0.0.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [bcedd]: Downloading https://files.pythonhosted.org/packages/44/30/ee7715322443c63008918161b426f242f0078f04c4597c2dad98f095617f/bcedd-1.0.0.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [fastapi-mvc]: Downloading https://files.pythonhosted.org/packages/7f/44/68ad33467c72cd42619b9960f80af22f5ad79ded270190b948acbb755517/fastapi-mvc-0.8.0.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [diffusechain]: Downloading https://files.pythonhosted.org/packages/3b/81/2273f94422b5dbf3004d8515cf36458996b50886869ee86306458a2510e3/diffusechain-0.1.4.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/91/d7/0cbffb2f3ecbe7342ca6b0b27f1a664e9fa76af816aa91f1f429a3646238/qvsed-1.4.0.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/ae/ec/ae9392eeda2370311efb36e56d085191d1e8125e3b8129f3c98cdaa5c3c8/pyTasker-0.6.3.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/ae/ec/ae9392eeda2370311efb36e56d085191d1e8125e3b8129f3c98cdaa5c3c8/pyTasker-0.6.3.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [diffusechain]: executing diffoscope
+[2023-07-09 15:02:42] INFO root fetch - processPackages [diffusechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusechain-0.1.3.tar.gz tmp/diffusechain-0.1.4.tar.gz --markdown 20230709/d/diffusechain/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 15:02:42] INFO root fetch - processPackages [bcedd]: Downloading https://files.pythonhosted.org/packages/d3/36/0e096cbe74f502934ae7360d27d78b5e05f5f6b94a964a04e6ca9c9c4d3f/bcedd-1.1.0.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [django-script]: Downloading https://files.pythonhosted.org/packages/92/d8/8547f468b83c0a46505a9d72db2d9daf3961e54336818cb2014a7340d5fd/django-script-1.0.1.tar.gz
+[2023-07-09 15:02:42] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-09 15:02:42] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.9.tar.gz tmp/qvsed-1.4.0.tar.gz --markdown 20230709/q/qvsed/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-09 15:02:42] INFO root fetch - processPackages [django-script]: executing diffoscope
+[2023-07-09 15:02:42] INFO root fetch - processPackages [django-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-script-1.0.0.tar.gz tmp/django-script-1.0.1.tar.gz --markdown 20230709/d/django-script/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 15:02:42] INFO root fetch - processPackages [pyTasker]: executing diffoscope
+[2023-07-09 15:02:42] INFO root fetch - processPackages [pyTasker]: executing diffoscope
+[2023-07-09 15:02:42] INFO root fetch - processPackages [pyTasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTasker-0.6.2.tar.gz tmp/pyTasker-0.6.3.tar.gz --markdown 20230709/p/pyTasker/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-09 15:02:42] INFO root fetch - processPackages [pyTasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTasker-0.6.2.tar.gz tmp/pyTasker-0.6.3.tar.gz --markdown 20230709/p/pyTasker/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-09 15:02:42] INFO root fetch - processPackages [bcedd]: executing diffoscope
+[2023-07-09 15:02:42] INFO root fetch - processPackages [bcedd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcedd-1.0.0.tar.gz tmp/bcedd-1.1.0.tar.gz --markdown 20230709/b/bcedd/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 15:02:42] INFO root fetch - processPackages [fastapi-mvc]: Downloading https://files.pythonhosted.org/packages/09/7b/1d0fae955930a7d22439e9ab7a39fc35da99fe08b9ff0e4d5977965f29a5/fastapi-mvc-0.9.0.tar.gz
+[2023-07-09 15:02:43] INFO root fetch - processPackages [fastapi-mvc]: executing diffoscope
+[2023-07-09 15:02:43] INFO root fetch - processPackages [fastapi-mvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-mvc-0.8.0.tar.gz tmp/fastapi-mvc-0.9.0.tar.gz --markdown 20230709/f/fastapi-mvc/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 15:02:43] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.9.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.4.0.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-09 15:02:43] INFO root fetch - processPackages [diffusechain]: Remove: archive file [/home/abi/fetcher/tmp/diffusechain-0.1.3.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - processPackages [diffusechain]: Remove: archive file [/home/abi/fetcher/tmp/diffusechain-0.1.4.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - main [MainThread]: End processing [diffusechain]: success
+[2023-07-09 15:02:43] INFO root fetch - processPackages [django-script]: Remove: archive file [/home/abi/fetcher/tmp/django-script-1.0.0.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - processPackages [django-script]: Remove: archive file [/home/abi/fetcher/tmp/django-script-1.0.1.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - main [MainThread]: End processing [django-script]: success
+[2023-07-09 15:02:43] INFO root fetch - processPackages [bcedd]: Remove: archive file [/home/abi/fetcher/tmp/bcedd-1.0.0.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - processPackages [bcedd]: Remove: archive file [/home/abi/fetcher/tmp/bcedd-1.1.0.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - main [MainThread]: End processing [bcedd]: success
+[2023-07-09 15:02:43] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.2.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.3.tar.gz]
+[2023-07-09 15:02:43] INFO root fetch - main [MainThread]: End processing [pyTasker]: success
+[2023-07-09 15:02:43] INFO root fetch - main [MainThread]: End processing [pyTasker]: success
+[2023-07-09 15:02:44] INFO root fetch - processPackages [fastapi-mvc]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-mvc-0.8.0.tar.gz]
+[2023-07-09 15:02:44] INFO root fetch - processPackages [fastapi-mvc]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-mvc-0.9.0.tar.gz]
+[2023-07-09 15:02:44] INFO root fetch - main [MainThread]: End processing [fastapi-mvc]: success
+[2023-07-09 15:02:44] INFO root fetch - main [MainThread]: Store serial: [18820255]

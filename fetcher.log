@@ -11656,3 +11656,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:18:55] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
 [2023-07-09 17:18:55] INFO root fetch - main [MainThread]: End processing [sdkit]: success
 [2023-07-09 17:18:55] INFO root fetch - main [MainThread]: Store serial: [18821362]
+[2023-07-09 17:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821362]
+[2023-07-09 17:24:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-yuxin2023
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyckett
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skforecast
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: denoising-diffusion-pytorch
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abd-clam
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zein
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fl-api-requester
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyxy3d
+[2023-07-09 17:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-l4d2-server
+[2023-07-09 17:24:04] WARNING root fetch - processPackages [example-package-yuxin2023]: Skipping, unable to determine old version
+[2023-07-09 17:24:04] INFO root fetch - main [MainThread]: End processing [example-package-yuxin2023] error
+[2023-07-09 17:24:04] INFO root fetch - processPackages [skforecast]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [pyckett]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [pyxy3d]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [fl-api-requester]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-09 17:24:04] INFO root fetch - processPackages [skforecast]: Downloading https://files.pythonhosted.org/packages/5c/ec/239ee2f03833a427d42e5c15d9454bbb6f50efefbedd3590c00bf14df388/skforecast-0.8.1.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [fl-api-requester]: Downloading https://files.pythonhosted.org/packages/05/9e/366c94c8112eaae35cfa2dee1a909a0218ac90d2542b87f46b4eccd52365/fl-api-requester-1.0.3.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [pyckett]: Downloading https://files.pythonhosted.org/packages/77/bc/63c8fdba4d32eb0811d8e5ca0af3d24d172dc50595ecb74ca680b3455d88/pyckett-0.1.7.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/6a/28/f05c212a47f0e76e7a3e8dbdc8f394f9ecf743f57de099235b405ebd9dfe/denoising-diffusion-pytorch-1.8.4.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/07/f7/6afb9a02db088115fbf79a0a63d5b7b1c991fa43ec93ed97c2bc36f50129/pyxy3d-0.1.6.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/bc/05/32d6b9a0b66190aa0d9882f392d1ba321cec9a4eb9fc83f5e2b421a57995/nonebot_plugin_l4d2_server-0.5.8.tar.gz
+[2023-07-09 17:24:04] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:24:04] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:24:05] INFO root fetch - processPackages [fl-api-requester]: Downloading https://files.pythonhosted.org/packages/81/51/8f443f8d827054f85f6f99a5cbdc24f8bfd0fe5770015cad8c76df808ad5/fl-api-requester-1.0.4.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [skforecast]: Downloading https://files.pythonhosted.org/packages/a6/84/2beffe83f18613da698b5be7a9ba11ccaa0e42deca35a4f45253584f8e77/skforecast-0.9.0.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [skforecast]: executing diffoscope
+[2023-07-09 17:24:05] INFO root fetch - processPackages [pyckett]: Downloading https://files.pythonhosted.org/packages/64/98/d9861ce65d92f2238203c3edb870264a56ba13c70f2b0349a77a6098489c/pyckett-0.1.9.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [skforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skforecast-0.8.1.tar.gz tmp/skforecast-0.9.0.tar.gz --markdown 20230709/s/skforecast/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 17:24:05] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/09/14/8a9e0805b46c52bc885bb70022bbadc375fe1e96bb0ab046e07a65ddce39/pyxy3d-0.1.7.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/c7/b8/fc52f3ccde648e8c8c854e6e88f90107c77dd6fd3cd103228d85e02ea9b2/denoising-diffusion-pytorch-1.8.5.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [fl-api-requester]: executing diffoscope
+[2023-07-09 17:24:05] INFO root fetch - processPackages [fl-api-requester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fl-api-requester-1.0.3.tar.gz tmp/fl-api-requester-1.0.4.tar.gz --markdown 20230709/f/fl-api-requester/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 17:24:05] INFO root fetch - processPackages [pyckett]: executing diffoscope
+[2023-07-09 17:24:05] INFO root fetch - processPackages [pyckett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyckett-0.1.7.tar.gz tmp/pyckett-0.1.9.tar.gz --markdown 20230709/p/pyckett/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 17:24:05] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-07-09 17:24:05] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.8.4.tar.gz tmp/denoising-diffusion-pytorch-1.8.5.tar.gz --markdown 20230709/d/denoising-diffusion-pytorch/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-09 17:24:05] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/84/cc/3ee4dace8b8cf31958a53d4a6231c05dcb59dafc111337002ccf4f6985d2/nonebot_plugin_l4d2_server-0.5.9.tar.gz
+[2023-07-09 17:24:05] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-07-09 17:24:05] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230709/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-07-09 17:24:05] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:24:05] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:24:05] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:24:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-07-09 17:24:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.8.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.9.tar.gz --markdown 20230709/n/nonebot-plugin-l4d2-server/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-09 17:24:06] INFO root fetch - processPackages [fl-api-requester]: Remove: archive file [/home/abi/fetcher/tmp/fl-api-requester-1.0.3.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - processPackages [fl-api-requester]: Remove: archive file [/home/abi/fetcher/tmp/fl-api-requester-1.0.4.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - main [MainThread]: End processing [fl-api-requester]: success
+[2023-07-09 17:24:06] INFO root fetch - processPackages [pyckett]: Remove: archive file [/home/abi/fetcher/tmp/pyckett-0.1.7.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - processPackages [pyckett]: Remove: archive file [/home/abi/fetcher/tmp/pyckett-0.1.9.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - main [MainThread]: End processing [pyckett]: success
+[2023-07-09 17:24:06] INFO root fetch - processPackages [pyxy3d]: executing diffoscope
+[2023-07-09 17:24:06] INFO root fetch - processPackages [pyxy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxy3d-0.1.6.tar.gz tmp/pyxy3d-0.1.7.tar.gz --markdown 20230709/p/pyxy3d/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-09 17:24:06] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.8.4.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.8.5.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-07-09 17:24:06] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-07-09 17:24:06] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-07-09 17:24:07] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.8.tar.gz]
+[2023-07-09 17:24:07] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.9.tar.gz]
+[2023-07-09 17:24:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-07-09 17:24:07] INFO root fetch - processPackages [skforecast]: Remove: archive file [/home/abi/fetcher/tmp/skforecast-0.8.1.tar.gz]
+[2023-07-09 17:24:07] INFO root fetch - processPackages [skforecast]: Remove: archive file [/home/abi/fetcher/tmp/skforecast-0.9.0.tar.gz]
+[2023-07-09 17:24:07] INFO root fetch - main [MainThread]: End processing [skforecast]: success
+[2023-07-09 17:24:07] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.6.tar.gz]
+[2023-07-09 17:24:07] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.7.tar.gz]
+[2023-07-09 17:24:07] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
+[2023-07-09 17:24:07] INFO root fetch - main [MainThread]: Store serial: [18821396]

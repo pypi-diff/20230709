@@ -10159,3 +10159,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:00:06] INFO root fetch - processPackages [anyconfig-fit-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-fit-backend-0.2.0.tar.gz]
 [2023-07-09 16:00:06] INFO root fetch - main [MainThread]: End processing [anyconfig-fit-backend]: success
 [2023-07-09 16:00:06] INFO root fetch - main [MainThread]: Store serial: [18820676]
+[2023-07-09 16:05:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820676]
+[2023-07-09 16:05:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 16:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BookerPubTool
+[2023-07-09 16:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evds
+[2023-07-09 16:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jirawiki2docx
+[2023-07-09 16:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shady-island
+[2023-07-09 16:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psychoanalyze
+[2023-07-09 16:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vina2vi
+[2023-07-09 16:05:16] INFO root fetch - processPackages [psychoanalyze]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-09 16:05:16] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 16:05:16] WARNING root fetch - processPackages [jirawiki2docx]: Skipping, unable to determine old version
+[2023-07-09 16:05:16] INFO root fetch - main [MainThread]: End processing [jirawiki2docx] error
+[2023-07-09 16:05:16] INFO root fetch - processPackages [evds]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-09 16:05:16] INFO root fetch - processPackages [BookerPubTool]: New version: [2023.7.9.0] Old Version: [2023.2.9.6]
+[2023-07-09 16:05:16] INFO root fetch - processPackages [vina2vi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 16:05:16] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/a6/ce/775d5a2b09a9bf09d464495eb23feed2f63ce84ac5462befff64de5b2c51/psychoanalyze-0.4.7.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [vina2vi]: Downloading https://files.pythonhosted.org/packages/e3/2a/7c644eb7f5a1ed8fe6eb3e15ca568e10ed601e68a53844fb95119e50da11/vina2vi-0.0.7.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [evds]: Downloading https://files.pythonhosted.org/packages/bf/5a/b2a8ed85799685c15a5a73c4105fc341a65d6383534fce37f1a1f32c9492/evds-0.3.0.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [BookerPubTool]: Downloading https://files.pythonhosted.org/packages/bb/6d/a59e50c730f4428983ff55e704467de348853c9c1088eaa61acfdbc5d589/BookerPubTool-2023.2.9.6.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/ee/6d/02f330b0cec70f36f646e04190ee8fd7e26af3142d3c229f5f82fc68e508/psychoanalyze-0.4.8.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [evds]: Downloading https://files.pythonhosted.org/packages/cb/7f/49ae7a79822b67983eadcea26ac0b67ba19e90f3e7543de6427606d9e19c/evds-0.3.1.tar.gz
+[2023-07-09 16:05:16] INFO root fetch - processPackages [vina2vi]: Downloading https://files.pythonhosted.org/packages/ab/a1/568a90321f32a0cf453b8e9d588ef3063600bb420bf6d1350182c47db0e9/vina2vi-0.0.8.tar.gz
+[2023-07-09 16:05:17] INFO root fetch - processPackages [evds]: executing diffoscope
+[2023-07-09 16:05:17] INFO root fetch - processPackages [evds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evds-0.3.0.tar.gz tmp/evds-0.3.1.tar.gz --markdown 20230709/e/evds/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-09 16:05:17] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-09 16:05:17] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.4.7.tar.gz tmp/psychoanalyze-0.4.8.tar.gz --markdown 20230709/p/psychoanalyze/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-09 16:05:17] INFO root fetch - processPackages [BookerPubTool]: Downloading https://files.pythonhosted.org/packages/b7/42/28a655797a7c0a86a3fff9799adc60089ca9b1e409307018168403958e03/BookerPubTool-2023.7.9.0.tar.gz
+[2023-07-09 16:05:17] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-07-09 16:05:17] INFO root fetch - processPackages [vina2vi]: executing diffoscope
+[2023-07-09 16:05:17] INFO root fetch - processPackages [vina2vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vina2vi-0.0.7.tar.gz tmp/vina2vi-0.0.8.tar.gz --markdown 20230709/v/vina2vi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 16:05:17] INFO root fetch - processPackages [BookerPubTool]: executing diffoscope
+[2023-07-09 16:05:17] INFO root fetch - processPackages [BookerPubTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerPubTool-2023.2.9.6.tar.gz tmp/BookerPubTool-2023.7.9.0.tar.gz --markdown 20230709/B/BookerPubTool/2023.2.9.6-2023.7.9.0/diff.md --exclude *.pyd
+[2023-07-09 16:05:17] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-07-09 16:05:17] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230709/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 16:05:18] INFO root fetch - processPackages [vina2vi]: Remove: archive file [/home/abi/fetcher/tmp/vina2vi-0.0.7.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - processPackages [vina2vi]: Remove: archive file [/home/abi/fetcher/tmp/vina2vi-0.0.8.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - main [MainThread]: End processing [vina2vi]: success
+[2023-07-09 16:05:18] INFO root fetch - processPackages [evds]: Remove: archive file [/home/abi/fetcher/tmp/evds-0.3.0.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - processPackages [evds]: Remove: archive file [/home/abi/fetcher/tmp/evds-0.3.1.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - main [MainThread]: End processing [evds]: success
+[2023-07-09 16:05:18] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.7.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.8.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-09 16:05:18] INFO root fetch - processPackages [BookerPubTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerPubTool-2023.2.9.6.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - processPackages [BookerPubTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerPubTool-2023.7.9.0.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - main [MainThread]: End processing [BookerPubTool]: success
+[2023-07-09 16:05:18] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-07-09 16:05:18] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-07-09 16:05:18] INFO root fetch - main [MainThread]: Store serial: [18820696]

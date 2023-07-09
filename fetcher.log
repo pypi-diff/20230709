@@ -8929,3 +8929,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:41:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
 [2023-07-09 14:41:56] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-07-09 14:41:56] INFO root fetch - main [MainThread]: Store serial: [18820070]
+[2023-07-09 14:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820070]
+[2023-07-09 14:47:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ediri-scaleway
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyromark
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cubo
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LTADatamall
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmcloud
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swanapi
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bilix
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roxbot
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nb-cli
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manticore
+[2023-07-09 14:47:05] INFO root fetch - processPackages [roxbot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [LTADatamall]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [cubo]: New version: [2023.7.0] Old Version: [0.1.0]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [lmcloud]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.23.0] Old Version: [2.22.0]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [nb-cli]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [swanapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [bilix]: New version: [1.0a1] Old Version: [1.0a0]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [pyromark]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230708] Old Version: [0.3.8.dev230707]
+[2023-07-09 14:47:05] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/4a/6e/35ef1f01b14a448125e1d73b84f34a8a7d967f698b445fffd39e4d2b5624/LTADatamall-0.0.81.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [nb-cli]: Downloading https://files.pythonhosted.org/packages/4d/4c/cd345613bed43ed17bad99a8df3828bb4496c47f2f1d272655cbaa0bed36/nb-cli-1.2.1.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/17/9c/8e7e6a472f479d988b1d6d64ad17c8b50dae39b46ceddf85065415508606/manticore-0.3.8.dev230707.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/44/e6/fab25b638f58f1bc9da1f7793559737246f0ed9a923a5d8b52360926c083/roxbot-0.9.0.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [cubo]: Downloading https://files.pythonhosted.org/packages/de/c8/46aa901d0ddfdff56dfc44147c2a81e3edc5642389137b94d0e927b28cf5/cubo-0.1.0.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/af/05/1ca7d5ab4ab0b055cdf444f65e587a31b0349632a0b38df266b9856476b8/swanapi-0.1.3-py3-none-any.whl
+[2023-07-09 14:47:05] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/85/51/a4f6044d61f5cef10237a25a2eaf5acd95277f4fda7bb32bd343f56785e0/ediri_scaleway-2.22.0.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/34/45/9f05b360da5f697b2f5c0c80d7116c113d099e2e990359808a2a91d69146/lmcloud-0.3.6.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/ac/96/5af3a7ea653a3ecb60cec24c3aeb6424460322ad307a985594af2df5adf2/bilix-1.0a0.tar.gz
+[2023-07-09 14:47:05] INFO root fetch - processPackages [pyromark]: Downloading https://files.pythonhosted.org/packages/b5/3e/7408580fc2b54e66e6598f49cfcdd820526ee1bd84f79242524ec0fdd347/pyromark-0.2.0.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [nb-cli]: Downloading https://files.pythonhosted.org/packages/6f/15/a61c9edaf696a42321316eb855113ca5cdccbc3ecab9a6a67e22771e0dd6/nb-cli-1.2.2.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/e3/3c/3148e805a07a05e6b50a8afeaaeb51d5e164f7e320700b3b3efa63692d73/roxbot-0.9.1.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/b9/04/470dedd1ee45b694fa39ac637fe915f03fcaa704e365a38531185f6d208e/LTADatamall-0.0.82.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [cubo]: Downloading https://files.pythonhosted.org/packages/c3/9c/1e4a0b25810031cb90e2d3cd664b0f11f7f4d3d66142b65535cecca5a775/cubo-2023.7.0.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/9c/13/b040728db71e8954ed9ed7e6077201ff90f373316845de5e3393ea81bbe4/swanapi-0.1.4-py3-none-any.whl
+[2023-07-09 14:47:06] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/58/60/49f45aede6557329172a7d72cf5f095a859572e97f69b100775a8c0db2ce/lmcloud-0.3.7.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [bilix]: Downloading https://files.pythonhosted.org/packages/2b/1e/bf550facc0a70b3a269e66416d844f5f49937e0622de9df71845317f3888/bilix-1.0a1.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/0e/f2/1abfad6b22d457c556fd6c33abf9ecdb42230eed95c6a0bf56b93cf8f2a3/ediri_scaleway-2.23.0.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [pyromark]: Downloading https://files.pythonhosted.org/packages/5a/47/dbe918ad727b474b0c441af2ac3b5b3c593ecfe8d39679165d83b425a430/pyromark-0.2.1.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/e4/bf/c8ca02e84d75ab94068ff0b920986fb0459537ea58da89040a1d353081ee/manticore-0.3.8.dev230708.tar.gz
+[2023-07-09 14:47:06] INFO root fetch - processPackages [nb-cli]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [nb-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-cli-1.2.1.tar.gz tmp/nb-cli-1.2.2.tar.gz --markdown 20230709/n/nb-cli/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.9.0.tar.gz tmp/roxbot-0.9.1.tar.gz --markdown 20230709/r/roxbot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [cubo]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [LTADatamall]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [cubo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubo-0.1.0.tar.gz tmp/cubo-2023.7.0.tar.gz --markdown 20230709/c/cubo/0.1.0-2023.7.0/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [LTADatamall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LTADatamall-0.0.81.tar.gz tmp/LTADatamall-0.0.82.tar.gz --markdown 20230709/L/LTADatamall/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.3-py3-none-any.whl.zip tmp/swanapi-0.1.4-py3-none-any.whl.zip --markdown 20230709/s/swanapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [pyromark]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [pyromark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyromark-0.2.0.tar.gz tmp/pyromark-0.2.1.tar.gz --markdown 20230709/p/pyromark/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.6.tar.gz tmp/lmcloud-0.3.7.tar.gz --markdown 20230709/l/lmcloud/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230707.tar.gz tmp/manticore-0.3.8.dev230708.tar.gz --markdown 20230709/m/manticore/0.3.8.dev230707-0.3.8.dev230708/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [bilix]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [bilix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilix-1.0a0.tar.gz tmp/bilix-1.0a1.tar.gz --markdown 20230709/b/bilix/1.0a0-1.0a1/diff.md --exclude *.pyd
+[2023-07-09 14:47:06] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-07-09 14:47:06] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.22.0.tar.gz tmp/ediri_scaleway-2.23.0.tar.gz --markdown 20230709/e/ediri-scaleway/2.22.0-2.23.0/diff.md --exclude *.pyd
+[2023-07-09 14:47:08] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.9.0.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.9.1.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.81.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.82.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [LTADatamall]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.3-py3-none-any.whl.zip]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.4-py3-none-any.whl.zip]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [cubo]: Remove: archive file [/home/abi/fetcher/tmp/cubo-0.1.0.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [cubo]: Remove: archive file [/home/abi/fetcher/tmp/cubo-2023.7.0.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [cubo]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [pyromark]: Remove: archive file [/home/abi/fetcher/tmp/pyromark-0.2.0.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [pyromark]: Remove: archive file [/home/abi/fetcher/tmp/pyromark-0.2.1.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [pyromark]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [nb-cli]: Remove: archive file [/home/abi/fetcher/tmp/nb-cli-1.2.1.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [nb-cli]: Remove: archive file [/home/abi/fetcher/tmp/nb-cli-1.2.2.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [nb-cli]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.6.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.7.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [bilix]: Remove: archive file [/home/abi/fetcher/tmp/bilix-1.0a0.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [bilix]: Remove: archive file [/home/abi/fetcher/tmp/bilix-1.0a1.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [bilix]: success
+[2023-07-09 14:47:08] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230707.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230708.tar.gz]
+[2023-07-09 14:47:08] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-09 14:47:09] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.22.0.tar.gz]
+[2023-07-09 14:47:09] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.23.0.tar.gz]
+[2023-07-09 14:47:09] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-07-09 14:47:09] INFO root fetch - main [MainThread]: Store serial: [18820178]

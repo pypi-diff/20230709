@@ -9918,3 +9918,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:49:35] INFO root fetch - processPackages [kui]: Remove: archive file [/home/abi/fetcher/tmp/kui-1.5.3.tar.gz]
 [2023-07-09 15:49:35] INFO root fetch - main [MainThread]: End processing [kui]: success
 [2023-07-09 15:49:35] INFO root fetch - main [MainThread]: Store serial: [18820563]
+[2023-07-09 15:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820563]
+[2023-07-09 15:54:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PH-units
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmcloud
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frontmatter-cli
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tonpy
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: npdtools
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EpubCrawler
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ir-client
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantplay
+[2023-07-09 15:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calculator-MU
+[2023-07-09 15:54:44] INFO root fetch - processPackages [quantplay]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [frontmatter-cli]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [ir-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [PH-units]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [EpubCrawler]: New version: [2023.7.9.0] Old Version: [2023.3.14.0]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [npdtools]: New version: [1.0a1] Old Version: [0.1a5]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [crypto-screening]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-07-09 15:54:44] WARNING root fetch - processPackages [calculator-MU]: Skipping, unable to determine old version
+[2023-07-09 15:54:44] INFO root fetch - processPackages [calculator-MU]: Start processing: punch-clock
+[2023-07-09 15:54:44] INFO root fetch - main [MainThread]: End processing [calculator-MU] error
+[2023-07-09 15:54:44] WARNING root fetch - processPackages [tonpy]: Skipping, unable to determine old version
+[2023-07-09 15:54:44] INFO root fetch - main [MainThread]: End processing [tonpy] error
+[2023-07-09 15:54:44] INFO root fetch - processPackages [lmcloud]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [ir-client]: Downloading https://files.pythonhosted.org/packages/42/ef/c6e84730b3175970d8cba8be1bc522f9353333c977e3031766729f0043a6/ir_client-0.1.1.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [frontmatter-cli]: Downloading https://files.pythonhosted.org/packages/2e/28/cdfe4f83b4ba1fbc018747be95647e334a82b98b7da9613f4aa2906186a2/frontmatter-cli-2023.7.1.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/12/3a/77f8f314bb354ac888030d71ddc8434aeab23d9db2240260649d264afbbc/crypto-screening-2.6.1.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [punch-clock]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 15:54:44] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/58/60/49f45aede6557329172a7d72cf5f095a859572e97f69b100775a8c0db2ce/lmcloud-0.3.7.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [npdtools]: Downloading https://files.pythonhosted.org/packages/f1/67/0d5a665f2fcaf016c58ddb4ae86fc2ec6f6d0db7890fee304dfaed4d9829/npdtools-0.1a5.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/ac/a2/74f39b7a74339472b36d8744ee6515dc4335afbc0f4143f3c3570261c7ea/PH-units-1.2.0.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/50/af/65fff3985f9d4875a45ed6cf7122cb0adbbf1e48ee8cec6d3d280ea60b98/quantplay-1.3.7.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [EpubCrawler]: Downloading https://files.pythonhosted.org/packages/07/ef/a4b9ff666a15951c0d7ae392503ad4b48cb9939b48a7a19e0830fe8a820a/EpubCrawler-2023.3.14.0.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [punch-clock]: Downloading https://files.pythonhosted.org/packages/5d/0a/720f0dddba7c656a85d5bdb83009aaa3593dd30a26870c8d00b0429f8251/punch_clock-0.1.0.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/27/50/15f89bab597e05b9fa95a2a37768bf6ecb34bc38e0f2b95b80b510be56bc/PH-units-1.3.0.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [frontmatter-cli]: Downloading https://files.pythonhosted.org/packages/b2/91/d7c66181b32030513eb1fb119cd666a2e6a545e15812a197c25c60cbfe99/frontmatter-cli-2023.7.2.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [ir-client]: Downloading https://files.pythonhosted.org/packages/f9/c6/84c712c94f9f37c81dac54d39645eede253c67282903723a3a26f93c31da/ir_client-0.1.2.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/7b/92/2bd40d0165ebe1fec0f9b6da137d65630ea72d05df6f74cca2cb5961980a/crypto-screening-2.6.2.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [npdtools]: Downloading https://files.pythonhosted.org/packages/e1/64/ff21bc8b4e71f2a8b1851d6c56c2fdc4795e0428317497379acc1c5a661c/npdtools-1.0a1.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [EpubCrawler]: Downloading https://files.pythonhosted.org/packages/b9/2e/8b74ed3510e26b8f4e12a532b1979c3dcc987266f746f80e748de43598cc/EpubCrawler-2023.7.9.0.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [punch-clock]: Downloading https://files.pythonhosted.org/packages/60/e0/c63fb99ec9c02c6b0a178250777de65687051fd8254704fbbff3a458a659/punch_clock-0.1.1.tar.gz
+[2023-07-09 15:54:44] INFO root fetch - processPackages [PH-units]: executing diffoscope
+[2023-07-09 15:54:44] INFO root fetch - processPackages [PH-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PH-units-1.2.0.tar.gz tmp/PH-units-1.3.0.tar.gz --markdown 20230709/P/PH-units/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-09 15:54:44] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-09 15:54:44] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.6.1.tar.gz tmp/crypto-screening-2.6.2.tar.gz --markdown 20230709/c/crypto-screening/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-07-09 15:54:44] INFO root fetch - processPackages [frontmatter-cli]: executing diffoscope
+[2023-07-09 15:54:44] INFO root fetch - processPackages [frontmatter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontmatter-cli-2023.7.1.tar.gz tmp/frontmatter-cli-2023.7.2.tar.gz --markdown 20230709/f/frontmatter-cli/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-09 15:54:44] INFO root fetch - processPackages [ir-client]: executing diffoscope
+[2023-07-09 15:54:44] INFO root fetch - processPackages [ir-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_client-0.1.1.tar.gz tmp/ir_client-0.1.2.tar.gz --markdown 20230709/i/ir-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 15:54:45] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-09 15:54:45] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.7.tar.gz tmp/lmcloud-0.3.8.tar.gz --markdown 20230709/l/lmcloud/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-09 15:54:45] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-09 15:54:45] INFO root fetch - processPackages [npdtools]: executing diffoscope
+[2023-07-09 15:54:45] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.7.tar.gz tmp/quantplay-1.3.8.tar.gz --markdown 20230709/q/quantplay/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-09 15:54:45] INFO root fetch - processPackages [npdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npdtools-0.1a5.tar.gz tmp/npdtools-1.0a1.tar.gz --markdown 20230709/n/npdtools/0.1a5-1.0a1/diff.md --exclude *.pyd
+[2023-07-09 15:54:45] INFO root fetch - processPackages [punch-clock]: executing diffoscope
+[2023-07-09 15:54:45] INFO root fetch - processPackages [punch-clock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punch_clock-0.1.0.tar.gz tmp/punch_clock-0.1.1.tar.gz --markdown 20230709/p/punch-clock/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 15:54:45] INFO root fetch - processPackages [EpubCrawler]: executing diffoscope
+[2023-07-09 15:54:45] INFO root fetch - processPackages [EpubCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EpubCrawler-2023.3.14.0.tar.gz tmp/EpubCrawler-2023.7.9.0.tar.gz --markdown 20230709/E/EpubCrawler/2023.3.14.0-2023.7.9.0/diff.md --exclude *.pyd
+[2023-07-09 15:54:46] INFO root fetch - processPackages [PH-units]: Remove: archive file [/home/abi/fetcher/tmp/PH-units-1.2.0.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [PH-units]: Remove: archive file [/home/abi/fetcher/tmp/PH-units-1.3.0.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [PH-units]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [npdtools]: Remove: archive file [/home/abi/fetcher/tmp/npdtools-0.1a5.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [npdtools]: Remove: archive file [/home/abi/fetcher/tmp/npdtools-1.0a1.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [npdtools]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [frontmatter-cli]: Remove: archive file [/home/abi/fetcher/tmp/frontmatter-cli-2023.7.1.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [frontmatter-cli]: Remove: archive file [/home/abi/fetcher/tmp/frontmatter-cli-2023.7.2.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [frontmatter-cli]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [punch-clock]: Remove: archive file [/home/abi/fetcher/tmp/punch_clock-0.1.0.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [punch-clock]: Remove: archive file [/home/abi/fetcher/tmp/punch_clock-0.1.1.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [punch-clock]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [ir-client]: Remove: archive file [/home/abi/fetcher/tmp/ir_client-0.1.1.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [ir-client]: Remove: archive file [/home/abi/fetcher/tmp/ir_client-0.1.2.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [ir-client]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.7.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.6.1.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.6.2.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [EpubCrawler]: Remove: archive file [/home/abi/fetcher/tmp/EpubCrawler-2023.3.14.0.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [EpubCrawler]: Remove: archive file [/home/abi/fetcher/tmp/EpubCrawler-2023.7.9.0.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [EpubCrawler]: success
+[2023-07-09 15:54:46] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.7.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-09 15:54:46] INFO root fetch - main [MainThread]: Store serial: [18820608]

@@ -8758,3 +8758,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:09:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-07-09 14:09:55] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-07-09 14:09:55] INFO root fetch - main [MainThread]: Store serial: [18820003]
+[2023-07-09 14:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820003]
+[2023-07-09 14:15:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 14:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kopikatapi
+[2023-07-09 14:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nopasaran
+[2023-07-09 14:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-data-validation
+[2023-07-09 14:15:04] INFO root fetch - processPackages [airflow-data-validation]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-09 14:15:04] INFO root fetch - processPackages [nopasaran]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-09 14:15:04] WARNING root fetch - processPackages [kopikatapi]: Skipping, unable to determine old version
+[2023-07-09 14:15:04] INFO root fetch - main [MainThread]: End processing [kopikatapi] error
+[2023-07-09 14:15:04] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/13/24/e2b70618a4280d014f9f74ea1a288eb3255722f6f22fef1554c3adbc4db7/airflow-data-validation-4.0.4.tar.gz
+[2023-07-09 14:15:04] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/bc/40/71ba1464d89ac27059a337e0f6b884ddbe20ca8d488207eb5bd8726622cf/nopasaran-0.2.5.tar.gz
+[2023-07-09 14:15:04] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/45/c2/f8b2e05b37bb3599fc2a86094718c329c4e0b18626fe54e11031507eb004/airflow-data-validation-4.0.5.tar.gz
+[2023-07-09 14:15:04] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/d2/a3/ed6e5f44e449cc06a2f436c3e7283d1f8bf24e0eddc6cda039bc16f99535/nopasaran-0.2.6.tar.gz
+[2023-07-09 14:15:04] INFO root fetch - processPackages [airflow-data-validation]: executing diffoscope
+[2023-07-09 14:15:04] INFO root fetch - processPackages [airflow-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-data-validation-4.0.4.tar.gz tmp/airflow-data-validation-4.0.5.tar.gz --markdown 20230709/a/airflow-data-validation/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-09 14:15:04] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-09 14:15:04] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.5.tar.gz tmp/nopasaran-0.2.6.tar.gz --markdown 20230709/n/nopasaran/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-09 14:15:05] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.4.tar.gz]
+[2023-07-09 14:15:05] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.5.tar.gz]
+[2023-07-09 14:15:05] INFO root fetch - main [MainThread]: End processing [airflow-data-validation]: success
+[2023-07-09 14:15:05] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.5.tar.gz]
+[2023-07-09 14:15:05] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.6.tar.gz]
+[2023-07-09 14:15:05] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-09 14:15:05] INFO root fetch - main [MainThread]: Store serial: [18820015]

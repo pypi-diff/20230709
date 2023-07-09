@@ -7245,3 +7245,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:22:38] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-09 11:22:38] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-09 11:22:38] INFO root fetch - main [MainThread]: Store serial: [18819331]
+[2023-07-09 11:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819331]
+[2023-07-09 11:27:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 11:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngmapi
+[2023-07-09 11:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objdictgen
+[2023-07-09 11:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pfizer-components
+[2023-07-09 11:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-material
+[2023-07-09 11:27:47] INFO root fetch - processPackages [ngmapi]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-07-09 11:27:48] INFO root fetch - processPackages [pfizer-components]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-09 11:27:48] INFO root fetch - processPackages [flet-material]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-07-09 11:27:48] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ec/3c/afb22dadc39ff5e20d4edecfac71f9ec53d15e797edfa53f17f82aebfac0/ngmapi-0.0.41.tar.gz
+[2023-07-09 11:27:48] INFO root fetch - processPackages [objdictgen]: New version: [3.3.post1] Old Version: [3.3]
+[2023-07-09 11:27:48] INFO root fetch - processPackages [objdictgen]: Downloading https://files.pythonhosted.org/packages/e1/b2/b2f8a6368cb1753156422baf02460a25810b883c819683bf67163cfa777f/objdictgen-3.3.tar.gz
+[2023-07-09 11:27:48] INFO root fetch - processPackages [flet-material]: Downloading https://files.pythonhosted.org/packages/3d/19/f1f63ac20506d6396613be2f9bb4e4feae07b7f6129a8272cd736764da70/flet-material-0.3.1.tar.gz
+[2023-07-09 11:27:48] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/84/1f/c9b5e0f8dc3d02a234fe71c06eea9244dca5c6274566249dd4092359a456/pfizer_components-0.2.4-py3-none-any.whl
+[2023-07-09 11:27:48] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/d3/ea/42cd57e8d3b390018e3ad120692adfe4ade215c1b053029484d153771139/ngmapi-0.0.42.tar.gz
+[2023-07-09 11:27:48] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/d0/7d/6af2fda6f8c2483bccc7c6595ceb2494e3ff55a286b42b33fcadddfde152/pfizer_components-0.2.5-py3-none-any.whl
+[2023-07-09 11:27:48] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 11:27:48] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.41.tar.gz tmp/ngmapi-0.0.42.tar.gz --markdown 20230709/n/ngmapi/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-07-09 11:27:48] INFO root fetch - processPackages [flet-material]: Downloading https://files.pythonhosted.org/packages/a7/37/0936fe6afe5c07f810f6af9c2ddb91e9e515f702029cf3fa20373641e232/flet-material-0.3.3.tar.gz
+[2023-07-09 11:27:48] INFO root fetch - processPackages [objdictgen]: Downloading https://files.pythonhosted.org/packages/48/8b/1a1f4301a636cc77e76893235b5cdda2fb8d769c319936442778b40fe69a/objdictgen-3.3.post1.tar.gz
+[2023-07-09 11:27:48] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-07-09 11:27:48] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.2.4-py3-none-any.whl.zip tmp/pfizer_components-0.2.5-py3-none-any.whl.zip --markdown 20230709/p/pfizer-components/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-09 11:27:48] INFO root fetch - processPackages [flet-material]: executing diffoscope
+[2023-07-09 11:27:48] INFO root fetch - processPackages [flet-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-material-0.3.1.tar.gz tmp/flet-material-0.3.3.tar.gz --markdown 20230709/f/flet-material/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-07-09 11:27:48] INFO root fetch - processPackages [objdictgen]: executing diffoscope
+[2023-07-09 11:27:48] INFO root fetch - processPackages [objdictgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objdictgen-3.3.tar.gz tmp/objdictgen-3.3.post1.tar.gz --markdown 20230709/o/objdictgen/3.3-3.3.post1/diff.md --exclude *.pyd
+[2023-07-09 11:27:49] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.41.tar.gz]
+[2023-07-09 11:27:49] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.42.tar.gz]
+[2023-07-09 11:27:49] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 11:27:49] INFO root fetch - processPackages [flet-material]: Remove: archive file [/home/abi/fetcher/tmp/flet-material-0.3.1.tar.gz]
+[2023-07-09 11:27:49] INFO root fetch - processPackages [flet-material]: Remove: archive file [/home/abi/fetcher/tmp/flet-material-0.3.3.tar.gz]
+[2023-07-09 11:27:49] INFO root fetch - main [MainThread]: End processing [flet-material]: success
+[2023-07-09 11:27:49] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.4-py3-none-any.whl.zip]
+[2023-07-09 11:27:49] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.5-py3-none-any.whl.zip]
+[2023-07-09 11:27:49] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-07-09 11:27:50] INFO root fetch - processPackages [objdictgen]: Remove: archive file [/home/abi/fetcher/tmp/objdictgen-3.3.tar.gz]
+[2023-07-09 11:27:50] INFO root fetch - processPackages [objdictgen]: Remove: archive file [/home/abi/fetcher/tmp/objdictgen-3.3.post1.tar.gz]
+[2023-07-09 11:27:50] INFO root fetch - main [MainThread]: End processing [objdictgen]: success
+[2023-07-09 11:27:50] INFO root fetch - main [MainThread]: Store serial: [18819342]

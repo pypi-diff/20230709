@@ -12529,3 +12529,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:16:09] INFO root fetch - processPackages [gp2040ce-binary-tools]: Remove: archive file [/home/abi/fetcher/tmp/gp2040ce-binary-tools-0.4.0.tar.gz]
 [2023-07-09 18:16:09] INFO root fetch - main [MainThread]: End processing [gp2040ce-binary-tools]: success
 [2023-07-09 18:16:09] INFO root fetch - main [MainThread]: Store serial: [18821729]
+[2023-07-09 18:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821729]
+[2023-07-09 18:21:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Poutyne
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycompile
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-shelly-fixgambit
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdss-lvmcam
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spinfinder
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vantiqservicesdk
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vollseg
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zein
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytint
+[2023-07-09 18:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnivorex
+[2023-07-09 18:21:18] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:21:18] INFO root fetch - processPackages [pycompile]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-09 18:21:18] INFO root fetch - processPackages [sdss-lvmcam]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-07-09 18:21:18] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: New version: [20230709.8.11.438555] Old Version: [20230709.16.16.119447]
+[2023-07-09 18:21:18] INFO root fetch - processPackages [vantiqservicesdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 18:21:18] INFO root fetch - processPackages [spinfinder]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 18:21:18] INFO root fetch - processPackages [Poutyne]: New version: [1.9] Old Version: [1.8]
+[2023-07-09 18:21:19] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-09 18:21:19] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 18:21:19] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 18:21:19] WARNING root fetch - processPackages [pytint]: Skipping, unable to determine old version
+[2023-07-09 18:21:19] INFO root fetch - processPackages [pytint]: Start processing: digquery
+[2023-07-09 18:21:19] INFO root fetch - main [MainThread]: End processing [pytint] error
+[2023-07-09 18:21:19] INFO root fetch - processPackages [digquery]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-09 18:21:19] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [vantiqservicesdk]: Downloading https://files.pythonhosted.org/packages/20/79/4d13dc5c01a44e45e9dbfeba6229829e0ce396f224a2cfea2ca39e70f5b5/vantiqservicesdk-0.0.1.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [spinfinder]: Downloading https://files.pythonhosted.org/packages/30/79/19812165bfd9e20588b48bb426a2482e41accd8e5086ed362035e74252ef/spinfinder-0.0.2.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [sdss-lvmcam]: Downloading https://files.pythonhosted.org/packages/79/41/55d6665751bcd790611ac0bcb516b7df401e954e1afb4f5a11d89c73f499/sdss_lvmcam-0.3.3.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Downloading https://files.pythonhosted.org/packages/c9/cf/59425fef3ed23069a6476a001b2dcb4bbf8970774b8b07fc039652bd2800/certora-cli-alpha-shelly-fixgambit-20230709.16.16.119447.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [pycompile]: Downloading https://files.pythonhosted.org/packages/e1/9e/ab63df532bae913abddc74df971d5dd11edde459addd6978eba2177ec228/pycompile-0.1.7.tar.gz
+[2023-07-09 18:21:19] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-09 18:21:19] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-09 18:21:19] INFO root fetch - processPackages [Poutyne]: Downloading https://files.pythonhosted.org/packages/a7/57/b166b30ce6a881c1a112c5cfc9a06bfe81ffaed796d3a7ec5687e00893eb/Poutyne-1.8.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/70/23/18d2a5854dbc73361053fb8e1318ed4af869fbc782766dfd9fb9e03f7d31/digquery-0.1.3.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 18:21:19] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 18:21:19] INFO root fetch - processPackages [vantiqservicesdk]: Downloading https://files.pythonhosted.org/packages/cf/ad/d6346a23be112956f8f9a2c16e38193e4c92078d1b5234bdd346c5d1543e/vantiqservicesdk-0.0.2.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [spinfinder]: Downloading https://files.pythonhosted.org/packages/95/b3/c7181144ce1ef622f7e40bae2f87360e9dbd28d6310e6b8126e408387c64/spinfinder-0.0.3.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/86/3a/5b3ac18993d66dc13111fa6059994d22f1668eb173fb14fce5a29bd298d6/digquery-0.1.5.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [sdss-lvmcam]: Downloading https://files.pythonhosted.org/packages/2c/8e/2fcfa334cfc4866ebc5670fd50e601f7e789cfe89449a33f804badef36db/sdss_lvmcam-0.3.5.tar.gz
+[2023-07-09 18:21:19] INFO root fetch - processPackages [pycompile]: Downloading https://files.pythonhosted.org/packages/cf/eb/94a6b8b09d5e3556a273b1738563a9b52567896590f8b4e29c9fcd840c67/pycompile-0.1.9.tar.gz
+[2023-07-09 18:21:19] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Skipping package: exceeds size limit 37457628>=10485760
+[2023-07-09 18:21:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixgambit] error
+[2023-07-09 18:21:19] INFO root fetch - processPackages [vantiqservicesdk]: executing diffoscope
+[2023-07-09 18:21:19] INFO root fetch - processPackages [vantiqservicesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantiqservicesdk-0.0.1.tar.gz tmp/vantiqservicesdk-0.0.2.tar.gz --markdown 20230709/v/vantiqservicesdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 18:21:19] INFO root fetch - processPackages [spinfinder]: executing diffoscope
+[2023-07-09 18:21:19] INFO root fetch - processPackages [spinfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinfinder-0.0.2.tar.gz tmp/spinfinder-0.0.3.tar.gz --markdown 20230709/s/spinfinder/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 18:21:19] INFO root fetch - processPackages [digquery]: executing diffoscope
+[2023-07-09 18:21:19] INFO root fetch - processPackages [digquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digquery-0.1.3.tar.gz tmp/digquery-0.1.5.tar.gz --markdown 20230709/d/digquery/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 18:21:19] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 18:21:19] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 18:21:19] INFO root fetch - processPackages [pycompile]: executing diffoscope
+[2023-07-09 18:21:19] INFO root fetch - processPackages [pycompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompile-0.1.7.tar.gz tmp/pycompile-0.1.9.tar.gz --markdown 20230709/p/pycompile/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 18:21:19] INFO root fetch - processPackages [Poutyne]: Downloading https://files.pythonhosted.org/packages/3c/53/3791e4804a49adb8b209bae011bac2ac60c5afd40a17cbbd87706adbf918/Poutyne-1.9.tar.gz
+[2023-07-09 18:21:20] INFO root fetch - processPackages [sdss-lvmcam]: executing diffoscope
+[2023-07-09 18:21:20] INFO root fetch - processPackages [sdss-lvmcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_lvmcam-0.3.3.tar.gz tmp/sdss_lvmcam-0.3.5.tar.gz --markdown 20230709/s/sdss-lvmcam/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 18:21:20] INFO root fetch - processPackages [Poutyne]: executing diffoscope
+[2023-07-09 18:21:20] INFO root fetch - processPackages [Poutyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Poutyne-1.8.tar.gz tmp/Poutyne-1.9.tar.gz --markdown 20230709/P/Poutyne/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-09 18:21:20] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 18:21:20] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 18:21:20] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [vantiqservicesdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqservicesdk-0.0.1.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [vantiqservicesdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqservicesdk-0.0.2.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [vantiqservicesdk]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.3.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.5.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [digquery]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [sdss-lvmcam]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmcam-0.3.3.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [sdss-lvmcam]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmcam-0.3.5.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [sdss-lvmcam]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [spinfinder]: Remove: archive file [/home/abi/fetcher/tmp/spinfinder-0.0.2.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [spinfinder]: Remove: archive file [/home/abi/fetcher/tmp/spinfinder-0.0.3.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [spinfinder]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [pycompile]: Remove: archive file [/home/abi/fetcher/tmp/pycompile-0.1.7.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [pycompile]: Remove: archive file [/home/abi/fetcher/tmp/pycompile-0.1.9.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [pycompile]: success
+[2023-07-09 18:21:21] INFO root fetch - processPackages [Poutyne]: Remove: archive file [/home/abi/fetcher/tmp/Poutyne-1.8.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - processPackages [Poutyne]: Remove: archive file [/home/abi/fetcher/tmp/Poutyne-1.9.tar.gz]
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [Poutyne]: success
+[2023-07-09 18:21:21] INFO root fetch - main [MainThread]: Store serial: [18821767]

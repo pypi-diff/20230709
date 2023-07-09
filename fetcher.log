@@ -15849,3 +15849,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:31:41] INFO root fetch - processPackages [klujax]: Remove: archive file [/home/abi/fetcher/tmp/klujax-0.2.2-pp39-pypy39_pp73-win_amd64.whl.zip]
 [2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [klujax]: success
 [2023-07-09 22:31:41] INFO root fetch - main [MainThread]: Store serial: [18823243]
+[2023-07-09 22:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823243]
+[2023-07-09 22:36:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-payments-khipu
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WifiOrca
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yadoma
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-vedo-bridge
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ps-fancywallet
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkdb-data
+[2023-07-09 22:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dotscli
+[2023-07-09 22:36:50] INFO root fetch - processPackages [django-payments-khipu]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 22:36:50] INFO root fetch - processPackages [pkdb-data]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 22:36:50] WARNING root fetch - processPackages [ps-fancywallet]: Skipping, unable to determine old version
+[2023-07-09 22:36:50] INFO root fetch - main [MainThread]: End processing [ps-fancywallet] error
+[2023-07-09 22:36:50] INFO root fetch - processPackages [napari-vedo-bridge]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 22:36:50] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 22:36:50] WARNING root fetch - processPackages [yadoma]: Skipping, unable to determine old version
+[2023-07-09 22:36:50] INFO root fetch - main [MainThread]: End processing [yadoma] error
+[2023-07-09 22:36:51] WARNING root fetch - processPackages [dotscli]: Skipping, unable to determine old version
+[2023-07-09 22:36:51] INFO root fetch - main [MainThread]: End processing [dotscli] error
+[2023-07-09 22:36:51] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [napari-vedo-bridge]: Downloading https://files.pythonhosted.org/packages/9c/d9/b80a8ba220643e5392256a39675dfe269bb2e573dd358b91799aebf7499a/napari-vedo-bridge-0.0.3.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [django-payments-khipu]: Downloading https://files.pythonhosted.org/packages/4e/4c/35a0808b14eb7b9488bbedb90ad62033ef693b17396f049315cbee6bd4c5/django_payments_khipu-0.1.1.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [pkdb-data]: Downloading https://files.pythonhosted.org/packages/73/ff/5fce4470fdcd09e4a41c29ad33c987c6c7428528bd055d7994951e57f269/pkdb_data-1.0.5.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 22:36:51] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 22:36:51] INFO root fetch - processPackages [napari-vedo-bridge]: Downloading https://files.pythonhosted.org/packages/27/e6/b38411deceae7c82ab3d88d134fb43190bca80ef946f9f1583b11f566337/napari-vedo-bridge-0.0.4.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [django-payments-khipu]: Downloading https://files.pythonhosted.org/packages/5a/15/66f32b0918624b76ade1cde4ff4b190e44fac49f9d9c1ef1155237fe6433/django_payments_khipu-0.1.2.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [napari-vedo-bridge]: executing diffoscope
+[2023-07-09 22:36:51] INFO root fetch - processPackages [napari-vedo-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-vedo-bridge-0.0.3.tar.gz tmp/napari-vedo-bridge-0.0.4.tar.gz --markdown 20230709/n/napari-vedo-bridge/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 22:36:51] INFO root fetch - processPackages [django-payments-khipu]: executing diffoscope
+[2023-07-09 22:36:51] INFO root fetch - processPackages [django-payments-khipu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_payments_khipu-0.1.1.tar.gz tmp/django_payments_khipu-0.1.2.tar.gz --markdown 20230709/d/django-payments-khipu/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 22:36:51] INFO root fetch - processPackages [pkdb-data]: Downloading https://files.pythonhosted.org/packages/81/0f/4a6589442b0e99f1e989fb69bef3b45e23d7c0247944adac2334c32289de/pkdb_data-1.0.6.tar.gz
+[2023-07-09 22:36:51] INFO root fetch - processPackages [pkdb-data]: executing diffoscope
+[2023-07-09 22:36:51] INFO root fetch - processPackages [pkdb-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkdb_data-1.0.5.tar.gz tmp/pkdb_data-1.0.6.tar.gz --markdown 20230709/p/pkdb-data/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 22:36:52] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 22:36:52] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 22:36:52] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 22:36:52] INFO root fetch - processPackages [napari-vedo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/napari-vedo-bridge-0.0.3.tar.gz]
+[2023-07-09 22:36:52] INFO root fetch - processPackages [napari-vedo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/napari-vedo-bridge-0.0.4.tar.gz]
+[2023-07-09 22:36:52] INFO root fetch - main [MainThread]: End processing [napari-vedo-bridge]: success
+[2023-07-09 22:36:52] INFO root fetch - processPackages [django-payments-khipu]: Remove: archive file [/home/abi/fetcher/tmp/django_payments_khipu-0.1.1.tar.gz]
+[2023-07-09 22:36:52] INFO root fetch - processPackages [django-payments-khipu]: Remove: archive file [/home/abi/fetcher/tmp/django_payments_khipu-0.1.2.tar.gz]
+[2023-07-09 22:36:52] INFO root fetch - main [MainThread]: End processing [django-payments-khipu]: success
+[2023-07-09 22:39:51] ERROR root fetch - processPackages [pkdb-data]: Timeout during execution of pkgdiff
+[2023-07-09 22:39:51] INFO root fetch - main [MainThread]: End processing [pkdb-data] error
+[2023-07-09 22:39:51] INFO root fetch - main [MainThread]: Store serial: [18823269]

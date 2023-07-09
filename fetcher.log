@@ -11074,3 +11074,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:47:33] INFO root fetch - processPackages [pandasmore]: Remove: archive file [/home/abi/fetcher/tmp/pandasmore-0.0.4.tar.gz]
 [2023-07-09 16:47:33] INFO root fetch - main [MainThread]: End processing [pandasmore]: success
 [2023-07-09 16:47:33] INFO root fetch - main [MainThread]: Store serial: [18821102]
+[2023-07-09 16:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821102]
+[2023-07-09 16:52:42] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coolhtml
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pileoffeather
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dek
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sydeploy
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsc-es
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embykeeper
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagshub
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xmod
+[2023-07-09 16:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lfinancial
+[2023-07-09 16:52:42] INFO root fetch - processPackages [dek]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc9] Old Version: [0.2.1rc8]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [tsc-es]: New version: [0.3] Old Version: [0.2]
+[2023-07-09 16:52:42] WARNING root fetch - processPackages [coolhtml]: Skipping, unable to determine old version
+[2023-07-09 16:52:42] INFO root fetch - processPackages [coolhtml]: Start processing: sparse-dok
+[2023-07-09 16:52:42] INFO root fetch - main [MainThread]: End processing [coolhtml] error
+[2023-07-09 16:52:42] INFO root fetch - processPackages [xmod]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-09 16:52:42] WARNING root fetch - processPackages [pileoffeather]: Skipping, unable to determine old version
+[2023-07-09 16:52:42] INFO root fetch - processPackages [pileoffeather]: Start processing: tdir
+[2023-07-09 16:52:42] INFO root fetch - main [MainThread]: End processing [pileoffeather] error
+[2023-07-09 16:52:42] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [lfinancial]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [embykeeper]: New version: [2.2.9] Old Version: [2.2.7]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [sparse-dok]: New version: [0.1.9.4] Old Version: [0.1.9.3]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [tdir]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-09 16:52:42] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/db/81/c99aa555e77babbb54bc32a7db7756d6b597fce7eefe699de505bf897517/sydeploy-0.2.1rc8.tar.gz
+[2023-07-09 16:52:42] INFO root fetch - processPackages [dek]: Downloading https://files.pythonhosted.org/packages/b0/ce/a08e4bf916a756eb7c7329956ee9af06f0550320cee79a084a5f219487ea/dek-1.1.0.tar.gz
+[2023-07-09 16:52:42] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/bb/c1/bccef52715094e98adb888ddd1daa11303b4ab4d7a1d031c385d74a921ff/sparse_dok-0.1.9.3.tar.gz
+[2023-07-09 16:52:42] INFO root fetch - processPackages [tsc-es]: Downloading https://files.pythonhosted.org/packages/2f/31/0ef3f24d587eeccc10b2184d5849f92fe1a543a6916b669f6ec52be893a2/tsc-es-0.2.tar.gz
+[2023-07-09 16:52:42] INFO root fetch - processPackages [xmod]: Downloading https://files.pythonhosted.org/packages/96/ef/ddfc9926e0e5a6e2b8a0bb08ac0e9f976ce53712f0d59fa673e7031dd00f/xmod-1.4.0.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/0d/f8/a9f96c11255f07e3c042b56ad482d8facb9a0cbe224405ae2e237631c637/dagshub-0.2.9.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/2f/e7/1d74c5658f775a0e79afbd26e241200c244778cb6ee0142cf27b0a03940d/embykeeper-2.2.7.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tdir]: Downloading https://files.pythonhosted.org/packages/ce/95/9c0722655a5918cf86a7a9c76ca56d0d1a20c010f048e1d34f74d45439da/tdir-1.5.0.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/5b/a1/763721673092831f0638898c6b33bceb0249a56807d92889148b09acef71/lfinancial-0.2.4.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dek]: Downloading https://files.pythonhosted.org/packages/ac/73/984eb7513a8118b69074f4b755b77b0c23080825b5ee7963f90580a62940/dek-1.2.0.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/e1/01/bb8464b7883270fc22ba80c628f03a0fe8fbff7eaf22d5c8a3e8931317e4/sparse_dok-0.1.9.4.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc8.tar.gz tmp/sydeploy-0.2.1rc9.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc8-0.2.1rc9/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [xmod]: Downloading https://files.pythonhosted.org/packages/dd/a9/ec2e71ac7ab4da49391f9223ab456b0f1baed3d47cdf50208a6d8a73dcfe/xmod-1.5.0.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tsc-es]: Downloading https://files.pythonhosted.org/packages/83/9b/a9ef582486a77c57f6fd25cac939678496895a0e2cfce8b01c629ef8d815/tsc-es-0.3.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tdir]: Downloading https://files.pythonhosted.org/packages/a8/ad/eb650065704c58f5432e9fa65240868c7031f7028291872527f8b15d9566/tdir-1.6.0.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/26/2d/b5af421eb1c864c91f156c3d62be6ff8c4083a043f4720f5d597fe1f9a99/lfinancial-0.2.5.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dek]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dek-1.1.0.tar.gz tmp/dek-1.2.0.tar.gz --markdown 20230709/d/dek/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [xmod]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [xmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmod-1.4.0.tar.gz tmp/xmod-1.5.0.tar.gz --markdown 20230709/x/xmod/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/aa/16/2179b87888646548433ff20e89b82e6c44f64a1f4a29ccfc82b499fa01ad/embykeeper-2.2.9.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [sparse-dok]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [sparse-dok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dok-0.1.9.3.tar.gz tmp/sparse_dok-0.1.9.4.tar.gz --markdown 20230709/s/sparse-dok/0.1.9.3-0.1.9.4/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/72/6a/c087876d5854a64299ca4ff5af3363883236b89d4e6d16b482cd5797d6ce/dagshub-0.2.9.post1-py3-none-any.whl
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tdir]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdir-1.5.0.tar.gz tmp/tdir-1.6.0.tar.gz --markdown 20230709/t/tdir/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tsc-es]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [tsc-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsc-es-0.2.tar.gz tmp/tsc-es-0.3.tar.gz --markdown 20230709/t/tsc-es/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-09 16:52:43] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.7.tar.gz tmp/embykeeper-2.2.9.tar.gz --markdown 20230709/e/embykeeper/2.2.7-2.2.9/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230709/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-07-09 16:52:43] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-09 16:52:43] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.4.tar.gz tmp/lfinancial-0.2.5.tar.gz --markdown 20230709/l/lfinancial/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-09 16:52:44] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-09 16:52:44] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230709/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-09 16:52:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc8.tar.gz]
+[2023-07-09 16:52:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc9.tar.gz]
+[2023-07-09 16:52:44] INFO root fetch - processPackages [sydeploy]: Start processing: tsc-es
+[2023-07-09 16:52:44] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 16:52:44] INFO root fetch - processPackages [tsc-es]: New version: [0.3] Old Version: [0.2]
+[2023-07-09 16:52:44] INFO root fetch - processPackages [dek]: Remove: archive file [/home/abi/fetcher/tmp/dek-1.1.0.tar.gz]
+[2023-07-09 16:52:44] INFO root fetch - processPackages [dek]: Remove: archive file [/home/abi/fetcher/tmp/dek-1.2.0.tar.gz]
+[2023-07-09 16:52:44] INFO root fetch - processPackages [dek]: Start processing: sydeploy
+[2023-07-09 16:52:44] INFO root fetch - main [MainThread]: End processing [dek]: success
+[2023-07-09 16:52:44] INFO root fetch - processPackages [tsc-es]: executing diffoscope
+[2023-07-09 16:52:44] INFO root fetch - processPackages [tsc-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsc-es-0.2.tar.gz tmp/tsc-es-0.3.tar.gz --markdown 20230709/t/tsc-es/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc9] Old Version: [0.2.1rc8]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/db/81/c99aa555e77babbb54bc32a7db7756d6b597fce7eefe699de505bf897517/sydeploy-0.2.1rc8.tar.gz
+[2023-07-09 16:52:45] INFO root fetch - processPackages [xmod]: Remove: archive file [/home/abi/fetcher/tmp/xmod-1.4.0.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [xmod]: Remove: archive file [/home/abi/fetcher/tmp/xmod-1.5.0.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [xmod]: Start processing: bantam
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [xmod]: success
+[2023-07-09 16:52:45] INFO root fetch - processPackages [bantam]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.2.9.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [dagshub]: Start processing: pyBPPIBridge
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-09 16:52:45] INFO root fetch - processPackages [tdir]: Remove: archive file [/home/abi/fetcher/tmp/tdir-1.5.0.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [tdir]: Remove: archive file [/home/abi/fetcher/tmp/tdir-1.6.0.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [tdir]: success
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 16:52:45] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.4.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.5.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-09 16:52:45] INFO root fetch - processPackages [tsc-es]: Remove: archive file [/home/abi/fetcher/tmp/tsc-es-0.2.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [tsc-es]: Remove: archive file [/home/abi/fetcher/tmp/tsc-es-0.3.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [tsc-es]: success
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.3.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.4.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [sparse-dok]: success
+[2023-07-09 16:52:45] WARNING root fetch - processPackages [pyBPPIBridge]: Skipping, unable to determine old version
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [pyBPPIBridge] error
+[2023-07-09 16:52:45] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/f1/8d/ac8edecfe0d365b32b4acdd8338997eab86588a5881d7ac0c3357dd0ed8d/bantam-2.4.6.tar.gz
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 16:52:45] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc8.tar.gz tmp/sydeploy-0.2.1rc9.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc8-0.2.1rc9/diff.md --exclude *.pyd
+[2023-07-09 16:52:45] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.7.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.9.tar.gz]
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-07-09 16:52:45] ERROR root fetch - processPackages [tsc-es]: Diffoscope failed: time="2023-07-09T16:52:45+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/tsc-es-0.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/tsc-es-0.3.tar.gz: No such file or directory
+
+[2023-07-09 16:52:45] INFO root fetch - main [MainThread]: End processing [tsc-es] error
+[2023-07-09 16:52:45] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/ba/d0/a0c3c20e2e242aeb95a3a6a11a5ecabe615e6a507743bb467efe06b5a772/bantam-2.4.7.tar.gz
+[2023-07-09 16:52:46] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-07-09 16:52:46] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.4.6.tar.gz tmp/bantam-2.4.7.tar.gz --markdown 20230709/b/bantam/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-07-09 16:52:46] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc8.tar.gz]
+[2023-07-09 16:52:46] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc9.tar.gz]
+[2023-07-09 16:52:46] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 16:52:46] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.6.tar.gz]
+[2023-07-09 16:52:46] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.7.tar.gz]
+[2023-07-09 16:52:46] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-07-09 16:52:53] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-09 16:52:53] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-09 16:52:53] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-09 16:52:53] INFO root fetch - main [MainThread]: Store serial: [18821154]

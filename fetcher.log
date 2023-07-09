@@ -9694,3 +9694,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:33:58] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.6.1.tar.gz]
 [2023-07-09 15:33:58] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-09 15:33:58] INFO root fetch - main [MainThread]: Store serial: [18820467]
+[2023-07-09 15:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820467]
+[2023-07-09 15:39:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-zip-folders
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comwatt-client
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tonpy
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wcc-timetable-generator
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ir-client
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swanapi
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensimplex
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comwatt-client
+[2023-07-09 15:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: impose-cli
+[2023-07-09 15:39:08] INFO root fetch - processPackages [mkdocs-zip-folders]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [comwatt-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [opensimplex]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [swanapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [comwatt-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [ir-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [impose-cli]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [tonpy]: New version: [0.0.0.0.4b0] Old Version: [0.0.0.0.3a0]
+[2023-07-09 15:39:08] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/9c/13/b040728db71e8954ed9ed7e6077201ff90f373316845de5e3393ea81bbe4/swanapi-0.1.4-py3-none-any.whl
+[2023-07-09 15:39:08] INFO root fetch - processPackages [ir-client]: Downloading https://files.pythonhosted.org/packages/f3/ea/a6630571cedb504179763d2174829191501693d3b9e07146cc5480d738a4/ir_client-0.1.0.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-09 15:39:08] INFO root fetch - processPackages [mkdocs-zip-folders]: Downloading https://files.pythonhosted.org/packages/a8/b0/6cf1cc85822186e0bf8d69b89b27b29d3ff341b0fbe9ec321c46bae96804/mkdocs-zip-folders-1.0.2.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/eb/b5/ccea14e162306090389c008b0bb5603f17acc42d935cb3fede292e41eb93/wcc-timetable-generator-1.1.2.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [opensimplex]: Downloading https://files.pythonhosted.org/packages/64/7f/c4752a9b3c81fd65b4b59ae4fe3e0369f4197865bb35a691114219d23924/opensimplex-0.4.4.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [comwatt-client]: Downloading https://files.pythonhosted.org/packages/8b/c8/be7965040dd5991a71ade79bf37d71a7bbadbf6fef29921adee1e2f85b89/comwatt-client-0.1.4.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [comwatt-client]: Downloading https://files.pythonhosted.org/packages/8b/c8/be7965040dd5991a71ade79bf37d71a7bbadbf6fef29921adee1e2f85b89/comwatt-client-0.1.4.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [tonpy]: Downloading https://files.pythonhosted.org/packages/6e/9b/60d138458decaab90029e21855c496f5079b8b490b5c82941204b9393dd8/tonpy-0.0.0.0.3a0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-09 15:39:08] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/fa/da/e981b7751b69375e3022657d7d2f9107b8ba4cd228dbbe0473aa3aab6e0d/impose-cli-0.3.1.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-09 15:39:08] INFO root fetch - processPackages [ir-client]: Downloading https://files.pythonhosted.org/packages/42/ef/c6e84730b3175970d8cba8be1bc522f9353333c977e3031766729f0043a6/ir_client-0.1.1.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/92/b7/6ae0947b50de6e664647799e5958bf65cc0db340684cccc87f52cfd1a50a/swanapi-0.1.5-py3-none-any.whl
+[2023-07-09 15:39:08] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/b0/8d/b16a80a2a646546fad6354f3745f17c8adeb01b4ae158516d9ef10ea49a5/wcc-timetable-generator-1.2.0.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [mkdocs-zip-folders]: Downloading https://files.pythonhosted.org/packages/95/53/e9deff52dc3a5a07b48fcda2361913be2ed5d09e1325cc2e22d90adb1919/mkdocs-zip-folders-1.0.3.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [opensimplex]: Downloading https://files.pythonhosted.org/packages/15/34/6d317790b710cac4e3565b9d2f2ffacd01a126a4ec728a1b935c80742e75/opensimplex-0.4.5.tar.gz
+[2023-07-09 15:39:08] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/a8/36/f2e93322e977b705d5a8ad9fde03333fcef75452dc8fb2bce3f08f22c869/impose-cli-0.3.2.tar.gz
+[2023-07-09 15:39:09] INFO root fetch - processPackages [ir-client]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [ir-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_client-0.1.0.tar.gz tmp/ir_client-0.1.1.tar.gz --markdown 20230709/i/ir-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230709/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [comwatt-client]: Downloading https://files.pythonhosted.org/packages/a6/c7/f8d767600a9fe72a877c235862c9d5149d8f0d3f9f29bf596690f3be63a8/comwatt-client-0.1.5.tar.gz
+[2023-07-09 15:39:09] INFO root fetch - processPackages [comwatt-client]: Downloading https://files.pythonhosted.org/packages/a6/c7/f8d767600a9fe72a877c235862c9d5149d8f0d3f9f29bf596690f3be63a8/comwatt-client-0.1.5.tar.gz
+[2023-07-09 15:39:09] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.4-py3-none-any.whl.zip tmp/swanapi-0.1.5-py3-none-any.whl.zip --markdown 20230709/s/swanapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-1.1.2.tar.gz tmp/wcc-timetable-generator-1.2.0.tar.gz --markdown 20230709/w/wcc-timetable-generator/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [mkdocs-zip-folders]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [mkdocs-zip-folders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-zip-folders-1.0.2.tar.gz tmp/mkdocs-zip-folders-1.0.3.tar.gz --markdown 20230709/m/mkdocs-zip-folders/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [opensimplex]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [opensimplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensimplex-0.4.4.tar.gz tmp/opensimplex-0.4.5.tar.gz --markdown 20230709/o/opensimplex/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.3.1.tar.gz tmp/impose-cli-0.3.2.tar.gz --markdown 20230709/i/impose-cli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [comwatt-client]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [comwatt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comwatt-client-0.1.4.tar.gz tmp/comwatt-client-0.1.5.tar.gz --markdown 20230709/c/comwatt-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 15:39:09] INFO root fetch - processPackages [comwatt-client]: executing diffoscope
+[2023-07-09 15:39:09] INFO root fetch - processPackages [comwatt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comwatt-client-0.1.4.tar.gz tmp/comwatt-client-0.1.5.tar.gz --markdown 20230709/c/comwatt-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 15:39:10] INFO root fetch - processPackages [ir-client]: Remove: archive file [/home/abi/fetcher/tmp/ir_client-0.1.0.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [ir-client]: Remove: archive file [/home/abi/fetcher/tmp/ir_client-0.1.1.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [ir-client]: Start processing: duckduckgo-translate
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [ir-client]: success
+[2023-07-09 15:39:10] WARNING root fetch - processPackages [duckduckgo-translate]: Skipping, unable to determine old version
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [duckduckgo-translate] error
+[2023-07-09 15:39:10] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.1.2.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.2.0.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-09 15:39:10] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.4-py3-none-any.whl.zip]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.5-py3-none-any.whl.zip]
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-09 15:39:10] INFO root fetch - processPackages [comwatt-client]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-client-0.1.4.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [comwatt-client]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-client-0.1.5.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [comwatt-client]: success
+[2023-07-09 15:39:10] INFO root fetch - processPackages [opensimplex]: Remove: archive file [/home/abi/fetcher/tmp/opensimplex-0.4.4.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [opensimplex]: Remove: archive file [/home/abi/fetcher/tmp/opensimplex-0.4.5.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [opensimplex]: success
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [comwatt-client]: success
+[2023-07-09 15:39:10] INFO root fetch - processPackages [mkdocs-zip-folders]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-zip-folders-1.0.2.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [mkdocs-zip-folders]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-zip-folders-1.0.3.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [mkdocs-zip-folders]: success
+[2023-07-09 15:39:10] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.1.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.2.tar.gz]
+[2023-07-09 15:39:10] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 15:39:10] INFO root fetch - processPackages [tonpy]: Downloading https://files.pythonhosted.org/packages/83/64/c3027763a4753c9f72751bf1bdd8eec4f85e6647b939edab8e137e65d6a6/tonpy-0.0.0.0.4b0-cp311-cp311-win_amd64.whl
+[2023-07-09 15:39:11] INFO root fetch - processPackages [tonpy]: executing diffoscope
+[2023-07-09 15:39:11] INFO root fetch - processPackages [tonpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonpy-0.0.0.0.3a0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tonpy-0.0.0.0.4b0-cp311-cp311-win_amd64.whl.zip --markdown 20230709/t/tonpy/0.0.0.0.3a0-0.0.0.0.4b0/diff.md --exclude *.pyd
+[2023-07-09 15:39:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-09 15:39:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-09 15:39:11] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-09 15:39:12] INFO root fetch - processPackages [tonpy]: Remove: archive file [/home/abi/fetcher/tmp/tonpy-0.0.0.0.3a0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-09 15:39:12] INFO root fetch - processPackages [tonpy]: Remove: archive file [/home/abi/fetcher/tmp/tonpy-0.0.0.0.4b0-cp311-cp311-win_amd64.whl.zip]
+[2023-07-09 15:39:12] INFO root fetch - main [MainThread]: End processing [tonpy]: success
+[2023-07-09 15:39:12] INFO root fetch - main [MainThread]: Store serial: [18820508]

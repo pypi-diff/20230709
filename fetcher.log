@@ -16629,3 +16629,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:21:48] INFO root fetch - main [MainThread]: End processing [sdr]: success
 [2023-07-09 23:21:48] INFO root fetch - main [MainThread]: End processing [matplotlib-ai]: success
 [2023-07-09 23:21:48] INFO root fetch - main [MainThread]: Store serial: [18823571]
+[2023-07-09 23:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823571]
+[2023-07-09 23:26:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XPER
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nuitka
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overfast-py
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlt
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhowdoi
+[2023-07-09 23:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sydeploy
+[2023-07-09 23:26:57] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc0] Old Version: [0.2.7]
+[2023-07-09 23:26:57] INFO root fetch - processPackages [dlt]: New version: [0.3.3a0] Old Version: [0.3.3]
+[2023-07-09 23:26:57] INFO root fetch - processPackages [overfast-py]: New version: [1.2] Old Version: [1.1]
+[2023-07-09 23:26:57] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc0] Old Version: [0.2.7]
+[2023-07-09 23:26:57] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 23:26:57] INFO root fetch - processPackages [Nuitka]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-09 23:26:57] WARNING root fetch - processPackages [pyhowdoi]: Skipping, unable to determine old version
+[2023-07-09 23:26:57] INFO root fetch - main [MainThread]: End processing [pyhowdoi] error
+[2023-07-09 23:26:57] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/18/59/16840e6eb6c7f2baf9c14c2d67fd567bd79fd1c6d5184f48a6269f6c6203/sydeploy-0.2.7-py3-none-any.whl
+[2023-07-09 23:26:57] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/18/59/16840e6eb6c7f2baf9c14c2d67fd567bd79fd1c6d5184f48a6269f6c6203/sydeploy-0.2.7-py3-none-any.whl
+[2023-07-09 23:26:57] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/78/cd/c9354d30fbdd28b70458baf87f99b6316c8ccfcfd8c3171d31bcc682099d/dlt-0.3.3.tar.gz
+[2023-07-09 23:26:58] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-07-09 23:26:58] INFO root fetch - processPackages [overfast-py]: Downloading https://files.pythonhosted.org/packages/42/d0/58fbb8718d11b4390a40816ff7a0ccd331e5cb7c0eeaedab931160912e93/overfast-py-1.1.tar.gz
+[2023-07-09 23:26:58] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/c6/3c/5dbcc3c1f5e0dc1140a6e235c19107038d29b1058879add5af7527b075d7/Nuitka-1.7.2.tar.gz
+[2023-07-09 23:26:58] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/67/f0/d94ae822087f5dbc25f3a815cc7b3bb3a179573ec7ac60b3d820118b25ab/sydeploy-0.2.7rc0-py3-none-any.whl
+[2023-07-09 23:26:58] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/67/f0/d94ae822087f5dbc25f3a815cc7b3bb3a179573ec7ac60b3d820118b25ab/sydeploy-0.2.7rc0-py3-none-any.whl
+[2023-07-09 23:26:58] INFO root fetch - processPackages [overfast-py]: Downloading https://files.pythonhosted.org/packages/fc/58/f28705cd4e4b80127ae0137ad77c99d11a29eb478b35b9da8b9850b27d83/overfast-py-1.2.tar.gz
+[2023-07-09 23:26:58] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:26:58] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc0-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7-0.2.7rc0/diff.md --exclude *.pyd
+[2023-07-09 23:26:58] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:26:58] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc0-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7-0.2.7rc0/diff.md --exclude *.pyd
+[2023-07-09 23:26:58] INFO root fetch - processPackages [overfast-py]: executing diffoscope
+[2023-07-09 23:26:58] INFO root fetch - processPackages [overfast-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overfast-py-1.1.tar.gz tmp/overfast-py-1.2.tar.gz --markdown 20230709/o/overfast-py/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-09 23:26:58] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-07-09 23:26:58] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.3.tar.gz tmp/dlt-0.3.3a0.tar.gz --markdown 20230709/d/dlt/0.3.3-0.3.3a0/diff.md --exclude *.pyd
+[2023-07-09 23:26:58] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/89/d0/f86bf48364312153fd3e25af8e401ea3154270fa734fed79d47567e20da0/Nuitka-1.7.3.tar.gz
+[2023-07-09 23:26:58] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-07-09 23:26:58] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.7.2.tar.gz tmp/Nuitka-1.7.3.tar.gz --markdown 20230709/N/Nuitka/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-09 23:26:59] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-07-09 23:26:59] INFO root fetch - processPackages [overfast-py]: Remove: archive file [/home/abi/fetcher/tmp/overfast-py-1.1.tar.gz]
+[2023-07-09 23:26:59] INFO root fetch - processPackages [overfast-py]: Remove: archive file [/home/abi/fetcher/tmp/overfast-py-1.2.tar.gz]
+[2023-07-09 23:26:59] INFO root fetch - main [MainThread]: End processing [overfast-py]: success
+[2023-07-09 23:26:59] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.3.tar.gz]
+[2023-07-09 23:26:59] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.3a0.tar.gz]
+[2023-07-09 23:26:59] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-07-09 23:26:59] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7-py3-none-any.whl.zip]
+[2023-07-09 23:26:59] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc0-py3-none-any.whl.zip]
+[2023-07-09 23:26:59] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:26:59] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:26:59] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-07-09 23:26:59] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230709/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:27:01] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-07-09 23:27:01] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-07-09 23:27:01] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-07-09 23:27:15] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.2.tar.gz]
+[2023-07-09 23:27:15] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.3.tar.gz]
+[2023-07-09 23:27:15] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-07-09 23:27:15] INFO root fetch - main [MainThread]: Store serial: [18823593]

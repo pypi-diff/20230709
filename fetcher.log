@@ -11978,3 +11978,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:39:44] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
 [2023-07-09 17:39:44] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
 [2023-07-09 17:39:44] INFO root fetch - main [MainThread]: Store serial: [18821482]
+[2023-07-09 17:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821482]
+[2023-07-09 17:44:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-amazon
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roblox-pyc
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statprocon
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kedixa
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculator-MU
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sketchpy
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hat-event
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zein
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyOfficeRobot
+[2023-07-09 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gps-data-codec
+[2023-07-09 17:44:53] INFO root fetch - processPackages [hat-event]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:44:53] WARNING root fetch - processPackages [statprocon]: Skipping, unable to determine old version
+[2023-07-09 17:44:53] INFO root fetch - processPackages [statprocon]: Start processing: heliostrome
+[2023-07-09 17:44:53] INFO root fetch - main [MainThread]: End processing [statprocon] error
+[2023-07-09 17:44:53] INFO root fetch - processPackages [roblox-pyc]: New version: [1.5.6.3] Old Version: [1.5.6.2]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [PyOfficeRobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [calculator-MU]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [kedixa]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [apache-airflow-providers-amazon]: New version: [8.3.0rc4] Old Version: [8.3.0rc3]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [sketchpy]: New version: [0.1.5] Old Version: [0.1.0]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [gps-data-codec]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-09 17:44:53] WARNING root fetch - processPackages [heliostrome]: Skipping, unable to determine old version
+[2023-07-09 17:44:53] INFO root fetch - processPackages [heliostrome]: Start processing: roblox-pyc
+[2023-07-09 17:44:53] INFO root fetch - main [MainThread]: End processing [heliostrome] error
+[2023-07-09 17:44:53] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [roblox-pyc]: New version: [1.5.6.3] Old Version: [1.5.6.2]
+[2023-07-09 17:44:53] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/74/30/52cacd0f387ff4a872f1396529ab55928dfd5e5d2cfc92b673e795e2ad0e/calculator_MU-1.0.2.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/1a/fc/ef7bef58ba9a0991e707f7bb4528ce6819a9989e66d054e78354f5799d12/apache-airflow-providers-amazon-8.3.0rc3.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/be/c8/639987442f60b1e34ad1ddbffb4a01e7ea395f8ce8fb408f318f7aeedf3c/hat_event-0.8.7-cp39-cp39-win_amd64.whl
+[2023-07-09 17:44:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/a5/b7/3eff27e49a3bb08011ae5bb0347eed16f32d967c66587699589e6dc164ac/roblox-pyc-1.5.6.2.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [kedixa]: Downloading https://files.pythonhosted.org/packages/79/13/b64ea72b1167d99b0fa9ef9bc70c24a5faca3713edbe1de761f57d538ab8/kedixa-0.0.4-py3-none-any.whl
+[2023-07-09 17:44:53] INFO root fetch - processPackages [gps-data-codec]: Downloading https://files.pythonhosted.org/packages/01/08/a63a4b115750c516d86fc70ab710bd30e111e08ac7e6f51928154a82a480/gps_data_codec-1.5.4.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/3a/64/e88ae96b6c77425fd77d6df8dd7619b3c8d01739859071f496bbbc9a8995/sketchpy-0.1.0.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/a5/b7/3eff27e49a3bb08011ae5bb0347eed16f32d967c66587699589e6dc164ac/roblox-pyc-1.5.6.2.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/0b/13/410b2ac69578d9cf898d862d5e3198062ef71c452c1f8f3456648518b9a1/PyOfficeRobot-0.1.8.tar.gz
+[2023-07-09 17:44:53] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/8d/ad/d716200dd5de746f5b988b7379c301c3b61fd26f4b72fe23b8079a1b3949/calculator_MU-1.0.3.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/6b/ec/d85421ff497955d2ed39a70274c1532038cbeb4213c6ffd586ae90acc927/apache-airflow-providers-amazon-8.3.0rc4.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/c2/06/591a8f82255b3dccfe009f93aec353a1b0f077f6379316fd5473e25d314b/hat_event-0.8.8-cp310.cp311-abi3-win_amd64.whl
+[2023-07-09 17:44:54] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [gps-data-codec]: Downloading https://files.pythonhosted.org/packages/1b/25/ce7a4ca69a2e93696e191f9e2092f02cdbae3d126bc3e8c4e53fec75edae/gps_data_codec-1.5.5-cp311-cp311-manylinux_2_28_x86_64.whl
+[2023-07-09 17:44:54] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/b3/e3/4cadf33404e9b5bcd401d3d77974a71b087ea8ffdd808bca355f91f2f96d/roblox-pyc-1.5.6.3.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/b3/e3/4cadf33404e9b5bcd401d3d77974a71b087ea8ffdd808bca355f91f2f96d/roblox-pyc-1.5.6.3.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [kedixa]: Downloading https://files.pythonhosted.org/packages/10/a7/7950a371dcbcc27029ffce2dd281dd692112abc677409d086bfed078cee9/kedixa-0.0.5-py3-none-any.whl
+[2023-07-09 17:44:54] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/fa/77/29cd3306ee82c99737060f7c11ac6f8cff06299df59d6492c0087997a5b0/sketchpy-0.1.5.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [calculator-MU]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [calculator-MU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_MU-1.0.2.tar.gz tmp/calculator_MU-1.0.3.tar.gz --markdown 20230709/c/calculator-MU/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [apache-airflow-providers-amazon]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [apache-airflow-providers-amazon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-amazon-8.3.0rc3.tar.gz tmp/apache-airflow-providers-amazon-8.3.0rc4.tar.gz --markdown 20230709/a/apache-airflow-providers-amazon/8.3.0rc3-8.3.0rc4/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/ea/6d/48e5222c0bebc1d0046c5baff5f51cc8516155ee4b4e0da044c2fed153d9/PyOfficeRobot-0.1.9.tar.gz
+[2023-07-09 17:44:54] INFO root fetch - processPackages [hat-event]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [hat-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_event-0.8.7-cp39-cp39-win_amd64.whl.zip tmp/hat_event-0.8.8-cp310.cp311-abi3-win_amd64.whl.zip --markdown 20230709/h/hat-event/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [kedixa]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [kedixa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedixa-0.0.4-py3-none-any.whl.zip tmp/kedixa-0.0.5-py3-none-any.whl.zip --markdown 20230709/k/kedixa/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [sketchpy]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [sketchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketchpy-0.1.0.tar.gz tmp/sketchpy-0.1.5.tar.gz --markdown 20230709/s/sketchpy/0.1.0-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.5.6.2.tar.gz tmp/roblox-pyc-1.5.6.3.tar.gz --markdown 20230709/r/roblox-pyc/1.5.6.2-1.5.6.3/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.5.6.2.tar.gz tmp/roblox-pyc-1.5.6.3.tar.gz --markdown 20230709/r/roblox-pyc/1.5.6.2-1.5.6.3/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [PyOfficeRobot]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [PyOfficeRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOfficeRobot-0.1.8.tar.gz tmp/PyOfficeRobot-0.1.9.tar.gz --markdown 20230709/P/PyOfficeRobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 17:44:54] INFO root fetch - processPackages [gps-data-codec]: executing diffoscope
+[2023-07-09 17:44:54] INFO root fetch - processPackages [gps-data-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_data_codec-1.5.4.tar.gz tmp/gps_data_codec-1.5.5-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20230709/g/gps-data-codec/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-09 17:44:55] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.2.tar.gz]
+[2023-07-09 17:44:55] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.3.tar.gz]
+[2023-07-09 17:44:55] INFO root fetch - processPackages [calculator-MU]: Start processing: mlflow-registry-mongostore
+[2023-07-09 17:44:55] INFO root fetch - main [MainThread]: End processing [calculator-MU]: success
+[2023-07-09 17:44:55] INFO root fetch - processPackages [mlflow-registry-mongostore]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 17:44:55] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:44:55] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:44:55] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:44:55] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/f0/f7/b8f38e40fab2c1a43fed210faf811cd4ff3b929b54c9bc7ff58c5883d4c0/mlflow_registry_mongostore-0.1.4-py3-none-any.whl
+[2023-07-09 17:44:56] INFO root fetch - processPackages [gps-data-codec]: Remove: archive file [/home/abi/fetcher/tmp/gps_data_codec-1.5.4.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [gps-data-codec]: Remove: archive file [/home/abi/fetcher/tmp/gps_data_codec-1.5.5-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [gps-data-codec]: success
+[2023-07-09 17:44:56] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.6.2.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.6.3.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 17:44:56] INFO root fetch - processPackages [PyOfficeRobot]: Remove: archive file [/home/abi/fetcher/tmp/PyOfficeRobot-0.1.8.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [PyOfficeRobot]: Remove: archive file [/home/abi/fetcher/tmp/PyOfficeRobot-0.1.9.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 17:44:56] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.0.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.5.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [sketchpy]: success
+[2023-07-09 17:44:56] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/14/36/ae7bb65750440b638dd85d01164e2d297c3150acdda1b6857fbbc662d16e/mlflow_registry_mongostore-0.1.5-py3-none-any.whl
+[2023-07-09 17:44:56] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.8.7-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.8.8-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [hat-event]: success
+[2023-07-09 17:44:56] INFO root fetch - processPackages [kedixa]: Remove: archive file [/home/abi/fetcher/tmp/kedixa-0.0.4-py3-none-any.whl.zip]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [kedixa]: Remove: archive file [/home/abi/fetcher/tmp/kedixa-0.0.5-py3-none-any.whl.zip]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [kedixa]: success
+[2023-07-09 17:44:56] INFO root fetch - processPackages [mlflow-registry-mongostore]: executing diffoscope
+[2023-07-09 17:44:56] INFO root fetch - processPackages [mlflow-registry-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_registry_mongostore-0.1.4-py3-none-any.whl.zip tmp/mlflow_registry_mongostore-0.1.5-py3-none-any.whl.zip --markdown 20230709/m/mlflow-registry-mongostore/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 17:44:56] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.3.0rc3.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.3.0rc4.tar.gz]
+[2023-07-09 17:44:56] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-amazon]: success
+[2023-07-09 17:44:57] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.4-py3-none-any.whl.zip]
+[2023-07-09 17:44:57] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.5-py3-none-any.whl.zip]
+[2023-07-09 17:44:57] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore]: success
+[2023-07-09 17:44:57] INFO root fetch - main [MainThread]: Store serial: [18821527]

@@ -1808,3 +1808,29 @@
 [2023-07-09 02:52:19] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
 [2023-07-09 02:52:19] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
 [2023-07-09 02:52:19] INFO root fetch - main [MainThread]: Store serial: [18816966]
+[2023-07-09 02:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816966]
+[2023-07-09 02:57:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 02:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2023-07-09 02:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seedwork-python
+[2023-07-09 02:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizproxy
+[2023-07-09 02:57:28] INFO root fetch - processPackages [seedwork-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 02:57:28] INFO root fetch - processPackages [wizproxy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-09 02:57:28] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-09 02:57:28] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-09 02:57:28] INFO root fetch - processPackages [seedwork-python]: Downloading https://files.pythonhosted.org/packages/d8/4a/d629a0415ab064b5f877cc386df581a68fddcb25474c34a36c88e57161b7/seedwork_python-0.1.0.tar.gz
+[2023-07-09 02:57:28] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-09 02:57:28] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-09 02:57:28] INFO root fetch - processPackages [wizproxy]: Downloading https://files.pythonhosted.org/packages/87/65/e8976643c95c47cd06a85a2f73b6ac44b4fed681d095e2aa909f6d397d47/wizproxy-0.1.0.tar.gz
+[2023-07-09 02:57:29] INFO root fetch - processPackages [seedwork-python]: Downloading https://files.pythonhosted.org/packages/fb/56/afb22b9ba46b711723fb599e1257368f09c17c4b7e72d657a7c08054b07c/seedwork_python-0.1.1.tar.gz
+[2023-07-09 02:57:29] INFO root fetch - processPackages [wizproxy]: Downloading https://files.pythonhosted.org/packages/53/2f/07df1d2e9676634c734281888d5fd3c45512fc50ef38f4c0f2dec266526a/wizproxy-0.2.0.tar.gz
+[2023-07-09 02:57:29] INFO root fetch - processPackages [seedwork-python]: executing diffoscope
+[2023-07-09 02:57:29] INFO root fetch - processPackages [seedwork-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedwork_python-0.1.0.tar.gz tmp/seedwork_python-0.1.1.tar.gz --markdown 20230709/s/seedwork-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 02:57:29] INFO root fetch - processPackages [wizproxy]: executing diffoscope
+[2023-07-09 02:57:29] INFO root fetch - processPackages [wizproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizproxy-0.1.0.tar.gz tmp/wizproxy-0.2.0.tar.gz --markdown 20230709/w/wizproxy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 02:57:30] INFO root fetch - processPackages [seedwork-python]: Remove: archive file [/home/abi/fetcher/tmp/seedwork_python-0.1.0.tar.gz]
+[2023-07-09 02:57:30] INFO root fetch - processPackages [seedwork-python]: Remove: archive file [/home/abi/fetcher/tmp/seedwork_python-0.1.1.tar.gz]
+[2023-07-09 02:57:30] INFO root fetch - main [MainThread]: End processing [seedwork-python]: success
+[2023-07-09 02:57:30] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.1.0.tar.gz]
+[2023-07-09 02:57:30] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.2.0.tar.gz]
+[2023-07-09 02:57:30] INFO root fetch - main [MainThread]: End processing [wizproxy]: success
+[2023-07-09 02:57:30] INFO root fetch - main [MainThread]: Store serial: [18816977]

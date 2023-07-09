@@ -14634,3 +14634,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:07:54] INFO root fetch - processPackages [drf-api-logger]: Remove: archive file [/home/abi/fetcher/tmp/drf_api_logger-1.1.12.tar.gz]
 [2023-07-09 21:07:54] INFO root fetch - main [MainThread]: End processing [drf-api-logger]: success
 [2023-07-09 21:07:54] INFO root fetch - main [MainThread]: Store serial: [18822638]
+[2023-07-09 21:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822638]
+[2023-07-09 21:13:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pysor
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: searchenginepy
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncpg-stubs
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crankshaft
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchenginepy
+[2023-07-09 21:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sou-meraki
+[2023-07-09 21:13:03] INFO root fetch - processPackages [asyncpg-stubs]: New version: [0.28.0] Old Version: [0.27.1]
+[2023-07-09 21:13:03] INFO root fetch - processPackages [crankshaft]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-09 21:13:03] INFO root fetch - processPackages [searchenginepy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 21:13:03] INFO root fetch - processPackages [searchenginepy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 21:13:03] WARNING root fetch - processPackages [Pysor]: Skipping, unable to determine old version
+[2023-07-09 21:13:03] INFO root fetch - main [MainThread]: End processing [Pysor] error
+[2023-07-09 21:13:03] WARNING root fetch - processPackages [sou-meraki]: Skipping, unable to determine old version
+[2023-07-09 21:13:03] INFO root fetch - main [MainThread]: End processing [sou-meraki] error
+[2023-07-09 21:13:03] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-09 21:13:03] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/1d/5b/addc109afb4d6e2faa966249778bc32bb34ced4620ff4822bb67bc3074ab/crankshaft-0.5.0.tar.gz
+[2023-07-09 21:13:03] INFO root fetch - processPackages [asyncpg-stubs]: Downloading https://files.pythonhosted.org/packages/83/6f/dc5f6862ffeabb4a09ebf4f985246896ef4a5c540a1e2dba1e756b13d005/asyncpg_stubs-0.27.1.tar.gz
+[2023-07-09 21:13:03] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-09 21:13:03] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/8d/9c/ea881c5e50a7533c1155115b613fb0943d0b3468fb2f8ae76bfe852a278a/searchenginepy-0.1.1.tar.gz
+[2023-07-09 21:13:03] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/8d/9c/ea881c5e50a7533c1155115b613fb0943d0b3468fb2f8ae76bfe852a278a/searchenginepy-0.1.1.tar.gz
+[2023-07-09 21:13:03] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/88/78/d2411029ffb0d513f8ae00250d4a5d4538df25ef3f4f7e6e21f6dbca53e9/crankshaft-0.6.0.tar.gz
+[2023-07-09 21:13:03] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-09 21:13:03] INFO root fetch - processPackages [asyncpg-stubs]: Downloading https://files.pythonhosted.org/packages/a5/76/54de2cfecb18d12e41838c5f226d83ad7fa9ad05d196f6543b763154ad54/asyncpg_stubs-0.28.0.tar.gz
+[2023-07-09 21:13:03] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-07-09 21:13:03] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.5.0.tar.gz tmp/crankshaft-0.6.0.tar.gz --markdown 20230709/c/crankshaft/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 21:13:03] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-09 21:13:03] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230709/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 21:13:03] INFO root fetch - processPackages [asyncpg-stubs]: executing diffoscope
+[2023-07-09 21:13:03] INFO root fetch - processPackages [asyncpg-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpg_stubs-0.27.1.tar.gz tmp/asyncpg_stubs-0.28.0.tar.gz --markdown 20230709/a/asyncpg-stubs/0.27.1-0.28.0/diff.md --exclude *.pyd
+[2023-07-09 21:13:04] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/2e/15/4a610c870009a42d23ec3c28d46957f1c7e27f5eb4fe7250f2bf054b1141/searchenginepy-0.1.2.tar.gz
+[2023-07-09 21:13:04] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/2e/15/4a610c870009a42d23ec3c28d46957f1c7e27f5eb4fe7250f2bf054b1141/searchenginepy-0.1.2.tar.gz
+[2023-07-09 21:13:04] INFO root fetch - processPackages [searchenginepy]: executing diffoscope
+[2023-07-09 21:13:04] INFO root fetch - processPackages [searchenginepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchenginepy-0.1.1.tar.gz tmp/searchenginepy-0.1.2.tar.gz --markdown 20230709/s/searchenginepy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 21:13:04] INFO root fetch - processPackages [searchenginepy]: executing diffoscope
+[2023-07-09 21:13:04] INFO root fetch - processPackages [searchenginepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchenginepy-0.1.1.tar.gz tmp/searchenginepy-0.1.2.tar.gz --markdown 20230709/s/searchenginepy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 21:13:04] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.5.0.tar.gz]
+[2023-07-09 21:13:04] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.6.0.tar.gz]
+[2023-07-09 21:13:04] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-07-09 21:13:05] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-09 21:13:05] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-09 21:13:05] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-09 21:13:05] INFO root fetch - processPackages [asyncpg-stubs]: Remove: archive file [/home/abi/fetcher/tmp/asyncpg_stubs-0.27.1.tar.gz]
+[2023-07-09 21:13:05] INFO root fetch - processPackages [asyncpg-stubs]: Remove: archive file [/home/abi/fetcher/tmp/asyncpg_stubs-0.28.0.tar.gz]
+[2023-07-09 21:13:05] INFO root fetch - main [MainThread]: End processing [asyncpg-stubs]: success
+[2023-07-09 21:13:05] INFO root fetch - processPackages [searchenginepy]: Remove: archive file [/home/abi/fetcher/tmp/searchenginepy-0.1.1.tar.gz]
+[2023-07-09 21:13:05] INFO root fetch - processPackages [searchenginepy]: Remove: archive file [/home/abi/fetcher/tmp/searchenginepy-0.1.2.tar.gz]
+[2023-07-09 21:13:05] INFO root fetch - main [MainThread]: End processing [searchenginepy]: success
+[2023-07-09 21:13:05] INFO root fetch - main [MainThread]: End processing [searchenginepy]: success
+[2023-07-09 21:13:05] INFO root fetch - main [MainThread]: Store serial: [18822672]

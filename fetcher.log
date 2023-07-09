@@ -3950,3 +3950,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:17:36] INFO root fetch - processPackages [neotools]: Remove: archive file [/home/abi/fetcher/tmp/neotools-0.3.4.tar.gz]
 [2023-07-09 06:17:36] INFO root fetch - main [MainThread]: End processing [neotools]: success
 [2023-07-09 06:17:36] INFO root fetch - main [MainThread]: Store serial: [18817879]
+[2023-07-09 06:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817879]
+[2023-07-09 06:22:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redb-odm
+[2023-07-09 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-09 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartscoutscrape
+[2023-07-09 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lama-cleaner
+[2023-07-09 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: service-markets
+[2023-07-09 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logsparsersubsystem
+[2023-07-09 06:22:44] INFO root fetch - processPackages [smartscoutscrape]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 06:22:44] INFO root fetch - processPackages [service-markets]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-09 06:22:44] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-09 06:22:44] INFO root fetch - processPackages [redb-odm]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-09 06:22:44] INFO root fetch - processPackages [logsparsersubsystem]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 06:22:44] INFO root fetch - processPackages [lama-cleaner]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 06:22:44] INFO root fetch - processPackages [logsparsersubsystem]: Downloading https://files.pythonhosted.org/packages/32/56/89372528ec4d1818ebb912242eb09e9c1f7610f6059bdb112173ea7a1e92/logsparsersubsystem-1.0.1.tar.gz
+[2023-07-09 06:22:44] INFO root fetch - processPackages [smartscoutscrape]: Downloading https://files.pythonhosted.org/packages/e4/0d/e3941191e0163a37f60fcd0c56500c9b5dc836e863fdb5d91fa437de2663/smartscoutscrape-0.2.0.tar.gz
+[2023-07-09 06:22:44] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/56/6b/d1aa58a51a510c9ab3d3bc2e94095cb977c6aa20a0f127fb4a6e837d3f75/service_markets-0.3.7.tar.gz
+[2023-07-09 06:22:44] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-09 06:22:44] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/73/d0/78db5117099588f581a8e3d66aec04e366e1370664071ab7b037ef4667db/redb-odm-1.3.0.tar.gz
+[2023-07-09 06:22:44] WARNING root fetch - processPackages [logsparsersubsystem]: Skipping package: exceeds size limit 21592350>=10485760
+[2023-07-09 06:22:44] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
+[2023-07-09 06:22:45] INFO root fetch - processPackages [lama-cleaner]: Downloading https://files.pythonhosted.org/packages/a8/e2/a9cd3df1eb49d71d0a638f130dc55736a93e9ec0875fc526043a0ecdb529/lama-cleaner-1.2.1.tar.gz
+[2023-07-09 06:22:45] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/5e/3b/0a4c3bfe98ead735afe5f91dbb570e02c22995f0e7ad7c8c414c85dab416/service_markets-0.3.8.tar.gz
+[2023-07-09 06:22:45] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-09 06:22:45] INFO root fetch - processPackages [smartscoutscrape]: Downloading https://files.pythonhosted.org/packages/c1/72/0a9c8c98d8f4c56b7a5e44a434df5cd59877ac75af350262ce7e1c68501f/smartscoutscrape-0.2.1.tar.gz
+[2023-07-09 06:22:45] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/ab/cc/cb7e13884323d4bb711b43af430b6fbe53dac86f32b08f4d1ebb0c9cb1e9/redb-odm-1.3.1.tar.gz
+[2023-07-09 06:22:45] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 06:22:45] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.7.tar.gz tmp/service_markets-0.3.8.tar.gz --markdown 20230709/s/service-markets/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-09 06:22:45] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-09 06:22:45] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-09 06:22:45] INFO root fetch - processPackages [redb-odm]: executing diffoscope
+[2023-07-09 06:22:45] INFO root fetch - processPackages [redb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redb-odm-1.3.0.tar.gz tmp/redb-odm-1.3.1.tar.gz --markdown 20230709/r/redb-odm/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-09 06:22:45] INFO root fetch - processPackages [smartscoutscrape]: executing diffoscope
+[2023-07-09 06:22:45] INFO root fetch - processPackages [smartscoutscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartscoutscrape-0.2.0.tar.gz tmp/smartscoutscrape-0.2.1.tar.gz --markdown 20230709/s/smartscoutscrape/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 06:22:46] INFO root fetch - processPackages [lama-cleaner]: Downloading https://files.pythonhosted.org/packages/32/53/e42343f9611c009879a62edf1a08f708d3078322fbb1a5928c6cbafc4039/lama-cleaner-1.2.2.tar.gz
+[2023-07-09 06:22:46] INFO root fetch - processPackages [lama-cleaner]: executing diffoscope
+[2023-07-09 06:22:46] INFO root fetch - processPackages [lama-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama-cleaner-1.2.1.tar.gz tmp/lama-cleaner-1.2.2.tar.gz --markdown 20230709/l/lama-cleaner/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 06:22:46] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.7.tar.gz]
+[2023-07-09 06:22:46] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.8.tar.gz]
+[2023-07-09 06:22:46] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 06:22:46] INFO root fetch - processPackages [smartscoutscrape]: Remove: archive file [/home/abi/fetcher/tmp/smartscoutscrape-0.2.0.tar.gz]
+[2023-07-09 06:22:46] INFO root fetch - processPackages [smartscoutscrape]: Remove: archive file [/home/abi/fetcher/tmp/smartscoutscrape-0.2.1.tar.gz]
+[2023-07-09 06:22:46] INFO root fetch - main [MainThread]: End processing [smartscoutscrape]: success
+[2023-07-09 06:22:46] INFO root fetch - processPackages [redb-odm]: Remove: archive file [/home/abi/fetcher/tmp/redb-odm-1.3.0.tar.gz]
+[2023-07-09 06:22:46] INFO root fetch - processPackages [redb-odm]: Remove: archive file [/home/abi/fetcher/tmp/redb-odm-1.3.1.tar.gz]
+[2023-07-09 06:22:46] INFO root fetch - main [MainThread]: End processing [redb-odm]: success
+[2023-07-09 06:22:47] INFO root fetch - processPackages [lama-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/lama-cleaner-1.2.1.tar.gz]
+[2023-07-09 06:22:47] INFO root fetch - processPackages [lama-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/lama-cleaner-1.2.2.tar.gz]
+[2023-07-09 06:22:47] INFO root fetch - main [MainThread]: End processing [lama-cleaner]: success
+[2023-07-09 06:22:48] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-09 06:22:48] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-09 06:22:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-09 06:22:48] INFO root fetch - main [MainThread]: Store serial: [18817896]

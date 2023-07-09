@@ -8680,3 +8680,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:59:31] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.1.tar.gz]
 [2023-07-09 13:59:31] INFO root fetch - main [MainThread]: End processing [pyoverkiz]: success
 [2023-07-09 13:59:31] INFO root fetch - main [MainThread]: Store serial: [18819950]
+[2023-07-09 14:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819950]
+[2023-07-09 14:04:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto_dataclass
+[2023-07-09 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sicdeploy
+[2023-07-09 14:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wsuks
+[2023-07-09 14:04:40] INFO root fetch - processPackages [wsuks]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-09 14:04:40] INFO root fetch - processPackages [sicdeploy]: New version: [0.2.1rc0] Old Version: [0.2.1]
+[2023-07-09 14:04:40] INFO root fetch - processPackages [auto_dataclass]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-09 14:04:40] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/9b/0c/ee68e55edf7af0eb25e7e888e9fe33da16c4b49ac57ec926d90490bba243/wsuks-0.4.0.tar.gz
+[2023-07-09 14:04:40] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/f6/09/01102c2ea6b7d3ef292fc87558eb385e7b7d6c9df35bdfb08d7793009f71/sicdeploy-0.2.1-py3-none-any.whl
+[2023-07-09 14:04:40] INFO root fetch - processPackages [auto_dataclass]: Downloading https://files.pythonhosted.org/packages/00/a6/55de4a18d28a369ec7198893aa3c88470184adc9a9123699f3190b16240f/auto_dataclass-0.1.3.tar.gz
+[2023-07-09 14:04:40] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/81/0f/381b16587eace9d53970173b294d0a73569c9089f1578eda4580172cd5ef/wsuks-0.4.1.tar.gz
+[2023-07-09 14:04:40] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/ac/fe/6a962b06265a0a11e442b370fa47fb36fdb231f9f460d01dca33b45b1360/sicdeploy-0.2.1rc0.tar.gz
+[2023-07-09 14:04:40] INFO root fetch - processPackages [auto_dataclass]: Downloading https://files.pythonhosted.org/packages/cc/53/223a9bebf60a401386102478e680657f83c1511b6c753cc8355d5f270587/auto_dataclass-0.1.4.tar.gz
+[2023-07-09 14:04:41] INFO root fetch - processPackages [auto_dataclass]: executing diffoscope
+[2023-07-09 14:04:41] INFO root fetch - processPackages [auto_dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_dataclass-0.1.3.tar.gz tmp/auto_dataclass-0.1.4.tar.gz --markdown 20230709/a/auto_dataclass/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 14:04:41] INFO root fetch - processPackages [wsuks]: executing diffoscope
+[2023-07-09 14:04:41] INFO root fetch - processPackages [wsuks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsuks-0.4.0.tar.gz tmp/wsuks-0.4.1.tar.gz --markdown 20230709/w/wsuks/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 14:04:41] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-09 14:04:41] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.2.1-py3-none-any.whl.zip tmp/sicdeploy-0.2.1rc0.tar.gz --markdown 20230709/s/sicdeploy/0.2.1-0.2.1rc0/diff.md --exclude *.pyd
+[2023-07-09 14:04:41] INFO root fetch - processPackages [auto_dataclass]: Remove: archive file [/home/abi/fetcher/tmp/auto_dataclass-0.1.3.tar.gz]
+[2023-07-09 14:04:41] INFO root fetch - processPackages [auto_dataclass]: Remove: archive file [/home/abi/fetcher/tmp/auto_dataclass-0.1.4.tar.gz]
+[2023-07-09 14:04:41] INFO root fetch - main [MainThread]: End processing [auto_dataclass]: success
+[2023-07-09 14:04:41] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.2.1-py3-none-any.whl.zip]
+[2023-07-09 14:04:41] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.2.1rc0.tar.gz]
+[2023-07-09 14:04:41] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-09 14:04:42] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.0.tar.gz]
+[2023-07-09 14:04:42] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.1.tar.gz]
+[2023-07-09 14:04:42] INFO root fetch - main [MainThread]: End processing [wsuks]: success
+[2023-07-09 14:04:42] INFO root fetch - main [MainThread]: Store serial: [18819977]

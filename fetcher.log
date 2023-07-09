@@ -2957,3 +2957,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:48:50] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2328-py3-none-any.whl.zip]
 [2023-07-09 04:48:50] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
 [2023-07-09 04:48:50] INFO root fetch - main [MainThread]: Store serial: [18817478]
+[2023-07-09 04:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817478]
+[2023-07-09 04:53:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-agreement
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sys-toolkit
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompttools
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-screen-resolution
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cli-toolkit
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prompttools
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NeuroNode
+[2023-07-09 04:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WifiOrca
+[2023-07-09 04:53:59] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-09 04:53:59] INFO root fetch - processPackages [sys-toolkit]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-09 04:53:59] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 04:53:59] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-07-09 04:53:59] INFO root fetch - processPackages [cli-toolkit]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-09 04:53:59] INFO root fetch - processPackages [NeuroNode]: New version: [9.3] Old Version: [3.9]
+[2023-07-09 04:53:59] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 04:54:00] INFO root fetch - processPackages [st-screen-resolution]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 04:54:00] WARNING root fetch - processPackages [WifiOrca]: Skipping, unable to determine old version
+[2023-07-09 04:54:00] INFO root fetch - main [MainThread]: End processing [WifiOrca] error
+[2023-07-09 04:54:00] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [st-screen-resolution]: Downloading https://files.pythonhosted.org/packages/be/fd/f3d366af9de8ec56653e1d32919dbfd81ebaff0671a1059fefc71f9d0f91/st_screen_resolution-0.0.2.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [sys-toolkit]: Downloading https://files.pythonhosted.org/packages/49/4e/c8b4d352100a429952fd1b9dac17c60cc1be4bb3e89be8033ddac752871c/sys_toolkit-2.5.0.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [cli-toolkit]: Downloading https://files.pythonhosted.org/packages/75/a3/178397dd44c90ab588cd97b937f1164708a683d2894b8a5499bf92f19d4c/cli_toolkit-2.5.0.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/88/44/377d3c34aa8c83a8e79c1e902e586f78c71f3228bb620cd0fb800da63c5a/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-09 04:54:00] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/97/5a/1b783469edf44c780e37a4ca8872fd13e9064ca5c99c536407ab68a4a43b/NeuroNode-9.3.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [st-screen-resolution]: Downloading https://files.pythonhosted.org/packages/9a/8c/ba12c5a3e697c338e36bbcfa52e3f77e5e45bd508266de19828a4d264b4b/st_screen_resolution-0.0.3.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [sys-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/e7/533296d46d896572a3933d1f8c652ac17417fb02ec208176a8bc22851f44/sys_toolkit-2.5.1.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [cli-toolkit]: Downloading https://files.pythonhosted.org/packages/00/f3/d87f76091239572f0df03f3e276386ab1905780abe21bbf17f0aee75125f/cli_toolkit-2.5.1.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-09 04:54:00] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.9.tar.gz tmp/NeuroNode-9.3.tar.gz --markdown 20230709/N/NeuroNode/3.9-9.3/diff.md --exclude *.pyd
+[2023-07-09 04:54:00] INFO root fetch - processPackages [sys-toolkit]: executing diffoscope
+[2023-07-09 04:54:00] INFO root fetch - processPackages [sys-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sys_toolkit-2.5.0.tar.gz tmp/sys_toolkit-2.5.1.tar.gz --markdown 20230709/s/sys-toolkit/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-09 04:54:00] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/e2/70/58ed0e6fd2d57997457605948de290282d1dfa3ed761518f7ceeba345e72/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230709/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 04:54:00] INFO root fetch - processPackages [st-screen-resolution]: executing diffoscope
+[2023-07-09 04:54:00] INFO root fetch - processPackages [st-screen-resolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_screen_resolution-0.0.2.tar.gz tmp/st_screen_resolution-0.0.3.tar.gz --markdown 20230709/s/st-screen-resolution/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-09 04:54:00] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230709/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 04:54:00] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-09 04:54:00] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-07-09 04:54:00] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-agreement/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-09 04:54:01] INFO root fetch - processPackages [cli-toolkit]: executing diffoscope
+[2023-07-09 04:54:01] INFO root fetch - processPackages [cli-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_toolkit-2.5.0.tar.gz tmp/cli_toolkit-2.5.1.tar.gz --markdown 20230709/c/cli-toolkit/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-09 04:54:01] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-09 04:54:01] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230709/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-09 04:54:02] INFO root fetch - processPackages [st-screen-resolution]: Remove: archive file [/home/abi/fetcher/tmp/st_screen_resolution-0.0.2.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - processPackages [st-screen-resolution]: Remove: archive file [/home/abi/fetcher/tmp/st_screen_resolution-0.0.3.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [st-screen-resolution]: success
+[2023-07-09 04:54:02] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-9.3.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-09 04:54:02] INFO root fetch - processPackages [cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/cli_toolkit-2.5.0.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - processPackages [cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/cli_toolkit-2.5.1.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [cli-toolkit]: success
+[2023-07-09 04:54:02] INFO root fetch - processPackages [sys-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sys_toolkit-2.5.0.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - processPackages [sys-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sys_toolkit-2.5.1.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [sys-toolkit]: success
+[2023-07-09 04:54:02] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-09 04:54:02] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-09 04:54:02] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-07-09 04:54:02] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-09 04:54:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-09 04:54:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-09 04:54:04] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-09 04:54:04] INFO root fetch - main [MainThread]: Store serial: [18817506]

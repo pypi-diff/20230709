@@ -5156,3 +5156,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:17:24] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230709.tar.gz]
 [2023-07-09 08:17:24] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-09 08:17:24] INFO root fetch - main [MainThread]: Store serial: [18818337]
+[2023-07-09 08:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818337]
+[2023-07-09 08:22:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biadab
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddb-single
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wbFontParts
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logsparsersubsystem
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freewillai
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freewillai-POC
+[2023-07-09 08:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngmapi
+[2023-07-09 08:22:33] WARNING root fetch - processPackages [biadab]: Skipping, unable to determine old version
+[2023-07-09 08:22:33] INFO root fetch - main [MainThread]: End processing [biadab] error
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ddb-single]: New version: [0.4.3.1] Old Version: [0.4.3]
+[2023-07-09 08:22:33] INFO root fetch - processPackages [logsparsersubsystem]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 08:22:33] WARNING root fetch - processPackages [freewillai-POC]: Skipping, unable to determine old version
+[2023-07-09 08:22:33] INFO root fetch - main [MainThread]: End processing [freewillai-POC] error
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ngmapi]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-09 08:22:33] WARNING root fetch - processPackages [wbFontParts]: Skipping, unable to determine old version
+[2023-07-09 08:22:33] INFO root fetch - main [MainThread]: End processing [wbFontParts] error
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ngmapi]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-09 08:22:33] WARNING root fetch - processPackages [freewillai]: Skipping, unable to determine old version
+[2023-07-09 08:22:33] INFO root fetch - main [MainThread]: End processing [freewillai] error
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/aa/42/4b7c4caa50f24afdb1eee840669e87a7255335267fe0cb17272f48082074/ddb_single-0.4.3.zip
+[2023-07-09 08:22:33] INFO root fetch - processPackages [logsparsersubsystem]: Downloading https://files.pythonhosted.org/packages/c1/c1/f04fd74942303fcb09dcf5cdca9bdd3cfcde5c0f3399d0ef9cbe7f9f72a7/logsparsersubsystem-1.0.3.tar.gz
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/16/04/e89d4b77a5e3f580fd8b52ea3244b46ce57289199b28eeb102836db60174/ngmapi-0.0.32.tar.gz
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/16/04/e89d4b77a5e3f580fd8b52ea3244b46ce57289199b28eeb102836db60174/ngmapi-0.0.32.tar.gz
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/8c/8c/a5ccfff3e227e552c3dadaf38edd4674841d049725e33332050116e88edc/ddb_single-0.4.3.1.zip
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ddb-single]: executing diffoscope
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ddb-single]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddb_single-0.4.3.zip tmp/ddb_single-0.4.3.1.zip --markdown 20230709/d/ddb-single/0.4.3-0.4.3.1/diff.md --exclude *.pyd
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/b7/12/efaf819d95d2082b4c45342ccb96854db66aae6a191f60aa8092c0ef108d/ngmapi-0.0.33.tar.gz
+[2023-07-09 08:22:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/b7/12/efaf819d95d2082b4c45342ccb96854db66aae6a191f60aa8092c0ef108d/ngmapi-0.0.33.tar.gz
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.32.tar.gz tmp/ngmapi-0.0.33.tar.gz --markdown 20230709/n/ngmapi/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.32.tar.gz tmp/ngmapi-0.0.33.tar.gz --markdown 20230709/n/ngmapi/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-09 08:22:34] WARNING root fetch - processPackages [logsparsersubsystem]: Skipping package: exceeds size limit 21592444>=10485760
+[2023-07-09 08:22:34] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.3.zip]
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.3.1.zip]
+[2023-07-09 08:22:34] INFO root fetch - main [MainThread]: End processing [ddb-single]: success
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.32.tar.gz]
+[2023-07-09 08:22:34] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.33.tar.gz]
+[2023-07-09 08:22:34] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 08:22:34] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 08:22:34] INFO root fetch - main [MainThread]: Store serial: [18818367]

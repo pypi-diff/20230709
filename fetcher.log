@@ -3519,3 +3519,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:36:03] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
 [2023-07-09 05:36:03] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-09 05:36:03] INFO root fetch - main [MainThread]: Store serial: [18817721]
+[2023-07-09 05:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817721]
+[2023-07-09 05:41:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: revolution.py
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scmer
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-screen-resolution
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncm-clp-dl
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ncm-clp-dl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 05:41:12] INFO root fetch - processPackages [revolution.py]: New version: [5.0.1.2] Old Version: [5.0.1.1]
+[2023-07-09 05:41:12] INFO root fetch - processPackages [st-screen-resolution]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 05:41:12] INFO root fetch - processPackages [scmer]: New version: [0.1.1] Old Version: [0.1.0a4]
+[2023-07-09 05:41:12] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-09 05:41:12] INFO root fetch - processPackages [st-screen-resolution]: Downloading https://files.pythonhosted.org/packages/73/79/8e2a10ffe0d20f0d195a50b1b0aa272bc83d829bb3af53870a929f53c37b/st_screen_resolution-0.0.5.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/c0/f1/2f5e26c377e7355a249186f819850756a16d7a551d560f6be6e2d93e7498/revolution.py-5.0.1.1.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ncm-clp-dl]: Downloading https://files.pythonhosted.org/packages/a8/59/fd0b6b5e9c17b8907ab05586a4c0f42ef5f1f10fe40e4e024350d689ac4c/ncm-clp-dl-0.0.1.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [scmer]: Downloading https://files.pythonhosted.org/packages/6f/d1/5e2aea8f167a1b6de3331dc1068a11689093f31de663837d6befe5ebd704/scmer-0.1.0a4.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [st-screen-resolution]: Downloading https://files.pythonhosted.org/packages/fd/af/85a4650bd2ebadbae84d8fad6f6f98bb1f75c28f1ab7ec636930decc09c3/st_screen_resolution-0.0.6.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-09 05:41:12] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230709/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-09 05:41:12] INFO root fetch - processPackages [revolution.py]: Downloading https://files.pythonhosted.org/packages/16/24/dc68c05be4511cffa8ed78f8a2517c4daa04131f4e9fd937c8705690265c/revolution.py-5.0.1.2.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [st-screen-resolution]: executing diffoscope
+[2023-07-09 05:41:12] INFO root fetch - processPackages [st-screen-resolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_screen_resolution-0.0.5.tar.gz tmp/st_screen_resolution-0.0.6.tar.gz --markdown 20230709/s/st-screen-resolution/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 05:41:12] INFO root fetch - processPackages [revolution.py]: executing diffoscope
+[2023-07-09 05:41:12] INFO root fetch - processPackages [revolution.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolution.py-5.0.1.1.tar.gz tmp/revolution.py-5.0.1.2.tar.gz --markdown 20230709/r/revolution.py/5.0.1.1-5.0.1.2/diff.md --exclude *.pyd
+[2023-07-09 05:41:12] INFO root fetch - processPackages [ncm-clp-dl]: Downloading https://files.pythonhosted.org/packages/63/ad/25eadba65b1d56c1e1e7fae8d103a0b03c14e5255e8dd116dfe677af690d/ncm-clp-dl-0.0.2.tar.gz
+[2023-07-09 05:41:12] INFO root fetch - processPackages [scmer]: Downloading https://files.pythonhosted.org/packages/4f/5e/b35e4b48ec6db8b4a0674736f1eeb5601c2b6e8701b62c321e74f054fc81/scmer-0.1.1.tar.gz
+[2023-07-09 05:41:13] INFO root fetch - processPackages [ncm-clp-dl]: executing diffoscope
+[2023-07-09 05:41:13] INFO root fetch - processPackages [ncm-clp-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncm-clp-dl-0.0.1.tar.gz tmp/ncm-clp-dl-0.0.2.tar.gz --markdown 20230709/n/ncm-clp-dl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 05:41:13] INFO root fetch - processPackages [scmer]: executing diffoscope
+[2023-07-09 05:41:13] INFO root fetch - processPackages [scmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmer-0.1.0a4.tar.gz tmp/scmer-0.1.1.tar.gz --markdown 20230709/s/scmer/0.1.0a4-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 05:41:13] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.1.1.tar.gz]
+[2023-07-09 05:41:13] INFO root fetch - processPackages [revolution.py]: Remove: archive file [/home/abi/fetcher/tmp/revolution.py-5.0.1.2.tar.gz]
+[2023-07-09 05:41:13] INFO root fetch - main [MainThread]: End processing [revolution.py]: success
+[2023-07-09 05:41:13] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-09 05:41:13] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-09 05:41:13] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-09 05:41:13] INFO root fetch - processPackages [ncm-clp-dl]: Remove: archive file [/home/abi/fetcher/tmp/ncm-clp-dl-0.0.1.tar.gz]
+[2023-07-09 05:41:13] INFO root fetch - processPackages [ncm-clp-dl]: Remove: archive file [/home/abi/fetcher/tmp/ncm-clp-dl-0.0.2.tar.gz]
+[2023-07-09 05:41:13] INFO root fetch - main [MainThread]: End processing [ncm-clp-dl]: success
+[2023-07-09 05:41:14] INFO root fetch - processPackages [scmer]: Remove: archive file [/home/abi/fetcher/tmp/scmer-0.1.0a4.tar.gz]
+[2023-07-09 05:41:14] INFO root fetch - processPackages [scmer]: Remove: archive file [/home/abi/fetcher/tmp/scmer-0.1.1.tar.gz]
+[2023-07-09 05:41:14] INFO root fetch - main [MainThread]: End processing [scmer]: success
+[2023-07-09 05:41:14] INFO root fetch - processPackages [st-screen-resolution]: Remove: archive file [/home/abi/fetcher/tmp/st_screen_resolution-0.0.5.tar.gz]
+[2023-07-09 05:41:14] INFO root fetch - processPackages [st-screen-resolution]: Remove: archive file [/home/abi/fetcher/tmp/st_screen_resolution-0.0.6.tar.gz]
+[2023-07-09 05:41:14] INFO root fetch - main [MainThread]: End processing [st-screen-resolution]: success
+[2023-07-09 05:41:14] INFO root fetch - main [MainThread]: Store serial: [18817735]

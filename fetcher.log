@@ -13692,3 +13692,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:55:01] INFO root fetch - processPackages [asai-abyss]: Remove: archive file [/home/abi/fetcher/tmp/asai_abyss-0.4.1-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
 [2023-07-09 19:55:01] INFO root fetch - main [MainThread]: End processing [asai-abyss]: success
 [2023-07-09 19:55:01] INFO root fetch - main [MainThread]: Store serial: [18822222]
+[2023-07-09 20:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822222]
+[2023-07-09 20:00:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atro-victoria
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcsf
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-optimizely
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmflows
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmailsorter
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-optimizely
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poethepoet
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypdfe
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-rsa
+[2023-07-09 20:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: faasmctl
+[2023-07-09 20:00:13] INFO root fetch - processPackages [atro-victoria]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [pypdfe]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [poethepoet]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [pygmailsorter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [xcsf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [llmflows]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [simple-rsa]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-09 20:00:13] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 20:00:14] INFO root fetch - processPackages [faasmctl]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-09 20:00:14] INFO root fetch - processPackages [pygmailsorter]: Downloading https://files.pythonhosted.org/packages/fd/6e/145ca9106b3c9cad2998638e04fea79a2dbf086b60d4d42c51acacfc3b26/pygmailsorter-0.0.5.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [atro-victoria]: Downloading https://files.pythonhosted.org/packages/bc/98/32c5ee9d49e34bc2d91619cc13e695c1c761f3303eab3c8e176dceae8130/atro_victoria-0.0.1.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/55/80/cd48310b8d95d488beb4a34f6d107a5b6031ab02981462f91c0c61fb2716/fern_optimizely-0.0.4.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/55/80/cd48310b8d95d488beb4a34f6d107a5b6031ab02981462f91c0c61fb2716/fern_optimizely-0.0.4.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/e8/80/06cc0a8cc064a2935f67aa31626f0462e6a523cbcb7d224eeed1b229e550/pypdfe-0.1.7.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [simple-rsa]: Downloading https://files.pythonhosted.org/packages/65/a9/1cb1d582fa98727450316160bc7812a0d8b47562b27fdf90a925cc7f0651/simple-rsa-1.0.0.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/a9/f4/858aa018f2a703be825d44cbfc917a9c6736c1030373fb688ca95bcd5c23/xcsf-1.2.8.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [poethepoet]: Downloading https://files.pythonhosted.org/packages/17/79/9c14ec804257040afca9612def3ae0a2160547fe80276f1c8445844084b7/poethepoet-0.8.0.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/59/dc/a7fe8ed30f72a52b6290b25633b733b441fc1e95f51d5663e70bcfbdeb54/llmflows-0.0.5.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/6b/52/4e69be7a47b6ac93bf31bd92e9985b7db0b6d8534105e2b5a8e72b7d8576/faasmctl-0.1.2.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [pygmailsorter]: Downloading https://files.pythonhosted.org/packages/84/da/8e0cdde005a589a54d8a24c79bec35a1f26f4f7bf870f76ac72f99d5a1d9/pygmailsorter-0.0.6.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [atro-victoria]: Downloading https://files.pythonhosted.org/packages/92/18/4b48a295ff5f59be2776b5c2bc59073d5c339a1bb1e7628f2defed2b985d/atro_victoria-0.0.2.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/ed/96/93241d09913a73528fac718bf76415adefa2ce96f60de0d311ca7353c02b/fern_optimizely-0.0.5.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/ed/96/93241d09913a73528fac718bf76415adefa2ce96f60de0d311ca7353c02b/fern_optimizely-0.0.5.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [atro-victoria]: executing diffoscope
+[2023-07-09 20:00:14] INFO root fetch - processPackages [atro-victoria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_victoria-0.0.1.tar.gz tmp/atro_victoria-0.0.2.tar.gz --markdown 20230709/a/atro-victoria/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 20:00:14] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/d7/7b/fc7b6a476dedac0cb198574c6cd3284d66d0d58096771544f79bc432f259/pypdfe-0.1.8.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/b4/7c/b0a428fd041d4abe7fcd2c340d9bdbb64b9f4d26c868b42475c08e80d5fa/faasmctl-0.2.0.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [simple-rsa]: Downloading https://files.pythonhosted.org/packages/3e/e4/5f2a1e85ab5a465b16e6d921a294349c3aff4159236dfd0422311d65a4f6/simple-rsa-1.1.0.tar.gz
+[2023-07-09 20:00:14] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/f8/dc/bbfde1dd77de994b17275fc1d99ed6dc805507fbe4e899a6959afd59ae27/llmflows-0.0.6.tar.gz
+[2023-07-09 20:00:15] INFO root fetch - processPackages [poethepoet]: Downloading https://files.pythonhosted.org/packages/12/67/034b12e52f7f13a98d0a04c0f9c5330f08f7aa83096a13b1414a9d54e088/poethepoet-0.9.0.tar.gz
+[2023-07-09 20:00:15] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.4.tar.gz tmp/fern_optimizely-0.0.5.tar.gz --markdown 20230709/f/fern-optimizely/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.4.tar.gz tmp/fern_optimizely-0.0.5.tar.gz --markdown 20230709/f/fern-optimizely/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.7.tar.gz tmp/pypdfe-0.1.8.tar.gz --markdown 20230709/p/pypdfe/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [simple-rsa]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [simple-rsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-rsa-1.0.0.tar.gz tmp/simple-rsa-1.1.0.tar.gz --markdown 20230709/s/simple-rsa/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.5.tar.gz tmp/llmflows-0.0.6.tar.gz --markdown 20230709/l/llmflows/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.1.2.tar.gz tmp/faasmctl-0.2.0.tar.gz --markdown 20230709/f/faasmctl/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [poethepoet]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [poethepoet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poethepoet-0.8.0.tar.gz tmp/poethepoet-0.9.0.tar.gz --markdown 20230709/p/poethepoet/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/47/fb/93cb7779f3ee451f1b8ca1374aafd4899762f8fda8ef16933f8aaddb830d/xcsf-1.2.9.tar.gz
+[2023-07-09 20:00:15] INFO root fetch - processPackages [pygmailsorter]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [pygmailsorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmailsorter-0.0.5.tar.gz tmp/pygmailsorter-0.0.6.tar.gz --markdown 20230709/p/pygmailsorter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [xcsf]: executing diffoscope
+[2023-07-09 20:00:15] INFO root fetch - processPackages [xcsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsf-1.2.8.tar.gz tmp/xcsf-1.2.9.tar.gz --markdown 20230709/x/xcsf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-09 20:00:15] INFO root fetch - processPackages [atro-victoria]: Remove: archive file [/home/abi/fetcher/tmp/atro_victoria-0.0.1.tar.gz]
+[2023-07-09 20:00:15] INFO root fetch - processPackages [atro-victoria]: Remove: archive file [/home/abi/fetcher/tmp/atro_victoria-0.0.2.tar.gz]
+[2023-07-09 20:00:15] INFO root fetch - main [MainThread]: End processing [atro-victoria]: success
+[2023-07-09 20:00:16] INFO root fetch - processPackages [simple-rsa]: Remove: archive file [/home/abi/fetcher/tmp/simple-rsa-1.0.0.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - processPackages [simple-rsa]: Remove: archive file [/home/abi/fetcher/tmp/simple-rsa-1.1.0.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - main [MainThread]: End processing [simple-rsa]: success
+[2023-07-09 20:00:16] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.4.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.5.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-09 20:00:16] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.7.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.8.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-09 20:00:16] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.1.2.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.2.0.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-09 20:00:16] INFO root fetch - processPackages [poethepoet]: Remove: archive file [/home/abi/fetcher/tmp/poethepoet-0.8.0.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - processPackages [poethepoet]: Remove: archive file [/home/abi/fetcher/tmp/poethepoet-0.9.0.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - main [MainThread]: End processing [poethepoet]: success
+[2023-07-09 20:00:16] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-09 20:00:16] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.5.tar.gz]
+[2023-07-09 20:00:16] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.6.tar.gz]
+[2023-07-09 20:00:17] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-09 20:00:17] INFO root fetch - processPackages [pygmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/pygmailsorter-0.0.5.tar.gz]
+[2023-07-09 20:00:17] INFO root fetch - processPackages [pygmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/pygmailsorter-0.0.6.tar.gz]
+[2023-07-09 20:00:17] INFO root fetch - main [MainThread]: End processing [pygmailsorter]: success
+[2023-07-09 20:00:20] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.8.tar.gz]
+[2023-07-09 20:00:20] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.9.tar.gz]
+[2023-07-09 20:00:20] INFO root fetch - main [MainThread]: End processing [xcsf]: success
+[2023-07-09 20:00:20] INFO root fetch - main [MainThread]: Store serial: [18822268]

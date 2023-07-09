@@ -14910,3 +14910,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:28:59] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.52.0.tar.gz]
 [2023-07-09 21:28:59] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
 [2023-07-09 21:28:59] INFO root fetch - main [MainThread]: Store serial: [18822758]
+[2023-07-09 21:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822758]
+[2023-07-09 21:34:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 21:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-to-csv-filter
+[2023-07-09 21:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-07-09 21:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libpt
+[2023-07-09 21:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: actionlint-py
+[2023-07-09 21:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant
+[2023-07-09 21:34:08] INFO root fetch - processPackages [json-to-csv-filter]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-09 21:34:08] WARNING root fetch - processPackages [libpt]: Skipping, unable to determine old version
+[2023-07-09 21:34:08] INFO root fetch - main [MainThread]: End processing [libpt] error
+[2023-07-09 21:34:08] INFO root fetch - processPackages [actionlint-py]: New version: [1.6.25.2] Old Version: [1.6.24.2]
+[2023-07-09 21:34:08] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-09 21:34:08] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-09 21:34:08] INFO root fetch - processPackages [json-to-csv-filter]: Downloading https://files.pythonhosted.org/packages/fe/da/a2c0e303056d2cb3bf08035fab6617060528f3d70535a13ea232689fca31/json_to_csv_filter-1.4.0.tar.gz
+[2023-07-09 21:34:08] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-09 21:34:08] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-09 21:34:08] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/e1/35/d61387604c18b369621fce84e16b23e3bb570a14a1692df60ab88e8c91ac/actionlint_py-1.6.24.2.tar.gz
+[2023-07-09 21:34:08] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-09 21:34:08] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-09 21:34:08] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-09 21:34:08] INFO root fetch - processPackages [json-to-csv-filter]: Downloading https://files.pythonhosted.org/packages/af/6f/b9e7e501a9db18ba97aebb8841ce8a45861587113684e077353254eeed28/json_to_csv_filter-1.4.1.tar.gz
+[2023-07-09 21:34:08] INFO root fetch - processPackages [actionlint-py]: Downloading https://files.pythonhosted.org/packages/b9/a1/b7ec90c504cbd2343753eddce314370210940059ac7b27b1fa564ec8b6e9/actionlint_py-1.6.25.2.tar.gz
+[2023-07-09 21:34:09] INFO root fetch - processPackages [json-to-csv-filter]: executing diffoscope
+[2023-07-09 21:34:09] INFO root fetch - processPackages [json-to-csv-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_to_csv_filter-1.4.0.tar.gz tmp/json_to_csv_filter-1.4.1.tar.gz --markdown 20230709/j/json-to-csv-filter/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-09 21:34:09] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-09 21:34:09] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230709/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 21:34:09] INFO root fetch - processPackages [actionlint-py]: executing diffoscope
+[2023-07-09 21:34:09] INFO root fetch - processPackages [actionlint-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionlint_py-1.6.24.2.tar.gz tmp/actionlint_py-1.6.25.2.tar.gz --markdown 20230709/a/actionlint-py/1.6.24.2-1.6.25.2/diff.md --exclude *.pyd
+[2023-07-09 21:34:10] INFO root fetch - processPackages [json-to-csv-filter]: Remove: archive file [/home/abi/fetcher/tmp/json_to_csv_filter-1.4.0.tar.gz]
+[2023-07-09 21:34:10] INFO root fetch - processPackages [json-to-csv-filter]: Remove: archive file [/home/abi/fetcher/tmp/json_to_csv_filter-1.4.1.tar.gz]
+[2023-07-09 21:34:10] INFO root fetch - main [MainThread]: End processing [json-to-csv-filter]: success
+[2023-07-09 21:34:10] INFO root fetch - processPackages [actionlint-py]: Remove: archive file [/home/abi/fetcher/tmp/actionlint_py-1.6.24.2.tar.gz]
+[2023-07-09 21:34:10] INFO root fetch - processPackages [actionlint-py]: Remove: archive file [/home/abi/fetcher/tmp/actionlint_py-1.6.25.2.tar.gz]
+[2023-07-09 21:34:10] INFO root fetch - main [MainThread]: End processing [actionlint-py]: success
+[2023-07-09 21:34:10] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-09 21:34:10] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-09 21:34:10] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-09 21:34:10] INFO root fetch - main [MainThread]: Store serial: [18822775]

@@ -5916,3 +5916,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:25:07] INFO root fetch - processPackages [negmas]: Remove: archive file [/home/abi/fetcher/tmp/negmas-0.9.8.tar.gz]
 [2023-07-09 09:25:07] INFO root fetch - main [MainThread]: End processing [negmas]: success
 [2023-07-09 09:25:07] INFO root fetch - main [MainThread]: Store serial: [18818651]
+[2023-07-09 09:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818651]
+[2023-07-09 09:30:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 09:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scml
+[2023-07-09 09:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-netsuite-api
+[2023-07-09 09:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BlitzChain
+[2023-07-09 09:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nb-log
+[2023-07-09 09:30:16] INFO root fetch - processPackages [BlitzChain]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-09 09:30:16] INFO root fetch - processPackages [gs-netsuite-api]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 09:30:16] INFO root fetch - processPackages [scml]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-09 09:30:16] INFO root fetch - processPackages [nb-log]: New version: [9.7] Old Version: [9.5]
+[2023-07-09 09:30:16] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/09/d6/61fb6e55199bdf016f545a01eaf1510a0d5d6da2027cf6d121376a84dfb8/BlitzChain-0.4.0.tar.gz
+[2023-07-09 09:30:16] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/c4/e6/8d4f20b8563e1d5e64408a1c5c29e1c3a4cfa568615b42eb78a89e08cee0/gs-netsuite-api-1.2.1.tar.gz
+[2023-07-09 09:30:16] INFO root fetch - processPackages [scml]: Downloading https://files.pythonhosted.org/packages/02/15/6b668996318688a1b23bafedeadec36bc755e1c9449ac47967a6bbbb5ffe/scml-0.5.6.tar.gz
+[2023-07-09 09:30:16] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/cb/45/2fc33a5714a7c96e166fd5228365e69e64b05da5e017b7087452a6409494/nb_log-9.5.tar.gz
+[2023-07-09 09:30:17] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/71/95/4552b2b948c8812ae219fe669cabcb373d727fe2afe29f3a0b07177d861b/BlitzChain-0.5.0.tar.gz
+[2023-07-09 09:30:17] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/db/34/b2af895ac77ed3c047a70a4ebc69c892dee4db9dd7cfc13a90a05814c206/nb_log-9.7.tar.gz
+[2023-07-09 09:30:17] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/46/17/948a90cdab23f1552da155358cf978e5f7842b38e8a93a2b2732fded026c/gs-netsuite-api-1.2.2.tar.gz
+[2023-07-09 09:30:17] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-07-09 09:30:17] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-9.5.tar.gz tmp/nb_log-9.7.tar.gz --markdown 20230709/n/nb-log/9.5-9.7/diff.md --exclude *.pyd
+[2023-07-09 09:30:17] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-09 09:30:17] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.4.0.tar.gz tmp/BlitzChain-0.5.0.tar.gz --markdown 20230709/B/BlitzChain/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 09:30:17] INFO root fetch - processPackages [scml]: Downloading https://files.pythonhosted.org/packages/cd/27/3eba0096f74f451b201dea7891159c5c540e36a4de326331c4e538369bd4/scml-0.6.0.tar.gz
+[2023-07-09 09:30:17] INFO root fetch - processPackages [gs-netsuite-api]: executing diffoscope
+[2023-07-09 09:30:17] INFO root fetch - processPackages [gs-netsuite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-netsuite-api-1.2.1.tar.gz tmp/gs-netsuite-api-1.2.2.tar.gz --markdown 20230709/g/gs-netsuite-api/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 09:30:17] INFO root fetch - processPackages [scml]: executing diffoscope
+[2023-07-09 09:30:17] INFO root fetch - processPackages [scml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scml-0.5.6.tar.gz tmp/scml-0.6.0.tar.gz --markdown 20230709/s/scml/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 09:30:18] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.5.tar.gz]
+[2023-07-09 09:30:18] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.7.tar.gz]
+[2023-07-09 09:30:18] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-07-09 09:30:18] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.4.0.tar.gz]
+[2023-07-09 09:30:18] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.5.0.tar.gz]
+[2023-07-09 09:30:18] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-09 09:30:19] INFO root fetch - processPackages [scml]: Remove: archive file [/home/abi/fetcher/tmp/scml-0.5.6.tar.gz]
+[2023-07-09 09:30:19] INFO root fetch - processPackages [scml]: Remove: archive file [/home/abi/fetcher/tmp/scml-0.6.0.tar.gz]
+[2023-07-09 09:30:19] INFO root fetch - main [MainThread]: End processing [scml]: success
+[2023-07-09 09:30:20] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.1.tar.gz]
+[2023-07-09 09:30:20] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.2.tar.gz]
+[2023-07-09 09:30:20] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
+[2023-07-09 09:30:20] INFO root fetch - main [MainThread]: Store serial: [18818662]

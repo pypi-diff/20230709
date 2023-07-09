@@ -11583,3 +11583,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:13:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.3.0rc3.tar.gz]
 [2023-07-09 17:13:43] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-amazon]: success
 [2023-07-09 17:13:43] INFO root fetch - main [MainThread]: Store serial: [18821321]
+[2023-07-09 17:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821321]
+[2023-07-09 17:18:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BookerEpubTool
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digquery
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: real-time-tf
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BookerEpubTool
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llwp
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iitkgp-erp
+[2023-07-09 17:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnivorex
+[2023-07-09 17:18:52] INFO root fetch - processPackages [BookerEpubTool]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [omnivorex]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [BookerEpubTool]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [llwp]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [digquery]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [real-time-tf]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [iitkgp-erp]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-09 17:18:52] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/2c/b0/b6ff5b3c9c4dd265de74cd80c9928ab592a7c902600e0358868d56cf013e/omnivorex-0.0.4.tar.gz
+[2023-07-09 17:18:52] INFO root fetch - processPackages [iitkgp-erp]: Downloading https://files.pythonhosted.org/packages/84/6d/293f9be63ec37212d9747eb55b0a385af3c1a04bad1c1dd7774aa7bf16f0/iitkgp-erp-0.2.tar.gz
+[2023-07-09 17:18:52] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/4f/4b/70157d0a0c18cad88af7cb0fc4c2e901e496c5faa88f874e1711ab6976f3/digquery-0.1.2.tar.gz
+[2023-07-09 17:18:52] INFO root fetch - processPackages [BookerEpubTool]: Downloading https://files.pythonhosted.org/packages/d1/57/b90dc62a0ede90fad40bca57a7429421e6f57ec519858796768ec22e115d/BookerEpubTool-2023.7.9.0.tar.gz
+[2023-07-09 17:18:52] INFO root fetch - processPackages [BookerEpubTool]: Downloading https://files.pythonhosted.org/packages/d1/57/b90dc62a0ede90fad40bca57a7429421e6f57ec519858796768ec22e115d/BookerEpubTool-2023.7.9.0.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [real-time-tf]: Downloading https://files.pythonhosted.org/packages/db/c5/7eb718887d462b3ca40575b24882703b07bc92c4a677232b50f00f6c723d/real-time-tf-0.1.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [llwp]: Downloading https://files.pythonhosted.org/packages/e3/f6/3b0218dcc6611ffe5166fd1049b187c8ccc8957ed14301739fb05151b2e7/llwp-1.3.2.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [iitkgp-erp]: Downloading https://files.pythonhosted.org/packages/ef/6b/7f6d212332f490bb28284cb24d359ccfaf7edb962e58af9bc311f557ef0c/iitkgp-erp-0.2.1.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/70/23/18d2a5854dbc73361053fb8e1318ed4af869fbc782766dfd9fb9e03f7d31/digquery-0.1.3.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.4.tar.gz tmp/omnivorex-0.0.5.tar.gz --markdown 20230709/o/omnivorex/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [BookerEpubTool]: Downloading https://files.pythonhosted.org/packages/03/7a/4e874c08ddc5acf42349b11bcaf71ecc7f3ca548f12e3a753de8be94b466/BookerEpubTool-2023.7.9.1.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [BookerEpubTool]: Downloading https://files.pythonhosted.org/packages/03/7a/4e874c08ddc5acf42349b11bcaf71ecc7f3ca548f12e3a753de8be94b466/BookerEpubTool-2023.7.9.1.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [iitkgp-erp]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [iitkgp-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp-erp-0.2.tar.gz tmp/iitkgp-erp-0.2.1.tar.gz --markdown 20230709/i/iitkgp-erp/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [real-time-tf]: Downloading https://files.pythonhosted.org/packages/d7/e1/727e18d9321dbc9cb13e3782d21d91f163015eb1b6f473649c6bf4be73dc/real-time-tf-0.1.1.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [digquery]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [digquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digquery-0.1.2.tar.gz tmp/digquery-0.1.3.tar.gz --markdown 20230709/d/digquery/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [BookerEpubTool]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [BookerEpubTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerEpubTool-2023.7.9.0.tar.gz tmp/BookerEpubTool-2023.7.9.1.tar.gz --markdown 20230709/B/BookerEpubTool/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [BookerEpubTool]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [BookerEpubTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerEpubTool-2023.7.9.0.tar.gz tmp/BookerEpubTool-2023.7.9.1.tar.gz --markdown 20230709/B/BookerEpubTool/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [real-time-tf]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [real-time-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/real-time-tf-0.1.tar.gz tmp/real-time-tf-0.1.1.tar.gz --markdown 20230709/r/real-time-tf/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [llwp]: Downloading https://files.pythonhosted.org/packages/e7/df/046b679fc3e3b9e002f6fb367960c51990dd651d9101e1d656e68f61375a/llwp-1.3.3.tar.gz
+[2023-07-09 17:18:53] INFO root fetch - processPackages [llwp]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [llwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llwp-1.3.2.tar.gz tmp/llwp-1.3.3.tar.gz --markdown 20230709/l/llwp/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-09 17:18:53] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-09 17:18:53] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230709/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-09 17:18:54] INFO root fetch - processPackages [iitkgp-erp]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp-erp-0.2.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - processPackages [iitkgp-erp]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp-erp-0.2.1.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - main [MainThread]: End processing [iitkgp-erp]: success
+[2023-07-09 17:18:54] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.4.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 17:18:54] INFO root fetch - processPackages [real-time-tf]: Remove: archive file [/home/abi/fetcher/tmp/real-time-tf-0.1.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - processPackages [real-time-tf]: Remove: archive file [/home/abi/fetcher/tmp/real-time-tf-0.1.1.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - main [MainThread]: End processing [real-time-tf]: success
+[2023-07-09 17:18:54] INFO root fetch - processPackages [BookerEpubTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerEpubTool-2023.7.9.0.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - processPackages [BookerEpubTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerEpubTool-2023.7.9.1.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - main [MainThread]: End processing [BookerEpubTool]: success
+[2023-07-09 17:18:54] INFO root fetch - main [MainThread]: End processing [BookerEpubTool]: success
+[2023-07-09 17:18:54] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.2.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.3.tar.gz]
+[2023-07-09 17:18:54] INFO root fetch - main [MainThread]: End processing [digquery]: success
+[2023-07-09 17:18:54] INFO root fetch - processPackages [llwp]: Remove: archive file [/home/abi/fetcher/tmp/llwp-1.3.2.tar.gz]
+[2023-07-09 17:18:55] INFO root fetch - processPackages [llwp]: Remove: archive file [/home/abi/fetcher/tmp/llwp-1.3.3.tar.gz]
+[2023-07-09 17:18:55] INFO root fetch - main [MainThread]: End processing [llwp]: success
+[2023-07-09 17:18:55] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-09 17:18:55] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-09 17:18:55] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-09 17:18:55] INFO root fetch - main [MainThread]: Store serial: [18821362]

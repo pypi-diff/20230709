@@ -6665,3 +6665,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:35:47] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip]
 [2023-07-09 10:35:47] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
 [2023-07-09 10:35:47] INFO root fetch - main [MainThread]: Store serial: [18819068]
+[2023-07-09 10:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819068]
+[2023-07-09 10:40:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-estimator-nightly
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foo-bar-eggs-baruch
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impose-cli
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqle
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuasa-election-admin
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-conda
+[2023-07-09 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-09 10:40:57] INFO root fetch - processPackages [hatch-conda]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:40:57] WARNING root fetch - processPackages [foo-bar-eggs-baruch]: Skipping, unable to determine old version
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:40:57] INFO root fetch - main [MainThread]: End processing [foo-bar-eggs-baruch] error
+[2023-07-09 10:40:57] WARNING root fetch - processPackages [nuasa-election-admin]: Skipping, unable to determine old version
+[2023-07-09 10:40:57] INFO root fetch - main [MainThread]: End processing [nuasa-election-admin] error
+[2023-07-09 10:40:57] INFO root fetch - processPackages [sqle]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-07-09 10:40:57] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc9] Old Version: [0.1.41rc8]
+[2023-07-09 10:40:57] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-09 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/84/8f/c146012c77527d4e1fe6d229449e5629d8150ad6acb3b21a80a23030f967/impose-cli-0.1.41rc8.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [hatch-conda]: Downloading https://files.pythonhosted.org/packages/cf/c8/44585759cc471c0757d1c9c5fd2f033fe83a4b00ce153de903cbde9cce11/hatch_conda-0.3.2.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [sqle]: Downloading https://files.pythonhosted.org/packages/e8/69/768527fba21c354053fb4d3cf26b7ea3632e51060a62708abfee8f6cf0f7/sqle-0.0.0a1.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-09 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/5c/04/cab5e234024ebd333c47fb80f0a263c61106ad6b29606f9b64df9264e11c/impose_cli-0.1.41rc9-py3-none-any.whl
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 10:40:57] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.1.41rc8.tar.gz tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip --markdown 20230709/i/impose-cli/0.1.41rc8-0.1.41rc9/diff.md --exclude *.pyd
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:40:57] INFO root fetch - processPackages [hatch-conda]: Downloading https://files.pythonhosted.org/packages/a0/69/c11c1e07b69e8bf3168ee3ab52c25340fab20b25c095e7e42545f3c6620e/hatch_conda-0.4.0.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:40:57] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-09 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230709/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-09 10:40:57] INFO root fetch - processPackages [sqle]: Downloading https://files.pythonhosted.org/packages/9e/31/75909363816e3c58902958f297ef5c4e73c09fbc35492fb9d35b6def3e1d/sqle-0.0.0a2.tar.gz
+[2023-07-09 10:40:57] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-09 10:40:57] INFO root fetch - processPackages [sqle]: executing diffoscope
+[2023-07-09 10:40:57] INFO root fetch - processPackages [sqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqle-0.0.0a1.tar.gz tmp/sqle-0.0.0a2.tar.gz --markdown 20230709/s/sqle/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-07-09 10:40:57] INFO root fetch - processPackages [hatch-conda]: executing diffoscope
+[2023-07-09 10:40:57] INFO root fetch - processPackages [hatch-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda-0.3.2.tar.gz tmp/hatch_conda-0.4.0.tar.gz --markdown 20230709/h/hatch-conda/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 10:40:58] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-09 10:40:58] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230709/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-09 10:40:58] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc8.tar.gz]
+[2023-07-09 10:40:58] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip]
+[2023-07-09 10:40:58] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 10:40:58] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-09 10:40:58] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-09 10:40:58] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:40:58] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:40:59] INFO root fetch - processPackages [sqle]: Remove: archive file [/home/abi/fetcher/tmp/sqle-0.0.0a1.tar.gz]
+[2023-07-09 10:40:59] INFO root fetch - processPackages [sqle]: Remove: archive file [/home/abi/fetcher/tmp/sqle-0.0.0a2.tar.gz]
+[2023-07-09 10:40:59] INFO root fetch - main [MainThread]: End processing [sqle]: success
+[2023-07-09 10:40:59] INFO root fetch - processPackages [hatch-conda]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda-0.3.2.tar.gz]
+[2023-07-09 10:40:59] INFO root fetch - processPackages [hatch-conda]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda-0.4.0.tar.gz]
+[2023-07-09 10:40:59] INFO root fetch - main [MainThread]: End processing [hatch-conda]: success
+[2023-07-09 10:40:59] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-09 10:40:59] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-09 10:40:59] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-09 10:41:00] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-09 10:41:00] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-09 10:41:00] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-09 10:41:00] INFO root fetch - main [MainThread]: Store serial: [18819107]

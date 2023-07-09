@@ -13478,3 +13478,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:39:20] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc7-py3-none-any.whl.zip]
 [2023-07-09 19:39:20] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
 [2023-07-09 19:39:20] INFO root fetch - main [MainThread]: Store serial: [18822123]
+[2023-07-09 19:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822123]
+[2023-07-09 19:44:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneweaver-tools
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audiobook-dl
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finqual
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytrials
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamic-links
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: car-price-regression-model
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnivorex
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: survey-enhance
+[2023-07-09 19:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multicor-fa
+[2023-07-09 19:44:29] WARNING root fetch - processPackages [car-price-regression-model]: Skipping, unable to determine old version
+[2023-07-09 19:44:29] INFO root fetch - main [MainThread]: End processing [car-price-regression-model] error
+[2023-07-09 19:44:29] INFO root fetch - processPackages [audiobook-dl]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-09 19:44:29] INFO root fetch - processPackages [pytrials]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 19:44:29] INFO root fetch - processPackages [dynamic-links]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 19:44:29] WARNING root fetch - processPackages [multicor-fa]: Skipping, unable to determine old version
+[2023-07-09 19:44:29] WARNING root fetch - processPackages [geneweaver-tools]: Skipping, unable to determine old version
+[2023-07-09 19:44:29] INFO root fetch - main [MainThread]: End processing [multicor-fa] error
+[2023-07-09 19:44:29] INFO root fetch - processPackages [finqual]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 19:44:29] INFO root fetch - processPackages [survey-enhance]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 19:44:29] INFO root fetch - main [MainThread]: End processing [geneweaver-tools] error
+[2023-07-09 19:44:29] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 19:44:30] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/22/2e/4cd6e0058e34fa222a26f59a7b6897b16eb88a0d05af7d5bc59a30b71e5d/dynamic-links-0.1.0.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [audiobook-dl]: Downloading https://files.pythonhosted.org/packages/95/b9/aa9a31c977c2363776e32f3ddba5ea3dbcfeb2f4f778c2982ce2df11f8ad/audiobook-dl-0.5.0.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [pytrials]: Downloading https://files.pythonhosted.org/packages/ff/75/528e77a71b3bb05ad0a91955f868259319c5aee730db83b6538094debbf0/pytrials-0.2.0.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/39/5c/69ebf2dac33146dc19d3ce3a42d0c855f40065c4da14f71ad34507db2985/finqual-0.1.7.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [survey-enhance]: Downloading https://files.pythonhosted.org/packages/6b/7a/9c3cbc36ce6c23759c9d11ed6de512cc07f8fe23b664ee46601f33d39099/survey-enhance-0.1.2.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/34/28/7548131e06dd1c4ac5ed24310957f68c24e4a0a912d7cb3bac72f3e31f68/dynamic-links-0.1.1.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [audiobook-dl]: Downloading https://files.pythonhosted.org/packages/8f/45/d2fb83ea37048c5171d2cc9e96e8df615ee2fb23eb904125153a92b12035/audiobook-dl-0.6.0.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/47/a4/49b8088e70fd86e1ddad49f261ed6bedf04d2de0b9dd9683850b98aa3c67/finqual-0.1.8.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [pytrials]: Downloading https://files.pythonhosted.org/packages/45/5a/bd0a33695050500792e3cd6a5c60b06abeb7617ab32044aaa9bfd5155503/pytrials-0.2.1.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [dynamic-links]: executing diffoscope
+[2023-07-09 19:44:30] INFO root fetch - processPackages [dynamic-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-links-0.1.0.tar.gz tmp/dynamic-links-0.1.1.tar.gz --markdown 20230709/d/dynamic-links/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 19:44:30] INFO root fetch - processPackages [survey-enhance]: Downloading https://files.pythonhosted.org/packages/ef/0d/26d54b7e3aac3e97dd2a60ad0868af21e8abecd055858ba01c3280f94d97/survey-enhance-0.1.3.tar.gz
+[2023-07-09 19:44:30] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 19:44:30] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 19:44:30] INFO root fetch - processPackages [audiobook-dl]: executing diffoscope
+[2023-07-09 19:44:30] INFO root fetch - processPackages [audiobook-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiobook-dl-0.5.0.tar.gz tmp/audiobook-dl-0.6.0.tar.gz --markdown 20230709/a/audiobook-dl/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 19:44:30] INFO root fetch - processPackages [pytrials]: executing diffoscope
+[2023-07-09 19:44:30] INFO root fetch - processPackages [pytrials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrials-0.2.0.tar.gz tmp/pytrials-0.2.1.tar.gz --markdown 20230709/p/pytrials/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 19:44:30] INFO root fetch - processPackages [survey-enhance]: executing diffoscope
+[2023-07-09 19:44:30] INFO root fetch - processPackages [survey-enhance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey-enhance-0.1.2.tar.gz tmp/survey-enhance-0.1.3.tar.gz --markdown 20230709/s/survey-enhance/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 19:44:30] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-09 19:44:30] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.7.tar.gz tmp/finqual-0.1.8.tar.gz --markdown 20230709/f/finqual/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 19:44:31] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.1.0.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.1.1.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - main [MainThread]: End processing [dynamic-links]: success
+[2023-07-09 19:44:31] INFO root fetch - processPackages [pytrials]: Remove: archive file [/home/abi/fetcher/tmp/pytrials-0.2.0.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - processPackages [pytrials]: Remove: archive file [/home/abi/fetcher/tmp/pytrials-0.2.1.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - main [MainThread]: End processing [pytrials]: success
+[2023-07-09 19:44:31] INFO root fetch - processPackages [survey-enhance]: Remove: archive file [/home/abi/fetcher/tmp/survey-enhance-0.1.2.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - processPackages [survey-enhance]: Remove: archive file [/home/abi/fetcher/tmp/survey-enhance-0.1.3.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - main [MainThread]: End processing [survey-enhance]: success
+[2023-07-09 19:44:31] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 19:44:31] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 19:44:32] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.7.tar.gz]
+[2023-07-09 19:44:32] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.8.tar.gz]
+[2023-07-09 19:44:32] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-09 19:44:32] INFO root fetch - processPackages [audiobook-dl]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-dl-0.5.0.tar.gz]
+[2023-07-09 19:44:32] INFO root fetch - processPackages [audiobook-dl]: Remove: archive file [/home/abi/fetcher/tmp/audiobook-dl-0.6.0.tar.gz]
+[2023-07-09 19:44:32] INFO root fetch - main [MainThread]: End processing [audiobook-dl]: success
+[2023-07-09 19:44:32] INFO root fetch - main [MainThread]: Store serial: [18822153]

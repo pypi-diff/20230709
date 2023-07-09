@@ -5647,3 +5647,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:04:09] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.9.1.tar.gz]
 [2023-07-09 09:04:09] INFO root fetch - main [MainThread]: End processing [libcoveocds]: success
 [2023-07-09 09:04:09] INFO root fetch - main [MainThread]: Store serial: [18818526]
+[2023-07-09 09:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818526]
+[2023-07-09 09:09:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fm91
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Blockthon
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psyke
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqldao-generator
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nifigator
+[2023-07-09 09:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonk8s
+[2023-07-09 09:09:19] INFO root fetch - processPackages [nifigator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 09:09:19] WARNING root fetch - processPackages [sqldao-generator]: Skipping, unable to determine old version
+[2023-07-09 09:09:19] INFO root fetch - main [MainThread]: End processing [sqldao-generator] error
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dragonk8s]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-09 09:09:19] WARNING root fetch - processPackages [fm91]: Skipping, unable to determine old version
+[2023-07-09 09:09:19] INFO root fetch - main [MainThread]: End processing [fm91] error
+[2023-07-09 09:09:19] INFO root fetch - processPackages [Blockthon]: New version: [7.3.9] Old Version: [7.3.6]
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 09:09:19] INFO root fetch - processPackages [psyke]: New version: [0.4.9.dev9] Old Version: [0.4.9.dev8]
+[2023-07-09 09:09:19] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/aa/08/7cb19e0e27b9685a9b560832a943b0683fc98cf9ac38e27dead402eb76e7/Blockthon-7.3.6.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [nifigator]: Downloading https://files.pythonhosted.org/packages/4c/35/3098a9b3a4efc2cf2c15fd4ee96ec100f31d5f7f347c6ef1ce64fab20d54/nifigator-0.1.7.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/12/f0/8d8d7bcd8ba2b3df1f446741f2f222e76d90c03eb0b9385a727709462b86/dragonk8s-0.0.1.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/58/85/6147396e1ee43b6657869d503e8864e087e8af4c86a69aa0d21e8442e50b/psyke-0.4.9.dev8.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/16/8a/d13adb5659de16c90ae389336b0122621ed41d2d78740a6f19a0e1302cf4/Blockthon-7.3.9.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dragonk8s]: Downloading https://files.pythonhosted.org/packages/ec/e1/89b82f2a434b18612e5f8ed9644403ce779688775ae5650e7af5b9def31e/dragonk8s-1.0.0.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-09 09:09:19] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-7.3.6.tar.gz tmp/Blockthon-7.3.9.tar.gz --markdown 20230709/B/Blockthon/7.3.6-7.3.9/diff.md --exclude *.pyd
+[2023-07-09 09:09:19] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/15/d4/b851e7d22e51eb36d2fb9795da0dda8f93018d6d15b54b8ef5ade09be088/psyke-0.4.9.dev9.tar.gz
+[2023-07-09 09:09:19] INFO root fetch - processPackages [nifigator]: Downloading https://files.pythonhosted.org/packages/e8/64/18ba6d4f91529a73fd40ca6aa7fa82a5b3dca25500c7cddec0d1fe74cdc3/nifigator-0.1.8-py2.py3-none-any.whl
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dragonk8s]: executing diffoscope
+[2023-07-09 09:09:19] INFO root fetch - processPackages [dragonk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonk8s-0.0.1.tar.gz tmp/dragonk8s-1.0.0.tar.gz --markdown 20230709/d/dragonk8s/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 09:09:19] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-07-09 09:09:19] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.4.9.dev8.tar.gz tmp/psyke-0.4.9.dev9.tar.gz --markdown 20230709/p/psyke/0.4.9.dev8-0.4.9.dev9/diff.md --exclude *.pyd
+[2023-07-09 09:09:19] INFO root fetch - processPackages [nifigator]: executing diffoscope
+[2023-07-09 09:09:19] INFO root fetch - processPackages [nifigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifigator-0.1.7.tar.gz tmp/nifigator-0.1.8-py2.py3-none-any.whl.zip --markdown 20230709/n/nifigator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 09:09:20] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 09:09:20] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-7.3.6.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-7.3.9.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-09 09:09:20] INFO root fetch - processPackages [nifigator]: Remove: archive file [/home/abi/fetcher/tmp/nifigator-0.1.7.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - processPackages [nifigator]: Remove: archive file [/home/abi/fetcher/tmp/nifigator-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-09 09:09:20] INFO root fetch - main [MainThread]: End processing [nifigator]: success
+[2023-07-09 09:09:20] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev8.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev9.tar.gz]
+[2023-07-09 09:09:20] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-07-09 09:09:21] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-0.0.1.tar.gz]
+[2023-07-09 09:09:21] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.0.tar.gz]
+[2023-07-09 09:09:21] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
+[2023-07-09 09:09:21] INFO root fetch - main [MainThread]: Store serial: [18818549]

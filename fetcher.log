@@ -9362,3 +9362,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:13:08] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
 [2023-07-09 15:13:08] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-07-09 15:13:08] INFO root fetch - main [MainThread]: Store serial: [18820334]
+[2023-07-09 15:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820334]
+[2023-07-09 15:18:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astropandas
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opv
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpttrace
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-sql-parsing
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamindb_setup
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gmail-draft-creator
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyTasker
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-07-09 15:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: saladpy
+[2023-07-09 15:18:17] INFO root fetch - processPackages [astropandas]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [lamindb_setup]: New version: [0.48.7] Old Version: [0.48.6]
+[2023-07-09 15:18:18] WARNING root fetch - processPackages [opv]: Skipping, unable to determine old version
+[2023-07-09 15:18:18] INFO root fetch - processPackages [opv]: Start processing: zein
+[2023-07-09 15:18:18] INFO root fetch - main [MainThread]: End processing [opv] error
+[2023-07-09 15:18:18] INFO root fetch - processPackages [gpttrace]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [pyTasker]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [gmail-draft-creator]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [saladpy]: New version: [1.0.2a3] Old Version: [1.0.2a2]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.422.23190] Old Version: [9.410.23165]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 15:18:18] INFO root fetch - processPackages [gpttrace]: Downloading https://files.pythonhosted.org/packages/6d/b3/becd5373e816b777a398de583a52ded276e8b266dead79d9396ca1313a1f/gpttrace-0.1.1.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [astropandas]: Downloading https://files.pythonhosted.org/packages/8b/cd/2edb05d9b35f7337f93246635efd10fa595e3655ab79b40d05a34776dcac/astropandas-1.2.1.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/f5/a0/1dcdf3f9eed424250fdf9b8f4f3d7835b5f852ecc3adaa8a8d30ee0efff5/mo_sql_parsing-9.410.23165-py2.py3-none-any.whl
+[2023-07-09 15:18:18] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/fb/ec/5bb90f3d58b9a16913622f62d8bed31c42fe06d59d83626791fc06bb5be7/pyTasker-0.6.5.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/75/43/02a81f107eac2d261f5fe696e219279d56c66e70fb97d4ab506967c4b629/lamindb_setup-0.48.6.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [saladpy]: Downloading https://files.pythonhosted.org/packages/e7/9b/2af6d609626b7fc34b52d22a8149d12d0ecc5bd53a143bb2fb55354d38ce/saladpy-1.0.2a2.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [gmail-draft-creator]: Downloading https://files.pythonhosted.org/packages/eb/5c/59004e2fd53c50bdad5927d21b9dc133b1a326a722b4c120936f1e8aa4de/gmail_draft_creator-1.1.0.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [astropandas]: Downloading https://files.pythonhosted.org/packages/9e/3a/d642bf1ae5b32aafa05593f00508691d07f061a6419bc0c228f417dd2216/astropandas-1.2.2.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/65/01/d5d0f8f46bbd84cea3eb438e6689fb3b0408a0f74b05611df1b5582a54fa/mo_sql_parsing-9.422.23190-py2.py3-none-any.whl
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230709/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-09 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230709/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:18:18] INFO root fetch - processPackages [gmail-draft-creator]: Downloading https://files.pythonhosted.org/packages/94/73/038873c216779056538a03209b29456290a631de36b598572811dc4ce3ac/gmail_draft_creator-1.2.0.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/22/0c/61e9b921607fb7bb8b7771e4024bfe95fedc781935dfa77dee225ff56adf/lamindb_setup-0.48.7.tar.gz
+[2023-07-09 15:18:18] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/08/83/d40f5243ad8b3b115afabce88728d974d82049dd2731ed16eeaa4d368dc4/pyTasker-0.6.6.tar.gz
+[2023-07-09 15:18:19] INFO root fetch - processPackages [astropandas]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [astropandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropandas-1.2.1.tar.gz tmp/astropandas-1.2.2.tar.gz --markdown 20230709/a/astropandas/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 15:18:19] INFO root fetch - processPackages [saladpy]: Downloading https://files.pythonhosted.org/packages/17/20/fcb47bdc4e565c7ba99f23a934c2d5feaac2d222dcfd69b9c75be1333d13/saladpy-1.0.2a3.tar.gz
+[2023-07-09 15:18:19] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.410.23165-py2.py3-none-any.whl.zip tmp/mo_sql_parsing-9.422.23190-py2.py3-none-any.whl.zip --markdown 20230709/m/mo-sql-parsing/9.410.23165-9.422.23190/diff.md --exclude *.pyd
+[2023-07-09 15:18:19] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 15:18:19] INFO root fetch - processPackages [gmail-draft-creator]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [gmail-draft-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_draft_creator-1.1.0.tar.gz tmp/gmail_draft_creator-1.2.0.tar.gz --markdown 20230709/g/gmail-draft-creator/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 15:18:19] INFO root fetch - processPackages [gpttrace]: Downloading https://files.pythonhosted.org/packages/7d/dd/041174e6eaead7fb8328c5ed61b5827b02fa48c272add36f6f4e18a5bd47/gpttrace-0.1.2.tar.gz
+[2023-07-09 15:18:19] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.6.tar.gz tmp/lamindb_setup-0.48.7.tar.gz --markdown 20230709/l/lamindb_setup/0.48.6-0.48.7/diff.md --exclude *.pyd
+[2023-07-09 15:18:19] INFO root fetch - processPackages [pyTasker]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [pyTasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTasker-0.6.5.tar.gz tmp/pyTasker-0.6.6.tar.gz --markdown 20230709/p/pyTasker/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-09 15:18:19] INFO root fetch - processPackages [saladpy]: executing diffoscope
+[2023-07-09 15:18:19] INFO root fetch - processPackages [saladpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saladpy-1.0.2a2.tar.gz tmp/saladpy-1.0.2a3.tar.gz --markdown 20230709/s/saladpy/1.0.2a2-1.0.2a3/diff.md --exclude *.pyd
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-scipy]: Start processing: saic-ismart-client
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [astropandas]: Remove: archive file [/home/abi/fetcher/tmp/astropandas-1.2.1.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [astropandas]: Remove: archive file [/home/abi/fetcher/tmp/astropandas-1.2.2.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [astropandas]: Start processing: pymusiclooper
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [astropandas]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nbdev-django
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [gmail-draft-creator]: Remove: archive file [/home/abi/fetcher/tmp/gmail_draft_creator-1.1.0.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [gmail-draft-creator]: Remove: archive file [/home/abi/fetcher/tmp/gmail_draft_creator-1.2.0.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [gmail-draft-creator]: Start processing: mhjson
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [gmail-draft-creator]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [pymusiclooper]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:18:20] WARNING root fetch - processPackages [mhjson]: Skipping, unable to determine old version
+[2023-07-09 15:18:20] INFO root fetch - processPackages [mhjson]: Start processing: anyconfig-msgpack-backend
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [mhjson] error
+[2023-07-09 15:18:20] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-09 15:18:20] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.410.23165-py2.py3-none-any.whl.zip]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.422.23190-py2.py3-none-any.whl.zip]
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/bb/f7/a0c4b93e6b7729afcf30319905cad1f6973f4975592d711be14a1a18fae6/saic_ismart_client-1.3.0.tar.gz
+[2023-07-09 15:18:20] INFO root fetch - processPackages [anyconfig-msgpack-backend]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [saladpy]: Remove: archive file [/home/abi/fetcher/tmp/saladpy-1.0.2a2.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [saladpy]: Remove: archive file [/home/abi/fetcher/tmp/saladpy-1.0.2a3.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [saladpy]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [pymusiclooper]: Downloading https://files.pythonhosted.org/packages/5e/1f/1f58d01135a5e359a2e67354fe8f1f98f0a73f05eb6a2cc62e3d66fc65d3/pymusiclooper-3.0.0.tar.gz
+[2023-07-09 15:18:20] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.5.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.6.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [pyTasker]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-09 15:18:20] INFO root fetch - processPackages [anyconfig-msgpack-backend]: Downloading https://files.pythonhosted.org/packages/a1/f7/4a7b41bfc836abfa6589e080ffaf4ea5644e73a026042aeae43a302d4574/anyconfig-msgpack-backend-0.1.1.tar.gz
+[2023-07-09 15:18:20] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.6.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.7.tar.gz]
+[2023-07-09 15:18:20] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-09 15:18:20] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230709/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:18:21] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/57/e0/16f8ef041988e24318cd6941e876a5669617fe0ce3ade0a0e436b9a398a6/saic_ismart_client-1.4.0.tar.gz
+[2023-07-09 15:18:21] INFO root fetch - processPackages [pymusiclooper]: Downloading https://files.pythonhosted.org/packages/44/40/ccc528c222dfff7c6566493501494b94c961e801b204bc8d40a25173b3e6/pymusiclooper-3.1.0.tar.gz
+[2023-07-09 15:18:21] INFO root fetch - processPackages [gpttrace]: executing diffoscope
+[2023-07-09 15:18:21] INFO root fetch - processPackages [gpttrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpttrace-0.1.1.tar.gz tmp/gpttrace-0.1.2.tar.gz --markdown 20230709/g/gpttrace/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 15:18:21] INFO root fetch - processPackages [anyconfig-msgpack-backend]: Downloading https://files.pythonhosted.org/packages/2b/80/284aa2e9bd27ec4a0d626e6ddcc0d24002179a3bc41245c2f829894cf2d8/anyconfig-msgpack-backend-0.2.0.tar.gz
+[2023-07-09 15:18:21] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-07-09 15:18:21] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.3.0.tar.gz tmp/saic_ismart_client-1.4.0.tar.gz --markdown 20230709/s/saic-ismart-client/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-09 15:18:21] INFO root fetch - processPackages [pymusiclooper]: executing diffoscope
+[2023-07-09 15:18:21] INFO root fetch - processPackages [pymusiclooper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymusiclooper-3.0.0.tar.gz tmp/pymusiclooper-3.1.0.tar.gz --markdown 20230709/p/pymusiclooper/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-09 15:18:21] INFO root fetch - processPackages [anyconfig-msgpack-backend]: executing diffoscope
+[2023-07-09 15:18:21] INFO root fetch - processPackages [anyconfig-msgpack-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyconfig-msgpack-backend-0.1.1.tar.gz tmp/anyconfig-msgpack-backend-0.2.0.tar.gz --markdown 20230709/a/anyconfig-msgpack-backend/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 15:18:21] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-09 15:18:21] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-09 15:18:21] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-09 15:18:22] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.3.0.tar.gz]
+[2023-07-09 15:18:22] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.0.tar.gz]
+[2023-07-09 15:18:22] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-07-09 15:18:22] INFO root fetch - processPackages [pymusiclooper]: Remove: archive file [/home/abi/fetcher/tmp/pymusiclooper-3.0.0.tar.gz]
+[2023-07-09 15:18:22] INFO root fetch - processPackages [pymusiclooper]: Remove: archive file [/home/abi/fetcher/tmp/pymusiclooper-3.1.0.tar.gz]
+[2023-07-09 15:18:22] INFO root fetch - main [MainThread]: End processing [pymusiclooper]: success
+[2023-07-09 15:18:22] INFO root fetch - processPackages [anyconfig-msgpack-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-msgpack-backend-0.1.1.tar.gz]
+[2023-07-09 15:18:22] INFO root fetch - processPackages [anyconfig-msgpack-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-msgpack-backend-0.2.0.tar.gz]
+[2023-07-09 15:18:22] INFO root fetch - main [MainThread]: End processing [anyconfig-msgpack-backend]: success
+[2023-07-09 15:18:23] INFO root fetch - processPackages [gpttrace]: Remove: archive file [/home/abi/fetcher/tmp/gpttrace-0.1.1.tar.gz]
+[2023-07-09 15:18:23] INFO root fetch - processPackages [gpttrace]: Remove: archive file [/home/abi/fetcher/tmp/gpttrace-0.1.2.tar.gz]
+[2023-07-09 15:18:23] INFO root fetch - main [MainThread]: End processing [gpttrace]: success
+[2023-07-09 15:18:23] INFO root fetch - main [MainThread]: Store serial: [18820386]

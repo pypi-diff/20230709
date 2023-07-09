@@ -9260,3 +9260,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:07:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-09 15:07:55] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-09 15:07:55] INFO root fetch - main [MainThread]: Store serial: [18820291]
+[2023-07-09 15:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820291]
+[2023-07-09 15:13:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DirectAdminAPI-SGS-shohani
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-stdlib
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pasta-eln
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-quantizers-nightly
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zein
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyTasker
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slib-sorter
+[2023-07-09 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: evds
+[2023-07-09 15:13:04] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [zein]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [pyTasker]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230709.post1328] Old Version: [1.1.0.20230709.post102012]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [slib-sorter]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [pasta-eln]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:13:04] INFO root fetch - processPackages [evds]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/d8/ad/89397112c04707b9a65a0da1212e0abba161a450fc18ca9dcd8bfe99694e/zein-0.0.7.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Downloading https://files.pythonhosted.org/packages/9c/6a/2d6dabb376acd8cca4a443962569c7772358d1537046c6c6e2cd64ff301a/directadminapi_sgs_shohani-0.0.5.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/a7/d7/c502c7fd430b10f2eac89b3b132fa7edc583959d5bdaa5c6d536669bdbd5/pyTasker-0.6.4.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/b4/80/d7071ac16d2a0d7809a97c3d70f69a446fc838a9ac483a6a3ab5cc324bdd/slib-sorter-1.6.6.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/28/3e/28efbaac713ff5e0ad85498168ebd5285c3e0dcddaae1365c08976cdd091/pasta_eln-2.4.3-py3-none-any.whl
+[2023-07-09 15:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/54/15/9cdad5bd92aed5de0cc1e46b9361e700140179117dcf76f7ff45c7fdad64/mct-quantizers-nightly-1.1.0.20230709.post102012.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [evds]: Downloading https://files.pythonhosted.org/packages/d9/d0/625aef51a1e6d9078772e6c012aefb8dab8676aecbecb495ea0ddbad0826/evds-0.2.0.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Downloading https://files.pythonhosted.org/packages/0c/07/58419107e45943662c768c355d112910bc0bb6b1d33da1cddd3f0bce249a/directadminapi_sgs_shohani-0.0.6.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/3c/c0/babfb9f8082016197e09ff66dad176276e4c96c7f6eb7ec156e48f4bb0aa/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230709/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230709/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-09 15:13:05] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230709/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:13:05] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/4f/57/4fb3526e429662ae4d7a964d6b84f84f995e8ab26dc3e7af4b6c07428345/slib-sorter-1.6.7.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [evds]: Downloading https://files.pythonhosted.org/packages/bf/5a/b2a8ed85799685c15a5a73c4105fc341a65d6383534fce37f1a1f32c9492/evds-0.3.0.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 15:13:05] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.7.tar.gz tmp/zein-0.0.8.tar.gz --markdown 20230709/z/zein/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 15:13:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: executing diffoscope
+[2023-07-09 15:13:05] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directadminapi_sgs_shohani-0.0.5.tar.gz tmp/directadminapi_sgs_shohani-0.0.6.tar.gz --markdown 20230709/D/DirectAdminAPI-SGS-shohani/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 15:13:05] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/fb/ec/5bb90f3d58b9a16913622f62d8bed31c42fe06d59d83626791fc06bb5be7/pyTasker-0.6.5.tar.gz
+[2023-07-09 15:13:05] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/79/1e/2f4c36a43e35f6afe62f9f839767e8acefab860ff693bccbe4f96ca768f2/pasta_eln-2.4.4-py3-none-any.whl
+[2023-07-09 15:13:06] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-09 15:13:06] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230709.post102012.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz --markdown 20230709/m/mct-quantizers-nightly/1.1.0.20230709.post102012-1.1.0.20230709.post1328/diff.md --exclude *.pyd
+[2023-07-09 15:13:06] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-07-09 15:13:06] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.4.3-py3-none-any.whl.zip tmp/pasta_eln-2.4.4-py3-none-any.whl.zip --markdown 20230709/p/pasta-eln/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-07-09 15:13:06] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-09 15:13:06] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.6.6.tar.gz tmp/slib-sorter-1.6.7.tar.gz --markdown 20230709/s/slib-sorter/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-07-09 15:13:06] INFO root fetch - processPackages [evds]: executing diffoscope
+[2023-07-09 15:13:06] INFO root fetch - processPackages [evds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evds-0.2.0.tar.gz tmp/evds-0.3.0.tar.gz --markdown 20230709/e/evds/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 15:13:06] INFO root fetch - processPackages [pyTasker]: executing diffoscope
+[2023-07-09 15:13:06] INFO root fetch - processPackages [pyTasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTasker-0.6.4.tar.gz tmp/pyTasker-0.6.5.tar.gz --markdown 20230709/p/pyTasker/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-09 15:13:07] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Remove: archive file [/home/abi/fetcher/tmp/directadminapi_sgs_shohani-0.0.5.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Remove: archive file [/home/abi/fetcher/tmp/directadminapi_sgs_shohani-0.0.6.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Start processing: nbdev-pytorch
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [DirectAdminAPI-SGS-shohani]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-09 15:13:07] INFO root fetch - processPackages [evds]: Remove: archive file [/home/abi/fetcher/tmp/evds-0.2.0.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [evds]: Remove: archive file [/home/abi/fetcher/tmp/evds-0.3.0.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [evds]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.6.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.7.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.7.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-09 15:13:07] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230709.post102012.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.4.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.5.tar.gz]
+[2023-07-09 15:13:07] INFO root fetch - main [MainThread]: End processing [pyTasker]: success
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-09 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230709/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 15:13:08] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.3-py3-none-any.whl.zip]
+[2023-07-09 15:13:08] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.4-py3-none-any.whl.zip]
+[2023-07-09 15:13:08] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-07-09 15:13:08] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-09 15:13:08] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-09 15:13:08] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-09 15:13:08] INFO root fetch - main [MainThread]: Store serial: [18820334]

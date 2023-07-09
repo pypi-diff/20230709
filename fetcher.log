@@ -15005,3 +15005,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:39:21] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.57.dev0-py3-none-any.whl.zip]
 [2023-07-09 21:39:21] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
 [2023-07-09 21:39:21] INFO root fetch - main [MainThread]: Store serial: [18822793]
+[2023-07-09 21:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822793]
+[2023-07-09 21:44:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 21:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycarlanet
+[2023-07-09 21:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-httptesting
+[2023-07-09 21:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ooo-dev-tools
+[2023-07-09 21:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fundaml
+[2023-07-09 21:44:30] INFO root fetch - processPackages [fundaml]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-07-09 21:44:30] INFO root fetch - processPackages [pytest-httptesting]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-09 21:44:30] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-09 21:44:30] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/55/25/bfb36372197126ee1cb2144d78042a9665778671e5e02ffc7705de84087e/fundaml-0.1.29.tar.gz
+[2023-07-09 21:44:30] INFO root fetch - processPackages [pycarlanet]: New version: [0.8.9a0] Old Version: [0.8.8a0]
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pytest-httptesting]: Downloading https://files.pythonhosted.org/packages/0d/b9/747bd487da200a9a54a3f03a90f198978cdf683380e2c34a203bb3082fd3/pytest_httptesting-0.4.0.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/d5/20/ffd1a4a89eba8c1c8266676051069e60ba5933e2371bd9fc445d9078bffd/fundaml-0.1.30.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b6/38/8550086ba7d084757e222622fc6d997f32c955de0fe6e8b3a976de025e47/pycarlanet-0.8.8a0.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [fundaml]: executing diffoscope
+[2023-07-09 21:44:31] INFO root fetch - processPackages [fundaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundaml-0.1.29.tar.gz tmp/fundaml-0.1.30.tar.gz --markdown 20230709/f/fundaml/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pytest-httptesting]: Downloading https://files.pythonhosted.org/packages/1f/d6/5bfe8b31ca7a7d40a60423f20a50e234fa06e7ea3ddf61cb0c10a2445085/pytest_httptesting-0.5.0.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pytest-httptesting]: executing diffoscope
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pytest-httptesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_httptesting-0.4.0.tar.gz tmp/pytest_httptesting-0.5.0.tar.gz --markdown 20230709/p/pytest-httptesting/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b9/5a/06a5868d18b61d0ca39f41383d6c3792026819c027b77eea17ac6ddb0e9b/pycarlanet-0.8.9a0.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pycarlanet]: executing diffoscope
+[2023-07-09 21:44:31] INFO root fetch - processPackages [pycarlanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlanet-0.8.8a0.tar.gz tmp/pycarlanet-0.8.9a0.tar.gz --markdown 20230709/p/pycarlanet/0.8.8a0-0.8.9a0/diff.md --exclude *.pyd
+[2023-07-09 21:44:31] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-07-09 21:44:31] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230709/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-09 21:44:32] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.29.tar.gz]
+[2023-07-09 21:44:32] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.30.tar.gz]
+[2023-07-09 21:44:32] INFO root fetch - main [MainThread]: End processing [fundaml]: success
+[2023-07-09 21:44:32] INFO root fetch - processPackages [pytest-httptesting]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httptesting-0.4.0.tar.gz]
+[2023-07-09 21:44:32] INFO root fetch - processPackages [pytest-httptesting]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httptesting-0.5.0.tar.gz]
+[2023-07-09 21:44:32] INFO root fetch - main [MainThread]: End processing [pytest-httptesting]: success
+[2023-07-09 21:44:32] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.8.8a0.tar.gz]
+[2023-07-09 21:44:32] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.8.9a0.tar.gz]
+[2023-07-09 21:44:32] INFO root fetch - main [MainThread]: End processing [pycarlanet]: success
+[2023-07-09 21:44:36] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2023-07-09 21:44:36] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2023-07-09 21:44:36] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-07-09 21:44:36] INFO root fetch - main [MainThread]: Store serial: [18822805]

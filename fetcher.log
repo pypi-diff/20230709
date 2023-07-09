@@ -12216,3 +12216,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:55:20] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
 [2023-07-09 17:55:20] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
 [2023-07-09 17:55:20] INFO root fetch - main [MainThread]: Store serial: [18821581]
+[2023-07-09 18:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821581]
+[2023-07-09 18:00:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chrislab
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mac-voice-assistant
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calculator-MU
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: event-dispatching
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scratchrequest
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: attachvolume
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spin-finder
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aura-cli
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: process-twarc
+[2023-07-09 18:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sabledocs
+[2023-07-09 18:00:29] INFO root fetch - processPackages [event-dispatching]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-09 18:00:29] INFO root fetch - processPackages [mac-voice-assistant]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-09 18:00:29] INFO root fetch - processPackages [chrislab]: New version: [0.5.5.post1] Old Version: [0.5.5]
+[2023-07-09 18:00:29] INFO root fetch - processPackages [aura-cli]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-09 18:00:29] INFO root fetch - processPackages [calculator-MU]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 18:00:29] WARNING root fetch - processPackages [spin-finder]: Skipping, unable to determine old version
+[2023-07-09 18:00:29] INFO root fetch - processPackages [process-twarc]: New version: [0.12.4] Old Version: [0.12.3]
+[2023-07-09 18:00:29] INFO root fetch - main [MainThread]: End processing [spin-finder] error
+[2023-07-09 18:00:29] WARNING root fetch - processPackages [scratchrequest]: Skipping, unable to determine old version
+[2023-07-09 18:00:29] INFO root fetch - main [MainThread]: End processing [scratchrequest] error
+[2023-07-09 18:00:29] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/8d/ad/d716200dd5de746f5b988b7379c301c3b61fd26f4b72fe23b8079a1b3949/calculator_MU-1.0.3.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/d3/da/bbee15110ecb540f2def2746efc2f9b143ef22bfb1970aaf0a9aea85e536/event_dispatching-0.1.5.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [sabledocs]: New version: [0.5.202.dev0] Old Version: [0.4.198]
+[2023-07-09 18:00:29] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/02/50/9e0eb9bb7d9fb8dfc370fd20f7ad5be4eb8386b73364b958dd754a6b5bb5/chrislab-0.5.5.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/51/4c/ff239b41fbfd7a809fe9861ee0aa42a2bcf64ed8ec03e1f978cdd5c56e2f/process-twarc-0.12.3.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [mac-voice-assistant]: Downloading https://files.pythonhosted.org/packages/cd/24/3060f6f35ee178bc2b563d5a07f2cfc9cf4051a81046967f61d619ac31f4/mac_voice_assistant-0.3.1.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/43/87/028ab3028ac9464e4c8e306f7f6155c1891e0ec1af5cb51ff99023c908d2/aura-cli-0.2.tar.gz
+[2023-07-09 18:00:29] WARNING root fetch - processPackages [attachvolume]: Skipping, unable to determine old version
+[2023-07-09 18:00:29] INFO root fetch - main [MainThread]: End processing [attachvolume] error
+[2023-07-09 18:00:29] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/b3/da/7d748c9fead367e3ad09eeacef41c0f9470dbe5675c976d14246ee20381b/sabledocs-0.4.198.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/63/07/c876c3267c59758fd4f5ad61b258bc55accda81dba5043a6d3af6108052f/event_dispatching-0.2.0.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/ca/01/aace0e6c7d926e63992f298893912805c35f611bc97e74ba566823cda29d/calculator_MU-1.0.4-py3.11.egg
+[2023-07-09 18:00:29] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/ee/16/deb0992990585f852745fe5dce738141d1f5f5c037253179c91cad65dd2f/process-twarc-0.12.4.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [event-dispatching]: executing diffoscope
+[2023-07-09 18:00:29] INFO root fetch - processPackages [event-dispatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_dispatching-0.1.5.tar.gz tmp/event_dispatching-0.2.0.tar.gz --markdown 20230709/e/event-dispatching/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 18:00:29] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/a9/e2/a29507f47ef8f50724dea496f9ee771d85004d199a4f712dca8fbb2154a3/chrislab-0.5.5.post1.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [calculator-MU]: executing diffoscope
+[2023-07-09 18:00:29] INFO root fetch - processPackages [calculator-MU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_MU-1.0.3.tar.gz tmp/calculator_MU-1.0.4-py3.11.egg --markdown 20230709/c/calculator-MU/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 18:00:29] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/c0/e5/62dc3cb05e6d4bc4621f91acd5db1552cc9e5d4f3db2f679124246e5e256/aura-cli-0.2.1.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/1a/4a/ff88788ee623635ce24af7cba19bebcf0d89b0cbc46ffd1a06a60bf3383d/sabledocs-0.5.202.dev0.tar.gz
+[2023-07-09 18:00:29] INFO root fetch - processPackages [mac-voice-assistant]: Downloading https://files.pythonhosted.org/packages/04/df/384583e9d1751766e2577d6b76d5c0f8caf7eae98019fcb45277298947ca/mac_voice_assistant-0.3.2.tar.gz
+[2023-07-09 18:00:30] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-07-09 18:00:30] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.5.5.tar.gz tmp/chrislab-0.5.5.post1.tar.gz --markdown 20230709/c/chrislab/0.5.5-0.5.5.post1/diff.md --exclude *.pyd
+[2023-07-09 18:00:30] INFO root fetch - processPackages [process-twarc]: executing diffoscope
+[2023-07-09 18:00:30] INFO root fetch - processPackages [process-twarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process-twarc-0.12.3.tar.gz tmp/process-twarc-0.12.4.tar.gz --markdown 20230709/p/process-twarc/0.12.3-0.12.4/diff.md --exclude *.pyd
+[2023-07-09 18:00:30] INFO root fetch - processPackages [mac-voice-assistant]: executing diffoscope
+[2023-07-09 18:00:30] INFO root fetch - processPackages [mac-voice-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mac_voice_assistant-0.3.1.tar.gz tmp/mac_voice_assistant-0.3.2.tar.gz --markdown 20230709/m/mac-voice-assistant/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-09 18:00:30] INFO root fetch - processPackages [aura-cli]: executing diffoscope
+[2023-07-09 18:00:30] INFO root fetch - processPackages [aura-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura-cli-0.2.tar.gz tmp/aura-cli-0.2.1.tar.gz --markdown 20230709/a/aura-cli/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 18:00:30] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-07-09 18:00:30] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.4.198.tar.gz tmp/sabledocs-0.5.202.dev0.tar.gz --markdown 20230709/s/sabledocs/0.4.198-0.5.202.dev0/diff.md --exclude *.pyd
+[2023-07-09 18:00:30] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.5.tar.gz]
+[2023-07-09 18:00:30] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.2.0.tar.gz]
+[2023-07-09 18:00:30] INFO root fetch - main [MainThread]: End processing [event-dispatching]: success
+[2023-07-09 18:00:30] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.3.tar.gz]
+[2023-07-09 18:00:30] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.4-py3.11.egg]
+[2023-07-09 18:00:30] INFO root fetch - main [MainThread]: End processing [calculator-MU]: success
+[2023-07-09 18:00:31] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.3.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.4.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
+[2023-07-09 18:00:31] INFO root fetch - processPackages [mac-voice-assistant]: Remove: archive file [/home/abi/fetcher/tmp/mac_voice_assistant-0.3.1.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - processPackages [mac-voice-assistant]: Remove: archive file [/home/abi/fetcher/tmp/mac_voice_assistant-0.3.2.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - main [MainThread]: End processing [mac-voice-assistant]: success
+[2023-07-09 18:00:31] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.5.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.5.post1.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-07-09 18:00:31] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.4.198.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.5.202.dev0.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-07-09 18:00:31] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.1.tar.gz]
+[2023-07-09 18:00:31] INFO root fetch - main [MainThread]: End processing [aura-cli]: success
+[2023-07-09 18:00:31] INFO root fetch - main [MainThread]: Store serial: [18821624]

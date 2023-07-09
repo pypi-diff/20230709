@@ -5276,3 +5276,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:27:48] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.63.tar.gz]
 [2023-07-09 08:27:48] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-09 08:27:48] INFO root fetch - main [MainThread]: Store serial: [18818389]
+[2023-07-09 08:32:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818389]
+[2023-07-09 08:32:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tondortools
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsc-es
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngmapi
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mangadex-downloader
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freewillai
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: midjourney-py
+[2023-07-09 08:32:58] WARNING root fetch - processPackages [tsc-es]: Skipping, unable to determine old version
+[2023-07-09 08:32:58] INFO root fetch - main [MainThread]: End processing [tsc-es] error
+[2023-07-09 08:32:58] INFO root fetch - processPackages [mangadex-downloader]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-09 08:32:58] WARNING root fetch - processPackages [freewillai]: Skipping, unable to determine old version
+[2023-07-09 08:32:58] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 08:32:58] INFO root fetch - main [MainThread]: End processing [freewillai] error
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ngmapi]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-07-09 08:32:58] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230709] Old Version: [20230708]
+[2023-07-09 08:32:58] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 08:32:58] INFO root fetch - processPackages [midjourney-py]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 08:32:58] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/e3/0a/32b25c966b7a539dc9eaa826d26a0334a622b132cb99927fb6c1f1857e6f/ngmapi-0.0.34.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0e/c2/105fc77110c486fbbb2af22dd53b6ba1c6de61dc8d8b9c2a82b12ade8c5a/fake-bpy-module-latest-20230708.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/24/06/7d739d7f41e4ae780f74dd540596ac75c623c21984d58976a00f6bb9191b/mangadex-downloader-2.9.0.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [midjourney-py]: Downloading https://files.pythonhosted.org/packages/c1/b5/67ed167c2b3f93c011d842b535f49a9a3a4061c4e68eab72d67e9760ddab/midjourney-py-1.0.3.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/dd/b9/1c71b9b9a12c5ae74d1681db2280e05a9b4de352714805e78c03575a8399/ngmapi-0.0.35.tar.gz
+[2023-07-09 08:32:58] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 08:32:58] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 08:32:58] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.34.tar.gz tmp/ngmapi-0.0.35.tar.gz --markdown 20230709/n/ngmapi/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-07-09 08:32:59] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-07-09 08:32:59] INFO root fetch - processPackages [midjourney-py]: Downloading https://files.pythonhosted.org/packages/dd/6a/8511b27c2fb8aba3e728e4fe4f9586579e08dc03284e035220c6e4ef70f6/midjourney-py-1.0.4.tar.gz
+[2023-07-09 08:32:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/2b/7a/789ebdb60814cb94c4043df7e6a75fa48b6c4a38e90f27a6cd1fca337457/fake-bpy-module-latest-20230709.tar.gz
+[2023-07-09 08:32:59] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-07-09 08:32:59] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230709/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 08:32:59] INFO root fetch - processPackages [midjourney-py]: executing diffoscope
+[2023-07-09 08:32:59] INFO root fetch - processPackages [midjourney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midjourney-py-1.0.3.tar.gz tmp/midjourney-py-1.0.4.tar.gz --markdown 20230709/m/midjourney-py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 08:32:59] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-09 08:32:59] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230708.tar.gz tmp/fake-bpy-module-latest-20230709.tar.gz --markdown 20230709/f/fake-bpy-module-latest/20230708-20230709/diff.md --exclude *.pyd
+[2023-07-09 08:32:59] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/b5/11/34eb8f10519d917a24f7b838c7bb8a9361ce4685f99dbae9dbb4938b02e2/mangadex-downloader-2.9.1.tar.gz
+[2023-07-09 08:32:59] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.34.tar.gz]
+[2023-07-09 08:32:59] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.35.tar.gz]
+[2023-07-09 08:32:59] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 08:32:59] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 08:32:59] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 08:32:59] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 08:33:00] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-07-09 08:33:00] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-07-09 08:33:00] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-07-09 08:33:00] INFO root fetch - processPackages [midjourney-py]: Remove: archive file [/home/abi/fetcher/tmp/midjourney-py-1.0.3.tar.gz]
+[2023-07-09 08:33:00] INFO root fetch - processPackages [midjourney-py]: Remove: archive file [/home/abi/fetcher/tmp/midjourney-py-1.0.4.tar.gz]
+[2023-07-09 08:33:00] INFO root fetch - main [MainThread]: End processing [midjourney-py]: success
+[2023-07-09 08:33:00] INFO root fetch - processPackages [mangadex-downloader]: executing diffoscope
+[2023-07-09 08:33:00] INFO root fetch - processPackages [mangadex-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangadex-downloader-2.9.0.tar.gz tmp/mangadex-downloader-2.9.1.tar.gz --markdown 20230709/m/mangadex-downloader/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-09 08:33:02] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.0.tar.gz]
+[2023-07-09 08:33:02] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.1.tar.gz]
+[2023-07-09 08:33:02] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
+[2023-07-09 08:33:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230708.tar.gz]
+[2023-07-09 08:33:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230709.tar.gz]
+[2023-07-09 08:33:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-09 08:33:03] INFO root fetch - main [MainThread]: Store serial: [18818414]

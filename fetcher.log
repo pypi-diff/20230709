@@ -16121,3 +16121,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:50:24] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
 [2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-07-09 22:50:24] INFO root fetch - main [MainThread]: Store serial: [18823347]
+[2023-07-09 22:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823347]
+[2023-07-09 22:55:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdcomp
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Simba-UW-tf-dev
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yadoma
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-carousel
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seventv
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threads-api
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mercury-sync
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EDEMDSPTFEB23
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grss
+[2023-07-09 22:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-logger
+[2023-07-09 22:55:33] INFO root fetch - processPackages [seventv]: New version: [2.3.1] Old Version: [2.2.0]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [threads-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [streamlit-carousel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [yadoma]: New version: [59.0.post1] Old Version: [59.0]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [EDEMDSPTFEB23]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [grss]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [cmdcomp]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.65.1] Old Version: [1.64.9]
+[2023-07-09 22:55:33] INFO root fetch - processPackages [EDEMDSPTFEB23]: Downloading https://files.pythonhosted.org/packages/a0/60/bd31b307d99787332e9c20b9bb3ded549d42c67b8ef7af13ae0c2966f16e/EDEMDSPTFEB23-0.0.6.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/29/be/28ebc75053bd41f6423a9b09a03a42a74e37b978c7a8fc1e55258edb9a82/seventv-2.2.0.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [ml-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-09 22:55:34] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/8f/07/34a023412e287b534eec72fc6f1cb7e2b01838c6a887e15baaecf102a042/streamlit_carousel-0.0.3.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/46/bb/5f2e20e4858de7399eb17513e08ecf3baf69f2d8559f1b8eed4e7b5195c5/threads-api-1.0.5.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [yadoma]: Downloading https://files.pythonhosted.org/packages/d8/37/3b93e30918922adc84a9e44374524ea17c83e7275fbdae91cba3e66fc56c/yadoma-59.0.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/4f/67/70eda895b26b30b0479f27c43547a9419afc7ad0fe04963153254e87c433/Simba-UW-tf-dev-1.64.9.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/dd/aa/64eb5be2619423b76629318a3498a5e6614c71c258057ca2b2c6a9c188f1/cmdcomp-1.0.0.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/4f/81/9df5a554643b3d80e902be0119692e303555a62c79a033555ada58e39a7d/grss-0.6.0.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [EDEMDSPTFEB23]: Downloading https://files.pythonhosted.org/packages/b8/11/10edff76394975633d7022a48efad16663477197034a23e03f919ac73766/EDEMDSPTFEB23-0.0.7.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/ec/1b/27ce922215cb6668309725864644ecb6ea7e94953063d450a07eb0a76208/ml_logger-0.9.8.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/4f/c6/dfe6f1bcdf2def2c5e28326f79c583789407b51c37ff423f56a3bc98fc5c/seventv-2.3.1.tar.gz
+[2023-07-09 22:55:34] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 26292187>=10485760
+[2023-07-09 22:55:34] INFO root fetch - processPackages [grss]: Start processing: roblox-pyc
+[2023-07-09 22:55:34] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-09 22:55:34] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.2]
+[2023-07-09 22:55:34] INFO root fetch - processPackages [EDEMDSPTFEB23]: executing diffoscope
+[2023-07-09 22:55:34] INFO root fetch - processPackages [EDEMDSPTFEB23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDEMDSPTFEB23-0.0.6.tar.gz tmp/EDEMDSPTFEB23-0.0.7.tar.gz --markdown 20230709/E/EDEMDSPTFEB23/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 22:55:34] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-09 22:55:34] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230709/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 22:55:34] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-09 22:55:34] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-2.2.0.tar.gz tmp/seventv-2.3.1.tar.gz --markdown 20230709/s/seventv/2.2.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-09 22:55:34] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/49/bf/2cecfebe6faa6e5f4fc9a74d37aba0b1f1fee4193376ff304b4f049957a4/streamlit_carousel-0.0.4.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [yadoma]: Downloading https://files.pythonhosted.org/packages/c6/9e/42c66bfaf4dfc80ffc176fdb4de65bc02a8b18b7424e24c9c2a39d3bc888/yadoma-59.0.post1.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/ad/46/c525293e0e54aca4f3a5f2d5947c29966dfc7fa5fa2dba73bf5e6031a279/roblox-pyc-1.6.6.5.2.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/ab/75/c305b14d3ab7e25850dacc2e388e5a1807f43244c07e7152ef8933e08a37/cmdcomp-1.1.0.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/49/07/24ad72186aedb41793d746ccdb7936cd4c79f6c22a71d84cd9da55a4c06f/threads-api-1.0.6.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/5e/73/772ea95da7b25d502cf034bc9d04a1f427674d9ad9fc87e212fccc33c1f0/ml_logger-0.9.9.tar.gz
+[2023-07-09 22:55:34] INFO root fetch - processPackages [yadoma]: executing diffoscope
+[2023-07-09 22:55:34] INFO root fetch - processPackages [yadoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yadoma-59.0.tar.gz tmp/yadoma-59.0.post1.tar.gz --markdown 20230709/y/yadoma/59.0-59.0.post1/diff.md --exclude *.pyd
+[2023-07-09 22:55:34] INFO root fetch - processPackages [streamlit-carousel]: executing diffoscope
+[2023-07-09 22:55:34] INFO root fetch - processPackages [streamlit-carousel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_carousel-0.0.3.tar.gz tmp/streamlit_carousel-0.0.4.tar.gz --markdown 20230709/s/streamlit-carousel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 22:55:34] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-07-09 22:55:34] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-1.0.0.tar.gz tmp/cmdcomp-1.1.0.tar.gz --markdown 20230709/c/cmdcomp/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 22:55:35] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-09 22:55:35] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-09 22:55:35] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.0.5.tar.gz tmp/threads-api-1.0.6.tar.gz --markdown 20230709/t/threads-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 22:55:35] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/3c/b9/d4e3e080ea84ff5016b102982d51976eba35322b5743b2ada105d40ec941/Simba-UW-tf-dev-1.65.1.tar.gz
+[2023-07-09 22:55:35] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 22:55:35] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.2.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230709/r/roblox-pyc/1.6.6.5.2-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-09 22:55:35] INFO root fetch - processPackages [ml-logger]: executing diffoscope
+[2023-07-09 22:55:35] INFO root fetch - processPackages [ml-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logger-0.9.8.tar.gz tmp/ml_logger-0.9.9.tar.gz --markdown 20230709/m/ml-logger/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-09 22:55:35] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-09 22:55:35] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.64.9.tar.gz tmp/Simba-UW-tf-dev-1.65.1.tar.gz --markdown 20230709/S/Simba-UW-tf-dev/1.64.9-1.65.1/diff.md --exclude *.pyd
+[2023-07-09 22:55:35] INFO root fetch - processPackages [EDEMDSPTFEB23]: Remove: archive file [/home/abi/fetcher/tmp/EDEMDSPTFEB23-0.0.6.tar.gz]
+[2023-07-09 22:55:35] INFO root fetch - processPackages [EDEMDSPTFEB23]: Remove: archive file [/home/abi/fetcher/tmp/EDEMDSPTFEB23-0.0.7.tar.gz]
+[2023-07-09 22:55:35] INFO root fetch - processPackages [EDEMDSPTFEB23]: Start processing: windmill-api
+[2023-07-09 22:55:35] INFO root fetch - main [MainThread]: End processing [EDEMDSPTFEB23]: success
+[2023-07-09 22:55:35] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-2.2.0.tar.gz]
+[2023-07-09 22:55:35] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-2.3.1.tar.gz]
+[2023-07-09 22:55:35] INFO root fetch - processPackages [seventv]: Start processing: wmill
+[2023-07-09 22:55:35] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-09 22:55:36] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-09 22:55:36] INFO root fetch - processPackages [yadoma]: Remove: archive file [/home/abi/fetcher/tmp/yadoma-59.0.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [yadoma]: Remove: archive file [/home/abi/fetcher/tmp/yadoma-59.0.post1.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [yadoma]: Start processing: wmill-pg
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [yadoma]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.0.0.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.1.0.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.5.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.6.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.2.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.8.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.9.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [ml-logger]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.3.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.4.tar.gz]
+[2023-07-09 22:55:36] INFO root fetch - main [MainThread]: End processing [streamlit-carousel]: success
+[2023-07-09 22:55:36] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-09 22:55:36] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-09 22:55:36] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230709/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-09 22:55:37] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-09 22:55:37] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230709/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230709/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-09 22:55:37] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-09 22:55:37] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-09 22:55:38] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-09 22:55:38] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-09 22:55:38] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-09 22:55:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.9.tar.gz]
+[2023-07-09 22:55:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.65.1.tar.gz]
+[2023-07-09 22:55:39] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-09 22:55:43] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-09 22:55:43] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-09 22:55:43] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-09 22:55:43] INFO root fetch - main [MainThread]: Store serial: [18823407]

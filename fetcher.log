@@ -8836,3 +8836,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:25:27] INFO root fetch - processPackages [PyThea]: Remove: archive file [/home/abi/fetcher/tmp/PyThea-0.7.4.tar.gz]
 [2023-07-09 14:25:27] INFO root fetch - main [MainThread]: End processing [PyThea]: success
 [2023-07-09 14:25:27] INFO root fetch - main [MainThread]: Store serial: [18820034]
+[2023-07-09 14:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820034]
+[2023-07-09 14:31:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 14:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WifiOrca
+[2023-07-09 14:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fritzconnection
+[2023-07-09 14:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Arpeggio
+[2023-07-09 14:31:31] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 14:31:32] INFO root fetch - processPackages [Arpeggio]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-09 14:31:32] INFO root fetch - processPackages [fritzconnection]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-09 14:31:32] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 14:31:32] INFO root fetch - processPackages [Arpeggio]: Downloading https://files.pythonhosted.org/packages/66/a5/4e39a94abf59bff8c9dde4880039172e0efe874453443e1e13651b6bd149/Arpeggio-2.0.1.tar.gz
+[2023-07-09 14:31:32] INFO root fetch - processPackages [fritzconnection]: Downloading https://files.pythonhosted.org/packages/41/ef/39191919a0ec95082d77ab5ec2df87cff2a98488814042e69ec65e64bbc4/fritzconnection-1.9.0.tar.gz
+[2023-07-09 14:31:32] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 14:31:32] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 14:31:32] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 14:31:32] INFO root fetch - processPackages [Arpeggio]: Downloading https://files.pythonhosted.org/packages/12/c4/516bb54456f85ad1947702ea4cef543a59de66d31a9887dbc3d9df36e3e1/Arpeggio-2.0.2.tar.gz
+[2023-07-09 14:31:32] INFO root fetch - processPackages [fritzconnection]: Downloading https://files.pythonhosted.org/packages/b2/41/5e4bd3e1c2e4dcd79ed929ccf9d9cd6ac7d83bc9376e48078282ecdf5154/fritzconnection-1.9.1.tar.gz
+[2023-07-09 14:31:32] INFO root fetch - processPackages [Arpeggio]: executing diffoscope
+[2023-07-09 14:31:32] INFO root fetch - processPackages [Arpeggio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Arpeggio-2.0.1.tar.gz tmp/Arpeggio-2.0.2.tar.gz --markdown 20230709/A/Arpeggio/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-09 14:31:33] INFO root fetch - processPackages [fritzconnection]: executing diffoscope
+[2023-07-09 14:31:33] INFO root fetch - processPackages [fritzconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fritzconnection-1.9.0.tar.gz tmp/fritzconnection-1.9.1.tar.gz --markdown 20230709/f/fritzconnection/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-09 14:31:33] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 14:31:33] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 14:31:33] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 14:31:33] INFO root fetch - processPackages [fritzconnection]: Remove: archive file [/home/abi/fetcher/tmp/fritzconnection-1.9.0.tar.gz]
+[2023-07-09 14:31:33] INFO root fetch - processPackages [fritzconnection]: Remove: archive file [/home/abi/fetcher/tmp/fritzconnection-1.9.1.tar.gz]
+[2023-07-09 14:31:33] INFO root fetch - main [MainThread]: End processing [fritzconnection]: success
+[2023-07-09 14:31:34] INFO root fetch - processPackages [Arpeggio]: Remove: archive file [/home/abi/fetcher/tmp/Arpeggio-2.0.1.tar.gz]
+[2023-07-09 14:31:34] INFO root fetch - processPackages [Arpeggio]: Remove: archive file [/home/abi/fetcher/tmp/Arpeggio-2.0.2.tar.gz]
+[2023-07-09 14:31:34] INFO root fetch - main [MainThread]: End processing [Arpeggio]: success
+[2023-07-09 14:31:34] INFO root fetch - main [MainThread]: Store serial: [18820045]

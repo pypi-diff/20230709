@@ -8710,3 +8710,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:04:42] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.1.tar.gz]
 [2023-07-09 14:04:42] INFO root fetch - main [MainThread]: End processing [wsuks]: success
 [2023-07-09 14:04:42] INFO root fetch - main [MainThread]: Store serial: [18819977]
+[2023-07-09 14:09:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819977]
+[2023-07-09 14:09:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 14:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixms
+[2023-07-09 14:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keyflow
+[2023-07-09 14:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doubledate
+[2023-07-09 14:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-agents-nightly
+[2023-07-09 14:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piou
+[2023-07-09 14:09:51] INFO root fetch - processPackages [doubledate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 14:09:51] INFO root fetch - processPackages [piou]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-09 14:09:51] INFO root fetch - processPackages [fixms]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 14:09:51] INFO root fetch - processPackages [keyflow]: New version: [1.1.1] Old Version: [0.1.1]
+[2023-07-09 14:09:51] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-07-09 14:09:51] INFO root fetch - processPackages [piou]: Downloading https://files.pythonhosted.org/packages/f9/4c/1be53b6dc9ee6934094190fe0d9ae5c8c8b571257886c8930af0a9cd7e2a/piou-0.9.7.tar.gz
+[2023-07-09 14:09:51] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-07-09 14:09:51] INFO root fetch - processPackages [doubledate]: Downloading https://files.pythonhosted.org/packages/7a/a0/261560db90f8e49971deee69d1af0fdf9298b61af998804f2b913101e6e3/doubledate-0.0.8.tar.gz
+[2023-07-09 14:09:51] INFO root fetch - processPackages [keyflow]: Downloading https://files.pythonhosted.org/packages/9f/f7/3fa74f5e4bda9f8fea2c5ce1ec122ac7ac0895472de0a0fa0e30e1f24c97/keyflow-0.1.1.tar.gz
+[2023-07-09 14:09:51] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/cb/51/ef2f5b4ba8681338ce4f793e796cefa089085f6d22467784a3c4c3c6c3cf/fixms-0.0.2.tar.gz
+[2023-07-09 14:09:51] INFO root fetch - processPackages [piou]: Downloading https://files.pythonhosted.org/packages/5d/ed/962165aa40510541e5466b9b1d951b706b456509d9c26f8182064244854a/piou-0.9.8.tar.gz
+[2023-07-09 14:09:51] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-07-09 14:09:51] INFO root fetch - processPackages [piou]: executing diffoscope
+[2023-07-09 14:09:51] INFO root fetch - processPackages [piou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piou-0.9.7.tar.gz tmp/piou-0.9.8.tar.gz --markdown 20230709/p/piou/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-09 14:09:51] INFO root fetch - processPackages [keyflow]: Downloading https://files.pythonhosted.org/packages/2d/19/57a95217377bdb4e06ee40794c63aca6bb07697ea092f35f4e0d6ef5da2c/keyflow-1.1.1.tar.gz
+[2023-07-09 14:09:51] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/af/c7/5f8926fa7604a10f015f0fc6359f9a05b59b2b55f6f3a724d240a78fcdd5/fixms-0.0.3.tar.gz
+[2023-07-09 14:09:52] INFO root fetch - processPackages [doubledate]: Downloading https://files.pythonhosted.org/packages/07/d2/1ac25e63ed5b9dfa5ebe61672cb4437a4f301ec6c45c15c0b74135a7b1f0/doubledate-0.0.9.tar.gz
+[2023-07-09 14:09:52] INFO root fetch - processPackages [keyflow]: executing diffoscope
+[2023-07-09 14:09:52] INFO root fetch - processPackages [keyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyflow-0.1.1.tar.gz tmp/keyflow-1.1.1.tar.gz --markdown 20230709/k/keyflow/0.1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-09 14:09:52] INFO root fetch - processPackages [fixms]: executing diffoscope
+[2023-07-09 14:09:52] INFO root fetch - processPackages [fixms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixms-0.0.2.tar.gz tmp/fixms-0.0.3.tar.gz --markdown 20230709/f/fixms/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 14:09:52] INFO root fetch - processPackages [doubledate]: executing diffoscope
+[2023-07-09 14:09:52] INFO root fetch - processPackages [doubledate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doubledate-0.0.8.tar.gz tmp/doubledate-0.0.9.tar.gz --markdown 20230709/d/doubledate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 14:09:52] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-07-09 14:09:52] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230709/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-07-09 14:09:52] INFO root fetch - processPackages [piou]: Remove: archive file [/home/abi/fetcher/tmp/piou-0.9.7.tar.gz]
+[2023-07-09 14:09:52] INFO root fetch - processPackages [piou]: Remove: archive file [/home/abi/fetcher/tmp/piou-0.9.8.tar.gz]
+[2023-07-09 14:09:52] INFO root fetch - main [MainThread]: End processing [piou]: success
+[2023-07-09 14:09:52] INFO root fetch - processPackages [keyflow]: Remove: archive file [/home/abi/fetcher/tmp/keyflow-0.1.1.tar.gz]
+[2023-07-09 14:09:52] INFO root fetch - processPackages [keyflow]: Remove: archive file [/home/abi/fetcher/tmp/keyflow-1.1.1.tar.gz]
+[2023-07-09 14:09:52] INFO root fetch - main [MainThread]: End processing [keyflow]: success
+[2023-07-09 14:09:53] INFO root fetch - processPackages [doubledate]: Remove: archive file [/home/abi/fetcher/tmp/doubledate-0.0.8.tar.gz]
+[2023-07-09 14:09:53] INFO root fetch - processPackages [doubledate]: Remove: archive file [/home/abi/fetcher/tmp/doubledate-0.0.9.tar.gz]
+[2023-07-09 14:09:53] INFO root fetch - main [MainThread]: End processing [doubledate]: success
+[2023-07-09 14:09:53] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.0.2.tar.gz]
+[2023-07-09 14:09:53] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.0.3.tar.gz]
+[2023-07-09 14:09:53] INFO root fetch - main [MainThread]: End processing [fixms]: success
+[2023-07-09 14:09:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-07-09 14:09:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-07-09 14:09:55] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-07-09 14:09:55] INFO root fetch - main [MainThread]: Store serial: [18820003]

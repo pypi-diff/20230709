@@ -13111,3 +13111,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:13:12] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.4.tar.gz]
 [2023-07-09 19:13:12] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
 [2023-07-09 19:13:12] INFO root fetch - main [MainThread]: Store serial: [18821995]
+[2023-07-09 19:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821995]
+[2023-07-09 19:18:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execnet
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyconfig-cbor-backend
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zein
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: re-y
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sydeploy
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statprocon
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nhl-api-py
+[2023-07-09 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastchecks
+[2023-07-09 19:18:21] INFO root fetch - processPackages [re-y]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [statprocon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [sydeploy]: New version: [0.2.2rc2] Old Version: [0.2.2rc1]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [execnet]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [anyconfig-cbor-backend]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [fastchecks]: New version: [0.1.0rc0] Old Version: [0.1.0.dev0]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [nhl-api-py]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev43] Old Version: [0.7.2.dev42]
+[2023-07-09 19:18:21] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/88/1c/5229ea9dea0b88dddbbe9213d8f3659d5a0b5272d956ce3b7eb1a54a1788/sydeploy-0.2.2rc1-py3-none-any.whl
+[2023-07-09 19:18:21] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [execnet]: Downloading https://files.pythonhosted.org/packages/26/bb/d7d24f646f2f06d46150c228148dbdebc159b2c1ae0cc410ab3de4bee800/execnet-2.0.1.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/fb/0c/249a4a958793a4d58cccb7244a98692959b56748e47373c2eaab77a70ba1/nhl_api_py-0.4.8.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [anyconfig-cbor-backend]: Downloading https://files.pythonhosted.org/packages/6b/de/de2876a22bfb70f1e5568e16e0f96f0f13a971ced19f6e61e5130e49fce0/anyconfig-cbor-backend-0.1.2.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [re-y]: Downloading https://files.pythonhosted.org/packages/8d/7a/553eb56ecf1431805ecffb6628b9e3377b82984a8abec5b12bdce6d95329/re_y-1.0.1.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/7b/4b/d2bef8088ae76e342b622e176754be9acd43a56318d3e6f5f15b42203c9a/statprocon-0.0.1.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/a7/b4/5ce7bb45889a9b24c2abd6c6ee250dce6e76d6e1a33a5fc89c91fa83a01b/fastchecks-0.1.0.dev0.tar.gz
+[2023-07-09 19:18:21] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/3c/7f/9e7f1440240a74805762db9d5ec765ab0bb15bf83b25f13286de760f8f9c/khoj_assistant-0.7.2.dev42.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/3d/15/81a98317ffd9ff371ad0c268a9de52edaff7c64b917661e8c3b39bec7aab/sydeploy-0.2.2rc2-py3-none-any.whl
+[2023-07-09 19:18:22] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/bf/6a/6a7cdc1a683e9a64cc5a34906ed8fe089e1dfce1859372b357a9bf4f546a/nhl_api_py-0.4.9.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [execnet]: Downloading https://files.pythonhosted.org/packages/e4/c8/d382dc7a1e68a165f4a4ab612a08b20d8534a7d20cc590630b734ca0c54b/execnet-2.0.2.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/9c/05/3ec8ff84afaded6ac76ecde1f49a065b66df4381b3b3fc3dfbd91fe9fc34/statprocon-0.0.2.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [re-y]: Downloading https://files.pythonhosted.org/packages/d0/d4/17a730a458f1bbb2b07feb3e70ac1110725ef1b67e2b34655e9f33034143/re_y-2.0.0-py3-none-any.whl
+[2023-07-09 19:18:22] INFO root fetch - processPackages [anyconfig-cbor-backend]: Downloading https://files.pythonhosted.org/packages/c6/b7/a5c34bcca5162462f26f652452fe122fa2a0cbb8f740de18a03d084a7cb6/anyconfig-cbor-backend-0.2.0.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/d4/26/14005f46f4c5890d1e7f665e78413a04fc7b70413ff9016b7324cf63c1a8/fastchecks-0.1.0rc0.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [anyconfig-cbor-backend]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [anyconfig-cbor-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyconfig-cbor-backend-0.1.2.tar.gz tmp/anyconfig-cbor-backend-0.2.0.tar.gz --markdown 20230709/a/anyconfig-cbor-backend/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [execnet]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [execnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execnet-2.0.1.tar.gz tmp/execnet-2.0.2.tar.gz --markdown 20230709/e/execnet/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.2rc1-py3-none-any.whl.zip tmp/sydeploy-0.2.2rc2-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.2rc1-0.2.2rc2/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/b1/c51d550d81ff21cd291a22035ea4304a0450c9c5a01f80e95424118f820e/khoj_assistant-0.7.2.dev43.tar.gz
+[2023-07-09 19:18:22] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.0.1.tar.gz tmp/statprocon-0.0.2.tar.gz --markdown 20230709/s/statprocon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [nhl-api-py]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [nhl-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhl_api_py-0.4.8.tar.gz tmp/nhl_api_py-0.4.9.tar.gz --markdown 20230709/n/nhl-api-py/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [re-y]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [re-y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_y-1.0.1.tar.gz tmp/re_y-2.0.0-py3-none-any.whl.zip --markdown 20230709/r/re-y/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.1.0.dev0.tar.gz tmp/fastchecks-0.1.0rc0.tar.gz --markdown 20230709/f/fastchecks/0.1.0.dev0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-07-09 19:18:22] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-09 19:18:22] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev42.tar.gz tmp/khoj_assistant-0.7.2.dev43.tar.gz --markdown 20230709/k/khoj-assistant/0.7.2.dev42-0.7.2.dev43/diff.md --exclude *.pyd
+[2023-07-09 19:18:23] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 19:18:23] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc1-py3-none-any.whl.zip]
+[2023-07-09 19:18:23] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc2-py3-none-any.whl.zip]
+[2023-07-09 19:18:23] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:18:23] INFO root fetch - processPackages [anyconfig-cbor-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-cbor-backend-0.1.2.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - processPackages [anyconfig-cbor-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-cbor-backend-0.2.0.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - main [MainThread]: End processing [anyconfig-cbor-backend]: success
+[2023-07-09 19:18:23] INFO root fetch - processPackages [re-y]: Remove: archive file [/home/abi/fetcher/tmp/re_y-1.0.1.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - processPackages [re-y]: Remove: archive file [/home/abi/fetcher/tmp/re_y-2.0.0-py3-none-any.whl.zip]
+[2023-07-09 19:18:23] INFO root fetch - main [MainThread]: End processing [re-y]: success
+[2023-07-09 19:18:23] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.1.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.2.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-09 19:18:23] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0.dev0.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc0.tar.gz]
+[2023-07-09 19:18:23] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-09 19:18:24] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.0.1.tar.gz]
+[2023-07-09 19:18:24] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.0.2.tar.gz]
+[2023-07-09 19:18:24] INFO root fetch - main [MainThread]: End processing [execnet]: success
+[2023-07-09 19:18:24] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.8.tar.gz]
+[2023-07-09 19:18:24] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.9.tar.gz]
+[2023-07-09 19:18:24] INFO root fetch - main [MainThread]: End processing [nhl-api-py]: success
+[2023-07-09 19:18:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev42.tar.gz]
+[2023-07-09 19:18:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev43.tar.gz]
+[2023-07-09 19:18:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-09 19:18:24] INFO root fetch - main [MainThread]: Store serial: [18822019]

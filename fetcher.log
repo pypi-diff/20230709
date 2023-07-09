@@ -15896,3 +15896,155 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:39:51] ERROR root fetch - processPackages [pkdb-data]: Timeout during execution of pkgdiff
 [2023-07-09 22:39:51] INFO root fetch - main [MainThread]: End processing [pkdb-data] error
 [2023-07-09 22:39:51] INFO root fetch - main [MainThread]: Store serial: [18823269]
+[2023-07-09 22:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823269]
+[2023-07-09 22:45:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soapcw
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sybil-scorer
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkdb-data
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wigglerapi
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amqp-mqtt-transport
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audio-separator
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prolog-primitives
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backports.functools-lru-cache
+[2023-07-09 22:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parametricGarch
+[2023-07-09 22:45:00] INFO root fetch - processPackages [prolog-primitives]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [audio-separator]: New version: [0.4.1] Old Version: [0.3.4]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [amqp-mqtt-transport]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [sybil-scorer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [soapcw]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [wigglerapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230709.20.40.111858] Old Version: [20230709.15.33.722604]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [pkdb-data]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [backports.functools-lru-cache]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [parametricGarch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 22:45:00] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/a4/1e/00cefe74ca62d7afe53da5e9e0dbf85359e8033afe46d0c8323d8da21bb5/prolog_primitives-1.0.4.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/9e/5d/8c8d7e581d2c47e33072cb0c37d82c6f26261f782f7950a3af6a132ae111/amqp_mqtt_transport-0.1.8.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/66/c0/fb773733f5a0738fe80f346e4a75429b90f717948121e4eb1760a33c7e80/audio_separator-0.3.4.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [sybil-scorer]: Downloading https://files.pythonhosted.org/packages/bc/c7/a3b22de69644183d564b9258335061a2802b15a308f96a8aadd8ca3f2e5f/sybil-scorer-0.2.0.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [wigglerapi]: Downloading https://files.pythonhosted.org/packages/ac/38/fa291aae3e829eeed791d53297b23ab6b8d67e2a87a14221b65c2901d76e/wigglerapi-0.0.8.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [soapcw]: Downloading https://files.pythonhosted.org/packages/a8/66/bc2fc75da1104b201531e417e4136ef14a462d361e6041cd424199222296/soapcw-0.2.0.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/92/a6/8ab7d6a6b552b5621358dc9c7c2f62eb0129f46636fe6fa545b74beb1c1d/certora-cli-alpha-master-20230709.15.33.722604.tar.gz
+[2023-07-09 22:45:00] INFO root fetch - processPackages [backports.functools-lru-cache]: Downloading https://files.pythonhosted.org/packages/d7/e9/2585a2b3de3b246ad90370a3a3d19b82b857784975559b44122a4cb5ceb7/backports.functools_lru_cache-1.6.5.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/12/1b/8b25fd1d87e97f2718b7dcbdff69c0dcd1642ca09dbdf1f3077604dea775/parametricGarch-0.0.1.tar.gz
+[2023-07-09 22:45:01] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37457111>=10485760
+[2023-07-09 22:45:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: gpt-command-line
+[2023-07-09 22:45:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-09 22:45:01] INFO root fetch - processPackages [gpt-command-line]: New version: [0.1.2.dev0] Old Version: [0.1.1]
+[2023-07-09 22:45:01] INFO root fetch - processPackages [pkdb-data]: Downloading https://files.pythonhosted.org/packages/9d/0b/bcdfeb37b9877350c16b4836a09068ebfe7af9aaee673db3f6c3601e8d57/pkdb_data-1.0.7.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/16/9b/e1d4955aa04d78a6039f5e8a6ed24a2026ea447267d85106b89cf49a4e72/prolog_primitives-1.0.5.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/5f/dc/f44da89700ac05a4667136ebf0650a6aadf109dc36b18f30cc9b3c4d5aa1/amqp_mqtt_transport-0.1.9.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/85/4d/2a6809ddf6ba61d7221c488c40b6ff19867a08ff0a53dd701e0eabb94413/audio_separator-0.4.1.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [sybil-scorer]: Downloading https://files.pythonhosted.org/packages/68/80/8aad63e23d34b9223a6bfbbac5c455c18bc086eb4a76223bbc82db44a2c7/sybil-scorer-0.2.1.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [wigglerapi]: Downloading https://files.pythonhosted.org/packages/80/9a/8e9bc2e3b9558f85addfed872d66ad12446ffe02890b195b920cbcee6a11/wigglerapi-0.0.9.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/b4/f3/804954a3fa52e83e877776fa3a155aeaea3902906cb473664d38b2b81243/gpt-command-line-0.1.1.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [backports.functools-lru-cache]: Downloading https://files.pythonhosted.org/packages/97/ea/a7519e2ea83afe9e7fd845c0279dfe7052be8f3277a259d8a35eae8ce461/backports.functools_lru_cache-1.6.6.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-1.0.4.tar.gz tmp/prolog_primitives-1.0.5.tar.gz --markdown 20230709/p/prolog-primitives/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/75/13/6e59dfb0615e534408da01349a12fcabc4912164bca2c2c91eb530e39f0a/parametricGarch-0.0.2.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [amqp-mqtt-transport]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [amqp-mqtt-transport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_mqtt_transport-0.1.8.tar.gz tmp/amqp_mqtt_transport-0.1.9.tar.gz --markdown 20230709/a/amqp-mqtt-transport/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [soapcw]: Downloading https://files.pythonhosted.org/packages/be/2d/c2a347247f71d39ba8be60e524e78f6df99e0bf1295177f432293b9c9343/soapcw-0.2.1.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.3.4.tar.gz tmp/audio_separator-0.4.1.tar.gz --markdown 20230709/a/audio-separator/0.3.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [sybil-scorer]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [sybil-scorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil-scorer-0.2.0.tar.gz tmp/sybil-scorer-0.2.1.tar.gz --markdown 20230709/s/sybil-scorer/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [wigglerapi]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [wigglerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wigglerapi-0.0.8.tar.gz tmp/wigglerapi-0.0.9.tar.gz --markdown 20230709/w/wigglerapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [backports.functools-lru-cache]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [backports.functools-lru-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backports.functools_lru_cache-1.6.5.tar.gz tmp/backports.functools_lru_cache-1.6.6.tar.gz --markdown 20230709/b/backports.functools-lru-cache/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [parametricGarch]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [parametricGarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parametricGarch-0.0.1.tar.gz tmp/parametricGarch-0.0.2.tar.gz --markdown 20230709/p/parametricGarch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/83/54/c3b02fa48f9c1419a0bf8c00fe0020a8766f252cbdca039abe9b1d5614c9/gpt-command-line-0.1.2.dev0.tar.gz
+[2023-07-09 22:45:01] INFO root fetch - processPackages [pkdb-data]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [pkdb-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkdb_data-1.0.6.tar.gz tmp/pkdb_data-1.0.7.tar.gz --markdown 20230709/p/pkdb-data/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-09 22:45:01] INFO root fetch - processPackages [soapcw]: executing diffoscope
+[2023-07-09 22:45:01] INFO root fetch - processPackages [soapcw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soapcw-0.2.0.tar.gz tmp/soapcw-0.2.1.tar.gz --markdown 20230709/s/soapcw/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 22:45:02] INFO root fetch - processPackages [gpt-command-line]: executing diffoscope
+[2023-07-09 22:45:02] INFO root fetch - processPackages [gpt-command-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-command-line-0.1.1.tar.gz tmp/gpt-command-line-0.1.2.dev0.tar.gz --markdown 20230709/g/gpt-command-line/0.1.1-0.1.2.dev0/diff.md --exclude *.pyd
+[2023-07-09 22:45:03] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp_mqtt_transport-0.1.8.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp_mqtt_transport-0.1.9.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [amqp-mqtt-transport]: Start processing: hoymiles-mqtt
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [amqp-mqtt-transport]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.3.4.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.4.1.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [audio-separator]: Start processing: discoger
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [discoger]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [sybil-scorer]: Remove: archive file [/home/abi/fetcher/tmp/sybil-scorer-0.2.0.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [sybil-scorer]: Remove: archive file [/home/abi/fetcher/tmp/sybil-scorer-0.2.1.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [sybil-scorer]: Start processing: radiant-framework
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [sybil-scorer]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [hoymiles-mqtt]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [wigglerapi]: Remove: archive file [/home/abi/fetcher/tmp/wigglerapi-0.0.8.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [wigglerapi]: Remove: archive file [/home/abi/fetcher/tmp/wigglerapi-0.0.9.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [wigglerapi]: Start processing: EDEMDSPTFEB23
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [wigglerapi]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a9] Old Version: [0.1a8]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [EDEMDSPTFEB23]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [parametricGarch]: Remove: archive file [/home/abi/fetcher/tmp/parametricGarch-0.0.1.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [parametricGarch]: Remove: archive file [/home/abi/fetcher/tmp/parametricGarch-0.0.2.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [parametricGarch]: Start processing: metalmaps
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [parametricGarch]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/10/30/7f5a1e716b3d151a436246e5a1deb09a1d9c0a57572a33a8cd81c995f002/discoger-2.0.3.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [backports.functools-lru-cache]: Remove: archive file [/home/abi/fetcher/tmp/backports.functools_lru_cache-1.6.5.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [backports.functools-lru-cache]: Remove: archive file [/home/abi/fetcher/tmp/backports.functools_lru_cache-1.6.6.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [backports.functools-lru-cache]: Start processing: radiant-framework
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [backports.functools-lru-cache]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.4.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.5.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [metalmaps]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [prolog-primitives]: Start processing: napatrackmater
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [EDEMDSPTFEB23]: Downloading https://files.pythonhosted.org/packages/99/1a/728ca314a6d0fe9da3e970b542604d6ba9f0bba3e89b321067db264b5053/EDEMDSPTFEB23-0.0.1.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a9] Old Version: [0.1a8]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [metalmaps]: Downloading https://files.pythonhosted.org/packages/60/57/7a6c470236e8ac66ee39e4dbd7c693ed60b624b18534f3207b2f27646b68/metalmaps-0.3.2.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.1.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.2.dev0.tar.gz]
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [gpt-command-line]: success
+[2023-07-09 22:45:03] INFO root fetch - processPackages [napatrackmater]: New version: [3.8.7] Old Version: [3.8.6]
+[2023-07-09 22:45:03] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/04/bb/4f604ae9554b409e4d748d3c93be5131311dc7e76653a627e0f8141a8439/radiant-framework-0.1a8.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/04/bb/4f604ae9554b409e4d748d3c93be5131311dc7e76653a627e0f8141a8439/radiant-framework-0.1a8.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [hoymiles-mqtt]: Downloading https://files.pythonhosted.org/packages/17/2a/6bd507de1b3bbe2aea1815cb5da7276202bce435f36b50fa1f7739806033/hoymiles_mqtt-0.4.0.tar.gz
+[2023-07-09 22:45:03] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 29761762>=10485760
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-07-09 22:45:03] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 29761762>=10485760
+[2023-07-09 22:45:03] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-07-09 22:45:03] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/6c/89/badd85ca9540d5cbe2d1be387fdc36d2d5781da9e3b9960eba28fa82fd3d/discoger-2.1.0.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [EDEMDSPTFEB23]: Downloading https://files.pythonhosted.org/packages/6f/d6/0a4a44a60c7fc54ce8bc87d211450efe53e79d73e019872aecf83ede596a/EDEMDSPTFEB23-0.0.3.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/e3/5e/c02cfdfcfd0b75b45f613fc0f7f482af0bfc86cd665d690c36bd2392beef/napatrackmater-3.8.6.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [metalmaps]: Downloading https://files.pythonhosted.org/packages/b9/30/75c68430490279ebec2fe5a03094b3706ae91adaf0025d77fb9f0a34f0e8/metalmaps-0.3.3.tar.gz
+[2023-07-09 22:45:03] INFO root fetch - processPackages [EDEMDSPTFEB23]: executing diffoscope
+[2023-07-09 22:45:03] INFO root fetch - processPackages [EDEMDSPTFEB23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDEMDSPTFEB23-0.0.1.tar.gz tmp/EDEMDSPTFEB23-0.0.3.tar.gz --markdown 20230709/E/EDEMDSPTFEB23/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 22:45:03] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-07-09 22:45:03] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-2.0.3.tar.gz tmp/discoger-2.1.0.tar.gz --markdown 20230709/d/discoger/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-07-09 22:45:04] INFO root fetch - processPackages [soapcw]: Remove: archive file [/home/abi/fetcher/tmp/soapcw-0.2.0.tar.gz]
+[2023-07-09 22:45:04] INFO root fetch - processPackages [soapcw]: Remove: archive file [/home/abi/fetcher/tmp/soapcw-0.2.1.tar.gz]
+[2023-07-09 22:45:04] INFO root fetch - main [MainThread]: End processing [soapcw]: success
+[2023-07-09 22:45:04] INFO root fetch - processPackages [metalmaps]: executing diffoscope
+[2023-07-09 22:45:04] INFO root fetch - processPackages [metalmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalmaps-0.3.2.tar.gz tmp/metalmaps-0.3.3.tar.gz --markdown 20230709/m/metalmaps/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-09 22:45:04] INFO root fetch - processPackages [hoymiles-mqtt]: Downloading https://files.pythonhosted.org/packages/0d/81/c513a4248ea0415fe5d57853d36f25f476339d9ed9e52fd8de3f28459328/hoymiles_mqtt-0.4.1.tar.gz
+[2023-07-09 22:45:04] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/b4/28/255289a9b629061b3c0dbc5958480a76bf420c2106932aa14bdbca4597d4/napatrackmater-3.8.7.tar.gz
+[2023-07-09 22:45:04] INFO root fetch - processPackages [hoymiles-mqtt]: executing diffoscope
+[2023-07-09 22:45:04] INFO root fetch - processPackages [hoymiles-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoymiles_mqtt-0.4.0.tar.gz tmp/hoymiles_mqtt-0.4.1.tar.gz --markdown 20230709/h/hoymiles-mqtt/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 22:45:04] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-09 22:45:04] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.8.6.tar.gz tmp/napatrackmater-3.8.7.tar.gz --markdown 20230709/n/napatrackmater/3.8.6-3.8.7/diff.md --exclude *.pyd
+[2023-07-09 22:45:04] INFO root fetch - processPackages [EDEMDSPTFEB23]: Remove: archive file [/home/abi/fetcher/tmp/EDEMDSPTFEB23-0.0.1.tar.gz]
+[2023-07-09 22:45:04] INFO root fetch - processPackages [EDEMDSPTFEB23]: Remove: archive file [/home/abi/fetcher/tmp/EDEMDSPTFEB23-0.0.3.tar.gz]
+[2023-07-09 22:45:04] INFO root fetch - main [MainThread]: End processing [EDEMDSPTFEB23]: success
+[2023-07-09 22:45:05] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.0.3.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.1.0.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-07-09 22:45:05] INFO root fetch - processPackages [metalmaps]: Remove: archive file [/home/abi/fetcher/tmp/metalmaps-0.3.2.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - processPackages [metalmaps]: Remove: archive file [/home/abi/fetcher/tmp/metalmaps-0.3.3.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - main [MainThread]: End processing [metalmaps]: success
+[2023-07-09 22:45:05] INFO root fetch - processPackages [hoymiles-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/hoymiles_mqtt-0.4.0.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - processPackages [hoymiles-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/hoymiles_mqtt-0.4.1.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - main [MainThread]: End processing [hoymiles-mqtt]: success
+[2023-07-09 22:45:05] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.6.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.7.tar.gz]
+[2023-07-09 22:45:05] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-09 22:45:12] INFO root fetch - processPackages [pkdb-data]: Remove: archive file [/home/abi/fetcher/tmp/pkdb_data-1.0.6.tar.gz]
+[2023-07-09 22:45:12] INFO root fetch - processPackages [pkdb-data]: Remove: archive file [/home/abi/fetcher/tmp/pkdb_data-1.0.7.tar.gz]
+[2023-07-09 22:45:12] INFO root fetch - main [MainThread]: End processing [pkdb-data]: success
+[2023-07-09 22:45:12] INFO root fetch - main [MainThread]: Store serial: [18823324]

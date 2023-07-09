@@ -12959,3 +12959,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:57:39] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.8.5.tar.gz]
 [2023-07-09 18:57:39] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
 [2023-07-09 18:57:39] INFO root fetch - main [MainThread]: Store serial: [18821927]
+[2023-07-09 19:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821927]
+[2023-07-09 19:02:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: re-action-template
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soraya
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-burst
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: re-action-template
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gable
+[2023-07-09 19:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-semantic-release
+[2023-07-09 19:02:48] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-09 19:02:48] INFO root fetch - processPackages [flux-burst]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-09 19:02:48] INFO root fetch - processPackages [gable]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-09 19:02:48] WARNING root fetch - processPackages [soraya]: Skipping, unable to determine old version
+[2023-07-09 19:02:48] INFO root fetch - main [MainThread]: End processing [soraya] error
+[2023-07-09 19:02:48] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0rc4] Old Version: [8.0.0rc3]
+[2023-07-09 19:02:48] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 19:02:48] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-09 19:02:48] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: Downloading https://files.pythonhosted.org/packages/c1/70/e7cc28e872d1f0dc6f1348cd1bc23051e0d950d7c91910d8d0ac71456f67/re_action_template-2.0.1-py3-none-any.whl
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: Downloading https://files.pythonhosted.org/packages/c1/70/e7cc28e872d1f0dc6f1348cd1bc23051e0d950d7c91910d8d0ac71456f67/re_action_template-2.0.1-py3-none-any.whl
+[2023-07-09 19:02:48] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/c5/80/0904d85f1cd1967682d21509f75b916f979503b3999c98dd98bfba6195c9/gable-0.0.1a1.tar.gz
+[2023-07-09 19:02:48] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/00/81/3d80fefbb2f901b3ee5fe2672f694fda087eae7ee1f9d7f975dc53baf87f/flux-burst-0.0.12.tar.gz
+[2023-07-09 19:02:48] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/3d/d6/535347ad1ccf231f7dc22211c85177efcd4f5327aecd6cf23f1e0a115990/python-semantic-release-8.0.0rc3.tar.gz
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: Downloading https://files.pythonhosted.org/packages/83/ba/aaffc94c2559beadaca2f369c4cee2535f73fe072370ca3be66ea541e262/re_action_template-2.0.2-py3-none-any.whl
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: Downloading https://files.pythonhosted.org/packages/83/ba/aaffc94c2559beadaca2f369c4cee2535f73fe072370ca3be66ea541e262/re_action_template-2.0.2-py3-none-any.whl
+[2023-07-09 19:02:48] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/46/a9/ad063b9605f377c489bc1d8999666c6308e060dbed413831f5dbcf9b5603/flux-burst-0.0.13.tar.gz
+[2023-07-09 19:02:48] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/5e/0a/e01eedc680fbf8c3c5984e69816f4b27a73911b2bca79212cdd77fd9f191/python-semantic-release-8.0.0rc4.tar.gz
+[2023-07-09 19:02:48] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/70/13/a2d191b21aee6e3ba137642ce67c04b5b45aaae56c5f78c39316f32e1e47/gable-0.0.1a2.tar.gz
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: executing diffoscope
+[2023-07-09 19:02:48] INFO root fetch - processPackages [re-action-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_action_template-2.0.1-py3-none-any.whl.zip tmp/re_action_template-2.0.2-py3-none-any.whl.zip --markdown 20230709/r/re-action-template/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-09 19:02:49] INFO root fetch - processPackages [flux-burst]: executing diffoscope
+[2023-07-09 19:02:49] INFO root fetch - processPackages [flux-burst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-0.0.12.tar.gz tmp/flux-burst-0.0.13.tar.gz --markdown 20230709/f/flux-burst/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-09 19:02:49] INFO root fetch - processPackages [re-action-template]: executing diffoscope
+[2023-07-09 19:02:49] INFO root fetch - processPackages [re-action-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_action_template-2.0.1-py3-none-any.whl.zip tmp/re_action_template-2.0.2-py3-none-any.whl.zip --markdown 20230709/r/re-action-template/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-09 19:02:49] INFO root fetch - processPackages [gable]: executing diffoscope
+[2023-07-09 19:02:49] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.0.1a1.tar.gz tmp/gable-0.0.1a2.tar.gz --markdown 20230709/g/gable/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-07-09 19:02:49] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-07-09 19:02:49] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0rc3.tar.gz tmp/python-semantic-release-8.0.0rc4.tar.gz --markdown 20230709/p/python-semantic-release/8.0.0rc3-8.0.0rc4/diff.md --exclude *.pyd
+[2023-07-09 19:02:50] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.12.tar.gz]
+[2023-07-09 19:02:50] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.13.tar.gz]
+[2023-07-09 19:02:50] INFO root fetch - main [MainThread]: End processing [flux-burst]: success
+[2023-07-09 19:02:50] INFO root fetch - processPackages [re-action-template]: Remove: archive file [/home/abi/fetcher/tmp/re_action_template-2.0.1-py3-none-any.whl.zip]
+[2023-07-09 19:02:50] INFO root fetch - processPackages [re-action-template]: Remove: archive file [/home/abi/fetcher/tmp/re_action_template-2.0.1-py3-none-any.whl.zip]
+[2023-07-09 19:02:50] WARNING root fetch - processPackages [re-action-template]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/re_action_template-2.0.1-py3-none-any.whl.zip']
+[2023-07-09 19:02:50] INFO root fetch - processPackages [re-action-template]: Remove: archive file [/home/abi/fetcher/tmp/re_action_template-2.0.2-py3-none-any.whl.zip]
+[2023-07-09 19:02:50] INFO root fetch - main [MainThread]: End processing [re-action-template]: success
+[2023-07-09 19:02:50] INFO root fetch - main [MainThread]: End processing [re-action-template]: success
+[2023-07-09 19:02:50] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.0.1a1.tar.gz]
+[2023-07-09 19:02:50] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.0.1a2.tar.gz]
+[2023-07-09 19:02:50] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2023-07-09 19:02:50] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc3.tar.gz]
+[2023-07-09 19:02:50] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc4.tar.gz]
+[2023-07-09 19:02:50] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-07-09 19:02:50] INFO root fetch - main [MainThread]: Store serial: [18821951]

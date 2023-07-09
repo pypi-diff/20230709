@@ -14604,3 +14604,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:02:43] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
 [2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [orso]: success
 [2023-07-09 21:02:43] INFO root fetch - main [MainThread]: Store serial: [18822631]
+[2023-07-09 21:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822631]
+[2023-07-09 21:07:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imeta
+[2023-07-09 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zein
+[2023-07-09 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-api-logger
+[2023-07-09 21:07:52] INFO root fetch - processPackages [imeta]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-09 21:07:52] INFO root fetch - processPackages [drf-api-logger]: New version: [1.1.12] Old Version: [1.1.11]
+[2023-07-09 21:07:52] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 21:07:52] INFO root fetch - processPackages [imeta]: Downloading https://files.pythonhosted.org/packages/47/27/679363f287d0095340aa6dbce55fdfaabb90e41116149930f9c276e69c67/imeta-1.1.1-py3-none-any.whl
+[2023-07-09 21:07:52] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 21:07:52] INFO root fetch - processPackages [drf-api-logger]: Downloading https://files.pythonhosted.org/packages/7e/27/2e38aef29fcd43df09b451701ade8f1c768f66e29c57d6bd4d9ab1454164/drf_api_logger-1.1.11.tar.gz
+[2023-07-09 21:07:52] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 21:07:52] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 21:07:52] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 21:07:52] INFO root fetch - processPackages [imeta]: Downloading https://files.pythonhosted.org/packages/73/e2/f4cfb6a8d814b8a88360d0802c2ec7b9515921a21643f8919507a28d6b2a/imeta-1.2.0-py3-none-any.whl
+[2023-07-09 21:07:52] INFO root fetch - processPackages [imeta]: executing diffoscope
+[2023-07-09 21:07:52] INFO root fetch - processPackages [imeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imeta-1.1.1-py3-none-any.whl.zip tmp/imeta-1.2.0-py3-none-any.whl.zip --markdown 20230709/i/imeta/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 21:07:53] INFO root fetch - processPackages [drf-api-logger]: Downloading https://files.pythonhosted.org/packages/a4/53/57e7fc9a687ee1d1d49a12b2723460631fc9c8131e7309c9242470ec4286/drf_api_logger-1.1.12.tar.gz
+[2023-07-09 21:07:53] INFO root fetch - processPackages [drf-api-logger]: executing diffoscope
+[2023-07-09 21:07:53] INFO root fetch - processPackages [drf-api-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_api_logger-1.1.11.tar.gz tmp/drf_api_logger-1.1.12.tar.gz --markdown 20230709/d/drf-api-logger/1.1.11-1.1.12/diff.md --exclude *.pyd
+[2023-07-09 21:07:53] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 21:07:53] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 21:07:53] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 21:07:53] INFO root fetch - processPackages [imeta]: Remove: archive file [/home/abi/fetcher/tmp/imeta-1.1.1-py3-none-any.whl.zip]
+[2023-07-09 21:07:53] INFO root fetch - processPackages [imeta]: Remove: archive file [/home/abi/fetcher/tmp/imeta-1.2.0-py3-none-any.whl.zip]
+[2023-07-09 21:07:53] INFO root fetch - main [MainThread]: End processing [imeta]: success
+[2023-07-09 21:07:54] INFO root fetch - processPackages [drf-api-logger]: Remove: archive file [/home/abi/fetcher/tmp/drf_api_logger-1.1.11.tar.gz]
+[2023-07-09 21:07:54] INFO root fetch - processPackages [drf-api-logger]: Remove: archive file [/home/abi/fetcher/tmp/drf_api_logger-1.1.12.tar.gz]
+[2023-07-09 21:07:54] INFO root fetch - main [MainThread]: End processing [drf-api-logger]: success
+[2023-07-09 21:07:54] INFO root fetch - main [MainThread]: Store serial: [18822638]

@@ -12348,3 +12348,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:05:43] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
 [2023-07-09 18:05:43] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
 [2023-07-09 18:05:43] INFO root fetch - main [MainThread]: Store serial: [18821643]
+[2023-07-09 18:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821643]
+[2023-07-09 18:10:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zein
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpinFinder
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PHX
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notification-service-nightly
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-flow-nightly
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hat-gui
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-py
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zein
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netdoc
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Janex
+[2023-07-09 18:10:52] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [threads-py]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [hat-gui]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-09 18:10:52] WARNING root fetch - processPackages [SpinFinder]: Skipping, unable to determine old version
+[2023-07-09 18:10:52] INFO root fetch - main [MainThread]: End processing [SpinFinder] error
+[2023-07-09 18:10:52] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [Janex]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 18:10:52] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/fe/7b/f05195f3e4a26b5ad3b5156630ea78acae2cb78178fc43d0dacce09b28f1/notification_service_nightly-2023.7.7.tar.gz
+[2023-07-09 18:10:52] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/dc/91/05863d72340a16b103882d8791fb20de9670effaaade2121082c6fc5a9d9/threads-py-0.0.5.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/04/1c/7486602dfeae8832dff582bc593fcdfd02aa3ea2b563bef906b5f1a81076/ai_flow_nightly-2023.7.7.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/35/2a/87e575979deec8c04971f5aa556a59dff1b4af6d5f1165acb9414207f72d/hat_gui-0.6.2-cp38.cp39.cp310.cp311-none-any.whl
+[2023-07-09 18:10:53] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/cc/6f/e6a9706e9d0c817014e1578eff11d058f0f4e085d8d45526ca9d094b459a/Janex-0.0.2.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/04/e5/0d8fd52f2dbc5796f45d86a0a320ca587fdf3d72ef0619d31bf420f708ba/threads-py-0.0.6.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 18:10:53] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [threads-py]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [threads-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-py-0.0.5.tar.gz tmp/threads-py-0.0.6.tar.gz --markdown 20230709/t/threads-py/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 18:10:53] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/cb/94/ce8dd9af417bcce675723572dfc19d2638223bc99f14185b531ffe6bdea0/hat_gui-0.6.3-cp310.cp311-none-any.whl
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 18:10:53] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.7.tar.gz tmp/notification_service_nightly-2023.7.8.tar.gz --markdown 20230709/n/notification-service-nightly/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-09 18:10:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/d6/7f/ce50e7cc25bed1269afcf6c2c51e19f37e5996a3f8535e084ac331975ae9/Janex-0.0.3.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230709/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-09 18:10:53] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.7.tar.gz tmp/ai_flow_nightly-2023.7.8.tar.gz --markdown 20230709/a/ai-flow-nightly/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-09 18:10:53] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-07-09 18:10:53] INFO root fetch - processPackages [hat-gui]: executing diffoscope
+[2023-07-09 18:10:53] INFO root fetch - processPackages [hat-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gui-0.6.2-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_gui-0.6.3-cp310.cp311-none-any.whl.zip --markdown 20230709/h/hat-gui/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-09 18:10:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-09 18:10:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.2.tar.gz tmp/Janex-0.0.3.tar.gz --markdown 20230709/J/Janex/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 18:10:54] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-07-09 18:10:54] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230709/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-07-09 18:10:54] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 18:10:54] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 18:10:54] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 18:10:55] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 18:10:55] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.5.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.6.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - main [MainThread]: End processing [threads-py]: success
+[2023-07-09 18:10:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.2.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.3.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-09 18:10:55] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.6.2-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2023-07-09 18:10:55] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.6.3-cp310.cp311-none-any.whl.zip]
+[2023-07-09 18:10:55] INFO root fetch - main [MainThread]: End processing [hat-gui]: success
+[2023-07-09 18:10:55] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.7.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-09 18:10:55] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-07-09 18:10:55] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-07-09 18:10:56] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-07-09 18:10:56] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-07-09 18:10:56] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-07-09 18:10:56] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.7.tar.gz]
+[2023-07-09 18:10:56] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-09 18:10:56] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-09 18:10:56] INFO root fetch - main [MainThread]: Store serial: [18821676]

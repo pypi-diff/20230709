@@ -5773,3 +5773,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:14:43] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-09 09:14:43] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-09 09:14:43] INFO root fetch - main [MainThread]: Store serial: [18818584]
+[2023-07-09 09:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818584]
+[2023-07-09 09:19:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arts
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tondortools
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotPython
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fm91
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Blockthon
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omneer
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbat
+[2023-07-09 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bili-push
+[2023-07-09 09:19:52] INFO root fetch - processPackages [arts]: New version: [2023.7.10] Old Version: [2023.6.24]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [fm91]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [omneer]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [Blockthon]: New version: [7.3.9] Old Version: [7.3.6]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 09:19:52] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230708] Old Version: [0.7.3.dev20230707]
+[2023-07-09 09:19:52] WARNING root fetch - processPackages [bbat]: Skipping, unable to determine old version
+[2023-07-09 09:19:52] INFO root fetch - main [MainThread]: End processing [bbat] error
+[2023-07-09 09:19:52] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/aa/08/7cb19e0e27b9685a9b560832a943b0683fc98cf9ac38e27dead402eb76e7/Blockthon-7.3.6.tar.gz
+[2023-07-09 09:19:52] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/78/d4/009657ac4a89732157bf653f5c7ce0a221953b9693925589f0673eb91160/omneer-0.1.tar.gz
+[2023-07-09 09:19:52] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/d2/9b/4823043aea8b1f3f53bc28e03f093b3cba801be23fce2ad344e9d1dcf922/arts-2023.6.24.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/25/f1/dae0bfb01acbce38553a6a1c362d36de28785358a9219ef4a933ed100095/fm91-0.0.12.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/13/79/1b78944a854e569df8179c1fece726985bd0881692fb77a802cf187e6031/tfq_nightly-0.7.3.dev20230707-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:19:53] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-09 09:19:53] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-09 09:19:53] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/16/8a/d13adb5659de16c90ae389336b0122621ed41d2d78740a6f19a0e1302cf4/Blockthon-7.3.9.tar.gz
+[2023-07-09 09:19:53] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807273>=10485760
+[2023-07-09 09:19:53] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-09 09:19:53] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/91/aa/fee5fdc4a84c86bd34bd4f1d4d03c0542ceecb340c3eb85fa219740a5f61/omneer-0.1.1.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-09 09:19:53] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-7.3.6.tar.gz tmp/Blockthon-7.3.9.tar.gz --markdown 20230709/B/Blockthon/7.3.6-7.3.9/diff.md --exclude *.pyd
+[2023-07-09 09:19:53] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/7a/f7/22c6062cf536f916ca09b52601dfdd59377cbf3301cb1474ff17c5bbc985/fm91-0.0.13.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-09 09:19:53] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230709/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 09:19:53] INFO root fetch - processPackages [omneer]: executing diffoscope
+[2023-07-09 09:19:53] INFO root fetch - processPackages [omneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omneer-0.1.tar.gz tmp/omneer-0.1.1.tar.gz --markdown 20230709/o/omneer/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 09:19:53] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/52/d1/767757cfa45d0b76adc8797cec72aefc8217e17f08c70a645d7dafd34bd7/arts-2023.7.10.tar.gz
+[2023-07-09 09:19:53] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-07-09 09:19:53] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230709/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 09:19:53] INFO root fetch - processPackages [fm91]: executing diffoscope
+[2023-07-09 09:19:53] INFO root fetch - processPackages [fm91]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fm91-0.0.12.tar.gz tmp/fm91-0.0.13.tar.gz --markdown 20230709/f/fm91/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-09 09:19:53] INFO root fetch - processPackages [arts]: executing diffoscope
+[2023-07-09 09:19:53] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-2023.6.24.tar.gz tmp/arts-2023.7.10.tar.gz --markdown 20230709/a/arts/2023.6.24-2023.7.10/diff.md --exclude *.pyd
+[2023-07-09 09:19:54] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-09 09:19:54] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-7.3.6.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-7.3.9.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-09 09:19:54] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.1.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.1.1.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: End processing [omneer]: success
+[2023-07-09 09:19:54] INFO root fetch - processPackages [fm91]: Remove: archive file [/home/abi/fetcher/tmp/fm91-0.0.12.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - processPackages [fm91]: Remove: archive file [/home/abi/fetcher/tmp/fm91-0.0.13.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: End processing [fm91]: success
+[2023-07-09 09:19:54] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-07-09 09:19:54] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2023.6.24.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2023.7.10.tar.gz]
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2023-07-09 09:19:54] INFO root fetch - main [MainThread]: Store serial: [18818623]

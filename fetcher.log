@@ -8219,3 +8219,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:11:45] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a9.tar.gz]
 [2023-07-09 13:11:45] INFO root fetch - main [MainThread]: End processing [fhir-kindling]: success
 [2023-07-09 13:11:45] INFO root fetch - main [MainThread]: Store serial: [18819757]
+[2023-07-09 13:16:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819757]
+[2023-07-09 13:16:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpttrace
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-schema-validator
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-shelly-fixgambit
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmcapsule
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctlog
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threads-net
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectorbt
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apysc
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ctlog]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-09 13:16:54] WARNING root fetch - processPackages [gpttrace]: Skipping, unable to determine old version
+[2023-07-09 13:16:54] INFO root fetch - main [MainThread]: End processing [gpttrace] error
+[2023-07-09 13:16:54] INFO root fetch - processPackages [gmcapsule]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-09 13:16:54] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 13:16:54] INFO root fetch - processPackages [openapi-schema-validator]: New version: [0.6.0a1] Old Version: [0.6.0]
+[2023-07-09 13:16:54] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: New version: [20230709.8.11.438555] Old Version: [20230709.11.14.900191]
+[2023-07-09 13:16:54] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-09 13:16:54] INFO root fetch - processPackages [vectorbt]: New version: [0.25.5] Old Version: [0.25.4]
+[2023-07-09 13:16:54] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-09 13:16:54] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-09 13:16:54] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Downloading https://files.pythonhosted.org/packages/e2/c0/cb44cc1aeb919715953eca8c470c458a5f0498f59066fab905b098fa8ac4/certora-cli-alpha-shelly-fixgambit-20230709.11.14.900191.tar.gz
+[2023-07-09 13:16:54] INFO root fetch - processPackages [openapi-schema-validator]: Downloading https://files.pythonhosted.org/packages/99/92/f4be01a9e2ccd0edfce1b573d49b694c8a13ac303123125179c2ccfbac7e/openapi_schema_validator-0.6.0.tar.gz
+[2023-07-09 13:16:54] INFO root fetch - processPackages [ctlog]: Downloading https://files.pythonhosted.org/packages/08/22/704bf130d1e7123be54aac7fe2830a917c757e340098b0bfd6ca386644a6/ctlog-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 13:16:54] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/40/60/73c558458ead8afadc500acfc6f7631f5eadb185548e1b08e8f946af09ff/gmcapsule-0.5.1.tar.gz
+[2023-07-09 13:16:54] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/81/9e/c982ea7758b71751f4cd4cab92d99ec57351c5430915556eee3d63c03c0e/vectorbt-0.25.4.tar.gz
+[2023-07-09 13:16:55] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Skipping package: exceeds size limit 40646665>=10485760
+[2023-07-09 13:16:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixgambit] error
+[2023-07-09 13:16:55] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-09 13:16:55] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-09 13:16:55] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-09 13:16:55] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230709/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-09 13:16:55] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-09 13:16:55] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230709/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 13:16:55] INFO root fetch - processPackages [gmcapsule]: Downloading https://files.pythonhosted.org/packages/0a/c4/7eea3e69a281b82fabd16134eeba930e423b0f199efb649641fa03d2d66b/gmcapsule-0.5.2.tar.gz
+[2023-07-09 13:16:55] INFO root fetch - processPackages [openapi-schema-validator]: Downloading https://files.pythonhosted.org/packages/00/19/40ca551e5e9cca126c7a7f778ff495ae1f2e90cd657082598c57e396c0f3/openapi_schema_validator-0.6.0a1.tar.gz
+[2023-07-09 13:16:55] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/98/d3/bc3044e9cb633cafff261ee216f0e1a643c05b6f652df0e0a070aa2c2e44/vectorbt-0.25.5.tar.gz
+[2023-07-09 13:16:55] INFO root fetch - processPackages [openapi-schema-validator]: executing diffoscope
+[2023-07-09 13:16:55] INFO root fetch - processPackages [openapi-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_schema_validator-0.6.0.tar.gz tmp/openapi_schema_validator-0.6.0a1.tar.gz --markdown 20230709/o/openapi-schema-validator/0.6.0-0.6.0a1/diff.md --exclude *.pyd
+[2023-07-09 13:16:55] INFO root fetch - processPackages [gmcapsule]: executing diffoscope
+[2023-07-09 13:16:55] INFO root fetch - processPackages [gmcapsule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmcapsule-0.5.1.tar.gz tmp/gmcapsule-0.5.2.tar.gz --markdown 20230709/g/gmcapsule/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-09 13:16:55] INFO root fetch - processPackages [vectorbt]: executing diffoscope
+[2023-07-09 13:16:55] INFO root fetch - processPackages [vectorbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorbt-0.25.4.tar.gz tmp/vectorbt-0.25.5.tar.gz --markdown 20230709/v/vectorbt/0.25.4-0.25.5/diff.md --exclude *.pyd
+[2023-07-09 13:16:56] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-09 13:16:56] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-09 13:16:56] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-09 13:16:56] INFO root fetch - processPackages [ctlog]: Downloading https://files.pythonhosted.org/packages/b9/69/c7ca466493a35454fa9ca20643e33dd6b1bc074fdc6b60f5a4c6b3fa8e14/ctlog-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 13:16:56] INFO root fetch - processPackages [openapi-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_schema_validator-0.6.0.tar.gz]
+[2023-07-09 13:16:56] INFO root fetch - processPackages [openapi-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_schema_validator-0.6.0a1.tar.gz]
+[2023-07-09 13:16:56] INFO root fetch - main [MainThread]: End processing [openapi-schema-validator]: success
+[2023-07-09 13:16:56] INFO root fetch - processPackages [gmcapsule]: Remove: archive file [/home/abi/fetcher/tmp/gmcapsule-0.5.1.tar.gz]
+[2023-07-09 13:16:56] INFO root fetch - processPackages [gmcapsule]: Remove: archive file [/home/abi/fetcher/tmp/gmcapsule-0.5.2.tar.gz]
+[2023-07-09 13:16:56] INFO root fetch - main [MainThread]: End processing [gmcapsule]: success
+[2023-07-09 13:16:56] INFO root fetch - processPackages [ctlog]: executing diffoscope
+[2023-07-09 13:16:56] INFO root fetch - processPackages [ctlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctlog-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ctlog-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/c/ctlog/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 13:16:57] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.25.4.tar.gz]
+[2023-07-09 13:16:57] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.25.5.tar.gz]
+[2023-07-09 13:16:57] INFO root fetch - main [MainThread]: End processing [vectorbt]: success
+[2023-07-09 13:16:58] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-09 13:16:58] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-09 13:16:58] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-09 13:17:42] INFO root fetch - processPackages [ctlog]: Remove: archive file [/home/abi/fetcher/tmp/ctlog-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 13:17:42] INFO root fetch - processPackages [ctlog]: Remove: archive file [/home/abi/fetcher/tmp/ctlog-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 13:17:42] INFO root fetch - main [MainThread]: End processing [ctlog]: success
+[2023-07-09 13:17:42] INFO root fetch - main [MainThread]: Store serial: [18819785]

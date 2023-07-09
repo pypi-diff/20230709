@@ -2430,3 +2430,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-07-09 03:44:33] INFO root fetch - main [MainThread]: End processing [fastsparsegams] error
 [2023-07-09 03:44:33] INFO root fetch - main [MainThread]: Store serial: [18817225]
+[2023-07-09 03:49:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817225]
+[2023-07-09 03:49:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-django
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-web-core
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioregistry
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-subminute
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Assess-Acceptability-Judgments
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchnmf
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: x-transformers
+[2023-07-09 03:49:42] INFO root fetch - processPackages [torchnmf]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-09 03:49:42] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.1.dev4] Old Version: [0.6.1.dev3]
+[2023-07-09 03:49:42] WARNING root fetch - processPackages [Assess-Acceptability-Judgments]: Skipping, unable to determine old version
+[2023-07-09 03:49:42] INFO root fetch - main [MainThread]: End processing [Assess-Acceptability-Judgments] error
+[2023-07-09 03:49:42] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 03:49:42] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.883] Old Version: [0.0.882]
+[2023-07-09 03:49:43] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-09 03:49:43] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 03:49:43] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 03:49:43] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/8a/b8/a4fe5d20111fea955940882838a8fab56836f7c7c0e540cdf238289aed03/ez-a-sync-0.6.1.dev3.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-09 03:49:43] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [torchnmf]: Downloading https://files.pythonhosted.org/packages/c1/33/41c6657a46f6bfe6a5acf7c94e0bf9df4a9538c8e12e6d54e1781cfd0e2f/torchnmf-0.3.4.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ab/5b/c8a244fe78b2c9547ce3053d2265b31b768ea452fa86b3d921f0a3eea6b4/nbdev-apl-0.0.882.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/84/c9/e929eab3e011defab803374511ebd79533fa2b720250bee96222fc41a0d3/ez-a-sync-0.6.1.dev4.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-09 03:49:43] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:49:43] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/d5/9f/51eef948386dbcade0d6ab5204525e3ece4cc80bb149cda4b1c617713d1a/nbdev-apl-0.0.883.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [torchnmf]: Downloading https://files.pythonhosted.org/packages/6c/91/2310993b5df27fceb032f52914b5687fb14e2b57fc6e83df40a5b4079ecb/torchnmf-0.3.5.tar.gz
+[2023-07-09 03:49:43] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-09 03:49:43] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.882.tar.gz tmp/nbdev-apl-0.0.883.tar.gz --markdown 20230709/n/nbdev-apl/0.0.882-0.0.883/diff.md --exclude *.pyd
+[2023-07-09 03:49:43] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-09 03:49:43] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev3.tar.gz tmp/ez-a-sync-0.6.1.dev4.tar.gz --markdown 20230709/e/ez-a-sync/0.6.1.dev3-0.6.1.dev4/diff.md --exclude *.pyd
+[2023-07-09 03:49:43] INFO root fetch - processPackages [torchnmf]: executing diffoscope
+[2023-07-09 03:49:43] INFO root fetch - processPackages [torchnmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchnmf-0.3.4.tar.gz tmp/torchnmf-0.3.5.tar.gz --markdown 20230709/t/torchnmf/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 03:49:44] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-09 03:49:44] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-09 03:49:44] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230709/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-09 03:49:44] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-07-09 03:49:44] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-09 03:49:44] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-09 03:49:44] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230709/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:49:44] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-09 03:49:44] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230709/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:49:44] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-07-09 03:49:44] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230709/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-09 03:49:44] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-09 03:49:44] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-09 03:49:44] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-09 03:49:45] INFO root fetch - processPackages [torchnmf]: Remove: archive file [/home/abi/fetcher/tmp/torchnmf-0.3.4.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - processPackages [torchnmf]: Remove: archive file [/home/abi/fetcher/tmp/torchnmf-0.3.5.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - main [MainThread]: End processing [torchnmf]: success
+[2023-07-09 03:49:45] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev3.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev4.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-09 03:49:45] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-09 03:49:45] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-09 03:49:45] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.882.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.883.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-09 03:49:45] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.1.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
+[2023-07-09 03:49:45] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-07-09 03:51:39] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-09 03:51:39] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-09 03:51:39] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-09 03:51:39] INFO root fetch - main [MainThread]: Store serial: [18817256]

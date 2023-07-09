@@ -13631,3 +13631,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:49:44] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.0.tar.gz]
 [2023-07-09 19:49:44] INFO root fetch - main [MainThread]: End processing [salabim]: success
 [2023-07-09 19:49:44] INFO root fetch - main [MainThread]: Store serial: [18822191]
+[2023-07-09 19:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822191]
+[2023-07-09 19:54:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zein
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finops-crawler
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytrends-longitudinal
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sydeploy
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soraya
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asai-abyss
+[2023-07-09 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redplanet
+[2023-07-09 19:54:55] WARNING root fetch - processPackages [pytrends-longitudinal]: Skipping, unable to determine old version
+[2023-07-09 19:54:55] INFO root fetch - main [MainThread]: End processing [pytrends-longitudinal] error
+[2023-07-09 19:54:55] INFO root fetch - processPackages [finops-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 19:54:55] WARNING root fetch - processPackages [soraya]: Skipping, unable to determine old version
+[2023-07-09 19:54:55] INFO root fetch - main [MainThread]: End processing [soraya] error
+[2023-07-09 19:54:55] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 19:54:55] INFO root fetch - processPackages [sydeploy]: New version: [0.2.3] Old Version: [0.2.2rc9]
+[2023-07-09 19:54:55] INFO root fetch - processPackages [asai-abyss]: New version: [0.4.1] Old Version: [0.4.0.dev0]
+[2023-07-09 19:54:55] INFO root fetch - processPackages [sydeploy]: New version: [0.2.3] Old Version: [0.2.2rc9]
+[2023-07-09 19:54:55] INFO root fetch - processPackages [redplanet]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-07-09 19:54:55] INFO root fetch - processPackages [redplanet]: Downloading https://files.pythonhosted.org/packages/fa/b5/0f3e07ee717bf0af1c8cb69ca3c75f46cee01afb7495b0aaf80403c22600/redplanet-0.0.1.dev1.tar.gz
+[2023-07-09 19:54:55] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/d3/95/00247286a992fc1af24f53d5284af83117e1413da5d181b0b91cdd659bdf/finops_crawler-0.1.8.tar.gz
+[2023-07-09 19:54:55] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 19:54:55] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/e2/24/6207f2d638276aa5bffaa77bb74b95b6f8a4e49c0794b1a1da3f8032f8a7/sydeploy-0.2.2rc9-py3-none-any.whl
+[2023-07-09 19:54:55] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/e2/24/6207f2d638276aa5bffaa77bb74b95b6f8a4e49c0794b1a1da3f8032f8a7/sydeploy-0.2.2rc9-py3-none-any.whl
+[2023-07-09 19:54:55] INFO root fetch - processPackages [asai-abyss]: Downloading https://files.pythonhosted.org/packages/fa/ad/e37d5ae0bd53c3ee9ec894c310938d5c562eb548076cd0205d9a6c917151/asai_abyss-0.4.0.dev0-cp39-cp39-manylinux_2_34_x86_64.whl
+[2023-07-09 19:54:55] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/8a/b2/3e8965ddcac739e11e0312223e45b23542832f881b1ca99124abf471b30c/finops_crawler-0.1.9.tar.gz
+[2023-07-09 19:54:55] INFO root fetch - processPackages [redplanet]: Downloading https://files.pythonhosted.org/packages/b0/6b/38d85f3519ec5b59c573d056cc276d547d54444148f0b6729062b4e8058f/redplanet-0.0.1.dev2.tar.gz
+[2023-07-09 19:54:56] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 19:54:56] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ac/5a/08574fd37a3c7f451d239b7ef7d2ecd17370394f7f50b2dc59ff0f1ffeaa/sydeploy-0.2.3-py3-none-any.whl
+[2023-07-09 19:54:56] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ac/5a/08574fd37a3c7f451d239b7ef7d2ecd17370394f7f50b2dc59ff0f1ffeaa/sydeploy-0.2.3-py3-none-any.whl
+[2023-07-09 19:54:56] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 19:54:56] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 19:54:56] INFO root fetch - processPackages [finops-crawler]: executing diffoscope
+[2023-07-09 19:54:56] INFO root fetch - processPackages [finops-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops_crawler-0.1.8.tar.gz tmp/finops_crawler-0.1.9.tar.gz --markdown 20230709/f/finops-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 19:54:56] INFO root fetch - processPackages [redplanet]: executing diffoscope
+[2023-07-09 19:54:56] INFO root fetch - processPackages [redplanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redplanet-0.0.1.dev1.tar.gz tmp/redplanet-0.0.1.dev2.tar.gz --markdown 20230709/r/redplanet/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-07-09 19:54:56] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:54:56] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.2rc9-py3-none-any.whl.zip tmp/sydeploy-0.2.3-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.2rc9-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 19:54:56] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:54:56] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.2rc9-py3-none-any.whl.zip tmp/sydeploy-0.2.3-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.2rc9-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 19:54:56] INFO root fetch - processPackages [asai-abyss]: Downloading https://files.pythonhosted.org/packages/d7/37/b4e19c5f848701888804f31411bfe84af145d11d016c078eb5dc0acdb6c3/asai_abyss-0.4.1-cp39-cp39-manylinux_2_34_x86_64.whl
+[2023-07-09 19:54:56] INFO root fetch - processPackages [asai-abyss]: executing diffoscope
+[2023-07-09 19:54:56] INFO root fetch - processPackages [asai-abyss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asai_abyss-0.4.0.dev0-cp39-cp39-manylinux_2_34_x86_64.whl.zip tmp/asai_abyss-0.4.1-cp39-cp39-manylinux_2_34_x86_64.whl.zip --markdown 20230709/a/asai-abyss/0.4.0.dev0-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 19:54:57] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc9-py3-none-any.whl.zip]
+[2023-07-09 19:54:57] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.3-py3-none-any.whl.zip]
+[2023-07-09 19:54:57] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:54:57] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 19:54:57] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 19:54:57] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 19:54:57] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.8.tar.gz]
+[2023-07-09 19:54:57] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.9.tar.gz]
+[2023-07-09 19:54:57] INFO root fetch - main [MainThread]: End processing [finops-crawler]: success
+[2023-07-09 19:54:57] INFO root fetch - processPackages [redplanet]: Remove: archive file [/home/abi/fetcher/tmp/redplanet-0.0.1.dev1.tar.gz]
+[2023-07-09 19:54:57] INFO root fetch - processPackages [redplanet]: Remove: archive file [/home/abi/fetcher/tmp/redplanet-0.0.1.dev2.tar.gz]
+[2023-07-09 19:54:57] INFO root fetch - main [MainThread]: End processing [redplanet]: success
+[2023-07-09 19:54:57] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:55:01] INFO root fetch - processPackages [asai-abyss]: Remove: archive file [/home/abi/fetcher/tmp/asai_abyss-0.4.0.dev0-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
+[2023-07-09 19:55:01] INFO root fetch - processPackages [asai-abyss]: Remove: archive file [/home/abi/fetcher/tmp/asai_abyss-0.4.1-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
+[2023-07-09 19:55:01] INFO root fetch - main [MainThread]: End processing [asai-abyss]: success
+[2023-07-09 19:55:01] INFO root fetch - main [MainThread]: Store serial: [18822222]

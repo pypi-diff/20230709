@@ -9218,3 +9218,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:02:44] INFO root fetch - processPackages [fastapi-mvc]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-mvc-0.9.0.tar.gz]
 [2023-07-09 15:02:44] INFO root fetch - main [MainThread]: End processing [fastapi-mvc]: success
 [2023-07-09 15:02:44] INFO root fetch - main [MainThread]: Store serial: [18820255]
+[2023-07-09 15:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820255]
+[2023-07-09 15:07:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WifiOrca
+[2023-07-09 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: melon-top100
+[2023-07-09 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-09 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnschema_core
+[2023-07-09 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckduckgo-translator
+[2023-07-09 15:07:53] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 15:07:53] INFO root fetch - processPackages [melon-top100]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-09 15:07:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-09 15:07:53] WARNING root fetch - processPackages [duckduckgo-translator]: Skipping, unable to determine old version
+[2023-07-09 15:07:53] INFO root fetch - main [MainThread]: End processing [duckduckgo-translator] error
+[2023-07-09 15:07:53] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 15:07:53] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-09 15:07:53] INFO root fetch - processPackages [melon-top100]: Downloading https://files.pythonhosted.org/packages/7b/d3/4bb803a7eff063809b4aad070d9b73a4521e785bd0b485322f1789280b5a/melon_top100-1.0.0.tar.gz
+[2023-07-09 15:07:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4b/c6/5373b6d76787391f18f5b2b952314d1d338aae968b5477141e7f5c002d35/fbgemm_gpu_nightly_cpu-2023.7.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-09 15:07:53] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-09 15:07:53] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 15:07:53] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 15:07:53] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 15:07:53] INFO root fetch - processPackages [melon-top100]: Downloading https://files.pythonhosted.org/packages/65/24/989c1bcd46901d683b302a57c9333aa7e662b602f82322ef203c7b839cd7/melon_top100-1.1.0.tar.gz
+[2023-07-09 15:07:54] INFO root fetch - processPackages [melon-top100]: executing diffoscope
+[2023-07-09 15:07:54] INFO root fetch - processPackages [melon-top100]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_top100-1.0.0.tar.gz tmp/melon_top100-1.1.0.tar.gz --markdown 20230709/m/melon-top100/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 15:07:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2d/4a/5495cb2649af908cc65d304ffd91aef58b14d222e96073f482b2f6de01d6/fbgemm_gpu_nightly_cpu-2023.7.9-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-09 15:07:54] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-09 15:07:54] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-09 15:07:54] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230709/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 15:07:54] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 15:07:54] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 15:07:54] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 15:07:54] INFO root fetch - processPackages [melon-top100]: Remove: archive file [/home/abi/fetcher/tmp/melon_top100-1.0.0.tar.gz]
+[2023-07-09 15:07:54] INFO root fetch - processPackages [melon-top100]: Remove: archive file [/home/abi/fetcher/tmp/melon_top100-1.1.0.tar.gz]
+[2023-07-09 15:07:54] INFO root fetch - main [MainThread]: End processing [melon-top100]: success
+[2023-07-09 15:07:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-09 15:07:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230709/f/fbgemm-gpu-nightly-cpu/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-09 15:07:55] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-09 15:07:55] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-09 15:07:55] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-09 15:07:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.8-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-09 15:07:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-09 15:07:55] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-09 15:07:55] INFO root fetch - main [MainThread]: Store serial: [18820291]

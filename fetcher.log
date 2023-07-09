@@ -5955,3 +5955,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:30:20] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.2.tar.gz]
 [2023-07-09 09:30:20] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
 [2023-07-09 09:30:20] INFO root fetch - main [MainThread]: Store serial: [18818662]
+[2023-07-09 09:35:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818662]
+[2023-07-09 09:35:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdcomp
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netgen-mesher
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-07-09 09:35:29] WARNING root fetch - processPackages [cmdcomp]: Skipping, unable to determine old version
+[2023-07-09 09:35:29] INFO root fetch - main [MainThread]: End processing [cmdcomp] error
+[2023-07-09 09:35:29] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2304] Old Version: [6.2.2303.post8.dev0]
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ngmapi]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-07-09 09:35:29] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/5f/51/d08b81a6242ed3b93162d5515d0c650b4599b4b0d8de86403ce618c3c20d/ngmapi-0.0.37.tar.gz
+[2023-07-09 09:35:29] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/71/12/a25e3fcde1b880b04ef2128477f7807d36e3f1c18b198dfd70f2313732c3/netgen_mesher-6.2.2303.post8.dev0-cp39-cp39-win_amd64.whl
+[2023-07-09 09:35:29] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20058725>=10485760
+[2023-07-09 09:35:29] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/1a/8b/02c263d0374df3698962abed9c102654e4d0b116897f7947d72f4b151c6e/ngmapi-0.0.38.tar.gz
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 09:35:29] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.37.tar.gz tmp/ngmapi-0.0.38.tar.gz --markdown 20230709/n/ngmapi/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-07-09 09:35:29] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-09 09:35:30] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-09 09:35:30] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-09 09:35:30] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230709/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-09 09:35:30] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.37.tar.gz]
+[2023-07-09 09:35:30] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.38.tar.gz]
+[2023-07-09 09:35:30] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 09:35:32] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-09 09:35:32] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-09 09:35:32] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-09 09:35:32] INFO root fetch - main [MainThread]: Store serial: [18818682]

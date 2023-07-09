@@ -2724,3 +2724,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:17:37] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.2.tar.gz]
 [2023-07-09 04:17:37] INFO root fetch - main [MainThread]: End processing [tclab-sdk]: success
 [2023-07-09 04:17:37] INFO root fetch - main [MainThread]: Store serial: [18817386]
+[2023-07-09 04:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817386]
+[2023-07-09 04:22:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assamer
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ReplayTables-andnp
+[2023-07-09 04:22:46] WARNING root fetch - processPackages [assamer]: Skipping, unable to determine old version
+[2023-07-09 04:22:46] INFO root fetch - main [MainThread]: End processing [assamer] error
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ReplayTables-andnp]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ReplayTables-andnp]: Downloading https://files.pythonhosted.org/packages/0f/d1/a0b8f008689f2087d25f370a7eb10ed98f63224576b639887f9c62f57ec1/ReplayTables-andnp-4.0.0.tar.gz
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ReplayTables-andnp]: Downloading https://files.pythonhosted.org/packages/4f/78/0313d7395df93636466653a4fd42bd693dff80afd8c0b3fa1a9f23295eef/ReplayTables-andnp-4.0.1.tar.gz
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ReplayTables-andnp]: executing diffoscope
+[2023-07-09 04:22:46] INFO root fetch - processPackages [ReplayTables-andnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReplayTables-andnp-4.0.0.tar.gz tmp/ReplayTables-andnp-4.0.1.tar.gz --markdown 20230709/R/ReplayTables-andnp/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-09 04:22:47] INFO root fetch - processPackages [ReplayTables-andnp]: Remove: archive file [/home/abi/fetcher/tmp/ReplayTables-andnp-4.0.0.tar.gz]
+[2023-07-09 04:22:47] INFO root fetch - processPackages [ReplayTables-andnp]: Remove: archive file [/home/abi/fetcher/tmp/ReplayTables-andnp-4.0.1.tar.gz]
+[2023-07-09 04:22:47] INFO root fetch - main [MainThread]: End processing [ReplayTables-andnp]: success
+[2023-07-09 04:22:47] INFO root fetch - main [MainThread]: Store serial: [18817394]

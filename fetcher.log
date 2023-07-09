@@ -6375,3 +6375,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:04:35] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-07-09 10:04:35] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-07-09 10:04:35] INFO root fetch - main [MainThread]: Store serial: [18818896]
+[2023-07-09 10:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818896]
+[2023-07-09 10:09:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lccpy
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: restoreio
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezdxf
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: power1d
+[2023-07-09 10:09:45] INFO root fetch - processPackages [lccpy]: New version: [1.4.7.2] Old Version: [1.4.5]
+[2023-07-09 10:09:45] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230708] Old Version: [0.3.1.dev20230707]
+[2023-07-09 10:09:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/49/7e/07ed223c81d69b75c75203829d01e313bc406eb39519d3f470d3d031e899/pyglove-0.3.1.dev20230707.tar.gz
+[2023-07-09 10:09:45] INFO root fetch - processPackages [restoreio]: New version: [0.6.3] Old Version: [0.5.0]
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ezdxf]: New version: [1.1.0b5] Old Version: [1.1.0b4]
+[2023-07-09 10:09:45] INFO root fetch - processPackages [power1d]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 10:09:45] ERROR root fetch - processPackages [lccpy]: Unable to fetch info: No such project/version 'lccpy' 1.4.5
+[2023-07-09 10:09:45] INFO root fetch - main [MainThread]: End processing [lccpy] error
+[2023-07-09 10:09:45] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/00/d6/a9660754b82f1ce6dad2eb0a5afcde1f89dec5b92c4c757d1e8cdc1c4d8b/restoreio-0.5.0.tar.gz
+[2023-07-09 10:09:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ed/92/c7699e2a40eab29c2e7c2c183d702e36ca724129b568afac1125d300a38e/pyglove-0.3.1.dev20230708.tar.gz
+[2023-07-09 10:09:45] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/d2/ff/40e7689a600f00678a1ef62d17e284fbd873c744916c04d1c1423795ce07/ezdxf-1.1.0b4.zip
+[2023-07-09 10:09:45] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/5d/ea/44b72458b8cf1168c4d6efe9457b1c33d8962960aa23377ef7b3a1ccca21/power1d-0.1.7.tar.gz
+[2023-07-09 10:09:46] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-09 10:09:46] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230707.tar.gz tmp/pyglove-0.3.1.dev20230708.tar.gz --markdown 20230709/p/pyglove/0.3.1.dev20230707-0.3.1.dev20230708/diff.md --exclude *.pyd
+[2023-07-09 10:09:46] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/c8/bd/57554c9f40441fd591ec7071303c160dc502f68eb4365133e69750601a58/restoreio-0.6.3.tar.gz
+[2023-07-09 10:09:46] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/d0/5e/4dc0d8f3fb7313b5d29623bc81266c1885335405d4e0ce55ca4631c4c980/power1d-0.1.8.tar.gz
+[2023-07-09 10:09:46] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/c1/75/40e6fd23d5508eb209407b49546f93c5e900080c895f7f7faefc131ca962/ezdxf-1.1.0b5.zip
+[2023-07-09 10:09:46] INFO root fetch - processPackages [restoreio]: executing diffoscope
+[2023-07-09 10:09:46] INFO root fetch - processPackages [restoreio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restoreio-0.5.0.tar.gz tmp/restoreio-0.6.3.tar.gz --markdown 20230709/r/restoreio/0.5.0-0.6.3/diff.md --exclude *.pyd
+[2023-07-09 10:09:47] INFO root fetch - processPackages [power1d]: executing diffoscope
+[2023-07-09 10:09:47] INFO root fetch - processPackages [power1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power1d-0.1.7.tar.gz tmp/power1d-0.1.8.tar.gz --markdown 20230709/p/power1d/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 10:09:47] INFO root fetch - processPackages [ezdxf]: executing diffoscope
+[2023-07-09 10:09:47] INFO root fetch - processPackages [ezdxf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdxf-1.1.0b4.zip tmp/ezdxf-1.1.0b5.zip --markdown 20230709/e/ezdxf/1.1.0b4-1.1.0b5/diff.md --exclude *.pyd
+[2023-07-09 10:09:47] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230707.tar.gz]
+[2023-07-09 10:09:47] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230708.tar.gz]
+[2023-07-09 10:09:47] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-09 10:09:48] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.7.tar.gz]
+[2023-07-09 10:09:48] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.8.tar.gz]
+[2023-07-09 10:09:48] INFO root fetch - main [MainThread]: End processing [power1d]: success
+[2023-07-09 10:09:48] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.5.0.tar.gz]
+[2023-07-09 10:09:48] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.6.3.tar.gz]
+[2023-07-09 10:09:48] INFO root fetch - main [MainThread]: End processing [restoreio]: success
+[2023-07-09 10:09:52] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.1.0b4.zip]
+[2023-07-09 10:09:52] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.1.0b5.zip]
+[2023-07-09 10:09:52] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
+[2023-07-09 10:09:52] INFO root fetch - main [MainThread]: Store serial: [18818919]

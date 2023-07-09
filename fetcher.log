@@ -11465,3 +11465,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:08:29] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
 [2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
 [2023-07-09 17:08:29] INFO root fetch - main [MainThread]: Store serial: [18821274]
+[2023-07-09 17:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821274]
+[2023-07-09 17:13:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zein
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpvsim
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-rds20140815
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotPython
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kanonym4text
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwebclient
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: real-time-tf
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: StableRLS
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zein
+[2023-07-09 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: demoparser2
+[2023-07-09 17:13:38] WARNING root fetch - processPackages [StableRLS]: Skipping, unable to determine old version
+[2023-07-09 17:13:38] INFO root fetch - processPackages [StableRLS]: Start processing: nwebclient
+[2023-07-09 17:13:38] INFO root fetch - main [MainThread]: End processing [StableRLS] error
+[2023-07-09 17:13:38] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:13:38] WARNING root fetch - processPackages [real-time-tf]: Skipping, unable to determine old version
+[2023-07-09 17:13:38] INFO root fetch - processPackages [real-time-tf]: Start processing: iitkgp-erp
+[2023-07-09 17:13:38] INFO root fetch - main [MainThread]: End processing [real-time-tf] error
+[2023-07-09 17:13:38] INFO root fetch - processPackages [hpvsim]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [kanonym4text]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [demoparser2]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [iitkgp-erp]: New version: [0.2] Old Version: [0.1.1]
+[2023-07-09 17:13:38] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-09 17:13:38] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:13:38] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-09 17:13:39] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-09 17:13:39] INFO root fetch - processPackages [spotPython]: Start processing: pygmailsorter
+[2023-07-09 17:13:39] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-09 17:13:39] INFO root fetch - processPackages [iitkgp-erp]: Downloading https://files.pythonhosted.org/packages/a7/41/037f6b07aed6c11b16808c472730f8a5cd83e6d49c3bc3c1f981e5364d96/iitkgp-erp-0.1.1.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [hpvsim]: Downloading https://files.pythonhosted.org/packages/a2/f0/b74bd52c6e3a3974182ad1db10f7328967d58a188dc9f467ca016afb577f/hpvsim-1.2.0.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [pygmailsorter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 17:13:39] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/f5/a8/8a0162f5d2a9f1b889bb90677585bb1665394c6fdc9c5b88f2f6589359ab/kanonym4text-0.2.2.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/6d/f9/c7f8d6126e9d4b807d8d94898f7b5567db44cb0d5b25408acf1fa0ed229d/demoparser2-0.1.2-cp39-none-win_amd64.whl
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [pygmailsorter]: Downloading https://files.pythonhosted.org/packages/ee/03/bc6edd95955b1cd53d8930d3353a09d173c08db3086c0a79174601b806e6/pygmailsorter-0.0.4.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:13:39] INFO root fetch - processPackages [iitkgp-erp]: Downloading https://files.pythonhosted.org/packages/84/6d/293f9be63ec37212d9747eb55b0a385af3c1a04bad1c1dd7774aa7bf16f0/iitkgp-erp-0.2.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:13:39] INFO root fetch - processPackages [hpvsim]: Downloading https://files.pythonhosted.org/packages/e9/c1/190feb909be0b5dbb9764dac8fa23bd2a6f19e178997a13812c453b63969/hpvsim-1.2.1.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/5a/ae/a60a6bd3bb6d168a52018d2efcb6b84bab150a2c814c6c1768483760fc3f/kanonym4text-0.2.3.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-09 17:13:39] INFO root fetch - processPackages [hpvsim]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [hpvsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpvsim-1.2.0.tar.gz tmp/hpvsim-1.2.1.tar.gz --markdown 20230709/h/hpvsim/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-09 17:13:39] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.2.2.tar.gz tmp/kanonym4text-0.2.3.tar.gz --markdown 20230709/k/kanonym4text/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 17:13:39] INFO root fetch - processPackages [iitkgp-erp]: executing diffoscope
+[2023-07-09 17:13:39] INFO root fetch - processPackages [iitkgp-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp-erp-0.1.1.tar.gz tmp/iitkgp-erp-0.2.tar.gz --markdown 20230709/i/iitkgp-erp/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-07-09 17:13:40] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/0f/dd/55d776c918eaf6f7a747eabcb3b044e0ed7f3ded55eb7504842478020c0c/demoparser2-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 17:13:40] INFO root fetch - processPackages [pygmailsorter]: Downloading https://files.pythonhosted.org/packages/fd/6e/145ca9106b3c9cad2998638e04fea79a2dbf086b60d4d42c51acacfc3b26/pygmailsorter-0.0.5.tar.gz
+[2023-07-09 17:13:40] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-09 17:13:40] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230709/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-09 17:13:40] INFO root fetch - processPackages [pygmailsorter]: executing diffoscope
+[2023-07-09 17:13:40] INFO root fetch - processPackages [pygmailsorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmailsorter-0.0.4.tar.gz tmp/pygmailsorter-0.0.5.tar.gz --markdown 20230709/p/pygmailsorter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 17:13:40] INFO root fetch - processPackages [demoparser2]: executing diffoscope
+[2023-07-09 17:13:40] INFO root fetch - processPackages [demoparser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser2-0.1.2-cp39-none-win_amd64.whl.zip tmp/demoparser2-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/d/demoparser2/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 17:13:41] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [nwebclient]: Start processing: chrisbase
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [chrisbase]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [nwebclient]: Start processing: apache-airflow-providers-amazon
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [apache-airflow-providers-amazon]: New version: [8.3.0rc3] Old Version: [8.3.0rc2]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.2.2.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.2.3.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/ee/43/521fdf6eb655171366460c993b6f3978cfaa8a6f853bb9358a1720704100/chrisbase-0.3.9.tar.gz
+[2023-07-09 17:13:41] INFO root fetch - processPackages [iitkgp-erp]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp-erp-0.1.1.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [iitkgp-erp]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp-erp-0.2.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [iitkgp-erp]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [hpvsim]: Remove: archive file [/home/abi/fetcher/tmp/hpvsim-1.2.0.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [hpvsim]: Remove: archive file [/home/abi/fetcher/tmp/hpvsim-1.2.1.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [hpvsim]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/01/30/980819b82652257b5f6323d292d195eb89e4140196627842fe395d1f93d5/apache-airflow-providers-amazon-8.3.0rc2.tar.gz
+[2023-07-09 17:13:41] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [pygmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/pygmailsorter-0.0.4.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [pygmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/pygmailsorter-0.0.5.tar.gz]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [pygmailsorter]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-07-09 17:13:41] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 17:13:41] INFO root fetch - main [MainThread]: End processing [demoparser2]: success
+[2023-07-09 17:13:41] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/cc/f8/b5002b3ba7a1d9ea17e8b34a20e5cf02a63d7bc287352412c0b92a3c2c32/chrisbase-0.4.0.tar.gz
+[2023-07-09 17:13:42] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/1a/fc/ef7bef58ba9a0991e707f7bb4528ce6819a9989e66d054e78354f5799d12/apache-airflow-providers-amazon-8.3.0rc3.tar.gz
+[2023-07-09 17:13:42] INFO root fetch - processPackages [chrisbase]: executing diffoscope
+[2023-07-09 17:13:42] INFO root fetch - processPackages [chrisbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrisbase-0.3.9.tar.gz tmp/chrisbase-0.4.0.tar.gz --markdown 20230709/c/chrisbase/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 17:13:42] INFO root fetch - processPackages [apache-airflow-providers-amazon]: executing diffoscope
+[2023-07-09 17:13:42] INFO root fetch - processPackages [apache-airflow-providers-amazon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-amazon-8.3.0rc2.tar.gz tmp/apache-airflow-providers-amazon-8.3.0rc3.tar.gz --markdown 20230709/a/apache-airflow-providers-amazon/8.3.0rc2-8.3.0rc3/diff.md --exclude *.pyd
+[2023-07-09 17:13:42] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.3.9.tar.gz]
+[2023-07-09 17:13:42] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.4.0.tar.gz]
+[2023-07-09 17:13:42] INFO root fetch - main [MainThread]: End processing [chrisbase]: success
+[2023-07-09 17:13:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.3.0rc2.tar.gz]
+[2023-07-09 17:13:43] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.3.0rc3.tar.gz]
+[2023-07-09 17:13:43] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-amazon]: success
+[2023-07-09 17:13:43] INFO root fetch - main [MainThread]: Store serial: [18821321]

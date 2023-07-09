@@ -12787,3 +12787,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:36:57] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.8-cp38-abi3-macosx_10_7_x86_64.whl.zip]
 [2023-07-09 18:36:57] INFO root fetch - main [MainThread]: End processing [teapy]: success
 [2023-07-09 18:36:57] INFO root fetch - main [MainThread]: Store serial: [18821845]
+[2023-07-09 18:42:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821845]
+[2023-07-09 18:42:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 18:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnivorex
+[2023-07-09 18:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StableRLS
+[2023-07-09 18:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feathub-nightly
+[2023-07-09 18:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aivp
+[2023-07-09 18:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brighter
+[2023-07-09 18:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dgisim
+[2023-07-09 18:42:06] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 18:42:06] INFO root fetch - processPackages [StableRLS]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 18:42:06] INFO root fetch - processPackages [dgisim]: New version: [0.2.dev1] Old Version: [0.2.dev0]
+[2023-07-09 18:42:06] INFO root fetch - processPackages [aivp]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 18:42:06] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230708] Old Version: [0.1.dev20230707]
+[2023-07-09 18:42:06] INFO root fetch - processPackages [brighter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 18:42:06] INFO root fetch - processPackages [StableRLS]: Downloading https://files.pythonhosted.org/packages/fc/61/8009ea01930f2b5e8dfe3e05b68d1cacf034720c637abbe12347cb7edc9f/StableRLS-1.0.2.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/f3/19/b51b3326fdcc7b3b3f8e926e97f0d90617fb73ef18a5813f8d2dfbb7c95a/dgisim-0.2.dev0.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [aivp]: Downloading https://files.pythonhosted.org/packages/b8/19/111d8624ede9be8e103a5e504948c1d363dc302ac6fd880449c9296f026d/aivp-0.2.0.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/c3/1d/02e6ec8d10c43dbca52ccc97a8f5cbaba218d150b52574654ad949cb12e1/feathub_nightly-0.1.dev20230707-py3-none-any.whl
+[2023-07-09 18:42:06] INFO root fetch - processPackages [brighter]: Downloading https://files.pythonhosted.org/packages/22/06/1653bc96aadb7274edbeb46cade642460cc3d6c7e3f81d448523b6857c53/brighter-0.1.0.tar.gz
+[2023-07-09 18:42:06] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12211639>=10485760
+[2023-07-09 18:42:06] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-09 18:42:06] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/91/dc/fb9b412a361c34f7bb749326831cfff76f892fea2ea917714d35e993a125/dgisim-0.2.dev1.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [StableRLS]: Downloading https://files.pythonhosted.org/packages/95/50/db24ac7d29179f487374fa8a3893253db27ce67746c57f8a52966bb6993c/StableRLS-1.0.3.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [dgisim]: executing diffoscope
+[2023-07-09 18:42:06] INFO root fetch - processPackages [dgisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgisim-0.2.dev0.tar.gz tmp/dgisim-0.2.dev1.tar.gz --markdown 20230709/d/dgisim/0.2.dev0-0.2.dev1/diff.md --exclude *.pyd
+[2023-07-09 18:42:06] INFO root fetch - processPackages [aivp]: Downloading https://files.pythonhosted.org/packages/e7/c9/58c6cfaa812e54052014f7bf301e7b3eb4b3c7d1a6115a25c22943e87a5f/aivp-0.2.1.tar.gz
+[2023-07-09 18:42:06] INFO root fetch - processPackages [StableRLS]: executing diffoscope
+[2023-07-09 18:42:06] INFO root fetch - processPackages [StableRLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StableRLS-1.0.2.tar.gz tmp/StableRLS-1.0.3.tar.gz --markdown 20230709/S/StableRLS/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 18:42:06] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 18:42:06] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 18:42:06] INFO root fetch - processPackages [brighter]: Downloading https://files.pythonhosted.org/packages/dd/0a/2238ebe98daf9ff240a9cfd58f8dcf4fc0c3d39691e8d7bdab66f9a49a49/brighter-0.1.1.tar.gz
+[2023-07-09 18:42:07] INFO root fetch - processPackages [aivp]: executing diffoscope
+[2023-07-09 18:42:07] INFO root fetch - processPackages [aivp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aivp-0.2.0.tar.gz tmp/aivp-0.2.1.tar.gz --markdown 20230709/a/aivp/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 18:42:07] INFO root fetch - processPackages [brighter]: executing diffoscope
+[2023-07-09 18:42:07] INFO root fetch - processPackages [brighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brighter-0.1.0.tar.gz tmp/brighter-0.1.1.tar.gz --markdown 20230709/b/brighter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 18:42:07] INFO root fetch - processPackages [StableRLS]: Remove: archive file [/home/abi/fetcher/tmp/StableRLS-1.0.2.tar.gz]
+[2023-07-09 18:42:07] INFO root fetch - processPackages [StableRLS]: Remove: archive file [/home/abi/fetcher/tmp/StableRLS-1.0.3.tar.gz]
+[2023-07-09 18:42:07] INFO root fetch - main [MainThread]: End processing [StableRLS]: success
+[2023-07-09 18:42:07] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 18:42:07] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 18:42:07] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 18:42:07] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev0.tar.gz]
+[2023-07-09 18:42:07] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev1.tar.gz]
+[2023-07-09 18:42:07] INFO root fetch - main [MainThread]: End processing [dgisim]: success
+[2023-07-09 18:42:08] INFO root fetch - processPackages [brighter]: Remove: archive file [/home/abi/fetcher/tmp/brighter-0.1.0.tar.gz]
+[2023-07-09 18:42:08] INFO root fetch - processPackages [brighter]: Remove: archive file [/home/abi/fetcher/tmp/brighter-0.1.1.tar.gz]
+[2023-07-09 18:42:08] INFO root fetch - main [MainThread]: End processing [brighter]: success
+[2023-07-09 18:42:08] INFO root fetch - processPackages [aivp]: Remove: archive file [/home/abi/fetcher/tmp/aivp-0.2.0.tar.gz]
+[2023-07-09 18:42:08] INFO root fetch - processPackages [aivp]: Remove: archive file [/home/abi/fetcher/tmp/aivp-0.2.1.tar.gz]
+[2023-07-09 18:42:08] INFO root fetch - main [MainThread]: End processing [aivp]: success
+[2023-07-09 18:42:08] INFO root fetch - main [MainThread]: Store serial: [18821863]

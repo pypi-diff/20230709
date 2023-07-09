@@ -16960,3 +16960,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:48:37] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1106-py3-none-any.whl.zip]
 [2023-07-09 23:48:37] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
 [2023-07-09 23:48:37] INFO root fetch - main [MainThread]: Store serial: [18823697]
+[2023-07-09 23:53:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823697]
+[2023-07-09 23:53:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySimplePreview
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sydeploy
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleworkspace
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strip-tags
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ddcci-plasmoid-backend
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WifiOrca
+[2023-07-09 23:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-07-09 23:53:47] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc5] Old Version: [0.2.7rc4]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [strip-tags]: New version: [0.5.1] Old Version: [0.5]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [PySimplePreview]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [ddcci-plasmoid-backend]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230709.21.53.698916] Old Version: [20230709.21.0.500031]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-09 23:53:47] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ab/53/10ec440ee997c5bbb2bfb951468f2d2ba99a36d3208c1e555495f3428dd0/sydeploy-0.2.7rc4-py3-none-any.whl
+[2023-07-09 23:53:47] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [ddcci-plasmoid-backend]: Downloading https://files.pythonhosted.org/packages/61/c6/b2f46b4a69ff00ac66d16058c42e419148441aae6879353f733ebca7b570/ddcci_plasmoid_backend-0.1.5.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/53/99/d7b526fdaa31028450afeb33edbb407d014bb9d1d63f693ab9810a3358d3/strip-tags-0.5.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [PySimplePreview]: Downloading https://files.pythonhosted.org/packages/be/a3/ddfc9c890b08ae20a0f77cbb32fa55915d5b275499cdac2c66c2b35fcf91/PySimplePreview-0.0.1.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-09 23:53:47] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/90/8b/a50f53485a1bf9010ab880eb88c7ff7b011b7c7271e543b9810760d0efaa/certora-cli-alpha-master-20230709.21.0.500031.tar.gz
+[2023-07-09 23:53:47] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37461676>=10485760
+[2023-07-09 23:53:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-09 23:53:47] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 23:53:47] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-09 23:53:47] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-09 23:53:47] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 23:53:47] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:53:47] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/94/1f/4f872a2ac0c2297c49f3a8017746d2c2bf8c0d2d493bf65edd688f7ff4ba/sydeploy-0.2.7rc5-py3-none-any.whl
+[2023-07-09 23:53:47] INFO root fetch - processPackages [PySimplePreview]: Downloading https://files.pythonhosted.org/packages/03/41/84391e41a092a4a904706be4eeb1a15b8454e6d68386cbd36bf64a076c8d/PySimplePreview-0.0.2.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [ddcci-plasmoid-backend]: Downloading https://files.pythonhosted.org/packages/dd/c9/ffa7d059aafac3641515c32af041c419e966a7fffbf4e464a38911e55df5/ddcci_plasmoid_backend-0.1.6.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/59/22/1b50f0c98d35c7e958b080aa7947a90bd74b3dc7e72b759034727edc10e3/strip-tags-0.5.1.tar.gz
+[2023-07-09 23:53:47] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-09 23:53:47] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:53:47] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc4-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc5-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7rc4-0.2.7rc5/diff.md --exclude *.pyd
+[2023-07-09 23:53:47] INFO root fetch - processPackages [ddcci-plasmoid-backend]: executing diffoscope
+[2023-07-09 23:53:47] INFO root fetch - processPackages [ddcci-plasmoid-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddcci_plasmoid_backend-0.1.5.tar.gz tmp/ddcci_plasmoid_backend-0.1.6.tar.gz --markdown 20230709/d/ddcci-plasmoid-backend/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 23:53:47] INFO root fetch - processPackages [strip-tags]: executing diffoscope
+[2023-07-09 23:53:47] INFO root fetch - processPackages [strip-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strip-tags-0.5.tar.gz tmp/strip-tags-0.5.1.tar.gz --markdown 20230709/s/strip-tags/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-09 23:53:48] INFO root fetch - processPackages [PySimplePreview]: executing diffoscope
+[2023-07-09 23:53:48] INFO root fetch - processPackages [PySimplePreview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySimplePreview-0.0.1.tar.gz tmp/PySimplePreview-0.0.2.tar.gz --markdown 20230709/P/PySimplePreview/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 23:53:48] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-09 23:53:48] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230709/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-09 23:53:48] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 23:53:48] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 23:53:48] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 23:53:48] INFO root fetch - processPackages [strip-tags]: Remove: archive file [/home/abi/fetcher/tmp/strip-tags-0.5.tar.gz]
+[2023-07-09 23:53:48] INFO root fetch - processPackages [strip-tags]: Remove: archive file [/home/abi/fetcher/tmp/strip-tags-0.5.1.tar.gz]
+[2023-07-09 23:53:49] INFO root fetch - main [MainThread]: End processing [strip-tags]: success
+[2023-07-09 23:53:49] INFO root fetch - processPackages [ddcci-plasmoid-backend]: Remove: archive file [/home/abi/fetcher/tmp/ddcci_plasmoid_backend-0.1.5.tar.gz]
+[2023-07-09 23:53:49] INFO root fetch - processPackages [ddcci-plasmoid-backend]: Remove: archive file [/home/abi/fetcher/tmp/ddcci_plasmoid_backend-0.1.6.tar.gz]
+[2023-07-09 23:53:49] INFO root fetch - main [MainThread]: End processing [ddcci-plasmoid-backend]: success
+[2023-07-09 23:53:49] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc4-py3-none-any.whl.zip]
+[2023-07-09 23:53:49] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc5-py3-none-any.whl.zip]
+[2023-07-09 23:53:49] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:53:49] INFO root fetch - processPackages [PySimplePreview]: Remove: archive file [/home/abi/fetcher/tmp/PySimplePreview-0.0.1.tar.gz]
+[2023-07-09 23:53:49] INFO root fetch - processPackages [PySimplePreview]: Remove: archive file [/home/abi/fetcher/tmp/PySimplePreview-0.0.2.tar.gz]
+[2023-07-09 23:53:49] INFO root fetch - main [MainThread]: End processing [PySimplePreview]: success
+[2023-07-09 23:53:49] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-09 23:53:49] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-09 23:53:49] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-09 23:53:49] INFO root fetch - main [MainThread]: Store serial: [18823722]

@@ -16818,3 +16818,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:37:46] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
 [2023-07-09 23:37:46] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
 [2023-07-09 23:37:46] INFO root fetch - main [MainThread]: Store serial: [18823641]
+[2023-07-09 23:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823641]
+[2023-07-09 23:42:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r614-o11y
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hm-pyhelper
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioconsertinc
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inboard
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edemdsptfeb23
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: r614-postgres
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfirebird
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: XPER
+[2023-07-09 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dank-mids
+[2023-07-09 23:42:55] WARNING root fetch - processPackages [r614-o11y]: Skipping, unable to determine old version
+[2023-07-09 23:42:55] INFO root fetch - main [MainThread]: End processing [r614-o11y] error
+[2023-07-09 23:42:55] INFO root fetch - processPackages [bioconsertinc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 23:42:55] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-09 23:42:55] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-07-09 23:42:55] WARNING root fetch - processPackages [r614-postgres]: Skipping, unable to determine old version
+[2023-07-09 23:42:55] INFO root fetch - main [MainThread]: End processing [r614-postgres] error
+[2023-07-09 23:42:55] WARNING root fetch - processPackages [edemdsptfeb23]: Skipping, unable to determine old version
+[2023-07-09 23:42:55] INFO root fetch - main [MainThread]: End processing [edemdsptfeb23] error
+[2023-07-09 23:42:55] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 23:42:55] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 23:42:55] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-07-09 23:42:55] INFO root fetch - processPackages [bioconsertinc]: Downloading https://files.pythonhosted.org/packages/82/0d/e7340b88755d2200c63290cb298b4ad8013ac410f005d7caffc4774d83d6/bioconsertinc-1.0.1.tar.gz
+[2023-07-09 23:42:55] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/bf/f6/2b549ebc13fdd31cf8110da3142ff58933618081fb8c48b466814cf230a0/pyfirebird-0.0.71.tar.gz
+[2023-07-09 23:42:55] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [bioconsertinc]: Downloading https://files.pythonhosted.org/packages/48/a1/48a0ca481c25b3917ee9a88c682fec4cd8840fdf42f56b0a14ceafaa293b/bioconsertinc-1.0.2.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 23:42:56] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 23:42:56] INFO root fetch - processPackages [bioconsertinc]: executing diffoscope
+[2023-07-09 23:42:56] INFO root fetch - processPackages [bioconsertinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioconsertinc-1.0.1.tar.gz tmp/bioconsertinc-1.0.2.tar.gz --markdown 20230709/b/bioconsertinc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 23:42:56] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/ac/61/e4c89f4453e4460b86014aa2ccc32a1b3c6e17c2b8760957c6c653160840/pyfirebird-0.0.72.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-07-09 23:42:56] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2023-07-09 23:42:56] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20230709/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-09 23:42:56] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-07-09 23:42:56] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230709/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-07-09 23:42:56] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 23:42:56] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.71.tar.gz tmp/pyfirebird-0.0.72.tar.gz --markdown 20230709/p/pyfirebird/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-07-09 23:42:57] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-07-09 23:42:57] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230709/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:42:57] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 23:42:57] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 23:42:57] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 23:42:57] INFO root fetch - processPackages [bioconsertinc]: Remove: archive file [/home/abi/fetcher/tmp/bioconsertinc-1.0.1.tar.gz]
+[2023-07-09 23:42:57] INFO root fetch - processPackages [bioconsertinc]: Remove: archive file [/home/abi/fetcher/tmp/bioconsertinc-1.0.2.tar.gz]
+[2023-07-09 23:42:57] INFO root fetch - main [MainThread]: End processing [bioconsertinc]: success
+[2023-07-09 23:42:57] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2023-07-09 23:42:57] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2023-07-09 23:42:57] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2023-07-09 23:42:58] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.71.tar.gz]
+[2023-07-09 23:42:58] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.72.tar.gz]
+[2023-07-09 23:42:58] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 23:42:59] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-07-09 23:42:59] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-07-09 23:42:59] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-07-09 23:43:06] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.13.tar.gz]
+[2023-07-09 23:43:06] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
+[2023-07-09 23:43:06] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-07-09 23:43:06] INFO root fetch - main [MainThread]: Store serial: [18823672]

@@ -7383,3 +7383,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:48:33] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.7b1.tar.gz]
 [2023-07-09 11:48:33] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
 [2023-07-09 11:48:33] INFO root fetch - main [MainThread]: Store serial: [18819383]
+[2023-07-09 11:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819383]
+[2023-07-09 11:53:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 11:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngmapi
+[2023-07-09 11:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abuse-whois
+[2023-07-09 11:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-ansi
+[2023-07-09 11:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LbNightlyTools
+[2023-07-09 11:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: client-chat-pyqt-dax
+[2023-07-09 11:53:42] INFO root fetch - processPackages [abuse-whois]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-09 11:53:42] INFO root fetch - processPackages [discord-ansi]: New version: [1.2] Old Version: [1.1]
+[2023-07-09 11:53:42] WARNING root fetch - processPackages [client-chat-pyqt-dax]: Skipping, unable to determine old version
+[2023-07-09 11:53:42] INFO root fetch - main [MainThread]: End processing [client-chat-pyqt-dax] error
+[2023-07-09 11:53:42] INFO root fetch - processPackages [ngmapi]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-09 11:53:42] INFO root fetch - processPackages [LbNightlyTools]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-09 11:53:43] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/e0/ab/177a72623fc96a730c093ffbba79aecb13850733f75c263a073f447d81c0/ngmapi-0.0.43.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [abuse-whois]: Downloading https://files.pythonhosted.org/packages/84/78/bf2862d338a33c0bf2ed2161cd9616dc9e4a142eebddcfd3c9aeed8fdfb8/abuse_whois-0.6.0.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/67/f4/822e791e05ccd9ddc1b7e2911df6be0c0c654617e354336d12f6937df334/discord-ansi-1.1.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/e8/b5/a810fde1a1a3f9b6b9cea7023cf753b77b967e53d829831c8eb6597d37ad/LbNightlyTools-3.0.8.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [discord-ansi]: Downloading https://files.pythonhosted.org/packages/9a/63/691eea8f3bec975ece8d20ae92afc1dfd9795e145726fd88dbc18df25a77/discord-ansi-1.2.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/b9/9c/5393411ffc808ac06fa49d16d51a36e8f61d53e6f87e42bad4fc5058fecb/ngmapi-0.0.44.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [abuse-whois]: Downloading https://files.pythonhosted.org/packages/88/b0/f84737b2c4f53a19190b2d60fac4ccc76ba76d9739b3fd07f4ff1ba5231e/abuse_whois-0.7.0.tar.gz
+[2023-07-09 11:53:43] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 11:53:43] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.43.tar.gz tmp/ngmapi-0.0.44.tar.gz --markdown 20230709/n/ngmapi/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-09 11:53:43] INFO root fetch - processPackages [discord-ansi]: executing diffoscope
+[2023-07-09 11:53:43] INFO root fetch - processPackages [discord-ansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-ansi-1.1.tar.gz tmp/discord-ansi-1.2.tar.gz --markdown 20230709/d/discord-ansi/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-09 11:53:43] INFO root fetch - processPackages [abuse-whois]: executing diffoscope
+[2023-07-09 11:53:43] INFO root fetch - processPackages [abuse-whois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuse_whois-0.6.0.tar.gz tmp/abuse_whois-0.7.0.tar.gz --markdown 20230709/a/abuse-whois/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-09 11:53:44] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/51/fa/9c92013dcb7178b558b9f90d6b89df82070caf9d26a963eb71ddf4899f17/LbNightlyTools-3.0.9.tar.gz
+[2023-07-09 11:53:44] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.43.tar.gz]
+[2023-07-09 11:53:44] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.44.tar.gz]
+[2023-07-09 11:53:44] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 11:53:44] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-1.1.tar.gz]
+[2023-07-09 11:53:44] INFO root fetch - processPackages [discord-ansi]: Remove: archive file [/home/abi/fetcher/tmp/discord-ansi-1.2.tar.gz]
+[2023-07-09 11:53:44] INFO root fetch - main [MainThread]: End processing [discord-ansi]: success
+[2023-07-09 11:53:44] INFO root fetch - processPackages [abuse-whois]: Remove: archive file [/home/abi/fetcher/tmp/abuse_whois-0.6.0.tar.gz]
+[2023-07-09 11:53:44] INFO root fetch - processPackages [abuse-whois]: Remove: archive file [/home/abi/fetcher/tmp/abuse_whois-0.7.0.tar.gz]
+[2023-07-09 11:53:44] INFO root fetch - main [MainThread]: End processing [abuse-whois]: success
+[2023-07-09 11:53:44] INFO root fetch - processPackages [LbNightlyTools]: executing diffoscope
+[2023-07-09 11:53:44] INFO root fetch - processPackages [LbNightlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbNightlyTools-3.0.8.tar.gz tmp/LbNightlyTools-3.0.9.tar.gz --markdown 20230709/L/LbNightlyTools/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-09 11:53:46] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-3.0.8.tar.gz]
+[2023-07-09 11:53:46] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-3.0.9.tar.gz]
+[2023-07-09 11:53:46] INFO root fetch - main [MainThread]: End processing [LbNightlyTools]: success
+[2023-07-09 11:53:46] INFO root fetch - main [MainThread]: Store serial: [18819405]

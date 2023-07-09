@@ -1308,3 +1308,98 @@
 [2023-07-09 02:25:22] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
 [2023-07-09 02:25:22] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
 [2023-07-09 02:25:22] INFO root fetch - main [MainThread]: Store serial: [18816788]
+[2023-07-09 02:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816788]
+[2023-07-09 02:30:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbolicai
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tptools
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cr-constructs
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-tweet-queue
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shell-interface
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pkgteste
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-24
+[2023-07-09 02:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-docker-image-deployment
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk8s]: New version: [2.7.97] Old Version: [2.7.96]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [shell-interface]: New version: [0.9.0] Old Version: [0.11.1]
+[2023-07-09 02:30:31] WARNING root fetch - processPackages [tptools]: Skipping, unable to determine old version
+[2023-07-09 02:30:31] INFO root fetch - processPackages [tptools]: Start processing: minswap-py
+[2023-07-09 02:30:31] INFO root fetch - main [MainThread]: End processing [tptools] error
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-09 02:30:31] WARNING root fetch - processPackages [pkgteste]: Skipping, unable to determine old version
+[2023-07-09 02:30:31] INFO root fetch - processPackages [pkgteste]: Start processing: sweetrpg-db
+[2023-07-09 02:30:31] INFO root fetch - main [MainThread]: End processing [pkgteste] error
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [minswap-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-09 02:30:31] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d9/70/6365e742a286b4cece00c622aaa2eca830c1c3b2852129400671693e11cb/cdk8s-2.7.96.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [sweetrpg-db]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:30:32] INFO root fetch - processPackages [shell-interface]: Downloading https://files.pythonhosted.org/packages/a1/e3/202717a8a00d4d036b3a801df9c253af7d6ba14891c2867ad6091eb797b6/shell_interface-0.11.1.tar.gz
+[2023-07-09 02:30:32] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-09 02:30:32] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-09 02:30:32] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-09 02:30:32] INFO root fetch - processPackages [minswap-py]: Downloading https://files.pythonhosted.org/packages/c9/be/883cb59b08c68a3842f84407b044b6eee2053fe03dbd30eccdde320e9f8f/minswap_py-0.2.0.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/5a/d7/24a3ef54eb1d05dd3bdada66527c0b12e3fab130bca4dd3ecb6de39fe432/cdk8s-2.7.97.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/a9/8d/3d3cba136965ab00c0338cfe26c6389ebecbad7a6f919918dee83c8706be/sweetrpg-db-0.0.98.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230709/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230709/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.96.tar.gz tmp/cdk8s-2.7.97.tar.gz --markdown 20230709/c/cdk8s/2.7.96-2.7.97/diff.md --exclude *.pyd
+[2023-07-09 02:30:32] INFO root fetch - processPackages [minswap-py]: Downloading https://files.pythonhosted.org/packages/1d/88/aeec7c1a69548c0d6c220727e28755c8c8ac464b8d9d96c354fec24efc7b/minswap_py-0.2.1.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [shell-interface]: Downloading https://files.pythonhosted.org/packages/0f/8d/ea60b5fb203db6a005b1d7c9f2d8e48840ebb3717c757a47f3166e3b14db/shell_interface-0.9.0.tar.gz
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-09 02:30:32] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230709/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-09 02:30:32] INFO root fetch - processPackages [shell-interface]: executing diffoscope
+[2023-07-09 02:30:32] INFO root fetch - processPackages [shell-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_interface-0.11.1.tar.gz tmp/shell_interface-0.9.0.tar.gz --markdown 20230709/s/shell-interface/0.11.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 02:30:32] INFO root fetch - processPackages [minswap-py]: executing diffoscope
+[2023-07-09 02:30:32] INFO root fetch - processPackages [minswap-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minswap_py-0.2.0.tar.gz tmp/minswap_py-0.2.1.tar.gz --markdown 20230709/m/minswap-py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 02:30:32] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/cd/b0/462b503c41bce59517535ee1abde52ec10f2d1d9cfecfa361efd1369becb/sweetrpg-db-0.0.99.tar.gz
+[2023-07-09 02:30:33] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-09 02:30:33] INFO root fetch - processPackages [sweetrpg-db]: executing diffoscope
+[2023-07-09 02:30:33] INFO root fetch - processPackages [sweetrpg-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-db-0.0.98.tar.gz tmp/sweetrpg-db-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-db/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:30:33] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-09 02:30:33] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230709/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:30:33] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-09 02:30:33] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230709/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 02:30:33] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.96.tar.gz]
+[2023-07-09 02:30:33] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.97.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-09 02:30:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-09 02:30:34] INFO root fetch - processPackages [shell-interface]: Remove: archive file [/home/abi/fetcher/tmp/shell_interface-0.11.1.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [shell-interface]: Remove: archive file [/home/abi/fetcher/tmp/shell_interface-0.9.0.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [shell-interface]: success
+[2023-07-09 02:30:34] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-09 02:30:34] INFO root fetch - processPackages [minswap-py]: Remove: archive file [/home/abi/fetcher/tmp/minswap_py-0.2.0.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [minswap-py]: Remove: archive file [/home/abi/fetcher/tmp/minswap_py-0.2.1.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [minswap-py]: success
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-09 02:30:34] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.98.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.99.tar.gz]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [sweetrpg-db]: success
+[2023-07-09 02:30:34] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-09 02:30:34] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-09 02:30:34] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-09 02:30:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-09 02:30:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-09 02:30:35] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-09 02:30:35] INFO root fetch - main [MainThread]: Store serial: [18816829]

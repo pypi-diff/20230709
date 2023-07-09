@@ -14195,3 +14195,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:31:34] INFO root fetch - processPackages [creativecontrol-circuitpython-ltc166x]: Remove: archive file [/home/abi/fetcher/tmp/creativecontrol-circuitpython-ltc166x-1.2.3.tar.gz]
 [2023-07-09 20:31:34] INFO root fetch - main [MainThread]: End processing [creativecontrol-circuitpython-ltc166x]: success
 [2023-07-09 20:31:34] INFO root fetch - main [MainThread]: Store serial: [18822444]
+[2023-07-09 20:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822444]
+[2023-07-09 20:36:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtgql
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugen
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugen
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intentify
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finqual
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plugen
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plugen
+[2023-07-09 20:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finops-crawler
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finqual]: New version: [0.1.93] Old Version: [0.1.92]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: New version: [0.84] Old Version: [0.83]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: New version: [0.84] Old Version: [0.83]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: New version: [0.84] Old Version: [0.83]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [qtgql]: New version: [0.127.0] Old Version: [0.126.0]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [intentify]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5] Old Version: [1.6.6.4rc0]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: New version: [0.84] Old Version: [0.83]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/22/9f/9f0bc9786ed9e8141bec7eb4f968b7efb632db4ae994ec32cff0e12a83a8/finqual-0.1.92.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finops-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 20:36:43] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/07/c5/e4eea8f66b7d28e27674792cb5f1ffed962e5eff9101694af5da603096de/roblox-pyc-1.6.6.4rc0.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/09/c2/c95b53e5c7cc14b9ea5f204405f1a40156b8cde0b8b334b20c988ca2c407/plugen-0.83.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/09/c2/c95b53e5c7cc14b9ea5f204405f1a40156b8cde0b8b334b20c988ca2c407/plugen-0.83.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/09/c2/c95b53e5c7cc14b9ea5f204405f1a40156b8cde0b8b334b20c988ca2c407/plugen-0.83.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/09/c2/c95b53e5c7cc14b9ea5f204405f1a40156b8cde0b8b334b20c988ca2c407/plugen-0.83.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/9d/80/d7dae086188ba9255c4d767ad44671871db128fdded48a02ea33c4402c15/qtgql-0.126.0.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [intentify]: Downloading https://files.pythonhosted.org/packages/7f/0f/2e2f82c70e1294aecd0ab4409295631533a916567afaac1ef8e2efe252f4/intentify-0.0.1.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/d3/95/00247286a992fc1af24f53d5284af83117e1413da5d181b0b91cdd659bdf/finops_crawler-0.1.8.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/1b/e8/b3446447e7b3f94e718a8051690e5b1aa57b2ad1a789ea56b4d502ed8b80/finqual-0.1.93.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/96/c2/86867106963ea77287f48e208d9dd84c63bd85fa25efa03a1958e7f62fdf/roblox-pyc-1.6.6.5.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/56/c8/074db610c5c4804444310327e2950f7ccb6d65ae640bf6e22d1f61719d8c/qtgql-0.127.0.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [intentify]: Downloading https://files.pythonhosted.org/packages/02/b1/bedae47a9e7df51b7fde798ae9596d5f62cb98d1d300d258d25d5a3f4a82/intentify-0.0.2.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.92.tar.gz tmp/finqual-0.1.93.tar.gz --markdown 20230709/f/finqual/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/63/27/941320deaa6edb431022e76b87ec76380f0873ab41b8a01b4c9275c9a7a0/plugen-0.84.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/63/27/941320deaa6edb431022e76b87ec76380f0873ab41b8a01b4c9275c9a7a0/plugen-0.84.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/8a/b2/3e8965ddcac739e11e0312223e45b23542832f881b1ca99124abf471b30c/finops_crawler-0.1.9.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/63/27/941320deaa6edb431022e76b87ec76380f0873ab41b8a01b4c9275c9a7a0/plugen-0.84.tar.gz
+[2023-07-09 20:36:43] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 20:36:43] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.4rc0.tar.gz tmp/roblox-pyc-1.6.6.5.tar.gz --markdown 20230709/r/roblox-pyc/1.6.6.4rc0-1.6.6.5/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/63/27/941320deaa6edb431022e76b87ec76380f0873ab41b8a01b4c9275c9a7a0/plugen-0.84.tar.gz
+[2023-07-09 20:36:44] INFO root fetch - processPackages [intentify]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [intentify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intentify-0.0.1.tar.gz tmp/intentify-0.0.2.tar.gz --markdown 20230709/i/intentify/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-0.83.tar.gz tmp/plugen-0.84.tar.gz --markdown 20230709/p/plugen/0.83-0.84/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.126.0.tar.gz tmp/qtgql-0.127.0.tar.gz --markdown 20230709/q/qtgql/0.126.0-0.127.0/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-0.83.tar.gz tmp/plugen-0.84.tar.gz --markdown 20230709/p/plugen/0.83-0.84/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [finops-crawler]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [finops-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops_crawler-0.1.8.tar.gz tmp/finops_crawler-0.1.9.tar.gz --markdown 20230709/f/finops-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-0.83.tar.gz tmp/plugen-0.84.tar.gz --markdown 20230709/p/plugen/0.83-0.84/diff.md --exclude *.pyd
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-09 20:36:44] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-0.83.tar.gz tmp/plugen-0.84.tar.gz --markdown 20230709/p/plugen/0.83-0.84/diff.md --exclude *.pyd
+[2023-07-09 20:36:45] INFO root fetch - processPackages [intentify]: Remove: archive file [/home/abi/fetcher/tmp/intentify-0.0.1.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - processPackages [intentify]: Remove: archive file [/home/abi/fetcher/tmp/intentify-0.0.2.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [intentify]: success
+[2023-07-09 20:36:45] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.92.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.93.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-09 20:36:45] INFO root fetch - processPackages [plugen]: Remove: archive file [/home/abi/fetcher/tmp/plugen-0.83.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - processPackages [plugen]: Remove: archive file [/home/abi/fetcher/tmp/plugen-0.84.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-09 20:36:45] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.4rc0.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 20:36:45] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.126.0.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.127.0.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-09 20:36:45] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.8.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.9.tar.gz]
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [finops-crawler]: success
+[2023-07-09 20:36:45] INFO root fetch - main [MainThread]: Store serial: [18822472]

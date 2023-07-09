@@ -8284,3 +8284,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:17:42] INFO root fetch - processPackages [ctlog]: Remove: archive file [/home/abi/fetcher/tmp/ctlog-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-09 13:17:42] INFO root fetch - main [MainThread]: End processing [ctlog]: success
 [2023-07-09 13:17:42] INFO root fetch - main [MainThread]: Store serial: [18819785]
+[2023-07-09 13:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819785]
+[2023-07-09 13:23:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: url-for-int
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cansync
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yanga
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LTADatamall
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tb-nightly
+[2023-07-09 13:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siat
+[2023-07-09 13:23:08] WARNING root fetch - processPackages [cansync]: Skipping, unable to determine old version
+[2023-07-09 13:23:08] INFO root fetch - main [MainThread]: End processing [cansync] error
+[2023-07-09 13:23:08] INFO root fetch - processPackages [LTADatamall]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 13:23:08] INFO root fetch - processPackages [yanga]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-09 13:23:08] INFO root fetch - processPackages [url-for-int]: New version: [2.3.0] Old Version: [2.2.4]
+[2023-07-09 13:23:08] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-09 13:23:08] INFO root fetch - processPackages [siat]: New version: [2.3.0] Old Version: [2.2.6]
+[2023-07-09 13:23:08] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-09 13:23:08] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/fc/f4/d9a592958965d4e350ed42926e1ebd5a69a069e9d0224232aadafe86c718/LTADatamall-0.0.7.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-09 13:23:08] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [url-for-int]: Downloading https://files.pythonhosted.org/packages/42/01/6c3f3050ddc78b5bd93a7bd16525081c2a2b505ec1114065dd6614b35d4d/url_for_int-2.2.4.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/f3/79/2ef9b3d9fd976add12d6d91137bb9af3da156a8fcad2eb67cbb4dc28242e/siat-2.2.6-py3-none-any.whl
+[2023-07-09 13:23:08] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/73/4c/f6430024c356ff18bcbed7836d19940e3e3baf0b0242f795a8537b9898cf/yanga-0.5.0.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/2c/bf/5a500c8d3ee43d9f7d650964d89894cbc51632011006cf55a8149c4f4646/LTADatamall-0.0.8.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [url-for-int]: Downloading https://files.pythonhosted.org/packages/28/b9/93b2cd48ff7a5ea6d1811d0a9109df121bbfa16bfcd9523dde918453f474/url_for_int-2.3.0.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/d2/79/33e1288ac2437abe604b6539a205c736e9add7c9b3357429fb01e777d335/yanga-0.6.0.tar.gz
+[2023-07-09 13:23:08] INFO root fetch - processPackages [LTADatamall]: executing diffoscope
+[2023-07-09 13:23:08] INFO root fetch - processPackages [LTADatamall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LTADatamall-0.0.7.tar.gz tmp/LTADatamall-0.0.8.tar.gz --markdown 20230709/L/LTADatamall/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 13:23:09] INFO root fetch - processPackages [url-for-int]: executing diffoscope
+[2023-07-09 13:23:09] INFO root fetch - processPackages [url-for-int]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url_for_int-2.2.4.tar.gz tmp/url_for_int-2.3.0.tar.gz --markdown 20230709/u/url-for-int/2.2.4-2.3.0/diff.md --exclude *.pyd
+[2023-07-09 13:23:09] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-09 13:23:09] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230709/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-09 13:23:09] INFO root fetch - processPackages [yanga]: executing diffoscope
+[2023-07-09 13:23:09] INFO root fetch - processPackages [yanga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yanga-0.5.0.tar.gz tmp/yanga-0.6.0.tar.gz --markdown 20230709/y/yanga/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 13:23:09] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/c4/dc/da0272bc4de56e254326bca98bb7c631affe660b3611fa4a29551a2bd345/siat-2.3.0-py3-none-any.whl
+[2023-07-09 13:23:09] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-09 13:23:09] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-09 13:23:09] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230709/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-09 13:23:09] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-09 13:23:09] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.2.6-py3-none-any.whl.zip tmp/siat-2.3.0-py3-none-any.whl.zip --markdown 20230709/s/siat/2.2.6-2.3.0/diff.md --exclude *.pyd
+[2023-07-09 13:23:10] INFO root fetch - processPackages [url-for-int]: Remove: archive file [/home/abi/fetcher/tmp/url_for_int-2.2.4.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - processPackages [url-for-int]: Remove: archive file [/home/abi/fetcher/tmp/url_for_int-2.3.0.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - main [MainThread]: End processing [url-for-int]: success
+[2023-07-09 13:23:10] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.5.0.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.6.0.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.7.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - main [MainThread]: End processing [yanga]: success
+[2023-07-09 13:23:10] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.8.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - main [MainThread]: End processing [LTADatamall]: success
+[2023-07-09 13:23:10] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-09 13:23:10] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-09 13:23:11] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.2.6-py3-none-any.whl.zip]
+[2023-07-09 13:23:11] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.3.0-py3-none-any.whl.zip]
+[2023-07-09 13:23:11] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-09 13:23:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-09 13:23:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-09 13:23:11] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-09 13:23:11] INFO root fetch - main [MainThread]: Store serial: [18819807]

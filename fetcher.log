@@ -1869,3 +1869,42 @@
 [2023-07-09 03:02:40] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.3.0.tar.gz]
 [2023-07-09 03:02:40] INFO root fetch - main [MainThread]: End processing [sweepai]: success
 [2023-07-09 03:02:40] INFO root fetch - main [MainThread]: Store serial: [18816990]
+[2023-07-09 03:07:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816990]
+[2023-07-09 03:07:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 03:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizproxy
+[2023-07-09 03:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-09 03:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyghelpers
+[2023-07-09 03:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-databrew-cicd
+[2023-07-09 03:07:49] INFO root fetch - processPackages [wizproxy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-09 03:07:49] INFO root fetch - processPackages [pyghelpers]: New version: [1.0.42] Old Version: [1.0.41]
+[2023-07-09 03:07:49] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 03:07:49] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 03:07:49] INFO root fetch - processPackages [wizproxy]: Downloading https://files.pythonhosted.org/packages/53/2f/07df1d2e9676634c734281888d5fd3c45512fc50ef38f4c0f2dec266526a/wizproxy-0.2.0.tar.gz
+[2023-07-09 03:07:49] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 03:07:49] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-09 03:07:49] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 03:07:50] INFO root fetch - processPackages [pyghelpers]: Downloading https://files.pythonhosted.org/packages/a2/9a/b20f9a023a637340f9d420066dd531c9853b969291f61a27a9229c3df28e/pyghelpers-1.0.41.tar.gz
+[2023-07-09 03:07:50] INFO root fetch - processPackages [wizproxy]: Downloading https://files.pythonhosted.org/packages/29/b3/158afc7c3108b3cdfffcb3008148770d4200c8a03935e99e848143d47b62/wizproxy-0.3.0.tar.gz
+[2023-07-09 03:07:50] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 03:07:50] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 03:07:50] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-09 03:07:50] INFO root fetch - processPackages [wizproxy]: executing diffoscope
+[2023-07-09 03:07:50] INFO root fetch - processPackages [wizproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizproxy-0.2.0.tar.gz tmp/wizproxy-0.3.0.tar.gz --markdown 20230709/w/wizproxy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 03:07:50] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-09 03:07:50] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230709/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:07:50] INFO root fetch - processPackages [pyghelpers]: Downloading https://files.pythonhosted.org/packages/8e/5c/89ca48d5e2a0a28e57d3f08d74395255863adf4bece3e4558eeaf17165c4/pyghelpers-1.0.42.tar.gz
+[2023-07-09 03:07:50] INFO root fetch - processPackages [pyghelpers]: executing diffoscope
+[2023-07-09 03:07:50] INFO root fetch - processPackages [pyghelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyghelpers-1.0.41.tar.gz tmp/pyghelpers-1.0.42.tar.gz --markdown 20230709/p/pyghelpers/1.0.41-1.0.42/diff.md --exclude *.pyd
+[2023-07-09 03:07:51] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.2.0.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.3.0.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - main [MainThread]: End processing [wizproxy]: success
+[2023-07-09 03:07:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 03:07:51] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-09 03:07:51] INFO root fetch - processPackages [pyghelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyghelpers-1.0.41.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - processPackages [pyghelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyghelpers-1.0.42.tar.gz]
+[2023-07-09 03:07:51] INFO root fetch - main [MainThread]: End processing [pyghelpers]: success
+[2023-07-09 03:07:51] INFO root fetch - main [MainThread]: Store serial: [18817005]

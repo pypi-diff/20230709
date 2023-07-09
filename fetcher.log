@@ -12084,3 +12084,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:44:57] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.5-py3-none-any.whl.zip]
 [2023-07-09 17:44:57] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore]: success
 [2023-07-09 17:44:57] INFO root fetch - main [MainThread]: Store serial: [18821527]
+[2023-07-09 17:50:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821527]
+[2023-07-09 17:50:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinxnotes-lilypond
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spin-finder
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-cpp-python
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlflow-tracking-mongostore
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpipes
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-func
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zein
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: searchenginepy
+[2023-07-09 17:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anyconfig-bson-backend
+[2023-07-09 17:50:06] WARNING root fetch - processPackages [gpipes]: Skipping, unable to determine old version
+[2023-07-09 17:50:06] INFO root fetch - main [MainThread]: End processing [gpipes] error
+[2023-07-09 17:50:06] INFO root fetch - processPackages [mlflow-tracking-mongostore]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 17:50:06] INFO root fetch - processPackages [sphinxnotes-lilypond]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-09 17:50:06] INFO root fetch - processPackages [image-func]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 17:50:06] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:50:06] WARNING root fetch - processPackages [spin-finder]: Skipping, unable to determine old version
+[2023-07-09 17:50:06] WARNING root fetch - processPackages [searchenginepy]: Skipping, unable to determine old version
+[2023-07-09 17:50:06] INFO root fetch - main [MainThread]: End processing [spin-finder] error
+[2023-07-09 17:50:06] INFO root fetch - main [MainThread]: End processing [searchenginepy] error
+[2023-07-09 17:50:06] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 17:50:06] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-09 17:50:06] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:50:06] INFO root fetch - processPackages [anyconfig-bson-backend]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-09 17:50:06] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Downloading https://files.pythonhosted.org/packages/f8/3d/196be6b1ce488775498f395d91e34b2928b4b5cec23aa020ce291c29fe7e/mlflow_tracking_mongostore-0.1.4-py3-none-any.whl
+[2023-07-09 17:50:06] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-07-09 17:50:06] INFO root fetch - processPackages [sphinxnotes-lilypond]: Downloading https://files.pythonhosted.org/packages/1d/63/414a5f7b0c72214f1cf76ce66ea78df9d6e9652d00014e81c3fc15a0821e/sphinxnotes-lilypond-1.6.0.tar.gz
+[2023-07-09 17:50:06] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/53/19/83648c27e6abc5b7c6ba68f8e2a9472a2c8c3989947d7808334bf8348af7/image_func-1.0.9.tar.gz
+[2023-07-09 17:50:07] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:50:07] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-09 17:50:07] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.8.tar.gz tmp/image_func-1.0.9.tar.gz --markdown 20230709/i/image-func/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:50:07] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:50:07] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:50:07] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Downloading https://files.pythonhosted.org/packages/4e/22/7a60be7e572aac20352e94f43c05f4224ce2337ebc203d2ca6643a4fa0da/mlflow_tracking_mongostore-0.1.5-py3-none-any.whl
+[2023-07-09 17:50:07] INFO root fetch - processPackages [sphinxnotes-lilypond]: Downloading https://files.pythonhosted.org/packages/62/e3/3e040aa6b67716928d8dfae4c6729c54788b6729d2414d42d5dfbc13cf86/sphinxnotes-lilypond-1.6.1.tar.gz
+[2023-07-09 17:50:07] INFO root fetch - processPackages [anyconfig-bson-backend]: Downloading https://files.pythonhosted.org/packages/98/57/9d2d69397b347312f28c7b1ef7fc34b074751a699d1ea511f8d6168484da/anyconfig-bson-backend-0.1.2.tar.gz
+[2023-07-09 17:50:07] INFO root fetch - processPackages [mlflow-tracking-mongostore]: executing diffoscope
+[2023-07-09 17:50:07] INFO root fetch - processPackages [mlflow-tracking-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_tracking_mongostore-0.1.4-py3-none-any.whl.zip tmp/mlflow_tracking_mongostore-0.1.5-py3-none-any.whl.zip --markdown 20230709/m/mlflow-tracking-mongostore/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 17:50:07] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-07-09 17:50:07] INFO root fetch - processPackages [sphinxnotes-lilypond]: executing diffoscope
+[2023-07-09 17:50:07] INFO root fetch - processPackages [sphinxnotes-lilypond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxnotes-lilypond-1.6.0.tar.gz tmp/sphinxnotes-lilypond-1.6.1.tar.gz --markdown 20230709/s/sphinxnotes-lilypond/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-09 17:50:07] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-07-09 17:50:07] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230709/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 17:50:07] INFO root fetch - processPackages [anyconfig-bson-backend]: Downloading https://files.pythonhosted.org/packages/80/2f/d6155d7384ad656c3f68624a2340d7f2b195465d1a92828fca3b7c6c1147/anyconfig-bson-backend-0.2.0.tar.gz
+[2023-07-09 17:50:08] INFO root fetch - processPackages [anyconfig-bson-backend]: executing diffoscope
+[2023-07-09 17:50:08] INFO root fetch - processPackages [anyconfig-bson-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyconfig-bson-backend-0.1.2.tar.gz tmp/anyconfig-bson-backend-0.2.0.tar.gz --markdown 20230709/a/anyconfig-bson-backend/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 17:50:08] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:50:08] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.9.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-09 17:50:08] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_tracking_mongostore-0.1.4-py3-none-any.whl.zip]
+[2023-07-09 17:50:08] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_tracking_mongostore-0.1.5-py3-none-any.whl.zip]
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: End processing [mlflow-tracking-mongostore]: success
+[2023-07-09 17:50:08] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-1.6.0.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-1.6.1.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: End processing [sphinxnotes-lilypond]: success
+[2023-07-09 17:50:08] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-07-09 17:50:08] INFO root fetch - processPackages [anyconfig-bson-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-bson-backend-0.1.2.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - processPackages [anyconfig-bson-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-bson-backend-0.2.0.tar.gz]
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: End processing [anyconfig-bson-backend]: success
+[2023-07-09 17:50:08] INFO root fetch - main [MainThread]: Store serial: [18821558]

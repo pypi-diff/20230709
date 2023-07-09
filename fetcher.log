@@ -7797,3 +7797,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:35:20] INFO root fetch - processPackages [qgitc]: Remove: archive file [/home/abi/fetcher/tmp/qgitc-3.8.1-py3-none-any.whl.zip]
 [2023-07-09 12:35:20] INFO root fetch - main [MainThread]: End processing [qgitc]: success
 [2023-07-09 12:35:20] INFO root fetch - main [MainThread]: Store serial: [18819593]
+[2023-07-09 12:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819593]
+[2023-07-09 12:40:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 12:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkatlas
+[2023-07-09 12:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DirectAdminAPI-SGS-shohani
+[2023-07-09 12:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi
+[2023-07-09 12:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threads-net
+[2023-07-09 12:40:29] INFO root fetch - processPackages [hyfi]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-09 12:40:29] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 12:40:29] INFO root fetch - processPackages [checkatlas]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-09 12:40:29] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 12:40:30] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/e4/2e/7cdbbfdcf29ad4488d0ea6a67d44428e8b25079f311e52c6d0309f614e8a/checkatlas-0.2.8.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/7f/40/4773b6b550b6703196333036306effa1917d4bb6d1894f0c0f80912d34b2/hyfi-1.1.0.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Downloading https://files.pythonhosted.org/packages/46/8e/1191888b2be3e537c80c1a8897f3714995b74169986ea5ae571661d4c0b4/directadminapi_sgs_shohani-0.0.4.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/f7/87/e9c9bb0448f6d98c666cb42c5491136038203ad50e695025afb0f3a12ae4/checkatlas-0.2.9.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-09 12:40:30] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.8.tar.gz tmp/checkatlas-0.2.9.tar.gz --markdown 20230709/c/checkatlas/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 12:40:30] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Downloading https://files.pythonhosted.org/packages/9c/6a/2d6dabb376acd8cca4a443962569c7772358d1537046c6c6e2cd64ff301a/directadminapi_sgs_shohani-0.0.5.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-09 12:40:30] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230709/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 12:40:30] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/bf/5c/9918ab175ae8db799ac6814e2eea49da9c4c56d646874447c18aab0f8262/hyfi-1.2.0.tar.gz
+[2023-07-09 12:40:30] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: executing diffoscope
+[2023-07-09 12:40:30] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directadminapi_sgs_shohani-0.0.4.tar.gz tmp/directadminapi_sgs_shohani-0.0.5.tar.gz --markdown 20230709/D/DirectAdminAPI-SGS-shohani/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 12:40:30] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-09 12:40:30] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.1.0.tar.gz tmp/hyfi-1.2.0.tar.gz --markdown 20230709/h/hyfi/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 12:40:31] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.8.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.9.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-09 12:40:31] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-09 12:40:31] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Remove: archive file [/home/abi/fetcher/tmp/directadminapi_sgs_shohani-0.0.4.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - processPackages [DirectAdminAPI-SGS-shohani]: Remove: archive file [/home/abi/fetcher/tmp/directadminapi_sgs_shohani-0.0.5.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - main [MainThread]: End processing [DirectAdminAPI-SGS-shohani]: success
+[2023-07-09 12:40:31] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.1.0.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.0.tar.gz]
+[2023-07-09 12:40:31] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-09 12:40:31] INFO root fetch - main [MainThread]: Store serial: [18819606]

@@ -6202,3 +6202,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:54:07] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-09 09:54:07] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-09 09:54:07] INFO root fetch - main [MainThread]: Store serial: [18818817]
+[2023-07-09 09:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818817]
+[2023-07-09 09:59:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-09 09:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoMLS
+[2023-07-09 09:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2023-07-09 09:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu121
+[2023-07-09 09:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncm-clp-dl
+[2023-07-09 09:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dronecan-gui-tool
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coverage-checker-zcool
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoMLS
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crypto-screening
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prismstudio-dev
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ncm-clp-dl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [crypto-screening]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [autoMLS]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [autoMLS]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 09:59:17] WARNING root fetch - processPackages [coverage-checker-zcool]: Skipping, unable to determine old version
+[2023-07-09 09:59:17] INFO root fetch - processPackages [coverage-checker-zcool]: Start processing: nvfuser-cu117
+[2023-07-09 09:59:17] INFO root fetch - main [MainThread]: End processing [coverage-checker-zcool] error
+[2023-07-09 09:59:17] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ncm-clp-dl]: Downloading https://files.pythonhosted.org/packages/63/ad/25eadba65b1d56c1e1e7fae8d103a0b03c14e5255e8dd116dfe677af690d/ncm-clp-dl-0.0.2.tar.gz
+[2023-07-09 09:59:17] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [prismstudio-dev]: New version: [1.1.6] Old Version: [1.1.3rc0]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [dronecan-gui-tool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/4d/4b/9d0627aab16b85ffabacaf67d108c67e22ec9ae867b7dada4db835f69f28/crypto-screening-2.1.0.tar.gz
+[2023-07-09 09:59:17] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/59/f8/00ad2ac40627b198473b9729ec2af207ca455567d76a4bfd282bd9567094/autoMLS-1.0.5-py3-none-any.whl
+[2023-07-09 09:59:17] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/59/f8/00ad2ac40627b198473b9729ec2af207ca455567d76a4bfd282bd9567094/autoMLS-1.0.5-py3-none-any.whl
+[2023-07-09 09:59:17] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-09 09:59:17] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:59:17] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:59:17] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/ab/a3/4fa958134773c8f7541ef09f8f09a7932109718d9bcda9b0ffd0f1a6771e/prismstudio-dev-1.1.3rc0.tar.gz
+[2023-07-09 09:59:17] INFO root fetch - processPackages [ncm-clp-dl]: Downloading https://files.pythonhosted.org/packages/49/cc/be258c05209af95081d4d54cb0624b361e04825ea4140d2106b468875c65/ncm_clp_dl-0.0.3-py3-none-any.whl
+[2023-07-09 09:59:17] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/39/bd/be845733ee143d721d902392777220c11c4d776f137eaa6bbe9f99f51d1d/dronecan_gui_tool-1.2.7.tar.gz
+[2023-07-09 09:59:17] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-09 09:59:17] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0a/33/c5ab2ff2dd4e7903b0d33fc25f1c2dc8cdc729905c0cbce9209a0a17b74e/crypto-screening-2.2.0.tar.gz
+[2023-07-09 09:59:18] INFO root fetch - processPackages [ncm-clp-dl]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [ncm-clp-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncm-clp-dl-0.0.2.tar.gz tmp/ncm_clp_dl-0.0.3-py3-none-any.whl.zip --markdown 20230709/n/ncm-clp-dl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:59:18] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.1.0.tar.gz tmp/crypto-screening-2.2.0.tar.gz --markdown 20230709/c/crypto-screening/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/50/cd/6a4709b8cb5d314144d223554e8d68fbd7568c166b297bbffec604cec53b/autoMLS-1.0.6-py3-none-any.whl
+[2023-07-09 09:59:18] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/50/cd/6a4709b8cb5d314144d223554e8d68fbd7568c166b297bbffec604cec53b/autoMLS-1.0.6-py3-none-any.whl
+[2023-07-09 09:59:18] INFO root fetch - processPackages [autoMLS]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [autoMLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLS-1.0.5-py3-none-any.whl.zip tmp/autoMLS-1.0.6-py3-none-any.whl.zip --markdown 20230709/a/autoMLS/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [autoMLS]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [autoMLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLS-1.0.5-py3-none-any.whl.zip tmp/autoMLS-1.0.6-py3-none-any.whl.zip --markdown 20230709/a/autoMLS/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/76/95/575838ff4802232d228ab222765c6d97e957610b9b451616d619d2b461d3/dronecan_gui_tool-1.2.8.tar.gz
+[2023-07-09 09:59:18] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-09 09:59:18] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/18/bb/a8e0e97c78984d036fedb83ee2a3d723a4bb4d8fa0b4736f79dac438a33c/prismstudio-dev-1.1.6.tar.gz
+[2023-07-09 09:59:18] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:59:18] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:59:18] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230709/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [prismstudio-dev]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [prismstudio-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-dev-1.1.3rc0.tar.gz tmp/prismstudio-dev-1.1.6.tar.gz --markdown 20230709/p/prismstudio-dev/1.1.3rc0-1.1.6/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [dronecan-gui-tool]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [dronecan-gui-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan_gui_tool-1.2.7.tar.gz tmp/dronecan_gui_tool-1.2.8.tar.gz --markdown 20230709/d/dronecan-gui-tool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 09:59:18] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-09 09:59:18] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-09 09:59:18] INFO root fetch - processPackages [ncm-clp-dl]: Remove: archive file [/home/abi/fetcher/tmp/ncm-clp-dl-0.0.2.tar.gz]
+[2023-07-09 09:59:18] INFO root fetch - processPackages [ncm-clp-dl]: Remove: archive file [/home/abi/fetcher/tmp/ncm_clp_dl-0.0.3-py3-none-any.whl.zip]
+[2023-07-09 09:59:18] INFO root fetch - processPackages [ncm-clp-dl]: Start processing: pyfirebird
+[2023-07-09 09:59:18] INFO root fetch - main [MainThread]: End processing [ncm-clp-dl]: success
+[2023-07-09 09:59:19] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-09 09:59:19] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-09 09:59:19] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-07-09 09:59:19] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/c9/2e/ab2d736d84b97c51fdbb83be626bc2b2d5ee44e2615abb00f586378132bd/pyfirebird-0.0.65.tar.gz
+[2023-07-09 09:59:19] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.1.0.tar.gz]
+[2023-07-09 09:59:19] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.2.0.tar.gz]
+[2023-07-09 09:59:19] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-09 09:59:19] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-09 09:59:19] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-09 09:59:19] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/c3/f8/b2890829b6f87df76be63aa150f2f4dcea573f76638d235f798f570ef800/pyfirebird-0.0.66.tar.gz
+[2023-07-09 09:59:19] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 09:59:19] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.65.tar.gz tmp/pyfirebird-0.0.66.tar.gz --markdown 20230709/p/pyfirebird/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-07-09 09:59:19] INFO root fetch - processPackages [autoMLS]: Remove: archive file [/home/abi/fetcher/tmp/autoMLS-1.0.5-py3-none-any.whl.zip]
+[2023-07-09 09:59:19] INFO root fetch - processPackages [autoMLS]: Remove: archive file [/home/abi/fetcher/tmp/autoMLS-1.0.6-py3-none-any.whl.zip]
+[2023-07-09 09:59:19] INFO root fetch - main [MainThread]: End processing [autoMLS]: success
+[2023-07-09 09:59:20] INFO root fetch - main [MainThread]: End processing [autoMLS]: success
+[2023-07-09 09:59:20] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.3rc0.tar.gz]
+[2023-07-09 09:59:20] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.6.tar.gz]
+[2023-07-09 09:59:20] INFO root fetch - main [MainThread]: End processing [prismstudio-dev]: success
+[2023-07-09 09:59:20] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.7.tar.gz]
+[2023-07-09 09:59:20] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.8.tar.gz]
+[2023-07-09 09:59:20] INFO root fetch - main [MainThread]: End processing [dronecan-gui-tool]: success
+[2023-07-09 09:59:20] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-09 09:59:20] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-09 09:59:20] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-09 09:59:20] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 09:59:20] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 09:59:20] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-09 09:59:20] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 09:59:20] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 09:59:21] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-09 09:59:21] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.65.tar.gz]
+[2023-07-09 09:59:21] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.66.tar.gz]
+[2023-07-09 09:59:21] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 09:59:21] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 09:59:21] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 09:59:21] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-09 09:59:21] INFO root fetch - main [MainThread]: Store serial: [18818853]

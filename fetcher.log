@@ -6735,3 +6735,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:41:00] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-07-09 10:41:00] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-07-09 10:41:00] INFO root fetch - main [MainThread]: Store serial: [18819107]
+[2023-07-09 10:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819107]
+[2023-07-09 10:46:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: i8-terminal
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangoloco
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dittto
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: movingpandas
+[2023-07-09 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irene-pro
+[2023-07-09 10:46:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:46:09] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-09 10:46:09] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230708] Old Version: [0.0.1.dev20230707]
+[2023-07-09 10:46:09] WARNING root fetch - processPackages [djangoloco]: Skipping, unable to determine old version
+[2023-07-09 10:46:09] INFO root fetch - main [MainThread]: End processing [djangoloco] error
+[2023-07-09 10:46:09] INFO root fetch - processPackages [irene-pro]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-09 10:46:09] WARNING root fetch - processPackages [dittto]: Skipping, unable to determine old version
+[2023-07-09 10:46:09] INFO root fetch - processPackages [movingpandas]: New version: [0.9rc3] Old Version: [0.9rc2]
+[2023-07-09 10:46:09] INFO root fetch - main [MainThread]: End processing [dittto] error
+[2023-07-09 10:46:09] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.97] Old Version: [0.2.95]
+[2023-07-09 10:46:09] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-09 10:46:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:46:09] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/00/6c/f86a80338a7ed0d2a0ffdb41e44fcfbb25835aebe486ea1638b77ecb8d56/tff_nightly-0.0.1.dev20230707-py2.py3-none-any.whl
+[2023-07-09 10:46:09] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/d5/b3/1f85f48fece5cc336591f3570b8a370d9c81719948685dfadd7e73b72dfa/irene_pro-0.0.90.tar.gz
+[2023-07-09 10:46:09] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/2e/40/61dfd662d42c32ed3490b2d5865920bfe57b60a896db12bb9e9aa1396e45/i8-terminal-0.2.95.tar.gz
+[2023-07-09 10:46:09] INFO root fetch - processPackages [movingpandas]: Downloading https://files.pythonhosted.org/packages/1d/d2/3504611926d9edf4bc48973591f0ca895e3966f904dbd158d7d2fb8b6959/movingpandas-0.9rc2.tar.gz
+[2023-07-09 10:46:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:46:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:46:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:46:10] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-09 10:46:10] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/38/22/c9a3e1162d5dfd39e0095f69a0dd5b5d8dd846b672ef0ffcce20e6894fb4/irene_pro-0.0.91.tar.gz
+[2023-07-09 10:46:10] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/da/1d/5b42be564d77fafda67002a2fea8e62577e694bffdf688d0e7fdc3ee55f7/tff_nightly-0.0.1.dev20230708-py2.py3-none-any.whl
+[2023-07-09 10:46:10] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/28/97/6a15c1b235ca54723a4e28e56b25518589f8077afa34075e3b41c95f664a/i8-terminal-0.2.97.tar.gz
+[2023-07-09 10:46:10] INFO root fetch - processPackages [movingpandas]: Downloading https://files.pythonhosted.org/packages/35/0b/a148f8b99efb7a95ed99aa84405bed86a3e86c30d8c889c1aa65dfb629ad/movingpandas-0.9rc3.tar.gz
+[2023-07-09 10:46:10] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-09 10:46:10] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.90.tar.gz tmp/irene_pro-0.0.91.tar.gz --markdown 20230709/i/irene-pro/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-09 10:46:10] INFO root fetch - processPackages [movingpandas]: executing diffoscope
+[2023-07-09 10:46:10] INFO root fetch - processPackages [movingpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movingpandas-0.9rc2.tar.gz tmp/movingpandas-0.9rc3.tar.gz --markdown 20230709/m/movingpandas/0.9rc2-0.9rc3/diff.md --exclude *.pyd
+[2023-07-09 10:46:10] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-09 10:46:10] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.95.tar.gz tmp/i8-terminal-0.2.97.tar.gz --markdown 20230709/i/i8-terminal/0.2.95-0.2.97/diff.md --exclude *.pyd
+[2023-07-09 10:46:10] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-09 10:46:10] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230707-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230708-py2.py3-none-any.whl.zip --markdown 20230709/t/tff-nightly/0.0.1.dev20230707-0.0.1.dev20230708/diff.md --exclude *.pyd
+[2023-07-09 10:46:10] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-09 10:46:10] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230709/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-09 10:46:10] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-09 10:46:10] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-09 10:46:10] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:46:11] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.90.tar.gz]
+[2023-07-09 10:46:11] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.91.tar.gz]
+[2023-07-09 10:46:11] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-09 10:46:11] INFO root fetch - processPackages [movingpandas]: Remove: archive file [/home/abi/fetcher/tmp/movingpandas-0.9rc2.tar.gz]
+[2023-07-09 10:46:11] INFO root fetch - processPackages [movingpandas]: Remove: archive file [/home/abi/fetcher/tmp/movingpandas-0.9rc3.tar.gz]
+[2023-07-09 10:46:11] INFO root fetch - main [MainThread]: End processing [movingpandas]: success
+[2023-07-09 10:46:11] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.95.tar.gz]
+[2023-07-09 10:46:11] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.97.tar.gz]
+[2023-07-09 10:46:11] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-09 10:46:12] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230707-py2.py3-none-any.whl.zip]
+[2023-07-09 10:46:12] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230708-py2.py3-none-any.whl.zip]
+[2023-07-09 10:46:12] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-09 10:46:15] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-09 10:46:15] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-09 10:46:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-09 10:46:15] INFO root fetch - main [MainThread]: Store serial: [18819136]

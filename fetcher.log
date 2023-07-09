@@ -12705,3 +12705,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:31:44] INFO root fetch - processPackages [sdss-lvmtan]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmtan-0.2.4.tar.gz]
 [2023-07-09 18:31:44] INFO root fetch - main [MainThread]: End processing [sdss-lvmtan]: success
 [2023-07-09 18:31:44] INFO root fetch - main [MainThread]: Store serial: [18821813]
+[2023-07-09 18:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821813]
+[2023-07-09 18:36:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calculator-MU
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StableRLS
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qvsed
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Janex
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Janex
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdss-cerebro
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teapy
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libsvm-official
+[2023-07-09 18:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omnivorex
+[2023-07-09 18:36:53] INFO root fetch - processPackages [calculator-MU]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [sdss-cerebro]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [qvsed]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [StableRLS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [Janex]: New version: [0.0.5] Old Version: [0.0.4rc0]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [Janex]: New version: [0.0.5] Old Version: [0.0.4rc0]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [teapy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [libsvm-official]: New version: [3.32.0] Old Version: [3.31.0]
+[2023-07-09 18:36:53] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/91/d7/0cbffb2f3ecbe7342ca6b0b27f1a664e9fa76af816aa91f1f429a3646238/qvsed-1.4.0.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [StableRLS]: Downloading https://files.pythonhosted.org/packages/a7/46/d04eb5421395e5d1ec5e00e5fb319d623d8514d2ef8515b45093c43b1735/StableRLS-1.0.1.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/ca/01/aace0e6c7d926e63992f298893912805c35f611bc97e74ba566823cda29d/calculator_MU-1.0.4-py3.11.egg
+[2023-07-09 18:36:53] INFO root fetch - processPackages [sdss-cerebro]: Downloading https://files.pythonhosted.org/packages/06/90/6bf5d8c73fd971f139ffea20f3b1f04048e311d8680f0276a70fef36beff/sdss_cerebro-1.0.3.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/7f/00/5fc6daf214b04760bc2628a379512575d71125b5b3300b5b2e176ea0870e/Janex-0.0.4rc0.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/7f/00/5fc6daf214b04760bc2628a379512575d71125b5b3300b5b2e176ea0870e/Janex-0.0.4rc0.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/6c/80/1b6c11524e3bc2af13f5d6587562b2b1f5fb95509e9017145e346f0df580/teapy-0.1.7.tar.gz
+[2023-07-09 18:36:53] INFO root fetch - processPackages [libsvm-official]: Downloading https://files.pythonhosted.org/packages/27/31/d8a988cf070ad5d31988e0139ac34348c9de2989f43fab72397aed2ad2ad/libsvm-official-3.31.0.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/5f/e5/2fc6e1a3341c095cdd76c2d481b19945407483952b2ca8f558d909c5ed31/qvsed-1.4.1.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/ee/ae/4252f342a0cc634862c8ff94379a1e4bda87a99288e149d1421ca47d98c8/calculator_MU-1.0.5-py3.11.egg
+[2023-07-09 18:36:54] INFO root fetch - processPackages [StableRLS]: Downloading https://files.pythonhosted.org/packages/fc/61/8009ea01930f2b5e8dfe3e05b68d1cacf034720c637abbe12347cb7edc9f/StableRLS-1.0.2.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.4.0.tar.gz tmp/qvsed-1.4.1.tar.gz --markdown 20230709/q/qvsed/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [StableRLS]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [StableRLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StableRLS-1.0.1.tar.gz tmp/StableRLS-1.0.2.tar.gz --markdown 20230709/S/StableRLS/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [calculator-MU]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [calculator-MU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_MU-1.0.4-py3.11.egg tmp/calculator_MU-1.0.5-py3.11.egg --markdown 20230709/c/calculator-MU/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/d8/5f/13cd4c6d98c5b974aea884a21dda49621cf0a69a824ba546b1bd4009622b/Janex-0.0.5.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [sdss-cerebro]: Downloading https://files.pythonhosted.org/packages/d9/9d/4e61b88344f97a26c8044643a0caf56f2f045dbf5d1ef18f250ac7bced7a/sdss_cerebro-1.1.0.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/d8/5f/13cd4c6d98c5b974aea884a21dda49621cf0a69a824ba546b1bd4009622b/Janex-0.0.5.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/fc/ee/2aec4b9ec2b18c2a9fb650ce407b0162892c79789562bad5ae88017c8ca5/teapy-0.1.8-cp38-abi3-macosx_10_7_x86_64.whl
+[2023-07-09 18:36:54] INFO root fetch - processPackages [libsvm-official]: Downloading https://files.pythonhosted.org/packages/12/66/0c95ad5a954c0ce8b24e6ae117f7d49378e16e320675031bb9f727cdcdac/libsvm-official-3.32.0.tar.gz
+[2023-07-09 18:36:54] INFO root fetch - processPackages [sdss-cerebro]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [sdss-cerebro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_cerebro-1.0.3.tar.gz tmp/sdss_cerebro-1.1.0.tar.gz --markdown 20230709/s/sdss-cerebro/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [libsvm-official]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [libsvm-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsvm-official-3.31.0.tar.gz tmp/libsvm-official-3.32.0.tar.gz --markdown 20230709/l/libsvm-official/3.31.0-3.32.0/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.4rc0.tar.gz tmp/Janex-0.0.5.tar.gz --markdown 20230709/J/Janex/0.0.4rc0-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 18:36:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-09 18:36:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.4rc0.tar.gz tmp/Janex-0.0.5.tar.gz --markdown 20230709/J/Janex/0.0.4rc0-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 18:36:55] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 18:36:55] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.4.0.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.4.1.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-09 18:36:55] INFO root fetch - processPackages [StableRLS]: Remove: archive file [/home/abi/fetcher/tmp/StableRLS-1.0.1.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - processPackages [StableRLS]: Remove: archive file [/home/abi/fetcher/tmp/StableRLS-1.0.2.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - main [MainThread]: End processing [StableRLS]: success
+[2023-07-09 18:36:55] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.4-py3.11.egg]
+[2023-07-09 18:36:55] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.5-py3.11.egg]
+[2023-07-09 18:36:55] INFO root fetch - main [MainThread]: End processing [calculator-MU]: success
+[2023-07-09 18:36:55] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2023-07-09 18:36:55] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.1.7.tar.gz tmp/teapy-0.1.8-cp38-abi3-macosx_10_7_x86_64.whl.zip --markdown 20230709/t/teapy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 18:36:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.4rc0.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.5.tar.gz]
+[2023-07-09 18:36:55] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-09 18:36:56] INFO root fetch - processPackages [libsvm-official]: Remove: archive file [/home/abi/fetcher/tmp/libsvm-official-3.31.0.tar.gz]
+[2023-07-09 18:36:56] INFO root fetch - processPackages [libsvm-official]: Remove: archive file [/home/abi/fetcher/tmp/libsvm-official-3.32.0.tar.gz]
+[2023-07-09 18:36:56] INFO root fetch - main [MainThread]: End processing [libsvm-official]: success
+[2023-07-09 18:36:56] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-09 18:36:56] INFO root fetch - processPackages [sdss-cerebro]: Remove: archive file [/home/abi/fetcher/tmp/sdss_cerebro-1.0.3.tar.gz]
+[2023-07-09 18:36:56] INFO root fetch - processPackages [sdss-cerebro]: Remove: archive file [/home/abi/fetcher/tmp/sdss_cerebro-1.1.0.tar.gz]
+[2023-07-09 18:36:56] INFO root fetch - main [MainThread]: End processing [sdss-cerebro]: success
+[2023-07-09 18:36:57] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.7.tar.gz]
+[2023-07-09 18:36:57] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.8-cp38-abi3-macosx_10_7_x86_64.whl.zip]
+[2023-07-09 18:36:57] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2023-07-09 18:36:57] INFO root fetch - main [MainThread]: Store serial: [18821845]

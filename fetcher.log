@@ -9022,3 +9022,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:47:09] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.23.0.tar.gz]
 [2023-07-09 14:47:09] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
 [2023-07-09 14:47:09] INFO root fetch - main [MainThread]: Store serial: [18820178]
+[2023-07-09 14:52:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820178]
+[2023-07-09 14:52:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zein
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-backupper
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto_dataclass
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mailpit-api-client
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: installreq
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fritzconnection
+[2023-07-09 14:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EasyDeL
+[2023-07-09 14:52:18] INFO root fetch - processPackages [mailpit-api-client]: New version: [0.12.1] Old Version: [0.12.0]
+[2023-07-09 14:52:18] INFO root fetch - processPackages [git-backupper]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-09 14:52:18] INFO root fetch - processPackages [zein]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 14:52:18] INFO root fetch - processPackages [fritzconnection]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-09 14:52:18] INFO root fetch - processPackages [auto_dataclass]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 14:52:18] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 14:52:18] WARNING root fetch - processPackages [installreq]: Skipping, unable to determine old version
+[2023-07-09 14:52:18] INFO root fetch - main [MainThread]: End processing [installreq] error
+[2023-07-09 14:52:18] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-09 14:52:18] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/4c/c4/bd1654be959ac5b7fb3fe401fccb487924539b54192c604a8b9ea2dbea7f/mailpit-api-client-0.12.0.tar.gz
+[2023-07-09 14:52:18] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/eb/e5/28a1963123636f96f74978d0a9e257344d2b6256b85c6322b95125125fc1/zein-0.0.5.tar.gz
+[2023-07-09 14:52:18] INFO root fetch - processPackages [fritzconnection]: Downloading https://files.pythonhosted.org/packages/41/ef/39191919a0ec95082d77ab5ec2df87cff2a98488814042e69ec65e64bbc4/fritzconnection-1.9.0.tar.gz
+[2023-07-09 14:52:18] INFO root fetch - processPackages [auto_dataclass]: Downloading https://files.pythonhosted.org/packages/cc/53/223a9bebf60a401386102478e680657f83c1511b6c753cc8355d5f270587/auto_dataclass-0.1.4.tar.gz
+[2023-07-09 14:52:18] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-09 14:52:18] INFO root fetch - processPackages [git-backupper]: Downloading https://files.pythonhosted.org/packages/57/ca/f0018d4b25121237793b88f46f15946417dae46d246aea1f9a041189504c/git-backupper-0.3.4.tar.gz
+[2023-07-09 14:52:18] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/64/28/631b895c6dd5657f8f28cee11fe114c815e7062bdf059036a3de4ba97e15/mailpit-api-client-0.12.1.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [fritzconnection]: Downloading https://files.pythonhosted.org/packages/b2/41/5e4bd3e1c2e4dcd79ed929ccf9d9cd6ac7d83bc9376e48078282ecdf5154/fritzconnection-1.9.1.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/b9/55/effe4677f85e2739ab845e551b53319d4015d87c5cae4e434b68eb563ba6/zein-0.0.6.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [auto_dataclass]: Downloading https://files.pythonhosted.org/packages/b8/61/9d2aedd799ad2c2bfdafa5232b704d33f477008a33e100dfab7bc0d5dbcc/auto_dataclass-0.1.5.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [mailpit-api-client]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [mailpit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailpit-api-client-0.12.0.tar.gz tmp/mailpit-api-client-0.12.1.tar.gz --markdown 20230709/m/mailpit-api-client/0.12.0-0.12.1/diff.md --exclude *.pyd
+[2023-07-09 14:52:19] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.5.tar.gz tmp/zein-0.0.6.tar.gz --markdown 20230709/z/zein/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 14:52:19] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [git-backupper]: Downloading https://files.pythonhosted.org/packages/3d/ad/77e0e4b1f83cfe042b7baaef37b82bf0f9f0079b162e7702c0860dcc8fd3/git-backupper-0.3.5.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [fritzconnection]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [fritzconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fritzconnection-1.9.0.tar.gz tmp/fritzconnection-1.9.1.tar.gz --markdown 20230709/f/fritzconnection/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-09 14:52:19] INFO root fetch - processPackages [auto_dataclass]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [auto_dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_dataclass-0.1.4.tar.gz tmp/auto_dataclass-0.1.5.tar.gz --markdown 20230709/a/auto_dataclass/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 14:52:19] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-07-09 14:52:19] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230709/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-09 14:52:19] INFO root fetch - processPackages [git-backupper]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [git-backupper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-backupper-0.3.4.tar.gz tmp/git-backupper-0.3.5.tar.gz --markdown 20230709/g/git-backupper/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 14:52:19] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-09 14:52:19] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230709/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 14:52:20] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.12.0.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.12.1.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - main [MainThread]: End processing [mailpit-api-client]: success
+[2023-07-09 14:52:20] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.5.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.6.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 14:52:20] INFO root fetch - processPackages [fritzconnection]: Remove: archive file [/home/abi/fetcher/tmp/fritzconnection-1.9.0.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - processPackages [fritzconnection]: Remove: archive file [/home/abi/fetcher/tmp/fritzconnection-1.9.1.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - main [MainThread]: End processing [fritzconnection]: success
+[2023-07-09 14:52:20] INFO root fetch - processPackages [auto_dataclass]: Remove: archive file [/home/abi/fetcher/tmp/auto_dataclass-0.1.4.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - processPackages [auto_dataclass]: Remove: archive file [/home/abi/fetcher/tmp/auto_dataclass-0.1.5.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - main [MainThread]: End processing [auto_dataclass]: success
+[2023-07-09 14:52:20] INFO root fetch - processPackages [git-backupper]: Remove: archive file [/home/abi/fetcher/tmp/git-backupper-0.3.4.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - processPackages [git-backupper]: Remove: archive file [/home/abi/fetcher/tmp/git-backupper-0.3.5.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - main [MainThread]: End processing [git-backupper]: success
+[2023-07-09 14:52:20] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-07-09 14:52:20] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-09 14:52:21] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-09 14:52:21] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-09 14:52:21] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-09 14:52:21] INFO root fetch - main [MainThread]: Store serial: [18820204]

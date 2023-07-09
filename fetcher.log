@@ -2799,3 +2799,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:33:08] INFO root fetch - processPackages [geospatial]: Remove: archive file [/home/abi/fetcher/tmp/geospatial-0.9.0.tar.gz]
 [2023-07-09 04:33:08] INFO root fetch - main [MainThread]: End processing [geospatial]: success
 [2023-07-09 04:33:08] INFO root fetch - main [MainThread]: Store serial: [18817421]
+[2023-07-09 04:38:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817421]
+[2023-07-09 04:38:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 04:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweetrpg-library-objects
+[2023-07-09 04:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monai-weekly
+[2023-07-09 04:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NeuroNode
+[2023-07-09 04:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetrpg-web-core
+[2023-07-09 04:38:17] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.66]
+[2023-07-09 04:38:17] INFO root fetch - processPackages [monai-weekly]: New version: [1.3.dev2328] Old Version: [1.3.dev2327]
+[2023-07-09 04:38:17] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-09 04:38:17] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 04:38:17] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-09 04:38:17] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-09 04:38:17] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5e/5b/1b57046539d3274bea9769fd7aeaebc23908a59f81a3e08e2542b62fd58d/NeuroNode-3.66.tar.gz
+[2023-07-09 04:38:17] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/37/f6/77d7b36549a6c1ce79bc72c2e44f254c5643b6a818311bb9acc67f80d3b4/monai-weekly-1.3.dev2327.tar.gz
+[2023-07-09 04:38:18] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-09 04:38:18] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-09 04:38:18] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-09 04:38:18] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-09 04:38:18] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-09 04:38:18] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.66.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230709/N/NeuroNode/3.66-3.9/diff.md --exclude *.pyd
+[2023-07-09 04:38:18] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 04:38:18] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-09 04:38:18] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230709/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-09 04:38:18] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/df/1b/4d2b72c6b2029fa028c8bdfc000921a4e73fedd673b3244145d69bdcdbbf/monai-weekly-1.3.dev2328.tar.gz
+[2023-07-09 04:38:18] INFO root fetch - processPackages [monai-weekly]: executing diffoscope
+[2023-07-09 04:38:18] INFO root fetch - processPackages [monai-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-weekly-1.3.dev2327.tar.gz tmp/monai-weekly-1.3.dev2328.tar.gz --markdown 20230709/m/monai-weekly/1.3.dev2327-1.3.dev2328/diff.md --exclude *.pyd
+[2023-07-09 04:38:18] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.66.tar.gz]
+[2023-07-09 04:38:18] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-09 04:38:18] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-09 04:38:19] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-09 04:38:19] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-09 04:38:19] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-09 04:38:19] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-09 04:38:19] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-09 04:38:19] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-09 04:38:25] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2327.tar.gz]
+[2023-07-09 04:38:25] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2328.tar.gz]
+[2023-07-09 04:38:25] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
+[2023-07-09 04:38:25] INFO root fetch - main [MainThread]: Store serial: [18817433]

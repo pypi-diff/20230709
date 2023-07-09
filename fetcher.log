@@ -8650,3 +8650,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:54:20] INFO root fetch - processPackages [Brian2Cuda]: Remove: archive file [/home/abi/fetcher/tmp/Brian2Cuda-1.0a2.tar.gz]
 [2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [Brian2Cuda]: success
 [2023-07-09 13:54:20] INFO root fetch - main [MainThread]: Store serial: [18819941]
+[2023-07-09 13:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819941]
+[2023-07-09 13:59:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 13:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoverkiz
+[2023-07-09 13:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-func
+[2023-07-09 13:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: process-twarc
+[2023-07-09 13:59:29] INFO root fetch - processPackages [process-twarc]: New version: [0.12.3] Old Version: [0.12.2]
+[2023-07-09 13:59:29] INFO root fetch - processPackages [image-func]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 13:59:29] INFO root fetch - processPackages [pyoverkiz]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-09 13:59:29] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/d4/92/392e917b3d7e6f6a599ef19216983542215f5021e4fff7c8c62ae4a46d84/process-twarc-0.12.2.tar.gz
+[2023-07-09 13:59:29] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-09 13:59:30] INFO root fetch - processPackages [pyoverkiz]: Downloading https://files.pythonhosted.org/packages/53/27/7abb80271980dbddf8f3faa52ab60747ecea4c715aabdcd98a5bceeb622e/pyoverkiz-1.9.0.tar.gz
+[2023-07-09 13:59:30] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/53/19/83648c27e6abc5b7c6ba68f8e2a9472a2c8c3989947d7808334bf8348af7/image_func-1.0.9.tar.gz
+[2023-07-09 13:59:30] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/51/4c/ff239b41fbfd7a809fe9861ee0aa42a2bcf64ed8ec03e1f978cdd5c56e2f/process-twarc-0.12.3.tar.gz
+[2023-07-09 13:59:30] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-09 13:59:30] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.8.tar.gz tmp/image_func-1.0.9.tar.gz --markdown 20230709/i/image-func/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:59:30] INFO root fetch - processPackages [pyoverkiz]: Downloading https://files.pythonhosted.org/packages/ff/55/d66079a35c186fd96c662e376c441867c9255468c6ae8501ac1a05a166fc/pyoverkiz-1.9.1.tar.gz
+[2023-07-09 13:59:30] INFO root fetch - processPackages [process-twarc]: executing diffoscope
+[2023-07-09 13:59:30] INFO root fetch - processPackages [process-twarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process-twarc-0.12.2.tar.gz tmp/process-twarc-0.12.3.tar.gz --markdown 20230709/p/process-twarc/0.12.2-0.12.3/diff.md --exclude *.pyd
+[2023-07-09 13:59:30] INFO root fetch - processPackages [pyoverkiz]: executing diffoscope
+[2023-07-09 13:59:30] INFO root fetch - processPackages [pyoverkiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverkiz-1.9.0.tar.gz tmp/pyoverkiz-1.9.1.tar.gz --markdown 20230709/p/pyoverkiz/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-09 13:59:31] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-09 13:59:31] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.9.tar.gz]
+[2023-07-09 13:59:31] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-09 13:59:31] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.2.tar.gz]
+[2023-07-09 13:59:31] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.3.tar.gz]
+[2023-07-09 13:59:31] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
+[2023-07-09 13:59:31] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.0.tar.gz]
+[2023-07-09 13:59:31] INFO root fetch - processPackages [pyoverkiz]: Remove: archive file [/home/abi/fetcher/tmp/pyoverkiz-1.9.1.tar.gz]
+[2023-07-09 13:59:31] INFO root fetch - main [MainThread]: End processing [pyoverkiz]: success
+[2023-07-09 13:59:31] INFO root fetch - main [MainThread]: Store serial: [18819950]

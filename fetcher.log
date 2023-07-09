@@ -7371,3 +7371,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:43:21] INFO root fetch - processPackages [kasserver]: Remove: archive file [/home/abi/fetcher/tmp/kasserver-0.4.0.tar.gz]
 [2023-07-09 11:43:21] INFO root fetch - main [MainThread]: End processing [kasserver]: success
 [2023-07-09 11:43:21] INFO root fetch - main [MainThread]: Store serial: [18819379]
+[2023-07-09 11:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819379]
+[2023-07-09 11:48:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-09 11:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nibiru-proto
+[2023-07-09 11:48:30] INFO root fetch - processPackages [nibiru-proto]: New version: [0.21.7b1] Old Version: [0.21.3b7]
+[2023-07-09 11:48:30] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/a1/1d/f094d228261dedb2bfb04af9e9957b0c756ab96a5a7e3138b9cfef6abd54/nibiru_proto-0.21.3b7.tar.gz
+[2023-07-09 11:48:31] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/f6/ab/7f27d27f89dec1254835844eaf8ac0a0769df1a6d60117f186ddfc1e3d57/nibiru_proto-0.21.7b1.tar.gz
+[2023-07-09 11:48:31] INFO root fetch - processPackages [nibiru-proto]: executing diffoscope
+[2023-07-09 11:48:31] INFO root fetch - processPackages [nibiru-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru_proto-0.21.3b7.tar.gz tmp/nibiru_proto-0.21.7b1.tar.gz --markdown 20230709/n/nibiru-proto/0.21.3b7-0.21.7b1/diff.md --exclude *.pyd
+[2023-07-09 11:48:33] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b7.tar.gz]
+[2023-07-09 11:48:33] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.7b1.tar.gz]
+[2023-07-09 11:48:33] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
+[2023-07-09 11:48:33] INFO root fetch - main [MainThread]: Store serial: [18819383]

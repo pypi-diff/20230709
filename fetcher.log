@@ -8517,3 +8517,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:38:47] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl.zip]
 [2023-07-09 13:38:47] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
 [2023-07-09 13:38:47] INFO root fetch - main [MainThread]: Store serial: [18819890]
+[2023-07-09 13:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819890]
+[2023-07-09 13:43:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 13:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mekab
+[2023-07-09 13:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-07-09 13:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-07-09 13:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckduckgo-translator
+[2023-07-09 13:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FoundationDesign
+[2023-07-09 13:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: league-client
+[2023-07-09 13:43:56] WARNING root fetch - processPackages [mekab]: Skipping, unable to determine old version
+[2023-07-09 13:43:56] INFO root fetch - main [MainThread]: End processing [mekab] error
+[2023-07-09 13:43:56] WARNING root fetch - processPackages [duckduckgo-translator]: Skipping, unable to determine old version
+[2023-07-09 13:43:56] INFO root fetch - main [MainThread]: End processing [duckduckgo-translator] error
+[2023-07-09 13:43:56] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-09 13:43:56] INFO root fetch - processPackages [FoundationDesign]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 13:43:56] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 13:43:56] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688901386] Old Version: [0.0.101688814727]
+[2023-07-09 13:43:57] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-09 13:43:57] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-09 13:43:57] INFO root fetch - processPackages [FoundationDesign]: Downloading https://files.pythonhosted.org/packages/69/5b/60fe2c02208da0ab5b70c2730af90d5356b97f7ca5f8c917928ba7deaca1/FoundationDesign-0.0.2-py2.py3-none-any.whl
+[2023-07-09 13:43:57] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-09 13:43:57] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-09 13:43:57] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/16/49/22367205c255a4f23f94a2c4cf3dad3a8fadc7c92a7636039ed0e95a03db/pyre-check-nightly-0.0.101688814727.tar.gz
+[2023-07-09 13:43:57] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23764979>=10485760
+[2023-07-09 13:43:57] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-09 13:43:57] INFO root fetch - processPackages [FoundationDesign]: Downloading https://files.pythonhosted.org/packages/8f/99/1a4f665038eaf7b51dba42a92d460af525cb6cbd85c2fd45c3f189f1082c/FoundationDesign-0.0.3.tar.gz
+[2023-07-09 13:43:57] INFO root fetch - processPackages [FoundationDesign]: executing diffoscope
+[2023-07-09 13:43:57] INFO root fetch - processPackages [FoundationDesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FoundationDesign-0.0.2-py2.py3-none-any.whl.zip tmp/FoundationDesign-0.0.3.tar.gz --markdown 20230709/F/FoundationDesign/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 13:43:57] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-09 13:43:58] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-09 13:43:58] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230709/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:43:58] INFO root fetch - processPackages [FoundationDesign]: Remove: archive file [/home/abi/fetcher/tmp/FoundationDesign-0.0.2-py2.py3-none-any.whl.zip]
+[2023-07-09 13:43:58] INFO root fetch - processPackages [FoundationDesign]: Remove: archive file [/home/abi/fetcher/tmp/FoundationDesign-0.0.3.tar.gz]
+[2023-07-09 13:43:58] INFO root fetch - main [MainThread]: End processing [FoundationDesign]: success
+[2023-07-09 13:43:58] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-09 13:43:58] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-09 13:43:58] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-09 13:43:58] INFO root fetch - main [MainThread]: Store serial: [18819916]

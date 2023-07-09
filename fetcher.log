@@ -7734,3 +7734,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:30:08] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-20.4.tar.gz]
 [2023-07-09 12:30:08] INFO root fetch - main [MainThread]: End processing [python-telegram-bot-raw]: success
 [2023-07-09 12:30:08] INFO root fetch - main [MainThread]: Store serial: [18819564]
+[2023-07-09 12:35:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819564]
+[2023-07-09 12:35:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MetaCalls
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telolez
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ixbrlparse
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capsula
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py115
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sonar-tools
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ukmon-meteortools
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qgitc
+[2023-07-09 12:35:18] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ixbrlparse]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-09 12:35:18] WARNING root fetch - processPackages [MetaCalls]: Skipping, unable to determine old version
+[2023-07-09 12:35:18] INFO root fetch - main [MainThread]: End processing [MetaCalls] error
+[2023-07-09 12:35:18] INFO root fetch - processPackages [py115]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 12:35:18] WARNING root fetch - processPackages [telolez]: Skipping, unable to determine old version
+[2023-07-09 12:35:18] INFO root fetch - main [MainThread]: End processing [telolez] error
+[2023-07-09 12:35:18] INFO root fetch - processPackages [sonar-tools]: New version: [2.7.1] Old Version: [2.7]
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ixbrlparse]: Downloading https://files.pythonhosted.org/packages/a3/d9/cecb1344ecbcc19ed2b7599a139056ad952aa1001dee6e355c13f38c35be/ixbrlparse-0.5.4.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/3f/80/21f2a797b90d67092ccb2ae7d83ab7b0ee77038b610492ead3a98feda77a/ukmon_meteortools-2023.7.1.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [qgitc]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-07-09 12:35:18] INFO root fetch - processPackages [py115]: Downloading https://files.pythonhosted.org/packages/7b/76/538117b84220d2b95b8be75c9a74b47da5c3e2bb68471567c4bffbce11ae/py115-0.0.1.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [sonar-tools]: Downloading https://files.pythonhosted.org/packages/7b/73/60a0025d50e6a41a06ef9a7e431cf9c66f448286de1bea017d97ef176ee8/sonar_tools-2.7-py3-none-any.whl
+[2023-07-09 12:35:18] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [qgitc]: Downloading https://files.pythonhosted.org/packages/c4/50/24e557b59aecd0e7749fa5925b5170ba903413cdb5d1b20e8a4bf13d240f/qgitc-3.8.0-py3-none-any.whl
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ixbrlparse]: Downloading https://files.pythonhosted.org/packages/6f/8d/06f66628dabac0a692170d6fb4157beb1888dc2f374ec482201896e8d62f/ixbrlparse-0.6.0.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-09 12:35:18] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230709/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 12:35:18] INFO root fetch - processPackages [py115]: Downloading https://files.pythonhosted.org/packages/08/b6/b2644db05dec924ea7be95eae56d3005fcd4077228fb819c0969975fe4ec/py115-0.0.2.tar.gz
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ixbrlparse]: executing diffoscope
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ixbrlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixbrlparse-0.5.4.tar.gz tmp/ixbrlparse-0.6.0.tar.gz --markdown 20230709/i/ixbrlparse/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 12:35:18] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/ca/1e/5146de1804976e64eab35a06b2e0185255a61a1ce33e4bf42e1ec642d665/ukmon_meteortools-2023.7.2.tar.gz
+[2023-07-09 12:35:19] INFO root fetch - processPackages [sonar-tools]: Downloading https://files.pythonhosted.org/packages/fb/6f/7dacd11a30aee414dd3ca261858a013efeea3181d389e79c35713fdab647/sonar_tools-2.7.1-py3-none-any.whl
+[2023-07-09 12:35:19] INFO root fetch - processPackages [py115]: executing diffoscope
+[2023-07-09 12:35:19] INFO root fetch - processPackages [py115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py115-0.0.1.tar.gz tmp/py115-0.0.2.tar.gz --markdown 20230709/p/py115/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 12:35:19] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-07-09 12:35:19] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.7.1.tar.gz tmp/ukmon_meteortools-2023.7.2.tar.gz --markdown 20230709/u/ukmon-meteortools/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-09 12:35:19] INFO root fetch - processPackages [qgitc]: Downloading https://files.pythonhosted.org/packages/63/5d/479a82c6c9330600f51bd84b060d93af5d92add96629bd0404cdb03a4a2d/qgitc-3.8.1-py3-none-any.whl
+[2023-07-09 12:35:19] INFO root fetch - processPackages [sonar-tools]: executing diffoscope
+[2023-07-09 12:35:19] INFO root fetch - processPackages [sonar-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_tools-2.7-py3-none-any.whl.zip tmp/sonar_tools-2.7.1-py3-none-any.whl.zip --markdown 20230709/s/sonar-tools/2.7-2.7.1/diff.md --exclude *.pyd
+[2023-07-09 12:35:19] INFO root fetch - processPackages [qgitc]: executing diffoscope
+[2023-07-09 12:35:19] INFO root fetch - processPackages [qgitc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgitc-3.8.0-py3-none-any.whl.zip tmp/qgitc-3.8.1-py3-none-any.whl.zip --markdown 20230709/q/qgitc/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-07-09 12:35:19] INFO root fetch - processPackages [ixbrlparse]: Remove: archive file [/home/abi/fetcher/tmp/ixbrlparse-0.5.4.tar.gz]
+[2023-07-09 12:35:19] INFO root fetch - processPackages [ixbrlparse]: Remove: archive file [/home/abi/fetcher/tmp/ixbrlparse-0.6.0.tar.gz]
+[2023-07-09 12:35:19] INFO root fetch - main [MainThread]: End processing [ixbrlparse]: success
+[2023-07-09 12:35:19] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-09 12:35:19] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-09 12:35:19] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-09 12:35:20] INFO root fetch - processPackages [py115]: Remove: archive file [/home/abi/fetcher/tmp/py115-0.0.1.tar.gz]
+[2023-07-09 12:35:20] INFO root fetch - processPackages [py115]: Remove: archive file [/home/abi/fetcher/tmp/py115-0.0.2.tar.gz]
+[2023-07-09 12:35:20] INFO root fetch - main [MainThread]: End processing [py115]: success
+[2023-07-09 12:35:20] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.7-py3-none-any.whl.zip]
+[2023-07-09 12:35:20] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.7.1-py3-none-any.whl.zip]
+[2023-07-09 12:35:20] INFO root fetch - main [MainThread]: End processing [sonar-tools]: success
+[2023-07-09 12:35:20] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.1.tar.gz]
+[2023-07-09 12:35:20] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.7.2.tar.gz]
+[2023-07-09 12:35:20] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-07-09 12:35:20] INFO root fetch - processPackages [qgitc]: Remove: archive file [/home/abi/fetcher/tmp/qgitc-3.8.0-py3-none-any.whl.zip]
+[2023-07-09 12:35:20] INFO root fetch - processPackages [qgitc]: Remove: archive file [/home/abi/fetcher/tmp/qgitc-3.8.1-py3-none-any.whl.zip]
+[2023-07-09 12:35:20] INFO root fetch - main [MainThread]: End processing [qgitc]: success
+[2023-07-09 12:35:20] INFO root fetch - main [MainThread]: Store serial: [18819593]

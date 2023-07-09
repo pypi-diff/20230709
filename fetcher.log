@@ -5425,3 +5425,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:48:33] INFO root fetch - processPackages [slipbox]: Remove: archive file [/home/abi/fetcher/tmp/slipbox-0.9.0.tar.gz]
 [2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [slipbox]: success
 [2023-07-09 08:48:33] INFO root fetch - main [MainThread]: Store serial: [18818442]
+[2023-07-09 08:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818442]
+[2023-07-09 08:53:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrostrat-database
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asymongo
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyconfig-ion-backend
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asymysql
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coolapi
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cooldfa
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coolmongo
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coolmysql
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cooltime
+[2023-07-09 08:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: encrypt256
+[2023-07-09 08:53:42] INFO root fetch - processPackages [cooldfa]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [asymongo]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [asymysql]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [macrostrat-database]: New version: [3.0.0.dev2] Old Version: [3.0.0.dev1]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [cooltime]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [coolapi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [coolmongo]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [anyconfig-ion-backend]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [coolmysql]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-09 08:53:42] INFO root fetch - processPackages [encrypt256]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-09 08:53:43] INFO root fetch - processPackages [macrostrat-database]: Downloading https://files.pythonhosted.org/packages/2a/1c/e1819723198dc553c5c6e34c613f71448dcf99a729e45a32976b7cb6b3af/macrostrat_database-3.0.0.dev1.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [asymongo]: Downloading https://files.pythonhosted.org/packages/af/37/f3444398292c42b5417c5d0c318af2c5d7c5777a7f278a407b71e3dd6c07/asymongo-1.3.4.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [cooldfa]: Downloading https://files.pythonhosted.org/packages/53/da/5dccaab48ed37464d93687f9458ec276da9e37efc787b6c6cf0a264c553f/cooldfa-1.0.5.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [asymysql]: Downloading https://files.pythonhosted.org/packages/05/fa/8f734af707cf9a576b1ec85333884d27a48dbcf75de0eb469f74abac192d/asymysql-1.3.4.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [cooltime]: Downloading https://files.pythonhosted.org/packages/84/4c/cce824d570b2b03476b891acdba6cb2a2a98c4e1258cc4959758e703e78e/cooltime-1.0.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [coolapi]: Downloading https://files.pythonhosted.org/packages/39/db/51b077df1b3ea11b7c1352a29cce3ab50a3802eda1a037cc95a6258e44a1/coolapi-1.0.1.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/9b/82/2aa914042579785e7f5a73347905636852b01e3e0f2ca08f28b8c0ddfccc/coolmongo-1.3.4.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [anyconfig-ion-backend]: Downloading https://files.pythonhosted.org/packages/78/69/dff4855b2a87fc88867344425f7008a15bc3a7e86ed28b861900fe6cd872/anyconfig-ion-backend-0.1.1.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [coolmysql]: Downloading https://files.pythonhosted.org/packages/dc/97/fe2b88e25a8a73aaf7d9512ca2f8fd022f315cd7089061e1c147397bc01d/coolmysql-1.4.7.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [encrypt256]: Downloading https://files.pythonhosted.org/packages/a1/61/654a6a58148fc3000f3a064019e08c56b4b3f6d9882e3ee3b4314b04a63b/encrypt256-1.8.3.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [macrostrat-database]: Downloading https://files.pythonhosted.org/packages/1f/72/d8645973202defdcdc9d352116d62d0eb906d97c455967bd990581fbf684/macrostrat_database-3.0.0.dev2.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [asymongo]: Downloading https://files.pythonhosted.org/packages/cf/25/65f3e8e4e2eb25cf57860fdbe0b7fd6f9be1632ade175c2913c3ca49bc1c/asymongo-1.3.5.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [cooldfa]: Downloading https://files.pythonhosted.org/packages/a1/ba/afceb9bd08d8142d156cccf0c99bb81b0beea533fa41a9c6d4e6e04d0db6/cooldfa-1.0.6.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [asymysql]: Downloading https://files.pythonhosted.org/packages/8e/13/482e23362e6a38b7f4e40d18082972bccef904cddca335fa89603f510e67/asymysql-1.3.5.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [macrostrat-database]: executing diffoscope
+[2023-07-09 08:53:43] INFO root fetch - processPackages [macrostrat-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrostrat_database-3.0.0.dev1.tar.gz tmp/macrostrat_database-3.0.0.dev2.tar.gz --markdown 20230709/m/macrostrat-database/3.0.0.dev1-3.0.0.dev2/diff.md --exclude *.pyd
+[2023-07-09 08:53:43] INFO root fetch - processPackages [asymongo]: executing diffoscope
+[2023-07-09 08:53:43] INFO root fetch - processPackages [asymongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymongo-1.3.4.tar.gz tmp/asymongo-1.3.5.tar.gz --markdown 20230709/a/asymongo/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-09 08:53:43] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/2d/c2/e3b837e28949a062f0fedacac9172f3eb62dca29535a1e7053212cdfd413/coolmongo-1.3.5.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [anyconfig-ion-backend]: Downloading https://files.pythonhosted.org/packages/ef/2b/15c220d890f4b9cf709931de9e47eb3e65bc500cccec3567138f17b5fc35/anyconfig-ion-backend-0.2.0.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [coolmysql]: Downloading https://files.pythonhosted.org/packages/c8/8b/17f36a854a09f47d993ef9a06a3f030df1ca1914a7d37537d646fbfe93ee/coolmysql-1.4.8.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [cooltime]: Downloading https://files.pythonhosted.org/packages/aa/d8/db1d0edb245f50c99a1253a63e0658347e333f185ab9c2c7a467b79ea41a/cooltime-1.0.1.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [coolapi]: Downloading https://files.pythonhosted.org/packages/7f/6b/b8b4b87fd6b3324e804329546b18ae52270d8d116d89c6248702bdcb3c7b/coolapi-1.0.2.tar.gz
+[2023-07-09 08:53:43] INFO root fetch - processPackages [encrypt256]: Downloading https://files.pythonhosted.org/packages/1b/93/63adc817ad4501264bc4751755987962f6914dce32b45137412942571ef6/encrypt256-1.8.4.tar.gz
+[2023-07-09 08:53:44] INFO root fetch - processPackages [asymysql]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [asymysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asymysql-1.3.4.tar.gz tmp/asymysql-1.3.5.tar.gz --markdown 20230709/a/asymysql/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [cooldfa]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [cooldfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooldfa-1.0.5.tar.gz tmp/cooldfa-1.0.6.tar.gz --markdown 20230709/c/cooldfa/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [anyconfig-ion-backend]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [anyconfig-ion-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyconfig-ion-backend-0.1.1.tar.gz tmp/anyconfig-ion-backend-0.2.0.tar.gz --markdown 20230709/a/anyconfig-ion-backend/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [coolapi]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [coolapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolapi-1.0.1.tar.gz tmp/coolapi-1.0.2.tar.gz --markdown 20230709/c/coolapi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [coolmongo]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [coolmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmongo-1.3.4.tar.gz tmp/coolmongo-1.3.5.tar.gz --markdown 20230709/c/coolmongo/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [cooltime]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [cooltime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooltime-1.0.tar.gz tmp/cooltime-1.0.1.tar.gz --markdown 20230709/c/cooltime/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [encrypt256]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [encrypt256]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encrypt256-1.8.3.tar.gz tmp/encrypt256-1.8.4.tar.gz --markdown 20230709/e/encrypt256/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-09 08:53:44] INFO root fetch - processPackages [coolmysql]: executing diffoscope
+[2023-07-09 08:53:44] INFO root fetch - processPackages [coolmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmysql-1.4.7.tar.gz tmp/coolmysql-1.4.8.tar.gz --markdown 20230709/c/coolmysql/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-09 08:53:45] INFO root fetch - processPackages [macrostrat-database]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_database-3.0.0.dev1.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [macrostrat-database]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_database-3.0.0.dev2.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [macrostrat-database]: Start processing: envname
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [macrostrat-database]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [asymongo]: Remove: archive file [/home/abi/fetcher/tmp/asymongo-1.3.4.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [asymongo]: Remove: archive file [/home/abi/fetcher/tmp/asymongo-1.3.5.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [asymongo]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [envname]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [envname]: Downloading https://files.pythonhosted.org/packages/2a/31/24874bc2a28a7aacfda5172e780941c9f72bbb5c10e486b61c979f4bee64/envname-1.0.2.tar.gz
+[2023-07-09 08:53:45] INFO root fetch - processPackages [asymysql]: Remove: archive file [/home/abi/fetcher/tmp/asymysql-1.3.4.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [asymysql]: Remove: archive file [/home/abi/fetcher/tmp/asymysql-1.3.5.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [asymysql]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [coolapi]: Remove: archive file [/home/abi/fetcher/tmp/coolapi-1.0.1.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [coolapi]: Remove: archive file [/home/abi/fetcher/tmp/coolapi-1.0.2.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [coolapi]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [cooltime]: Remove: archive file [/home/abi/fetcher/tmp/cooltime-1.0.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [cooltime]: Remove: archive file [/home/abi/fetcher/tmp/cooltime-1.0.1.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [cooltime]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [coolmongo]: Remove: archive file [/home/abi/fetcher/tmp/coolmongo-1.3.4.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [coolmongo]: Remove: archive file [/home/abi/fetcher/tmp/coolmongo-1.3.5.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [coolmongo]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [coolmysql]: Remove: archive file [/home/abi/fetcher/tmp/coolmysql-1.4.7.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [coolmysql]: Remove: archive file [/home/abi/fetcher/tmp/coolmysql-1.4.8.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [coolmysql]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [cooldfa]: Remove: archive file [/home/abi/fetcher/tmp/cooldfa-1.0.5.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [cooldfa]: Remove: archive file [/home/abi/fetcher/tmp/cooldfa-1.0.6.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [cooldfa]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [encrypt256]: Remove: archive file [/home/abi/fetcher/tmp/encrypt256-1.8.3.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [encrypt256]: Remove: archive file [/home/abi/fetcher/tmp/encrypt256-1.8.4.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [encrypt256]: success
+[2023-07-09 08:53:45] INFO root fetch - processPackages [envname]: Downloading https://files.pythonhosted.org/packages/d0/6e/fa6ffc946af508d2b7c72b502a3102c903d723c1d2b758893518da37a7f3/envname-1.0.3.tar.gz
+[2023-07-09 08:53:45] INFO root fetch - processPackages [anyconfig-ion-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-ion-backend-0.1.1.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - processPackages [anyconfig-ion-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-ion-backend-0.2.0.tar.gz]
+[2023-07-09 08:53:45] INFO root fetch - main [MainThread]: End processing [anyconfig-ion-backend]: success
+[2023-07-09 08:53:46] INFO root fetch - processPackages [envname]: executing diffoscope
+[2023-07-09 08:53:46] INFO root fetch - processPackages [envname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envname-1.0.2.tar.gz tmp/envname-1.0.3.tar.gz --markdown 20230709/e/envname/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 08:53:46] INFO root fetch - processPackages [envname]: Remove: archive file [/home/abi/fetcher/tmp/envname-1.0.2.tar.gz]
+[2023-07-09 08:53:46] INFO root fetch - processPackages [envname]: Remove: archive file [/home/abi/fetcher/tmp/envname-1.0.3.tar.gz]
+[2023-07-09 08:53:46] INFO root fetch - main [MainThread]: End processing [envname]: success
+[2023-07-09 08:53:46] INFO root fetch - main [MainThread]: Store serial: [18818474]

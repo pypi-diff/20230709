@@ -3191,3 +3191,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:10:05] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.3.4.tar.gz]
 [2023-07-09 05:10:05] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
 [2023-07-09 05:10:05] INFO root fetch - main [MainThread]: Store serial: [18817568]
+[2023-07-09 05:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817568]
+[2023-07-09 05:15:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompttools
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cuda-ext-example
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jamexp
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-screen-resolution
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WifiOrca
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ML-Algo
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oceanograpy
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dg-sqltrace
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text2text
+[2023-07-09 05:15:13] INFO root fetch - processPackages [cuda-ext-example]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 05:15:13] WARNING root fetch - processPackages [dg-sqltrace]: Skipping, unable to determine old version
+[2023-07-09 05:15:13] INFO root fetch - main [MainThread]: End processing [dg-sqltrace] error
+[2023-07-09 05:15:13] INFO root fetch - processPackages [jamexp]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ML-Algo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 05:15:13] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 05:15:13] INFO root fetch - processPackages [st-screen-resolution]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-09 05:15:13] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 05:15:13] WARNING root fetch - processPackages [oceanograpy]: Skipping, unable to determine old version
+[2023-07-09 05:15:13] INFO root fetch - main [MainThread]: End processing [oceanograpy] error
+[2023-07-09 05:15:13] INFO root fetch - processPackages [text2text]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-09 05:15:13] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/54/cb/1ed4c01be56630a8edbd5bbb6a8eb98da18d7a24a3f47e9928d472dcbe2d/WifiOrca-0.0.3.tar.gz
+[2023-07-09 05:15:13] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/59/32/2647301e50066c3247268d089d83804f74fb1747a6779f59a25b89a2fdc9/ML_Algo-1.0.1.tar.gz
+[2023-07-09 05:15:13] INFO root fetch - processPackages [st-screen-resolution]: Downloading https://files.pythonhosted.org/packages/9a/8c/ba12c5a3e697c338e36bbcfa52e3f77e5e45bd508266de19828a4d264b4b/st_screen_resolution-0.0.3.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [cuda-ext-example]: Downloading https://files.pythonhosted.org/packages/e2/48/27a6ff9c78e527b7add5d2c0a48c2863399cb8feb97c19613d09a206e5fa/cuda_ext_example-0.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 05:15:14] INFO root fetch - processPackages [jamexp]: Downloading https://files.pythonhosted.org/packages/f5/c1/0172c2adbdc0ac9c420bb0f3ae3d69d631f1b0663e330ddffa20c424977e/jamexp-0.1.7.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/25/11/a00556f553505342bbdb2e58c0610c72331d4ee0f8b884b7850fc7cef37d/text2text-1.2.4.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/01/d9/74c6010643f633484815b3caea2f767c1a65b2a4edc5379b374d407601c2/WifiOrca-0.0.4.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [st-screen-resolution]: Downloading https://files.pythonhosted.org/packages/73/79/8e2a10ffe0d20f0d195a50b1b0aa272bc83d829bb3af53870a929f53c37b/st_screen_resolution-0.0.5.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/c7/55/292a1a351f6d6ae9276f6a03862e9691a31ec3af4b7d0cfdacfa386b6beb/ML_Algo-1.0.2.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 05:15:14] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.3.tar.gz tmp/WifiOrca-0.0.4.tar.gz --markdown 20230709/W/WifiOrca/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 05:15:14] INFO root fetch - processPackages [cuda-ext-example]: Downloading https://files.pythonhosted.org/packages/33/74/250a93692b9049a02c814fdd06e07b8ea7bf600b82a6b9b0a17248873db5/cuda_ext_example-0.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 05:15:14] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/45/f1/f06ff8829a5d6b0267ba9f898bb0037b6a3a7ae7a0ec432e93946b31d290/text2text-1.2.5.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-09 05:15:14] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230709/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 05:15:14] INFO root fetch - processPackages [jamexp]: Downloading https://files.pythonhosted.org/packages/d8/af/3c2121f7f36a982e91c66bde5da60911032c76874cbe3f72fe2b72330078/jamexp-0.1.8.tar.gz
+[2023-07-09 05:15:14] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-09 05:15:14] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML_Algo-1.0.1.tar.gz tmp/ML_Algo-1.0.2.tar.gz --markdown 20230709/M/ML-Algo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 05:15:14] INFO root fetch - processPackages [st-screen-resolution]: executing diffoscope
+[2023-07-09 05:15:14] INFO root fetch - processPackages [st-screen-resolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_screen_resolution-0.0.3.tar.gz tmp/st_screen_resolution-0.0.5.tar.gz --markdown 20230709/s/st-screen-resolution/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 05:15:14] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-09 05:15:14] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.4.tar.gz tmp/text2text-1.2.5.tar.gz --markdown 20230709/t/text2text/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-09 05:15:14] INFO root fetch - processPackages [jamexp]: executing diffoscope
+[2023-07-09 05:15:14] INFO root fetch - processPackages [jamexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamexp-0.1.7.tar.gz tmp/jamexp-0.1.8.tar.gz --markdown 20230709/j/jamexp/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 05:15:15] INFO root fetch - processPackages [cuda-ext-example]: executing diffoscope
+[2023-07-09 05:15:15] INFO root fetch - processPackages [cuda-ext-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuda_ext_example-0.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cuda_ext_example-0.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/c/cuda-ext-example/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 05:15:15] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.3.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.4.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 05:15:15] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.1.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.2.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-09 05:15:15] INFO root fetch - processPackages [st-screen-resolution]: Remove: archive file [/home/abi/fetcher/tmp/st_screen_resolution-0.0.3.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - processPackages [st-screen-resolution]: Remove: archive file [/home/abi/fetcher/tmp/st_screen_resolution-0.0.5.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - main [MainThread]: End processing [st-screen-resolution]: success
+[2023-07-09 05:15:15] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.4.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.5.tar.gz]
+[2023-07-09 05:15:15] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-09 05:15:16] INFO root fetch - processPackages [jamexp]: Remove: archive file [/home/abi/fetcher/tmp/jamexp-0.1.7.tar.gz]
+[2023-07-09 05:15:16] INFO root fetch - processPackages [jamexp]: Remove: archive file [/home/abi/fetcher/tmp/jamexp-0.1.8.tar.gz]
+[2023-07-09 05:15:16] INFO root fetch - main [MainThread]: End processing [jamexp]: success
+[2023-07-09 05:15:16] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-07-09 05:15:16] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-07-09 05:15:16] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-09 05:15:16] INFO root fetch - processPackages [cuda-ext-example]: Remove: archive file [/home/abi/fetcher/tmp/cuda_ext_example-0.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 05:15:16] INFO root fetch - processPackages [cuda-ext-example]: Remove: archive file [/home/abi/fetcher/tmp/cuda_ext_example-0.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 05:15:16] INFO root fetch - main [MainThread]: End processing [cuda-ext-example]: success
+[2023-07-09 05:15:16] INFO root fetch - main [MainThread]: Store serial: [18817606]

@@ -13846,3 +13846,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:05:34] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.7.tar.gz]
 [2023-07-09 20:05:34] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
 [2023-07-09 20:05:34] INFO root fetch - main [MainThread]: Store serial: [18822307]
+[2023-07-09 20:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822307]
+[2023-07-09 20:10:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piperider-nightly
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redhat-qe-cloud-tools
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soraya
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptfunctionutil
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyghelpers
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytrials
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fern-optimizely
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngmapi
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-shelly-fixgambit
+[2023-07-09 20:10:43] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [pyghelpers]: New version: [1.0.43] Old Version: [1.0.42]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [pytrials]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: New version: [20230709.8.11.438555] Old Version: [20230709.16.16.119447]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [gptfunctionutil]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ngmapi]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-09 20:10:43] WARNING root fetch - processPackages [soraya]: Skipping, unable to determine old version
+[2023-07-09 20:10:43] INFO root fetch - main [MainThread]: End processing [soraya] error
+[2023-07-09 20:10:43] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Downloading https://files.pythonhosted.org/packages/c9/cf/59425fef3ed23069a6476a001b2dcb4bbf8970774b8b07fc039652bd2800/certora-cli-alpha-shelly-fixgambit-20230709.16.16.119447.tar.gz
+[2023-07-09 20:10:43] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-07-09 20:10:43] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/09/c9/a1cff808e0adc11d5b9224290874baf6058bc414db1a543edb3543261cd8/fern_optimizely-0.0.6.tar.gz
+[2023-07-09 20:10:43] INFO root fetch - processPackages [pyghelpers]: Downloading https://files.pythonhosted.org/packages/8e/5c/89ca48d5e2a0a28e57d3f08d74395255863adf4bece3e4558eeaf17165c4/pyghelpers-1.0.42.tar.gz
+[2023-07-09 20:10:43] INFO root fetch - processPackages [pytrials]: Downloading https://files.pythonhosted.org/packages/45/5a/bd0a33695050500792e3cd6a5c60b06abeb7617ab32044aaa9bfd5155503/pytrials-0.2.1.tar.gz
+[2023-07-09 20:10:43] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/b9/9c/5393411ffc808ac06fa49d16d51a36e8f61d53e6f87e42bad4fc5058fecb/ngmapi-0.0.44.tar.gz
+[2023-07-09 20:10:43] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Skipping package: exceeds size limit 37457628>=10485760
+[2023-07-09 20:10:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixgambit] error
+[2023-07-09 20:10:44] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [gptfunctionutil]: Downloading https://files.pythonhosted.org/packages/e3/c0/77b15853d6a85c491b34a25d7e435d2079ad31330cdddc9721bd3a5d5902/gptfunctionutil-0.1.6.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/c8/35/feb9c67e2416850477f87e6ce6b2a4777ec1158493073bca0ce223c2889b/fern_optimizely-0.0.7.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ab/6f/0952aedba8fefee28188ca2e95e4b66bf9be73e031c4b97d08fed84fd05e/ngmapi-0.0.45.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-09 20:10:44] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.6.tar.gz tmp/fern_optimizely-0.0.7.tar.gz --markdown 20230709/f/fern-optimizely/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 20:10:44] INFO root fetch - processPackages [pytrials]: Downloading https://files.pythonhosted.org/packages/56/ea/a8ea6fdb1eb911b6513cf1ebb832b90f107d595ee52393d4146f5b5aab27/pytrials-0.3.0.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [gptfunctionutil]: Downloading https://files.pythonhosted.org/packages/f4/b0/6062424af8c53d67fe335be6508a43fd0b91e6dbc3c10d5fff84e3bf5d54/gptfunctionutil-0.1.7.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [pyghelpers]: Downloading https://files.pythonhosted.org/packages/70/1e/6b915a887d086664e905690585b1d41e3ecc7d9431ba78c29805ca11bae1/pyghelpers-1.0.43.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2023-07-09 20:10:44] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 20:10:44] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.44.tar.gz tmp/ngmapi-0.0.45.tar.gz --markdown 20230709/n/ngmapi/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-09 20:10:44] INFO root fetch - processPackages [pytrials]: executing diffoscope
+[2023-07-09 20:10:44] INFO root fetch - processPackages [pytrials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrials-0.2.1.tar.gz tmp/pytrials-0.3.0.tar.gz --markdown 20230709/p/pytrials/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 20:10:44] INFO root fetch - processPackages [gptfunctionutil]: executing diffoscope
+[2023-07-09 20:10:44] INFO root fetch - processPackages [gptfunctionutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptfunctionutil-0.1.6.tar.gz tmp/gptfunctionutil-0.1.7.tar.gz --markdown 20230709/g/gptfunctionutil/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-09 20:10:44] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2023-07-09 20:10:44] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20230709/r/redhat-qe-cloud-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 20:10:44] INFO root fetch - processPackages [pyghelpers]: executing diffoscope
+[2023-07-09 20:10:44] INFO root fetch - processPackages [pyghelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyghelpers-1.0.42.tar.gz tmp/pyghelpers-1.0.43.tar.gz --markdown 20230709/p/pyghelpers/1.0.42-1.0.43/diff.md --exclude *.pyd
+[2023-07-09 20:10:45] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-07-09 20:10:45] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.6.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.7.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-09 20:10:45] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.44.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.45.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 20:10:45] INFO root fetch - processPackages [gptfunctionutil]: Remove: archive file [/home/abi/fetcher/tmp/gptfunctionutil-0.1.6.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - processPackages [gptfunctionutil]: Remove: archive file [/home/abi/fetcher/tmp/gptfunctionutil-0.1.7.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - main [MainThread]: End processing [gptfunctionutil]: success
+[2023-07-09 20:10:45] INFO root fetch - processPackages [pytrials]: Remove: archive file [/home/abi/fetcher/tmp/pytrials-0.2.1.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - processPackages [pytrials]: Remove: archive file [/home/abi/fetcher/tmp/pytrials-0.3.0.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - main [MainThread]: End processing [pytrials]: success
+[2023-07-09 20:10:45] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2023-07-09 20:10:45] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-07-09 20:10:45] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230709/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-07-09 20:10:45] INFO root fetch - processPackages [pyghelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyghelpers-1.0.42.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - processPackages [pyghelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyghelpers-1.0.43.tar.gz]
+[2023-07-09 20:10:45] INFO root fetch - main [MainThread]: End processing [pyghelpers]: success
+[2023-07-09 20:10:47] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-07-09 20:10:47] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-07-09 20:10:47] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-07-09 20:10:47] INFO root fetch - main [MainThread]: Store serial: [18822335]

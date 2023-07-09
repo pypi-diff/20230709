@@ -16686,3 +16686,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:27:15] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.3.tar.gz]
 [2023-07-09 23:27:15] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-07-09 23:27:15] INFO root fetch - main [MainThread]: Store serial: [18823593]
+[2023-07-09 23:32:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823593]
+[2023-07-09 23:32:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 23:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litenai
+[2023-07-09 23:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioconsertinc
+[2023-07-09 23:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyote
+[2023-07-09 23:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-09 23:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: XPER
+[2023-07-09 23:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfirebird
+[2023-07-09 23:32:25] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.71] Old Version: [0.0.70]
+[2023-07-09 23:32:25] INFO root fetch - processPackages [litenai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 23:32:25] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 23:32:25] INFO root fetch - processPackages [bioconsertinc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 23:32:25] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 23:32:25] INFO root fetch - processPackages [pyote]: New version: [5.3.0] Old Version: [5.2.8]
+[2023-07-09 23:32:25] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/33/77/fc44a7cbb2b2a6706313ca847c034f174b6e3838cc6820680ee8737b23bc/pyfirebird-0.0.70.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [bioconsertinc]: Downloading https://files.pythonhosted.org/packages/9d/79/3fab1d6b24d56e7eb67fb1671b9341bb85b4c4ebf4f1430b66fff9325933/bioconsertinc-1.0.0.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/16/17/aa98fedd3f4732b9fc410ca07bcd96039a5bb946a0bbec534371d9824ea7/litenai-0.0.5.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/4d/23/6390f7ecd3397d81ce70dd32d5ff2da37745d80cc34573557fbca2f47e30/pyote-5.2.8.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 23:32:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-07-09 23:32:26] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 23:32:26] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 23:32:26] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/bf/f6/2b549ebc13fdd31cf8110da3142ff58933618081fb8c48b466814cf230a0/pyfirebird-0.0.71.tar.gz
+[2023-07-09 23:32:26] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/ee/0a/b493a7e866437371601a04923a7554b1a61624afdd9be69b6bf9d022f7ab/litenai-0.0.6.tar.gz
+[2023-07-09 23:32:26] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-07-09 23:32:26] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230709/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:32:26] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 23:32:26] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.70.tar.gz tmp/pyfirebird-0.0.71.tar.gz --markdown 20230709/p/pyfirebird/0.0.70-0.0.71/diff.md --exclude *.pyd
+[2023-07-09 23:32:26] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-07-09 23:32:26] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.5.tar.gz tmp/litenai-0.0.6.tar.gz --markdown 20230709/l/litenai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 23:32:26] INFO root fetch - processPackages [bioconsertinc]: Downloading https://files.pythonhosted.org/packages/82/0d/e7340b88755d2200c63290cb298b4ad8013ac410f005d7caffc4774d83d6/bioconsertinc-1.0.1.tar.gz
+[2023-07-09 23:32:26] INFO root fetch - processPackages [bioconsertinc]: executing diffoscope
+[2023-07-09 23:32:26] INFO root fetch - processPackages [bioconsertinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioconsertinc-1.0.0.tar.gz tmp/bioconsertinc-1.0.1.tar.gz --markdown 20230709/b/bioconsertinc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 23:32:26] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/d4/0d/9b1d39dcf2c0f8181986003036ca210bcdcd7643e049a9da875db64d4e7d/pyote-5.3.0.tar.gz
+[2023-07-09 23:32:26] INFO root fetch - processPackages [pyote]: executing diffoscope
+[2023-07-09 23:32:26] INFO root fetch - processPackages [pyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyote-5.2.8.tar.gz tmp/pyote-5.3.0.tar.gz --markdown 20230709/p/pyote/5.2.8-5.3.0/diff.md --exclude *.pyd
+[2023-07-09 23:32:27] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 23:32:27] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 23:32:27] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 23:32:27] INFO root fetch - processPackages [bioconsertinc]: Remove: archive file [/home/abi/fetcher/tmp/bioconsertinc-1.0.0.tar.gz]
+[2023-07-09 23:32:27] INFO root fetch - processPackages [bioconsertinc]: Remove: archive file [/home/abi/fetcher/tmp/bioconsertinc-1.0.1.tar.gz]
+[2023-07-09 23:32:27] INFO root fetch - main [MainThread]: End processing [bioconsertinc]: success
+[2023-07-09 23:32:27] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.5.tar.gz]
+[2023-07-09 23:32:27] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.6.tar.gz]
+[2023-07-09 23:32:27] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-07-09 23:32:28] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.2.8.tar.gz]
+[2023-07-09 23:32:28] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.3.0.tar.gz]
+[2023-07-09 23:32:28] INFO root fetch - main [MainThread]: End processing [pyote]: success
+[2023-07-09 23:32:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-07-09 23:32:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-07-09 23:32:28] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-07-09 23:32:32] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.70.tar.gz]
+[2023-07-09 23:32:32] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.71.tar.gz]
+[2023-07-09 23:32:32] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 23:32:32] INFO root fetch - main [MainThread]: Store serial: [18823612]

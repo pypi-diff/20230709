@@ -7542,3 +7542,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:14:30] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.1-py3-none-any.whl.zip]
 [2023-07-09 12:14:30] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
 [2023-07-09 12:14:30] INFO root fetch - main [MainThread]: Store serial: [18819477]
+[2023-07-09 12:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819477]
+[2023-07-09 12:19:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 12:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esentity
+[2023-07-09 12:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prolog-primitives
+[2023-07-09 12:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apysc
+[2023-07-09 12:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoMLF
+[2023-07-09 12:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gouge
+[2023-07-09 12:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capsula
+[2023-07-09 12:19:39] INFO root fetch - processPackages [autoMLF]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 12:19:39] INFO root fetch - processPackages [prolog-primitives]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 12:19:39] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-09 12:19:39] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-09 12:19:39] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/f7/41/ba595c0327360d5c4b1e6d685119842f4aa8c1803abe6e26f94ef1a1141c/autoMLF-1.0.2.tar.gz
+[2023-07-09 12:19:39] INFO root fetch - processPackages [gouge]: New version: [2.0] Old Version: [1.5.0.post1]
+[2023-07-09 12:19:39] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/3a/66/3d21942c500dc5b937867c88ff9e1a6bc19908d600abf8c676ef799e4482/prolog_primitives-1.0.1.tar.gz
+[2023-07-09 12:19:39] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-09 12:19:39] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-09 12:19:39] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/b0/b9/d1d7bb76c2c75b94ebee1a55a52c58a805f1a141c11de4bdd3b797e7afd1/gouge-1.5.0.post1.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/71/6a/e09491e6c9ee0134a2b8e8a8647e76254838e7dc93252aadb5bcafa5188e/autoMLF-1.0.3.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/e3/eb/344bc28a65ad3216e7e03d029de187a8e1392be8661fe94c95435dfad824/prolog_primitives-1.0.2.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-07-09 12:19:40] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230709/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-09 12:19:40] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-09 12:19:40] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-1.0.1.tar.gz tmp/prolog_primitives-1.0.2.tar.gz --markdown 20230709/p/prolog-primitives/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 12:19:40] INFO root fetch - processPackages [autoMLF]: executing diffoscope
+[2023-07-09 12:19:40] INFO root fetch - processPackages [autoMLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLF-1.0.2.tar.gz tmp/autoMLF-1.0.3.tar.gz --markdown 20230709/a/autoMLF/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 12:19:40] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-09 12:19:40] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230709/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-09 12:19:40] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/9f/79/f3303a54f128f4eecb836fdf0c187d81761ae9bbadacfdef7f14d5d3688f/gouge-2.0.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-09 12:19:40] INFO root fetch - processPackages [gouge]: executing diffoscope
+[2023-07-09 12:19:40] INFO root fetch - processPackages [gouge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gouge-1.5.0.post1.tar.gz tmp/gouge-2.0.tar.gz --markdown 20230709/g/gouge/1.5.0.post1-2.0/diff.md --exclude *.pyd
+[2023-07-09 12:19:40] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-09 12:19:40] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230709/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 12:19:41] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-07-09 12:19:41] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.1.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.2.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-09 12:19:41] INFO root fetch - processPackages [autoMLF]: Remove: archive file [/home/abi/fetcher/tmp/autoMLF-1.0.2.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - processPackages [autoMLF]: Remove: archive file [/home/abi/fetcher/tmp/autoMLF-1.0.3.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - main [MainThread]: End processing [autoMLF]: success
+[2023-07-09 12:19:41] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-1.5.0.post1.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.0.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - main [MainThread]: End processing [gouge]: success
+[2023-07-09 12:19:41] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-09 12:19:41] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-09 12:19:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-09 12:19:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-09 12:19:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-09 12:19:44] INFO root fetch - main [MainThread]: Store serial: [18819494]

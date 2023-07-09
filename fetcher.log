@@ -12617,3 +12617,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:21:21] INFO root fetch - processPackages [Poutyne]: Remove: archive file [/home/abi/fetcher/tmp/Poutyne-1.9.tar.gz]
 [2023-07-09 18:21:21] INFO root fetch - main [MainThread]: End processing [Poutyne]: success
 [2023-07-09 18:21:21] INFO root fetch - main [MainThread]: Store serial: [18821767]
+[2023-07-09 18:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821767]
+[2023-07-09 18:26:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 18:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Janex
+[2023-07-09 18:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbat
+[2023-07-09 18:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensees
+[2023-07-09 18:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdss-lvmpwi
+[2023-07-09 18:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brighter
+[2023-07-09 18:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnivorex
+[2023-07-09 18:26:31] INFO root fetch - processPackages [bbat]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-07-09 18:26:31] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 18:26:31] INFO root fetch - processPackages [Janex]: New version: [0.0.4b0] Old Version: [0.0.4]
+[2023-07-09 18:26:31] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:26:31] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 18:26:31] WARNING root fetch - processPackages [brighter]: Skipping, unable to determine old version
+[2023-07-09 18:26:31] INFO root fetch - main [MainThread]: End processing [brighter] error
+[2023-07-09 18:26:31] INFO root fetch - processPackages [sdss-lvmpwi]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-07-09 18:26:31] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/5c/ff/9f0253527bda5cc458d46d3aa699d74329266805a6a355c58215c41c74b2/Janex-0.0.4.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/ee/9f/45d2894584636d6870639d021bf13a27a1d23503a88e70743b44e702a5f1/bbat-5.2.1.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/9a/43/b05787ae2e998169aa8db75ce509317ccef535b7a914658c612cef7ec841/opensees-0.0.8.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [sdss-lvmpwi]: Downloading https://files.pythonhosted.org/packages/db/8b/2776d988d9670010fd0f3ed1841e2e7aeea1ea75b033571e199e9c874808/sdss_lvmpwi-0.0.35.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/06/51/01a748159925f426a072b694fb7ecc74a486c7ba9a3fffa46be74d59e193/Janex-0.0.4b0.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 18:26:31] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 18:26:31] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/01/1a/c924b6f02f2f54340bad7959ea355a4af5c9c93fc1d5cb34f46984c5184c/bbat-5.2.2.tar.gz
+[2023-07-09 18:26:31] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-09 18:26:31] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.4.tar.gz tmp/Janex-0.0.4b0.tar.gz --markdown 20230709/J/Janex/0.0.4-0.0.4b0/diff.md --exclude *.pyd
+[2023-07-09 18:26:31] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-07-09 18:26:31] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-5.2.1.tar.gz tmp/bbat-5.2.2.tar.gz --markdown 20230709/b/bbat/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-07-09 18:26:31] INFO root fetch - processPackages [sdss-lvmpwi]: Downloading https://files.pythonhosted.org/packages/e0/f8/79db1fc6bd017dc9649f418dd1e5317c30813670f0c279e8f1c913125e6b/sdss_lvmpwi-0.0.36.tar.gz
+[2023-07-09 18:26:32] INFO root fetch - processPackages [sdss-lvmpwi]: executing diffoscope
+[2023-07-09 18:26:32] INFO root fetch - processPackages [sdss-lvmpwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_lvmpwi-0.0.35.tar.gz tmp/sdss_lvmpwi-0.0.36.tar.gz --markdown 20230709/s/sdss-lvmpwi/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-07-09 18:26:32] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2023-07-09 18:26:32] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2023-07-09 18:26:32] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2023-07-09 18:26:32] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.1.tar.gz]
+[2023-07-09 18:26:32] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.2.tar.gz]
+[2023-07-09 18:26:32] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-07-09 18:26:32] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 18:26:32] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 18:26:32] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 18:26:32] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.4.tar.gz]
+[2023-07-09 18:26:32] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.4b0.tar.gz]
+[2023-07-09 18:26:32] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-09 18:26:33] INFO root fetch - processPackages [sdss-lvmpwi]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmpwi-0.0.35.tar.gz]
+[2023-07-09 18:26:33] INFO root fetch - processPackages [sdss-lvmpwi]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmpwi-0.0.36.tar.gz]
+[2023-07-09 18:26:33] INFO root fetch - main [MainThread]: End processing [sdss-lvmpwi]: success
+[2023-07-09 18:26:33] INFO root fetch - main [MainThread]: Store serial: [18821801]

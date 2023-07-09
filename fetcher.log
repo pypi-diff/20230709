@@ -10301,3 +10301,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:10:42] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-09 16:10:42] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-09 16:10:42] INFO root fetch - main [MainThread]: Store serial: [18820743]
+[2023-07-09 16:15:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820743]
+[2023-07-09 16:15:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmcloud
+[2023-07-09 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sympy-plot-backends
+[2023-07-09 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-07-09 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplekivy
+[2023-07-09 16:15:51] INFO root fetch - processPackages [simplekivy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 16:15:51] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 16:15:51] INFO root fetch - processPackages [sympy-plot-backends]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-09 16:15:51] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 16:15:51] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/2b/26/91373ead0064557e8e560e32ecadd554c4d42a3fb6c8e81360c0745d7255/simplekivy-0.0.2.tar.gz
+[2023-07-09 16:15:51] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 16:15:51] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-09 16:15:51] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/7c/69/c956b90f407ec68d6f88d6e128d8288ed422059a894f62d231dc83391bb5/sympy_plot_backends-2.4.1.tar.gz
+[2023-07-09 16:15:52] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 16:15:52] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/6a/33/c10a50f5fda1832393f078748fdaabd0e37b201f5eb78648ef345b07d915/simplekivy-0.0.3.tar.gz
+[2023-07-09 16:15:52] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-09 16:15:52] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/27/6e/d57aea70e4527659f197758dd7ef86110fe5f5bea75188fd171b84f87da2/sympy_plot_backends-2.4.2.tar.gz
+[2023-07-09 16:15:52] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 16:15:52] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 16:15:52] INFO root fetch - processPackages [simplekivy]: executing diffoscope
+[2023-07-09 16:15:52] INFO root fetch - processPackages [simplekivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplekivy-0.0.2.tar.gz tmp/simplekivy-0.0.3.tar.gz --markdown 20230709/s/simplekivy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 16:15:52] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-09 16:15:52] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230709/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 16:15:52] INFO root fetch - processPackages [sympy-plot-backends]: executing diffoscope
+[2023-07-09 16:15:52] INFO root fetch - processPackages [sympy-plot-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympy_plot_backends-2.4.1.tar.gz tmp/sympy_plot_backends-2.4.2.tar.gz --markdown 20230709/s/sympy-plot-backends/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-09 16:15:53] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 16:15:53] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-09 16:15:53] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.2.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.3.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - main [MainThread]: End processing [simplekivy]: success
+[2023-07-09 16:15:53] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.4.1.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.4.2.tar.gz]
+[2023-07-09 16:15:53] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
+[2023-07-09 16:15:53] INFO root fetch - main [MainThread]: Store serial: [18820758]

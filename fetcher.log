@@ -13454,3 +13454,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:34:10] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.7.2.tar.gz]
 [2023-07-09 19:34:10] INFO root fetch - main [MainThread]: End processing [flet-lite]: success
 [2023-07-09 19:34:10] INFO root fetch - main [MainThread]: Store serial: [18822112]
+[2023-07-09 19:39:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822112]
+[2023-07-09 19:39:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 19:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redplanet
+[2023-07-09 19:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sydeploy
+[2023-07-09 19:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EpubCrawler
+[2023-07-09 19:39:19] WARNING root fetch - processPackages [redplanet]: Skipping, unable to determine old version
+[2023-07-09 19:39:19] INFO root fetch - main [MainThread]: End processing [redplanet] error
+[2023-07-09 19:39:19] INFO root fetch - processPackages [EpubCrawler]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 19:39:19] INFO root fetch - processPackages [sydeploy]: New version: [0.2.2rc7] Old Version: [0.2.2rc5]
+[2023-07-09 19:39:19] INFO root fetch - processPackages [EpubCrawler]: Downloading https://files.pythonhosted.org/packages/b9/2e/8b74ed3510e26b8f4e12a532b1979c3dcc987266f746f80e748de43598cc/EpubCrawler-2023.7.9.0.tar.gz
+[2023-07-09 19:39:19] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/38/32/f4e2871b40eeb160b45ad59e2928a991328f37345b648abd1a6102cbea09/sydeploy-0.2.2rc5-py3-none-any.whl
+[2023-07-09 19:39:19] INFO root fetch - processPackages [EpubCrawler]: Downloading https://files.pythonhosted.org/packages/a0/2c/da14c66785f96c985e6ded315bb090b7c4708dfff0f7357986bee0fc8859/EpubCrawler-2023.7.9.1.tar.gz
+[2023-07-09 19:39:19] INFO root fetch - processPackages [EpubCrawler]: executing diffoscope
+[2023-07-09 19:39:19] INFO root fetch - processPackages [EpubCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EpubCrawler-2023.7.9.0.tar.gz tmp/EpubCrawler-2023.7.9.1.tar.gz --markdown 20230709/E/EpubCrawler/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 19:39:19] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/91/f8/9e6d42c441f5d359f710cc2ef86e7ceb48b511386f38684179042209233c/sydeploy-0.2.2rc7-py3-none-any.whl
+[2023-07-09 19:39:20] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:39:20] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.2rc5-py3-none-any.whl.zip tmp/sydeploy-0.2.2rc7-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.2rc5-0.2.2rc7/diff.md --exclude *.pyd
+[2023-07-09 19:39:20] INFO root fetch - processPackages [EpubCrawler]: Remove: archive file [/home/abi/fetcher/tmp/EpubCrawler-2023.7.9.0.tar.gz]
+[2023-07-09 19:39:20] INFO root fetch - processPackages [EpubCrawler]: Remove: archive file [/home/abi/fetcher/tmp/EpubCrawler-2023.7.9.1.tar.gz]
+[2023-07-09 19:39:20] INFO root fetch - main [MainThread]: End processing [EpubCrawler]: success
+[2023-07-09 19:39:20] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc5-py3-none-any.whl.zip]
+[2023-07-09 19:39:20] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc7-py3-none-any.whl.zip]
+[2023-07-09 19:39:20] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:39:20] INFO root fetch - main [MainThread]: Store serial: [18822123]

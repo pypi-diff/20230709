@@ -6587,3 +6587,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230709-py2.py3-none-any.whl.zip]
 [2023-07-09 10:25:26] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
 [2023-07-09 10:25:26] INFO root fetch - main [MainThread]: Store serial: [18819014]
+[2023-07-09 10:30:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819014]
+[2023-07-09 10:30:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamic-service
+[2023-07-09 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wcc-timetable-generator
+[2023-07-09 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cshogi
+[2023-07-09 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impose-cli
+[2023-07-09 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MOBPY
+[2023-07-09 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:30:35] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-07-09 10:30:35] INFO root fetch - processPackages [dynamic-service]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-09 10:30:35] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc9] Old Version: [0.1.41rc8]
+[2023-07-09 10:30:35] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:30:35] INFO root fetch - processPackages [cshogi]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-09 10:30:35] INFO root fetch - processPackages [MOBPY]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 10:30:35] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/12/72/cf3f31a1a40e1f865a339103cba243027f0f3a50626572e7740bf2066f4c/cshogi-0.5.6.tar.gz
+[2023-07-09 10:30:35] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/91/b3/e62eeba54e65c17c394bc8590264d12fee0910c1544d6f1ba19279bf5049/dynamic-service-1.4.0.tar.gz
+[2023-07-09 10:30:35] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:30:35] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/84/8f/c146012c77527d4e1fe6d229449e5629d8150ad6acb3b21a80a23030f967/impose-cli-0.1.41rc8.tar.gz
+[2023-07-09 10:30:35] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/90/b2/8151174d4d0a07ce7f0da5c5b3fe0d34afbea5138575a1ebc9dc4f631323/wcc-timetable-generator-0.2.1.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [MOBPY]: Downloading https://files.pythonhosted.org/packages/7d/72/c1194f6d2d46bba0b67551ea3b1312ed9b562518d4e1c0b4e056d40b9aa2/MOBPY-1.0.0.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/15/ac/1e51446d54ff15a9efc625002f13e60f19fcce704bb24185ea2c941a4bfa/cshogi-0.5.7.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/a4/14/fc48765ee30640483139f9050d5287e29cced8ac066e004dd4725fd27787/dynamic-service-1.4.1.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/5c/04/cab5e234024ebd333c47fb80f0a263c61106ad6b29606f9b64df9264e11c/impose_cli-0.1.41rc9-py3-none-any.whl
+[2023-07-09 10:30:36] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/b1/a4/54760033a3c9a27138896e6b719d346b517a6803f401563bac9e129a362b/wcc-timetable-generator-1.0.0.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:30:36] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:30:36] INFO root fetch - processPackages [cshogi]: executing diffoscope
+[2023-07-09 10:30:36] INFO root fetch - processPackages [cshogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cshogi-0.5.6.tar.gz tmp/cshogi-0.5.7.tar.gz --markdown 20230709/c/cshogi/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-09 10:30:36] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 10:30:36] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.1.41rc8.tar.gz tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip --markdown 20230709/i/impose-cli/0.1.41rc8-0.1.41rc9/diff.md --exclude *.pyd
+[2023-07-09 10:30:36] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-09 10:30:36] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.4.0.tar.gz tmp/dynamic-service-1.4.1.tar.gz --markdown 20230709/d/dynamic-service/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-09 10:30:36] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-09 10:30:36] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-0.2.1.tar.gz tmp/wcc-timetable-generator-1.0.0.tar.gz --markdown 20230709/w/wcc-timetable-generator/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 10:30:36] INFO root fetch - processPackages [MOBPY]: Downloading https://files.pythonhosted.org/packages/3a/ee/710bbf5253c7f01eac867a38e3e5f17db84c4278659c353f476c21ce1a62/MOBPY-1.0.1.tar.gz
+[2023-07-09 10:30:36] INFO root fetch - processPackages [MOBPY]: executing diffoscope
+[2023-07-09 10:30:36] INFO root fetch - processPackages [MOBPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MOBPY-1.0.0.tar.gz tmp/MOBPY-1.0.1.tar.gz --markdown 20230709/M/MOBPY/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 10:30:37] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:30:37] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.2.1.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.0.0.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-09 10:30:37] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc8.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip]
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 10:30:37] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.4.0.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.4.1.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-09 10:30:37] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.5.6.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.5.7.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [cshogi]: success
+[2023-07-09 10:30:37] INFO root fetch - processPackages [MOBPY]: Remove: archive file [/home/abi/fetcher/tmp/MOBPY-1.0.0.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - processPackages [MOBPY]: Remove: archive file [/home/abi/fetcher/tmp/MOBPY-1.0.1.tar.gz]
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [MOBPY]: success
+[2023-07-09 10:30:37] INFO root fetch - main [MainThread]: Store serial: [18819055]

@@ -13015,3 +13015,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:02:50] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc4.tar.gz]
 [2023-07-09 19:02:50] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
 [2023-07-09 19:02:50] INFO root fetch - main [MainThread]: Store serial: [18821951]
+[2023-07-09 19:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821951]
+[2023-07-09 19:07:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: re-action-template
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailpit-api-client
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc-data
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-browser
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-spy
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sydeploy
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-app-helper
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geneweaver-client
+[2023-07-09 19:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SudReg
+[2023-07-09 19:07:59] WARNING root fetch - processPackages [aws-spy]: Skipping, unable to determine old version
+[2023-07-09 19:07:59] INFO root fetch - main [MainThread]: End processing [aws-spy] error
+[2023-07-09 19:07:59] INFO root fetch - processPackages [re-action-template]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-09 19:07:59] INFO root fetch - processPackages [django-app-helper]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-09 19:07:59] INFO root fetch - processPackages [sydeploy]: New version: [0.2.2rc0] Old Version: [0.2.1rc9]
+[2023-07-09 19:07:59] INFO root fetch - processPackages [geneweaver-client]: New version: [0.0.1a1] Old Version: [0.0.1a0.dev1]
+[2023-07-09 19:07:59] INFO root fetch - processPackages [mailpit-api-client]: New version: [1.0.0] Old Version: [0.12.2]
+[2023-07-09 19:07:59] INFO root fetch - processPackages [dvc-data]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-07-09 19:07:59] INFO root fetch - processPackages [robotframework-browser]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-07-09 19:07:59] WARNING root fetch - processPackages [SudReg]: Skipping, unable to determine old version
+[2023-07-09 19:07:59] INFO root fetch - main [MainThread]: End processing [SudReg] error
+[2023-07-09 19:07:59] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/9e/6f/e684b2e7040cf2d42f26e7d70e5e2ce4f48618dd259c1d9a70055dad9cad/dvc-data-2.4.1.tar.gz
+[2023-07-09 19:07:59] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 19:07:59] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/19/94/2bda62a1f42ae0d97df5144a5baae8c96f6fe6beb36895ed3e6e9e49cf66/mailpit-api-client-0.12.2.tar.gz
+[2023-07-09 19:07:59] INFO root fetch - processPackages [re-action-template]: Downloading https://files.pythonhosted.org/packages/83/ba/aaffc94c2559beadaca2f369c4cee2535f73fe072370ca3be66ea541e262/re_action_template-2.0.2-py3-none-any.whl
+[2023-07-09 19:07:59] INFO root fetch - processPackages [geneweaver-client]: Downloading https://files.pythonhosted.org/packages/77/69/4c3d2b1d66312e7ca44f3526d5ef8a519f84ac01f261bf69efb4064c6689/geneweaver_client-0.0.1a0.dev1.tar.gz
+[2023-07-09 19:07:59] INFO root fetch - processPackages [django-app-helper]: Downloading https://files.pythonhosted.org/packages/1a/1a/983971877eab3f95174076be30578e833629b4a8163e4121b24d585b3ec7/django-app-helper-3.3.0.tar.gz
+[2023-07-09 19:07:59] INFO root fetch - processPackages [robotframework-browser]: Downloading https://files.pythonhosted.org/packages/c7/d2/62113ec1f0fc7df63c2554cd7da97407ec2cc6f1be18645f8f132e811c67/robotframework-browser-9.0.1.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ad/c4/9ad0476a08ec1aa78aece90b018eab080c71c4962c0b5b79a9f02214eb2d/sydeploy-0.2.2rc0.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/b6/e6/f88d95c0b20165f24c925b8443337667e54ba1eef2a21eacbb8b598a4910/mailpit-api-client-1.0.0.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/d8/07/74a77eddf484ace42bb18dbfe1b1ff1ab2b458293a3f293ca77dcefa89e1/dvc-data-2.5.0.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [re-action-template]: Downloading https://files.pythonhosted.org/packages/e0/c3/66ccf22d6f1b549c69fc3005ce3d3c76f0c8c322c26f4f2ed72610b0e75f/re_action_template-2.0.3-py3-none-any.whl
+[2023-07-09 19:08:00] INFO root fetch - processPackages [mailpit-api-client]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [mailpit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailpit-api-client-0.12.2.tar.gz tmp/mailpit-api-client-1.0.0.tar.gz --markdown 20230709/m/mailpit-api-client/0.12.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 19:08:00] INFO root fetch - processPackages [django-app-helper]: Downloading https://files.pythonhosted.org/packages/db/a6/bf9799177f488c6c59b73c35b275af9294f6eac428eb97d4d8b682c19f14/django-app-helper-3.3.1.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc9.tar.gz tmp/sydeploy-0.2.2rc0.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc9-0.2.2rc0/diff.md --exclude *.pyd
+[2023-07-09 19:08:00] INFO root fetch - processPackages [geneweaver-client]: Downloading https://files.pythonhosted.org/packages/a9/0b/5c9c86d85dc342a4a260211c2202db471736ad9ffdbce5d94a29fb930c39/geneweaver_client-0.0.1a1.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [re-action-template]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [re-action-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_action_template-2.0.2-py3-none-any.whl.zip tmp/re_action_template-2.0.3-py3-none-any.whl.zip --markdown 20230709/r/re-action-template/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-09 19:08:00] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.4.1.tar.gz tmp/dvc-data-2.5.0.tar.gz --markdown 20230709/d/dvc-data/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-07-09 19:08:00] INFO root fetch - processPackages [robotframework-browser]: Downloading https://files.pythonhosted.org/packages/be/8d/390a87957941e7175ae2631504ea65babd8e9f6420115642184816aa59c5/robotframework-browser-9.0.2.tar.gz
+[2023-07-09 19:08:00] INFO root fetch - processPackages [django-app-helper]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [django-app-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-app-helper-3.3.0.tar.gz tmp/django-app-helper-3.3.1.tar.gz --markdown 20230709/d/django-app-helper/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-09 19:08:00] INFO root fetch - processPackages [geneweaver-client]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [geneweaver-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneweaver_client-0.0.1a0.dev1.tar.gz tmp/geneweaver_client-0.0.1a1.tar.gz --markdown 20230709/g/geneweaver-client/0.0.1a0.dev1-0.0.1a1/diff.md --exclude *.pyd
+[2023-07-09 19:08:00] INFO root fetch - processPackages [robotframework-browser]: executing diffoscope
+[2023-07-09 19:08:00] INFO root fetch - processPackages [robotframework-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-browser-9.0.1.tar.gz tmp/robotframework-browser-9.0.2.tar.gz --markdown 20230709/r/robotframework-browser/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-07-09 19:08:01] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc9.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc0.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:08:01] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.12.2.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-1.0.0.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - main [MainThread]: End processing [mailpit-api-client]: success
+[2023-07-09 19:08:01] INFO root fetch - processPackages [re-action-template]: Remove: archive file [/home/abi/fetcher/tmp/re_action_template-2.0.2-py3-none-any.whl.zip]
+[2023-07-09 19:08:01] INFO root fetch - processPackages [re-action-template]: Remove: archive file [/home/abi/fetcher/tmp/re_action_template-2.0.3-py3-none-any.whl.zip]
+[2023-07-09 19:08:01] INFO root fetch - main [MainThread]: End processing [re-action-template]: success
+[2023-07-09 19:08:01] INFO root fetch - processPackages [geneweaver-client]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_client-0.0.1a0.dev1.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - processPackages [geneweaver-client]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_client-0.0.1a1.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - main [MainThread]: End processing [geneweaver-client]: success
+[2023-07-09 19:08:01] INFO root fetch - processPackages [django-app-helper]: Remove: archive file [/home/abi/fetcher/tmp/django-app-helper-3.3.0.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - processPackages [django-app-helper]: Remove: archive file [/home/abi/fetcher/tmp/django-app-helper-3.3.1.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - main [MainThread]: End processing [django-app-helper]: success
+[2023-07-09 19:08:01] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.4.1.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.5.0.tar.gz]
+[2023-07-09 19:08:01] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-07-09 19:08:02] INFO root fetch - processPackages [robotframework-browser]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-browser-9.0.1.tar.gz]
+[2023-07-09 19:08:02] INFO root fetch - processPackages [robotframework-browser]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-browser-9.0.2.tar.gz]
+[2023-07-09 19:08:02] INFO root fetch - main [MainThread]: End processing [robotframework-browser]: success
+[2023-07-09 19:08:02] INFO root fetch - main [MainThread]: Store serial: [18821985]

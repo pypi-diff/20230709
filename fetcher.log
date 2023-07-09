@@ -10786,3 +10786,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:31:52] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-09 16:31:52] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-09 16:31:52] INFO root fetch - main [MainThread]: Store serial: [18820939]
+[2023-07-09 16:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820939]
+[2023-07-09 16:37:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnivorex
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databroker
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtstools
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-admin-cursor-paginator
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phable
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sydeploy
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-astrolab
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nb-log-file-handler
+[2023-07-09 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnivorex
+[2023-07-09 16:37:01] INFO root fetch - processPackages [omnivorex]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [django-admin-cursor-paginator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [phable]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [py-astrolab]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc9] Old Version: [0.2.1rc8]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [dtstools]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [omnivorex]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [nb-log-file-handler]: New version: [0.2] Old Version: [0.1]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [databroker]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-09 16:37:01] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/db/81/c99aa555e77babbb54bc32a7db7756d6b597fce7eefe699de505bf897517/sydeploy-0.2.1rc8.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/0a/94/b61ceef3453a40e867bc492d0735715ec87b4c48ca7677590efb92d934cc/dtstools-0.0.7.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/3e/28/4e89f6caaaa3dfaee34ebf7ac17f77d8ddbcf4590a9595e38c20048bd9c4/omnivorex-0.0.3.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/3e/28/4e89f6caaaa3dfaee34ebf7ac17f77d8ddbcf4590a9595e38c20048bd9c4/omnivorex-0.0.3.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [django-admin-cursor-paginator]: Downloading https://files.pythonhosted.org/packages/bc/0d/f7dced8494cecb9d346309a96d6997b4caf17adc1347ecfd83761e81f028/django-admin-cursor-paginator-0.1.3.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [nb-log-file-handler]: Downloading https://files.pythonhosted.org/packages/68/65/0e82049d1d66cf6e59516cf3f7121aefcdec1082e089bce6d776fee440ab/nb_log_file_handler-0.1.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/74/14/2006c213eae86d33242b0c47bcc80c217c85bb77a4e20d5101366be23829/py_astrolab-0.1.5.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [databroker]: Downloading https://files.pythonhosted.org/packages/80/1c/5a87734fbf67cac1c8e34133e8739152d55c2c8b22f99ef283532313c682/databroker-2.0.0b8.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/30/a6/d813ba5e7a51e15726c607daa98754b678ab982f0cb1628c2f85291c1ca8/phable-0.1.8.tar.gz
+[2023-07-09 16:37:02] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-09 16:37:02] INFO root fetch - processPackages [music-assistant]: Start processing: nhl-api-py
+[2023-07-09 16:37:02] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-09 16:37:02] INFO root fetch - processPackages [nhl-api-py]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-09 16:37:02] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/a7/8a/6bed25f3dbd221629b4c96dd21fb83bd4c618cad024ec5887b8122ef27e0/dtstools-0.0.8.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/2c/b0/b6ff5b3c9c4dd265de74cd80c9928ab592a7c902600e0358868d56cf013e/omnivorex-0.0.4.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/2c/b0/b6ff5b3c9c4dd265de74cd80c9928ab592a7c902600e0358868d56cf013e/omnivorex-0.0.4.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [django-admin-cursor-paginator]: Downloading https://files.pythonhosted.org/packages/23/90/b663f68e4398de9d0ca45a0e638672a5b7500f7c19bae50c522a0c5306ac/django-admin-cursor-paginator-0.1.4.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/c5/37/4bbea458e62c41666caaba7376730a8ff1d13ba5f87d823768a89694babe/nhl_api_py-0.4.6.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/a2/f7/3464a08713e655ec57b301d9831db9d848ccee6c8a1179fb840dad60c36a/py_astrolab-0.1.6.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [nb-log-file-handler]: Downloading https://files.pythonhosted.org/packages/2c/93/ee7ab21e97415d663809c5e1ef7811516e6ab3cf3728c77ecf219f420d0f/nb_log_file_handler-0.2.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 16:37:02] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc8.tar.gz tmp/sydeploy-0.2.1rc9.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc8-0.2.1rc9/diff.md --exclude *.pyd
+[2023-07-09 16:37:02] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/82/2d/3a8ea8a32a694519cacaa74de7d4d45ccd4f524e5eacdd1654370365bc85/phable-0.1.9.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-07-09 16:37:02] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.7.tar.gz tmp/dtstools-0.0.8.tar.gz --markdown 20230709/d/dtstools/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 16:37:02] INFO root fetch - processPackages [databroker]: Downloading https://files.pythonhosted.org/packages/10/e8/c5d012931f9841aee1a229e6e6fa9a63d305d74596cf6f8aa9b070cc1972/databroker-2.0.0b9.tar.gz
+[2023-07-09 16:37:02] INFO root fetch - processPackages [django-admin-cursor-paginator]: executing diffoscope
+[2023-07-09 16:37:02] INFO root fetch - processPackages [django-admin-cursor-paginator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-cursor-paginator-0.1.3.tar.gz tmp/django-admin-cursor-paginator-0.1.4.tar.gz --markdown 20230709/d/django-admin-cursor-paginator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.3.tar.gz tmp/omnivorex-0.0.4.tar.gz --markdown 20230709/o/omnivorex/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.3.tar.gz tmp/omnivorex-0.0.4.tar.gz --markdown 20230709/o/omnivorex/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [nb-log-file-handler]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [nb-log-file-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log_file_handler-0.1.tar.gz tmp/nb_log_file_handler-0.2.tar.gz --markdown 20230709/n/nb-log-file-handler/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [phable]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [phable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phable-0.1.8.tar.gz tmp/phable-0.1.9.tar.gz --markdown 20230709/p/phable/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.1.5.tar.gz tmp/py_astrolab-0.1.6.tar.gz --markdown 20230709/p/py-astrolab/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/8f/57/493a791e34386e8c168f55f31508e96e1e7bc3237430e59acd583d060244/nhl_api_py-0.4.7.tar.gz
+[2023-07-09 16:37:03] INFO root fetch - processPackages [databroker]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [databroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databroker-2.0.0b8.tar.gz tmp/databroker-2.0.0b9.tar.gz --markdown 20230709/d/databroker/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-09 16:37:03] INFO root fetch - processPackages [nhl-api-py]: executing diffoscope
+[2023-07-09 16:37:03] INFO root fetch - processPackages [nhl-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhl_api_py-0.4.6.tar.gz tmp/nhl_api_py-0.4.7.tar.gz --markdown 20230709/n/nhl-api-py/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-09 16:37:04] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc8.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc9.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [sydeploy]: Start processing: nwebclient
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 16:37:04] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.3.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.4.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.7.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.8.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [dtstools]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nb-log-file-handler]: Remove: archive file [/home/abi/fetcher/tmp/nb_log_file_handler-0.1.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nb-log-file-handler]: Remove: archive file [/home/abi/fetcher/tmp/nb_log_file_handler-0.2.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [nb-log-file-handler]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [django-admin-cursor-paginator]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-cursor-paginator-0.1.3.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [django-admin-cursor-paginator]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-cursor-paginator-0.1.4.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [django-admin-cursor-paginator]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 16:37:04] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.8.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.9.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [phable]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.1.5.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.1.6.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.6.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.7.tar.gz]
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [nhl-api-py]: success
+[2023-07-09 16:37:04] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 16:37:05] INFO root fetch - processPackages [databroker]: Remove: archive file [/home/abi/fetcher/tmp/databroker-2.0.0b8.tar.gz]
+[2023-07-09 16:37:05] INFO root fetch - processPackages [databroker]: Remove: archive file [/home/abi/fetcher/tmp/databroker-2.0.0b9.tar.gz]
+[2023-07-09 16:37:05] INFO root fetch - main [MainThread]: End processing [databroker]: success
+[2023-07-09 16:37:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 16:37:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 16:37:05] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 16:37:05] INFO root fetch - main [MainThread]: Store serial: [18820973]

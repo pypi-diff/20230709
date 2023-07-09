@@ -7654,3 +7654,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:24:56] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-07-09 12:24:56] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-07-09 12:24:56] INFO root fetch - main [MainThread]: Store serial: [18819535]
+[2023-07-09 12:29:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819535]
+[2023-07-09 12:30:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stimcirq
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinter
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-telegram-bot
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-telegram-bot-raw
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-shelly-fixgambit
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prolog-primitives
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: load-environ-typed
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkatlas
+[2023-07-09 12:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrapinglib
+[2023-07-09 12:30:05] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: New version: [20230709.8.11.438555] Old Version: [20230709.10.26.261782]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [python-telegram-bot]: New version: [9.0.0] Old Version: [8.1.1]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [load-environ-typed]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [python-telegram-bot-raw]: New version: [20.4] Old Version: [20.3]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [prolog-primitives]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [checkatlas]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [scrapinglib]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-09 12:30:05] INFO root fetch - processPackages [load-environ-typed]: Downloading https://files.pythonhosted.org/packages/59/34/22dc3be02ca73155618fa033677e16705bc4b92f9beed14e3466d8cef15f/load_environ_typed-0.1.1.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Downloading https://files.pythonhosted.org/packages/2c/f5/d388dc49eedbadfc7be1c9572899c2d824bc31e1fecd346501de73da78f9/certora-cli-alpha-shelly-fixgambit-20230709.10.26.261782.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/3a/66/3d21942c500dc5b937867c88ff9e1a6bc19908d600abf8c676ef799e4482/prolog_primitives-1.0.1.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [python-telegram-bot]: Downloading https://files.pythonhosted.org/packages/b4/d4/66e153eb470179dd6346ae1f5a50c75b871c2263ab7b976427b2d9722689/python-telegram-bot-8.1.1.tar.gz
+[2023-07-09 12:30:05] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Skipping package: exceeds size limit 40647162>=10485760
+[2023-07-09 12:30:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixgambit] error
+[2023-07-09 12:30:05] INFO root fetch - processPackages [python-telegram-bot-raw]: Downloading https://files.pythonhosted.org/packages/02/13/83236566864b65ff44b8a2f044e0faf0da28fcfc22e8dff7a4602c362dc9/python-telegram-bot-raw-20.3.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/e4/2e/7cdbbfdcf29ad4488d0ea6a67d44428e8b25079f311e52c6d0309f614e8a/checkatlas-0.2.8.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [scrapinglib]: Downloading https://files.pythonhosted.org/packages/3b/a6/50e2f029239cb22d6f8de1dcd325cf889efb3373a5654eb3979434ca6782/scrapinglib-0.6.0.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [load-environ-typed]: Downloading https://files.pythonhosted.org/packages/7a/d3/4093b19856ddbdd1904c03d7174495619a1a725938bfdbfd158a0a3856f8/load_environ_typed-0.2.0.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/e3/eb/344bc28a65ad3216e7e03d029de187a8e1392be8661fe94c95435dfad824/prolog_primitives-1.0.2.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [load-environ-typed]: executing diffoscope
+[2023-07-09 12:30:05] INFO root fetch - processPackages [load-environ-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load_environ_typed-0.1.1.tar.gz tmp/load_environ_typed-0.2.0.tar.gz --markdown 20230709/l/load-environ-typed/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 12:30:05] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [python-telegram-bot-raw]: Downloading https://files.pythonhosted.org/packages/24/fa/c818a40234fcf6ed9ec4407c15d3dafb0eb9d1fdac985089e7a7541d109a/python-telegram-bot-raw-20.4.tar.gz
+[2023-07-09 12:30:05] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-09 12:30:05] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-1.0.1.tar.gz tmp/prolog_primitives-1.0.2.tar.gz --markdown 20230709/p/prolog-primitives/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [scrapinglib]: Downloading https://files.pythonhosted.org/packages/1b/c0/f3d4cb0992384f8b14e3920355b6116c584d4633108068b29a836b4a2e25/scrapinglib-0.6.1.tar.gz
+[2023-07-09 12:30:06] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-07-09 12:30:06] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-07-09 12:30:06] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230709/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/f7/87/e9c9bb0448f6d98c666cb42c5491136038203ad50e695025afb0f3a12ae4/checkatlas-0.2.9.tar.gz
+[2023-07-09 12:30:06] INFO root fetch - processPackages [python-telegram-bot]: Downloading https://files.pythonhosted.org/packages/f6/bc/a63239325cc5a28c5bee06fdf0a259fc4100194c11e6d029036aa6fe7ea8/python-telegram-bot-9.0.0.tar.gz
+[2023-07-09 12:30:06] INFO root fetch - processPackages [python-telegram-bot-raw]: executing diffoscope
+[2023-07-09 12:30:06] INFO root fetch - processPackages [python-telegram-bot-raw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-bot-raw-20.3.tar.gz tmp/python-telegram-bot-raw-20.4.tar.gz --markdown 20230709/p/python-telegram-bot-raw/20.3-20.4/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [scrapinglib]: executing diffoscope
+[2023-07-09 12:30:06] INFO root fetch - processPackages [scrapinglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapinglib-0.6.0.tar.gz tmp/scrapinglib-0.6.1.tar.gz --markdown 20230709/s/scrapinglib/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-09 12:30:06] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.8.tar.gz tmp/checkatlas-0.2.9.tar.gz --markdown 20230709/c/checkatlas/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-07-09 12:30:06] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230709/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [python-telegram-bot]: executing diffoscope
+[2023-07-09 12:30:06] INFO root fetch - processPackages [python-telegram-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-bot-8.1.1.tar.gz tmp/python-telegram-bot-9.0.0.tar.gz --markdown 20230709/p/python-telegram-bot/8.1.1-9.0.0/diff.md --exclude *.pyd
+[2023-07-09 12:30:06] INFO root fetch - processPackages [load-environ-typed]: Remove: archive file [/home/abi/fetcher/tmp/load_environ_typed-0.1.1.tar.gz]
+[2023-07-09 12:30:06] INFO root fetch - processPackages [load-environ-typed]: Remove: archive file [/home/abi/fetcher/tmp/load_environ_typed-0.2.0.tar.gz]
+[2023-07-09 12:30:06] INFO root fetch - main [MainThread]: End processing [load-environ-typed]: success
+[2023-07-09 12:30:07] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.1.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.2.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-09 12:30:07] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-07-09 12:30:07] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.8.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.9.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-09 12:30:07] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-07-09 12:30:07] INFO root fetch - processPackages [scrapinglib]: Remove: archive file [/home/abi/fetcher/tmp/scrapinglib-0.6.0.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - processPackages [scrapinglib]: Remove: archive file [/home/abi/fetcher/tmp/scrapinglib-0.6.1.tar.gz]
+[2023-07-09 12:30:07] INFO root fetch - main [MainThread]: End processing [scrapinglib]: success
+[2023-07-09 12:30:08] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-8.1.1.tar.gz]
+[2023-07-09 12:30:08] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-9.0.0.tar.gz]
+[2023-07-09 12:30:08] INFO root fetch - main [MainThread]: End processing [python-telegram-bot]: success
+[2023-07-09 12:30:08] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-20.3.tar.gz]
+[2023-07-09 12:30:08] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-20.4.tar.gz]
+[2023-07-09 12:30:08] INFO root fetch - main [MainThread]: End processing [python-telegram-bot-raw]: success
+[2023-07-09 12:30:08] INFO root fetch - main [MainThread]: Store serial: [18819564]

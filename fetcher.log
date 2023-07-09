@@ -6100,3 +6100,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:48:54] ERROR root fetch - processPackages [sphinx-social-cards]: Timeout during execution of pkgdiff
 [2023-07-09 09:48:54] INFO root fetch - main [MainThread]: End processing [sphinx-social-cards] error
 [2023-07-09 09:48:54] INFO root fetch - main [MainThread]: Store serial: [18818762]
+[2023-07-09 09:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818762]
+[2023-07-09 09:54:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fm91
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: event-dispatching
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logsparsersubsystem
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: step
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fm91
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nescs
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ncm-clp-dl
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-capoo
+[2023-07-09 09:54:02] INFO root fetch - processPackages [logsparsersubsystem]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [fm91]: New version: [0.0.18a0] Old Version: [0.0.18]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [nescs]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ncm-clp-dl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [event-dispatching]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [nonebot-plugin-capoo]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [fm91]: New version: [0.0.18a0] Old Version: [0.0.18]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 09:54:02] WARNING root fetch - processPackages [step]: Skipping, unable to determine old version
+[2023-07-09 09:54:02] INFO root fetch - processPackages [step]: Start processing: pymeos-cffi
+[2023-07-09 09:54:02] INFO root fetch - main [MainThread]: End processing [step] error
+[2023-07-09 09:54:02] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [pymeos-cffi]: New version: [1.1.0a1] Old Version: [1.1.0a0]
+[2023-07-09 09:54:02] INFO root fetch - processPackages [ncm-clp-dl]: Downloading https://files.pythonhosted.org/packages/63/ad/25eadba65b1d56c1e1e7fae8d103a0b03c14e5255e8dd116dfe677af690d/ncm-clp-dl-0.0.2.tar.gz
+[2023-07-09 09:54:02] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-09 09:54:02] INFO root fetch - processPackages [logsparsersubsystem]: Downloading https://files.pythonhosted.org/packages/60/04/84b63b4bc644179d4390e60b01d367846804862bb3f077c39092ef237c2e/logsparsersubsystem-1.0.5.tar.gz
+[2023-07-09 09:54:02] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/b3/d7/6f031beb7e61a17f571873900ef32487063a7df7d812b6cddc654e15b18c/fm91-0.0.18.tar.gz
+[2023-07-09 09:54:02] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/b3/d7/6f031beb7e61a17f571873900ef32487063a7df7d812b6cddc654e15b18c/fm91-0.0.18.tar.gz
+[2023-07-09 09:54:02] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/97/8f/5d07da990b842941ed66c6ed082131ed96d3d7bc5efae88ab27219e89b37/nescs-0.3.4.tar.gz
+[2023-07-09 09:54:02] INFO root fetch - processPackages [nonebot-plugin-capoo]: Downloading https://files.pythonhosted.org/packages/ee/2a/9727f98e96544892f8969f9cd5c05cb9127e7fa17efb8c33a4ffc03d41f4/nonebot_plugin_capoo-0.0.6.tar.gz
+[2023-07-09 09:54:02] WARNING root fetch - processPackages [logsparsersubsystem]: Skipping package: exceeds size limit 21592464>=10485760
+[2023-07-09 09:54:02] INFO root fetch - processPackages [logsparsersubsystem]: Start processing: tf-nightly-cpu
+[2023-07-09 09:54:02] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
+[2023-07-09 09:54:03] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/5b/25/5887596d1eae6ec72830888c5836ef9b6a2e0602fa6e4d5a800c3f35a04d/event_dispatching-0.1.4.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [pymeos-cffi]: Downloading https://files.pythonhosted.org/packages/30/3e/9ce04915990c92e74e795e27da524e878fbc75eb7db5fd83af68460a6e22/pymeos_cffi-1.1.0a0.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230709] Old Version: [2.14.0.dev20230708]
+[2023-07-09 09:54:03] INFO root fetch - processPackages [ncm-clp-dl]: Downloading https://files.pythonhosted.org/packages/49/cc/be258c05209af95081d4d54cb0624b361e04825ea4140d2106b468875c65/ncm_clp_dl-0.0.3-py3-none-any.whl
+[2023-07-09 09:54:03] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/2d/a4/56e404117b8353b902d94f941eb567274b3de6b0e9aa7c56ec8d21121ed7/fm91-0.0.18a0.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/2d/a4/56e404117b8353b902d94f941eb567274b3de6b0e9aa7c56ec8d21121ed7/fm91-0.0.18a0.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-09 09:54:03] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/22/61/b770243f5cabe50b6d12ea069973c53f2f321fa5d32e0140cf41692f8a1d/nescs-0.3.5.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [event-dispatching]: Downloading https://files.pythonhosted.org/packages/d3/da/bbee15110ecb540f2def2746efc2f9b143ef22bfb1970aaf0a9aea85e536/event_dispatching-0.1.5.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [ncm-clp-dl]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [ncm-clp-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncm-clp-dl-0.0.2.tar.gz tmp/ncm_clp_dl-0.0.3-py3-none-any.whl.zip --markdown 20230709/n/ncm-clp-dl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 09:54:03] INFO root fetch - processPackages [nonebot-plugin-capoo]: Downloading https://files.pythonhosted.org/packages/7a/e1/f0c4ec8441723d0754d238aa7ff0b7fbe07bba2efe544c1af5a3afb9b5be/nonebot_plugin_capoo-0.1.0.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/3e/4d/3f96c72f4e261ce662ca7f2b45cb4914bc2a4f59aeb70207329865b235bf/tf_nightly_cpu-2.14.0.dev20230708-cp39-cp39-win_amd64.whl
+[2023-07-09 09:54:03] INFO root fetch - processPackages [pymeos-cffi]: Downloading https://files.pythonhosted.org/packages/9b/d2/adba37f5ea3fda3b40c6aecf472b881bd46657c1b43b53efcb32f1e17ef3/pymeos_cffi-1.1.0a1.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-09 09:54:03] INFO root fetch - processPackages [fm91]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [fm91]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fm91-0.0.18.tar.gz tmp/fm91-0.0.18a0.tar.gz --markdown 20230709/f/fm91/0.0.18-0.0.18a0/diff.md --exclude *.pyd
+[2023-07-09 09:54:03] INFO root fetch - processPackages [fm91]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [fm91]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fm91-0.0.18.tar.gz tmp/fm91-0.0.18a0.tar.gz --markdown 20230709/f/fm91/0.0.18-0.0.18a0/diff.md --exclude *.pyd
+[2023-07-09 09:54:03] INFO root fetch - processPackages [nescs]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [nescs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nescs-0.3.4.tar.gz tmp/nescs-0.3.5.tar.gz --markdown 20230709/n/nescs/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 09:54:03] INFO root fetch - processPackages [nonebot-plugin-capoo]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [nonebot-plugin-capoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_capoo-0.0.6.tar.gz tmp/nonebot_plugin_capoo-0.1.0.tar.gz --markdown 20230709/n/nonebot-plugin-capoo/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-09 09:54:03] INFO root fetch - processPackages [event-dispatching]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [event-dispatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_dispatching-0.1.4.tar.gz tmp/event_dispatching-0.1.5.tar.gz --markdown 20230709/e/event-dispatching/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 09:54:03] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-09 09:54:03] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230709/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-09 09:54:04] INFO root fetch - processPackages [pymeos-cffi]: executing diffoscope
+[2023-07-09 09:54:04] INFO root fetch - processPackages [pymeos-cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeos_cffi-1.1.0a0.tar.gz tmp/pymeos_cffi-1.1.0a1.tar.gz --markdown 20230709/p/pymeos-cffi/1.1.0a0-1.1.0a1/diff.md --exclude *.pyd
+[2023-07-09 09:54:04] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/44/ef/48285e445974e978f47957dc2693267d872d25ffee5fc37edf95efef4aca/tf_nightly_cpu-2.14.0.dev20230709-cp39-cp39-win_amd64.whl
+[2023-07-09 09:54:04] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-09 09:54:04] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230709/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 09:54:04] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-09 09:54:04] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230708-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230709-cp39-cp39-win_amd64.whl.zip --markdown 20230709/t/tf-nightly-cpu/2.14.0.dev20230708-2.14.0.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 09:54:04] INFO root fetch - processPackages [ncm-clp-dl]: Remove: archive file [/home/abi/fetcher/tmp/ncm-clp-dl-0.0.2.tar.gz]
+[2023-07-09 09:54:04] INFO root fetch - processPackages [ncm-clp-dl]: Remove: archive file [/home/abi/fetcher/tmp/ncm_clp_dl-0.0.3-py3-none-any.whl.zip]
+[2023-07-09 09:54:04] INFO root fetch - processPackages [ncm-clp-dl]: Start processing: sqldao-generator
+[2023-07-09 09:54:04] INFO root fetch - main [MainThread]: End processing [ncm-clp-dl]: success
+[2023-07-09 09:54:04] WARNING root fetch - processPackages [sqldao-generator]: Skipping, unable to determine old version
+[2023-07-09 09:54:04] INFO root fetch - main [MainThread]: End processing [sqldao-generator] error
+[2023-07-09 09:54:05] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.4.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.5.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [nescs]: success
+[2023-07-09 09:54:05] INFO root fetch - processPackages [fm91]: Remove: archive file [/home/abi/fetcher/tmp/fm91-0.0.18.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - processPackages [fm91]: Remove: archive file [/home/abi/fetcher/tmp/fm91-0.0.18a0.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [fm91]: success
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [fm91]: success
+[2023-07-09 09:54:05] INFO root fetch - processPackages [nonebot-plugin-capoo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_capoo-0.0.6.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - processPackages [nonebot-plugin-capoo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_capoo-0.1.0.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-capoo]: success
+[2023-07-09 09:54:05] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.4.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - processPackages [event-dispatching]: Remove: archive file [/home/abi/fetcher/tmp/event_dispatching-0.1.5.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [event-dispatching]: success
+[2023-07-09 09:54:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230708-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 09:54:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230709-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-09 09:54:05] INFO root fetch - processPackages [pymeos-cffi]: Remove: archive file [/home/abi/fetcher/tmp/pymeos_cffi-1.1.0a0.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - processPackages [pymeos-cffi]: Remove: archive file [/home/abi/fetcher/tmp/pymeos_cffi-1.1.0a1.tar.gz]
+[2023-07-09 09:54:05] INFO root fetch - main [MainThread]: End processing [pymeos-cffi]: success
+[2023-07-09 09:54:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-09 09:54:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-09 09:54:07] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-09 09:54:07] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-09 09:54:07] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-09 09:54:07] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-09 09:54:07] INFO root fetch - main [MainThread]: Store serial: [18818817]

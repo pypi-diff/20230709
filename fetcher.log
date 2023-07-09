@@ -5012,3 +5012,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:01:46] INFO root fetch - processPackages [metaapi-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/metaapi_cloud_sdk-9.1.0.tar.gz]
 [2023-07-09 08:01:46] INFO root fetch - main [MainThread]: End processing [metaapi-cloud-sdk]: success
 [2023-07-09 08:01:46] INFO root fetch - main [MainThread]: Store serial: [18818291]
+[2023-07-09 08:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818291]
+[2023-07-09 08:06:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: load-environ-typed
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revChatGPT
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wajig
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfirebird
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auth-lib-profcomff
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbot
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pix2vec
+[2023-07-09 08:06:55] INFO root fetch - processPackages [auth-lib-profcomff]: New version: [2023.7.9.1] Old Version: [2023.7.9]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ngmapi]: New version: [0.0.30] Old Version: [0.0.3]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [wajig]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [load-environ-typed]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [revChatGPT]: New version: [6.8.1] Old Version: [6.8.0]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [bbot]: New version: [1.0.5.1802rc0] Old Version: [1.0.5.1800rc0]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [pix2vec]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 08:06:55] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/6d/8e/bc25c5f75297d9ffc2315ffb88e8b6cc9603e07cdebd302ffd5c561e32d6/auth_lib_profcomff-2023.7.9.tar.gz
+[2023-07-09 08:06:55] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/ba/5c/3e651b902446e6b2454e3d8f4ea1741befdcad65b4f95eb135d72fee6deb/revChatGPT-6.8.0.tar.gz
+[2023-07-09 08:06:55] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 08:06:55] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/be/29/6b2dda1383cd3f5d26d1e87adaa86ecf4aac954ea5b2d4977ed92cb6edc1/pyfirebird-0.0.61.tar.gz
+[2023-07-09 08:06:55] INFO root fetch - processPackages [wajig]: Downloading https://files.pythonhosted.org/packages/05/e4/56472f53c61786b30357b9d78b7bb0973c87bc0d3be5c4ec1641bf91a95e/wajig-4.1.0.tar.gz
+[2023-07-09 08:06:55] INFO root fetch - processPackages [load-environ-typed]: Downloading https://files.pythonhosted.org/packages/59/34/22dc3be02ca73155618fa033677e16705bc4b92f9beed14e3466d8cef15f/load_environ_typed-0.1.1.tar.gz
+[2023-07-09 08:06:55] INFO root fetch - processPackages [pix2vec]: Downloading https://files.pythonhosted.org/packages/3e/1f/7ffa62eb5298945affea60b04de1180f5b1b398417dd926aacc314f759f6/pix2vec-0.1.2.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/e7/35/38566aa54b57d5c43e29a168ef1bd0aba2eecfed4922eda1df370d12a7d3/bbot-1.0.5.1800rc0.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/9e/53/031e7992ac7947f96322f25acf9bfcb83948ce1fe54ac3d061e7da1bad32/auth_lib_profcomff-2023.7.9.1.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/66/d7/5e1b35b3fd000c13d6b6fd3d5d701b35632f0292d09ab64877885e154346/revChatGPT-6.8.1.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/e1/68c932284654fb7c2d6d12e100ac4ee689afbf7e12cfa2db1614419e36e8/ngmapi-0.0.30.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/7e/e5/0ca46ee9390ebbc0046b21b0862fca80a63fd17b89f013ef27f452ac23bc/pyfirebird-0.0.62.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [load-environ-typed]: Downloading https://files.pythonhosted.org/packages/7a/d3/4093b19856ddbdd1904c03d7174495619a1a725938bfdbfd158a0a3856f8/load_environ_typed-0.2.0.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [wajig]: Downloading https://files.pythonhosted.org/packages/5b/02/7c1c2f87c20cb0e2d5857201096735e31e37d618a2e31115bbf8880f6eb4/wajig-4.1.1.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.3.tar.gz tmp/ngmapi-0.0.30.tar.gz --markdown 20230709/n/ngmapi/0.0.3-0.0.30/diff.md --exclude *.pyd
+[2023-07-09 08:06:56] INFO root fetch - processPackages [auth-lib-profcomff]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [auth-lib-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_lib_profcomff-2023.7.9.tar.gz tmp/auth_lib_profcomff-2023.7.9.1.tar.gz --markdown 20230709/a/auth-lib-profcomff/2023.7.9-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 08:06:56] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.8.0.tar.gz tmp/revChatGPT-6.8.1.tar.gz --markdown 20230709/r/revChatGPT/6.8.0-6.8.1/diff.md --exclude *.pyd
+[2023-07-09 08:06:56] INFO root fetch - processPackages [load-environ-typed]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [load-environ-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load_environ_typed-0.1.1.tar.gz tmp/load_environ_typed-0.2.0.tar.gz --markdown 20230709/l/load-environ-typed/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 08:06:56] INFO root fetch - processPackages [wajig]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [wajig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wajig-4.1.0.tar.gz tmp/wajig-4.1.1.tar.gz --markdown 20230709/w/wajig/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-07-09 08:06:56] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.61.tar.gz tmp/pyfirebird-0.0.62.tar.gz --markdown 20230709/p/pyfirebird/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-07-09 08:06:56] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/29/97/81b61065ecd8a549386ffec7ea456a652b677b63b065ddd440cb38379a47/bbot-1.0.5.1802rc0.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [pix2vec]: Downloading https://files.pythonhosted.org/packages/82/a2/2b8a0bc5f1898daf4be2513ccb4d11c641efa0f53a9ab1dd94eb56951c9e/pix2vec-0.1.3.tar.gz
+[2023-07-09 08:06:56] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-07-09 08:06:56] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.0.5.1800rc0.tar.gz tmp/bbot-1.0.5.1802rc0.tar.gz --markdown 20230709/b/bbot/1.0.5.1800rc0-1.0.5.1802rc0/diff.md --exclude *.pyd
+[2023-07-09 08:06:57] INFO root fetch - processPackages [pix2vec]: executing diffoscope
+[2023-07-09 08:06:57] INFO root fetch - processPackages [pix2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix2vec-0.1.2.tar.gz tmp/pix2vec-0.1.3.tar.gz --markdown 20230709/p/pix2vec/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 08:06:57] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.30.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 08:06:57] INFO root fetch - processPackages [load-environ-typed]: Remove: archive file [/home/abi/fetcher/tmp/load_environ_typed-0.1.1.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - processPackages [load-environ-typed]: Remove: archive file [/home/abi/fetcher/tmp/load_environ_typed-0.2.0.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - main [MainThread]: End processing [load-environ-typed]: success
+[2023-07-09 08:06:57] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2023.7.9.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2023.7.9.1.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
+[2023-07-09 08:06:57] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.8.0.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.8.1.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-07-09 08:06:57] INFO root fetch - processPackages [wajig]: Remove: archive file [/home/abi/fetcher/tmp/wajig-4.1.0.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - processPackages [wajig]: Remove: archive file [/home/abi/fetcher/tmp/wajig-4.1.1.tar.gz]
+[2023-07-09 08:06:57] INFO root fetch - main [MainThread]: End processing [wajig]: success
+[2023-07-09 08:06:58] INFO root fetch - processPackages [pix2vec]: Remove: archive file [/home/abi/fetcher/tmp/pix2vec-0.1.2.tar.gz]
+[2023-07-09 08:06:58] INFO root fetch - processPackages [pix2vec]: Remove: archive file [/home/abi/fetcher/tmp/pix2vec-0.1.3.tar.gz]
+[2023-07-09 08:06:58] INFO root fetch - main [MainThread]: End processing [pix2vec]: success
+[2023-07-09 08:06:58] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.0.5.1800rc0.tar.gz]
+[2023-07-09 08:06:58] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.0.5.1802rc0.tar.gz]
+[2023-07-09 08:06:58] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-07-09 08:07:00] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.61.tar.gz]
+[2023-07-09 08:07:00] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.62.tar.gz]
+[2023-07-09 08:07:00] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 08:07:00] INFO root fetch - main [MainThread]: Store serial: [18818314]

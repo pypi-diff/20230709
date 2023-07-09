@@ -3263,3 +3263,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:15:16] INFO root fetch - processPackages [cuda-ext-example]: Remove: archive file [/home/abi/fetcher/tmp/cuda_ext_example-0.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-09 05:15:16] INFO root fetch - main [MainThread]: End processing [cuda-ext-example]: success
 [2023-07-09 05:15:16] INFO root fetch - main [MainThread]: Store serial: [18817606]
+[2023-07-09 05:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817606]
+[2023-07-09 05:20:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-website-sale-hide-price
+[2023-07-09 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparse-dok
+[2023-07-09 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chikbip158
+[2023-07-09 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: service-markets
+[2023-07-09 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-invoice-facturx
+[2023-07-09 05:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geostat
+[2023-07-09 05:20:25] INFO root fetch - processPackages [geostat]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-09 05:20:25] INFO root fetch - processPackages [service-markets]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-09 05:20:25] INFO root fetch - processPackages [sparse-dok]: New version: [0.1.9.2] Old Version: [0.1.9.1]
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [16.0.1.2.1.1] Old Version: [16.0.1.2.1]
+[2023-07-09 05:20:25] WARNING root fetch - processPackages [chikbip158]: Skipping, unable to determine old version
+[2023-07-09 05:20:25] INFO root fetch - main [MainThread]: End processing [chikbip158] error
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-09 05:20:25] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/81/80/11aae2a2f895ec5433dc5813a2260f04b452f136bf7912b8a94c81ce3242/service_markets-0.3.2.tar.gz
+[2023-07-09 05:20:25] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/40/8a/60d99ef4645c47939221456f7ef20c8a07b13075b27d4bd38fbf26bc8011/sparse_dok-0.1.9.1.tar.gz
+[2023-07-09 05:20:25] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/a4/ab/c0d62ba842d61c4a9b17ff04fc938deef3f5f33fcad72b6c3b61b4b6a6f9/geostat-0.9.0.tar.gz
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Downloading https://files.pythonhosted.org/packages/59/b7/23c1a092f5f003d42353b3eaf452e4cede93738a6e4ed17cc8cb8be77a82/odoo_addon_account_invoice_facturx-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/4d/0f/3b899d2ab5985e35c34f038e420f6c70f2df79e29c8abcefa239d02ceeaf/odoo_addon_website_sale_hide_price-16.0.1.2.1-py3-none-any.whl
+[2023-07-09 05:20:25] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/d5/5a/91639f14f9e0174eae4f61a0a9e460519109e1943f376461714c2b35cfe4/service_markets-0.3.3.tar.gz
+[2023-07-09 05:20:25] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/71/32/570c5e36a802aabd25465951e2903d3f1784ca1af3b0780c02d9efbb7224/sparse_dok-0.1.9.2.tar.gz
+[2023-07-09 05:20:25] INFO root fetch - processPackages [geostat]: Downloading https://files.pythonhosted.org/packages/ba/52/6414510d482cb8b5a8bb6e5d1b512714df44355dac63efe24e6028c75d28/geostat-0.9.1.tar.gz
+[2023-07-09 05:20:25] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 05:20:25] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.2.tar.gz tmp/service_markets-0.3.3.tar.gz --markdown 20230709/s/service-markets/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/18/83/c6174163863563a47ecc15230e691705baaf407a1e8167d45cf5a203e195/odoo_addon_website_sale_hide_price-16.0.1.2.1.1-py3-none-any.whl
+[2023-07-09 05:20:25] INFO root fetch - processPackages [sparse-dok]: executing diffoscope
+[2023-07-09 05:20:25] INFO root fetch - processPackages [sparse-dok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dok-0.1.9.1.tar.gz tmp/sparse_dok-0.1.9.2.tar.gz --markdown 20230709/s/sparse-dok/0.1.9.1-0.1.9.2/diff.md --exclude *.pyd
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Downloading https://files.pythonhosted.org/packages/46/55/ef7803ac9c33bf62c65b554d71396094411f486c2fa68cc09cc884cdd7df/odoo_addon_account_invoice_facturx-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2023-07-09 05:20:25] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-16.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-16.0.1.2.1.1-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-website-sale-hide-price/16.0.1.2.1-16.0.1.2.1.1/diff.md --exclude *.pyd
+[2023-07-09 05:20:26] INFO root fetch - processPackages [geostat]: executing diffoscope
+[2023-07-09 05:20:26] INFO root fetch - processPackages [geostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geostat-0.9.0.tar.gz tmp/geostat-0.9.1.tar.gz --markdown 20230709/g/geostat/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-09 05:20:26] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: executing diffoscope
+[2023-07-09 05:20:26] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_facturx-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_facturx-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-account-invoice-facturx/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-09 05:20:26] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.2.tar.gz]
+[2023-07-09 05:20:26] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.3.tar.gz]
+[2023-07-09 05:20:26] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 05:20:26] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.1.tar.gz]
+[2023-07-09 05:20:26] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.2.tar.gz]
+[2023-07-09 05:20:26] INFO root fetch - main [MainThread]: End processing [sparse-dok]: success
+[2023-07-09 05:20:27] INFO root fetch - processPackages [geostat]: Remove: archive file [/home/abi/fetcher/tmp/geostat-0.9.0.tar.gz]
+[2023-07-09 05:20:27] INFO root fetch - processPackages [geostat]: Remove: archive file [/home/abi/fetcher/tmp/geostat-0.9.1.tar.gz]
+[2023-07-09 05:20:27] INFO root fetch - main [MainThread]: End processing [geostat]: success
+[2023-07-09 05:20:27] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_facturx-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-09 05:20:27] INFO root fetch - processPackages [odoo-addon-account-invoice-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_facturx-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-09 05:20:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-facturx]: success
+[2023-07-09 05:20:27] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-16.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-09 05:20:27] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-16.0.1.2.1.1-py3-none-any.whl.zip]
+[2023-07-09 05:20:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2023-07-09 05:20:27] INFO root fetch - main [MainThread]: Store serial: [18817643]

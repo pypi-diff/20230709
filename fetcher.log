@@ -814,3 +814,54 @@
 [2023-07-09 01:58:52] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.2.tar.gz]
 [2023-07-09 01:58:52] INFO root fetch - main [MainThread]: End processing [langdash]: success
 [2023-07-09 01:58:52] INFO root fetch - main [MainThread]: Store serial: [18816615]
+[2023-07-09 02:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816615]
+[2023-07-09 02:04:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 02:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nir
+[2023-07-09 02:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2023-07-09 02:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal
+[2023-07-09 02:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: service-markets
+[2023-07-09 02:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-motor
+[2023-07-09 02:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchdatasets-nightly
+[2023-07-09 02:04:01] INFO root fetch - processPackages [nir]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 02:04:01] INFO root fetch - processPackages [modal]: New version: [0.50.2614] Old Version: [0.50.2611]
+[2023-07-09 02:04:01] INFO root fetch - processPackages [service-markets]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-09 02:04:01] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688774606] Old Version: [1688688221]
+[2023-07-09 02:04:01] INFO root fetch - processPackages [modal-client]: New version: [0.50.2614] Old Version: [0.50.2611]
+[2023-07-09 02:04:01] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/a1/0f/958a43b76973927e3718093f0f0712539da8f063d59e3f2535f11814d8f0/torchdatasets-nightly-1688688221.tar.gz
+[2023-07-09 02:04:01] WARNING root fetch - processPackages [micropython-motor]: Skipping, unable to determine old version
+[2023-07-09 02:04:01] INFO root fetch - main [MainThread]: End processing [micropython-motor] error
+[2023-07-09 02:04:01] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/75/2f/d47b202e7ece22e73845f9c42c1b1a17bde4ffbe2b3bf57dcdfe08d441d6/service_markets-0.3.1.tar.gz
+[2023-07-09 02:04:01] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/50/67/04bb62efff9ebcdc3b128077121a02d68c9fcf50ec1c78a07378e48f328e/nir-0.0.4.tar.gz
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b8/f9/11bb998e6da83cec050fac18a8949fb807ebb0e05f7b15eb595d56b18c08/modal-0.50.2611-py3-none-any.whl
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/0f/4b/7163c775662a3f9345a8b28e6fba06cef2ebed4af7459668aa7f9885e071/modal_client-0.50.2611-py3-none-any.whl
+[2023-07-09 02:04:02] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/81/d6/101b6d1968bf5ea4a90032c24a72688e2134e83e03c00d4330d3512a8d4a/torchdatasets-nightly-1688774606.tar.gz
+[2023-07-09 02:04:02] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/a0/8c/785a323af2143085c4cca62f6264c2dbc26840c2aa8e0cee744a126bf406/nir-0.0.5.tar.gz
+[2023-07-09 02:04:02] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/81/80/11aae2a2f895ec5433dc5813a2260f04b452f136bf7912b8a94c81ce3242/service_markets-0.3.2.tar.gz
+[2023-07-09 02:04:02] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-09 02:04:02] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688688221.tar.gz tmp/torchdatasets-nightly-1688774606.tar.gz --markdown 20230709/t/torchdatasets-nightly/1688688221-1688774606/diff.md --exclude *.pyd
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/87/73/2d5c9ee2d1e0520003c60326646a28a5a1c42c20c57317f39773525bbbe4/modal-0.50.2614-py3-none-any.whl
+[2023-07-09 02:04:02] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 02:04:02] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.1.tar.gz tmp/service_markets-0.3.2.tar.gz --markdown 20230709/s/service-markets/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-09 02:04:02] INFO root fetch - processPackages [nir]: executing diffoscope
+[2023-07-09 02:04:02] INFO root fetch - processPackages [nir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nir-0.0.4.tar.gz tmp/nir-0.0.5.tar.gz --markdown 20230709/n/nir/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/c5/51/51bf71fc680fa7ecd70880fe28be5a8919f34a1be13ad754e727b4f4fb28/modal_client-0.50.2614-py3-none-any.whl
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2611-py3-none-any.whl.zip tmp/modal-0.50.2614-py3-none-any.whl.zip --markdown 20230709/m/modal/0.50.2611-0.50.2614/diff.md --exclude *.pyd
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-09 02:04:02] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2611-py3-none-any.whl.zip tmp/modal_client-0.50.2614-py3-none-any.whl.zip --markdown 20230709/m/modal-client/0.50.2611-0.50.2614/diff.md --exclude *.pyd
+[2023-07-09 02:04:03] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688688221.tar.gz]
+[2023-07-09 02:04:03] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688774606.tar.gz]
+[2023-07-09 02:04:03] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-09 02:04:03] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.4.tar.gz]
+[2023-07-09 02:04:03] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.5.tar.gz]
+[2023-07-09 02:04:03] INFO root fetch - main [MainThread]: End processing [nir]: success
+[2023-07-09 02:04:03] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.1.tar.gz]
+[2023-07-09 02:04:03] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.2.tar.gz]
+[2023-07-09 02:04:03] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 02:04:03] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2611-py3-none-any.whl.zip]
+[2023-07-09 02:04:03] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2614-py3-none-any.whl.zip]
+[2023-07-09 02:04:03] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-09 02:04:04] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2611-py3-none-any.whl.zip]
+[2023-07-09 02:04:04] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2614-py3-none-any.whl.zip]
+[2023-07-09 02:04:04] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-09 02:04:04] INFO root fetch - main [MainThread]: Store serial: [18816634]

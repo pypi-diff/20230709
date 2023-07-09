@@ -1676,3 +1676,87 @@
 [2023-07-09 02:41:43] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
 [2023-07-09 02:41:43] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
 [2023-07-09 02:41:43] INFO root fetch - main [MainThread]: Store serial: [18816924]
+[2023-07-09 02:46:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816924]
+[2023-07-09 02:46:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-26
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-assistant-frontend
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symbolicai
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsds
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfds-nightly
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voicemeeter-api
+[2023-07-09 02:46:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: condax
+[2023-07-09 02:46:52] INFO root fetch - processPackages [dsds]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [condax]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [music-assistant-frontend]: New version: [20230707.1] Old Version: [20230707.0]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307080045] Old Version: [4.9.2.dev202307070045]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/e6/83/14e8a0cac7e81eb973446256e2bc314e792c1bf0225f76eadd6f97542953/voicemeeter_api-2.1.2.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230709] Old Version: [0.1.5.dev20230708]
+[2023-07-09 02:46:52] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-09 02:46:52] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/52/e6/86856dc63e3da063d69a7056010a28545e85768d0040af9a40daf30e7ef8/tfds-nightly-4.9.2.dev202307070045.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/8a/1d/59d0aec14ecca76a4609710336bf9654c0533c319812e0b21579d51dd8ee/music_assistant_frontend-20230707.0-py3-none-any.whl
+[2023-07-09 02:46:52] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/f2/f6/a4dfcc5b6a43da303d1021d603d1c897e8a09bb0a2d3e5073d355bfae5bc/dsds-0.0.16.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [condax]: Downloading https://files.pythonhosted.org/packages/2a/82/83eca6d9ae36c7fc2b099c88b3a4599b31febe0789523c7b4dd7c493065a/condax-0.1.1.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/db/cf/6904ad28b226b86c195991d206ca2bcd73e4a14e525e9494c2d1dfd6e583/aeppl-nightly-0.1.5.dev20230708.tar.gz
+[2023-07-09 02:46:52] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/93/7f/213b57ba305439df53364928b32965cc2b7a591344ae18991a2c7b948554/voicemeeter_api-2.1.3.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.1.2.tar.gz tmp/voicemeeter_api-2.1.3.tar.gz --markdown 20230709/v/voicemeeter-api/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/1e/22/96008488879a01f078506f91dd28af32eb2f2a7e54ecfe248b00c38d097a/dsds-0.0.17.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [condax]: Downloading https://files.pythonhosted.org/packages/d7/e5/07bf2a08c5d9f6b439b4b4227a96e19e349209eee4d386a7974255e41d5e/condax-0.2.0.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/33/7b/0980993253585ba984a35d8bb1c18a15095529e52584b0669a9bebdcd87d/tfds-nightly-4.9.2.dev202307080045.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-09 02:46:53] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/6c/e4/5db0a43357c489f8787d54206236c638b8ce810e831732dbf33aea89c26c/music_assistant_frontend-20230707.1-py3-none-any.whl
+[2023-07-09 02:46:53] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/a6/2291ebcc4388db8d59f0c57c3ec1c8fcfb2dd73cd37311c0df1782cb969a/aeppl-nightly-0.1.5.dev20230709.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-09 02:46:53] INFO root fetch - processPackages [condax]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [condax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condax-0.1.1.tar.gz tmp/condax-0.2.0.tar.gz --markdown 20230709/c/condax/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.16.tar.gz tmp/dsds-0.0.17.tar.gz --markdown 20230709/d/dsds/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230708.tar.gz tmp/aeppl-nightly-0.1.5.dev20230709.tar.gz --markdown 20230709/a/aeppl-nightly/0.1.5.dev20230708-0.1.5.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230709/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307070045.tar.gz tmp/tfds-nightly-4.9.2.dev202307080045.tar.gz --markdown 20230709/t/tfds-nightly/4.9.2.dev202307070045-4.9.2.dev202307080045/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230709/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip --markdown 20230709/m/music-assistant-frontend/20230707.0-20230707.1/diff.md --exclude *.pyd
+[2023-07-09 02:46:53] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-09 02:46:53] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230709/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 02:46:54] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.1.2.tar.gz]
+[2023-07-09 02:46:54] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.1.3.tar.gz]
+[2023-07-09 02:46:54] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-09 02:46:54] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.16.tar.gz]
+[2023-07-09 02:46:54] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.17.tar.gz]
+[2023-07-09 02:46:54] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-07-09 02:46:55] INFO root fetch - processPackages [condax]: Remove: archive file [/home/abi/fetcher/tmp/condax-0.1.1.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - processPackages [condax]: Remove: archive file [/home/abi/fetcher/tmp/condax-0.2.0.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - main [MainThread]: End processing [condax]: success
+[2023-07-09 02:46:55] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-09 02:46:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230708.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230709.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-09 02:46:55] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-09 02:46:55] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-09 02:46:55] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-09 02:46:55] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-09 02:46:55] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-09 02:47:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307070045.tar.gz]
+[2023-07-09 02:47:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307080045.tar.gz]
+[2023-07-09 02:47:00] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-09 02:47:08] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip]
+[2023-07-09 02:47:08] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip]
+[2023-07-09 02:47:08] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-09 02:47:08] INFO root fetch - main [MainThread]: Store serial: [18816953]

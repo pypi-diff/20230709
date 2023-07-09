@@ -8493,3 +8493,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:33:37] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip]
 [2023-07-09 13:33:37] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-07-09 13:33:37] INFO root fetch - main [MainThread]: Store serial: [18819874]
+[2023-07-09 13:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819874]
+[2023-07-09 13:38:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 13:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-serving
+[2023-07-09 13:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LTADatamall
+[2023-07-09 13:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsv2py
+[2023-07-09 13:38:46] WARNING root fetch - processPackages [tsv2py]: Skipping, unable to determine old version
+[2023-07-09 13:38:46] INFO root fetch - main [MainThread]: End processing [tsv2py] error
+[2023-07-09 13:38:46] INFO root fetch - processPackages [LTADatamall]: New version: [0.0.81] Old Version: [0.0.8]
+[2023-07-09 13:38:46] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230709] Old Version: [2.4.0b20230708]
+[2023-07-09 13:38:46] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/2c/bf/5a500c8d3ee43d9f7d650964d89894cbc51632011006cf55a8149c4f4646/LTADatamall-0.0.8.tar.gz
+[2023-07-09 13:38:46] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/3f/63/1005d8bac33b8bb1c4ad39f00c4d5374c871342655eba1e5c8e81130bb61/bigdl_serving-2.4.0b20230708-py2.py3-none-any.whl
+[2023-07-09 13:38:46] INFO root fetch - processPackages [LTADatamall]: Downloading https://files.pythonhosted.org/packages/4a/6e/35ef1f01b14a448125e1d73b84f34a8a7d967f698b445fffd39e4d2b5624/LTADatamall-0.0.81.tar.gz
+[2023-07-09 13:38:47] INFO root fetch - processPackages [LTADatamall]: executing diffoscope
+[2023-07-09 13:38:47] INFO root fetch - processPackages [LTADatamall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LTADatamall-0.0.8.tar.gz tmp/LTADatamall-0.0.81.tar.gz --markdown 20230709/L/LTADatamall/0.0.8-0.0.81/diff.md --exclude *.pyd
+[2023-07-09 13:38:47] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/0e/b3/c8c0969a030aad27a9d3d59409db74bd76abed6951de78bb5d88689fc759/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl
+[2023-07-09 13:38:47] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-09 13:38:47] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230708-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl.zip --markdown 20230709/b/bigdl-serving/2.4.0b20230708-2.4.0b20230709/diff.md --exclude *.pyd
+[2023-07-09 13:38:47] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.8.tar.gz]
+[2023-07-09 13:38:47] INFO root fetch - processPackages [LTADatamall]: Remove: archive file [/home/abi/fetcher/tmp/LTADatamall-0.0.81.tar.gz]
+[2023-07-09 13:38:47] INFO root fetch - main [MainThread]: End processing [LTADatamall]: success
+[2023-07-09 13:38:47] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230708-py2.py3-none-any.whl.zip]
+[2023-07-09 13:38:47] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl.zip]
+[2023-07-09 13:38:47] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-09 13:38:47] INFO root fetch - main [MainThread]: Store serial: [18819890]

@@ -4126,3 +4126,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-07-09 06:43:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
 [2023-07-09 06:43:30] INFO root fetch - main [MainThread]: Store serial: [18817930]
+[2023-07-09 06:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817930]
+[2023-07-09 06:48:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-09 06:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtrack
+[2023-07-09 06:48:39] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-09 06:48:39] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2023-07-09 06:48:39] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2023-07-09 06:48:40] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2023-07-09 06:48:40] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20230709/x/xtrack/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-09 06:48:40] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2023-07-09 06:48:40] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2023-07-09 06:48:40] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2023-07-09 06:48:40] INFO root fetch - main [MainThread]: Store serial: [18817932]

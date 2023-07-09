@@ -4205,3 +4205,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:59:05] INFO root fetch - processPackages [MetaGram]: Remove: archive file [/home/abi/fetcher/tmp/MetaGram-0.0.3.tar.gz]
 [2023-07-09 06:59:05] INFO root fetch - main [MainThread]: End processing [MetaGram]: success
 [2023-07-09 06:59:05] INFO root fetch - main [MainThread]: Store serial: [18817954]
+[2023-07-09 07:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817954]
+[2023-07-09 07:04:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seunggabi-core-python
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imgk
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-function-call
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: environmentaltrends
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stim
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: service-markets
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfirebird
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercury-sync
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: revChatGPT
+[2023-07-09 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stimcirq
+[2023-07-09 07:04:15] INFO root fetch - processPackages [environmentaltrends]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [imgk]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.60] Old Version: [0.0.58]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [openai-function-call]: New version: [0.1.1] Old Version: [0.0.5]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [service-markets]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [revChatGPT]: New version: [6.8.0] Old Version: [6.7.8]
+[2023-07-09 07:04:15] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/30/42/72f295a29b67fe4e11a14cbaddfc5aee0d429568ccc20dc94b939cea5c57/imgk-1.0.4.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/fe/e1/18cda00184ffa9cb111a830c10eb4b94a6ca182b9647281ba24a137c3d41/seunggabi_core_python-0.6.0.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/5e/3b/0a4c3bfe98ead735afe5f91dbb570e02c22995f0e7ad7c8c414c85dab416/service_markets-0.3.8.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [environmentaltrends]: Downloading https://files.pythonhosted.org/packages/fa/6c/3291e954172b558454af21164a728d7f7f376dcd6953635b595db3ff20fb/environmentaltrends-0.0.1.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/44/3d/a2b5bed1f348110511b35b5732ef5692451fcd37899db6d2b6a32380f0a0/openai_function_call-0.0.5.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/ec/72/ecce03b0e5e3c87908d1628054b30ee3aba0904e0aa90ea761e9b6fbfce9/pyfirebird-0.0.58.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/01/e9/76b24e3943685bbf928f9aae333301b4dd92827e305950d296ac1ce4d7b7/revChatGPT-6.7.8.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/0c/c2/46a0676988a08e2f928e7e0ab832a0d1358d1e74294aabd35d18dce52443/imgk-2.0.0.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/82/3e/b61828fbc7fbb1c50ad28d3dffcfb4c77275074a9a6dbc5630ea97dfaff9/seunggabi_core_python-0.7.0.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/f0/64/044280c3486079ddc3eda210f303acacc6664927397eb2673a145207bd14/openai_function_call-0.1.1.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/c7/80/398e7784dd2803e7120ad28089dfe6bdfa9327417214be09040bf8607661/service_markets-0.3.9.tar.gz
+[2023-07-09 07:04:15] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-09 07:04:15] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230709/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [environmentaltrends]: Downloading https://files.pythonhosted.org/packages/d6/6f/e33ec4c74ac078412d6b3d93227d47353d890038e3e5afd4e037e10eb28d/environmentaltrends-0.0.2.tar.gz
+[2023-07-09 07:04:16] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/1b/f3/4c5230648390ca846c6020035a3c8c93c83a057359ef687e72fdee0b3f79/pyfirebird-0.0.60.tar.gz
+[2023-07-09 07:04:16] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/ba/5c/3e651b902446e6b2454e3d8f4ea1741befdcad65b4f95eb135d72fee6deb/revChatGPT-6.8.0.tar.gz
+[2023-07-09 07:04:16] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20230709/s/stim/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230709/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [imgk]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [imgk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgk-1.0.4.tar.gz tmp/imgk-2.0.0.tar.gz --markdown 20230709/i/imgk/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.6.0.tar.gz tmp/seunggabi_core_python-0.7.0.tar.gz --markdown 20230709/s/seunggabi-core-python/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [environmentaltrends]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [environmentaltrends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environmentaltrends-0.0.1.tar.gz tmp/environmentaltrends-0.0.2.tar.gz --markdown 20230709/e/environmentaltrends/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [openai-function-call]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [openai-function-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_call-0.0.5.tar.gz tmp/openai_function_call-0.1.1.tar.gz --markdown 20230709/o/openai-function-call/0.0.5-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.7.8.tar.gz tmp/revChatGPT-6.8.0.tar.gz --markdown 20230709/r/revChatGPT/6.7.8-6.8.0/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.8.tar.gz tmp/service_markets-0.3.9.tar.gz --markdown 20230709/s/service-markets/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 07:04:16] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 07:04:16] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.58.tar.gz tmp/pyfirebird-0.0.60.tar.gz --markdown 20230709/p/pyfirebird/0.0.58-0.0.60/diff.md --exclude *.pyd
+[2023-07-09 07:04:17] INFO root fetch - processPackages [environmentaltrends]: Remove: archive file [/home/abi/fetcher/tmp/environmentaltrends-0.0.1.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [environmentaltrends]: Remove: archive file [/home/abi/fetcher/tmp/environmentaltrends-0.0.2.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [environmentaltrends]: Start processing: ddb-single
+[2023-07-09 07:04:17] INFO root fetch - main [MainThread]: End processing [environmentaltrends]: success
+[2023-07-09 07:04:17] INFO root fetch - processPackages [imgk]: Remove: archive file [/home/abi/fetcher/tmp/imgk-1.0.4.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [imgk]: Remove: archive file [/home/abi/fetcher/tmp/imgk-2.0.0.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [imgk]: Start processing: sinter
+[2023-07-09 07:04:17] INFO root fetch - main [MainThread]: End processing [imgk]: success
+[2023-07-09 07:04:17] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [mercury-sync]: Start processing: service-markets
+[2023-07-09 07:04:17] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-09 07:04:17] INFO root fetch - processPackages [service-markets]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.7.8.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.8.0.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-07-09 07:04:17] INFO root fetch - processPackages [ddb-single]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.6.0.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.7.0.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-09 07:04:17] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.0.5.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.1.1.tar.gz]
+[2023-07-09 07:04:17] INFO root fetch - main [MainThread]: End processing [openai-function-call]: success
+[2023-07-09 07:04:18] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-07-09 07:04:18] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-07-09 07:04:18] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-07-09 07:04:18] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-07-09 07:04:18] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 07:04:18] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.8.tar.gz tmp/service_markets-0.3.9.tar.gz --markdown 20230709/s/service-markets/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 07:04:18] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.8.tar.gz]
+[2023-07-09 07:04:18] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.9.tar.gz]
+[2023-07-09 07:04:18] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 07:04:18] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/13/28/b29f33c8f1abd6e1bd897d648eb617b55ce820866f65aa2aef734bd87e10/ddb_single-0.4.0.zip
+[2023-07-09 07:04:18] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-07-09 07:04:18] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-07-09 07:04:18] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230709/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-09 07:04:18] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/6c/97/717038b81ae6b3ebf2fcf76ecd84f5fb11285a05474f0bca5b52c622757c/ddb_single-0.4.1.zip
+[2023-07-09 07:04:18] ERROR root fetch - processPackages [service-markets]: Diffoscope failed: time="2023-07-09T07:04:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/service_markets-0.3.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/service_markets-0.3.9.tar.gz: No such file or directory
+
+[2023-07-09 07:04:18] INFO root fetch - main [MainThread]: End processing [service-markets] error
+[2023-07-09 07:04:18] INFO root fetch - processPackages [ddb-single]: executing diffoscope
+[2023-07-09 07:04:18] INFO root fetch - processPackages [ddb-single]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddb_single-0.4.0.zip tmp/ddb_single-0.4.1.zip --markdown 20230709/d/ddb-single/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 07:04:18] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2023-07-09 07:04:18] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2023-07-09 07:04:18] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-07-09 07:04:19] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-07-09 07:04:19] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-07-09 07:04:19] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-07-09 07:04:19] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.0.zip]
+[2023-07-09 07:04:19] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.1.zip]
+[2023-07-09 07:04:19] INFO root fetch - main [MainThread]: End processing [ddb-single]: success
+[2023-07-09 07:04:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.58.tar.gz]
+[2023-07-09 07:04:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.60.tar.gz]
+[2023-07-09 07:04:20] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 07:04:20] INFO root fetch - main [MainThread]: Store serial: [18818016]

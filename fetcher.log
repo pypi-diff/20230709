@@ -11734,3 +11734,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:24:07] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.7.tar.gz]
 [2023-07-09 17:24:07] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
 [2023-07-09 17:24:07] INFO root fetch - main [MainThread]: Store serial: [18821396]
+[2023-07-09 17:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821396]
+[2023-07-09 17:29:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixbrlparse
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iitkgperp
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ixbrlparse
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipr
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: StableRLS
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calculator-MU
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zein
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hermite-function
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abd-clam
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mapperr
+[2023-07-09 17:29:17] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ixbrlparse]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-09 17:29:17] WARNING root fetch - processPackages [iitkgperp]: Skipping, unable to determine old version
+[2023-07-09 17:29:17] INFO root fetch - processPackages [iitkgperp]: Start processing: piou
+[2023-07-09 17:29:17] INFO root fetch - main [MainThread]: End processing [iitkgperp] error
+[2023-07-09 17:29:17] INFO root fetch - processPackages [calculator-MU]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [StableRLS]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ixbrlparse]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [mapperr]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [hermite-function]: New version: [0.9.9] Old Version: [0.9.4]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [piou]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-09 17:29:17] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/5a/8c/b2657773a399783f302d73621d0eb20fccc3ba4d4538ad7307a5088f8cfe/calculator_MU-1.0.1-py3.11.egg
+[2023-07-09 17:29:17] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/8a/13/2a11f6d137647c6ab7e4c246a35b853ed44a065fe953b9c865def90a5216/mapperr-0.2.2.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ixbrlparse]: Downloading https://files.pythonhosted.org/packages/18/61/d79f0c7019e87921cb2feba9847d9fa837ab3af12c14fb042361b83b33d5/ixbrlparse-0.7.0.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [ixbrlparse]: Downloading https://files.pythonhosted.org/packages/18/61/d79f0c7019e87921cb2feba9847d9fa837ab3af12c14fb042361b83b33d5/ixbrlparse-0.7.0.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [StableRLS]: Downloading https://files.pythonhosted.org/packages/4b/2f/35d43ff8913287c213546f136a63452f7d2fbb8cea56bd9497506ba0ce69/StableRLS-1.0.0.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [piou]: Downloading https://files.pythonhosted.org/packages/f9/4c/1be53b6dc9ee6934094190fe0d9ae5c8c8b571257886c8930af0a9cd7e2a/piou-0.9.7.tar.gz
+[2023-07-09 17:29:17] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/03/eb/17a8de18e421a1f04de436efb6e87f749be4c3cafc8785b25ae3826618f5/hermite-function-0.9.4.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/74/30/52cacd0f387ff4a872f1396529ab55928dfd5e5d2cfc92b673e795e2ad0e/calculator_MU-1.0.2.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/4a/28/ac5a38a5182c0c32030b89dcc87c27b893363ba75a354d18623f414c26bd/mapperr-0.2.3.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230709/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [StableRLS]: Downloading https://files.pythonhosted.org/packages/a7/46/d04eb5421395e5d1ec5e00e5fb319d623d8514d2ef8515b45093c43b1735/StableRLS-1.0.1.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [piou]: Downloading https://files.pythonhosted.org/packages/5d/ed/962165aa40510541e5466b9b1d951b706b456509d9c26f8182064244854a/piou-0.9.8.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [ixbrlparse]: Downloading https://files.pythonhosted.org/packages/5f/26/164500bb53a4fe93d5dcb9ba1feef8189cbeb1112491d723a6c19ccb85f5/ixbrlparse-0.7.1.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [ixbrlparse]: Downloading https://files.pythonhosted.org/packages/5f/26/164500bb53a4fe93d5dcb9ba1feef8189cbeb1112491d723a6c19ccb85f5/ixbrlparse-0.7.1.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [calculator-MU]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [calculator-MU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_MU-1.0.1-py3.11.egg tmp/calculator_MU-1.0.2.tar.gz --markdown 20230709/c/calculator-MU/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230709/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [mapperr]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [mapperr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapperr-0.2.2.tar.gz tmp/mapperr-0.2.3.tar.gz --markdown 20230709/m/mapperr/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/f5/f2/782d587050b3175421285be807afd9e4bdcad074b1563b6d6315cda5ef1d/hermite-function-0.9.9.tar.gz
+[2023-07-09 17:29:18] INFO root fetch - processPackages [StableRLS]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [ixbrlparse]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [ixbrlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixbrlparse-0.7.0.tar.gz tmp/ixbrlparse-0.7.1.tar.gz --markdown 20230709/i/ixbrlparse/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [StableRLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StableRLS-1.0.0.tar.gz tmp/StableRLS-1.0.1.tar.gz --markdown 20230709/S/StableRLS/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [ixbrlparse]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [ixbrlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixbrlparse-0.7.0.tar.gz tmp/ixbrlparse-0.7.1.tar.gz --markdown 20230709/i/ixbrlparse/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [hermite-function]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [hermite-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermite-function-0.9.4.tar.gz tmp/hermite-function-0.9.9.tar.gz --markdown 20230709/h/hermite-function/0.9.4-0.9.9/diff.md --exclude *.pyd
+[2023-07-09 17:29:18] INFO root fetch - processPackages [piou]: executing diffoscope
+[2023-07-09 17:29:18] INFO root fetch - processPackages [piou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piou-0.9.7.tar.gz tmp/piou-0.9.8.tar.gz --markdown 20230709/p/piou/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-09 17:29:19] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:29:19] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:29:19] INFO root fetch - processPackages [zein]: Start processing: nonebot-plugin-friends
+[2023-07-09 17:29:19] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [nonebot-plugin-friends]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [abd-clam]: Start processing: omnivorex
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.1-py3.11.egg]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.2.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [calculator-MU]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.2.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.3.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [mapperr]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [omnivorex]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [ixbrlparse]: Remove: archive file [/home/abi/fetcher/tmp/ixbrlparse-0.7.0.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [ixbrlparse]: Remove: archive file [/home/abi/fetcher/tmp/ixbrlparse-0.7.1.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [ixbrlparse]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/2c/b0/b6ff5b3c9c4dd265de74cd80c9928ab592a7c902600e0358868d56cf013e/omnivorex-0.0.4.tar.gz
+[2023-07-09 17:29:20] INFO root fetch - processPackages [StableRLS]: Remove: archive file [/home/abi/fetcher/tmp/StableRLS-1.0.0.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [StableRLS]: Remove: archive file [/home/abi/fetcher/tmp/StableRLS-1.0.1.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [StableRLS]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [nonebot-plugin-friends]: Downloading https://files.pythonhosted.org/packages/7a/a0/cb9bb33e0205dc7d62ce8fe3d4c236d3a50d456268eaebeb3b9b4287e212/nonebot_plugin_friends-0.0.1.tar.gz
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [ixbrlparse]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-0.9.4.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-0.9.9.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [hermite-function]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [piou]: Remove: archive file [/home/abi/fetcher/tmp/piou-0.9.7.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - processPackages [piou]: Remove: archive file [/home/abi/fetcher/tmp/piou-0.9.8.tar.gz]
+[2023-07-09 17:29:20] INFO root fetch - main [MainThread]: End processing [piou]: success
+[2023-07-09 17:29:20] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 17:29:20] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 17:29:20] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.4.tar.gz tmp/omnivorex-0.0.5.tar.gz --markdown 20230709/o/omnivorex/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 17:29:20] INFO root fetch - processPackages [nonebot-plugin-friends]: Downloading https://files.pythonhosted.org/packages/40/db/eab9ba6e66b149755f31e09aad51baac95bcbc3e9bca30eb6d6963239808/nonebot_plugin_friends-0.1.0.tar.gz
+[2023-07-09 17:29:20] INFO root fetch - processPackages [nonebot-plugin-friends]: executing diffoscope
+[2023-07-09 17:29:20] INFO root fetch - processPackages [nonebot-plugin-friends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_friends-0.0.1.tar.gz tmp/nonebot_plugin_friends-0.1.0.tar.gz --markdown 20230709/n/nonebot-plugin-friends/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-09 17:29:21] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.4.tar.gz]
+[2023-07-09 17:29:21] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 17:29:21] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 17:29:21] INFO root fetch - processPackages [nonebot-plugin-friends]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_friends-0.0.1.tar.gz]
+[2023-07-09 17:29:21] INFO root fetch - processPackages [nonebot-plugin-friends]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_friends-0.1.0.tar.gz]
+[2023-07-09 17:29:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-friends]: success
+[2023-07-09 17:29:21] INFO root fetch - main [MainThread]: Store serial: [18821433]

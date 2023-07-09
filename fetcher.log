@@ -7509,3 +7509,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:04:08] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
 [2023-07-09 12:04:08] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
 [2023-07-09 12:04:08] INFO root fetch - main [MainThread]: Store serial: [18819459]
+[2023-07-09 12:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819459]
+[2023-07-09 12:09:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-09 12:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rbfly
+[2023-07-09 12:09:17] INFO root fetch - processPackages [rbfly]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-09 12:09:17] INFO root fetch - processPackages [rbfly]: Downloading https://files.pythonhosted.org/packages/27/5b/98a22c1c4c64f01c277429b66f94b8cfd2a9d08de9a722a19cd331afa48c/rbfly-0.7.1.tar.gz
+[2023-07-09 12:09:17] INFO root fetch - processPackages [rbfly]: Downloading https://files.pythonhosted.org/packages/dd/74/6bc84ac8787840b4d39b0b84274032da89b01cba210a337e0084e1b037e8/rbfly-0.7.2.tar.gz
+[2023-07-09 12:09:18] INFO root fetch - processPackages [rbfly]: executing diffoscope
+[2023-07-09 12:09:18] INFO root fetch - processPackages [rbfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbfly-0.7.1.tar.gz tmp/rbfly-0.7.2.tar.gz --markdown 20230709/r/rbfly/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-09 12:09:19] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.7.1.tar.gz]
+[2023-07-09 12:09:19] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.7.2.tar.gz]
+[2023-07-09 12:09:19] INFO root fetch - main [MainThread]: End processing [rbfly]: success
+[2023-07-09 12:09:19] INFO root fetch - main [MainThread]: Store serial: [18819471]

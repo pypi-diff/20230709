@@ -2012,3 +2012,26 @@
 [2023-07-09 03:18:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-09 03:18:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-09 03:18:32] INFO root fetch - main [MainThread]: Store serial: [18817045]
+[2023-07-09 03:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817045]
+[2023-07-09 03:23:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 03:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2023-07-09 03:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kneed
+[2023-07-09 03:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-07-09 03:23:40] INFO root fetch - processPackages [kneed]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-09 03:23:40] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1549] Old Version: [0.8.2.dev1493]
+[2023-07-09 03:23:40] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-09 03:23:41] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-09 03:23:41] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-09 03:23:41] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-09 03:23:41] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/b3/fd/f4be2cb858028f9298ae966a4d9d758bb85beebc46d194b9808b6e9744fa/duckdb-0.8.2.dev1493.tar.gz
+[2023-07-09 03:23:41] INFO root fetch - processPackages [kneed]: Downloading https://files.pythonhosted.org/packages/94/f1/6e0fbc9cce6c1fadbbac68a28eec64d32ac56ae16869239161f15054ca9d/kneed-0.8.3.tar.gz
+[2023-07-09 03:23:41] INFO root fetch - processPackages [kneed]: Downloading https://files.pythonhosted.org/packages/e8/c3/d4e33f959eec734188b9adcf215ed59ec41d6f784b03efebbb0e3c3395a6/kneed-0.8.4.tar.gz
+[2023-07-09 03:23:41] INFO root fetch - processPackages [kneed]: executing diffoscope
+[2023-07-09 03:23:41] INFO root fetch - processPackages [kneed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kneed-0.8.3.tar.gz tmp/kneed-0.8.4.tar.gz --markdown 20230709/k/kneed/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-09 03:23:41] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/9e/1b/58488545fdd5af2f3f0e8302f76aadce2eebd5fafc79fa72b15e736ce830/duckdb-0.8.2.dev1549-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-07-09 03:23:42] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14898019>=10485760
+[2023-07-09 03:23:42] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-09 03:23:42] INFO root fetch - processPackages [kneed]: Remove: archive file [/home/abi/fetcher/tmp/kneed-0.8.3.tar.gz]
+[2023-07-09 03:23:42] INFO root fetch - processPackages [kneed]: Remove: archive file [/home/abi/fetcher/tmp/kneed-0.8.4.tar.gz]
+[2023-07-09 03:23:42] INFO root fetch - main [MainThread]: End processing [kneed]: success
+[2023-07-09 03:23:42] INFO root fetch - main [MainThread]: Store serial: [18817053]

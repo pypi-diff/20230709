@@ -7126,3 +7126,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:12:14] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.18.1.tar.gz]
 [2023-07-09 11:12:14] INFO root fetch - main [MainThread]: End processing [degiroasync]: success
 [2023-07-09 11:12:14] INFO root fetch - main [MainThread]: Store serial: [18819274]
+[2023-07-09 11:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819274]
+[2023-07-09 11:17:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 11:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2023-07-09 11:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysomneo
+[2023-07-09 11:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prismstudio-stg
+[2023-07-09 11:17:23] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-07-09 11:17:23] INFO root fetch - processPackages [prismstudio-stg]: New version: [1.1.6] Old Version: [1.1.3b0]
+[2023-07-09 11:17:23] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/0d/97/42023032ca8286ffc07a5c47ffa78fde6345cff946f7fef646448b497644/pysomneo-3.0.0a8.tar.gz
+[2023-07-09 11:17:23] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230709] Old Version: [2.14.0.dev20230708]
+[2023-07-09 11:17:23] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/80/1b/e6f130ba1120a54e2f1eba985a5b5533250257e3988a9de1a3732e00f8da/prismstudio-stg-1.1.3b0.tar.gz
+[2023-07-09 11:17:23] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/53/11/8475019481df9193fd0697c9696bda7e8e533f849e7a7d77f34758623eb3/pysomneo-3.0.0a9.tar.gz
+[2023-07-09 11:17:23] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/d1/a0/fa416ac6df7b1e9b2cf023334982802e046bb295c27c6fdbf0ee2004cb7a/tf_nightly-2.14.0.dev20230708-cp39-cp39-win_amd64.whl
+[2023-07-09 11:17:23] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-09 11:17:23] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a8.tar.gz tmp/pysomneo-3.0.0a9.tar.gz --markdown 20230709/p/pysomneo/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-07-09 11:17:23] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/9a/fc/be50ede5f793733e850d248a919a0b1613f1e0600b441c44300ca61c93ca/tf_nightly-2.14.0.dev20230709-cp39-cp39-win_amd64.whl
+[2023-07-09 11:17:24] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-07-09 11:17:24] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230708-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230709-cp39-cp39-win_amd64.whl.zip --markdown 20230709/t/tf-nightly/2.14.0.dev20230708-2.14.0.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 11:17:24] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/ce/c4/a07d3f4ca140358630bf40646fccd968182c6ecd965b52a71444eec2ff22/prismstudio-stg-1.1.6.tar.gz
+[2023-07-09 11:17:24] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a8.tar.gz]
+[2023-07-09 11:17:24] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a9.tar.gz]
+[2023-07-09 11:17:24] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-09 11:17:24] INFO root fetch - processPackages [prismstudio-stg]: executing diffoscope
+[2023-07-09 11:17:24] INFO root fetch - processPackages [prismstudio-stg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-stg-1.1.3b0.tar.gz tmp/prismstudio-stg-1.1.6.tar.gz --markdown 20230709/p/prismstudio-stg/1.1.3b0-1.1.6/diff.md --exclude *.pyd
+[2023-07-09 11:17:24] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230708-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 11:17:24] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230709-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 11:17:24] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-07-09 11:17:25] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3b0.tar.gz]
+[2023-07-09 11:17:25] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.6.tar.gz]
+[2023-07-09 11:17:25] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
+[2023-07-09 11:17:25] INFO root fetch - main [MainThread]: Store serial: [18819302]

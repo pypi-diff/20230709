@@ -5566,3 +5566,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:58:57] INFO root fetch - processPackages [increment]: Remove: archive file [/home/abi/fetcher/tmp/increment-1.3.4.tar.gz]
 [2023-07-09 08:58:57] INFO root fetch - main [MainThread]: End processing [increment]: success
 [2023-07-09 08:58:57] INFO root fetch - main [MainThread]: Store serial: [18818486]
+[2023-07-09 09:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818486]
+[2023-07-09 09:04:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Blockthon
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynamic-links
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-yocto
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conveyant
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idownload
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: troller
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seqio-nightly
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-to-csv-filter
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libcoveocds
+[2023-07-09 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sherpa-onnx
+[2023-07-09 09:04:06] INFO root fetch - processPackages [fosslight-yocto]: New version: [3.1.19] Old Version: [3.1.18]
+[2023-07-09 09:04:06] INFO root fetch - processPackages [dynamic-links]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-09 09:04:06] INFO root fetch - processPackages [libcoveocds]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-07-09 09:04:06] WARNING root fetch - processPackages [troller]: Skipping, unable to determine old version
+[2023-07-09 09:04:06] INFO root fetch - main [MainThread]: End processing [troller] error
+[2023-07-09 09:04:06] INFO root fetch - processPackages [idownload]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 09:04:06] INFO root fetch - processPackages [json-to-csv-filter]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-09 09:04:06] INFO root fetch - processPackages [Blockthon]: New version: [7.3.6] Old Version: [6.9.3]
+[2023-07-09 09:04:06] WARNING root fetch - processPackages [conveyant]: Skipping, unable to determine old version
+[2023-07-09 09:04:06] INFO root fetch - main [MainThread]: End processing [conveyant] error
+[2023-07-09 09:04:06] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-09 09:04:06] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.5.0] Old Version: [1.4.8]
+[2023-07-09 09:04:06] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/ea/a5/ce93e12686f67e8e0ea1c7b1e751148f4434029999bf25975155a397e169/dynamic-links-0.0.6.tar.gz
+[2023-07-09 09:04:06] INFO root fetch - processPackages [libcoveocds]: Downloading https://files.pythonhosted.org/packages/b7/b4/2b873431df98689c83915a10a174d7282a55f2b39f647cda36489fe2e632/libcoveocds-0.8.0.tar.gz
+[2023-07-09 09:04:06] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/d2/59/66fc436c8bc448ccdcb51da4b89e3d958d349ccf403ece4ae326db4c66e8/idownload-1.0.0-py3-none-any.whl
+[2023-07-09 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-09 09:04:06] INFO root fetch - processPackages [json-to-csv-filter]: Downloading https://files.pythonhosted.org/packages/da/58/5ff701edcdd2463d05f14933795db298605c011cfb472cd44d788596cc93/json_to_csv_filter-1.3.1.tar.gz
+[2023-07-09 09:04:06] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/e3/ce/4c4811e84a016a896f4d37f0c3bcce8863fd4cad6554748a9d2b980c7307/Blockthon-6.9.3-py3-none-any.whl
+[2023-07-09 09:04:06] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/f7/1a/a81b6afb15b490c7a0df5c3bf89962ed158dc6b360c1e64cc0ebb3bce6d8/fosslight_yocto-3.1.18.tar.gz
+[2023-07-09 09:04:06] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/a4/a3/f5f2418897dd24c457418b359daa1d87592823d2da3d8ff4fd2703fda4ef/sherpa-onnx-1.4.8.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/27/11/44f74a81003a2207eb0fbfb609c23a1e9574b11c5a39c066f9b6b7364b1c/idownload-1.0.1-py3-none-any.whl
+[2023-07-09 09:04:07] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/22/2e/4cd6e0058e34fa222a26f59a7b6897b16eb88a0d05af7d5bc59a30b71e5d/dynamic-links-0.1.0.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [Blockthon]: Downloading https://files.pythonhosted.org/packages/aa/08/7cb19e0e27b9685a9b560832a943b0683fc98cf9ac38e27dead402eb76e7/Blockthon-7.3.6.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/da/7e/3d1c2f44461ab8ac8410f64b783e90d0fce797b4eee522d70b6cb38f5c4f/fosslight_yocto-3.1.19.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [dynamic-links]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [dynamic-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-links-0.0.6.tar.gz tmp/dynamic-links-0.1.0.tar.gz --markdown 20230709/d/dynamic-links/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230709/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [idownload]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [idownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idownload-1.0.0-py3-none-any.whl.zip tmp/idownload-1.0.1-py3-none-any.whl.zip --markdown 20230709/i/idownload/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [Blockthon]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [Blockthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Blockthon-6.9.3-py3-none-any.whl.zip tmp/Blockthon-7.3.6.tar.gz --markdown 20230709/B/Blockthon/6.9.3-7.3.6/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [fosslight-yocto]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [fosslight-yocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_yocto-3.1.18.tar.gz tmp/fosslight_yocto-3.1.19.tar.gz --markdown 20230709/f/fosslight-yocto/3.1.18-3.1.19/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/25/2f/02faa9dd3f8fb882c2065e80faab9ad9e12031292d2751fc6250262e96df/sherpa-onnx-1.5.0.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [libcoveocds]: Downloading https://files.pythonhosted.org/packages/dc/d4/34b312466d9a426024eedf241eebdc465f0909df4fbc0d877a6ae8c0bd5f/libcoveocds-0.9.1.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [json-to-csv-filter]: Downloading https://files.pythonhosted.org/packages/fe/da/a2c0e303056d2cb3bf08035fab6617060528f3d70535a13ea232689fca31/json_to_csv_filter-1.4.0.tar.gz
+[2023-07-09 09:04:07] INFO root fetch - processPackages [json-to-csv-filter]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [json-to-csv-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_to_csv_filter-1.3.1.tar.gz tmp/json_to_csv_filter-1.4.0.tar.gz --markdown 20230709/j/json-to-csv-filter/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.4.8.tar.gz tmp/sherpa-onnx-1.5.0.tar.gz --markdown 20230709/s/sherpa-onnx/1.4.8-1.5.0/diff.md --exclude *.pyd
+[2023-07-09 09:04:07] INFO root fetch - processPackages [libcoveocds]: executing diffoscope
+[2023-07-09 09:04:07] INFO root fetch - processPackages [libcoveocds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveocds-0.8.0.tar.gz tmp/libcoveocds-0.9.1.tar.gz --markdown 20230709/l/libcoveocds/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-09 09:04:08] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.6.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.1.0.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [dynamic-links]: success
+[2023-07-09 09:04:08] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-6.9.3-py3-none-any.whl.zip]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [Blockthon]: Remove: archive file [/home/abi/fetcher/tmp/Blockthon-7.3.6.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [Blockthon]: success
+[2023-07-09 09:04:08] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-1.0.0-py3-none-any.whl.zip]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-1.0.1-py3-none-any.whl.zip]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [idownload]: success
+[2023-07-09 09:04:08] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.18.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.19.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [fosslight-yocto]: success
+[2023-07-09 09:04:08] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-09 09:04:08] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.4.8.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.0.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-07-09 09:04:08] INFO root fetch - processPackages [json-to-csv-filter]: Remove: archive file [/home/abi/fetcher/tmp/json_to_csv_filter-1.3.1.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - processPackages [json-to-csv-filter]: Remove: archive file [/home/abi/fetcher/tmp/json_to_csv_filter-1.4.0.tar.gz]
+[2023-07-09 09:04:08] INFO root fetch - main [MainThread]: End processing [json-to-csv-filter]: success
+[2023-07-09 09:04:09] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.8.0.tar.gz]
+[2023-07-09 09:04:09] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.9.1.tar.gz]
+[2023-07-09 09:04:09] INFO root fetch - main [MainThread]: End processing [libcoveocds]: success
+[2023-07-09 09:04:09] INFO root fetch - main [MainThread]: Store serial: [18818526]

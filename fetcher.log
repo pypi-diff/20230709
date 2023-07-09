@@ -7284,3 +7284,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:27:50] INFO root fetch - processPackages [objdictgen]: Remove: archive file [/home/abi/fetcher/tmp/objdictgen-3.3.post1.tar.gz]
 [2023-07-09 11:27:50] INFO root fetch - main [MainThread]: End processing [objdictgen]: success
 [2023-07-09 11:27:50] INFO root fetch - main [MainThread]: Store serial: [18819342]
+[2023-07-09 11:32:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819342]
+[2023-07-09 11:32:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 11:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dola
+[2023-07-09 11:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vina2vi
+[2023-07-09 11:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngmapi
+[2023-07-09 11:32:58] WARNING root fetch - processPackages [dola]: Skipping, unable to determine old version
+[2023-07-09 11:32:58] INFO root fetch - main [MainThread]: End processing [dola] error
+[2023-07-09 11:32:58] INFO root fetch - processPackages [vina2vi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 11:32:58] INFO root fetch - processPackages [ngmapi]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-07-09 11:32:58] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/d3/ea/42cd57e8d3b390018e3ad120692adfe4ade215c1b053029484d153771139/ngmapi-0.0.42.tar.gz
+[2023-07-09 11:32:58] INFO root fetch - processPackages [vina2vi]: Downloading https://files.pythonhosted.org/packages/61/b0/c93574f0900b00c8ba9ada608c1a57b2be62d00cb732d85cf1909633cad6/vina2vi-0.0.5.tar.gz
+[2023-07-09 11:32:59] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/e0/ab/177a72623fc96a730c093ffbba79aecb13850733f75c263a073f447d81c0/ngmapi-0.0.43.tar.gz
+[2023-07-09 11:32:59] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 11:32:59] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.42.tar.gz tmp/ngmapi-0.0.43.tar.gz --markdown 20230709/n/ngmapi/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-07-09 11:32:59] INFO root fetch - processPackages [vina2vi]: Downloading https://files.pythonhosted.org/packages/52/af/485ec392ad08c281dfcc5988aef74efdbcb5bd4da238351dde6d2c9b13a2/vina2vi-0.0.6.tar.gz
+[2023-07-09 11:32:59] INFO root fetch - processPackages [vina2vi]: executing diffoscope
+[2023-07-09 11:32:59] INFO root fetch - processPackages [vina2vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vina2vi-0.0.5.tar.gz tmp/vina2vi-0.0.6.tar.gz --markdown 20230709/v/vina2vi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 11:32:59] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.42.tar.gz]
+[2023-07-09 11:32:59] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.43.tar.gz]
+[2023-07-09 11:32:59] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 11:33:00] INFO root fetch - processPackages [vina2vi]: Remove: archive file [/home/abi/fetcher/tmp/vina2vi-0.0.5.tar.gz]
+[2023-07-09 11:33:00] INFO root fetch - processPackages [vina2vi]: Remove: archive file [/home/abi/fetcher/tmp/vina2vi-0.0.6.tar.gz]
+[2023-07-09 11:33:00] INFO root fetch - main [MainThread]: End processing [vina2vi]: success
+[2023-07-09 11:33:00] INFO root fetch - main [MainThread]: Store serial: [18819353]

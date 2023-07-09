@@ -15768,3 +15768,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:26:29] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-09 22:26:29] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-09 22:26:29] INFO root fetch - main [MainThread]: Store serial: [18823177]
+[2023-07-09 22:31:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823177]
+[2023-07-09 22:31:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radiant-framework
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydrusvideodeduplicator
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythonperlin
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sydeploy
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trendalation
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mullvad-closest
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trendalation
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: klujax
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySimplePreview
+[2023-07-09 22:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dotbot
+[2023-07-09 22:31:38] WARNING root fetch - processPackages [PySimplePreview]: Skipping, unable to determine old version
+[2023-07-09 22:31:38] INFO root fetch - main [MainThread]: End processing [PySimplePreview] error
+[2023-07-09 22:31:39] INFO root fetch - processPackages [trendalation]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [dotbot]: New version: [1.19.2] Old Version: [1.19.1]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [pythonperlin]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [mullvad-closest]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [sydeploy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a8] Old Version: [0.1a7]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [klujax]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [trendalation]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 22:31:39] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/78/15/03f6abeb4eb546db56393e0ac31222bd43a0f4bb69caeaf20be665addd05/sydeploy-0.2.5-py3-none-any.whl
+[2023-07-09 22:31:39] INFO root fetch - processPackages [dotbot]: Downloading https://files.pythonhosted.org/packages/7c/40/5af5a63afb366e825998d7e618c9331661582e9366da2c21c1e1973e90c3/dotbot-1.19.1.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/e6/d9/b58674ac58f7e87c2e587517ba387071f5d334fc6ea1fdb6f3a1c7b1a11d/trendalation-0.1.4.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/e6/d9/b58674ac58f7e87c2e587517ba387071f5d334fc6ea1fdb6f3a1c7b1a11d/trendalation-0.1.4.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [mullvad-closest]: Downloading https://files.pythonhosted.org/packages/af/12/ac808489a0dc12a016b51224413921d69b49b6e2d5fa6da749ddcc5a0c03/mullvad-closest-0.0.2.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [pythonperlin]: Downloading https://files.pythonhosted.org/packages/61/5e/ad986994b6c1afe3d90a5d1476ee90c9fa8aebd7c1fa9094bb0558b9f219/pythonperlin-0.0.3.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/7c/21/cd408e3e7b736b8d1b3288c32ea3b5bcdb1613f54a632e4339331c01341b/hydrusvideodeduplicator-0.2.2.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [klujax]: Downloading https://files.pythonhosted.org/packages/a5/50/10d36cb6e80b9dd392492af925d56b8fc14fe9c02b3cb5975845e96708c5/klujax-0.2.0.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/a9/17/fc847b4ec959ef1dece24f5ad4447bd16673c8459b48d099b3ffb431d4bb/sydeploy-0.2.6-py3-none-any.whl
+[2023-07-09 22:31:39] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/32/c6/d5713e77d9defcf5a87cc2537b82e75e60dd25588885200e7accea7f7d0d/trendalation-0.1.5-py3-none-any.whl
+[2023-07-09 22:31:39] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/32/c6/d5713e77d9defcf5a87cc2537b82e75e60dd25588885200e7accea7f7d0d/trendalation-0.1.5-py3-none-any.whl
+[2023-07-09 22:31:39] INFO root fetch - processPackages [pythonperlin]: Downloading https://files.pythonhosted.org/packages/c5/45/c234fb22d836985f4aa0aba82cc0de3b3d906c6dde091da7349b9a18e30c/pythonperlin-0.0.4.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [mullvad-closest]: Downloading https://files.pythonhosted.org/packages/8b/9a/995d24a0729c67bf19328c27d4814200071b61c4df7e4a4bb5b848470162/mullvad-closest-0.0.3.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/2c/da/c7cf3942771b104fd99840d4ac31943e1b8cdbd0785c5315a241c2f5f3b7/hydrusvideodeduplicator-0.2.3.tar.gz
+[2023-07-09 22:31:39] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 22:31:39] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.5-py3-none-any.whl.zip tmp/sydeploy-0.2.6-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-09 22:31:39] INFO root fetch - processPackages [klujax]: Downloading https://files.pythonhosted.org/packages/0b/48/cda9451760583036aa9d664c99d719c5b2966c715c7ff7d2abd1a0a9c230/klujax-0.2.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-09 22:31:39] INFO root fetch - processPackages [dotbot]: Downloading https://files.pythonhosted.org/packages/17/dd/e63106d944dfac3d2092ec5935c69f73ac806138586df719b3ce72027066/dotbot-1.19.2.tar.gz
+[2023-07-09 22:31:40] INFO root fetch - processPackages [mullvad-closest]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [mullvad-closest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mullvad-closest-0.0.2.tar.gz tmp/mullvad-closest-0.0.3.tar.gz --markdown 20230709/m/mullvad-closest/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [pythonperlin]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [pythonperlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonperlin-0.0.3.tar.gz tmp/pythonperlin-0.0.4.tar.gz --markdown 20230709/p/pythonperlin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.2.2.tar.gz tmp/hydrusvideodeduplicator-0.2.3.tar.gz --markdown 20230709/h/hydrusvideodeduplicator/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.4.tar.gz tmp/trendalation-0.1.5-py3-none-any.whl.zip --markdown 20230709/t/trendalation/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.4.tar.gz tmp/trendalation-0.1.5-py3-none-any.whl.zip --markdown 20230709/t/trendalation/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [klujax]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [klujax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klujax-0.2.0.tar.gz tmp/klujax-0.2.2-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230709/k/klujax/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [dotbot]: executing diffoscope
+[2023-07-09 22:31:40] INFO root fetch - processPackages [dotbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotbot-1.19.1.tar.gz tmp/dotbot-1.19.2.tar.gz --markdown 20230709/d/dotbot/1.19.1-1.19.2/diff.md --exclude *.pyd
+[2023-07-09 22:31:40] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/2d/6f/f2e4aa08d73dbd051fb8fc0242c5eb5274732d13c67f74d5e272a75da166/radiant-framework-0.1a7.tar.gz
+[2023-07-09 22:31:40] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 28113158>=10485760
+[2023-07-09 22:31:40] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-07-09 22:31:41] INFO root fetch - processPackages [pythonperlin]: Remove: archive file [/home/abi/fetcher/tmp/pythonperlin-0.0.3.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [pythonperlin]: Remove: archive file [/home/abi/fetcher/tmp/pythonperlin-0.0.4.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [pythonperlin]: success
+[2023-07-09 22:31:41] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.5-py3-none-any.whl.zip]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.6-py3-none-any.whl.zip]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 22:31:41] INFO root fetch - processPackages [mullvad-closest]: Remove: archive file [/home/abi/fetcher/tmp/mullvad-closest-0.0.2.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [mullvad-closest]: Remove: archive file [/home/abi/fetcher/tmp/mullvad-closest-0.0.3.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [mullvad-closest]: success
+[2023-07-09 22:31:41] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.2.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.3.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-09 22:31:41] INFO root fetch - processPackages [dotbot]: Remove: archive file [/home/abi/fetcher/tmp/dotbot-1.19.1.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [dotbot]: Remove: archive file [/home/abi/fetcher/tmp/dotbot-1.19.2.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [dotbot]: success
+[2023-07-09 22:31:41] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.4.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.5-py3-none-any.whl.zip]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-09 22:31:41] INFO root fetch - processPackages [klujax]: Remove: archive file [/home/abi/fetcher/tmp/klujax-0.2.0.tar.gz]
+[2023-07-09 22:31:41] INFO root fetch - processPackages [klujax]: Remove: archive file [/home/abi/fetcher/tmp/klujax-0.2.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: End processing [klujax]: success
+[2023-07-09 22:31:41] INFO root fetch - main [MainThread]: Store serial: [18823243]

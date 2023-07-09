@@ -17027,3 +17027,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:53:49] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
 [2023-07-09 23:53:49] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
 [2023-07-09 23:53:49] INFO root fetch - main [MainThread]: Store serial: [18823722]
+[2023-07-09 23:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823722]
+[2023-07-09 23:58:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: corankco
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfirebird
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-spy
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydaraja
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WifiOrca
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opswork
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdir2
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sydeploy
+[2023-07-09 23:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tgeraser
+[2023-07-09 23:58:58] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.74] Old Version: [0.0.72]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [aws-spy]: New version: [0.1.11] Old Version: [0.1.10]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc6] Old Version: [0.2.7rc5]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [opswork]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-09 23:58:58] WARNING root fetch - processPackages [pydaraja]: Skipping, unable to determine old version
+[2023-07-09 23:58:58] INFO root fetch - processPackages [tgeraser]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [pydaraja]: Start processing: dank-mids
+[2023-07-09 23:58:58] INFO root fetch - main [MainThread]: End processing [pydaraja] error
+[2023-07-09 23:58:58] INFO root fetch - processPackages [pdir2]: New version: [1.0.0] Old Version: [0.3.6]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [corankco]: New version: [6.0.0] Old Version: [4.0.1]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 23:58:58] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/fe/fe/140fc082500b7f25daf8371682cce5762e8a8aab3549fe4dddee5cea9b46/aws_spy-0.1.10.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/ac/61/e4c89f4453e4460b86014aa2ccc32a1b3c6e17c2b8760957c6c653160840/pyfirebird-0.0.72.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [opswork]: Downloading https://files.pythonhosted.org/packages/36/92/0395cb0dddd90cf7f4adad1de31632a6dd2be215a8e1ca1ec682de4cd5e1/opswork-0.4.0.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/94/1f/4f872a2ac0c2297c49f3a8017746d2c2bf8c0d2d493bf65edd688f7ff4ba/sydeploy-0.2.7rc5-py3-none-any.whl
+[2023-07-09 23:58:58] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [corankco]: Downloading https://files.pythonhosted.org/packages/ec/7e/43c6ea53cdaebbcda5d9a3a422e6d633bdd0fbfffcd817d5ebf4dc2a4baf/corankco-4.0.1.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [tgeraser]: Downloading https://files.pythonhosted.org/packages/a8/1c/b1ad9296e659b1f001c3a397cbd8f9214caf5c82e31fc6d72a75a51bd2d1/tgeraser-1.1.1.tar.gz
+[2023-07-09 23:58:58] INFO root fetch - processPackages [pdir2]: Downloading https://files.pythonhosted.org/packages/ef/b1/0c4966b1077e85925f73b625ee4cb0490b6b16c2faa503e8f73d91f0e6b4/pdir2-0.3.6.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [opswork]: Downloading https://files.pythonhosted.org/packages/d8/8e/3ee993de720d74f0d1cef88a8f2f893d4713cb43f539bc3757fbab1394cb/opswork-0.5.0.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/1d/b7/e4a5ff661b8af871a69c48efe61ead7156569aaea7bd435c019286afce34/sydeploy-0.2.7rc6-py3-none-any.whl
+[2023-07-09 23:58:59] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/e3/0e/7bd144b636d61e3442c8375e6274c986e33f6545e90dde3d93b97ad506a5/aws_spy-0.1.11.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/f6/d7/7ccb4d14ddb3c2b3e77203e1bb75f090e54a8d4b45dc5593f7627d15e081/pyfirebird-0.0.74.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [tgeraser]: Downloading https://files.pythonhosted.org/packages/7b/ac/eee886c9af0ea496575765306b66de5851f338644acfd8037be5839b5a59/tgeraser-1.1.2.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [opswork]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [opswork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opswork-0.4.0.tar.gz tmp/opswork-0.5.0.tar.gz --markdown 20230709/o/opswork/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [corankco]: Downloading https://files.pythonhosted.org/packages/43/ec/fab351ffae49dc8ceca5f276d73fbab99b790658ccd05b67d21eba549f5a/corankco-6.0.0.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc5-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc6-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7rc5-0.2.7rc6/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [pdir2]: Downloading https://files.pythonhosted.org/packages/fd/c9/277e20fd32edf441e0a000e3e29757431eac503873f3d8c57ac6edae3bf7/pdir2-1.0.0.tar.gz
+[2023-07-09 23:58:59] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.1.10.tar.gz tmp/aws_spy-0.1.11.tar.gz --markdown 20230709/a/aws-spy/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [tgeraser]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [tgeraser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgeraser-1.1.1.tar.gz tmp/tgeraser-1.1.2.tar.gz --markdown 20230709/t/tgeraser/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.72.tar.gz tmp/pyfirebird-0.0.74.tar.gz --markdown 20230709/p/pyfirebird/0.0.72-0.0.74/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [corankco]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [corankco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corankco-4.0.1.tar.gz tmp/corankco-6.0.0.tar.gz --markdown 20230709/c/corankco/4.0.1-6.0.0/diff.md --exclude *.pyd
+[2023-07-09 23:58:59] INFO root fetch - processPackages [pdir2]: executing diffoscope
+[2023-07-09 23:58:59] INFO root fetch - processPackages [pdir2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdir2-0.3.6.tar.gz tmp/pdir2-1.0.0.tar.gz --markdown 20230709/p/pdir2/0.3.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 23:59:00] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 23:59:00] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 23:59:00] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 23:59:00] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 23:59:00] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 23:59:00] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 23:59:00] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 23:59:00] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc5-py3-none-any.whl.zip]
+[2023-07-09 23:59:00] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc6-py3-none-any.whl.zip]
+[2023-07-09 23:59:00] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:59:01] INFO root fetch - processPackages [tgeraser]: Remove: archive file [/home/abi/fetcher/tmp/tgeraser-1.1.1.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - processPackages [tgeraser]: Remove: archive file [/home/abi/fetcher/tmp/tgeraser-1.1.2.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - main [MainThread]: End processing [tgeraser]: success
+[2023-07-09 23:59:01] INFO root fetch - processPackages [pdir2]: Remove: archive file [/home/abi/fetcher/tmp/pdir2-0.3.6.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - processPackages [pdir2]: Remove: archive file [/home/abi/fetcher/tmp/pdir2-1.0.0.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - main [MainThread]: End processing [pdir2]: success
+[2023-07-09 23:59:01] INFO root fetch - processPackages [opswork]: Remove: archive file [/home/abi/fetcher/tmp/opswork-0.4.0.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - processPackages [opswork]: Remove: archive file [/home/abi/fetcher/tmp/opswork-0.5.0.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - main [MainThread]: End processing [opswork]: success
+[2023-07-09 23:59:01] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.1.10.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.1.11.tar.gz]
+[2023-07-09 23:59:01] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-09 23:59:02] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-4.0.1.tar.gz]
+[2023-07-09 23:59:02] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-6.0.0.tar.gz]
+[2023-07-09 23:59:02] INFO root fetch - main [MainThread]: End processing [corankco]: success
+[2023-07-09 23:59:06] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.72.tar.gz]
+[2023-07-09 23:59:06] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.74.tar.gz]
+[2023-07-09 23:59:06] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 23:59:06] INFO root fetch - main [MainThread]: Store serial: [18823756]

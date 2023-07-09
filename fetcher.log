@@ -15044,3 +15044,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:44:36] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2023-07-09 21:44:36] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-07-09 21:44:36] INFO root fetch - main [MainThread]: Store serial: [18822805]
+[2023-07-09 21:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822805]
+[2023-07-09 21:49:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 21:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tastytrade-sdk
+[2023-07-09 21:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twip-api
+[2023-07-09 21:49:45] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev7] Old Version: [0.1.4a0.dev6]
+[2023-07-09 21:49:45] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/fc/d5/06dd7d9b08fe5c31e9887b3bca459f3bcfed4eb4f0e7a5168d76a391f874/tastytrade_sdk-0.1.4a0.dev6.tar.gz
+[2023-07-09 21:49:45] INFO root fetch - processPackages [twip-api]: New version: [1.0.0] Old Version: [0.0.9.1]
+[2023-07-09 21:49:46] INFO root fetch - processPackages [twip-api]: Downloading https://files.pythonhosted.org/packages/aa/98/b873873ec30c1b4ee032bfc36e72eb857021a8717ddb38d40f5c2c918f15/twip_api-0.0.9.1-py3-none-any.whl
+[2023-07-09 21:49:46] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/3c/5f/c433296861ac39672c612340c10a27ce0236efdc2881adf31dc0052945ce/tastytrade_sdk-0.1.4a0.dev7.tar.gz
+[2023-07-09 21:49:46] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-09 21:49:46] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev6.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev7.tar.gz --markdown 20230709/t/tastytrade-sdk/0.1.4a0.dev6-0.1.4a0.dev7/diff.md --exclude *.pyd
+[2023-07-09 21:49:46] INFO root fetch - processPackages [twip-api]: Downloading https://files.pythonhosted.org/packages/29/dd/230d4dbd873d185c1467215e493910da6f95f26eb31656cc96c4ecc956eb/twip_api-1.0.0-py3-none-any.whl
+[2023-07-09 21:49:46] INFO root fetch - processPackages [twip-api]: executing diffoscope
+[2023-07-09 21:49:46] INFO root fetch - processPackages [twip-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twip_api-0.0.9.1-py3-none-any.whl.zip tmp/twip_api-1.0.0-py3-none-any.whl.zip --markdown 20230709/t/twip-api/0.0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 21:49:47] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev6.tar.gz]
+[2023-07-09 21:49:47] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev7.tar.gz]
+[2023-07-09 21:49:47] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-09 21:49:47] INFO root fetch - processPackages [twip-api]: Remove: archive file [/home/abi/fetcher/tmp/twip_api-0.0.9.1-py3-none-any.whl.zip]
+[2023-07-09 21:49:47] INFO root fetch - processPackages [twip-api]: Remove: archive file [/home/abi/fetcher/tmp/twip_api-1.0.0-py3-none-any.whl.zip]
+[2023-07-09 21:49:47] INFO root fetch - main [MainThread]: End processing [twip-api]: success
+[2023-07-09 21:49:47] INFO root fetch - main [MainThread]: Store serial: [18822809]

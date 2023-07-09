@@ -3155,3 +3155,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:04:54] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.5.tar.gz]
 [2023-07-09 05:04:54] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
 [2023-07-09 05:04:54] INFO root fetch - main [MainThread]: Store serial: [18817551]
+[2023-07-09 05:09:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817551]
+[2023-07-09 05:10:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 05:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sou-meraki
+[2023-07-09 05:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pwforecast
+[2023-07-09 05:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydelorean
+[2023-07-09 05:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastasplit
+[2023-07-09 05:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WifiOrca
+[2023-07-09 05:10:03] INFO root fetch - processPackages [pydelorean]: New version: [1.3.4] Old Version: [1.1.0]
+[2023-07-09 05:10:03] INFO root fetch - processPackages [pwforecast]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-09 05:10:03] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 05:10:03] WARNING root fetch - processPackages [fastasplit]: Skipping, unable to determine old version
+[2023-07-09 05:10:03] INFO root fetch - main [MainThread]: End processing [fastasplit] error
+[2023-07-09 05:10:03] WARNING root fetch - processPackages [sou-meraki]: Skipping, unable to determine old version
+[2023-07-09 05:10:03] INFO root fetch - main [MainThread]: End processing [sou-meraki] error
+[2023-07-09 05:10:03] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7f/5a/ac76b9c5d882293782bc2df4c20e530c052614e431c067b4bcdd7deee35d/WifiOrca-0.0.2.tar.gz
+[2023-07-09 05:10:03] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/75/84/f0f593feef6bafb5ae7518850977f83c04d9ceb65cbef62630f4d94eb848/pwforecast-1.1.0.tar.gz
+[2023-07-09 05:10:03] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/ed/75/6027e9646563165a004e29b158d4ce6806eb4d1c3ab82034c0c44846c81c/pydelorean-1.1.0.tar.gz
+[2023-07-09 05:10:04] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/54/cb/1ed4c01be56630a8edbd5bbb6a8eb98da18d7a24a3f47e9928d472dcbe2d/WifiOrca-0.0.3.tar.gz
+[2023-07-09 05:10:04] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/75/2d/13aec7535cac7ce4fe9f8b1dbb3d478ae184458044fc5a52513d12241000/pwforecast-1.1.1.tar.gz
+[2023-07-09 05:10:04] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/39/76/6d42f260f5c3ba9efe7c53ac0cf6ad15b5ba824ace1dcd69d98913a001c9/pydelorean-1.3.4.tar.gz
+[2023-07-09 05:10:04] INFO root fetch - processPackages [pwforecast]: executing diffoscope
+[2023-07-09 05:10:04] INFO root fetch - processPackages [pwforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwforecast-1.1.0.tar.gz tmp/pwforecast-1.1.1.tar.gz --markdown 20230709/p/pwforecast/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-09 05:10:04] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 05:10:04] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.2.tar.gz tmp/WifiOrca-0.0.3.tar.gz --markdown 20230709/W/WifiOrca/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 05:10:04] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-09 05:10:04] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.1.0.tar.gz tmp/pydelorean-1.3.4.tar.gz --markdown 20230709/p/pydelorean/1.1.0-1.3.4/diff.md --exclude *.pyd
+[2023-07-09 05:10:05] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.2.tar.gz]
+[2023-07-09 05:10:05] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.3.tar.gz]
+[2023-07-09 05:10:05] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 05:10:05] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.0.tar.gz]
+[2023-07-09 05:10:05] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.1.tar.gz]
+[2023-07-09 05:10:05] INFO root fetch - main [MainThread]: End processing [pwforecast]: success
+[2023-07-09 05:10:05] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.1.0.tar.gz]
+[2023-07-09 05:10:05] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.3.4.tar.gz]
+[2023-07-09 05:10:05] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-09 05:10:05] INFO root fetch - main [MainThread]: Store serial: [18817568]

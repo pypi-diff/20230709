@@ -10008,3 +10008,154 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:54:46] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
 [2023-07-09 15:54:46] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-07-09 15:54:46] INFO root fetch - main [MainThread]: Store serial: [18820608]
+[2023-07-09 15:59:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820608]
+[2023-07-09 15:59:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seunggabi-core-python
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frontmatter-cli
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sydeploy
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nanolsap
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BookerDownloadTool
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unihan-etl
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ir-client
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BookerMarkdownTool
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BookerMarkdownTool
+[2023-07-09 15:59:55] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-09 15:59:55] INFO root fetch - processPackages [frontmatter-cli]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-09 15:59:55] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-09 15:59:55] INFO root fetch - processPackages [BookerDownloadTool]: New version: [2023.7.9.0] Old Version: [2023.4.27.0]
+[2023-07-09 15:59:55] WARNING root fetch - processPackages [sydeploy]: Skipping, unable to determine old version
+[2023-07-09 15:59:55] INFO root fetch - processPackages [sydeploy]: Start processing: sailboat-gym
+[2023-07-09 15:59:55] INFO root fetch - main [MainThread]: End processing [sydeploy] error
+[2023-07-09 15:59:55] INFO root fetch - processPackages [BookerMarkdownTool]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 15:59:55] INFO root fetch - processPackages [ir-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 15:59:55] INFO root fetch - processPackages [nanolsap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 15:59:55] INFO root fetch - processPackages [BookerMarkdownTool]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 15:59:56] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-09 15:59:56] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 15:59:56] INFO root fetch - processPackages [ir-client]: Downloading https://files.pythonhosted.org/packages/f9/c6/84c712c94f9f37c81dac54d39645eede253c67282903723a3a26f93c31da/ir_client-0.1.2.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [frontmatter-cli]: Downloading https://files.pythonhosted.org/packages/b2/91/d7c66181b32030513eb1fb119cd666a2e6a545e15812a197c25c60cbfe99/frontmatter-cli-2023.7.2.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [BookerDownloadTool]: Downloading https://files.pythonhosted.org/packages/a5/79/12dc477919cb108763b5a2ecb88e73f2aabaa839dc5aa96d03c3d2220d5a/BookerDownloadTool-2023.4.27.0.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-09 15:59:56] INFO root fetch - processPackages [nanolsap]: Downloading https://files.pythonhosted.org/packages/6c/69/a43065ad9dce9a7eb3fdc160a322f20f8dc6f936703516d474cc0b7bf9b0/nanolsap-0.1.1.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [BookerMarkdownTool]: Downloading https://files.pythonhosted.org/packages/ec/51/1c618a3e2fb769631329252f09fc1b70cd2fe186731a42d3f5ac217014ae/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl
+[2023-07-09 15:59:56] INFO root fetch - processPackages [BookerMarkdownTool]: Downloading https://files.pythonhosted.org/packages/ec/51/1c618a3e2fb769631329252f09fc1b70cd2fe186731a42d3f5ac217014ae/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl
+[2023-07-09 15:59:56] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/82/3e/b61828fbc7fbb1c50ad28d3dffcfb4c77275074a9a6dbc5630ea97dfaff9/seunggabi_core_python-0.7.0.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [ir-client]: Downloading https://files.pythonhosted.org/packages/2c/f3/73bcd0faaa144c78c4515790ee02018031fae0fa34688dc575140160f33e/ir_client-0.1.3.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [frontmatter-cli]: Downloading https://files.pythonhosted.org/packages/fb/f8/ea920ef82a21f422102b2372979fc0a3204838fb29f869443e77e439e24d/frontmatter-cli-2023.7.3.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [BookerDownloadTool]: Downloading https://files.pythonhosted.org/packages/55/8e/5a3698443970badd98e26bcf26d0696709ed901058d30bed9aa4222f2b6b/BookerDownloadTool-2023.7.9.0.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-07-09 15:59:56] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230709/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 15:59:56] INFO root fetch - processPackages [BookerMarkdownTool]: Downloading https://files.pythonhosted.org/packages/f8/b8/0b2d3be09b15ec0eb88edaf1fc7fbbe267033679ed96548e483ff1ad0afb/BookerMarkdownTool-2023.7.9.1.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [BookerMarkdownTool]: Downloading https://files.pythonhosted.org/packages/f8/b8/0b2d3be09b15ec0eb88edaf1fc7fbbe267033679ed96548e483ff1ad0afb/BookerMarkdownTool-2023.7.9.1.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [nanolsap]: Downloading https://files.pythonhosted.org/packages/4c/e3/9646d1b9ff1359f09dd658dc10613d99edc924f2013bf2f5ad6feaa07c27/nanolsap-0.1.2.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/63/29/afebe64cd0882d776f1432763ac8a3bc55ba7db1adc9dd67145a5901cd8b/seunggabi_core_python-0.8.0.tar.gz
+[2023-07-09 15:59:56] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-09 15:59:56] INFO root fetch - processPackages [ir-client]: executing diffoscope
+[2023-07-09 15:59:56] INFO root fetch - processPackages [ir-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_client-0.1.2.tar.gz tmp/ir_client-0.1.3.tar.gz --markdown 20230709/i/ir-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 15:59:56] INFO root fetch - processPackages [frontmatter-cli]: executing diffoscope
+[2023-07-09 15:59:56] INFO root fetch - processPackages [frontmatter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontmatter-cli-2023.7.2.tar.gz tmp/frontmatter-cli-2023.7.3.tar.gz --markdown 20230709/f/frontmatter-cli/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230709/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [BookerDownloadTool]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [BookerDownloadTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerDownloadTool-2023.4.27.0.tar.gz tmp/BookerDownloadTool-2023.7.9.0.tar.gz --markdown 20230709/B/BookerDownloadTool/2023.4.27.0-2023.7.9.0/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.7.0.tar.gz tmp/seunggabi_core_python-0.8.0.tar.gz --markdown 20230709/s/seunggabi-core-python/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [nanolsap]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [nanolsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolsap-0.1.1.tar.gz tmp/nanolsap-0.1.2.tar.gz --markdown 20230709/n/nanolsap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [BookerMarkdownTool]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [BookerMarkdownTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl.zip tmp/BookerMarkdownTool-2023.7.9.1.tar.gz --markdown 20230709/B/BookerMarkdownTool/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [BookerMarkdownTool]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [BookerMarkdownTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl.zip tmp/BookerMarkdownTool-2023.7.9.1.tar.gz --markdown 20230709/B/BookerMarkdownTool/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 15:59:57] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-09 15:59:57] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230709/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-09 15:59:58] INFO root fetch - processPackages [ir-client]: Remove: archive file [/home/abi/fetcher/tmp/ir_client-0.1.2.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [ir-client]: Remove: archive file [/home/abi/fetcher/tmp/ir_client-0.1.3.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [ir-client]: Start processing: anyconfig-fit-backend
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [ir-client]: success
+[2023-07-09 15:59:58] INFO root fetch - processPackages [frontmatter-cli]: Remove: archive file [/home/abi/fetcher/tmp/frontmatter-cli-2023.7.2.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [frontmatter-cli]: Remove: archive file [/home/abi/fetcher/tmp/frontmatter-cli-2023.7.3.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [frontmatter-cli]: Start processing: nameutils
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [frontmatter-cli]: success
+[2023-07-09 15:59:58] INFO root fetch - processPackages [anyconfig-fit-backend]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [sailboat-gym]: Start processing: BookerMarkdownTool
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-07-09 15:59:58] WARNING root fetch - processPackages [nameutils]: Skipping, unable to determine old version
+[2023-07-09 15:59:58] INFO root fetch - processPackages [nameutils]: Start processing: flet-lite
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [nameutils] error
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerMarkdownTool]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.7.0.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.8.0.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [seunggabi-core-python]: Start processing: nwebclient
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-09 15:59:58] INFO root fetch - processPackages [flet-lite]: New version: [1.7] Old Version: [1.6.2]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [anyconfig-fit-backend]: Downloading https://files.pythonhosted.org/packages/62/98/187daaa6c92bae98453d5e4e858b10101dd5a811f44c0f35092ebd7e819d/anyconfig-fit-backend-0.1.1.tar.gz
+[2023-07-09 15:59:58] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerMarkdownTool]: executing diffoscope
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerMarkdownTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl.zip tmp/BookerMarkdownTool-2023.7.9.1.tar.gz --markdown 20230709/B/BookerMarkdownTool/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 15:59:58] INFO root fetch - processPackages [flet-lite]: Downloading https://files.pythonhosted.org/packages/00/0b/24221a5ac2b8d0a87138ae6773eaeff710fa741693d3cb4ce547c05b0880/flet_lite-1.6.2.tar.gz
+[2023-07-09 15:59:58] INFO root fetch - processPackages [nanolsap]: Remove: archive file [/home/abi/fetcher/tmp/nanolsap-0.1.1.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [nanolsap]: Remove: archive file [/home/abi/fetcher/tmp/nanolsap-0.1.2.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [nanolsap]: Start processing: sparse-dok
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [nanolsap]: success
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerDownloadTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerDownloadTool-2023.4.27.0.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerDownloadTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerDownloadTool-2023.7.9.0.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerDownloadTool]: Start processing: sydeploy
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [BookerDownloadTool]: success
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerMarkdownTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl.zip]
+[2023-07-09 15:59:58] INFO root fetch - processPackages [BookerMarkdownTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerMarkdownTool-2023.7.9.1.tar.gz]
+[2023-07-09 15:59:58] INFO root fetch - main [MainThread]: End processing [BookerMarkdownTool]: success
+[2023-07-09 15:59:59] INFO root fetch - main [MainThread]: End processing [BookerMarkdownTool]: success
+[2023-07-09 15:59:59] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sparse-dok]: New version: [0.1.9.3] Old Version: [0.1.9.2]
+[2023-07-09 15:59:59] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-07-09 15:59:59] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-07-09 15:59:59] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 15:59:59] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 15:59:59] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc5] Old Version: [0.2.1rc4]
+[2023-07-09 15:59:59] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/71/32/570c5e36a802aabd25465951e2903d3f1784ca1af3b0780c02d9efbb7224/sparse_dok-0.1.9.2.tar.gz
+[2023-07-09 15:59:59] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 15:59:59] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/cb/ef/fd67651334b9dcacbd4a1a43ffd9aa5ce4fb61d311255bbd2274d533dab2/sydeploy-0.2.1rc4.tar.gz
+[2023-07-09 15:59:59] ERROR root fetch - processPackages [BookerMarkdownTool]: Diffoscope failed: time="2023-07-09T15:59:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/BookerMarkdownTool-2023.7.9.0-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/BookerMarkdownTool-2023.7.9.1.tar.gz: No such file or directory
+
+[2023-07-09 15:59:59] INFO root fetch - main [MainThread]: End processing [BookerMarkdownTool] error
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/bb/c1/bccef52715094e98adb888ddd1daa11303b4ab4d7a1d031c385d74a921ff/sparse_dok-0.1.9.3.tar.gz
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/2a/f3/f42a61a5b1c0dba5c21b012dd5a123b71ab09bb91e89ac13bfcf78f68c3b/sydeploy-0.2.1rc5.tar.gz
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sparse-dok]: executing diffoscope
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sparse-dok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dok-0.1.9.2.tar.gz tmp/sparse_dok-0.1.9.3.tar.gz --markdown 20230709/s/sparse-dok/0.1.9.2-0.1.9.3/diff.md --exclude *.pyd
+[2023-07-09 15:59:59] INFO root fetch - processPackages [flet-lite]: Downloading https://files.pythonhosted.org/packages/1c/5e/df67ccfd31b92ff73f1e769826c2d2fb6e5c9aac8bae4d249cc2d17e3787/flet_lite-1.7.tar.gz
+[2023-07-09 15:59:59] INFO root fetch - processPackages [anyconfig-fit-backend]: Downloading https://files.pythonhosted.org/packages/b3/78/209e1debc3494a2b8cd7830a8e052c223492b390728c65195b636f894218/anyconfig-fit-backend-0.2.0.tar.gz
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 15:59:59] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc4.tar.gz tmp/sydeploy-0.2.1rc5.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc4-0.2.1rc5/diff.md --exclude *.pyd
+[2023-07-09 16:00:00] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 16:00:00] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 16:00:00] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 16:00:00] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.2.tar.gz]
+[2023-07-09 16:00:00] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.3.tar.gz]
+[2023-07-09 16:00:00] INFO root fetch - main [MainThread]: End processing [sparse-dok]: success
+[2023-07-09 16:00:00] INFO root fetch - processPackages [anyconfig-fit-backend]: executing diffoscope
+[2023-07-09 16:00:00] INFO root fetch - processPackages [anyconfig-fit-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyconfig-fit-backend-0.1.1.tar.gz tmp/anyconfig-fit-backend-0.2.0.tar.gz --markdown 20230709/a/anyconfig-fit-backend/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 16:00:00] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc4.tar.gz]
+[2023-07-09 16:00:00] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc5.tar.gz]
+[2023-07-09 16:00:00] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 16:00:01] INFO root fetch - processPackages [flet-lite]: executing diffoscope
+[2023-07-09 16:00:01] INFO root fetch - processPackages [flet-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_lite-1.6.2.tar.gz tmp/flet_lite-1.7.tar.gz --markdown 20230709/f/flet-lite/1.6.2-1.7/diff.md --exclude *.pyd
+[2023-07-09 16:00:02] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.6.2.tar.gz]
+[2023-07-09 16:00:02] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.7.tar.gz]
+[2023-07-09 16:00:02] INFO root fetch - main [MainThread]: End processing [flet-lite]: success
+[2023-07-09 16:00:06] INFO root fetch - processPackages [anyconfig-fit-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-fit-backend-0.1.1.tar.gz]
+[2023-07-09 16:00:06] INFO root fetch - processPackages [anyconfig-fit-backend]: Remove: archive file [/home/abi/fetcher/tmp/anyconfig-fit-backend-0.2.0.tar.gz]
+[2023-07-09 16:00:06] INFO root fetch - main [MainThread]: End processing [anyconfig-fit-backend]: success
+[2023-07-09 16:00:06] INFO root fetch - main [MainThread]: Store serial: [18820676]

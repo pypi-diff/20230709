@@ -7156,3 +7156,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:17:25] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.6.tar.gz]
 [2023-07-09 11:17:25] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
 [2023-07-09 11:17:25] INFO root fetch - main [MainThread]: Store serial: [18819302]
+[2023-07-09 11:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819302]
+[2023-07-09 11:22:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kort-client
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instagrapi
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mnnllzz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluedo
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kort-client
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fnum
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-09 11:22:34] INFO root fetch - processPackages [bluedo]: New version: [2.4] Old Version: [2.3]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [mnnllzz]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [fnum]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [kort-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ngmapi]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [kort-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [instagrapi]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-09 11:22:34] INFO root fetch - processPackages [bluedo]: Downloading https://files.pythonhosted.org/packages/03/c0/496663b357c3bf70ee7ecc57189346dae6782dccfe645e730615c4325729/bluedo-2.3.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [kort-client]: Downloading https://files.pythonhosted.org/packages/24/58/ac00a81a0e43aaa464adfdb78a81ef45076f924c5ebf4a213c8d59931193/kort_client-0.1.0.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [kort-client]: Downloading https://files.pythonhosted.org/packages/24/58/ac00a81a0e43aaa464adfdb78a81ef45076f924c5ebf4a213c8d59931193/kort_client-0.1.0.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/67/63/b374377c4dba34b6ae0d812da543cce9af121497d2edb9054baafe5750a2/ngmapi-0.0.40.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/0e/1e/f15c51a8778d13857974eaf16f75602573faab91774142080f531b5c68ad/fnum-1.2.3-py3-none-any.whl
+[2023-07-09 11:22:34] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/76/d7/2e3379f2e2033e99f5743565c35eea3290a0d8c64d972b61d72a5f58d114/instagrapi-1.9.8.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [mnnllzz]: Downloading https://files.pythonhosted.org/packages/12/9b/372ad0c0a7798de170da28e412054dfbe5408f466abf3320ef90772b1f0d/mnnllzz-1.4.3.tar.gz
+[2023-07-09 11:22:34] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [kort-client]: Downloading https://files.pythonhosted.org/packages/e0/c2/2842ab5f6684d055894864fa1fe648a8e179d8c1e2e73fabd374684c97c7/kort_client-0.1.1.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [bluedo]: Downloading https://files.pythonhosted.org/packages/17/00/652f8605fb17a252054fe166dcb0cc6bfe13ff59b37dcef91df3531d9baf/bluedo-2.4.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [kort-client]: Downloading https://files.pythonhosted.org/packages/e0/c2/2842ab5f6684d055894864fa1fe648a8e179d8c1e2e73fabd374684c97c7/kort_client-0.1.1.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230709/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/b4/59/fb0c5e2509d7a7525ffedaaf77447ea047ea8dcb83dba20cca42a188c361/fnum-1.3.0-py3-none-any.whl
+[2023-07-09 11:22:35] INFO root fetch - processPackages [mnnllzz]: Downloading https://files.pythonhosted.org/packages/a8/71/db43c645bdfcba80ba8f3fc0054bb3ff38b0a666cf55f7f56993655b9953/mnnllzz-1.4.4.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ec/3c/afb22dadc39ff5e20d4edecfac71f9ec53d15e797edfa53f17f82aebfac0/ngmapi-0.0.41.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230709/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [bluedo]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [bluedo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluedo-2.3.tar.gz tmp/bluedo-2.4.tar.gz --markdown 20230709/b/bluedo/2.3-2.4/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [kort-client]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [kort-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kort_client-0.1.0.tar.gz tmp/kort_client-0.1.1.tar.gz --markdown 20230709/k/kort-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [kort-client]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [kort-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kort_client-0.1.0.tar.gz tmp/kort_client-0.1.1.tar.gz --markdown 20230709/k/kort-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/1a/d8/c991a85c48ec7f9c0e137bdaebffcfe17e3a14ceb51fbce4a4e3742df665/instagrapi-1.9.9.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [mnnllzz]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [mnnllzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnnllzz-1.4.3.tar.gz tmp/mnnllzz-1.4.4.tar.gz --markdown 20230709/m/mnnllzz/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.2.3-py3-none-any.whl.zip tmp/fnum-1.3.0-py3-none-any.whl.zip --markdown 20230709/f/fnum/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.40.tar.gz tmp/ngmapi-0.0.41.tar.gz --markdown 20230709/n/ngmapi/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-07-09 11:22:35] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-09 11:22:35] INFO root fetch - processPackages [instagrapi]: executing diffoscope
+[2023-07-09 11:22:35] INFO root fetch - processPackages [instagrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagrapi-1.9.8.tar.gz tmp/instagrapi-1.9.9.tar.gz --markdown 20230709/i/instagrapi/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-09 11:22:36] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-09 11:22:36] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230709/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-09 11:22:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-09 11:22:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-09 11:22:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-09 11:22:37] INFO root fetch - processPackages [kort-client]: Remove: archive file [/home/abi/fetcher/tmp/kort_client-0.1.0.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - processPackages [kort-client]: Remove: archive file [/home/abi/fetcher/tmp/kort_client-0.1.1.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [kort-client]: success
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [kort-client]: success
+[2023-07-09 11:22:37] INFO root fetch - processPackages [mnnllzz]: Remove: archive file [/home/abi/fetcher/tmp/mnnllzz-1.4.3.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - processPackages [mnnllzz]: Remove: archive file [/home/abi/fetcher/tmp/mnnllzz-1.4.4.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [mnnllzz]: success
+[2023-07-09 11:22:37] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.40.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.41.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 11:22:37] INFO root fetch - processPackages [bluedo]: Remove: archive file [/home/abi/fetcher/tmp/bluedo-2.3.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - processPackages [bluedo]: Remove: archive file [/home/abi/fetcher/tmp/bluedo-2.4.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [bluedo]: success
+[2023-07-09 11:22:37] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.2.3-py3-none-any.whl.zip]
+[2023-07-09 11:22:37] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.3.0-py3-none-any.whl.zip]
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-09 11:22:37] INFO root fetch - processPackages [instagrapi]: Remove: archive file [/home/abi/fetcher/tmp/instagrapi-1.9.8.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - processPackages [instagrapi]: Remove: archive file [/home/abi/fetcher/tmp/instagrapi-1.9.9.tar.gz]
+[2023-07-09 11:22:37] INFO root fetch - main [MainThread]: End processing [instagrapi]: success
+[2023-07-09 11:22:38] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-09 11:22:38] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-09 11:22:38] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-09 11:22:38] INFO root fetch - main [MainThread]: Store serial: [18819331]

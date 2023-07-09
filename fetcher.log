@@ -1403,3 +1403,182 @@
 [2023-07-09 02:30:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
 [2023-07-09 02:30:35] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-07-09 02:30:35] INFO root fetch - main [MainThread]: Store serial: [18816829]
+[2023-07-09 02:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816829]
+[2023-07-09 02:35:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sage-conf
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sage-docbuild
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sage-setup
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sage-sws2rst
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sagemath-categories
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemath-environment
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemath-objects
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemath-repl
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sagemath-standard
+[2023-07-09 02:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seedwork-python
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] WARNING root fetch - processPackages [seedwork-python]: Skipping, unable to determine old version
+[2023-07-09 02:35:44] INFO root fetch - processPackages [seedwork-python]: Start processing: sweetrpg-web-core
+[2023-07-09 02:35:44] INFO root fetch - main [MainThread]: End processing [seedwork-python] error
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/63/7d/1a322711621a03371daf041779f473d569145e98561ddd9039e79a30255e/sagemath-environment-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/87/21/012f950f98f90bb49afff7f0aa106a1d0f3f83f7686b6c7639257300de07/sage-conf-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/a4/e3/3abe6fb13b6aec05d433260a637c57426bc40016a26515ce1de2f6ccb547/sagemath-repl-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/68/e5/530ac4d218aa81bb055436ab8553554b883e0e460c773cbd530d7442463a/sage-docbuild-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/fe/5b4220d8485b9b1ea1e00d27d4033da6b77ab9bb3d90f96c2b0f69915cd9/sagemath-categories-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/4c/41/42559ab77e0184ee4c3cc7719ba4348e5aa1307506fab7a306aa4a483214/sagemath-objects-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/bb/16/bd3221dd969ef83cdb78698299f6e3cfa8be59d749daa81b4dc97f6d24ed/sage-setup-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/c7/9a/24d44916ef366f957e246ba99527efc0b4893673067aa991646a73886e88/sage-sws2rst-9.8b7.tar.gz
+[2023-07-09 02:35:44] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/25/81/ca7c2bcc4784c3075bcbf1849d48cee85027d56bdb107f8a0bf943b919ad/sagemath-environment-9.8rc0.tar.gz
+[2023-07-09 02:35:45] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-standard]: Start processing: cdk8s-redis
+[2023-07-09 02:35:45] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/fb/3c/6493d3c2a0f3a5c6276a510bac2fc348d682e8e826d3565dfc4f047ed8a2/sagemath-repl-9.8rc0.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20230709/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/dd/0daa405ce2567bb39e004c123601d2ec55ede2bc549eb306d07ba35eb456/sagemath-categories-9.8rc0.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/83/bc/944e941625ce0a283b49b178d1b3dc9b9c8af78512a7f2fd8ec2c617e1eb/sage-docbuild-9.8rc0.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/aa/ea/ed314950f3374f03b1417e552a4f31d8618f2811e6eacf3fe3332268f07c/sage-setup-9.8rc0.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20230709/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20230709/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20230709/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20230709/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/e2/13/be8c4c1c6ddab4fd81239014b8596bd4a65576cb4ec8fd36b8295e719cd8/sage-sws2rst-9.8rc0.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20230709/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/3e/ec/de38e0fcc76454c395321b4d2989ffe5f56e6334e310d1d9c6ad53f991f4/sagemath-objects-9.8rc0.tar.gz
+[2023-07-09 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-09 02:35:46] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230709/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-09 02:35:46] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2023-07-09 02:35:46] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20230709/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: sweetrpg-api-core
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8b7.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8rc0.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-docbuild]: Start processing: cdk-certbot-dns-route53
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/e9/96/cd18c202ff97cf2010773c4ddf2e91c5e8ec79bf2dd6466b16139b499233/sage-conf-9.8rc0.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8b7.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8rc0.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-sws2rst]: Start processing: sweetrpg-library-objects
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8b7.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8rc0.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sagemath-environment]: Start processing: cdk-serverless-clamscan
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk8s-redis]: Start processing: cdk-certbot-dns-route53
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8b7.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8rc0.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sage-setup]: Start processing: cdk-ecs-service-extensions
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a80]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8b7.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8rc0.tar.gz]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sagemath-repl]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-07-09 02:35:47] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230709/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/ba/e4/f0dff8d848cc9ffbfa33889d400f2f3bf1d254425569fcdecb2e86f1235b/cdk-ecs-service-extensions-2.0.1a80.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-09 02:35:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230709/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230709/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/4f/8d/abb31a165af680e8b0a59581ca2aee94485b1ad1db12d9445bbc9c0ddc3e/cdk-ecs-service-extensions-2.0.1a9.tar.gz
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8b7.tar.gz]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230709/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8rc0.tar.gz]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sagemath-categories]: Start processing: shell-interface
+[2023-07-09 02:35:48] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20230709/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [shell-interface]: New version: [0.9.0] Old Version: [0.11.1]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a80.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230709/c/cdk-ecs-service-extensions/2.0.1a80-2.0.1a9/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230709/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-09 02:35:48] INFO root fetch - processPackages [shell-interface]: Downloading https://files.pythonhosted.org/packages/a1/e3/202717a8a00d4d036b3a801df9c253af7d6ba14891c2867ad6091eb797b6/shell_interface-0.11.1.tar.gz
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8b7.tar.gz]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8rc0.tar.gz]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sagemath-objects]: Start processing: sloth-framework
+[2023-07-09 02:35:48] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2023-07-09 02:35:48] INFO root fetch - processPackages [shell-interface]: Downloading https://files.pythonhosted.org/packages/0f/8d/ea60b5fb203db6a005b1d7c9f2d8e48840ebb3717c757a47f3166e3b14db/shell_interface-0.9.0.tar.gz
+[2023-07-09 02:35:48] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-09 02:35:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-09 02:35:48] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-09 02:35:48] INFO root fetch - processPackages [shell-interface]: executing diffoscope
+[2023-07-09 02:35:48] INFO root fetch - processPackages [shell-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_interface-0.11.1.tar.gz tmp/shell_interface-0.9.0.tar.gz --markdown 20230709/s/shell-interface/0.11.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 02:35:49] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/75/0d/006a214eaeb72416cf89a7becfc002641eb8a9514ecd0ddbda137b98bcb2/sloth-framework-0.1.8.tar.gz
+[2023-07-09 02:35:49] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-09 02:35:49] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-07-09 02:35:49] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-09 02:35:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a80.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-07-09 02:35:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-09 02:35:49] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/1b/5e/f7756769bdc54ffa207ac448c35548cc179b70dca456bf78b6d4997e96f9/sloth-framework-0.1.9.tar.gz
+[2023-07-09 02:35:49] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-09 02:35:49] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-09 02:35:50] INFO root fetch - processPackages [shell-interface]: Remove: archive file [/home/abi/fetcher/tmp/shell_interface-0.11.1.tar.gz]
+[2023-07-09 02:35:50] INFO root fetch - processPackages [shell-interface]: Remove: archive file [/home/abi/fetcher/tmp/shell_interface-0.9.0.tar.gz]
+[2023-07-09 02:35:50] INFO root fetch - main [MainThread]: End processing [shell-interface]: success
+[2023-07-09 02:35:51] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-07-09 02:35:51] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.8.tar.gz tmp/sloth-framework-0.1.9.tar.gz --markdown 20230709/s/sloth-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 02:35:53] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.8.tar.gz]
+[2023-07-09 02:35:53] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.9.tar.gz]
+[2023-07-09 02:35:53] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-07-09 02:36:30] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8b7.tar.gz]
+[2023-07-09 02:36:30] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
+[2023-07-09 02:36:30] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
+[2023-07-09 02:36:30] INFO root fetch - main [MainThread]: Store serial: [18816884]

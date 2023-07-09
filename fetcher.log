@@ -5701,3 +5701,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:09:21] INFO root fetch - processPackages [dragonk8s]: Remove: archive file [/home/abi/fetcher/tmp/dragonk8s-1.0.0.tar.gz]
 [2023-07-09 09:09:21] INFO root fetch - main [MainThread]: End processing [dragonk8s]: success
 [2023-07-09 09:09:21] INFO root fetch - main [MainThread]: Store serial: [18818549]
+[2023-07-09 09:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818549]
+[2023-07-09 09:14:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngmapi
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurokit2
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nescs
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FiveMCipherFinder
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiliot-testers
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-nightly
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: letgo
+[2023-07-09 09:14:30] INFO root fetch - processPackages [nescs]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-09 09:14:30] WARNING root fetch - processPackages [letgo]: Skipping, unable to determine old version
+[2023-07-09 09:14:30] INFO root fetch - main [MainThread]: End processing [letgo] error
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ngmapi]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ngmapi]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [wiliot-testers]: New version: [4.0.6] Old Version: [4.0.14]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [neurokit2]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-09 09:14:30] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/46/09/0fe0172d2942a8d2844c48e572e0808c9209d50a1d5efaa4bca0f33bdb40/nescs-0.3.2.tar.gz
+[2023-07-09 09:14:30] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/0f/ee/fd47f6fb0c15e43d6faebee52038a37b1d42887f82ce49257ab8b42c457f/FiveMCipherFinder-2.1.0.tar.gz
+[2023-07-09 09:14:30] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ae/98/5034133f056e1c67ca93ed8324c67eb784417a4eb3ad6520a89c39975ca8/ngmapi-0.0.36.tar.gz
+[2023-07-09 09:14:30] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ae/98/5034133f056e1c67ca93ed8324c67eb784417a4eb3ad6520a89c39975ca8/ngmapi-0.0.36.tar.gz
+[2023-07-09 09:14:30] INFO root fetch - processPackages [wiliot-testers]: Downloading https://files.pythonhosted.org/packages/40/55/f41c4ce9eb7968088a6e072c47aec7dc2a33c9b33052bfc80cb90e5d88b7/wiliot-testers-4.0.14.tar.gz
+[2023-07-09 09:14:31] INFO root fetch - processPackages [neurokit2]: Downloading https://files.pythonhosted.org/packages/94/ac/d63aa14e1b866878a1beca523766ce84e9496a560fccec4c34a2376eb1b9/neurokit2-0.2.4.tar.gz
+[2023-07-09 09:14:31] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-09 09:14:31] WARNING root fetch - processPackages [neurokit2]: Skipping package: exceeds size limit 22230194>=10485760
+[2023-07-09 09:14:31] INFO root fetch - main [MainThread]: End processing [neurokit2] error
+[2023-07-09 09:14:31] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/fe/6d/64ebc20d3c966cc6a926845405872634f3db3103b0e4d00ff2fa9b37d59e/nescs-0.3.3.tar.gz
+[2023-07-09 09:14:31] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/59/01/8fd98837b2d15711444a941c14ef559b1858fa018f2d3543af1b8b35e0d0/FiveMCipherFinder-2.2.0.tar.gz
+[2023-07-09 09:14:31] INFO root fetch - processPackages [nescs]: executing diffoscope
+[2023-07-09 09:14:31] INFO root fetch - processPackages [nescs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nescs-0.3.2.tar.gz tmp/nescs-0.3.3.tar.gz --markdown 20230709/n/nescs/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-09 09:14:31] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/5f/51/d08b81a6242ed3b93162d5515d0c650b4599b4b0d8de86403ce618c3c20d/ngmapi-0.0.37.tar.gz
+[2023-07-09 09:14:31] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/5f/51/d08b81a6242ed3b93162d5515d0c650b4599b4b0d8de86403ce618c3c20d/ngmapi-0.0.37.tar.gz
+[2023-07-09 09:14:31] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-07-09 09:14:31] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-2.1.0.tar.gz tmp/FiveMCipherFinder-2.2.0.tar.gz --markdown 20230709/F/FiveMCipherFinder/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-09 09:14:31] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-09 09:14:31] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 09:14:31] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.36.tar.gz tmp/ngmapi-0.0.37.tar.gz --markdown 20230709/n/ngmapi/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-09 09:14:31] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 09:14:31] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.36.tar.gz tmp/ngmapi-0.0.37.tar.gz --markdown 20230709/n/ngmapi/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-09 09:14:31] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-09 09:14:31] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230709/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-09 09:14:32] INFO root fetch - processPackages [wiliot-testers]: Downloading https://files.pythonhosted.org/packages/9f/fa/56858e4d39dda7c61d290336dedcf8e0915cfe3559d4f2653fcf430f410e/wiliot-testers-4.0.6.tar.gz
+[2023-07-09 09:14:32] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-09 09:14:32] INFO root fetch - processPackages [wiliot-testers]: executing diffoscope
+[2023-07-09 09:14:32] INFO root fetch - processPackages [wiliot-testers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-testers-4.0.14.tar.gz tmp/wiliot-testers-4.0.6.tar.gz --markdown 20230709/w/wiliot-testers/4.0.14-4.0.6/diff.md --exclude *.pyd
+[2023-07-09 09:14:32] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.2.tar.gz]
+[2023-07-09 09:14:32] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.3.tar.gz]
+[2023-07-09 09:14:32] INFO root fetch - main [MainThread]: End processing [nescs]: success
+[2023-07-09 09:14:32] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.36.tar.gz]
+[2023-07-09 09:14:32] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.37.tar.gz]
+[2023-07-09 09:14:32] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 09:14:32] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 09:14:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-09 09:14:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-09 09:14:32] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-09 09:14:32] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.1.0.tar.gz]
+[2023-07-09 09:14:32] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.2.0.tar.gz]
+[2023-07-09 09:14:32] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-07-09 09:14:33] INFO root fetch - processPackages [wiliot-testers]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-testers-4.0.14.tar.gz]
+[2023-07-09 09:14:33] INFO root fetch - processPackages [wiliot-testers]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-testers-4.0.6.tar.gz]
+[2023-07-09 09:14:33] INFO root fetch - main [MainThread]: End processing [wiliot-testers]: success
+[2023-07-09 09:14:35] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-09 09:14:35] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230709/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-09 09:14:43] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-09 09:14:43] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-09 09:14:43] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-09 09:14:43] INFO root fetch - main [MainThread]: Store serial: [18818584]

@@ -15254,3 +15254,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:00:11] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-07-09 22:00:11] INFO root fetch - main [MainThread]: Store serial: [18822890]
+[2023-07-09 22:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822890]
+[2023-07-09 22:05:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hat-gateway
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Janex
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kthbuild
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: banking-api-shared
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zesty.zbs-api-securonix
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-optimizely
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpie-hmac
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lyrics-transcriber
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wigglerapi
+[2023-07-09 22:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipenv
+[2023-07-09 22:05:20] INFO root fetch - processPackages [hat-gateway]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 22:05:20] WARNING root fetch - processPackages [banking-api-shared]: Skipping, unable to determine old version
+[2023-07-09 22:05:20] INFO root fetch - processPackages [banking-api-shared]: Start processing: newspaper3k-haystack
+[2023-07-09 22:05:20] INFO root fetch - main [MainThread]: End processing [banking-api-shared] error
+[2023-07-09 22:05:20] INFO root fetch - processPackages [Janex]: New version: [0.0.5b2] Old Version: [0.0.5b0]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [wigglerapi]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [httpie-hmac]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [kthbuild]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [zesty.zbs-api-securonix]: New version: [1.0.2023.7.9.1688932894] Old Version: [1.0.2023.7.3.1688395274]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-07-09 22:05:20] WARNING root fetch - processPackages [newspaper3k-haystack]: Skipping, unable to determine old version
+[2023-07-09 22:05:20] INFO root fetch - processPackages [newspaper3k-haystack]: Start processing: psychoanalyze
+[2023-07-09 22:05:20] INFO root fetch - main [MainThread]: End processing [newspaper3k-haystack] error
+[2023-07-09 22:05:20] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/5a/1d/4457be98913ae110762fdec0697f0c074c6b363b8b3ef20bd0c5e19628ab/fern_optimizely-0.0.8.tar.gz
+[2023-07-09 22:05:20] INFO root fetch - processPackages [psychoanalyze]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-09 22:05:20] INFO root fetch - processPackages [wigglerapi]: Downloading https://files.pythonhosted.org/packages/cd/1e/894cc6fde8e6ce757bc5a96ba44a843bddcdec21fad5397fdac0f88317d0/wigglerapi-0.0.2.tar.gz
+[2023-07-09 22:05:20] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/20/da/5c10fac145a8b4673a26fbc36b403f9baa0134b3dfd4646f80286aed3fa2/lyrics_transcriber-0.6.2.tar.gz
+[2023-07-09 22:05:20] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/ee/6d/02f330b0cec70f36f646e04190ee8fd7e26af3142d3c229f5f82fc68e508/psychoanalyze-0.4.8.tar.gz
+[2023-07-09 22:05:20] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/50/06/7a297cde7c3c8166c6e9e652e8ead145d80f72a15dd02481387362643adb/Janex-0.0.5b0-py3-none-any.whl
+[2023-07-09 22:05:21] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/0d/4a/df1c85dbf2428152c3bd10ece6666a56b2945cd05f493ca462fd958dc7f4/zesty.zbs-api-securonix-1.0.2023.7.3.1688395274.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [httpie-hmac]: Downloading https://files.pythonhosted.org/packages/20/45/c1ae235ab25c24c30b45331d75f668085cff8904edae759d29f55ee43453/httpie-hmac-1.1.1.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [kthbuild]: Downloading https://files.pythonhosted.org/packages/de/34/24df61af641736482a4dadc1eab6ab80739b61460b9c27e9d48bbc0faec8/kthbuild-3.0.0.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [hat-gateway]: Downloading https://files.pythonhosted.org/packages/9d/19/055e42a362a5198fe0f58c25a462e79a2bf4455d8bd5af99d4df19ce93ba/hat_gateway-0.5.8-cp38.cp39-none-any.whl
+[2023-07-09 22:05:21] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/38/d6/f1cb303fbcdf358a212490b9154a506d10fa2a915c48c1d8ee92649fdc9d/fern_optimizely-0.0.9.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [wigglerapi]: Downloading https://files.pythonhosted.org/packages/6e/37/c2914b6fd9bb7ad63aaeb341c05a4ffb0fd906c54fda01f0a75e84e925a2/wigglerapi-0.0.5.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/12/39/400ca521afe5c93c5a76b412ebd8260754bd5c252f96cb79c641e7bb88d3/lyrics_transcriber-0.6.3.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.8.tar.gz tmp/fern_optimizely-0.0.9.tar.gz --markdown 20230709/f/fern-optimizely/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/db/6d/81bf8d7fa373f9f4fc347916742d104ad6c5478192f29c408b14cbc9ba34/psychoanalyze-0.4.9.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/7e/e3/a98e49c4e86e5cbb6fc33aa92f995086d273092ad901ae28ee8baf88d826/Janex-0.0.5b2-py3-none-any.whl
+[2023-07-09 22:05:21] INFO root fetch - processPackages [wigglerapi]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [wigglerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wigglerapi-0.0.2.tar.gz tmp/wigglerapi-0.0.5.tar.gz --markdown 20230709/w/wigglerapi/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [httpie-hmac]: Downloading https://files.pythonhosted.org/packages/60/d8/f59b79d722df4a42170ab6b2fafbd43a8c9371a3612d63555de37e7c1950/httpie-hmac-1.2.0.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/d5/54/ff8ca57626db341af6c68b46cc7a7cb76cb002dbf18fe22557673284a3f0/zesty.zbs-api-securonix-1.0.2023.7.9.1688932894.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [kthbuild]: Downloading https://files.pythonhosted.org/packages/d6/2b/2730fec789b24df108d40a938a2787611828223be6b57f9079d63db19f28/kthbuild-3.1.0.tar.gz
+[2023-07-09 22:05:21] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.6.2.tar.gz tmp/lyrics_transcriber-0.6.3.tar.gz --markdown 20230709/l/lyrics-transcriber/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.5b0-py3-none-any.whl.zip tmp/Janex-0.0.5b2-py3-none-any.whl.zip --markdown 20230709/J/Janex/0.0.5b0-0.0.5b2/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [httpie-hmac]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [httpie-hmac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpie-hmac-1.1.1.tar.gz tmp/httpie-hmac-1.2.0.tar.gz --markdown 20230709/h/httpie-hmac/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.4.8.tar.gz tmp/psychoanalyze-0.4.9.tar.gz --markdown 20230709/p/psychoanalyze/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [zesty.zbs-api-securonix]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [zesty.zbs-api-securonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688395274.tar.gz tmp/zesty.zbs-api-securonix-1.0.2023.7.9.1688932894.tar.gz --markdown 20230709/z/zesty.zbs-api-securonix/1.0.2023.7.3.1688395274-1.0.2023.7.9.1688932894/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [kthbuild]: executing diffoscope
+[2023-07-09 22:05:21] INFO root fetch - processPackages [kthbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthbuild-3.0.0.tar.gz tmp/kthbuild-3.1.0.tar.gz --markdown 20230709/k/kthbuild/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-09 22:05:21] INFO root fetch - processPackages [hat-gateway]: Downloading https://files.pythonhosted.org/packages/39/8b/cbbd9b7227ad66c20545a3d975c305af731f51d30649d57a2ebe8b498f89/hat_gateway-0.5.9-cp38.cp39-none-any.whl
+[2023-07-09 22:05:22] INFO root fetch - processPackages [hat-gateway]: executing diffoscope
+[2023-07-09 22:05:22] INFO root fetch - processPackages [hat-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gateway-0.5.8-cp38.cp39-none-any.whl.zip tmp/hat_gateway-0.5.9-cp38.cp39-none-any.whl.zip --markdown 20230709/h/hat-gateway/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-09 22:05:22] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-07-09 22:05:22] INFO root fetch - processPackages [wigglerapi]: Remove: archive file [/home/abi/fetcher/tmp/wigglerapi-0.0.2.tar.gz]
+[2023-07-09 22:05:22] INFO root fetch - processPackages [wigglerapi]: Remove: archive file [/home/abi/fetcher/tmp/wigglerapi-0.0.5.tar.gz]
+[2023-07-09 22:05:22] INFO root fetch - processPackages [wigglerapi]: Start processing: roblox-pyc
+[2023-07-09 22:05:22] INFO root fetch - main [MainThread]: End processing [wigglerapi]: success
+[2023-07-09 22:05:22] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.8.tar.gz]
+[2023-07-09 22:05:22] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.9.tar.gz]
+[2023-07-09 22:05:22] INFO root fetch - processPackages [fern-optimizely]: Start processing: Orange3-Explain
+[2023-07-09 22:05:22] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-09 22:05:22] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5] Old Version: [1.6.6.4rc0]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.5b0-py3-none-any.whl.zip]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.5b2-py3-none-any.whl.zip]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [Janex]: Start processing: pandasklar
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.2.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.3.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [lyrics-transcriber]: Start processing: petkitaio
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [Orange3-Explain]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [httpie-hmac]: Remove: archive file [/home/abi/fetcher/tmp/httpie-hmac-1.1.1.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [httpie-hmac]: Remove: archive file [/home/abi/fetcher/tmp/httpie-hmac-1.2.0.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [httpie-hmac]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/07/c5/e4eea8f66b7d28e27674792cb5f1ffed962e5eff9101694af5da603096de/roblox-pyc-1.6.6.4rc0.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688395274.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.9.1688932894.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [pandasklar]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [petkitaio]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [Orange3-Explain]: Downloading https://files.pythonhosted.org/packages/d7/1f/6814c96f61d8b2e838d0c5ab284e8451344bda6091493e134a34f384d5bb/Orange3-Explain-0.6.4.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [hat-gateway]: Remove: archive file [/home/abi/fetcher/tmp/hat_gateway-0.5.8-cp38.cp39-none-any.whl.zip]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [hat-gateway]: Remove: archive file [/home/abi/fetcher/tmp/hat_gateway-0.5.9-cp38.cp39-none-any.whl.zip]
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [hat-gateway]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/96/c2/86867106963ea77287f48e208d9dd84c63bd85fa25efa03a1958e7f62fdf/roblox-pyc-1.6.6.5.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [kthbuild]: Remove: archive file [/home/abi/fetcher/tmp/kthbuild-3.0.0.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [kthbuild]: Remove: archive file [/home/abi/fetcher/tmp/kthbuild-3.1.0.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [kthbuild]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.8.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.9.tar.gz]
+[2023-07-09 22:05:23] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-09 22:05:23] INFO root fetch - processPackages [petkitaio]: Downloading https://files.pythonhosted.org/packages/cb/7d/22f3084a979e51239c268c4653d4bd4a748664e86457dd8c609b4a36c6bf/petkitaio-0.1.6.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/01/d0/301193f98461d6570dff5ce3bd1c1f3e18b1ea05d2ccaf30afd330ad1b2f/pandasklar-0.3.5.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 22:05:23] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.4rc0.tar.gz tmp/roblox-pyc-1.6.6.5.tar.gz --markdown 20230709/r/roblox-pyc/1.6.6.4rc0-1.6.6.5/diff.md --exclude *.pyd
+[2023-07-09 22:05:23] INFO root fetch - processPackages [petkitaio]: Downloading https://files.pythonhosted.org/packages/f7/ff/2f11344bc7bd763fd920e514581575fccefba91efb8be3aebe26376ce7bd/petkitaio-0.1.6.1.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/50/3c/26202a4dd2e90b7a6df1f775d3d34a1a1311ee97418e0f82a62f29466480/pandasklar-0.3.6.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [Orange3-Explain]: Downloading https://files.pythonhosted.org/packages/3e/7c/027d1b56fa18a3fb5eaf5ba233c80ea31731357a3c1450c5c6f88284ad11/Orange3-Explain-0.6.5.tar.gz
+[2023-07-09 22:05:23] INFO root fetch - processPackages [petkitaio]: executing diffoscope
+[2023-07-09 22:05:23] INFO root fetch - processPackages [petkitaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petkitaio-0.1.6.tar.gz tmp/petkitaio-0.1.6.1.tar.gz --markdown 20230709/p/petkitaio/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-07-09 22:05:24] INFO root fetch - processPackages [pandasklar]: executing diffoscope
+[2023-07-09 22:05:24] INFO root fetch - processPackages [pandasklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasklar-0.3.5.tar.gz tmp/pandasklar-0.3.6.tar.gz --markdown 20230709/p/pandasklar/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-09 22:05:24] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-07-09 22:05:24] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230709/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-07-09 22:05:24] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.4rc0.tar.gz]
+[2023-07-09 22:05:24] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.tar.gz]
+[2023-07-09 22:05:24] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 22:05:24] INFO root fetch - processPackages [petkitaio]: Remove: archive file [/home/abi/fetcher/tmp/petkitaio-0.1.6.tar.gz]
+[2023-07-09 22:05:24] INFO root fetch - processPackages [petkitaio]: Remove: archive file [/home/abi/fetcher/tmp/petkitaio-0.1.6.1.tar.gz]
+[2023-07-09 22:05:24] INFO root fetch - main [MainThread]: End processing [petkitaio]: success
+[2023-07-09 22:05:24] INFO root fetch - processPackages [Orange3-Explain]: executing diffoscope
+[2023-07-09 22:05:24] INFO root fetch - processPackages [Orange3-Explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-Explain-0.6.4.tar.gz tmp/Orange3-Explain-0.6.5.tar.gz --markdown 20230709/O/Orange3-Explain/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-09 22:05:25] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.5.tar.gz]
+[2023-07-09 22:05:25] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.6.tar.gz]
+[2023-07-09 22:05:25] INFO root fetch - main [MainThread]: End processing [pandasklar]: success
+[2023-07-09 22:05:26] INFO root fetch - processPackages [Orange3-Explain]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Explain-0.6.4.tar.gz]
+[2023-07-09 22:05:26] INFO root fetch - processPackages [Orange3-Explain]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Explain-0.6.5.tar.gz]
+[2023-07-09 22:05:26] INFO root fetch - main [MainThread]: End processing [Orange3-Explain]: success
+[2023-07-09 22:05:27] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.0.3.tar.gz]
+[2023-07-09 22:05:27] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
+[2023-07-09 22:05:27] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-07-09 22:05:27] INFO root fetch - main [MainThread]: Store serial: [18822948]

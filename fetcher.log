@@ -5339,3 +5339,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:33:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230709.tar.gz]
 [2023-07-09 08:33:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-09 08:33:03] INFO root fetch - main [MainThread]: Store serial: [18818414]
+[2023-07-09 08:38:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818414]
+[2023-07-09 08:38:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-09 08:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-decorators
+[2023-07-09 08:38:11] INFO root fetch - processPackages [langchain-decorators]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 08:38:12] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/d9/df/ebebbf4dd21793b1ca5212be8e0f7cba37e8c611bbd80b3110f8573c2892/langchain-decorators-0.0.8.tar.gz
+[2023-07-09 08:38:12] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/58/46/0f603b3b46a192d5523c8bf3067994419ba7e32219e087fa3bf00f22f587/langchain-decorators-0.0.9.tar.gz
+[2023-07-09 08:38:12] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2023-07-09 08:38:12] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.0.8.tar.gz tmp/langchain-decorators-0.0.9.tar.gz --markdown 20230709/l/langchain-decorators/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 08:38:13] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.8.tar.gz]
+[2023-07-09 08:38:13] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.9.tar.gz]
+[2023-07-09 08:38:13] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2023-07-09 08:38:13] INFO root fetch - main [MainThread]: Store serial: [18818417]

@@ -2895,3 +2895,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:43:37] INFO root fetch - processPackages [PythonCA]: Remove: archive file [/home/abi/fetcher/tmp/PythonCA-1.23.3.7.tar.gz]
 [2023-07-09 04:43:37] INFO root fetch - main [MainThread]: End processing [PythonCA]: success
 [2023-07-09 04:43:37] INFO root fetch - main [MainThread]: Store serial: [18817456]
+[2023-07-09 04:48:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817456]
+[2023-07-09 04:48:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monailabel-weekly
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databend
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NeuroNode
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-25
+[2023-07-09 04:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poissonate
+[2023-07-09 04:48:45] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2328] Old Version: [0.5.dev2327]
+[2023-07-09 04:48:45] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.77]
+[2023-07-09 04:48:45] INFO root fetch - processPackages [poissonate]: New version: [1.1] Old Version: [1.0]
+[2023-07-09 04:48:45] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-09 04:48:45] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-09 04:48:45] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-09 04:48:45] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/87/31/e21d58a97e7265770a97b3b114d82524a32517373feae4cf581ae98b7ae5/monailabel_weekly-0.5.dev2327-py3-none-any.whl
+[2023-07-09 04:48:46] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/8a/11/922c22934f32109d70f7105097279a79100d0cb36edc3bd072323e2ccec5/NeuroNode-3.77.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [poissonate]: Downloading https://files.pythonhosted.org/packages/b6/8b/59052e3b4f7f2b2a7166152e58b9ed0bcbfd6db535b95f8736719ad71c9f/poissonate-1.0.tar.gz
+[2023-07-09 04:48:46] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-09 04:48:46] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-09 04:48:46] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-09 04:48:46] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-09 04:48:46] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.77.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230709/N/NeuroNode/3.77-3.9/diff.md --exclude *.pyd
+[2023-07-09 04:48:46] INFO root fetch - processPackages [poissonate]: Downloading https://files.pythonhosted.org/packages/de/c9/91892653d022ee59281f70ce8df7b059c903bc8e4788f64c5d21074afcba/poissonate-1.1-py3-none-any.whl
+[2023-07-09 04:48:46] INFO root fetch - processPackages [poissonate]: executing diffoscope
+[2023-07-09 04:48:46] INFO root fetch - processPackages [poissonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poissonate-1.0.tar.gz tmp/poissonate-1.1-py3-none-any.whl.zip --markdown 20230709/p/poissonate/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230709/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230709/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-09 04:48:46] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230709/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-09 04:48:47] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/0a/fc/a44abeeb9ce374b868e1213ee93c96831750b7de565abc4817dc39df606a/monailabel_weekly-0.5.dev2328-py3-none-any.whl
+[2023-07-09 04:48:47] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-07-09 04:48:47] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2327-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2328-py3-none-any.whl.zip --markdown 20230709/m/monailabel-weekly/0.5.dev2327-0.5.dev2328/diff.md --exclude *.pyd
+[2023-07-09 04:48:47] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.77.tar.gz]
+[2023-07-09 04:48:47] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-09 04:48:47] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-09 04:48:47] INFO root fetch - processPackages [poissonate]: Remove: archive file [/home/abi/fetcher/tmp/poissonate-1.0.tar.gz]
+[2023-07-09 04:48:47] INFO root fetch - processPackages [poissonate]: Remove: archive file [/home/abi/fetcher/tmp/poissonate-1.1-py3-none-any.whl.zip]
+[2023-07-09 04:48:47] INFO root fetch - main [MainThread]: End processing [poissonate]: success
+[2023-07-09 04:48:48] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-09 04:48:48] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-09 04:48:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-09 04:48:48] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-09 04:48:48] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-09 04:48:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-09 04:48:48] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-09 04:48:48] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-09 04:48:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-09 04:48:50] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2327-py3-none-any.whl.zip]
+[2023-07-09 04:48:50] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2328-py3-none-any.whl.zip]
+[2023-07-09 04:48:50] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-07-09 04:48:50] INFO root fetch - main [MainThread]: Store serial: [18817478]

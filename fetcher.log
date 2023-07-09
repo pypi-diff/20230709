@@ -12291,3 +12291,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:00:31] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.1.tar.gz]
 [2023-07-09 18:00:31] INFO root fetch - main [MainThread]: End processing [aura-cli]: success
 [2023-07-09 18:00:31] INFO root fetch - main [MainThread]: Store serial: [18821624]
+[2023-07-09 18:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821624]
+[2023-07-09 18:05:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 18:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneweaver-testing
+[2023-07-09 18:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zein
+[2023-07-09 18:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rules-validations
+[2023-07-09 18:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aura-cli
+[2023-07-09 18:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chrislab
+[2023-07-09 18:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotior-sensus
+[2023-07-09 18:05:40] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:05:40] INFO root fetch - processPackages [aura-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-09 18:05:40] INFO root fetch - processPackages [rules-validations]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-09 18:05:40] INFO root fetch - processPackages [chrislab]: New version: [0.5.5.post2] Old Version: [0.5.5.post1]
+[2023-07-09 18:05:40] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 18:05:40] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/c0/e5/62dc3cb05e6d4bc4621f91acd5db1552cc9e5d4f3db2f679124246e5e256/aura-cli-0.2.1.tar.gz
+[2023-07-09 18:05:40] INFO root fetch - processPackages [geneweaver-testing]: New version: [0.0.1b0] Old Version: [0.0.1a9]
+[2023-07-09 18:05:40] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:05:40] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/a9/e2/a29507f47ef8f50724dea496f9ee771d85004d199a4f712dca8fbb2154a3/chrislab-0.5.5.post1.tar.gz
+[2023-07-09 18:05:40] INFO root fetch - processPackages [rules-validations]: Downloading https://files.pythonhosted.org/packages/21/fa/44e8da1d304e0206787e0ea8f8416fa2e33c86fe8ae32d039dc55f66624d/rules_validations-0.4.1.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [geneweaver-testing]: Downloading https://files.pythonhosted.org/packages/bd/06/904ef30038bde245f6e03f7296c7092d011cbd627d19cf30eec43baabce2/geneweaver_testing-0.0.1a9.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/45/4b/b65cf39a8f2389da5ca3f0d544ced9f126f235bae7ce0723bb2c2f1ddf76/aura-cli-0.2.2.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/a7/fc/76a2db7503493590167f5a55c1b71cb9a80d18499806b67a422b23f9364c/chrislab-0.5.5.post2.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 18:05:41] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 18:05:41] INFO root fetch - processPackages [rules-validations]: Downloading https://files.pythonhosted.org/packages/5a/be/cae926612815b5b18091a01f17aa5638e0de386f8aff0546ac926eed139a/rules_validations-0.5.0.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [aura-cli]: executing diffoscope
+[2023-07-09 18:05:41] INFO root fetch - processPackages [aura-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura-cli-0.2.1.tar.gz tmp/aura-cli-0.2.2.tar.gz --markdown 20230709/a/aura-cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-09 18:05:41] INFO root fetch - processPackages [rules-validations]: executing diffoscope
+[2023-07-09 18:05:41] INFO root fetch - processPackages [rules-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rules_validations-0.4.1.tar.gz tmp/rules_validations-0.5.0.tar.gz --markdown 20230709/r/rules-validations/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 18:05:41] INFO root fetch - processPackages [geneweaver-testing]: Downloading https://files.pythonhosted.org/packages/78/7f/3fe3a1ad97c7e36ac5ad0729ba8fe16ec533691faa938fde938ff196eb3c/geneweaver_testing-0.0.1b0.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-07-09 18:05:41] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.5.5.post1.tar.gz tmp/chrislab-0.5.5.post2.tar.gz --markdown 20230709/c/chrislab/0.5.5.post1-0.5.5.post2/diff.md --exclude *.pyd
+[2023-07-09 18:05:41] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-09 18:05:41] INFO root fetch - processPackages [geneweaver-testing]: executing diffoscope
+[2023-07-09 18:05:41] INFO root fetch - processPackages [geneweaver-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneweaver_testing-0.0.1a9.tar.gz tmp/geneweaver_testing-0.0.1b0.tar.gz --markdown 20230709/g/geneweaver-testing/0.0.1a9-0.0.1b0/diff.md --exclude *.pyd
+[2023-07-09 18:05:41] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-09 18:05:41] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230709/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 18:05:42] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 18:05:42] INFO root fetch - processPackages [rules-validations]: Remove: archive file [/home/abi/fetcher/tmp/rules_validations-0.4.1.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - processPackages [rules-validations]: Remove: archive file [/home/abi/fetcher/tmp/rules_validations-0.5.0.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - main [MainThread]: End processing [rules-validations]: success
+[2023-07-09 18:05:42] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.1.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.2.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - main [MainThread]: End processing [aura-cli]: success
+[2023-07-09 18:05:42] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.5.post1.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.5.post2.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-07-09 18:05:42] INFO root fetch - processPackages [geneweaver-testing]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_testing-0.0.1a9.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - processPackages [geneweaver-testing]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_testing-0.0.1b0.tar.gz]
+[2023-07-09 18:05:42] INFO root fetch - main [MainThread]: End processing [geneweaver-testing]: success
+[2023-07-09 18:05:43] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-09 18:05:43] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-09 18:05:43] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-09 18:05:43] INFO root fetch - main [MainThread]: Store serial: [18821643]

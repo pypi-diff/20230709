@@ -6486,3 +6486,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:15:04] INFO root fetch - main [MainThread]: End processing [power1d]: success
 [2023-07-09 10:15:04] INFO root fetch - main [MainThread]: End processing [autoMLF]: success
 [2023-07-09 10:15:04] INFO root fetch - main [MainThread]: Store serial: [18818967]
+[2023-07-09 10:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818967]
+[2023-07-09 10:20:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchmark-runner
+[2023-07-09 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-qoptions
+[2023-07-09 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impose-cli
+[2023-07-09 10:20:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:20:13] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc7] Old Version: [0.0.41]
+[2023-07-09 10:20:13] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-09 10:20:13] INFO root fetch - processPackages [django-qoptions]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-09 10:20:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/b4/22/780e72fb5a81cec0c3ecd6b55db36f9750a67201962524342f1e9d2cd12b/impose-cli-0.0.41.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [django-qoptions]: Downloading https://files.pythonhosted.org/packages/69/5d/488bc05b70d74464cbf8a444887040c7681900244e1e722f97e9fdcbe44f/django-qoptions-0.1.7.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/27/0f/e55a1bffe3b9ce03054959f909f9754eb1f3141bc234c875c67aef94be09/impose_cli-0.1.41rc7-py3-none-any.whl
+[2023-07-09 10:20:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:20:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:20:13] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [django-qoptions]: Downloading https://files.pythonhosted.org/packages/ac/00/679175eb3dbc9943301dd4b048ac1f703e64200d652a125ea51dc2430a44/django-qoptions-0.2.0.tar.gz
+[2023-07-09 10:20:13] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 10:20:13] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.0.41.tar.gz tmp/impose_cli-0.1.41rc7-py3-none-any.whl.zip --markdown 20230709/i/impose-cli/0.0.41-0.1.41rc7/diff.md --exclude *.pyd
+[2023-07-09 10:20:14] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-07-09 10:20:14] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230709/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-09 10:20:14] INFO root fetch - processPackages [django-qoptions]: executing diffoscope
+[2023-07-09 10:20:14] INFO root fetch - processPackages [django-qoptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-qoptions-0.1.7.tar.gz tmp/django-qoptions-0.2.0.tar.gz --markdown 20230709/d/django-qoptions/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 10:20:14] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.0.41.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc7-py3-none-any.whl.zip]
+[2023-07-09 10:20:14] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 10:20:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:20:14] INFO root fetch - processPackages [django-qoptions]: Remove: archive file [/home/abi/fetcher/tmp/django-qoptions-0.1.7.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - processPackages [django-qoptions]: Remove: archive file [/home/abi/fetcher/tmp/django-qoptions-0.2.0.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - main [MainThread]: End processing [django-qoptions]: success
+[2023-07-09 10:20:14] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-07-09 10:20:14] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-07-09 10:20:14] INFO root fetch - main [MainThread]: Store serial: [18818978]

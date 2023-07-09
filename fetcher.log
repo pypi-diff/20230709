@@ -14686,3 +14686,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:13:05] INFO root fetch - main [MainThread]: End processing [searchenginepy]: success
 [2023-07-09 21:13:05] INFO root fetch - main [MainThread]: End processing [searchenginepy]: success
 [2023-07-09 21:13:05] INFO root fetch - main [MainThread]: Store serial: [18822672]
+[2023-07-09 21:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822672]
+[2023-07-09 21:18:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rotman-ncs
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newspaper3k-haystack
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antsibull-docs
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: channel-box
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: key-switcheroo
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylinefinder
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giszhao
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: regolith-json-template
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MetaCalls
+[2023-07-09 21:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: few-shot-priming
+[2023-07-09 21:18:13] INFO root fetch - processPackages [channel-box]: New version: [0.5.1.7] Old Version: [0.5.1.5]
+[2023-07-09 21:18:13] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-09 21:18:13] WARNING root fetch - processPackages [newspaper3k-haystack]: Skipping, unable to determine old version
+[2023-07-09 21:18:13] INFO root fetch - main [MainThread]: End processing [newspaper3k-haystack] error
+[2023-07-09 21:18:13] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 21:18:13] WARNING root fetch - processPackages [giszhao]: Skipping, unable to determine old version
+[2023-07-09 21:18:13] INFO root fetch - main [MainThread]: End processing [giszhao] error
+[2023-07-09 21:18:13] INFO root fetch - processPackages [rotman-ncs]: New version: [0.1.0a1] Old Version: [0.0.0]
+[2023-07-09 21:18:13] INFO root fetch - processPackages [MetaCalls]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 21:18:13] INFO root fetch - processPackages [antsibull-docs]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-09 21:18:13] INFO root fetch - processPackages [pylinefinder]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 21:18:13] INFO root fetch - processPackages [regolith-json-template]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-09 21:18:14] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-09 21:18:14] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/47/57/74c487d5f3cf8ccf0a567d87dd5ee182052f19c904b9333aa94c98ad04e5/channel_box-0.5.1.5-py3-none-any.whl
+[2023-07-09 21:18:14] INFO root fetch - processPackages [antsibull-docs]: Downloading https://files.pythonhosted.org/packages/57/91/7d7e9a0a3d19a91bf4f02e151a535376a30c65f182d56fbd3012fd2e742f/antsibull_docs-2.2.0.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/b9/77/054d0353531f89316b6fc5ded9c8b2d33ad8fb32077d5fb26edcaadd5dd0/pylinefinder-0.1.1.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/ed/28/2e481af6d676423676108cc6db4d232bb418a91e478411d0c716773a5704/rotman_ncs-0.0.0-py3-none-any.whl
+[2023-07-09 21:18:14] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/3a/66/6b282ba0f335431aed557415e5beae85614c9ec4ca9b5f493ca40f8740cd/key_switcheroo-0.0.5.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [regolith-json-template]: Downloading https://files.pythonhosted.org/packages/00/5c/dd901f84e188aa01a4ba14529f617954461484b8a64e1a9f843f0303bcbf/regolith-json-template-1.1.0.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [MetaCalls]: Downloading https://files.pythonhosted.org/packages/65/c0/deb32fbe0b6d09d059f3bdb6747495291d5a12d762bb41e114e16ca1937a/MetaCalls-0.0.1.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-09 21:18:14] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/01/c1/338d096ab0f7b634c85405beda6c7a00b76f38aee9aa0b24f8f119856cdc/channel_box-0.5.1.7-py3-none-any.whl
+[2023-07-09 21:18:14] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-09 21:18:14] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230709/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 21:18:14] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/a4/dc/7c68b74e1c5bf6694b7c9eaa3c2ccf04b5985cb2e2724d1f6d8a73dbe580/key_switcheroo-0.0.6.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/b2/bb/1fb0ea77f0d5d5e36e3e585c706f7e22fac87829fde66925c44b0a98b370/pylinefinder-0.1.2.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [antsibull-docs]: Downloading https://files.pythonhosted.org/packages/58/67/aed6eca9e7b36bc812b893365d29ef9526c4a657d36ce467b24ecd81ff00/antsibull_docs-2.3.0.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [regolith-json-template]: Downloading https://files.pythonhosted.org/packages/16/98/bc0a96d6edf547df6644b6f8999f03e018d8054c8fccf15ac773158c7288/regolith-json-template-1.2.0.tar.gz
+[2023-07-09 21:18:14] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/f8/a4/7c8cc0f64b994919189beb6286506e24cdac2a1afc77f5006bac128a1d96/rotman_ncs-0.1.0a1-py3-none-any.whl
+[2023-07-09 21:18:15] INFO root fetch - processPackages [channel-box]: executing diffoscope
+[2023-07-09 21:18:15] INFO root fetch - processPackages [channel-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/channel_box-0.5.1.5-py3-none-any.whl.zip tmp/channel_box-0.5.1.7-py3-none-any.whl.zip --markdown 20230709/c/channel-box/0.5.1.5-0.5.1.7/diff.md --exclude *.pyd
+[2023-07-09 21:18:15] INFO root fetch - processPackages [MetaCalls]: Downloading https://files.pythonhosted.org/packages/48/b4/acccf3c215e9d1c240c39ed2991a78e36bce5c90f620e614c24a80174dd9/MetaCalls-0.0.2-cp310-cp310-win_amd64.whl
+[2023-07-09 21:18:15] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-07-09 21:18:15] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.5.tar.gz tmp/key_switcheroo-0.0.6.tar.gz --markdown 20230709/k/key-switcheroo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 21:18:15] INFO root fetch - processPackages [pylinefinder]: executing diffoscope
+[2023-07-09 21:18:15] INFO root fetch - processPackages [pylinefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinefinder-0.1.1.tar.gz tmp/pylinefinder-0.1.2.tar.gz --markdown 20230709/p/pylinefinder/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 21:18:15] INFO root fetch - processPackages [regolith-json-template]: executing diffoscope
+[2023-07-09 21:18:15] INFO root fetch - processPackages [regolith-json-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regolith-json-template-1.1.0.tar.gz tmp/regolith-json-template-1.2.0.tar.gz --markdown 20230709/r/regolith-json-template/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 21:18:15] INFO root fetch - processPackages [antsibull-docs]: executing diffoscope
+[2023-07-09 21:18:15] INFO root fetch - processPackages [antsibull-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull_docs-2.2.0.tar.gz tmp/antsibull_docs-2.3.0.tar.gz --markdown 20230709/a/antsibull-docs/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-09 21:18:15] INFO root fetch - processPackages [rotman-ncs]: executing diffoscope
+[2023-07-09 21:18:15] INFO root fetch - processPackages [rotman-ncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotman_ncs-0.0.0-py3-none-any.whl.zip tmp/rotman_ncs-0.1.0a1-py3-none-any.whl.zip --markdown 20230709/r/rotman-ncs/0.0.0-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-09 21:18:15] WARNING root fetch - processPackages [MetaCalls]: Skipping package: exceeds size limit 17452942>=10485760
+[2023-07-09 21:18:15] INFO root fetch - main [MainThread]: End processing [MetaCalls] error
+[2023-07-09 21:18:15] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-09 21:18:15] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-09 21:18:15] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-09 21:18:16] INFO root fetch - processPackages [pylinefinder]: Remove: archive file [/home/abi/fetcher/tmp/pylinefinder-0.1.1.tar.gz]
+[2023-07-09 21:18:16] INFO root fetch - processPackages [pylinefinder]: Remove: archive file [/home/abi/fetcher/tmp/pylinefinder-0.1.2.tar.gz]
+[2023-07-09 21:18:16] INFO root fetch - main [MainThread]: End processing [pylinefinder]: success
+[2023-07-09 21:18:16] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.5-py3-none-any.whl.zip]
+[2023-07-09 21:18:16] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.7-py3-none-any.whl.zip]
+[2023-07-09 21:18:16] INFO root fetch - main [MainThread]: End processing [channel-box]: success
+[2023-07-09 21:18:16] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.5.tar.gz]
+[2023-07-09 21:18:16] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.6.tar.gz]
+[2023-07-09 21:18:16] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-07-09 21:18:16] INFO root fetch - processPackages [regolith-json-template]: Remove: archive file [/home/abi/fetcher/tmp/regolith-json-template-1.1.0.tar.gz]
+[2023-07-09 21:18:16] INFO root fetch - processPackages [regolith-json-template]: Remove: archive file [/home/abi/fetcher/tmp/regolith-json-template-1.2.0.tar.gz]
+[2023-07-09 21:18:16] INFO root fetch - main [MainThread]: End processing [regolith-json-template]: success
+[2023-07-09 21:18:16] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.0.0-py3-none-any.whl.zip]
+[2023-07-09 21:18:16] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a1-py3-none-any.whl.zip]
+[2023-07-09 21:18:16] INFO root fetch - main [MainThread]: End processing [rotman-ncs]: success
+[2023-07-09 21:18:20] INFO root fetch - processPackages [antsibull-docs]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_docs-2.2.0.tar.gz]
+[2023-07-09 21:18:20] INFO root fetch - processPackages [antsibull-docs]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_docs-2.3.0.tar.gz]
+[2023-07-09 21:18:20] INFO root fetch - main [MainThread]: End processing [antsibull-docs]: success
+[2023-07-09 21:18:20] INFO root fetch - main [MainThread]: Store serial: [18822703]

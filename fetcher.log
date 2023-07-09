@@ -16743,3 +16743,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:32:32] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.71.tar.gz]
 [2023-07-09 23:32:32] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-09 23:32:32] INFO root fetch - main [MainThread]: Store serial: [18823612]
+[2023-07-09 23:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823612]
+[2023-07-09 23:37:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humlab-penelope
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rds-core
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: r614-config
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-excel-serializer
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: task2a
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magicsoup
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cev
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sydeploy
+[2023-07-09 23:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: r614-o11y
+[2023-07-09 23:37:42] INFO root fetch - processPackages [task2a]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-09 23:37:42] WARNING root fetch - processPackages [r614-config]: Skipping, unable to determine old version
+[2023-07-09 23:37:42] INFO root fetch - main [MainThread]: End processing [r614-config] error
+[2023-07-09 23:37:42] INFO root fetch - processPackages [rds-core]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-09 23:37:42] WARNING root fetch - processPackages [django-excel-serializer]: Skipping, unable to determine old version
+[2023-07-09 23:37:42] INFO root fetch - main [MainThread]: End processing [django-excel-serializer] error
+[2023-07-09 23:37:42] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc1] Old Version: [0.2.7rc0]
+[2023-07-09 23:37:42] INFO root fetch - processPackages [cev]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 23:37:42] INFO root fetch - processPackages [magicsoup]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-09 23:37:42] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 23:37:42] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-09 23:37:42] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 23:37:42] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/67/f0/d94ae822087f5dbc25f3a815cc7b3bb3a179573ec7ac60b3d820118b25ab/sydeploy-0.2.7rc0-py3-none-any.whl
+[2023-07-09 23:37:42] WARNING root fetch - processPackages [r614-o11y]: Skipping, unable to determine old version
+[2023-07-09 23:37:42] INFO root fetch - main [MainThread]: End processing [r614-o11y] error
+[2023-07-09 23:37:42] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/f5/6d/1540cb1c3b22deae2de6455d284a060ff8cf519b8d5e3ef3b5e8b6cc22df/magicsoup-0.4.1.tar.gz
+[2023-07-09 23:37:42] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/0c/6b/b9a6f9565c25ec38ea356a23854b24e0f27fe374cff4b72959c658379eca/task2a-1.0.7.tar.gz
+[2023-07-09 23:37:42] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/db/ef/b939499a757f41d816154ae2ecc2375613fec9fedbfd725ef9f70c3719c9/rds-core-0.1.2.tar.gz
+[2023-07-09 23:37:42] INFO root fetch - processPackages [cev]: Downloading https://files.pythonhosted.org/packages/06/88/1df173c4f542f438575e1cd8b812ca7c9674a2fb244e6bb2e5e6b73bf305/cev-0.1.0.tar.gz
+[2023-07-09 23:37:42] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-07-09 23:37:42] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 23:37:43] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/da/2a/0ccd07ee82de356c2f3d13e481e06558122bcdb1d0b25c90ec107db5e7f9/task2a-1.0.9.tar.gz
+[2023-07-09 23:37:43] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/83/00/014a18970ea49c31dff1b5850239b2b7c67a1c06597f5cfcd0658f503ae3/sydeploy-0.2.7rc1-py3-none-any.whl
+[2023-07-09 23:37:43] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 23:37:43] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/fe/c3/3236a092f063ae72acff32f67894128e229feb2ba257744d3297a81750a8/rds-core-0.2.0.tar.gz
+[2023-07-09 23:37:43] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/a7/5f/3c8a6d50fc807f1350746022adbe589df29045cf41adc9f456424762ac00/magicsoup-0.4.2.tar.gz
+[2023-07-09 23:37:43] INFO root fetch - processPackages [cev]: Downloading https://files.pythonhosted.org/packages/78/ed/42eb6273d2cc237f14e806905e5810b1ffe0e732915428e9307be1814858/cev-0.1.1.tar.gz
+[2023-07-09 23:37:43] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.7.tar.gz tmp/task2a-1.0.9.tar.gz --markdown 20230709/t/task2a/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:37:43] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc0-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc1-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7rc0-0.2.7rc1/diff.md --exclude *.pyd
+[2023-07-09 23:37:43] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.1.2.tar.gz tmp/rds-core-0.2.0.tar.gz --markdown 20230709/r/rds-core/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 23:37:43] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-07-09 23:37:43] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.4.1.tar.gz tmp/magicsoup-0.4.2.tar.gz --markdown 20230709/m/magicsoup/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-09 23:37:43] INFO root fetch - processPackages [cev]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [cev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cev-0.1.0.tar.gz tmp/cev-0.1.1.tar.gz --markdown 20230709/c/cev/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 23:37:43] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-07-09 23:37:43] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230709/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-09 23:37:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 23:37:44] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.7.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.9.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-09 23:37:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc0-py3-none-any.whl.zip]
+[2023-07-09 23:37:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc1-py3-none-any.whl.zip]
+[2023-07-09 23:37:44] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:37:44] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.1.2.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.2.0.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-07-09 23:37:44] INFO root fetch - processPackages [cev]: Remove: archive file [/home/abi/fetcher/tmp/cev-0.1.0.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - processPackages [cev]: Remove: archive file [/home/abi/fetcher/tmp/cev-0.1.1.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - main [MainThread]: End processing [cev]: success
+[2023-07-09 23:37:44] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.1.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.2.tar.gz]
+[2023-07-09 23:37:44] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-07-09 23:37:46] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-07-09 23:37:46] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-07-09 23:37:46] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-07-09 23:37:46] INFO root fetch - main [MainThread]: Store serial: [18823641]

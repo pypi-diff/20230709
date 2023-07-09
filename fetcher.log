@@ -15161,3 +15161,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:54:59] INFO root fetch - main [MainThread]: End processing [wiggler]: success
 [2023-07-09 21:54:59] INFO root fetch - main [MainThread]: End processing [wiggler]: success
 [2023-07-09 21:54:59] INFO root fetch - main [MainThread]: Store serial: [18822851]
+[2023-07-09 22:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822851]
+[2023-07-09 22:00:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkatlas
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnum
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seleniumbase
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbase
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selenium-base
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-seleniumbase
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-sbase
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandera
+[2023-07-09 22:00:08] INFO root fetch - processPackages [checkatlas]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ngmapi]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [hyfi]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [fnum]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ab/6f/0952aedba8fefee28188ca2e95e4b66bf9be73e031c4b97d08fed84fd05e/ngmapi-0.0.45.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 22:00:08] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/1c/17/d901f4458571c8b676df26f581c9a7eeb562b03e37f27366701980bc0af0/hyfi-1.2.1.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/e4/2e/7cdbbfdcf29ad4488d0ea6a67d44428e8b25079f311e52c6d0309f614e8a/checkatlas-0.2.8.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/b4/59/fb0c5e2509d7a7525ffedaaf77447ea047ea8dcb83dba20cca42a188c361/fnum-1.3.0-py3-none-any.whl
+[2023-07-09 22:00:08] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-09 22:00:08] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/f6/d7/5ef0a442cba391030c928b9abb68f04de3782539a70fa42678fcbd715e41/ngmapi-0.0.46.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/19/16/fd5c830e4f049da7bdadedbfdc50248037f78404a5f8dd1556ee58c57f2b/fnum-1.4.0-py3-none-any.whl
+[2023-07-09 22:00:09] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/f7/87/e9c9bb0448f6d98c666cb42c5491136038203ad50e695025afb0f3a12ae4/checkatlas-0.2.9.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.45.tar.gz tmp/ngmapi-0.0.46.tar.gz --markdown 20230709/n/ngmapi/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/5c/78/45a94c49eea4474b65ef5c4581d0acda212f1d3272d390c012f6a02986ce/hyfi-1.2.2.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230709/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230709/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230709/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230709/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.8.tar.gz tmp/checkatlas-0.2.9.tar.gz --markdown 20230709/c/checkatlas/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230709/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.2.1.tar.gz tmp/hyfi-1.2.2.tar.gz --markdown 20230709/h/hyfi/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.3.0-py3-none-any.whl.zip tmp/fnum-1.4.0-py3-none-any.whl.zip --markdown 20230709/f/fnum/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2023-07-09 22:00:09] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20230709/p/pandera/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 22:00:10] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.45.tar.gz]
+[2023-07-09 22:00:10] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.46.tar.gz]
+[2023-07-09 22:00:10] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 22:00:10] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-07-09 22:00:10] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-07-09 22:00:10] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.8.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.9.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.3.0-py3-none-any.whl.zip]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.4.0-py3-none-any.whl.zip]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.1.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.2.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2023-07-09 22:00:11] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-09 22:00:11] INFO root fetch - main [MainThread]: Store serial: [18822890]

@@ -4714,3 +4714,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 07:40:57] INFO root fetch - processPackages [markdown-live-preview]: Remove: archive file [/home/abi/fetcher/tmp/markdown-live-preview-0.2.9.tar.gz]
 [2023-07-09 07:40:57] INFO root fetch - main [MainThread]: End processing [markdown-live-preview]: success
 [2023-07-09 07:40:57] INFO root fetch - main [MainThread]: Store serial: [18818188]
+[2023-07-09 07:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818188]
+[2023-07-09 07:46:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoMLS
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stoobly-agent
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfirebird
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngmapi
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamic-links
+[2023-07-09 07:46:05] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.23]
+[2023-07-09 07:46:05] INFO root fetch - processPackages [autoMLS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 07:46:05] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.23]
+[2023-07-09 07:46:05] INFO root fetch - processPackages [dynamic-links]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 07:46:05] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-09 07:46:06] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/cf/fc/69f9d314dd9d13362870413dad2a7e824a13952f80ff72c1351d8e6150a6/autoMLS-1.0.1-py3-none-any.whl
+[2023-07-09 07:46:06] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/1b/f3/4c5230648390ca846c6020035a3c8c93c83a057359ef687e72fdee0b3f79/pyfirebird-0.0.60.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/17/74/697b148a9336f9ccdead12ee53138e0890e4db01be313c8c45bc83e1f2ba/dynamic-links-0.0.5.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/2e/83/851736271d25fefd21d3b0446acc7099dabfbdbed6cc119427aed029cc1c/ngmapi-0.0.23.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/2e/83/851736271d25fefd21d3b0446acc7099dabfbdbed6cc119427aed029cc1c/ngmapi-0.0.23.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/6a/ed/07dab14f51d9f39354943a6156a004211deb9383eb9a9304d83774ed48c3/autoMLS-1.0.2-py3-none-any.whl
+[2023-07-09 07:46:06] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/ea/a5/ce93e12686f67e8e0ea1c7b1e751148f4434029999bf25975155a397e169/dynamic-links-0.0.6.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/be/29/6b2dda1383cd3f5d26d1e87adaa86ecf4aac954ea5b2d4977ed92cb6edc1/pyfirebird-0.0.61.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.23.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230709/n/ngmapi/0.0.23-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:46:06] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 07:46:06] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.23.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230709/n/ngmapi/0.0.23-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:46:06] INFO root fetch - processPackages [autoMLS]: executing diffoscope
+[2023-07-09 07:46:06] INFO root fetch - processPackages [autoMLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLS-1.0.1-py3-none-any.whl.zip tmp/autoMLS-1.0.2-py3-none-any.whl.zip --markdown 20230709/a/autoMLS/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 07:46:06] INFO root fetch - processPackages [dynamic-links]: executing diffoscope
+[2023-07-09 07:46:06] INFO root fetch - processPackages [dynamic-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-links-0.0.5.tar.gz tmp/dynamic-links-0.0.6.tar.gz --markdown 20230709/d/dynamic-links/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 07:46:06] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 07:46:06] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.60.tar.gz tmp/pyfirebird-0.0.61.tar.gz --markdown 20230709/p/pyfirebird/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-07-09 07:46:06] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-07-09 07:46:06] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230709/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-09 07:46:07] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.23.tar.gz]
+[2023-07-09 07:46:07] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-09 07:46:07] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 07:46:07] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.5.tar.gz]
+[2023-07-09 07:46:07] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.6.tar.gz]
+[2023-07-09 07:46:07] INFO root fetch - main [MainThread]: End processing [dynamic-links]: success
+[2023-07-09 07:46:07] INFO root fetch - processPackages [autoMLS]: Remove: archive file [/home/abi/fetcher/tmp/autoMLS-1.0.1-py3-none-any.whl.zip]
+[2023-07-09 07:46:07] INFO root fetch - processPackages [autoMLS]: Remove: archive file [/home/abi/fetcher/tmp/autoMLS-1.0.2-py3-none-any.whl.zip]
+[2023-07-09 07:46:07] INFO root fetch - main [MainThread]: End processing [autoMLS]: success
+[2023-07-09 07:46:07] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 07:46:07] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.60.tar.gz]
+[2023-07-09 07:46:07] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.61.tar.gz]
+[2023-07-09 07:46:07] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 07:46:08] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-07-09 07:46:08] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-07-09 07:46:08] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-07-09 07:46:08] INFO root fetch - main [MainThread]: Store serial: [18818206]

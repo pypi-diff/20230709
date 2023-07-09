@@ -16884,3 +16884,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:43:06] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
 [2023-07-09 23:43:06] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
 [2023-07-09 23:43:06] INFO root fetch - main [MainThread]: Store serial: [18823672]
+[2023-07-09 23:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823672]
+[2023-07-09 23:48:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpp-iplweb
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WifiOrca
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sydeploy
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threads-net
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dash-bootstrap-components
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: read-tydex-file-pkg
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xdantic
+[2023-07-09 23:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rsmanage
+[2023-07-09 23:48:19] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc4] Old Version: [0.2.7rc3]
+[2023-07-09 23:48:19] WARNING root fetch - processPackages [read-tydex-file-pkg]: Skipping, unable to determine old version
+[2023-07-09 23:48:19] INFO root fetch - main [MainThread]: End processing [read-tydex-file-pkg] error
+[2023-07-09 23:48:19] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [xdantic]: New version: [0.0.3] Old Version: [0.0.2.dev0]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [rsmanage]: New version: [2.0.0] Old Version: [0.1.0.dev5]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc4] Old Version: [0.2.7rc3]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [bpp-iplweb]: New version: [202307.1106] Old Version: [202307.1105]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [dash-bootstrap-components]: New version: [1.4.2rc1] Old Version: [1.4.1rc2]
+[2023-07-09 23:48:19] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 23:48:19] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-09 23:48:19] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/80/d7/7a9fbdd03666f008f7d6133d32b2573099b35e2d20ad982fc552667d531f/bpp_iplweb-202307.1105-py3-none-any.whl
+[2023-07-09 23:48:19] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/23/65/aec8936840c8b21db7679d02cc37cddb539e0abcc94bba53b4351b7af0b5/sydeploy-0.2.7rc3-py3-none-any.whl
+[2023-07-09 23:48:19] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/23/65/aec8936840c8b21db7679d02cc37cddb539e0abcc94bba53b4351b7af0b5/sydeploy-0.2.7rc3-py3-none-any.whl
+[2023-07-09 23:48:19] INFO root fetch - processPackages [xdantic]: Downloading https://files.pythonhosted.org/packages/0a/46/4c94c19e93879593872b9ceadfd103ed4a17d6135b4f6d2b15a50a8694c7/xdantic-0.0.2.dev0.tar.gz
+[2023-07-09 23:48:19] INFO root fetch - processPackages [dash-bootstrap-components]: Downloading https://files.pythonhosted.org/packages/0a/58/4bfdf4f7ffbbd669d37b7074ba76f1bc650dd4e06bac5efb12ad3dc3071a/dash-bootstrap-components-1.4.1rc2.tar.gz
+[2023-07-09 23:48:19] INFO root fetch - processPackages [rsmanage]: Downloading https://files.pythonhosted.org/packages/57/e5/d3fcc8580dc15e495d6c544a5c0abe5f94f3225b8a6fdf07c2ac92ca59c0/rsmanage-0.1.0.dev5.tar.gz
+[2023-07-09 23:48:19] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 23:48:20] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-09 23:48:20] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ab/53/10ec440ee997c5bbb2bfb951468f2d2ba99a36d3208c1e555495f3428dd0/sydeploy-0.2.7rc4-py3-none-any.whl
+[2023-07-09 23:48:20] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ab/53/10ec440ee997c5bbb2bfb951468f2d2ba99a36d3208c1e555495f3428dd0/sydeploy-0.2.7rc4-py3-none-any.whl
+[2023-07-09 23:48:20] INFO root fetch - processPackages [xdantic]: Downloading https://files.pythonhosted.org/packages/bf/a1/8a16b9c1d89f195ba0589fc2ce6333bd71219d2b72528281b28eeb4e5bf9/xdantic-0.0.3.tar.gz
+[2023-07-09 23:48:20] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:48:20] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230709/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 23:48:20] INFO root fetch - processPackages [dash-bootstrap-components]: Downloading https://files.pythonhosted.org/packages/e8/4d/0dfef53400e9409e668cdc98487af0f9fa54ce5960830accc8a08e86686c/dash-bootstrap-components-1.4.2rc1.tar.gz
+[2023-07-09 23:48:20] INFO root fetch - processPackages [rsmanage]: Downloading https://files.pythonhosted.org/packages/13/96/911ac0212820b5c780a8168bccefbbd82eb5401865410198bc235b81e2f3/rsmanage-2.0.0.tar.gz
+[2023-07-09 23:48:20] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc3-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc4-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7rc3-0.2.7rc4/diff.md --exclude *.pyd
+[2023-07-09 23:48:20] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc3-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc4-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.7rc3-0.2.7rc4/diff.md --exclude *.pyd
+[2023-07-09 23:48:20] INFO root fetch - processPackages [xdantic]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [xdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdantic-0.0.2.dev0.tar.gz tmp/xdantic-0.0.3.tar.gz --markdown 20230709/x/xdantic/0.0.2.dev0-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 23:48:20] INFO root fetch - processPackages [dash-bootstrap-components]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [dash-bootstrap-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-bootstrap-components-1.4.1rc2.tar.gz tmp/dash-bootstrap-components-1.4.2rc1.tar.gz --markdown 20230709/d/dash-bootstrap-components/1.4.1rc2-1.4.2rc1/diff.md --exclude *.pyd
+[2023-07-09 23:48:20] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/c2/aa/d8cd096894897b394c7267377614579a190576f53ed8501ef3ae344f5d2e/bpp_iplweb-202307.1106-py3-none-any.whl
+[2023-07-09 23:48:20] INFO root fetch - processPackages [rsmanage]: executing diffoscope
+[2023-07-09 23:48:20] INFO root fetch - processPackages [rsmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsmanage-0.1.0.dev5.tar.gz tmp/rsmanage-2.0.0.tar.gz --markdown 20230709/r/rsmanage/0.1.0.dev5-2.0.0/diff.md --exclude *.pyd
+[2023-07-09 23:48:21] INFO root fetch - processPackages [bpp-iplweb]: executing diffoscope
+[2023-07-09 23:48:21] INFO root fetch - processPackages [bpp-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp_iplweb-202307.1105-py3-none-any.whl.zip tmp/bpp_iplweb-202307.1106-py3-none-any.whl.zip --markdown 20230709/b/bpp-iplweb/202307.1105-202307.1106/diff.md --exclude *.pyd
+[2023-07-09 23:48:21] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 23:48:21] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-09 23:48:21] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc3-py3-none-any.whl.zip]
+[2023-07-09 23:48:21] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc4-py3-none-any.whl.zip]
+[2023-07-09 23:48:21] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:48:21] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 23:48:21] INFO root fetch - processPackages [xdantic]: Remove: archive file [/home/abi/fetcher/tmp/xdantic-0.0.2.dev0.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - processPackages [xdantic]: Remove: archive file [/home/abi/fetcher/tmp/xdantic-0.0.3.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - main [MainThread]: End processing [xdantic]: success
+[2023-07-09 23:48:21] INFO root fetch - processPackages [rsmanage]: Remove: archive file [/home/abi/fetcher/tmp/rsmanage-0.1.0.dev5.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - processPackages [rsmanage]: Remove: archive file [/home/abi/fetcher/tmp/rsmanage-2.0.0.tar.gz]
+[2023-07-09 23:48:21] INFO root fetch - main [MainThread]: End processing [rsmanage]: success
+[2023-07-09 23:48:23] INFO root fetch - processPackages [dash-bootstrap-components]: Remove: archive file [/home/abi/fetcher/tmp/dash-bootstrap-components-1.4.1rc2.tar.gz]
+[2023-07-09 23:48:23] INFO root fetch - processPackages [dash-bootstrap-components]: Remove: archive file [/home/abi/fetcher/tmp/dash-bootstrap-components-1.4.2rc1.tar.gz]
+[2023-07-09 23:48:23] INFO root fetch - main [MainThread]: End processing [dash-bootstrap-components]: success
+[2023-07-09 23:48:37] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1105-py3-none-any.whl.zip]
+[2023-07-09 23:48:37] INFO root fetch - processPackages [bpp-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/bpp_iplweb-202307.1106-py3-none-any.whl.zip]
+[2023-07-09 23:48:37] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
+[2023-07-09 23:48:37] INFO root fetch - main [MainThread]: Store serial: [18823697]

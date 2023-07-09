@@ -4481,3 +4481,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 07:20:12] INFO root fetch - main [MainThread]: End processing [Abg]: success
 [2023-07-09 07:20:12] INFO root fetch - main [MainThread]: End processing [service-markets]: success
 [2023-07-09 07:20:12] INFO root fetch - main [MainThread]: Store serial: [18818077]
+[2023-07-09 07:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818077]
+[2023-07-09 07:25:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 07:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-09 07:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watex
+[2023-07-09 07:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: service-markets
+[2023-07-09 07:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servifai
+[2023-07-09 07:25:21] INFO root fetch - processPackages [service-markets]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 07:25:21] INFO root fetch - processPackages [roblox-pyc]: New version: [1.5.5] Old Version: [1.4.5]
+[2023-07-09 07:25:21] INFO root fetch - processPackages [servifai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 07:25:21] INFO root fetch - processPackages [watex]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-09 07:25:21] INFO root fetch - processPackages [servifai]: Downloading https://files.pythonhosted.org/packages/12/33/c8d6f9f52c0014282ae8d2234c6a639c2fb3640bf47ec4cbb48d1c5562ba/servifai-0.2.0.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/5e/3b/0a4c3bfe98ead735afe5f91dbb570e02c22995f0e7ad7c8c414c85dab416/service_markets-0.3.8.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/68/5d/e734e6761b6062679a3eeefab0e2eecd67d09dd963da6b9bf14c5d8ef0be/roblox-pyc-1.4.5.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [watex]: Downloading https://files.pythonhosted.org/packages/cc/a9/700db414ec0d2687519a0ac8c61ffda1d04ec46b5187d17cd9362acf0fcd/watex-0.2.6.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [servifai]: Downloading https://files.pythonhosted.org/packages/23/7c/21d00cf82206ee104de3246165554fde97ac8ce5dde52a4249cee021a4c2/servifai-0.2.1.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/c7/80/398e7784dd2803e7120ad28089dfe6bdfa9327417214be09040bf8607661/service_markets-0.3.9.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [servifai]: executing diffoscope
+[2023-07-09 07:25:21] INFO root fetch - processPackages [servifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servifai-0.2.0.tar.gz tmp/servifai-0.2.1.tar.gz --markdown 20230709/s/servifai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 07:25:21] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 07:25:21] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.8.tar.gz tmp/service_markets-0.3.9.tar.gz --markdown 20230709/s/service-markets/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 07:25:21] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/70/29/be14fabe0bf22bf9b50ba962205621883d7422f0dc3a646443b7cc11a1c9/roblox-pyc-1.5.5.tar.gz
+[2023-07-09 07:25:21] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 07:25:21] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.4.5.tar.gz tmp/roblox-pyc-1.5.5.tar.gz --markdown 20230709/r/roblox-pyc/1.4.5-1.5.5/diff.md --exclude *.pyd
+[2023-07-09 07:25:22] INFO root fetch - processPackages [watex]: Downloading https://files.pythonhosted.org/packages/94/75/1d94542e32913a4f6a69013a7c1d2ef33c88daa89dede5ca3e23d914a52b/watex-0.2.7.tar.gz
+[2023-07-09 07:25:22] INFO root fetch - processPackages [servifai]: Remove: archive file [/home/abi/fetcher/tmp/servifai-0.2.0.tar.gz]
+[2023-07-09 07:25:22] INFO root fetch - processPackages [servifai]: Remove: archive file [/home/abi/fetcher/tmp/servifai-0.2.1.tar.gz]
+[2023-07-09 07:25:22] INFO root fetch - main [MainThread]: End processing [servifai]: success
+[2023-07-09 07:25:22] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.8.tar.gz]
+[2023-07-09 07:25:22] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.9.tar.gz]
+[2023-07-09 07:25:22] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 07:25:22] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.4.5.tar.gz]
+[2023-07-09 07:25:22] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.5.tar.gz]
+[2023-07-09 07:25:22] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 07:25:22] WARNING root fetch - processPackages [watex]: Skipping package: exceeds size limit 24374182>=10485760
+[2023-07-09 07:25:22] INFO root fetch - main [MainThread]: End processing [watex] error
+[2023-07-09 07:25:22] INFO root fetch - main [MainThread]: Store serial: [18818092]

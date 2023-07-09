@@ -14409,3 +14409,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:47:08] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.1.1.tar.gz]
 [2023-07-09 20:47:08] INFO root fetch - main [MainThread]: End processing [pygwidgets]: success
 [2023-07-09 20:47:08] INFO root fetch - main [MainThread]: Store serial: [18822528]
+[2023-07-09 20:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822528]
+[2023-07-09 20:52:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crankshaft
+[2023-07-09 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x-dgcnn
+[2023-07-09 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webhooklib
+[2023-07-09 20:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade-sdk
+[2023-07-09 20:52:17] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev1] Old Version: [0.1.3]
+[2023-07-09 20:52:17] INFO root fetch - processPackages [crankshaft]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-09 20:52:17] INFO root fetch - processPackages [x-dgcnn]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 20:52:17] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-09 20:52:17] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-07-09 20:52:17] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/96/46/4f4204a1ce0468e2f5c22d0ebb18da3d7fc949a87865fd0bb6d4cd4776a2/tastytrade_sdk-0.1.3.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/c6/37/9657a14916e9f3ccbb1018c6840de84e795b63789c32b7ff1d3c6886dfb2/crankshaft-0.4.0.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/96/43/6d709e3f6f216dd7108199ddeca9950c3398b07bf1fafdc11b5714a2577b/x-dgcnn-0.2.0.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/b2/67/7d8552682387fadfed461f4806472baedbd171fba14a55c86bccba8e042c/tastytrade_sdk-0.1.4a0.dev1.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-07-09 20:52:18] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230709/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 20:52:18] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/1d/5b/addc109afb4d6e2faa966249778bc32bb34ced4620ff4822bb67bc3074ab/crankshaft-0.5.0.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/5b/a7/acb0e450b5f15e7d607bb2a44c1800e597084b75d290c31505285612f994/x-dgcnn-0.2.1.tar.gz
+[2023-07-09 20:52:18] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-09 20:52:18] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.3.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev1.tar.gz --markdown 20230709/t/tastytrade-sdk/0.1.3-0.1.4a0.dev1/diff.md --exclude *.pyd
+[2023-07-09 20:52:18] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-07-09 20:52:18] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.4.0.tar.gz tmp/crankshaft-0.5.0.tar.gz --markdown 20230709/c/crankshaft/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 20:52:18] INFO root fetch - processPackages [x-dgcnn]: executing diffoscope
+[2023-07-09 20:52:18] INFO root fetch - processPackages [x-dgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-dgcnn-0.2.0.tar.gz tmp/x-dgcnn-0.2.1.tar.gz --markdown 20230709/x/x-dgcnn/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 20:52:19] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-07-09 20:52:19] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.3.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev1.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-09 20:52:19] INFO root fetch - processPackages [x-dgcnn]: Remove: archive file [/home/abi/fetcher/tmp/x-dgcnn-0.2.0.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - processPackages [x-dgcnn]: Remove: archive file [/home/abi/fetcher/tmp/x-dgcnn-0.2.1.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - main [MainThread]: End processing [x-dgcnn]: success
+[2023-07-09 20:52:19] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.4.0.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.5.0.tar.gz]
+[2023-07-09 20:52:19] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-07-09 20:52:19] INFO root fetch - main [MainThread]: Store serial: [18822540]

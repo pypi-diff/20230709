@@ -14273,3 +14273,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:36:45] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.9.tar.gz]
 [2023-07-09 20:36:45] INFO root fetch - main [MainThread]: End processing [finops-crawler]: success
 [2023-07-09 20:36:45] INFO root fetch - main [MainThread]: Store serial: [18822472]
+[2023-07-09 20:41:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822472]
+[2023-07-09 20:41:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugen
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygwidgets
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugen
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finqual
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypdfe
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: virtual-ai
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-robocop
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: External-User-Local-Python-Package
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wagtail-csp
+[2023-07-09 20:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: newspaper3k-haystack-haradai
+[2023-07-09 20:41:54] INFO root fetch - processPackages [plugen]: New version: [0.9] Old Version: [0.85]
+[2023-07-09 20:41:54] INFO root fetch - processPackages [finqual]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-07-09 20:41:55] INFO root fetch - processPackages [robotframework-robocop]: New version: [4.0.0] Old Version: [3.2.1]
+[2023-07-09 20:41:55] WARNING root fetch - processPackages [virtual-ai]: Skipping, unable to determine old version
+[2023-07-09 20:41:55] INFO root fetch - processPackages [virtual-ai]: Start processing: swanapi
+[2023-07-09 20:41:55] INFO root fetch - main [MainThread]: End processing [virtual-ai] error
+[2023-07-09 20:41:55] INFO root fetch - processPackages [External-User-Local-Python-Package]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 20:41:55] WARNING root fetch - processPackages [newspaper3k-haystack-haradai]: Skipping, unable to determine old version
+[2023-07-09 20:41:55] INFO root fetch - main [MainThread]: End processing [newspaper3k-haystack-haradai] error
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pygwidgets]: New version: [1.1] Old Version: [1.0.5]
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: New version: [0.9] Old Version: [0.85]
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pypdfe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 20:41:55] WARNING root fetch - processPackages [wagtail-csp]: Skipping, unable to determine old version
+[2023-07-09 20:41:55] INFO root fetch - main [MainThread]: End processing [wagtail-csp] error
+[2023-07-09 20:41:55] INFO root fetch - processPackages [swanapi]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-07-09 20:41:55] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/1b/e8/b3446447e7b3f94e718a8051690e5b1aa57b2ad1a789ea56b4d502ed8b80/finqual-0.1.93.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [External-User-Local-Python-Package]: Downloading https://files.pythonhosted.org/packages/ba/2f/00aeb19e63d309c11c19371fa73fe7929f2423f0dbe6f3558e92da46de28/External-User-Local-Python-Package-0.0.2.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/d7/7b/fc7b6a476dedac0cb198574c6cd3284d66d0d58096771544f79bc432f259/pypdfe-0.1.8.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/61/72/b13db27ea893ff1b74ab44f699eed6333747cccbf4f6676c3b8fb9787f5a/plugen-0.85.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/61/72/b13db27ea893ff1b74ab44f699eed6333747cccbf4f6676c3b8fb9787f5a/plugen-0.85.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/eb/6f/f98f09d8ef6ec043e80a75ff67d7e15b55bad393ecce68dc076092e9184e/swanapi-0.1.6-py3-none-any.whl
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pygwidgets]: Downloading https://files.pythonhosted.org/packages/a3/c9/134b0ddd563d213f320e91df5fbed788e318c57ab6632ae833169938dbf9/pygwidgets-1.0.5.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [robotframework-robocop]: Downloading https://files.pythonhosted.org/packages/ea/b9/7c3061d5ceecf0fba0f86ccac15e6004185e5b8aefbe1eb0d95ff0d6363a/robotframework-robocop-3.2.1.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/40/4e/ff96494b385ef66bc85fe904521a533448df6fc59f3d72e87e19eabb8939/finqual-0.1.94.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [External-User-Local-Python-Package]: Downloading https://files.pythonhosted.org/packages/47/79/673832b5b1b0f5a1df86df876c00c237e643cae4f9372c18edb3343d9724/External-User-Local-Python-Package-0.0.3.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/ae/43/7569802445119f8f3652417e22d96ee9eeaaa813675243b0f3d6c23870e2/plugen-0.9.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/ae/43/7569802445119f8f3652417e22d96ee9eeaaa813675243b0f3d6c23870e2/plugen-0.9.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/f0/ca/62442bb27dee9eb6e89a524a9f2098c969088c6c2186a29cf577aba59986/swanapi-0.1.8-py3-none-any.whl
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/43/f0/f557d7789e790c4ca9eaa4fee3f4110f3bb7961c5c7835e2c206b280ace4/pypdfe-0.1.9.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [robotframework-robocop]: Downloading https://files.pythonhosted.org/packages/20/f9/79b60b1a81c08795e64907d66306fbb744725535cc9e42accf829a0925b4/robotframework-robocop-4.0.0.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [External-User-Local-Python-Package]: executing diffoscope
+[2023-07-09 20:41:55] INFO root fetch - processPackages [External-User-Local-Python-Package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-Python-Package-0.0.2.tar.gz tmp/External-User-Local-Python-Package-0.0.3.tar.gz --markdown 20230709/E/External-User-Local-Python-Package/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pygwidgets]: Downloading https://files.pythonhosted.org/packages/41/86/4115021611b31af6f463a18aca120f285006a737769b1007402a578616cf/pygwidgets-1.1.tar.gz
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-09 20:41:55] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.8.tar.gz tmp/pypdfe-0.1.9.tar.gz --markdown 20230709/p/pypdfe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 20:41:55] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-09 20:41:55] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.93.tar.gz tmp/finqual-0.1.94.tar.gz --markdown 20230709/f/finqual/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-0.85.tar.gz tmp/plugen-0.9.tar.gz --markdown 20230709/p/plugen/0.85-0.9/diff.md --exclude *.pyd
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-09 20:41:55] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-0.85.tar.gz tmp/plugen-0.9.tar.gz --markdown 20230709/p/plugen/0.85-0.9/diff.md --exclude *.pyd
+[2023-07-09 20:41:55] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-09 20:41:55] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.6-py3-none-any.whl.zip tmp/swanapi-0.1.8-py3-none-any.whl.zip --markdown 20230709/s/swanapi/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 20:41:56] INFO root fetch - processPackages [robotframework-robocop]: executing diffoscope
+[2023-07-09 20:41:56] INFO root fetch - processPackages [robotframework-robocop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robocop-3.2.1.tar.gz tmp/robotframework-robocop-4.0.0.tar.gz --markdown 20230709/r/robotframework-robocop/3.2.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-09 20:41:56] INFO root fetch - processPackages [pygwidgets]: executing diffoscope
+[2023-07-09 20:41:56] INFO root fetch - processPackages [pygwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwidgets-1.0.5.tar.gz tmp/pygwidgets-1.1.tar.gz --markdown 20230709/p/pygwidgets/1.0.5-1.1/diff.md --exclude *.pyd
+[2023-07-09 20:41:57] INFO root fetch - processPackages [External-User-Local-Python-Package]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-Python-Package-0.0.2.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [External-User-Local-Python-Package]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-Python-Package-0.0.3.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [External-User-Local-Python-Package]: success
+[2023-07-09 20:41:57] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.93.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.94.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-09 20:41:57] INFO root fetch - processPackages [plugen]: Remove: archive file [/home/abi/fetcher/tmp/plugen-0.85.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [plugen]: Remove: archive file [/home/abi/fetcher/tmp/plugen-0.9.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-09 20:41:57] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.6-py3-none-any.whl.zip]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.8-py3-none-any.whl.zip]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-09 20:41:57] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.8.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.9.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-09 20:41:57] INFO root fetch - processPackages [robotframework-robocop]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robocop-3.2.1.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [robotframework-robocop]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robocop-4.0.0.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [robotframework-robocop]: success
+[2023-07-09 20:41:57] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.0.5.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.1.tar.gz]
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [pygwidgets]: success
+[2023-07-09 20:41:57] INFO root fetch - main [MainThread]: Store serial: [18822504]

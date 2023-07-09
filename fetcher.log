@@ -8554,3 +8554,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:43:58] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
 [2023-07-09 13:43:58] INFO root fetch - main [MainThread]: End processing [league-client]: success
 [2023-07-09 13:43:58] INFO root fetch - main [MainThread]: Store serial: [18819916]
+[2023-07-09 13:49:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819916]
+[2023-07-09 13:49:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 13:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WifiOrca
+[2023-07-09 13:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyakamai
+[2023-07-09 13:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-07-09 13:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: process-twarc
+[2023-07-09 13:49:07] INFO root fetch - processPackages [pyakamai]: New version: [1.2] Old Version: [1.18]
+[2023-07-09 13:49:07] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 13:49:07] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 13:49:07] INFO root fetch - processPackages [process-twarc]: New version: [0.12.1] Old Version: [0.12]
+[2023-07-09 13:49:07] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 13:49:07] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-09 13:49:07] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/db/f6/04cb78115dd2ab120bd42edcb387bbd3657678b33506daf69a24ddced98b/pyakamai-1.18-py3-none-any.whl
+[2023-07-09 13:49:08] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/ea/aa/9fddb148ece46038fd9ec50e5a562d99f68f2214bcf4b58b359941ea7f23/process-twarc-0.12.tar.gz
+[2023-07-09 13:49:08] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 13:49:08] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-09 13:49:08] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 13:49:08] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:49:08] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/2e/02/ae21c7a4250b22b1c5978af181a2ddeeb79d0a86821a8896ca3534728405/pyakamai-1.2-py3-none-any.whl
+[2023-07-09 13:49:08] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-09 13:49:08] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230709/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 13:49:08] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/99/9d/c23da70d3963b8d167845e037b17d06da3f8dac5c9acb95ebd7ef018d2b8/process-twarc-0.12.1.tar.gz
+[2023-07-09 13:49:08] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-07-09 13:49:08] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.18-py3-none-any.whl.zip tmp/pyakamai-1.2-py3-none-any.whl.zip --markdown 20230709/p/pyakamai/1.18-1.2/diff.md --exclude *.pyd
+[2023-07-09 13:49:08] INFO root fetch - processPackages [process-twarc]: executing diffoscope
+[2023-07-09 13:49:08] INFO root fetch - processPackages [process-twarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process-twarc-0.12.tar.gz tmp/process-twarc-0.12.1.tar.gz --markdown 20230709/p/process-twarc/0.12-0.12.1/diff.md --exclude *.pyd
+[2023-07-09 13:49:09] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 13:49:09] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 13:49:09] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 13:49:09] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-09 13:49:09] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-09 13:49:09] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-09 13:49:09] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.18-py3-none-any.whl.zip]
+[2023-07-09 13:49:09] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.2-py3-none-any.whl.zip]
+[2023-07-09 13:49:09] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-07-09 13:49:09] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.tar.gz]
+[2023-07-09 13:49:09] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.1.tar.gz]
+[2023-07-09 13:49:09] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
+[2023-07-09 13:49:09] INFO root fetch - main [MainThread]: Store serial: [18819925]

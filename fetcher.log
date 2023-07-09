@@ -3443,3 +3443,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:30:49] INFO root fetch - processPackages [crown]: Remove: archive file [/home/abi/fetcher/tmp/crown-0.3.1.tar.gz]
 [2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [crown]: success
 [2023-07-09 05:30:49] INFO root fetch - main [MainThread]: Store serial: [18817695]
+[2023-07-09 05:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817695]
+[2023-07-09 05:35:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: service-markets
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-leave-custom-hour-interval
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hr-holidays-natural-period
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-resolve
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cb2game
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: service-markets
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text2text
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apysc
+[2023-07-09 05:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: service-markets
+[2023-07-09 05:35:58] INFO root fetch - processPackages [service-markets]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [service-markets]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [service-markets]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [cb2game]: New version: [0.9.8] Old Version: [0.9.5]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [text2text]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/45/f1/f06ff8829a5d6b0267ba9f898bb0037b6a3a7ae7a0ec432e93946b31d290/text2text-1.2.5.tar.gz
+[2023-07-09 05:35:58] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-09 05:35:58] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/d4/13/6082d50e397841c9c8b1273c8bcddfabfd1e7180b312db2b72df15f99f9a/pydantic_resolve-1.4.1.tar.gz
+[2023-07-09 05:35:58] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/df/5b/d583e50378c24497417f4b4c6d9060422e206e32648c1017ed8d178910a1/service_markets-0.3.4.tar.gz
+[2023-07-09 05:35:58] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/df/5b/d583e50378c24497417f4b4c6d9060422e206e32648c1017ed8d178910a1/service_markets-0.3.4.tar.gz
+[2023-07-09 05:35:58] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/df/5b/d583e50378c24497417f4b4c6d9060422e206e32648c1017ed8d178910a1/service_markets-0.3.4.tar.gz
+[2023-07-09 05:35:58] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: Downloading https://files.pythonhosted.org/packages/e1/a5/aa8e361c006f5bb3b63ca5e5402e85d1e32f0fb935061bdbd25355de3444/odoo_addon_hr_holidays_natural_period-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: Downloading https://files.pythonhosted.org/packages/cc/27/dc7852304eb990392dd5f82b50c867a9e0d994491bf7fb9cb04dea6d236a/odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-09 05:35:59] INFO root fetch - processPackages [cb2game]: Downloading https://files.pythonhosted.org/packages/ad/af/0a751c353faea1f828f6abdffb33b77dade4e0d5308e731c464ff2c0b884/cb2game-0.9.5-py3-none-any.whl
+[2023-07-09 05:35:59] WARNING root fetch - processPackages [cb2game]: Skipping package: exceeds size limit 99893611>=10485760
+[2023-07-09 05:35:59] INFO root fetch - main [MainThread]: End processing [cb2game] error
+[2023-07-09 05:35:59] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/d0/d4/27a03ee1646b2b4dc9b02a0d11002ede202425d4dd6405a340cec67baeee/text2text-1.2.6.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/c6/aa/661770ea3ed0e6f294a4015f10dfc4fb4bca56e63e90a82ed2c7e3681ce7/service_markets-0.3.5.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/c6/aa/661770ea3ed0e6f294a4015f10dfc4fb4bca56e63e90a82ed2c7e3681ce7/service_markets-0.3.5.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/c6/aa/661770ea3ed0e6f294a4015f10dfc4fb4bca56e63e90a82ed2c7e3681ce7/service_markets-0.3.5.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/b4/43/d570dfb9a8bb99c34c61b0cc19faaee48ba852fb62f2cc6659e9921c9703/pydantic_resolve-1.5.0.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: Downloading https://files.pythonhosted.org/packages/30/9f/493549c3509586a5e19bba744788f3b302d4f69dc71212fc08d766f73778/odoo_addon_hr_holidays_natural_period-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: Downloading https://files.pythonhosted.org/packages/59/73/761b55fcba5a83e330fde7e27f5daef336e0ff5899be21fe484cc9a4e05c/odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-09 05:35:59] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.5.tar.gz tmp/text2text-1.2.6.tar.gz --markdown 20230709/t/text2text/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.4.tar.gz tmp/service_markets-0.3.5.tar.gz --markdown 20230709/s/service-markets/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.4.tar.gz tmp/service_markets-0.3.5.tar.gz --markdown 20230709/s/service-markets/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.4.tar.gz tmp/service_markets-0.3.5.tar.gz --markdown 20230709/s/service-markets/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.4.1.tar.gz tmp/pydantic_resolve-1.5.0.tar.gz --markdown 20230709/p/pydantic-resolve/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_holidays_natural_period-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_holidays_natural_period-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-hr-holidays-natural-period/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-hr-leave-custom-hour-interval/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-09 05:35:59] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-09 05:35:59] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-09 05:35:59] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230709/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-09 05:36:00] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.4.tar.gz]
+[2023-07-09 05:36:00] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.5.tar.gz]
+[2023-07-09 05:36:00] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 05:36:00] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_natural_period-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-09 05:36:00] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_natural_period-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-09 05:36:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-holidays-natural-period]: success
+[2023-07-09 05:36:00] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.4.1.tar.gz]
+[2023-07-09 05:36:00] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.5.0.tar.gz]
+[2023-07-09 05:36:00] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-09 05:36:01] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-09 05:36:01] INFO root fetch - processPackages [odoo-addon-hr-leave-custom-hour-interval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-09 05:36:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-leave-custom-hour-interval]: success
+[2023-07-09 05:36:01] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 05:36:01] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 05:36:01] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.5.tar.gz]
+[2023-07-09 05:36:01] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.6.tar.gz]
+[2023-07-09 05:36:01] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-09 05:36:03] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-09 05:36:03] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-09 05:36:03] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-09 05:36:03] INFO root fetch - main [MainThread]: Store serial: [18817721]

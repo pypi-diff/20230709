@@ -13195,3 +13195,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:18:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev43.tar.gz]
 [2023-07-09 19:18:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-09 19:18:24] INFO root fetch - main [MainThread]: Store serial: [18822019]
+[2023-07-09 19:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822019]
+[2023-07-09 19:23:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swanapi
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nahyanpdf
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EpubCrawler
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: learn-diffusion
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zein
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calculator-MU
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webhooklib
+[2023-07-09 19:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-09 19:23:33] INFO root fetch - processPackages [sydeploy]: New version: [0.2.2rc3] Old Version: [0.2.2rc2]
+[2023-07-09 19:23:33] INFO root fetch - processPackages [EpubCrawler]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 19:23:33] INFO root fetch - processPackages [swanapi]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 19:23:33] INFO root fetch - processPackages [calculator-MU]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 19:23:33] WARNING root fetch - processPackages [learn-diffusion]: Skipping, unable to determine old version
+[2023-07-09 19:23:33] INFO root fetch - main [MainThread]: End processing [learn-diffusion] error
+[2023-07-09 19:23:33] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 19:23:33] WARNING root fetch - processPackages [Nahyanpdf]: Skipping, unable to determine old version
+[2023-07-09 19:23:33] INFO root fetch - main [MainThread]: End processing [Nahyanpdf] error
+[2023-07-09 19:23:33] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-09 19:23:33] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 19:23:34] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-09 19:23:34] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/3d/15/81a98317ffd9ff371ad0c268a9de52edaff7c64b917661e8c3b39bec7aab/sydeploy-0.2.2rc2-py3-none-any.whl
+[2023-07-09 19:23:34] INFO root fetch - processPackages [EpubCrawler]: Downloading https://files.pythonhosted.org/packages/b9/2e/8b74ed3510e26b8f4e12a532b1979c3dcc987266f746f80e748de43598cc/EpubCrawler-2023.7.9.0.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/ee/ae/4252f342a0cc634862c8ff94379a1e4bda87a99288e149d1421ca47d98c8/calculator_MU-1.0.5-py3.11.egg
+[2023-07-09 19:23:34] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/92/b7/6ae0947b50de6e664647799e5958bf65cc0db340684cccc87f52cfd1a50a/swanapi-0.1.5-py3-none-any.whl
+[2023-07-09 19:23:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/99/34/9c5eff4aaf0adf6a8233b91d025eef1865000c0c455114523eec71bfbf7e/sydeploy-0.2.2rc3-py3-none-any.whl
+[2023-07-09 19:23:34] INFO root fetch - processPackages [EpubCrawler]: Downloading https://files.pythonhosted.org/packages/a0/2c/da14c66785f96c985e6ded315bb090b7c4708dfff0f7357986bee0fc8859/EpubCrawler-2023.7.9.1.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/eb/6f/f98f09d8ef6ec043e80a75ff67d7e15b55bad393ecce68dc076092e9184e/swanapi-0.1.6-py3-none-any.whl
+[2023-07-09 19:23:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/d8/40/de8c734a459a586f98f4f124d507e65168969ee3da43061100d27958ced9/calculator_MU-1.0.6.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230709/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-07-09 19:23:34] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.2rc2-py3-none-any.whl.zip tmp/sydeploy-0.2.2rc3-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.2rc2-0.2.2rc3/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [EpubCrawler]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [EpubCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EpubCrawler-2023.7.9.0.tar.gz tmp/EpubCrawler-2023.7.9.1.tar.gz --markdown 20230709/E/EpubCrawler/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.5-py3-none-any.whl.zip tmp/swanapi-0.1.6-py3-none-any.whl.zip --markdown 20230709/s/swanapi/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230709/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 19:23:34] INFO root fetch - processPackages [calculator-MU]: executing diffoscope
+[2023-07-09 19:23:34] INFO root fetch - processPackages [calculator-MU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_MU-1.0.5-py3.11.egg tmp/calculator_MU-1.0.6.tar.gz --markdown 20230709/c/calculator-MU/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 19:23:36] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc2-py3-none-any.whl.zip]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc3-py3-none-any.whl.zip]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.5-py3-none-any.whl.zip]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.6-py3-none-any.whl.zip]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [EpubCrawler]: Remove: archive file [/home/abi/fetcher/tmp/EpubCrawler-2023.7.9.0.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [EpubCrawler]: Remove: archive file [/home/abi/fetcher/tmp/EpubCrawler-2023.7.9.1.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [EpubCrawler]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.5-py3.11.egg]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.6.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [calculator-MU]: success
+[2023-07-09 19:23:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 19:23:36] INFO root fetch - main [MainThread]: Store serial: [18822049]

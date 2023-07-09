@@ -5527,3 +5527,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:53:46] INFO root fetch - processPackages [envname]: Remove: archive file [/home/abi/fetcher/tmp/envname-1.0.3.tar.gz]
 [2023-07-09 08:53:46] INFO root fetch - main [MainThread]: End processing [envname]: success
 [2023-07-09 08:53:46] INFO root fetch - main [MainThread]: Store serial: [18818474]
+[2023-07-09 08:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818474]
+[2023-07-09 08:58:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increment
+[2023-07-09 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lccpy
+[2023-07-09 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai2
+[2023-07-09 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rstyleslice
+[2023-07-09 08:58:55] INFO root fetch - processPackages [openai2]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-09 08:58:55] INFO root fetch - processPackages [increment]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-09 08:58:55] INFO root fetch - processPackages [lccpy]: New version: [1.4.7.2] Old Version: [1.4.7.1]
+[2023-07-09 08:58:55] INFO root fetch - processPackages [rstyleslice]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-09 08:58:55] INFO root fetch - processPackages [lccpy]: Downloading https://files.pythonhosted.org/packages/94/21/bbd41dabfb380da22ddb868af9fe75740f7fbabb8ada0e72a691ea4de464/lccpy-1.4.7.1.tar.gz
+[2023-07-09 08:58:55] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/2e/09/1deea02b7a37dfeec71c879abe1ed68ca5c99da3618e47cd4ec4b5bd73e7/openai2-1.5.8.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [increment]: Downloading https://files.pythonhosted.org/packages/51/22/03d37e4bd704c4f061db22178a8dc7040f59286cdbafc2c781de234865d0/increment-1.3.3.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [rstyleslice]: Downloading https://files.pythonhosted.org/packages/9e/b7/438a4c39a39a12476daaf9effcd8c8f9288a7fa7f721aa727044b8703c03/rstyleslice-1.4.3.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/c4/e9/cd0a204742873545d97495dd79d744809d64667ad857e0734c760f7fa863/openai2-1.5.9.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [lccpy]: Downloading https://files.pythonhosted.org/packages/be/5f/c032101e983b7b9206a801e84aa18622012ab0d325f405dc2b914a9c77ac/lccpy-1.4.7.2.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [rstyleslice]: Downloading https://files.pythonhosted.org/packages/44/37/47d52ccb3f3b6151b52ef9b41b2a04da400508a5c151b483dfba24a7dbc2/rstyleslice-1.4.4.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [increment]: Downloading https://files.pythonhosted.org/packages/0e/f0/19c2ad2d2326ef4d2f720adb768d8bbf20689e8a54341a463daf4f6f8b4c/increment-1.3.4.tar.gz
+[2023-07-09 08:58:56] INFO root fetch - processPackages [rstyleslice]: executing diffoscope
+[2023-07-09 08:58:56] INFO root fetch - processPackages [rstyleslice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstyleslice-1.4.3.tar.gz tmp/rstyleslice-1.4.4.tar.gz --markdown 20230709/r/rstyleslice/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-09 08:58:56] INFO root fetch - processPackages [openai2]: executing diffoscope
+[2023-07-09 08:58:56] INFO root fetch - processPackages [openai2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai2-1.5.8.tar.gz tmp/openai2-1.5.9.tar.gz --markdown 20230709/o/openai2/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-09 08:58:56] INFO root fetch - processPackages [increment]: executing diffoscope
+[2023-07-09 08:58:56] INFO root fetch - processPackages [increment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increment-1.3.3.tar.gz tmp/increment-1.3.4.tar.gz --markdown 20230709/i/increment/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-09 08:58:56] INFO root fetch - processPackages [lccpy]: executing diffoscope
+[2023-07-09 08:58:56] INFO root fetch - processPackages [lccpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lccpy-1.4.7.1.tar.gz tmp/lccpy-1.4.7.2.tar.gz --markdown 20230709/l/lccpy/1.4.7.1-1.4.7.2/diff.md --exclude *.pyd
+[2023-07-09 08:58:57] INFO root fetch - processPackages [rstyleslice]: Remove: archive file [/home/abi/fetcher/tmp/rstyleslice-1.4.3.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - processPackages [rstyleslice]: Remove: archive file [/home/abi/fetcher/tmp/rstyleslice-1.4.4.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - main [MainThread]: End processing [rstyleslice]: success
+[2023-07-09 08:58:57] INFO root fetch - processPackages [openai2]: Remove: archive file [/home/abi/fetcher/tmp/openai2-1.5.8.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - processPackages [openai2]: Remove: archive file [/home/abi/fetcher/tmp/openai2-1.5.9.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - main [MainThread]: End processing [openai2]: success
+[2023-07-09 08:58:57] INFO root fetch - processPackages [lccpy]: Remove: archive file [/home/abi/fetcher/tmp/lccpy-1.4.7.1.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - processPackages [lccpy]: Remove: archive file [/home/abi/fetcher/tmp/lccpy-1.4.7.2.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - main [MainThread]: End processing [lccpy]: success
+[2023-07-09 08:58:57] INFO root fetch - processPackages [increment]: Remove: archive file [/home/abi/fetcher/tmp/increment-1.3.3.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - processPackages [increment]: Remove: archive file [/home/abi/fetcher/tmp/increment-1.3.4.tar.gz]
+[2023-07-09 08:58:57] INFO root fetch - main [MainThread]: End processing [increment]: success
+[2023-07-09 08:58:57] INFO root fetch - main [MainThread]: Store serial: [18818486]

@@ -6023,3 +6023,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 09:40:43] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.2.3.tar.gz]
 [2023-07-09 09:40:43] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
 [2023-07-09 09:40:43] INFO root fetch - main [MainThread]: Store serial: [18818714]
+[2023-07-09 09:45:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818714]
+[2023-07-09 09:45:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-social-cards
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fm91
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfirebird
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoMLS
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nescs
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scml-vis
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoMLS
+[2023-07-09 09:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scml-agents
+[2023-07-09 09:45:52] INFO root fetch - processPackages [sphinx-social-cards]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [autoMLS]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [fm91]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [autoMLS]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [nescs]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [scml-vis]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [scml-agents]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-09 09:45:52] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/6a/ed/07dab14f51d9f39354943a6156a004211deb9383eb9a9304d83774ed48c3/autoMLS-1.0.2-py3-none-any.whl
+[2023-07-09 09:45:52] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/e8/75/10e42630de488d934fd610d0043092ce28482e4c012a548c561059aceb1b/fm91-0.0.16.tar.gz
+[2023-07-09 09:45:52] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/6a/ed/07dab14f51d9f39354943a6156a004211deb9383eb9a9304d83774ed48c3/autoMLS-1.0.2-py3-none-any.whl
+[2023-07-09 09:45:52] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/c9/2e/ab2d736d84b97c51fdbb83be626bc2b2d5ee44e2615abb00f586378132bd/pyfirebird-0.0.65.tar.gz
+[2023-07-09 09:45:52] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/46/09/0fe0172d2942a8d2844c48e572e0808c9209d50a1d5efaa4bca0f33bdb40/nescs-0.3.2.tar.gz
+[2023-07-09 09:45:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [sphinx-social-cards]: Downloading https://files.pythonhosted.org/packages/3e/97/a5ca7f3f8f989d716da49e7ce4cc11263c464b220af6f5e634a3fafb479e/sphinx-social-cards-0.1.1.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [scml-vis]: Downloading https://files.pythonhosted.org/packages/a9/4a/592eecf1a0a87f2f814cf5179f88fc8b5cd2ca89d62948e8c259cbd79421/scml-vis-0.2.9.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [scml-agents]: Downloading https://files.pythonhosted.org/packages/78/24/9e971bdce7cf6a357216b199488ef3860974e0727b7dcececc50f8af2b4f/scml-agents-0.3.0.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [fm91]: Downloading https://files.pythonhosted.org/packages/51/fa/05d9d524b46c00c88a1ef24106de4760e980c4670eae59fe6018fd9878bd/fm91-0.0.17.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/fe/6d/64ebc20d3c966cc6a926845405872634f3db3103b0e4d00ff2fa9b37d59e/nescs-0.3.3.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/ba/1d/e8080aa3585e76ed708a016c30cfd586b2b9135f5d1aff3215468309458f/autoMLS-1.0.3-py3-none-any.whl
+[2023-07-09 09:45:53] INFO root fetch - processPackages [autoMLS]: Downloading https://files.pythonhosted.org/packages/ba/1d/e8080aa3585e76ed708a016c30cfd586b2b9135f5d1aff3215468309458f/autoMLS-1.0.3-py3-none-any.whl
+[2023-07-09 09:45:53] INFO root fetch - processPackages [fm91]: executing diffoscope
+[2023-07-09 09:45:53] INFO root fetch - processPackages [fm91]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fm91-0.0.16.tar.gz tmp/fm91-0.0.17.tar.gz --markdown 20230709/f/fm91/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-09 09:45:53] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-09 09:45:53] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230709/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-09 09:45:53] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/c3/f8/b2890829b6f87df76be63aa150f2f4dcea573f76638d235f798f570ef800/pyfirebird-0.0.66.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [autoMLS]: executing diffoscope
+[2023-07-09 09:45:53] INFO root fetch - processPackages [autoMLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLS-1.0.2-py3-none-any.whl.zip tmp/autoMLS-1.0.3-py3-none-any.whl.zip --markdown 20230709/a/autoMLS/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 09:45:53] INFO root fetch - processPackages [autoMLS]: executing diffoscope
+[2023-07-09 09:45:53] INFO root fetch - processPackages [autoMLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLS-1.0.2-py3-none-any.whl.zip tmp/autoMLS-1.0.3-py3-none-any.whl.zip --markdown 20230709/a/autoMLS/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 09:45:53] INFO root fetch - processPackages [nescs]: executing diffoscope
+[2023-07-09 09:45:53] INFO root fetch - processPackages [nescs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nescs-0.3.2.tar.gz tmp/nescs-0.3.3.tar.gz --markdown 20230709/n/nescs/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-09 09:45:53] INFO root fetch - processPackages [scml-vis]: Downloading https://files.pythonhosted.org/packages/97/f6/005f1c22f9333bbe199b34e00ca10565f51d30e04b4c9376d1a95fbe5f0b/scml-vis-0.3.0.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [sphinx-social-cards]: Downloading https://files.pythonhosted.org/packages/da/5c/b127b9626164067306f84c79cb98cf18aacb3efcaaeeda503ccaaf12367e/sphinx-social-cards-0.2.0.tar.gz
+[2023-07-09 09:45:53] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 09:45:53] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.65.tar.gz tmp/pyfirebird-0.0.66.tar.gz --markdown 20230709/p/pyfirebird/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-07-09 09:45:53] WARNING root fetch - processPackages [scml-agents]: Skipping package: exceeds size limit 27561929>=10485760
+[2023-07-09 09:45:53] INFO root fetch - main [MainThread]: End processing [scml-agents] error
+[2023-07-09 09:45:54] INFO root fetch - processPackages [sphinx-social-cards]: executing diffoscope
+[2023-07-09 09:45:54] INFO root fetch - processPackages [sphinx-social-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-social-cards-0.1.1.tar.gz tmp/sphinx-social-cards-0.2.0.tar.gz --markdown 20230709/s/sphinx-social-cards/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 09:45:54] INFO root fetch - processPackages [scml-vis]: executing diffoscope
+[2023-07-09 09:45:54] INFO root fetch - processPackages [scml-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scml-vis-0.2.9.tar.gz tmp/scml-vis-0.3.0.tar.gz --markdown 20230709/s/scml-vis/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 09:45:54] INFO root fetch - processPackages [fm91]: Remove: archive file [/home/abi/fetcher/tmp/fm91-0.0.16.tar.gz]
+[2023-07-09 09:45:54] INFO root fetch - processPackages [fm91]: Remove: archive file [/home/abi/fetcher/tmp/fm91-0.0.17.tar.gz]
+[2023-07-09 09:45:54] INFO root fetch - main [MainThread]: End processing [fm91]: success
+[2023-07-09 09:45:54] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.2.tar.gz]
+[2023-07-09 09:45:54] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.3.tar.gz]
+[2023-07-09 09:45:54] INFO root fetch - main [MainThread]: End processing [nescs]: success
+[2023-07-09 09:45:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-09 09:45:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-09 09:45:55] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-09 09:45:55] INFO root fetch - processPackages [autoMLS]: Remove: archive file [/home/abi/fetcher/tmp/autoMLS-1.0.2-py3-none-any.whl.zip]
+[2023-07-09 09:45:55] INFO root fetch - processPackages [autoMLS]: Remove: archive file [/home/abi/fetcher/tmp/autoMLS-1.0.3-py3-none-any.whl.zip]
+[2023-07-09 09:45:55] INFO root fetch - main [MainThread]: End processing [autoMLS]: success
+[2023-07-09 09:45:55] INFO root fetch - main [MainThread]: End processing [autoMLS]: success
+[2023-07-09 09:45:55] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.65.tar.gz]
+[2023-07-09 09:45:55] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.66.tar.gz]
+[2023-07-09 09:45:55] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 09:45:55] INFO root fetch - processPackages [scml-vis]: Remove: archive file [/home/abi/fetcher/tmp/scml-vis-0.2.9.tar.gz]
+[2023-07-09 09:45:55] INFO root fetch - processPackages [scml-vis]: Remove: archive file [/home/abi/fetcher/tmp/scml-vis-0.3.0.tar.gz]
+[2023-07-09 09:45:55] INFO root fetch - main [MainThread]: End processing [scml-vis]: success
+[2023-07-09 09:48:54] ERROR root fetch - processPackages [sphinx-social-cards]: Timeout during execution of pkgdiff
+[2023-07-09 09:48:54] INFO root fetch - main [MainThread]: End processing [sphinx-social-cards] error
+[2023-07-09 09:48:54] INFO root fetch - main [MainThread]: Store serial: [18818762]

@@ -3922,3 +3922,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:12:25] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-07-09 06:12:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
 [2023-07-09 06:12:25] INFO root fetch - main [MainThread]: Store serial: [18817870]
+[2023-07-09 06:17:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817870]
+[2023-07-09 06:17:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 06:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gay
+[2023-07-09 06:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neotools
+[2023-07-09 06:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gay
+[2023-07-09 06:17:34] INFO root fetch - processPackages [gay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-09 06:17:34] INFO root fetch - processPackages [neotools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-09 06:17:34] INFO root fetch - processPackages [gay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-09 06:17:34] INFO root fetch - processPackages [gay]: Downloading https://files.pythonhosted.org/packages/c7/73/78ad8269443d63049fd0b15ef6db198062b3580c9ea0a576c648b26fe4d2/gay-1.2.8.tar.gz
+[2023-07-09 06:17:34] INFO root fetch - processPackages [gay]: Downloading https://files.pythonhosted.org/packages/c7/73/78ad8269443d63049fd0b15ef6db198062b3580c9ea0a576c648b26fe4d2/gay-1.2.8.tar.gz
+[2023-07-09 06:17:34] INFO root fetch - processPackages [neotools]: Downloading https://files.pythonhosted.org/packages/2c/1d/8883d79d2ec8cb8afd09dd893f41ebffabbe743f7292fc3fdb629a4a21ef/neotools-0.3.3.tar.gz
+[2023-07-09 06:17:34] INFO root fetch - processPackages [gay]: Downloading https://files.pythonhosted.org/packages/da/af/7c103f7fb73181cb2c5c4ccb2e01797f8cf1dba557e433729544e4900d8b/gay-1.2.9.tar.gz
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: Downloading https://files.pythonhosted.org/packages/da/af/7c103f7fb73181cb2c5c4ccb2e01797f8cf1dba557e433729544e4900d8b/gay-1.2.9.tar.gz
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: executing diffoscope
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gay-1.2.8.tar.gz tmp/gay-1.2.9.tar.gz --markdown 20230709/g/gay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: executing diffoscope
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gay-1.2.8.tar.gz tmp/gay-1.2.9.tar.gz --markdown 20230709/g/gay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-09 06:17:35] INFO root fetch - processPackages [neotools]: Downloading https://files.pythonhosted.org/packages/c8/c3/8e6607c73911e8dc55d260b7c44f85c380f09d1677c518c66d617e6f8ab9/neotools-0.3.4.tar.gz
+[2023-07-09 06:17:35] INFO root fetch - processPackages [neotools]: executing diffoscope
+[2023-07-09 06:17:35] INFO root fetch - processPackages [neotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neotools-0.3.3.tar.gz tmp/neotools-0.3.4.tar.gz --markdown 20230709/n/neotools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: Remove: archive file [/home/abi/fetcher/tmp/gay-1.2.8.tar.gz]
+[2023-07-09 06:17:35] INFO root fetch - processPackages [gay]: Remove: archive file [/home/abi/fetcher/tmp/gay-1.2.9.tar.gz]
+[2023-07-09 06:17:35] INFO root fetch - main [MainThread]: End processing [gay]: success
+[2023-07-09 06:17:35] INFO root fetch - main [MainThread]: End processing [gay]: success
+[2023-07-09 06:17:36] INFO root fetch - processPackages [neotools]: Remove: archive file [/home/abi/fetcher/tmp/neotools-0.3.3.tar.gz]
+[2023-07-09 06:17:36] INFO root fetch - processPackages [neotools]: Remove: archive file [/home/abi/fetcher/tmp/neotools-0.3.4.tar.gz]
+[2023-07-09 06:17:36] INFO root fetch - main [MainThread]: End processing [neotools]: success
+[2023-07-09 06:17:36] INFO root fetch - main [MainThread]: Store serial: [18817879]

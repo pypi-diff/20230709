@@ -7488,3 +7488,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:58:57] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.1.tar.gz]
 [2023-07-09 11:58:57] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
 [2023-07-09 11:58:57] INFO root fetch - main [MainThread]: Store serial: [18819444]
+[2023-07-09 12:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819444]
+[2023-07-09 12:04:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 12:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitbuilding
+[2023-07-09 12:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dimples
+[2023-07-09 12:04:06] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-09 12:04:06] INFO root fetch - processPackages [dimples]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-09 12:04:06] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/89/ec/9bfd927480db45a5a82a6022ecf4028af305a4afc3b72c5f74c80d08d65d/dimples-0.2.1.tar.gz
+[2023-07-09 12:04:06] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/5d/02/d9c71baf1393f7e1fed92d62be7ad76d2d954368badcb806fac4afb5d257/gitbuilding-0.9.0.tar.gz
+[2023-07-09 12:04:06] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/67/47/b2c8914756f01663fa9eb386e8cfc66073561f18d443177c2c3f1b4b7513/dimples-0.2.2.tar.gz
+[2023-07-09 12:04:06] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/15/ed/67289495ef2328366701013c075dc09429e3101a0d66d3f73ca280175e13/gitbuilding-0.9.1.tar.gz
+[2023-07-09 12:04:06] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2023-07-09 12:04:06] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.2.1.tar.gz tmp/dimples-0.2.2.tar.gz --markdown 20230709/d/dimples/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-09 12:04:07] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2023-07-09 12:04:07] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20230709/g/gitbuilding/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-09 12:04:08] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.2.1.tar.gz]
+[2023-07-09 12:04:08] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.2.2.tar.gz]
+[2023-07-09 12:04:08] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2023-07-09 12:04:08] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.0.tar.gz]
+[2023-07-09 12:04:08] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
+[2023-07-09 12:04:08] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2023-07-09 12:04:08] INFO root fetch - main [MainThread]: Store serial: [18819459]

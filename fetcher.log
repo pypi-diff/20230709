@@ -10891,3 +10891,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:37:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
 [2023-07-09 16:37:05] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
 [2023-07-09 16:37:05] INFO root fetch - main [MainThread]: Store serial: [18820973]
+[2023-07-09 16:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820973]
+[2023-07-09 16:42:14] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtstools
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zein
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coolfunc
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyakamai
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saladpy
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sydeploy
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vtype
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbvh
+[2023-07-09 16:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpx-concatenator
+[2023-07-09 16:42:14] INFO root fetch - processPackages [saladpy]: New version: [1.0.2a4] Old Version: [1.0.2a3]
+[2023-07-09 16:42:14] INFO root fetch - processPackages [gpx-concatenator]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-09 16:42:14] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230709.14.38.185477] Old Version: [20230707.6.30.71644]
+[2023-07-09 16:42:14] WARNING root fetch - processPackages [coolfunc]: Skipping, unable to determine old version
+[2023-07-09 16:42:14] INFO root fetch - processPackages [coolfunc]: Start processing: coolpic
+[2023-07-09 16:42:14] INFO root fetch - main [MainThread]: End processing [coolfunc] error
+[2023-07-09 16:42:14] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc9] Old Version: [0.2.1rc8]
+[2023-07-09 16:42:14] INFO root fetch - processPackages [dtstools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 16:42:14] INFO root fetch - processPackages [lbvh]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-09 16:42:14] INFO root fetch - processPackages [pyakamai]: New version: [1.23] Old Version: [1.22]
+[2023-07-09 16:42:14] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 16:42:14] WARNING root fetch - processPackages [vtype]: Skipping, unable to determine old version
+[2023-07-09 16:42:14] INFO root fetch - processPackages [vtype]: Start processing: ciphertrust-sdk
+[2023-07-09 16:42:14] INFO root fetch - main [MainThread]: End processing [vtype] error
+[2023-07-09 16:42:15] WARNING root fetch - processPackages [coolpic]: Skipping, unable to determine old version
+[2023-07-09 16:42:15] INFO root fetch - processPackages [coolpic]: Start processing: env-logger
+[2023-07-09 16:42:15] INFO root fetch - main [MainThread]: End processing [coolpic] error
+[2023-07-09 16:42:15] INFO root fetch - processPackages [saladpy]: Downloading https://files.pythonhosted.org/packages/17/20/fcb47bdc4e565c7ba99f23a934c2d5feaac2d222dcfd69b9c75be1333d13/saladpy-1.0.2a3.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [env-logger]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-09 16:42:15] INFO root fetch - processPackages [ciphertrust-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 16:42:15] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/2f/7d/3fd9ac257627986006d96411fc3dc2434477f01aba5f629fe5fee2190283/pyakamai-1.22-py3-none-any.whl
+[2023-07-09 16:42:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0c/d3/cfc8b5e2f2254f070f1047351a1596be7e4dde92ada3b7bd86940b052b43/certora-cli-alpha-master-20230707.6.30.71644.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [gpx-concatenator]: Downloading https://files.pythonhosted.org/packages/88/ee/35c959db6698aa38be9dfe1debbd641a77afa77d283361fb1f7486537ded/gpx-concatenator-1.0.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/db/81/c99aa555e77babbb54bc32a7db7756d6b597fce7eefe699de505bf897517/sydeploy-0.2.1rc8.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [lbvh]: Downloading https://files.pythonhosted.org/packages/91/2a/5c75eb9af91a2576702a5edc364a0b3b2efe484165acbf1ce43d6fc183f3/lbvh-0.0.11.tar.gz
+[2023-07-09 16:42:15] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40646241>=10485760
+[2023-07-09 16:42:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: coolweb
+[2023-07-09 16:42:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-09 16:42:15] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/a7/8a/6bed25f3dbd221629b4c96dd21fb83bd4c618cad024ec5887b8122ef27e0/dtstools-0.0.8.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [env-logger]: Downloading https://files.pythonhosted.org/packages/31/30/d9b22ba5cd30668d04d766a6e37de53a7607a6eae137c7a6c65eddf0e024/env_logger-0.1.0.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/35/d5/34406768df0e4f3cc8f14fb6fa627c2a69b48f84e52b6d1474ceab92bac8/ciphertrust-sdk-1.0.8.tar.gz
+[2023-07-09 16:42:15] WARNING root fetch - processPackages [coolweb]: Skipping, unable to determine old version
+[2023-07-09 16:42:15] INFO root fetch - processPackages [coolweb]: Start processing: aimojicommit
+[2023-07-09 16:42:15] INFO root fetch - main [MainThread]: End processing [coolweb] error
+[2023-07-09 16:42:15] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [saladpy]: Downloading https://files.pythonhosted.org/packages/eb/fc/93eb57276703bd3aabdbcdd51019df79fad371ec8ea761d7d5c33be63daa/saladpy-1.0.2a4.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/fe/d9/d99b4f82fda4512d5b1eb7814b319ff72744f4f8e192c4ca19b2c38baaec/pyakamai-1.23-py3-none-any.whl
+[2023-07-09 16:42:15] WARNING root fetch - processPackages [aimojicommit]: Skipping, unable to determine old version
+[2023-07-09 16:42:15] INFO root fetch - processPackages [aimojicommit]: Start processing: xcsf
+[2023-07-09 16:42:15] INFO root fetch - main [MainThread]: End processing [aimojicommit] error
+[2023-07-09 16:42:15] INFO root fetch - processPackages [gpx-concatenator]: Downloading https://files.pythonhosted.org/packages/31/77/57d5794d01c6793b9ee93889adfedd57ceff54f98f96d1dd9d4c5d20fc8b/gpx-concatenator-1.0.1.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 16:42:15] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 16:42:15] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/0e/97/970bf671810dd7ce5581a98ed6a7557e0bd9ce431185f5ebd71fa38d86f1/dtstools-0.0.9.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [lbvh]: Downloading https://files.pythonhosted.org/packages/60/53/6aad61b10e55a71d5cd63302901b763a14b303b0e2694e5dc9a077bd945c/lbvh-0.0.12.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [env-logger]: Downloading https://files.pythonhosted.org/packages/a0/48/d873dc04b8944b2314bbc7ff3c218ee53bb12135351cbf3476d238c64a63/env_logger-0.2.0.tar.gz
+[2023-07-09 16:42:15] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 16:42:15] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc8.tar.gz tmp/sydeploy-0.2.1rc9.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc8-0.2.1rc9/diff.md --exclude *.pyd
+[2023-07-09 16:42:15] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-07-09 16:42:15] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.22-py3-none-any.whl.zip tmp/pyakamai-1.23-py3-none-any.whl.zip --markdown 20230709/p/pyakamai/1.22-1.23/diff.md --exclude *.pyd
+[2023-07-09 16:42:15] INFO root fetch - processPackages [gpx-concatenator]: executing diffoscope
+[2023-07-09 16:42:15] INFO root fetch - processPackages [gpx-concatenator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpx-concatenator-1.0.tar.gz tmp/gpx-concatenator-1.0.1.tar.gz --markdown 20230709/g/gpx-concatenator/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 16:42:15] INFO root fetch - processPackages [saladpy]: executing diffoscope
+[2023-07-09 16:42:15] INFO root fetch - processPackages [saladpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saladpy-1.0.2a3.tar.gz tmp/saladpy-1.0.2a4.tar.gz --markdown 20230709/s/saladpy/1.0.2a3-1.0.2a4/diff.md --exclude *.pyd
+[2023-07-09 16:42:16] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/e7/28/dc2e782ff4280375ab3eb5f4e387a289be5d329d75f84209c36813864af7/ciphertrust-sdk-1.0.9.tar.gz
+[2023-07-09 16:42:16] INFO root fetch - processPackages [xcsf]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-09 16:42:16] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-07-09 16:42:16] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.8.tar.gz tmp/dtstools-0.0.9.tar.gz --markdown 20230709/d/dtstools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 16:42:16] INFO root fetch - processPackages [lbvh]: executing diffoscope
+[2023-07-09 16:42:16] INFO root fetch - processPackages [lbvh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbvh-0.0.11.tar.gz tmp/lbvh-0.0.12.tar.gz --markdown 20230709/l/lbvh/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-09 16:42:16] INFO root fetch - processPackages [env-logger]: executing diffoscope
+[2023-07-09 16:42:16] INFO root fetch - processPackages [env-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/env_logger-0.1.0.tar.gz tmp/env_logger-0.2.0.tar.gz --markdown 20230709/e/env-logger/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 16:42:16] INFO root fetch - processPackages [ciphertrust-sdk]: executing diffoscope
+[2023-07-09 16:42:16] INFO root fetch - processPackages [ciphertrust-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphertrust-sdk-1.0.8.tar.gz tmp/ciphertrust-sdk-1.0.9.tar.gz --markdown 20230709/c/ciphertrust-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 16:42:16] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/2d/04/8cc849e61a3b2e1882b148bf62e1ddd30311e9f815f4dec59370788179ab/xcsf-1.2.7.tar.gz
+[2023-07-09 16:42:17] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [zein]: Start processing: bridgecrew
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [gpx-concatenator]: Remove: archive file [/home/abi/fetcher/tmp/gpx-concatenator-1.0.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [gpx-concatenator]: Remove: archive file [/home/abi/fetcher/tmp/gpx-concatenator-1.0.1.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [gpx-concatenator]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc8.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc9.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [saladpy]: Remove: archive file [/home/abi/fetcher/tmp/saladpy-1.0.2a3.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [saladpy]: Remove: archive file [/home/abi/fetcher/tmp/saladpy-1.0.2a4.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [saladpy]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.8.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.9.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [dtstools]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.22-py3-none-any.whl.zip]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.23-py3-none-any.whl.zip]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-09 16:42:17] INFO root fetch - processPackages [env-logger]: Remove: archive file [/home/abi/fetcher/tmp/env_logger-0.1.0.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [env-logger]: Remove: archive file [/home/abi/fetcher/tmp/env_logger-0.2.0.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [env-logger]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.8.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.9.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [ciphertrust-sdk]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [lbvh]: Remove: archive file [/home/abi/fetcher/tmp/lbvh-0.0.11.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - processPackages [lbvh]: Remove: archive file [/home/abi/fetcher/tmp/lbvh-0.0.12.tar.gz]
+[2023-07-09 16:42:17] INFO root fetch - main [MainThread]: End processing [lbvh]: success
+[2023-07-09 16:42:17] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-09 16:42:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-09 16:42:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230709/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-09 16:42:18] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/a2/9c/0c62b8ce886433bdb3dbf625530c7c86b7c7d8f8d41b6c1a3ae7b806de0a/xcsf-1.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 16:42:18] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-09 16:42:18] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-09 16:42:18] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-09 16:42:19] INFO root fetch - processPackages [xcsf]: executing diffoscope
+[2023-07-09 16:42:19] INFO root fetch - processPackages [xcsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsf-1.2.7.tar.gz tmp/xcsf-1.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230709/x/xcsf/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-09 16:42:20] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.7.tar.gz]
+[2023-07-09 16:42:20] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 16:42:20] INFO root fetch - main [MainThread]: End processing [xcsf]: success
+[2023-07-09 16:42:20] INFO root fetch - main [MainThread]: Store serial: [18821048]

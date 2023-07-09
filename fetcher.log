@@ -7521,3 +7521,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:09:19] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.7.2.tar.gz]
 [2023-07-09 12:09:19] INFO root fetch - main [MainThread]: End processing [rbfly]: success
 [2023-07-09 12:09:19] INFO root fetch - main [MainThread]: Store serial: [18819471]
+[2023-07-09 12:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819471]
+[2023-07-09 12:14:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 12:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScriptCollection
+[2023-07-09 12:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WifiOrca
+[2023-07-09 12:14:28] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 12:14:28] INFO root fetch - processPackages [ScriptCollection]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-07-09 12:14:28] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/0b/49/8920c0ceefac32d4f25fd0027932def9113779bb760ee1a201ef4654c673/WifiOrca-0.0.5.tar.gz
+[2023-07-09 12:14:28] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/8a/57/5d1f89556922457322a3cbd47e93b6ab43d77defe0b128a54047a384fd1d/ScriptCollection-3.4.0-py3-none-any.whl
+[2023-07-09 12:14:28] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/14/50/c168878e8dd1af8208b4f8f113d5ed1ff592411fadd728373758e1a6dd45/WifiOrca-0.0.6.tar.gz
+[2023-07-09 12:14:29] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 12:14:29] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.5.tar.gz tmp/WifiOrca-0.0.6.tar.gz --markdown 20230709/W/WifiOrca/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 12:14:29] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/74/18/70be043ed8cbfd341532be55290f96e2deffbc7a3dc4a0ecc5e3d3ebe41c/ScriptCollection-3.4.1-py3-none-any.whl
+[2023-07-09 12:14:29] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2023-07-09 12:14:29] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.4.0-py3-none-any.whl.zip tmp/ScriptCollection-3.4.1-py3-none-any.whl.zip --markdown 20230709/S/ScriptCollection/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-07-09 12:14:29] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.5.tar.gz]
+[2023-07-09 12:14:29] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.6.tar.gz]
+[2023-07-09 12:14:29] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 12:14:30] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.0-py3-none-any.whl.zip]
+[2023-07-09 12:14:30] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.1-py3-none-any.whl.zip]
+[2023-07-09 12:14:30] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2023-07-09 12:14:30] INFO root fetch - main [MainThread]: Store serial: [18819477]

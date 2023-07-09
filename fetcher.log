@@ -3365,3 +3365,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:25:38] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
 [2023-07-09 05:25:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
 [2023-07-09 05:25:38] INFO root fetch - main [MainThread]: Store serial: [18817669]
+[2023-07-09 05:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817669]
+[2023-07-09 05:30:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompttools
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: service-markets
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-hr-attendance-sheet
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-resolve
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: always-updates
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-hr-attendance-sheet
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crown
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ncm-clp-dl
+[2023-07-09 05:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-hr-attendance-validation
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev6]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [service-markets]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: New version: [14.0.1.0.4.dev2] Old Version: [14.0.1.0.4.dev1]
+[2023-07-09 05:30:47] WARNING root fetch - processPackages [ncm-clp-dl]: Skipping, unable to determine old version
+[2023-07-09 05:30:47] INFO root fetch - main [MainThread]: End processing [ncm-clp-dl] error
+[2023-07-09 05:30:47] INFO root fetch - processPackages [crown]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-09 05:30:47] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/d5/5a/91639f14f9e0174eae4f61a0a9e460519109e1943f376461714c2b35cfe4/service_markets-0.3.3.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: Downloading https://files.pythonhosted.org/packages/ad/ab/50f5bf6863396743938b0ac705494a4c66697f8a6d0175a5c0e158ddb438/odoo14_addon_hr_attendance_sheet-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Downloading https://files.pythonhosted.org/packages/d0/dc/c684dd70623088ad46eadba13715b0021d68aebd6c041640596bbb4cc1a1/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: Downloading https://files.pythonhosted.org/packages/1d/64/5c424342be24b0259089f4b56607488a030bf024ac27f8598a3f63ee8add/odoo14_addon_hr_attendance_validation-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-09 05:30:47] INFO root fetch - processPackages [crown]: Downloading https://files.pythonhosted.org/packages/40/fc/3b461024d0d51a29ead2cfa350de58e3e4894a58ecf307fad5c73795d527/crown-0.3.0.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/34/0f/471c5f8ff9df0e7850f0647545239217cfcea261c9897f308b4621cb61b3/pydantic_resolve-1.4.0.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [service-markets]: Downloading https://files.pythonhosted.org/packages/df/5b/d583e50378c24497417f4b4c6d9060422e206e32648c1017ed8d178910a1/service_markets-0.3.4.tar.gz
+[2023-07-09 05:30:47] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-07-09 05:30:47] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230709/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 05:30:47] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-09 05:30:47] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230709/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: Downloading https://files.pythonhosted.org/packages/df/4d/bb236f10d2cc7bee3dfe5d960b6cb93c37f865d449ac18a905a50fae0e32/odoo14_addon_hr_attendance_sheet-14.0.1.0.4.dev2-py3-none-any.whl
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Downloading https://files.pythonhosted.org/packages/8b/77/037468c654528e10314611923ce3eb67a569715907e918168172e86c0ada/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-07-09 05:30:47] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: Downloading https://files.pythonhosted.org/packages/74/fd/1ad834582d6836002510852aee947cb4c764170306d87e86124a40928da0/odoo14_addon_hr_attendance_validation-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-09 05:30:47] INFO root fetch - processPackages [service-markets]: executing diffoscope
+[2023-07-09 05:30:47] INFO root fetch - processPackages [service-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_markets-0.3.3.tar.gz tmp/service_markets-0.3.4.tar.gz --markdown 20230709/s/service-markets/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-09 05:30:48] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/d4/13/6082d50e397841c9c8b1273c8bcddfabfd1e7180b312db2b72df15f99f9a/pydantic_resolve-1.4.1.tar.gz
+[2023-07-09 05:30:48] INFO root fetch - processPackages [crown]: Downloading https://files.pythonhosted.org/packages/79/17/b34840d2ebff9d5b2d045b0fb32d83e19d62043b7607460e7df42ac0881f/crown-0.3.1.tar.gz
+[2023-07-09 05:30:48] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: executing diffoscope
+[2023-07-09 05:30:48] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20230709/o/odoo12-addon-hr-attendance-sheet/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-09 05:30:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: executing diffoscope
+[2023-07-09 05:30:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_sheet-14.0.1.0.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_sheet-14.0.1.0.4.dev2-py3-none-any.whl.zip --markdown 20230709/o/odoo14-addon-hr-attendance-sheet/14.0.1.0.4.dev1-14.0.1.0.4.dev2/diff.md --exclude *.pyd
+[2023-07-09 05:30:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: executing diffoscope
+[2023-07-09 05:30:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_validation-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_validation-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230709/o/odoo14-addon-hr-attendance-validation/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-07-09 05:30:48] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-09 05:30:48] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.4.0.tar.gz tmp/pydantic_resolve-1.4.1.tar.gz --markdown 20230709/p/pydantic-resolve/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-09 05:30:48] INFO root fetch - processPackages [crown]: executing diffoscope
+[2023-07-09 05:30:48] INFO root fetch - processPackages [crown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crown-0.3.0.tar.gz tmp/crown-0.3.1.tar.gz --markdown 20230709/c/crown/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-09 05:30:49] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.3.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [service-markets]: Remove: archive file [/home/abi/fetcher/tmp/service_markets-0.3.4.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [service-markets]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [odoo12-addon-hr-attendance-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_attendance_sheet-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-attendance-sheet]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.4.0.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.4.1.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_validation-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_validation-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-validation]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_sheet-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_sheet-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-sheet]: success
+[2023-07-09 05:30:49] INFO root fetch - processPackages [crown]: Remove: archive file [/home/abi/fetcher/tmp/crown-0.3.0.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - processPackages [crown]: Remove: archive file [/home/abi/fetcher/tmp/crown-0.3.1.tar.gz]
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: End processing [crown]: success
+[2023-07-09 05:30:49] INFO root fetch - main [MainThread]: Store serial: [18817695]

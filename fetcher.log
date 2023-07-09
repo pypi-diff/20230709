@@ -14948,3 +14948,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:34:10] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-07-09 21:34:10] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-07-09 21:34:10] INFO root fetch - main [MainThread]: Store serial: [18822775]
+[2023-07-09 21:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822775]
+[2023-07-09 21:39:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 21:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchenginepy
+[2023-07-09 21:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmcloud
+[2023-07-09 21:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: katalytic
+[2023-07-09 21:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pciSeq
+[2023-07-09 21:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tastytrade-sdk
+[2023-07-09 21:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycarlanet
+[2023-07-09 21:39:18] INFO root fetch - processPackages [katalytic]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-09 21:39:19] INFO root fetch - processPackages [pycarlanet]: New version: [0.8.9a0] Old Version: [0.8.8a0]
+[2023-07-09 21:39:19] INFO root fetch - processPackages [searchenginepy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-09 21:39:19] INFO root fetch - processPackages [pciSeq]: New version: [0.0.57.dev0] Old Version: [0.0.56]
+[2023-07-09 21:39:19] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 21:39:19] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev6] Old Version: [0.1.4a0.dev3]
+[2023-07-09 21:39:19] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/6f/5b/070c3eb533f15f742eb79e91dfa02fee34ea2ff2d5e5d37ea5c69fcc5e8b/tastytrade_sdk-0.1.4a0.dev3.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [katalytic]: Downloading https://files.pythonhosted.org/packages/7a/22/0d4c4f374431694587039686f70a03d4ad5aa4249b96a3b13472c346e504/katalytic-0.1.1.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/d6/51/ca1b904fea7bc85f424b9468b1c79146e483bfa42e641c5dac04ae4ceb5c/searchenginepy-0.1.3.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b6/38/8550086ba7d084757e222622fc6d997f32c955de0fe6e8b3a976de025e47/pycarlanet-0.8.8a0.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/ab/6f/2c3bd528a3a689fd471028d19142dca77482098cccfb4ceffd5dc438ad60/pciSeq-0.0.56-py3-none-any.whl
+[2023-07-09 21:39:19] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/fc/d5/06dd7d9b08fe5c31e9887b3bca459f3bcfed4eb4f0e7a5168d76a391f874/tastytrade_sdk-0.1.4a0.dev6.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/5c/c3/9e9a26ead9b63d33fedab4b3783cd2f97c9be750b1d540beb8e42ca16d5a/searchenginepy-0.1.4.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-09 21:39:19] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230709/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 21:39:19] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/73/e8/84db55b2faf7381d099cffec3ee58f41554fe4e4e5b6520b210e0c2fd004/pciSeq-0.0.57.dev0-py3-none-any.whl
+[2023-07-09 21:39:19] INFO root fetch - processPackages [katalytic]: Downloading https://files.pythonhosted.org/packages/24/34/a9693bb440d93bced72ff945a50af6d8180674d8824ba88d5443b3f4a535/katalytic-0.2.0.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-09 21:39:19] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev3.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev6.tar.gz --markdown 20230709/t/tastytrade-sdk/0.1.4a0.dev3-0.1.4a0.dev6/diff.md --exclude *.pyd
+[2023-07-09 21:39:19] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b9/5a/06a5868d18b61d0ca39f41383d6c3792026819c027b77eea17ac6ddb0e9b/pycarlanet-0.8.9a0.tar.gz
+[2023-07-09 21:39:19] INFO root fetch - processPackages [searchenginepy]: executing diffoscope
+[2023-07-09 21:39:19] INFO root fetch - processPackages [searchenginepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchenginepy-0.1.3.tar.gz tmp/searchenginepy-0.1.4.tar.gz --markdown 20230709/s/searchenginepy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-09 21:39:20] INFO root fetch - processPackages [katalytic]: executing diffoscope
+[2023-07-09 21:39:20] INFO root fetch - processPackages [katalytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-0.1.1.tar.gz tmp/katalytic-0.2.0.tar.gz --markdown 20230709/k/katalytic/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 21:39:20] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-07-09 21:39:20] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.56-py3-none-any.whl.zip tmp/pciSeq-0.0.57.dev0-py3-none-any.whl.zip --markdown 20230709/p/pciSeq/0.0.56-0.0.57.dev0/diff.md --exclude *.pyd
+[2023-07-09 21:39:20] INFO root fetch - processPackages [pycarlanet]: executing diffoscope
+[2023-07-09 21:39:20] INFO root fetch - processPackages [pycarlanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlanet-0.8.8a0.tar.gz tmp/pycarlanet-0.8.9a0.tar.gz --markdown 20230709/p/pycarlanet/0.8.8a0-0.8.9a0/diff.md --exclude *.pyd
+[2023-07-09 21:39:20] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-09 21:39:20] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-09 21:39:20] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-09 21:39:20] INFO root fetch - processPackages [searchenginepy]: Remove: archive file [/home/abi/fetcher/tmp/searchenginepy-0.1.3.tar.gz]
+[2023-07-09 21:39:20] INFO root fetch - processPackages [searchenginepy]: Remove: archive file [/home/abi/fetcher/tmp/searchenginepy-0.1.4.tar.gz]
+[2023-07-09 21:39:20] INFO root fetch - main [MainThread]: End processing [searchenginepy]: success
+[2023-07-09 21:39:20] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev3.tar.gz]
+[2023-07-09 21:39:20] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev6.tar.gz]
+[2023-07-09 21:39:20] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-09 21:39:21] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.8.8a0.tar.gz]
+[2023-07-09 21:39:21] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.8.9a0.tar.gz]
+[2023-07-09 21:39:21] INFO root fetch - main [MainThread]: End processing [pycarlanet]: success
+[2023-07-09 21:39:21] INFO root fetch - processPackages [katalytic]: Remove: archive file [/home/abi/fetcher/tmp/katalytic-0.1.1.tar.gz]
+[2023-07-09 21:39:21] INFO root fetch - processPackages [katalytic]: Remove: archive file [/home/abi/fetcher/tmp/katalytic-0.2.0.tar.gz]
+[2023-07-09 21:39:21] INFO root fetch - main [MainThread]: End processing [katalytic]: success
+[2023-07-09 21:39:21] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.56-py3-none-any.whl.zip]
+[2023-07-09 21:39:21] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.57.dev0-py3-none-any.whl.zip]
+[2023-07-09 21:39:21] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-07-09 21:39:21] INFO root fetch - main [MainThread]: Store serial: [18822793]

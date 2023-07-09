@@ -2066,3 +2066,105 @@
 [2023-07-09 03:28:55] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-4.0.1.tar.gz]
 [2023-07-09 03:28:55] INFO root fetch - main [MainThread]: End processing [corankco]: success
 [2023-07-09 03:28:55] INFO root fetch - main [MainThread]: Store serial: [18817066]
+[2023-07-09 03:33:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817066]
+[2023-07-09 03:34:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dgisim
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-web-core
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinabs
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweetrpg-api-core
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchkeras
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asmek-authcogs
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xfem
+[2023-07-09 03:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alpaca-farm
+[2023-07-09 03:34:04] INFO root fetch - processPackages [dgisim]: New version: [0.2.dev1] Old Version: [0.2.dev0]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [asmek-authcogs]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [torchkeras]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev8] Old Version: [1.2.7.dev7]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [alpaca-farm]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post6.dev0] Old Version: [2.1.2303]
+[2023-07-09 03:34:04] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/f3/19/b51b3326fdcc7b3b3f8e926e97f0d90617fb73ef18a5813f8d2dfbb7c95a/dgisim-0.2.dev0.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/32/ce/b2779c1f072d885b0f24dca6cee027b123da58845b2b28be8500b71494a4/torchkeras-3.9.0.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [asmek-authcogs]: Downloading https://files.pythonhosted.org/packages/03/ce/96bb98c803702ec05c3cf29d8dd16ae06669b38cfc47f89c5204ca7089b4/asmek_authcogs-1.0.3.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f5/35/976796393a784989469b57e0ef34c42157d48c5ed77182a10638ab70b1a4/sinabs-1.2.7.dev7.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/e2/08/3c9df77a0f24896d60271c00a4a1d4180c389bb525481d7b9c46ba205d6d/alpaca_farm-0.1.6.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/93/8a/79de858452c1cdb60c06e0ceb03157f2b4b7601bf9fc0960c4a585e17cab/xfem-2.1.2303.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/91/dc/fb9b412a361c34f7bb749326831cfff76f892fea2ea917714d35e993a125/dgisim-0.2.dev1.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-09 03:34:04] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:34:04] INFO root fetch - processPackages [asmek-authcogs]: Downloading https://files.pythonhosted.org/packages/67/23/e667ae5ffb92b8dc8b5b49e004871227e355905eca6f4b32ff3ece6bcb27/asmek_authcogs-1.0.4.tar.gz
+[2023-07-09 03:34:04] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-09 03:34:05] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/8b/42/bc8cdbb629bc531b2df5a47673b91fdfe10da1c6617596d435714e87625d/alpaca_farm-0.1.8.tar.gz
+[2023-07-09 03:34:05] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/89/1c/a7566580c8b153efdbd2dca4b3f6c4aa33bedfb0fc37bf701c1264ff8b1f/sinabs-1.2.7.dev8.tar.gz
+[2023-07-09 03:34:05] INFO root fetch - processPackages [dgisim]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/a6/73/c1ef8a69acf94ded65bb07b1549cd18558cf3edefa1ae6ef6f3e76aed307/xfem-2.1.2303.post6.dev0-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-09 03:34:05] INFO root fetch - processPackages [dgisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgisim-0.2.dev0.tar.gz tmp/dgisim-0.2.dev1.tar.gz --markdown 20230709/d/dgisim/0.2.dev0-0.2.dev1/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-09 03:34:05] INFO root fetch - processPackages [asmek-authcogs]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [asmek-authcogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asmek_authcogs-1.0.3.tar.gz tmp/asmek_authcogs-1.0.4.tar.gz --markdown 20230709/a/asmek-authcogs/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [alpaca-farm]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [alpaca-farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_farm-0.1.6.tar.gz tmp/alpaca_farm-0.1.8.tar.gz --markdown 20230709/a/alpaca-farm/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.7.dev7.tar.gz tmp/sinabs-1.2.7.dev8.tar.gz --markdown 20230709/s/sinabs/1.2.7.dev7-1.2.7.dev8/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/0d/17/47f37a8eb81282ff1ff4ce5f27a8e463f55887a1861c4270793de4c3014d/torchkeras-3.9.1.tar.gz
+[2023-07-09 03:34:05] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230709/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.tar.gz tmp/xfem-2.1.2303.post6.dev0-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230709/x/xfem/2.1.2303-2.1.2303.post6.dev0/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230709/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-09 03:34:05] INFO root fetch - processPackages [torchkeras]: executing diffoscope
+[2023-07-09 03:34:05] INFO root fetch - processPackages [torchkeras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchkeras-3.9.0.tar.gz tmp/torchkeras-3.9.1.tar.gz --markdown 20230709/t/torchkeras/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-09 03:34:06] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: pypdfe
+[2023-07-09 03:34:06] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-09 03:34:06] INFO root fetch - processPackages [pypdfe]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 03:34:06] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-09 03:34:06] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/f6/b9/5dfbeeeb308b889e98733c0416b100286c4e11bcedaac7efc1a9eed18af4/pypdfe-0.1.5.tar.gz
+[2023-07-09 03:34:06] INFO root fetch - processPackages [asmek-authcogs]: Remove: archive file [/home/abi/fetcher/tmp/asmek_authcogs-1.0.3.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - processPackages [asmek-authcogs]: Remove: archive file [/home/abi/fetcher/tmp/asmek_authcogs-1.0.4.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - main [MainThread]: End processing [asmek-authcogs]: success
+[2023-07-09 03:34:06] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev0.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev1.tar.gz]
+[2023-07-09 03:34:06] INFO root fetch - main [MainThread]: End processing [dgisim]: success
+[2023-07-09 03:34:06] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/27/80/9ed967f77b86341be15eb41b03a1f6fa500c23299bdffe36768a2edd7b01/pypdfe-0.1.6.tar.gz
+[2023-07-09 03:34:07] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-09 03:34:07] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.5.tar.gz tmp/pypdfe-0.1.6.tar.gz --markdown 20230709/p/pypdfe/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 03:34:07] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post6.dev0-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-09 03:34:07] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-09 03:34:07] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev7.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev8.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-09 03:34:07] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-09 03:34:07] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 03:34:07] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 03:34:07] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-09 03:34:07] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.6.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.8.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - main [MainThread]: End processing [alpaca-farm]: success
+[2023-07-09 03:34:07] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.9.0.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.9.1.tar.gz]
+[2023-07-09 03:34:07] INFO root fetch - main [MainThread]: End processing [torchkeras]: success
+[2023-07-09 03:34:08] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.5.tar.gz]
+[2023-07-09 03:34:08] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.6.tar.gz]
+[2023-07-09 03:34:08] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-09 03:34:08] INFO root fetch - main [MainThread]: Store serial: [18817144]

@@ -14819,3 +14819,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:23:44] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-09 21:23:44] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-09 21:23:44] INFO root fetch - main [MainThread]: Store serial: [18822728]
+[2023-07-09 21:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822728]
+[2023-07-09 21:28:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: init-graph
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnivorex
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dspace-client
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scriptconfig
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PolicyEngine-UK
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tastytrade-sdk
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finops-crawler
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycommons-base
+[2023-07-09 21:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: init-graph
+[2023-07-09 21:28:53] INFO root fetch - processPackages [pycommons-base]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [PolicyEngine-UK]: New version: [0.52.0] Old Version: [0.51.1]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [dspace-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [init-graph]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [init-graph]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [finops-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [scriptconfig]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev3] Old Version: [0.1.4a0.dev2]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-09 21:28:54] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/d3/95/00247286a992fc1af24f53d5284af83117e1413da5d181b0b91cdd659bdf/finops_crawler-0.1.8.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-09 21:28:54] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/c1/e6/190ac923a273202c1f77d908a965a3cf44059c4ec4c09bf763f458bcfe45/pycommons_base-0.0.6.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/bf/ac/429b461072b979b3eed4b08651f8ade1df5ba459d43eda27e70276e9f837/tastytrade_sdk-0.1.4a0.dev2.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [init-graph]: Downloading https://files.pythonhosted.org/packages/8e/ad/99dd38eed58b218b2ca8d73f10a60297e99484eccd76975b002eba8b32bc/init_graph-0.1.0.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/1a/20/974257c8c1c84d60840b6bc52f295da9173615b033193032a14ee15a6b9c/PolicyEngine-UK-0.51.1.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [dspace-client]: Downloading https://files.pythonhosted.org/packages/81/27/12b21ddf291285075e22263f5441cee5a8dd448bee87e56058f96ad80f93/dspace_client-0.1.0.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [scriptconfig]: Downloading https://files.pythonhosted.org/packages/f1/5b/b62be232c4105ace83e4ae54febe6dd0edb5abe8344b508a0c38a954de88/scriptconfig-0.7.8-py3-none-any.whl
+[2023-07-09 21:28:54] INFO root fetch - processPackages [init-graph]: Downloading https://files.pythonhosted.org/packages/8e/ad/99dd38eed58b218b2ca8d73f10a60297e99484eccd76975b002eba8b32bc/init_graph-0.1.0.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/8a/b2/3e8965ddcac739e11e0312223e45b23542832f881b1ca99124abf471b30c/finops_crawler-0.1.9.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/fc/62/4abc3259fc1a834553964c1fbe4cd91c2b23636786d29979fa1555a8707f/pycommons_base-0.0.7.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [init-graph]: Downloading https://files.pythonhosted.org/packages/15/98/fdb4ecdd58db90d4551a0960ede3d0e190b6df2f6a587f307cb2dad2b6b1/init_graph-0.1.1.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/6f/5b/070c3eb533f15f742eb79e91dfa02fee34ea2ff2d5e5d37ea5c69fcc5e8b/tastytrade_sdk-0.1.4a0.dev3.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-09 21:28:54] INFO root fetch - processPackages [init-graph]: Downloading https://files.pythonhosted.org/packages/15/98/fdb4ecdd58db90d4551a0960ede3d0e190b6df2f6a587f307cb2dad2b6b1/init_graph-0.1.1.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [dspace-client]: Downloading https://files.pythonhosted.org/packages/e0/27/0b229a9c24cceb8b92f720350d53d1040242977f0a3adab2bd852f684e93/dspace_client-0.1.1.tar.gz
+[2023-07-09 21:28:54] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/c3/90/88b67d961f60406bdf271d4d66bf395c7b1e87912609c400ed684b7826d9/PolicyEngine-UK-0.52.0.tar.gz
+[2023-07-09 21:28:55] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [finops-crawler]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [finops-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops_crawler-0.1.8.tar.gz tmp/finops_crawler-0.1.9.tar.gz --markdown 20230709/f/finops-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [scriptconfig]: Downloading https://files.pythonhosted.org/packages/81/48/6da8122cd2fb10c22d2bfdbece7368c88ffbbde6d4d3d2d421f98c79e51a/scriptconfig-0.7.9-py3-none-any.whl
+[2023-07-09 21:28:55] INFO root fetch - processPackages [pycommons-base]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [pycommons-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons_base-0.0.6.tar.gz tmp/pycommons_base-0.0.7.tar.gz --markdown 20230709/p/pycommons-base/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [dspace-client]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [dspace-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspace_client-0.1.0.tar.gz tmp/dspace_client-0.1.1.tar.gz --markdown 20230709/d/dspace-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [init-graph]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [init-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/init_graph-0.1.0.tar.gz tmp/init_graph-0.1.1.tar.gz --markdown 20230709/i/init-graph/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [init-graph]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [init-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/init_graph-0.1.0.tar.gz tmp/init_graph-0.1.1.tar.gz --markdown 20230709/i/init-graph/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev2.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev3.tar.gz --markdown 20230709/t/tastytrade-sdk/0.1.4a0.dev2-0.1.4a0.dev3/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230709/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [PolicyEngine-UK]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [PolicyEngine-UK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PolicyEngine-UK-0.51.1.tar.gz tmp/PolicyEngine-UK-0.52.0.tar.gz --markdown 20230709/P/PolicyEngine-UK/0.51.1-0.52.0/diff.md --exclude *.pyd
+[2023-07-09 21:28:55] INFO root fetch - processPackages [scriptconfig]: executing diffoscope
+[2023-07-09 21:28:55] INFO root fetch - processPackages [scriptconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptconfig-0.7.8-py3-none-any.whl.zip tmp/scriptconfig-0.7.9-py3-none-any.whl.zip --markdown 20230709/s/scriptconfig/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-09 21:28:56] INFO root fetch - processPackages [dspace-client]: Remove: archive file [/home/abi/fetcher/tmp/dspace_client-0.1.0.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [dspace-client]: Remove: archive file [/home/abi/fetcher/tmp/dspace_client-0.1.1.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [dspace-client]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.6.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.7.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [pycommons-base]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.8.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.9.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [finops-crawler]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [init-graph]: Remove: archive file [/home/abi/fetcher/tmp/init_graph-0.1.0.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [init-graph]: Remove: archive file [/home/abi/fetcher/tmp/init_graph-0.1.1.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [init-graph]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev2.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev3.tar.gz]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [scriptconfig]: Remove: archive file [/home/abi/fetcher/tmp/scriptconfig-0.7.8-py3-none-any.whl.zip]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [scriptconfig]: Remove: archive file [/home/abi/fetcher/tmp/scriptconfig-0.7.9-py3-none-any.whl.zip]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [scriptconfig]: success
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [init-graph]: success
+[2023-07-09 21:28:56] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-09 21:28:56] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-09 21:28:56] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-09 21:28:59] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.51.1.tar.gz]
+[2023-07-09 21:28:59] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.52.0.tar.gz]
+[2023-07-09 21:28:59] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
+[2023-07-09 21:28:59] INFO root fetch - main [MainThread]: Store serial: [18822758]

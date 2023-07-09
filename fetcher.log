@@ -16324,3 +16324,119 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:00:55] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-6.1.0.tar.gz]
 [2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [linuxnet-iptables]: success
 [2023-07-09 23:00:55] INFO root fetch - main [MainThread]: Store serial: [18823439]
+[2023-07-09 23:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823439]
+[2023-07-09 23:06:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yokkaichi
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfirebird
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gxabm
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PhilSfancywallet
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-api
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dmglib
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: web-ext-helper
+[2023-07-09 23:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roblox-pyc
+[2023-07-09 23:06:04] INFO root fetch - processPackages [gxabm]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-07-09 23:06:04] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230709.21.0.500031] Old Version: [20230709.20.40.111858]
+[2023-07-09 23:06:04] INFO root fetch - processPackages [PhilSfancywallet]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-09 23:06:04] INFO root fetch - processPackages [threads-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-09 23:06:04] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.3]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [dmglib]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [yokkaichi]: New version: [1.5] Old Version: [1.4.5]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [web-ext-helper]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/d8/61/e0e1076e2573b7e33a3f2d1cc6aa8d2efdef57323a5b5ba650fa330ff6e2/web_ext_helper-1.1.8.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/49/07/24ad72186aedb41793d746ccdb7936cd4c79f6c22a71d84cd9da55a4c06f/threads-api-1.0.6.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/ea/bc/ad574f7e1b534a0271a8f2f72f88776ff60299010874702ffac94f33bafa/roblox-pyc-1.6.6.5.3.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [gxabm]: Downloading https://files.pythonhosted.org/packages/43/d6/4da918dd3384d6570dfffc3207d97573f932b7b0dd18db1e147922a06603/gxabm-2.7.2.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/41/89/f03d577f4c0fbde185f0becc0405b70feb1357e3d489634581a5ba0d6f95/certora-cli-alpha-master-20230709.20.40.111858.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [PhilSfancywallet]: Downloading https://files.pythonhosted.org/packages/27/3b/9a4ff73027bbe3a267d84beed981156279d0f67a4ecfc1d3540170297bf2/PhilSfancywallet-0.0.0-py3-none-any.whl
+[2023-07-09 23:06:05] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/af/23/57c59a547914d14e167c6f5f77dcac8e5bff5f2b34e072439a9b2d5dd6fc/pyfirebird-0.0.67.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [dmglib]: Downloading https://files.pythonhosted.org/packages/0b/de/1a981885302e60e8f060ff31b58274f8486bd59f1251bcea9bb9e613ce65/dmglib-0.9.3.tar.gz
+[2023-07-09 23:06:05] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37467782>=10485760
+[2023-07-09 23:06:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: absl-extra
+[2023-07-09 23:06:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-09 23:06:05] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/8c/5c/fc466fcdcb9b59aba30b96598fb5bbce44d3b0ba7a0dff83a346b2b11848/yokkaichi-1.4.5.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-09 23:06:05] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/52/36/aa51e22ab505b74c52a7d7b8c4d4d5bfec55ffc2e1a1ec8f7f9643ce26dc/threads-api-1.0.7.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/d5/1f/8b63d1e38768e3c696bb1f65b8ad064d21ffb8cfe54d18b3e14a7bcc6e9d/web_ext_helper-1.1.9.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [gxabm]: Downloading https://files.pythonhosted.org/packages/a7/db/91ad2f78dd6dd3503ddbb2a6f75afe6d33f264bb45991bbfe663ee00e5b9/gxabm-2.7.3.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 23:06:05] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.3.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230709/r/roblox-pyc/1.6.6.5.3-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-09 23:06:05] INFO root fetch - processPackages [dmglib]: Downloading https://files.pythonhosted.org/packages/3b/ff/0f76a45f98f7f3679e5f023e3fbc3250caa670a4f4243cca0739ff6812f6/dmglib-0.9.4.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [PhilSfancywallet]: Downloading https://files.pythonhosted.org/packages/ff/24/48ac6e1d7a403da219e1628c6d06940043aa67dc70ca9b427af24526ffd7/PhilSfancywallet-0.0.2-py3-none-any.whl
+[2023-07-09 23:06:05] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/c3/d7/b857c6489978942f8fa103d2f133bfece44cc3eb189a4d38bda34e86365c/yokkaichi-1.5.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/b2/c9/30dd2d317dd81d963f3db2e20b4d98a458e027ce84aa28da4027dfefb870/pyfirebird-0.0.68.tar.gz
+[2023-07-09 23:06:05] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-09 23:06:05] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.0.6.tar.gz tmp/threads-api-1.0.7.tar.gz --markdown 20230709/t/threads-api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [gxabm]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [gxabm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gxabm-2.7.2.tar.gz tmp/gxabm-2.7.3.tar.gz --markdown 20230709/g/gxabm/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.1.8.tar.gz tmp/web_ext_helper-1.1.9.tar.gz --markdown 20230709/w/web-ext-helper/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [dmglib]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [dmglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmglib-0.9.3.tar.gz tmp/dmglib-0.9.4.tar.gz --markdown 20230709/d/dmglib/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [PhilSfancywallet]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [PhilSfancywallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PhilSfancywallet-0.0.0-py3-none-any.whl.zip tmp/PhilSfancywallet-0.0.2-py3-none-any.whl.zip --markdown 20230709/P/PhilSfancywallet/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.4.5.tar.gz tmp/yokkaichi-1.5.tar.gz --markdown 20230709/y/yokkaichi/1.4.5-1.5/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.67.tar.gz tmp/pyfirebird-0.0.68.tar.gz --markdown 20230709/p/pyfirebird/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-09 23:06:06] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-09 23:06:06] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230709/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-09 23:06:06] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-09 23:06:06] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230709/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-09 23:06:07] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.3.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [roblox-pyc]: Start processing: seleniumbase
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-09 23:06:07] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.6.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.7.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [threads-api]: Start processing: yokkaichi
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [yokkaichi]: New version: [1.5.1] Old Version: [1.5]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [PhilSfancywallet]: Remove: archive file [/home/abi/fetcher/tmp/PhilSfancywallet-0.0.0-py3-none-any.whl.zip]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [PhilSfancywallet]: Remove: archive file [/home/abi/fetcher/tmp/PhilSfancywallet-0.0.2-py3-none-any.whl.zip]
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [PhilSfancywallet]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.1.8.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.1.9.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [gxabm]: Remove: archive file [/home/abi/fetcher/tmp/gxabm-2.7.2.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [gxabm]: Remove: archive file [/home/abi/fetcher/tmp/gxabm-2.7.3.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [gxabm]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [dmglib]: Remove: archive file [/home/abi/fetcher/tmp/dmglib-0.9.3.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [dmglib]: Remove: archive file [/home/abi/fetcher/tmp/dmglib-0.9.4.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [dmglib]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-09 23:06:07] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.4.5.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.5.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [yokkaichi]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/3c/ec/ca9c093d30f4bf4664a1fa0ec6b4fddb6ce6019ba64f7da7543e7389c356/yokkaichi-1.5.1.tar.gz
+[2023-07-09 23:06:07] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-09 23:06:07] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-09 23:06:07] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-09 23:06:07] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230709/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 23:06:08] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-07-09 23:06:08] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.5.tar.gz tmp/yokkaichi-1.5.1.tar.gz --markdown 20230709/y/yokkaichi/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-07-09 23:06:08] ERROR root fetch - processPackages [yokkaichi]: Diffoscope failed: time="2023-07-09T23:06:08+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/yokkaichi-1.5.tar.gz: No such file or directory
+
+[2023-07-09 23:06:08] INFO root fetch - main [MainThread]: End processing [yokkaichi] error
+[2023-07-09 23:06:09] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-09 23:06:09] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-09 23:06:09] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-09 23:06:11] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-09 23:06:11] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-09 23:06:11] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-09 23:06:12] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.67.tar.gz]
+[2023-07-09 23:06:12] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.68.tar.gz]
+[2023-07-09 23:06:12] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 23:06:12] INFO root fetch - main [MainThread]: Store serial: [18823488]

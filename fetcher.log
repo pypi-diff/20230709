@@ -11296,3 +11296,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:58:05] INFO root fetch - processPackages [rns]: Remove: archive file [/home/abi/fetcher/tmp/rns-0.5.6.tar.gz]
 [2023-07-09 16:58:05] INFO root fetch - main [MainThread]: End processing [rns]: success
 [2023-07-09 16:58:05] INFO root fetch - main [MainThread]: Store serial: [18821188]
+[2023-07-09 17:03:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821188]
+[2023-07-09 17:03:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-resolve
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sydeploy
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyBPPIBridge
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microtorch
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Mensajes-Vyka
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imesh
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sydeploy
+[2023-07-09 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dspace-cliente
+[2023-07-09 17:03:14] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-09 17:03:14] WARNING root fetch - processPackages [Mensajes-Vyka]: Skipping, unable to determine old version
+[2023-07-09 17:03:14] INFO root fetch - processPackages [Mensajes-Vyka]: Start processing: port-ocean
+[2023-07-09 17:03:14] INFO root fetch - main [MainThread]: End processing [Mensajes-Vyka] error
+[2023-07-09 17:03:14] ERROR root fetch - processPackages [dspace-cliente]: Unable to get metadata: No such project 'dspace-cliente'
+[2023-07-09 17:03:14] INFO root fetch - processPackages [dspace-cliente]: Start processing: nwebclient
+[2023-07-09 17:03:14] INFO root fetch - main [MainThread]: End processing [dspace-cliente] error
+[2023-07-09 17:03:14] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc9] Old Version: [0.2.1rc8]
+[2023-07-09 17:03:14] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:03:14] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:03:14] WARNING root fetch - processPackages [microtorch]: Skipping, unable to determine old version
+[2023-07-09 17:03:14] INFO root fetch - processPackages [microtorch]: Start processing: target-permutation-importances
+[2023-07-09 17:03:14] INFO root fetch - main [MainThread]: End processing [microtorch] error
+[2023-07-09 17:03:14] INFO root fetch - processPackages [sydeploy]: New version: [0.2.1rc9] Old Version: [0.2.1rc8]
+[2023-07-09 17:03:14] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:03:14] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0.dev8] Old Version: [0.1.0.dev7]
+[2023-07-09 17:03:14] WARNING root fetch - processPackages [pyBPPIBridge]: Skipping, unable to determine old version
+[2023-07-09 17:03:14] INFO root fetch - main [MainThread]: End processing [pyBPPIBridge] error
+[2023-07-09 17:03:14] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:03:14] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 17:03:14] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/f0/2d/d01f8c4bf9037d83cddc087356c1108b5ba153458c0085759bf6d49d2bb6/pydantic_resolve-1.5.1.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/db/81/c99aa555e77babbb54bc32a7db7756d6b597fce7eefe699de505bf897517/sydeploy-0.2.1rc8.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/db/81/c99aa555e77babbb54bc32a7db7756d6b597fce7eefe699de505bf897517/sydeploy-0.2.1rc8.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/d9/b9/1cf3ded083d554dc3d3e6af272615ddbc98491788d7c70bbf60e94259d68/port_ocean-0.1.0.dev7.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/44/3c/3b31ceb99798d2be4dc7e7cd4953490cfd835ed7d6d6a592ef95dba2e984/target_permutation_importances-1.0.8.tar.gz
+[2023-07-09 17:03:14] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/90/33a127b7c33e81f64894231c833c7fbe3ff68812a83e3fb90c02371ede51/sydeploy-0.2.1rc9.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/2f/88/3115d2e43f1264dc8ab17a48941ac4f7f3665aca9bfe292db415989121b3/pydantic_resolve-1.5.2.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/c8/2e/0adf5d1b25bbd228db5b4fef951bafd1e29a2615910abdb7f1cd5578c947/target_permutation_importances-1.0.9.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/62/94/99dfbb75b3ea5d1087f6e1b6357017c9f9b7e55bb73f50ba709d643fd8f3/port_ocean-0.1.0.dev8.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc8.tar.gz tmp/sydeploy-0.2.1rc9.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc8-0.2.1rc9/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.1rc8.tar.gz tmp/sydeploy-0.2.1rc9.tar.gz --markdown 20230709/s/sydeploy/0.2.1rc8-0.2.1rc9/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.5.1.tar.gz tmp/pydantic_resolve-1.5.2.tar.gz --markdown 20230709/p/pydantic-resolve/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-09 17:03:15] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.8.tar.gz tmp/target_permutation_importances-1.0.9.tar.gz --markdown 20230709/t/target-permutation-importances/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0.dev7.tar.gz tmp/port_ocean-0.1.0.dev8.tar.gz --markdown 20230709/p/port-ocean/0.1.0.dev7-0.1.0.dev8/diff.md --exclude *.pyd
+[2023-07-09 17:03:15] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-09 17:03:15] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230709/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:03:16] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:03:16] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc8.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.1rc9.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 17:03:16] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 17:03:16] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.8.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.9.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-09 17:03:16] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.5.1.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.5.2.tar.gz]
+[2023-07-09 17:03:16] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-09 17:03:17] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:03:17] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:03:17] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev7.tar.gz]
+[2023-07-09 17:03:17] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev8.tar.gz]
+[2023-07-09 17:03:17] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-09 17:03:17] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-09 17:03:17] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-09 17:03:17] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-09 17:03:17] INFO root fetch - main [MainThread]: Store serial: [18821241]

@@ -6525,3 +6525,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:20:14] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
 [2023-07-09 10:20:14] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
 [2023-07-09 10:20:14] INFO root fetch - main [MainThread]: Store serial: [18818978]
+[2023-07-09 10:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818978]
+[2023-07-09 10:25:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clown-sort
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impose-cli
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngsolve
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hhhash
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-model-optimization-nightly
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: achat_srv_jul
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wcc-timetable-generator
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: achat_client_jul
+[2023-07-09 10:25:24] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc8] Old Version: [0.1.41rc7]
+[2023-07-09 10:25:24] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2303.post8.dev0] Old Version: [6.2.2303.post74.dev0]
+[2023-07-09 10:25:24] INFO root fetch - processPackages [clown-sort]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-09 10:25:24] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230709] Old Version: [0.7.5.dev20230708]
+[2023-07-09 10:25:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:25:24] WARNING root fetch - processPackages [hhhash]: Skipping, unable to determine old version
+[2023-07-09 10:25:24] INFO root fetch - main [MainThread]: End processing [hhhash] error
+[2023-07-09 10:25:24] WARNING root fetch - processPackages [achat_client_jul]: Skipping, unable to determine old version
+[2023-07-09 10:25:24] INFO root fetch - main [MainThread]: End processing [achat_client_jul] error
+[2023-07-09 10:25:24] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/27/0f/e55a1bffe3b9ce03054959f909f9754eb1f3141bc234c875c67aef94be09/impose_cli-0.1.41rc7-py3-none-any.whl
+[2023-07-09 10:25:24] WARNING root fetch - processPackages [achat_srv_jul]: Skipping, unable to determine old version
+[2023-07-09 10:25:24] INFO root fetch - main [MainThread]: End processing [achat_srv_jul] error
+[2023-07-09 10:25:24] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/05/7b/eb1d87dd390f83a1cb11e642b94abe49e6f236648e6c7db8543ffeefc178/wcc-timetable-generator-0.2.0.tar.gz
+[2023-07-09 10:25:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:25:24] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/d8/54/8b73bcfe8c3b9a016d151b28fe3f1775569a65c8a12efd0a36e9785a8c9a/clown_sort-1.9.0.tar.gz
+[2023-07-09 10:25:24] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/4f/15/c78a15f3e53a1bd9299f4e1813a999b70ccadfef4cfc047dd6cb38619037/ngsolve-6.2.2303.post74.dev0-cp39-cp39-win_amd64.whl
+[2023-07-09 10:25:24] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/e6/b4/273fafc13dfe86e27168e212cd33e01a566cb02f3fc188d3da1098255efa/tf_model_optimization_nightly-0.7.5.dev20230708-py2.py3-none-any.whl
+[2023-07-09 10:25:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:25:24] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/84/8f/c146012c77527d4e1fe6d229449e5629d8150ad6acb3b21a80a23030f967/impose-cli-0.1.41rc8.tar.gz
+[2023-07-09 10:25:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:25:24] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:25:24] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/90/b2/8151174d4d0a07ce7f0da5c5b3fe0d34afbea5138575a1ebc9dc4f631323/wcc-timetable-generator-0.2.1.tar.gz
+[2023-07-09 10:25:25] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 10:25:25] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose_cli-0.1.41rc7-py3-none-any.whl.zip tmp/impose-cli-0.1.41rc8.tar.gz --markdown 20230709/i/impose-cli/0.1.41rc7-0.1.41rc8/diff.md --exclude *.pyd
+[2023-07-09 10:25:25] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/3f/46/b63a4806ececb364a388ede69d33af8ade76e162e021acc4ce92321f0b5c/clown_sort-1.9.1.tar.gz
+[2023-07-09 10:25:25] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/28/f7/3879683bf38efe62ee72b2a931a00c0b88288349e211ab421f3a3c4c1a87/tf_model_optimization_nightly-0.7.5.dev20230709-py2.py3-none-any.whl
+[2023-07-09 10:25:25] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-09 10:25:25] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-0.2.0.tar.gz tmp/wcc-timetable-generator-0.2.1.tar.gz --markdown 20230709/w/wcc-timetable-generator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-09 10:25:25] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 13389337>=10485760
+[2023-07-09 10:25:25] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-07-09 10:25:25] INFO root fetch - processPackages [clown-sort]: executing diffoscope
+[2023-07-09 10:25:25] INFO root fetch - processPackages [clown-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clown_sort-1.9.0.tar.gz tmp/clown_sort-1.9.1.tar.gz --markdown 20230709/c/clown-sort/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-09 10:25:25] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-09 10:25:25] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230708-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230709-py2.py3-none-any.whl.zip --markdown 20230709/t/tf-model-optimization-nightly/0.7.5.dev20230708-0.7.5.dev20230709/diff.md --exclude *.pyd
+[2023-07-09 10:25:25] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-09 10:25:25] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-09 10:25:25] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:25:25] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc7-py3-none-any.whl.zip]
+[2023-07-09 10:25:25] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc8.tar.gz]
+[2023-07-09 10:25:25] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 10:25:26] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.2.0.tar.gz]
+[2023-07-09 10:25:26] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.2.1.tar.gz]
+[2023-07-09 10:25:26] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-09 10:25:26] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.9.0.tar.gz]
+[2023-07-09 10:25:26] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.9.1.tar.gz]
+[2023-07-09 10:25:26] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
+[2023-07-09 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230708-py2.py3-none-any.whl.zip]
+[2023-07-09 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230709-py2.py3-none-any.whl.zip]
+[2023-07-09 10:25:26] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-09 10:25:26] INFO root fetch - main [MainThread]: Store serial: [18819014]

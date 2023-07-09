@@ -2685,3 +2685,21 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:07:16] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
 [2023-07-09 04:07:16] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-07-09 04:07:16] INFO root fetch - main [MainThread]: Store serial: [18817362]
+[2023-07-09 04:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817362]
+[2023-07-09 04:12:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 04:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-markdown-generator
+[2023-07-09 04:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poissonate
+[2023-07-09 04:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyappbundler
+[2023-07-09 04:12:25] WARNING root fetch - processPackages [python-markdown-generator]: Skipping, unable to determine old version
+[2023-07-09 04:12:25] INFO root fetch - main [MainThread]: End processing [python-markdown-generator] error
+[2023-07-09 04:12:25] INFO root fetch - processPackages [pyappbundler]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 04:12:25] WARNING root fetch - processPackages [poissonate]: Skipping, unable to determine old version
+[2023-07-09 04:12:25] INFO root fetch - main [MainThread]: End processing [poissonate] error
+[2023-07-09 04:12:25] INFO root fetch - processPackages [pyappbundler]: Downloading https://files.pythonhosted.org/packages/02/a8/e7283fc3d8411926b25693286d63c1a38dd7079c73f84470ab233ec278eb/pyappbundler-0.1.4.tar.gz
+[2023-07-09 04:12:26] INFO root fetch - processPackages [pyappbundler]: Downloading https://files.pythonhosted.org/packages/8c/cd/08ada6de31fdd5c2067b893b0cb01f78257a87d2acb3b89afe790026daa3/pyappbundler-0.1.5.tar.gz
+[2023-07-09 04:12:26] INFO root fetch - processPackages [pyappbundler]: executing diffoscope
+[2023-07-09 04:12:26] INFO root fetch - processPackages [pyappbundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappbundler-0.1.4.tar.gz tmp/pyappbundler-0.1.5.tar.gz --markdown 20230709/p/pyappbundler/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 04:12:27] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.4.tar.gz]
+[2023-07-09 04:12:27] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.5.tar.gz]
+[2023-07-09 04:12:27] INFO root fetch - main [MainThread]: End processing [pyappbundler]: success
+[2023-07-09 04:12:27] INFO root fetch - main [MainThread]: Store serial: [18817380]

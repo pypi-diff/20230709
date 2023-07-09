@@ -8881,3 +8881,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:36:45] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.6.tar.gz]
 [2023-07-09 14:36:45] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
 [2023-07-09 14:36:45] INFO root fetch - main [MainThread]: Store serial: [18820052]
+[2023-07-09 14:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820052]
+[2023-07-09 14:41:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 14:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2023-07-09 14:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zein
+[2023-07-09 14:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sam-ml-py
+[2023-07-09 14:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorcircuit-nightly
+[2023-07-09 14:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkatlas
+[2023-07-09 14:41:53] INFO root fetch - processPackages [zein]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 14:41:53] INFO root fetch - processPackages [checkatlas]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-09 14:41:53] INFO root fetch - processPackages [sam-ml-py]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-09 14:41:53] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-09 14:41:53] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-09 14:41:53] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/e4/2e/7cdbbfdcf29ad4488d0ea6a67d44428e8b25079f311e52c6d0309f614e8a/checkatlas-0.2.8.tar.gz
+[2023-07-09 14:41:53] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-09 14:41:53] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-09 14:41:53] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/72/06/75e3a3760cda5a16cb8a168a2856c84739dbf1b6c11b2506715275df0e39/zein-0.0.4.tar.gz
+[2023-07-09 14:41:53] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/fc/7c/6908c6a3ae727e076167d08073461c9a30f2e4c01b6d1f3db78759dfc9ed/sam_ml-py-0.9.0.tar.gz
+[2023-07-09 14:41:54] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/f7/87/e9c9bb0448f6d98c666cb42c5491136038203ad50e695025afb0f3a12ae4/checkatlas-0.2.9.tar.gz
+[2023-07-09 14:41:54] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-09 14:41:54] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-09 14:41:54] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.8.tar.gz tmp/checkatlas-0.2.9.tar.gz --markdown 20230709/c/checkatlas/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 14:41:54] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/eb/e5/28a1963123636f96f74978d0a9e257344d2b6256b85c6322b95125125fc1/zein-0.0.5.tar.gz
+[2023-07-09 14:41:54] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-09 14:41:54] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230709/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-09 14:41:54] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-09 14:41:54] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/0aac2de659e4c5c99aad68feefdcc828e72f5c03ad8479b05f47c0ca01ad/sam_ml-py-0.9.0rc1.tar.gz
+[2023-07-09 14:41:54] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 14:41:54] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.4.tar.gz tmp/zein-0.0.5.tar.gz --markdown 20230709/z/zein/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 14:41:54] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-07-09 14:41:54] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.9.0.tar.gz tmp/sam_ml-py-0.9.0rc1.tar.gz --markdown 20230709/s/sam-ml-py/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-09 14:41:54] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-09 14:41:54] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230709/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-09 14:41:55] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.8.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.9.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-09 14:41:55] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.4.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.5.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 14:41:55] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0rc1.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-07-09 14:41:55] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-09 14:41:55] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-09 14:41:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-09 14:41:56] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-09 14:41:56] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-09 14:41:56] INFO root fetch - main [MainThread]: Store serial: [18820070]

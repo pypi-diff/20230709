@@ -13087,3 +13087,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 19:08:02] INFO root fetch - processPackages [robotframework-browser]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-browser-9.0.2.tar.gz]
 [2023-07-09 19:08:02] INFO root fetch - main [MainThread]: End processing [robotframework-browser]: success
 [2023-07-09 19:08:02] INFO root fetch - main [MainThread]: Store serial: [18821985]
+[2023-07-09 19:13:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821985]
+[2023-07-09 19:13:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 19:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudoll
+[2023-07-09 19:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xbrl-us
+[2023-07-09 19:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sydeploy
+[2023-07-09 19:13:10] INFO root fetch - processPackages [sydeploy]: New version: [0.2.2rc1] Old Version: [0.2.2rc0]
+[2023-07-09 19:13:10] INFO root fetch - processPackages [cloudoll]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-09 19:13:10] WARNING root fetch - processPackages [xbrl-us]: Skipping, unable to determine old version
+[2023-07-09 19:13:10] INFO root fetch - main [MainThread]: End processing [xbrl-us] error
+[2023-07-09 19:13:10] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ad/c4/9ad0476a08ec1aa78aece90b018eab080c71c4962c0b5b79a9f02214eb2d/sydeploy-0.2.2rc0.tar.gz
+[2023-07-09 19:13:11] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/61/93/cf6542a4bf988a00dfb9722bdd53da5af1fb7eda4e21f374ca453d0ddb76/cloudoll-2.0.3.tar.gz
+[2023-07-09 19:13:11] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/88/1c/5229ea9dea0b88dddbbe9213d8f3659d5a0b5272d956ce3b7eb1a54a1788/sydeploy-0.2.2rc1-py3-none-any.whl
+[2023-07-09 19:13:11] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 19:13:11] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.2rc0.tar.gz tmp/sydeploy-0.2.2rc1-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.2rc0-0.2.2rc1/diff.md --exclude *.pyd
+[2023-07-09 19:13:11] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/56/92/a4c953aec4cb99b4a02c2839801bab73d58b2cdcce9b22502df245ddebf1/cloudoll-2.0.4.tar.gz
+[2023-07-09 19:13:11] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-09 19:13:11] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.3.tar.gz tmp/cloudoll-2.0.4.tar.gz --markdown 20230709/c/cloudoll/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-09 19:13:12] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc0.tar.gz]
+[2023-07-09 19:13:12] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.2rc1-py3-none-any.whl.zip]
+[2023-07-09 19:13:12] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 19:13:12] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.3.tar.gz]
+[2023-07-09 19:13:12] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.4.tar.gz]
+[2023-07-09 19:13:12] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-09 19:13:12] INFO root fetch - main [MainThread]: Store serial: [18821995]

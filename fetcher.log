@@ -4054,3 +4054,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:33:09] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.1-py3-none-any.whl.zip]
 [2023-07-09 06:33:09] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2023-07-09 06:33:09] INFO root fetch - main [MainThread]: Store serial: [18817907]
+[2023-07-09 06:38:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817907]
+[2023-07-09 06:38:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgis-office
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ncs-uml
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: random-otp-generator
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: witnessmess
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imgk
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ncs-uml]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-09 06:38:18] INFO root fetch - processPackages [imgk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 06:38:18] WARNING root fetch - processPackages [random-otp-generator]: Skipping, unable to determine old version
+[2023-07-09 06:38:18] INFO root fetch - main [MainThread]: End processing [random-otp-generator] error
+[2023-07-09 06:38:18] INFO root fetch - processPackages [vgis-office]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 06:38:18] INFO root fetch - processPackages [witnessmess]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-09 06:38:18] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/23/d7/086b26d6bd6a75fe36ded6719f6097876d97cab138bc240b2503abd29796/ncs-uml-1.1.0.tar.gz
+[2023-07-09 06:38:18] INFO root fetch - processPackages [witnessmess]: Downloading https://files.pythonhosted.org/packages/84/6e/eaef145e2c99645f7edcbac6f8cb9f7e095b684e17206657a9436f8d604e/witnessmess-0.4.2-py3-none-any.whl
+[2023-07-09 06:38:18] INFO root fetch - processPackages [vgis-office]: Downloading https://files.pythonhosted.org/packages/4c/ba/15fc2e6195c0a82ceae214ec9a17dba61087db5cccdafa0796e286f4c4ba/vgis_office-1.0.1.tar.gz
+[2023-07-09 06:38:18] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/d9/86/f55cebaea1e9a34106aa0e69523fa328e75147e0c9424eb3254507efe92b/imgk-1.0.0.tar.gz
+[2023-07-09 06:38:19] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/06/95/e4c229189a62f49641607690960ac3bb0fe0edc87ab0845edf03d0b8e7c7/ncs-uml-1.2.0.tar.gz
+[2023-07-09 06:38:19] INFO root fetch - processPackages [witnessmess]: Downloading https://files.pythonhosted.org/packages/4a/01/e11efeb51fba26470c31263ea0de6bc48f457af21737872b918c63725449/witnessmess-0.4.3-py3-none-any.whl
+[2023-07-09 06:38:19] INFO root fetch - processPackages [vgis-office]: Downloading https://files.pythonhosted.org/packages/93/06/61f9cb54b4b19ba2874dbcb16418f7b0b5abe4e4f02ee26ebdcde335fd63/vgis_office-1.0.2.tar.gz
+[2023-07-09 06:38:19] INFO root fetch - processPackages [ncs-uml]: executing diffoscope
+[2023-07-09 06:38:19] INFO root fetch - processPackages [ncs-uml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncs-uml-1.1.0.tar.gz tmp/ncs-uml-1.2.0.tar.gz --markdown 20230709/n/ncs-uml/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 06:38:19] INFO root fetch - processPackages [witnessmess]: executing diffoscope
+[2023-07-09 06:38:19] INFO root fetch - processPackages [witnessmess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/witnessmess-0.4.2-py3-none-any.whl.zip tmp/witnessmess-0.4.3-py3-none-any.whl.zip --markdown 20230709/w/witnessmess/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-09 06:38:19] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/01/a5/f51eb4d7d01947344243b2edf473c8263259055bab1f873bc74a9dd26adc/imgk-1.0.1.tar.gz
+[2023-07-09 06:38:19] INFO root fetch - processPackages [vgis-office]: executing diffoscope
+[2023-07-09 06:38:19] INFO root fetch - processPackages [vgis-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_office-1.0.1.tar.gz tmp/vgis_office-1.0.2.tar.gz --markdown 20230709/v/vgis-office/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 06:38:19] INFO root fetch - processPackages [imgk]: executing diffoscope
+[2023-07-09 06:38:19] INFO root fetch - processPackages [imgk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgk-1.0.0.tar.gz tmp/imgk-1.0.1.tar.gz --markdown 20230709/i/imgk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 06:38:20] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.1.0.tar.gz]
+[2023-07-09 06:38:20] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.2.0.tar.gz]
+[2023-07-09 06:38:20] INFO root fetch - main [MainThread]: End processing [ncs-uml]: success
+[2023-07-09 06:38:20] INFO root fetch - processPackages [witnessmess]: Remove: archive file [/home/abi/fetcher/tmp/witnessmess-0.4.2-py3-none-any.whl.zip]
+[2023-07-09 06:38:20] INFO root fetch - processPackages [witnessmess]: Remove: archive file [/home/abi/fetcher/tmp/witnessmess-0.4.3-py3-none-any.whl.zip]
+[2023-07-09 06:38:20] INFO root fetch - main [MainThread]: End processing [witnessmess]: success
+[2023-07-09 06:38:20] INFO root fetch - processPackages [imgk]: Remove: archive file [/home/abi/fetcher/tmp/imgk-1.0.0.tar.gz]
+[2023-07-09 06:38:20] INFO root fetch - processPackages [imgk]: Remove: archive file [/home/abi/fetcher/tmp/imgk-1.0.1.tar.gz]
+[2023-07-09 06:38:20] INFO root fetch - main [MainThread]: End processing [imgk]: success
+[2023-07-09 06:38:20] INFO root fetch - processPackages [vgis-office]: Remove: archive file [/home/abi/fetcher/tmp/vgis_office-1.0.1.tar.gz]
+[2023-07-09 06:38:20] INFO root fetch - processPackages [vgis-office]: Remove: archive file [/home/abi/fetcher/tmp/vgis_office-1.0.2.tar.gz]
+[2023-07-09 06:38:20] INFO root fetch - main [MainThread]: End processing [vgis-office]: success
+[2023-07-09 06:38:20] INFO root fetch - main [MainThread]: Store serial: [18817923]

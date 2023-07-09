@@ -12433,3 +12433,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:10:56] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
 [2023-07-09 18:10:56] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-07-09 18:10:56] INFO root fetch - main [MainThread]: Store serial: [18821676]
+[2023-07-09 18:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821676]
+[2023-07-09 18:16:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBPPIBridge
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client-v2
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yet-another-wizz
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sabledocs
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meteomoris
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Janex
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gp2040ce-binary-tools
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digquery
+[2023-07-09 18:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: letterenv
+[2023-07-09 18:16:05] INFO root fetch - processPackages [digquery]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.477.0] Old Version: [0.476.0]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [gp2040ce-binary-tools]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [Janex]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [yet-another-wizz]: New version: [2.5] Old Version: [2.4]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [meteomoris]: New version: [2.7.8] Old Version: [2.7.2]
+[2023-07-09 18:16:05] WARNING root fetch - processPackages [letterenv]: Skipping, unable to determine old version
+[2023-07-09 18:16:05] INFO root fetch - processPackages [letterenv]: Start processing: SpinFinder
+[2023-07-09 18:16:05] INFO root fetch - main [MainThread]: End processing [letterenv] error
+[2023-07-09 18:16:05] INFO root fetch - processPackages [pyBPPIBridge]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [sabledocs]: New version: [0.5.204] Old Version: [0.5.202.dev0]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.477.0]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [SpinFinder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 18:16:05] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/d6/7f/ce50e7cc25bed1269afcf6c2c51e19f37e5996a3f8535e084ac331975ae9/Janex-0.0.3.tar.gz
+[2023-07-09 18:16:05] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/af/0f/ff1257567d4fdcd73119b2dc6935d513d1d44bf04b057fbe0f4285d97c23/stigg_api_client_v2-0.476.0.tar.gz
+[2023-07-09 18:16:05] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/70/23/18d2a5854dbc73361053fb8e1318ed4af869fbc782766dfd9fb9e03f7d31/digquery-0.1.3.tar.gz
+[2023-07-09 18:16:05] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/1a/4a/ff88788ee623635ce24af7cba19bebcf0d89b0cbc46ffd1a06a60bf3383d/sabledocs-0.5.202.dev0.tar.gz
+[2023-07-09 18:16:05] INFO root fetch - processPackages [pyBPPIBridge]: Downloading https://files.pythonhosted.org/packages/08/dd/9b8444124c9cf3dc720df46a08c466818e9c2d6f4e569c2fdb4415d8ac30/pyBPPIBridge-0.4.4-py3-none-any.whl
+[2023-07-09 18:16:05] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/bc/2d/555a751e71dd792ea4d5f74734edd320d1fe12b2db4b648074ff1a4e0816/stigg_api_client-0.477.0.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [meteomoris]: Downloading https://files.pythonhosted.org/packages/4c/e7/04efff2a02bc97e3326cbf2f70f0067c0a81f9b7351338b708f1d2d6d3bb/meteomoris-2.7.2.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [gp2040ce-binary-tools]: Downloading https://files.pythonhosted.org/packages/99/37/b8dade4ca7b065854960b0dac46f57ffd0159b3bc05cc9d85f9d0426dd16/gp2040ce-binary-tools-0.3.2.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/6f/f8/d269f9dc05ac056d534e093566efe577b0cc1a106103f0b77b5f8018504e/yet_another_wizz-2.4.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [SpinFinder]: Downloading https://files.pythonhosted.org/packages/96/7f/e6237424dd198a950da9cd8f04735bfc155d5eacfcd00578e7d5e3bf2508/spinfinder-0.0.1.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/86/3a/5b3ac18993d66dc13111fa6059994d22f1668eb173fb14fce5a29bd298d6/digquery-0.1.5.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/75/cc/058246069e3850a4aad4ca839a58f0d5e80be291cfaa4304492909f7b6b9/stigg_api_client_v2-0.477.0.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/74/d0/032562b9727644333754b74daeb3d47d64dcdf9fee56a7c1d8b048987ac0/sabledocs-0.5.204.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/5c/ff/9f0253527bda5cc458d46d3aa699d74329266805a6a355c58215c41c74b2/Janex-0.0.4.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [pyBPPIBridge]: Downloading https://files.pythonhosted.org/packages/b8/41/2a4d59ddf40f6c4919a14552f3639c03dd982ea19b77d508483a14a66f88/pyBPPIBridge-0.4.5-py3-none-any.whl
+[2023-07-09 18:16:06] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [meteomoris]: Downloading https://files.pythonhosted.org/packages/2a/6c/6a9954542babcaa850c314542bdab58aef1bb5c45debb3e4c89254061ba9/meteomoris-2.7.8.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [digquery]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [digquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digquery-0.1.3.tar.gz tmp/digquery-0.1.5.tar.gz --markdown 20230709/d/digquery/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [SpinFinder]: Downloading https://files.pythonhosted.org/packages/30/79/19812165bfd9e20588b48bb426a2482e41accd8e5086ed362035e74252ef/spinfinder-0.0.2.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/ae/6a/32891271a2597e48c5331b282d2087232fd8764dca9e96ef3cde2ae4f909/yet_another_wizz-2.5.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.476.0.tar.gz tmp/stigg_api_client_v2-0.477.0.tar.gz --markdown 20230709/s/stigg-api-client-v2/0.476.0-0.477.0/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.477.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230709/s/stigg-api-client/0.477.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.5.202.dev0.tar.gz tmp/sabledocs-0.5.204.tar.gz --markdown 20230709/s/sabledocs/0.5.202.dev0-0.5.204/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [pyBPPIBridge]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [pyBPPIBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBPPIBridge-0.4.4-py3-none-any.whl.zip tmp/pyBPPIBridge-0.4.5-py3-none-any.whl.zip --markdown 20230709/p/pyBPPIBridge/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.3.tar.gz tmp/Janex-0.0.4.tar.gz --markdown 20230709/J/Janex/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [gp2040ce-binary-tools]: Downloading https://files.pythonhosted.org/packages/a0/06/af934db3f356289e5fdd5b8f04a1d0df253274c887c0a07fa6f2f4b2e5f5/gp2040ce-binary-tools-0.4.0.tar.gz
+[2023-07-09 18:16:06] INFO root fetch - processPackages [meteomoris]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [meteomoris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteomoris-2.7.2.tar.gz tmp/meteomoris-2.7.8.tar.gz --markdown 20230709/m/meteomoris/2.7.2-2.7.8/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [yet-another-wizz]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [yet-another-wizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz-2.4.tar.gz tmp/yet_another_wizz-2.5.tar.gz --markdown 20230709/y/yet-another-wizz/2.4-2.5/diff.md --exclude *.pyd
+[2023-07-09 18:16:06] INFO root fetch - processPackages [SpinFinder]: executing diffoscope
+[2023-07-09 18:16:06] INFO root fetch - processPackages [SpinFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinfinder-0.0.1.tar.gz tmp/spinfinder-0.0.2.tar.gz --markdown 20230709/S/SpinFinder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 18:16:07] INFO root fetch - processPackages [gp2040ce-binary-tools]: executing diffoscope
+[2023-07-09 18:16:07] INFO root fetch - processPackages [gp2040ce-binary-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gp2040ce-binary-tools-0.3.2.tar.gz tmp/gp2040ce-binary-tools-0.4.0.tar.gz --markdown 20230709/g/gp2040ce-binary-tools/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 18:16:08] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.3.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.5.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [digquery]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.3.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.4.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.477.0.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [meteomoris]: Remove: archive file [/home/abi/fetcher/tmp/meteomoris-2.7.2.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [meteomoris]: Remove: archive file [/home/abi/fetcher/tmp/meteomoris-2.7.8.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [meteomoris]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [SpinFinder]: Remove: archive file [/home/abi/fetcher/tmp/spinfinder-0.0.1.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [SpinFinder]: Remove: archive file [/home/abi/fetcher/tmp/spinfinder-0.0.2.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [SpinFinder]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [pyBPPIBridge]: Remove: archive file [/home/abi/fetcher/tmp/pyBPPIBridge-0.4.4-py3-none-any.whl.zip]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [pyBPPIBridge]: Remove: archive file [/home/abi/fetcher/tmp/pyBPPIBridge-0.4.5-py3-none-any.whl.zip]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [pyBPPIBridge]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.476.0.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.477.0.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.5.202.dev0.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [sabledocs]: Remove: archive file [/home/abi/fetcher/tmp/sabledocs-0.5.204.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-07-09 18:16:08] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.4.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.tar.gz]
+[2023-07-09 18:16:08] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
+[2023-07-09 18:16:09] INFO root fetch - processPackages [gp2040ce-binary-tools]: Remove: archive file [/home/abi/fetcher/tmp/gp2040ce-binary-tools-0.3.2.tar.gz]
+[2023-07-09 18:16:09] INFO root fetch - processPackages [gp2040ce-binary-tools]: Remove: archive file [/home/abi/fetcher/tmp/gp2040ce-binary-tools-0.4.0.tar.gz]
+[2023-07-09 18:16:09] INFO root fetch - main [MainThread]: End processing [gp2040ce-binary-tools]: success
+[2023-07-09 18:16:09] INFO root fetch - main [MainThread]: Store serial: [18821729]

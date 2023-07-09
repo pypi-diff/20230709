@@ -16048,3 +16048,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:45:12] INFO root fetch - processPackages [pkdb-data]: Remove: archive file [/home/abi/fetcher/tmp/pkdb_data-1.0.7.tar.gz]
 [2023-07-09 22:45:12] INFO root fetch - main [MainThread]: End processing [pkdb-data]: success
 [2023-07-09 22:45:12] INFO root fetch - main [MainThread]: Store serial: [18823324]
+[2023-07-09 22:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823324]
+[2023-07-09 22:50:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trendalation
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magicsoup
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EDEMDSPTFEB23
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbn
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peaqevcore
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dry-scraper
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prefecto
+[2023-07-09 22:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trendalation
+[2023-07-09 22:50:21] INFO root fetch - processPackages [trendalation]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 22:50:21] INFO root fetch - processPackages [trendalation]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 22:50:21] INFO root fetch - processPackages [magicsoup]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-09 22:50:21] INFO root fetch - processPackages [fbn]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-09 22:50:21] INFO root fetch - processPackages [EDEMDSPTFEB23]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 22:50:21] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8.9] Old Version: [0.1.8.8]
+[2023-07-09 22:50:21] INFO root fetch - processPackages [prefecto]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 22:50:22] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-07-09 22:50:22] INFO root fetch - processPackages [EDEMDSPTFEB23]: Downloading https://files.pythonhosted.org/packages/7d/a7/3d9ad4b922abfe6845f925e840d155efda32d227b1ce2a76b255fc14cbad/EDEMDSPTFEB23-0.0.5.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/32/c6/d5713e77d9defcf5a87cc2537b82e75e60dd25588885200e7accea7f7d0d/trendalation-0.1.5-py3-none-any.whl
+[2023-07-09 22:50:22] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/17/cc/d331659ff134479fc33a119782136962ad46b3f4bbb13be6e898933feefb/magicsoup-0.4.0.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/64/41/1536df9fcbd8fe146fbd4627401ad493546e6b0cd478d39acc0b8f264cca/dry_scraper-0.1.8.8.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/32/c6/d5713e77d9defcf5a87cc2537b82e75e60dd25588885200e7accea7f7d0d/trendalation-0.1.5-py3-none-any.whl
+[2023-07-09 22:50:22] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/cb/5b/d80bcea1d4fd6fe5e1657d17c0ff6c8f96f3c36c13c32e47c2403e070057/fbn-0.0.9-py3-none-any.whl
+[2023-07-09 22:50:22] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/c8/ec/a70927220edf772d221e015e1ae7e91655764b6b8e4237eef83f978aae5e/prefecto-0.0.3.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [EDEMDSPTFEB23]: Downloading https://files.pythonhosted.org/packages/a0/60/bd31b307d99787332e9c20b9bb3ded549d42c67b8ef7af13ae0c2966f16e/EDEMDSPTFEB23-0.0.6.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/57/e3/0bf5ac688a85881e1ab8e67f65457e71d8d2c5581a9d385153cf4613fef4/trendalation-0.1.6.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/f5/6d/1540cb1c3b22deae2de6455d284a060ff8cf519b8d5e3ef3b5e8b6cc22df/magicsoup-0.4.1.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/57/e3/0bf5ac688a85881e1ab8e67f65457e71d8d2c5581a9d385153cf4613fef4/trendalation-0.1.6.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/41/37/f854f8193ccdb11f6b4fe307680a90a0707017cc31b1b9c82d3bcc2027b7/prefecto-0.0.4.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/71/51/1f3585a4059a5f1f9fecede5a31a5aef9e22067c953b334c50b1f39f642e/dry_scraper-0.1.8.9.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/45/3f/53991ab0bb0a33f640508bf74a3b7440d7c5f284c3ecf878574c11de7c51/fbn-0.1.0-py3-none-any.whl
+[2023-07-09 22:50:22] INFO root fetch - processPackages [EDEMDSPTFEB23]: executing diffoscope
+[2023-07-09 22:50:22] INFO root fetch - processPackages [EDEMDSPTFEB23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDEMDSPTFEB23-0.0.5.tar.gz tmp/EDEMDSPTFEB23-0.0.6.tar.gz --markdown 20230709/E/EDEMDSPTFEB23/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 22:50:22] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-07-09 22:50:22] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-09 22:50:22] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.5-py3-none-any.whl.zip tmp/trendalation-0.1.6.tar.gz --markdown 20230709/t/trendalation/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 22:50:23] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-07-09 22:50:23] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.4.0.tar.gz tmp/magicsoup-0.4.1.tar.gz --markdown 20230709/m/magicsoup/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 22:50:23] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-09 22:50:23] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.5-py3-none-any.whl.zip tmp/trendalation-0.1.6.tar.gz --markdown 20230709/t/trendalation/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 22:50:23] INFO root fetch - processPackages [fbn]: executing diffoscope
+[2023-07-09 22:50:23] INFO root fetch - processPackages [fbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbn-0.0.9-py3-none-any.whl.zip tmp/fbn-0.1.0-py3-none-any.whl.zip --markdown 20230709/f/fbn/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-09 22:50:23] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-09 22:50:23] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.8.8.tar.gz tmp/dry_scraper-0.1.8.9.tar.gz --markdown 20230709/d/dry-scraper/0.1.8.8-0.1.8.9/diff.md --exclude *.pyd
+[2023-07-09 22:50:23] INFO root fetch - processPackages [prefecto]: executing diffoscope
+[2023-07-09 22:50:23] INFO root fetch - processPackages [prefecto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefecto-0.0.3.tar.gz tmp/prefecto-0.0.4.tar.gz --markdown 20230709/p/prefecto/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 22:50:23] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-07-09 22:50:23] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230709/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-07-09 22:50:24] INFO root fetch - processPackages [EDEMDSPTFEB23]: Remove: archive file [/home/abi/fetcher/tmp/EDEMDSPTFEB23-0.0.5.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [EDEMDSPTFEB23]: Remove: archive file [/home/abi/fetcher/tmp/EDEMDSPTFEB23-0.0.6.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [EDEMDSPTFEB23]: success
+[2023-07-09 22:50:24] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.5-py3-none-any.whl.zip]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.6.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-09 22:50:24] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.8.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.9.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-09 22:50:24] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.3.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.4.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [prefecto]: success
+[2023-07-09 22:50:24] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.0.9-py3-none-any.whl.zip]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.1.0-py3-none-any.whl.zip]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [fbn]: success
+[2023-07-09 22:50:24] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.0.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.1.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-07-09 22:50:24] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-07-09 22:50:24] INFO root fetch - main [MainThread]: Store serial: [18823347]

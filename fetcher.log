@@ -8866,3 +8866,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 14:31:34] INFO root fetch - processPackages [Arpeggio]: Remove: archive file [/home/abi/fetcher/tmp/Arpeggio-2.0.2.tar.gz]
 [2023-07-09 14:31:34] INFO root fetch - main [MainThread]: End processing [Arpeggio]: success
 [2023-07-09 14:31:34] INFO root fetch - main [MainThread]: Store serial: [18820045]
+[2023-07-09 14:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820045]
+[2023-07-09 14:36:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 14:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fhir-analyzer
+[2023-07-09 14:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicpy
+[2023-07-09 14:36:42] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-07-09 14:36:42] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-07-09 14:36:42] INFO root fetch - processPackages [fhir-analyzer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 14:36:42] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/6b/9d/ccc94b1e0c6a7b809d1a9e900933159d9a47df6ea8c004e6cc3b3040bed9/fhir_analyzer-0.0.5.tar.gz
+[2023-07-09 14:36:43] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/5f/c4/49c7aadbea52da5ad9d3e7ae38ec2d02dcb5f8b813e8d1f3d796aeacc6d3/fhir_analyzer-0.0.6.tar.gz
+[2023-07-09 14:36:43] INFO root fetch - processPackages [fhir-analyzer]: executing diffoscope
+[2023-07-09 14:36:43] INFO root fetch - processPackages [fhir-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_analyzer-0.0.5.tar.gz tmp/fhir_analyzer-0.0.6.tar.gz --markdown 20230709/f/fhir-analyzer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 14:36:45] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.5.tar.gz]
+[2023-07-09 14:36:45] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.6.tar.gz]
+[2023-07-09 14:36:45] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
+[2023-07-09 14:36:45] INFO root fetch - main [MainThread]: Store serial: [18820052]

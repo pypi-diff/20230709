@@ -11013,3 +11013,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:42:20] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-09 16:42:20] INFO root fetch - main [MainThread]: End processing [xcsf]: success
 [2023-07-09 16:42:20] INFO root fetch - main [MainThread]: Store serial: [18821048]
+[2023-07-09 16:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821048]
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coolsonic
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwebclient
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cooldesk
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandasmore
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digquery
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leepy
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coolteer
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supervisely
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastChat
+[2023-07-09 16:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyletter
+[2023-07-09 16:47:29] INFO root fetch - processPackages [pyletter]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-09 16:47:29] WARNING root fetch - processPackages [cooldesk]: Skipping, unable to determine old version
+[2023-07-09 16:47:29] INFO root fetch - processPackages [cooldesk]: Start processing: qwak-core
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [cooldesk] error
+[2023-07-09 16:47:29] INFO root fetch - processPackages [pandasmore]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 16:47:29] WARNING root fetch - processPackages [coolsonic]: Skipping, unable to determine old version
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [coolsonic] error
+[2023-07-09 16:47:29] WARNING root fetch - processPackages [digquery]: Skipping, unable to determine old version
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [digquery] error
+[2023-07-09 16:47:29] WARNING root fetch - processPackages [fastChat]: Skipping, unable to determine old version
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [fastChat] error
+[2023-07-09 16:47:29] WARNING root fetch - processPackages [coolteer]: Skipping, unable to determine old version
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [coolteer] error
+[2023-07-09 16:47:29] WARNING root fetch - processPackages [leepy]: Skipping, unable to determine old version
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [leepy] error
+[2023-07-09 16:47:29] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 16:47:29] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-09 16:47:29] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 16:47:29] ERROR root fetch - processPackages [pyletter]: Unable to fetch info: No such project/version 'pyletter' 0.0.1
+[2023-07-09 16:47:29] INFO root fetch - main [MainThread]: End processing [pyletter] error
+[2023-07-09 16:47:29] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 16:47:29] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-09 16:47:29] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-09 16:47:29] INFO root fetch - processPackages [pandasmore]: Downloading https://files.pythonhosted.org/packages/2d/c0/43b48a853713d6d9c5278456ed0d666466a72bd6b4c6e03757f7b39b290f/pandasmore-0.0.3.tar.gz
+[2023-07-09 16:47:29] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 16:47:30] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-09 16:47:30] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-09 16:47:30] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 16:47:30] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 16:47:30] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-09 16:47:30] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230709/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-09 16:47:30] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-09 16:47:30] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230709/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 16:47:30] INFO root fetch - processPackages [pandasmore]: Downloading https://files.pythonhosted.org/packages/57/5d/b4df8b80d3333880bcdc2100639a573a77b25090ded201227ed910d16ae3/pandasmore-0.0.4.tar.gz
+[2023-07-09 16:47:30] INFO root fetch - processPackages [pandasmore]: executing diffoscope
+[2023-07-09 16:47:30] INFO root fetch - processPackages [pandasmore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasmore-0.0.3.tar.gz tmp/pandasmore-0.0.4.tar.gz --markdown 20230709/p/pandasmore/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 16:47:30] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 16:47:30] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 16:47:30] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 16:47:31] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-09 16:47:31] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-09 16:47:31] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-09 16:47:33] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-09 16:47:33] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-09 16:47:33] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-09 16:47:33] INFO root fetch - processPackages [pandasmore]: Remove: archive file [/home/abi/fetcher/tmp/pandasmore-0.0.3.tar.gz]
+[2023-07-09 16:47:33] INFO root fetch - processPackages [pandasmore]: Remove: archive file [/home/abi/fetcher/tmp/pandasmore-0.0.4.tar.gz]
+[2023-07-09 16:47:33] INFO root fetch - main [MainThread]: End processing [pandasmore]: success
+[2023-07-09 16:47:33] INFO root fetch - main [MainThread]: Store serial: [18821102]

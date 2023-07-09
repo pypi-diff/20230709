@@ -3089,3 +3089,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:59:36] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.8.tar.gz]
 [2023-07-09 04:59:36] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-09 04:59:36] INFO root fetch - main [MainThread]: Store serial: [18817525]
+[2023-07-09 05:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817525]
+[2023-07-09 05:04:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scriptime
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proyo
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netlookup
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-09 05:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-nodeeditor
+[2023-07-09 05:04:45] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [scriptime]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [proyo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [netlookup]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230709] Old Version: [1.2.20230708]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 05:04:45] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-09 05:04:45] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-09 05:04:45] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/49/ce/5542ad308a3ff6fd0b03ade28ac762790869f5799959f7ce151de5879b5d/scriptime-0.1.4.tar.gz
+[2023-07-09 05:04:45] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/2f/db/b99cf9bb91848a0a61a31c6ba5b66701b22dfe52a68631565481d66a1e9c/jupyterlab_nodeeditor-1.0.4.tar.gz
+[2023-07-09 05:04:45] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/38/44/55a4d1b9ca28d7077e87d1cb7ad802dda206dea9fa84e71878cce61b3242/iam_actions-1.2.20230708.tar.gz
+[2023-07-09 05:04:45] INFO root fetch - processPackages [netlookup]: Downloading https://files.pythonhosted.org/packages/06/26/afe4a869d1622bd45823fd0b37c103b1b8be0d4bb66366c41f6a376f0dd9/netlookup-2.0.0.tar.gz
+[2023-07-09 05:04:45] INFO root fetch - processPackages [proyo]: Downloading https://files.pythonhosted.org/packages/3d/cd/b59878b8103c84650cd9dac10661e60db3f1735b92fbe2dc1aaf7674c2c7/proyo-0.1.8.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-09 05:04:46] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230709/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 05:04:46] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/80/18/57bee37d9223e7e5529498c3fe0bec281927f88fcdc400d25704e50b268a/scriptime-0.1.5.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [netlookup]: Downloading https://files.pythonhosted.org/packages/21/71/8f958911f2dadaae79b988273160e890cb6fae57950db84c3f667ac9f89f/netlookup-2.0.2.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/be/fc/50b1094e1b0fe40ed3b57f820f2d8684bec6ecc36998bb3fc3075cffda59/iam_actions-1.2.20230709.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [proyo]: Downloading https://files.pythonhosted.org/packages/b6/e5/df0b8566121b6aafdfce44cd588f3f1dad30f02ee818a6240713c24afa5d/proyo-0.1.9.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [scriptime]: executing diffoscope
+[2023-07-09 05:04:46] INFO root fetch - processPackages [scriptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptime-0.1.4.tar.gz tmp/scriptime-0.1.5.tar.gz --markdown 20230709/s/scriptime/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 05:04:46] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-09 05:04:46] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230709/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 05:04:46] INFO root fetch - processPackages [proyo]: executing diffoscope
+[2023-07-09 05:04:46] INFO root fetch - processPackages [proyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proyo-0.1.8.tar.gz tmp/proyo-0.1.9.tar.gz --markdown 20230709/p/proyo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 05:04:46] INFO root fetch - processPackages [netlookup]: executing diffoscope
+[2023-07-09 05:04:46] INFO root fetch - processPackages [netlookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlookup-2.0.0.tar.gz tmp/netlookup-2.0.2.tar.gz --markdown 20230709/n/netlookup/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-07-09 05:04:46] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/a7/59/ff137a4eb7ce8d2cfcc1feeededf69884dc08cdebee4076c02c9576e9f68/jupyterlab_nodeeditor-1.0.5.tar.gz
+[2023-07-09 05:04:46] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-09 05:04:46] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230708.tar.gz tmp/iam_actions-1.2.20230709.tar.gz --markdown 20230709/i/iam-actions/1.2.20230708-1.2.20230709/diff.md --exclude *.pyd
+[2023-07-09 05:04:47] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-09 05:04:47] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-07-09 05:04:47] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.4.tar.gz tmp/jupyterlab_nodeeditor-1.0.5.tar.gz --markdown 20230709/j/jupyterlab-nodeeditor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-09 05:04:47] INFO root fetch - processPackages [proyo]: Remove: archive file [/home/abi/fetcher/tmp/proyo-0.1.8.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - processPackages [proyo]: Remove: archive file [/home/abi/fetcher/tmp/proyo-0.1.9.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - main [MainThread]: End processing [proyo]: success
+[2023-07-09 05:04:47] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.1.4.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.1.5.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - main [MainThread]: End processing [scriptime]: success
+[2023-07-09 05:04:47] INFO root fetch - processPackages [netlookup]: Remove: archive file [/home/abi/fetcher/tmp/netlookup-2.0.0.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - processPackages [netlookup]: Remove: archive file [/home/abi/fetcher/tmp/netlookup-2.0.2.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - main [MainThread]: End processing [netlookup]: success
+[2023-07-09 05:04:47] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-09 05:04:47] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-09 05:04:48] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230708.tar.gz]
+[2023-07-09 05:04:48] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230709.tar.gz]
+[2023-07-09 05:04:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-09 05:04:54] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.4.tar.gz]
+[2023-07-09 05:04:54] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.5.tar.gz]
+[2023-07-09 05:04:54] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-07-09 05:04:54] INFO root fetch - main [MainThread]: Store serial: [18817551]

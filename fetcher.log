@@ -3033,3 +3033,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:54:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-09 04:54:04] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-09 04:54:04] INFO root fetch - main [MainThread]: Store serial: [18817506]
+[2023-07-09 04:59:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817506]
+[2023-07-09 04:59:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathlib-tree
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodestream
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssh-assets
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WifiOrca
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eutil
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: treesync
+[2023-07-09 04:59:18] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 04:59:18] INFO root fetch - processPackages [treesync]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-09 04:59:18] INFO root fetch - processPackages [eutil]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 04:59:18] INFO root fetch - processPackages [ssh-assets]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-09 04:59:18] INFO root fetch - processPackages [pathlib-tree]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-09 04:59:18] INFO root fetch - processPackages [nodestream]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-09 04:59:19] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/ad/17/adaa7802623a69c9ab4779211ad8bef9d09b377c7705826c2d542b669396/WifiOrca-0.0.1.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [pathlib-tree]: Downloading https://files.pythonhosted.org/packages/17/6e/791b4d4bced8908412480eebbcfb0d4ef73ea28ee51445ffafa55f899b0f/pathlib_tree-2.4.8.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/fe/4a/2117d83a8648d7bb7fcbd5fc0d440c0ffe465a8b845182fd6e5ac65092a7/eutil-0.0.7.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [treesync]: Downloading https://files.pythonhosted.org/packages/04/54/6f375c449d4dc9544cdab96eec1a3dd44fe3970bd3a4b5c2f6d0a9bd7c6e/treesync-1.5.0.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [ssh-assets]: Downloading https://files.pythonhosted.org/packages/44/06/e090c2a3b817849e9840a6d35ab96c962a6304e65ef36fa233ce2d651e3d/ssh_assets-1.7.1.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/2b/d7/84a8e877d53d2d741a75320abfd164e7b5a8c936f73fc650c998ddbedb35/nodestream-0.4.0.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7f/5a/ac76b9c5d882293782bc2df4c20e530c052614e431c067b4bcdd7deee35d/WifiOrca-0.0.2.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [treesync]: Downloading https://files.pythonhosted.org/packages/5a/e9/28ab15decdfd37014dbfe2677d3b094f0497255e1ba1d9e582f2dbc1bac4/treesync-1.5.1.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [pathlib-tree]: Downloading https://files.pythonhosted.org/packages/ab/62/b29d4be2023d2fc7feb36732ece6ed6b9630d854ec7258fe0112697bf32b/pathlib_tree-2.4.9.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [nodestream]: executing diffoscope
+[2023-07-09 04:59:19] INFO root fetch - processPackages [nodestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestream-0.3.3.tar.gz tmp/nodestream-0.4.0.tar.gz --markdown 20230709/n/nodestream/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 04:59:19] INFO root fetch - processPackages [ssh-assets]: Downloading https://files.pythonhosted.org/packages/72/5b/f3c2e3bcd652e8d94f6de0936ab2224731fd73718a1d2fa2ee3cc3706d0f/ssh_assets-1.7.2.tar.gz
+[2023-07-09 04:59:19] INFO root fetch - processPackages [pathlib-tree]: executing diffoscope
+[2023-07-09 04:59:19] INFO root fetch - processPackages [pathlib-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlib_tree-2.4.8.tar.gz tmp/pathlib_tree-2.4.9.tar.gz --markdown 20230709/p/pathlib-tree/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-09 04:59:19] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 04:59:19] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.1.tar.gz tmp/WifiOrca-0.0.2.tar.gz --markdown 20230709/W/WifiOrca/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 04:59:19] INFO root fetch - processPackages [treesync]: executing diffoscope
+[2023-07-09 04:59:19] INFO root fetch - processPackages [treesync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treesync-1.5.0.tar.gz tmp/treesync-1.5.1.tar.gz --markdown 20230709/t/treesync/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-09 04:59:20] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/b4/cd/a8ebd664eed8131994bd5465525dc57a6499c68b81d887ca1a1394ddcac2/eutil-0.0.8.tar.gz
+[2023-07-09 04:59:20] INFO root fetch - processPackages [ssh-assets]: executing diffoscope
+[2023-07-09 04:59:20] INFO root fetch - processPackages [ssh-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_assets-1.7.1.tar.gz tmp/ssh_assets-1.7.2.tar.gz --markdown 20230709/s/ssh-assets/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-09 04:59:20] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.3.3.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.4.0.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - main [MainThread]: End processing [nodestream]: success
+[2023-07-09 04:59:20] INFO root fetch - processPackages [pathlib-tree]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_tree-2.4.8.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - processPackages [pathlib-tree]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_tree-2.4.9.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - main [MainThread]: End processing [pathlib-tree]: success
+[2023-07-09 04:59:20] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.1.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.2.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 04:59:20] INFO root fetch - processPackages [treesync]: Remove: archive file [/home/abi/fetcher/tmp/treesync-1.5.0.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - processPackages [treesync]: Remove: archive file [/home/abi/fetcher/tmp/treesync-1.5.1.tar.gz]
+[2023-07-09 04:59:20] INFO root fetch - main [MainThread]: End processing [treesync]: success
+[2023-07-09 04:59:21] INFO root fetch - processPackages [ssh-assets]: Remove: archive file [/home/abi/fetcher/tmp/ssh_assets-1.7.1.tar.gz]
+[2023-07-09 04:59:21] INFO root fetch - processPackages [ssh-assets]: Remove: archive file [/home/abi/fetcher/tmp/ssh_assets-1.7.2.tar.gz]
+[2023-07-09 04:59:21] INFO root fetch - main [MainThread]: End processing [ssh-assets]: success
+[2023-07-09 04:59:21] INFO root fetch - processPackages [eutil]: executing diffoscope
+[2023-07-09 04:59:21] INFO root fetch - processPackages [eutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eutil-0.0.7.tar.gz tmp/eutil-0.0.8.tar.gz --markdown 20230709/e/eutil/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 04:59:36] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.7.tar.gz]
+[2023-07-09 04:59:36] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.8.tar.gz]
+[2023-07-09 04:59:36] INFO root fetch - main [MainThread]: End processing [eutil]: success
+[2023-07-09 04:59:36] INFO root fetch - main [MainThread]: Store serial: [18817525]

@@ -3729,3 +3729,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:56:48] INFO root fetch - processPackages [smartscoutscrape]: Remove: archive file [/home/abi/fetcher/tmp/smartscoutscrape-0.2.0.tar.gz]
 [2023-07-09 05:56:48] INFO root fetch - main [MainThread]: End processing [smartscoutscrape]: success
 [2023-07-09 05:56:48] INFO root fetch - main [MainThread]: Store serial: [18817797]
+[2023-07-09 06:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817797]
+[2023-07-09 06:01:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 06:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgk
+[2023-07-09 06:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msgram
+[2023-07-09 06:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-resolve
+[2023-07-09 06:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: noiseflow
+[2023-07-09 06:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-hmac-authentication
+[2023-07-09 06:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evals-nightly
+[2023-07-09 06:01:57] INFO root fetch - processPackages [noiseflow]: New version: [0.0.7a2] Old Version: [0.0.7]
+[2023-07-09 06:01:57] WARNING root fetch - processPackages [imgk]: Skipping, unable to determine old version
+[2023-07-09 06:01:57] INFO root fetch - main [MainThread]: End processing [imgk] error
+[2023-07-09 06:01:57] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-09 06:01:57] INFO root fetch - processPackages [django-hmac-authentication]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-09 06:01:57] INFO root fetch - processPackages [msgram]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 06:01:57] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230708] Old Version: [1.0.3.dev20230707]
+[2023-07-09 06:01:57] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/b4/43/d570dfb9a8bb99c34c61b0cc19faaee48ba852fb62f2cc6659e9921c9703/pydantic_resolve-1.5.0.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/fa/3b/fe44d07765a432528bac053fdf16a589e8096888edd457359dbab779d7fc/noiseflow-0.0.7-cp39-cp39-manylinux_2_35_x86_64.whl
+[2023-07-09 06:01:58] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/9f/c8/e725194cf1cf2c248e66974f64b2b51c1733dfe372346ad6d584fc1c0f25/django_hmac_authentication-1.4.0.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/b7/3a/83dfb124c3bdd5112cb8fb14ac8609d2879f3e15bc96454ffac028dfce4b/evals-nightly-1.0.3.dev20230707.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [msgram]: Downloading https://files.pythonhosted.org/packages/a0/3b/9bdbb0ad05a3d2fb3d49c0243cc7e0f493eef1c8848129d09a15a1dccd69/msgram-1.2.1.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/f0/2d/d01f8c4bf9037d83cddc087356c1108b5ba153458c0085759bf6d49d2bb6/pydantic_resolve-1.5.1.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/ad/51/a12f2f5022badca459cae44e8239d766d4fdf53b0a5ee078a93e0b93be9a/django_hmac_authentication-1.4.1.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/6f/11/63b0c3c21d117611f686a381a20003cac04df3bc087ddd23c5a2e836e922/evals-nightly-1.0.3.dev20230708.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-09 06:01:58] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.5.0.tar.gz tmp/pydantic_resolve-1.5.1.tar.gz --markdown 20230709/p/pydantic-resolve/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-09 06:01:58] INFO root fetch - processPackages [msgram]: Downloading https://files.pythonhosted.org/packages/1d/16/57c4dd272a78d84797e4bde3c8673efd2de111eb0b0789f81d3dbd9b8ac2/msgram-1.2.2.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [django-hmac-authentication]: executing diffoscope
+[2023-07-09 06:01:58] INFO root fetch - processPackages [django-hmac-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hmac_authentication-1.4.0.tar.gz tmp/django_hmac_authentication-1.4.1.tar.gz --markdown 20230709/d/django-hmac-authentication/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-09 06:01:58] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/95/b4/437c67dceab21ef1159941281834d372daeed974bfe475098462c60e2560/noiseflow-0.0.7a2.tar.gz
+[2023-07-09 06:01:58] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-09 06:01:58] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230707.tar.gz tmp/evals-nightly-1.0.3.dev20230708.tar.gz --markdown 20230709/e/evals-nightly/1.0.3.dev20230707-1.0.3.dev20230708/diff.md --exclude *.pyd
+[2023-07-09 06:01:58] INFO root fetch - processPackages [msgram]: executing diffoscope
+[2023-07-09 06:01:58] INFO root fetch - processPackages [msgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-1.2.1.tar.gz tmp/msgram-1.2.2.tar.gz --markdown 20230709/m/msgram/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 06:01:58] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-07-09 06:01:58] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.7-cp39-cp39-manylinux_2_35_x86_64.whl.zip tmp/noiseflow-0.0.7a2.tar.gz --markdown 20230709/n/noiseflow/0.0.7-0.0.7a2/diff.md --exclude *.pyd
+[2023-07-09 06:01:59] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.5.0.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.5.1.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-09 06:01:59] INFO root fetch - processPackages [django-hmac-authentication]: Remove: archive file [/home/abi/fetcher/tmp/django_hmac_authentication-1.4.0.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - processPackages [django-hmac-authentication]: Remove: archive file [/home/abi/fetcher/tmp/django_hmac_authentication-1.4.1.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - main [MainThread]: End processing [django-hmac-authentication]: success
+[2023-07-09 06:01:59] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.7-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
+[2023-07-09 06:01:59] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.7a2.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-07-09 06:01:59] INFO root fetch - processPackages [msgram]: Remove: archive file [/home/abi/fetcher/tmp/msgram-1.2.1.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - processPackages [msgram]: Remove: archive file [/home/abi/fetcher/tmp/msgram-1.2.2.tar.gz]
+[2023-07-09 06:01:59] INFO root fetch - main [MainThread]: End processing [msgram]: success
+[2023-07-09 06:02:00] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230707.tar.gz]
+[2023-07-09 06:02:00] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230708.tar.gz]
+[2023-07-09 06:02:00] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-09 06:02:00] INFO root fetch - main [MainThread]: Store serial: [18817824]

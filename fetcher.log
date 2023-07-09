@@ -5087,3 +5087,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:07:00] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.62.tar.gz]
 [2023-07-09 08:07:00] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-09 08:07:00] INFO root fetch - main [MainThread]: Store serial: [18818314]
+[2023-07-09 08:12:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818314]
+[2023-07-09 08:12:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngmapi
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddb-single
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnum
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ngmapi]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-09 08:12:09] INFO root fetch - processPackages [crypto-screening]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ddb-single]: New version: [0.4.3] Old Version: [0.4.2.4]
+[2023-07-09 08:12:09] INFO root fetch - processPackages [fnum]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/e1/68c932284654fb7c2d6d12e100ac4ee689afbf7e12cfa2db1614419e36e8/ngmapi-0.0.30.tar.gz
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/f1/ff/de8e753355baba0dfe9aedde04d4a0295f5a7292c802589bb8b7ed04c3c0/ddb_single-0.4.2.4.zip
+[2023-07-09 08:12:09] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/4d/4b/9d0627aab16b85ffabacaf67d108c67e22ec9ae867b7dada4db835f69f28/crypto-screening-2.1.0.tar.gz
+[2023-07-09 08:12:09] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/1a/8d/484c1fba46864e4aac019398c5fc57cd5c2c6c5c05fcda09ce8610580889/fnum-1.2.1-py3-none-any.whl
+[2023-07-09 08:12:09] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/2b/47/b1f57d150693afa74381b64194fc34a81fe882c3f4f2d17881eb8ea06aca/ngmapi-0.0.31.tar.gz
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.30.tar.gz tmp/ngmapi-0.0.31.tar.gz --markdown 20230709/n/ngmapi/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/aa/42/4b7c4caa50f24afdb1eee840669e87a7255335267fe0cb17272f48082074/ddb_single-0.4.3.zip
+[2023-07-09 08:12:10] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0a/33/c5ab2ff2dd4e7903b0d33fc25f1c2dc8cdc729905c0cbce9209a0a17b74e/crypto-screening-2.2.0.tar.gz
+[2023-07-09 08:12:10] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/22/be/ed09d5c408dc59672d6785296c75fbdabd61be5e8175865e8d22da1fb10a/fnum-1.2.2-py3-none-any.whl
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ddb-single]: executing diffoscope
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ddb-single]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddb_single-0.4.2.4.zip tmp/ddb_single-0.4.3.zip --markdown 20230709/d/ddb-single/0.4.2.4-0.4.3/diff.md --exclude *.pyd
+[2023-07-09 08:12:10] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-09 08:12:10] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.1.0.tar.gz tmp/crypto-screening-2.2.0.tar.gz --markdown 20230709/c/crypto-screening/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-09 08:12:10] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-09 08:12:10] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.2.1-py3-none-any.whl.zip tmp/fnum-1.2.2-py3-none-any.whl.zip --markdown 20230709/f/fnum/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.30.tar.gz]
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.31.tar.gz]
+[2023-07-09 08:12:10] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.2.4.zip]
+[2023-07-09 08:12:10] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.3.zip]
+[2023-07-09 08:12:10] INFO root fetch - main [MainThread]: End processing [ddb-single]: success
+[2023-07-09 08:12:11] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.2.1-py3-none-any.whl.zip]
+[2023-07-09 08:12:11] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.2.2-py3-none-any.whl.zip]
+[2023-07-09 08:12:11] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-09 08:12:11] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.1.0.tar.gz]
+[2023-07-09 08:12:11] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.2.0.tar.gz]
+[2023-07-09 08:12:11] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-09 08:12:11] INFO root fetch - main [MainThread]: Store serial: [18818323]

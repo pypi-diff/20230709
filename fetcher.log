@@ -14764,3 +14764,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 21:18:20] INFO root fetch - processPackages [antsibull-docs]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_docs-2.3.0.tar.gz]
 [2023-07-09 21:18:20] INFO root fetch - main [MainThread]: End processing [antsibull-docs]: success
 [2023-07-09 21:18:20] INFO root fetch - main [MainThread]: Store serial: [18822703]
+[2023-07-09 21:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822703]
+[2023-07-09 21:23:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 21:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahk
+[2023-07-09 21:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylinefinder
+[2023-07-09 21:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rotman-ncs
+[2023-07-09 21:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade-sdk
+[2023-07-09 21:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-07-09 21:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2023-07-09 21:23:29] INFO root fetch - processPackages [pylinefinder]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 21:23:29] INFO root fetch - processPackages [rotman-ncs]: New version: [0.1.0a5] Old Version: [0.1.0a1]
+[2023-07-09 21:23:29] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev2] Old Version: [0.1.4a0.dev1]
+[2023-07-09 21:23:29] INFO root fetch - processPackages [ahk]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-07-09 21:23:29] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-09 21:23:29] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-09 21:23:29] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/b2/bb/1fb0ea77f0d5d5e36e3e585c706f7e22fac87829fde66925c44b0a98b370/pylinefinder-0.1.2.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/b2/67/7d8552682387fadfed461f4806472baedbd171fba14a55c86bccba8e042c/tastytrade_sdk-0.1.4a0.dev1.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/f8/a4/7c8cc0f64b994919189beb6286506e24cdac2a1afc77f5006bac128a1d96/rotman_ncs-0.1.0a1-py3-none-any.whl
+[2023-07-09 21:23:29] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/ef/7c/5380f4704e483c7f3748e43127198502605972b497c191f7887c16bb150e/ahk-1.2.0rc1.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/b9/1f/57f00bb490a1e40b2a85ac309b6ca5f4cd3de975314250f9d2242d2574de/pylinefinder-0.1.3.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/bf/ac/429b461072b979b3eed4b08651f8ade1df5ba459d43eda27e70276e9f837/tastytrade_sdk-0.1.4a0.dev2.tar.gz
+[2023-07-09 21:23:29] INFO root fetch - processPackages [pylinefinder]: executing diffoscope
+[2023-07-09 21:23:29] INFO root fetch - processPackages [pylinefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinefinder-0.1.2.tar.gz tmp/pylinefinder-0.1.3.tar.gz --markdown 20230709/p/pylinefinder/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 21:23:29] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/a1/0f/6af27541acbbda8ff9b2fc4cd393cc2a0451fa1981fa7f168a7f3c9b502d/rotman_ncs-0.1.0a5-py3-none-any.whl
+[2023-07-09 21:23:30] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/27/ba/2d34ee64d87ad47c69883f0caa104561a7bb751e8062f6878827fcdc4a64/ahk-1.2.0rc2.tar.gz
+[2023-07-09 21:23:30] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-09 21:23:30] INFO root fetch - processPackages [rotman-ncs]: executing diffoscope
+[2023-07-09 21:23:30] INFO root fetch - processPackages [rotman-ncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotman_ncs-0.1.0a1-py3-none-any.whl.zip tmp/rotman_ncs-0.1.0a5-py3-none-any.whl.zip --markdown 20230709/r/rotman-ncs/0.1.0a1-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-09 21:23:30] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-09 21:23:30] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-07-09 21:23:30] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.2.0rc1.tar.gz tmp/ahk-1.2.0rc2.tar.gz --markdown 20230709/a/ahk/1.2.0rc1-1.2.0rc2/diff.md --exclude *.pyd
+[2023-07-09 21:23:30] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-09 21:23:30] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev1.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev2.tar.gz --markdown 20230709/t/tastytrade-sdk/0.1.4a0.dev1-0.1.4a0.dev2/diff.md --exclude *.pyd
+[2023-07-09 21:23:30] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-09 21:23:30] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230709/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-09 21:23:30] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-09 21:23:30] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230709/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-09 21:23:30] INFO root fetch - processPackages [pylinefinder]: Remove: archive file [/home/abi/fetcher/tmp/pylinefinder-0.1.2.tar.gz]
+[2023-07-09 21:23:30] INFO root fetch - processPackages [pylinefinder]: Remove: archive file [/home/abi/fetcher/tmp/pylinefinder-0.1.3.tar.gz]
+[2023-07-09 21:23:30] INFO root fetch - main [MainThread]: End processing [pylinefinder]: success
+[2023-07-09 21:23:31] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev1.tar.gz]
+[2023-07-09 21:23:31] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev2.tar.gz]
+[2023-07-09 21:23:31] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-09 21:23:31] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a1-py3-none-any.whl.zip]
+[2023-07-09 21:23:31] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a5-py3-none-any.whl.zip]
+[2023-07-09 21:23:31] INFO root fetch - main [MainThread]: End processing [rotman-ncs]: success
+[2023-07-09 21:23:31] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.2.0rc1.tar.gz]
+[2023-07-09 21:23:31] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.2.0rc2.tar.gz]
+[2023-07-09 21:23:31] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-07-09 21:23:44] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-09 21:23:44] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-09 21:23:44] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-09 21:23:44] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-09 21:23:44] INFO root fetch - main [MainThread]: Store serial: [18822728]

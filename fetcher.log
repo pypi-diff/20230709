@@ -1834,3 +1834,38 @@
 [2023-07-09 02:57:30] INFO root fetch - processPackages [wizproxy]: Remove: archive file [/home/abi/fetcher/tmp/wizproxy-0.2.0.tar.gz]
 [2023-07-09 02:57:30] INFO root fetch - main [MainThread]: End processing [wizproxy]: success
 [2023-07-09 02:57:30] INFO root fetch - main [MainThread]: Store serial: [18816977]
+[2023-07-09 03:02:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816977]
+[2023-07-09 03:02:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 03:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-07-09 03:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md2cf
+[2023-07-09 03:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweepai
+[2023-07-09 03:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whois-parser
+[2023-07-09 03:02:39] INFO root fetch - processPackages [md2cf]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-09 03:02:39] INFO root fetch - processPackages [sweepai]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-09 03:02:39] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 03:02:39] INFO root fetch - processPackages [whois-parser]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-09 03:02:39] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/65/3e/27adf88c3a9bbeee7590afe7e6070ff808475f010be1d5114beb4213f3a5/sweepai-0.2.9.tar.gz
+[2023-07-09 03:02:39] INFO root fetch - processPackages [md2cf]: Downloading https://files.pythonhosted.org/packages/38/f5/b2b39917025d15cb770b1246a54995215e254bcd98e0bf4963dd5691b3ab/md2cf-2.1.0.tar.gz
+[2023-07-09 03:02:39] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-09 03:02:39] INFO root fetch - processPackages [whois-parser]: Downloading https://files.pythonhosted.org/packages/82/cf/2e153ce23708bf8542fbbea0ac3552c2293d77b484806112b4072b374cd0/whois-parser-0.1.4.tar.gz
+[2023-07-09 03:02:39] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-09 03:02:39] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-09 03:02:39] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/be/44/e83ed933283525bd5a2a58e71d52496afbcf335d54b14f28e2f8c55db465/sweepai-0.3.0.tar.gz
+[2023-07-09 03:02:39] INFO root fetch - processPackages [md2cf]: Downloading https://files.pythonhosted.org/packages/76/d7/30f015a8f89f7447e60195987b8edd0bb70b916be8da6820cada00ed635a/md2cf-2.2.0.tar.gz
+[2023-07-09 03:02:39] INFO root fetch - processPackages [whois-parser]: Downloading https://files.pythonhosted.org/packages/e9/33/daa686463c17d318513511bd376a3cf2c3665d0d1705247508bf5c776563/whois_parser-0.2.0.tar.gz
+[2023-07-09 03:02:39] INFO root fetch - processPackages [md2cf]: executing diffoscope
+[2023-07-09 03:02:39] INFO root fetch - processPackages [md2cf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2cf-2.1.0.tar.gz tmp/md2cf-2.2.0.tar.gz --markdown 20230709/m/md2cf/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-09 03:02:39] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-09 03:02:39] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.2.9.tar.gz tmp/sweepai-0.3.0.tar.gz --markdown 20230709/s/sweepai/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 03:02:40] INFO root fetch - processPackages [whois-parser]: executing diffoscope
+[2023-07-09 03:02:40] INFO root fetch - processPackages [whois-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois-parser-0.1.4.tar.gz tmp/whois_parser-0.2.0.tar.gz --markdown 20230709/w/whois-parser/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 03:02:40] INFO root fetch - processPackages [md2cf]: Remove: archive file [/home/abi/fetcher/tmp/md2cf-2.1.0.tar.gz]
+[2023-07-09 03:02:40] INFO root fetch - processPackages [md2cf]: Remove: archive file [/home/abi/fetcher/tmp/md2cf-2.2.0.tar.gz]
+[2023-07-09 03:02:40] INFO root fetch - main [MainThread]: End processing [md2cf]: success
+[2023-07-09 03:02:40] INFO root fetch - processPackages [whois-parser]: Remove: archive file [/home/abi/fetcher/tmp/whois-parser-0.1.4.tar.gz]
+[2023-07-09 03:02:40] INFO root fetch - processPackages [whois-parser]: Remove: archive file [/home/abi/fetcher/tmp/whois_parser-0.2.0.tar.gz]
+[2023-07-09 03:02:40] INFO root fetch - main [MainThread]: End processing [whois-parser]: success
+[2023-07-09 03:02:40] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.9.tar.gz]
+[2023-07-09 03:02:40] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.3.0.tar.gz]
+[2023-07-09 03:02:40] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-09 03:02:40] INFO root fetch - main [MainThread]: Store serial: [18816990]

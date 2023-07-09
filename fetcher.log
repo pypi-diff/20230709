@@ -928,3 +928,144 @@
 [2023-07-09 02:09:16] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
 [2023-07-09 02:09:16] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
 [2023-07-09 02:09:16] INFO root fetch - main [MainThread]: Store serial: [18816660]
+[2023-07-09 02:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816660]
+[2023-07-09 02:14:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-compiler-opt
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-compiler-opt
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-vomit
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aws-discord-notifiers
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchlayers-nightly
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-grafana
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-jenkins
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk8s]: New version: [2.7.97] Old Version: [2.7.96]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307090009] Old Version: [0.0.1.dev202307090008]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307090009] Old Version: [0.0.1.dev202307090008]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [py-vomit]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1688861361] Old Version: [1688774882]
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d9/70/6365e742a286b4cece00c622aaa2eca830c1c3b2852129400671693e11cb/cdk8s-2.7.96.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f1/0b/f66b97a414a4157b5e5b7f2c9b688448bf5f7d4be7bad2c8117695e4d1ec/ml-compiler-opt-0.0.1.dev202307090008.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f1/0b/f66b97a414a4157b5e5b7f2c9b688448bf5f7d4be7bad2c8117695e4d1ec/ml-compiler-opt-0.0.1.dev202307090008.tar.gz
+[2023-07-09 02:14:26] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: fast-diff-py
+[2023-07-09 02:14:26] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-09 02:14:26] INFO root fetch - processPackages [py-vomit]: Downloading https://files.pythonhosted.org/packages/1d/c8/7be53941eb46772a3ed79c9c805b317a677f7bb14ffcaea70f263a4225fe/py-vomit-0.3.0.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-09 02:14:26] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/1f/c005a40e35da11c0f9387084178947384996e54dc842df1fb0a9b5fe01b6/torchlayers-nightly-1688774882.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [fast-diff-py]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/5a/d7/24a3ef54eb1d05dd3bdada66527c0b12e3fab130bca4dd3ecb6de39fe432/cdk8s-2.7.97.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [fast-diff-py]: Downloading https://files.pythonhosted.org/packages/a6/6f/8b93d35ca88ec2ec880ff90dfe154d3c2126319fffbc9352578fb60d9e51/fast_diff_py-0.2.1.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/c0/65/9e778cc44fc89e2a6062d3bd06dfdc33d6a19e6f568f118238c99770ccb5/torchlayers-nightly-1688861361.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/51/b6/f72f2617488301e337acbcf41c41d8b71b0254e9820dd76ff44fc5ea5aeb/ml_compiler_opt-0.0.1.dev202307090009-py3-none-any.whl
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.96.tar.gz tmp/cdk8s-2.7.97.tar.gz --markdown 20230709/c/cdk8s/2.7.96-2.7.97/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230709/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230709/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/51/b6/f72f2617488301e337acbcf41c41d8b71b0254e9820dd76ff44fc5ea5aeb/ml_compiler_opt-0.0.1.dev202307090009-py3-none-any.whl
+[2023-07-09 02:14:27] INFO root fetch - processPackages [py-vomit]: Downloading https://files.pythonhosted.org/packages/4c/f7/f4264f64c4dcff0882a43301340c2f84e9879b61a94decdb6cb490786933/py_vomit-0.4.0.tar.gz
+[2023-07-09 02:14:27] WARNING root fetch - processPackages [py-vomit]: Skipping package: exceeds size limit 21569205>=10485760
+[2023-07-09 02:14:27] INFO root fetch - processPackages [py-vomit]: Start processing: fast-diff-py
+[2023-07-09 02:14:27] INFO root fetch - main [MainThread]: End processing [py-vomit] error
+[2023-07-09 02:14:27] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1688774882.tar.gz tmp/torchlayers-nightly-1688861361.tar.gz --markdown 20230709/t/torchlayers-nightly/1688774882-1688861361/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [fast-diff-py]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307090008.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307090009-py3-none-any.whl.zip --markdown 20230709/m/ml-compiler-opt/0.0.1.dev202307090008-0.0.1.dev202307090009/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307090008.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307090009-py3-none-any.whl.zip --markdown 20230709/m/ml-compiler-opt/0.0.1.dev202307090008-0.0.1.dev202307090009/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230709/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:14:27] INFO root fetch - processPackages [fast-diff-py]: Downloading https://files.pythonhosted.org/packages/16/8e/cdd1412c2904ad44ad6b7ad561961996bedd6d35a4b01dec2958f1029a98/fast_diff_py-0.2.3.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [fast-diff-py]: Downloading https://files.pythonhosted.org/packages/16/8e/cdd1412c2904ad44ad6b7ad561961996bedd6d35a4b01dec2958f1029a98/fast_diff_py-0.2.3.tar.gz
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-09 02:14:27] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230709/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:14:28] INFO root fetch - processPackages [fast-diff-py]: executing diffoscope
+[2023-07-09 02:14:28] INFO root fetch - processPackages [fast-diff-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_diff_py-0.2.1.tar.gz tmp/fast_diff_py-0.2.3.tar.gz --markdown 20230709/f/fast-diff-py/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 02:14:28] INFO root fetch - processPackages [fast-diff-py]: executing diffoscope
+[2023-07-09 02:14:28] INFO root fetch - processPackages [fast-diff-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_diff_py-0.2.1.tar.gz tmp/fast_diff_py-0.2.3.tar.gz --markdown 20230709/f/fast-diff-py/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: cdk8s-operator
+[2023-07-09 02:14:28] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.96.tar.gz]
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.97.tar.gz]
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s]: Start processing: celloracle
+[2023-07-09 02:14:28] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-09 02:14:28] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: openbb-nightly
+[2023-07-09 02:14:28] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230708] Old Version: [3.1.0.dev20230707]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688774882.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688861361.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [celloracle]: New version: [0.13.1] Old Version: [0.12.1]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: mct-quantizers-nightly
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307090008.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202307090009-py3-none-any.whl.zip]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230708.post1214] Old Version: [1.1.0.20230707.post1220]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: alpaca-eval
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: dgisim
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [alpaca-eval]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/f4/4b/75241f0cda36757f180224973fd27793dd20dc1d93da37bf741520dd05e8/alpaca_eval-0.1.7.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/2b/86/1be7f235d598f40d6a19b7c299082180c9c13d39e642f0792fe5fefce4b2/openbb_nightly-3.1.0.dev20230707.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [dgisim]: New version: [0.2.dev0] Old Version: [0.1.dev0]
+[2023-07-09 02:14:29] WARNING root fetch - processPackages [alpaca-eval]: Skipping package: exceeds size limit 40111973>=10485760
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [alpaca-eval] error
+[2023-07-09 02:14:29] INFO root fetch - processPackages [celloracle]: Downloading https://files.pythonhosted.org/packages/64/e6/31d5478a8ad215a4571e5cea157710e1225f882937a4e81f5bf308a6811e/celloracle-0.12.1.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-09 02:14:29] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21300811>=10485760
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-09 02:14:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/fd/bc/a86655e7eb3471ead72453c6df645576f1b4b72b8e745f836c2ce193801f/mct-quantizers-nightly-1.1.0.20230707.post1220.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-09 02:14:29] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230709/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-09 02:14:29] WARNING root fetch - processPackages [celloracle]: Skipping package: exceeds size limit 12182653>=10485760
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [celloracle] error
+[2023-07-09 02:14:29] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/ba/92/b23631db2cb42a9df86bee427b03e374bc41d947dd6730f74c272f4d8655/dgisim-0.1.dev0.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [fast-diff-py]: Remove: archive file [/home/abi/fetcher/tmp/fast_diff_py-0.2.1.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - processPackages [fast-diff-py]: Remove: archive file [/home/abi/fetcher/tmp/fast_diff_py-0.2.3.tar.gz]
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [fast-diff-py]: success
+[2023-07-09 02:14:29] INFO root fetch - main [MainThread]: End processing [fast-diff-py]: success
+[2023-07-09 02:14:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/ea/8d/6897e2c0102d0781ff25c85b9242d291c9541ea09e296db87ddece1cba0a/mct-quantizers-nightly-1.1.0.20230708.post1214.tar.gz
+[2023-07-09 02:14:29] INFO root fetch - processPackages [dgisim]: Downloading https://files.pythonhosted.org/packages/f3/19/b51b3326fdcc7b3b3f8e926e97f0d90617fb73ef18a5813f8d2dfbb7c95a/dgisim-0.2.dev0.tar.gz
+[2023-07-09 02:14:30] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-09 02:14:30] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230707.post1220.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230708.post1214.tar.gz --markdown 20230709/m/mct-quantizers-nightly/1.1.0.20230707.post1220-1.1.0.20230708.post1214/diff.md --exclude *.pyd
+[2023-07-09 02:14:30] INFO root fetch - processPackages [dgisim]: executing diffoscope
+[2023-07-09 02:14:30] INFO root fetch - processPackages [dgisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgisim-0.1.dev0.tar.gz tmp/dgisim-0.2.dev0.tar.gz --markdown 20230709/d/dgisim/0.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-07-09 02:14:30] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-09 02:14:30] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-09 02:14:30] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-09 02:14:31] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230707.post1220.tar.gz]
+[2023-07-09 02:14:31] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230708.post1214.tar.gz]
+[2023-07-09 02:14:31] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-09 02:14:31] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.1.dev0.tar.gz]
+[2023-07-09 02:14:31] INFO root fetch - processPackages [dgisim]: Remove: archive file [/home/abi/fetcher/tmp/dgisim-0.2.dev0.tar.gz]
+[2023-07-09 02:14:31] INFO root fetch - main [MainThread]: End processing [dgisim]: success
+[2023-07-09 02:14:31] INFO root fetch - main [MainThread]: Store serial: [18816711]

@@ -11846,3 +11846,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:29:21] INFO root fetch - processPackages [nonebot-plugin-friends]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_friends-0.1.0.tar.gz]
 [2023-07-09 17:29:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-friends]: success
 [2023-07-09 17:29:21] INFO root fetch - main [MainThread]: Store serial: [18821433]
+[2023-07-09 17:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821433]
+[2023-07-09 17:34:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnivorex
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dola
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actionai
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memphis-py-beta
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Texo
+[2023-07-09 17:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zein
+[2023-07-09 17:34:30] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230709.15.33.722604] Old Version: [20230709.14.38.185477]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [memphis-py-beta]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [dola]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [actionai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [Texo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 17:34:30] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 17:34:30] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:34:30] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4e/61/0612311d9776ae65ff7a945a5d1b7d4828a085bf352c100407c380e88494/certora-cli-alpha-master-20230709.14.38.185477.tar.gz
+[2023-07-09 17:34:30] INFO root fetch - processPackages [dola]: Downloading https://files.pythonhosted.org/packages/62/46/66125a2021ddc053388531f5f19c92239c4a588cc66225d564ec6faa64b0/dola-0.0.1.tar.gz
+[2023-07-09 17:34:30] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/a0/f2/8947cde6ce25ab6f987d200235081166937245b0c817b38992ee7247cdf1/actionai-0.0.3.tar.gz
+[2023-07-09 17:34:30] INFO root fetch - processPackages [memphis-py-beta]: Downloading https://files.pythonhosted.org/packages/34/85/67989f22e7552ae8bd233db942305bddcb0a7597a3f4410f4565e609ba2a/memphis-py-beta-1.0.6.tar.gz
+[2023-07-09 17:34:30] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40646458>=10485760
+[2023-07-09 17:34:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-09 17:34:30] INFO root fetch - processPackages [Texo]: Downloading https://files.pythonhosted.org/packages/c2/9b/abee38784b7024128becafbb89e927591b110380c24e590ae97728664d09/Texo-0.0.3.tar.gz
+[2023-07-09 17:34:30] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:34:31] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/e0/f2/cc2c8dc02242f468611111899b9e222751a8b49234df6da6f3a2bf5bf526/actionai-0.0.4.tar.gz
+[2023-07-09 17:34:31] INFO root fetch - processPackages [dola]: Downloading https://files.pythonhosted.org/packages/ea/ae/1d5e117ee463968a2d3c1ec27e23de31d045f4e05b34a464d2bd385c96ca/dola-0.0.2.tar.gz
+[2023-07-09 17:34:31] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:34:31] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:34:31] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 17:34:31] INFO root fetch - processPackages [memphis-py-beta]: Downloading https://files.pythonhosted.org/packages/61/a9/742edac95d6a92a3a7db6ea32a8ee80f15c3254ad62894336f890dea266d/memphis-py-beta-1.0.7.tar.gz
+[2023-07-09 17:34:31] INFO root fetch - processPackages [Texo]: Downloading https://files.pythonhosted.org/packages/15/63/530a49d47193fa4256820a32704605bce3b7620ac87e830b3444d5010f5d/Texo-0.0.4.tar.gz
+[2023-07-09 17:34:31] INFO root fetch - processPackages [dola]: executing diffoscope
+[2023-07-09 17:34:31] INFO root fetch - processPackages [dola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dola-0.0.1.tar.gz tmp/dola-0.0.2.tar.gz --markdown 20230709/d/dola/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 17:34:31] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 17:34:31] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 17:34:31] INFO root fetch - processPackages [memphis-py-beta]: executing diffoscope
+[2023-07-09 17:34:31] INFO root fetch - processPackages [memphis-py-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memphis-py-beta-1.0.6.tar.gz tmp/memphis-py-beta-1.0.7.tar.gz --markdown 20230709/m/memphis-py-beta/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-09 17:34:31] INFO root fetch - processPackages [actionai]: executing diffoscope
+[2023-07-09 17:34:31] INFO root fetch - processPackages [Texo]: executing diffoscope
+[2023-07-09 17:34:31] INFO root fetch - processPackages [actionai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionai-0.0.3.tar.gz tmp/actionai-0.0.4.tar.gz --markdown 20230709/a/actionai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 17:34:31] INFO root fetch - processPackages [Texo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Texo-0.0.3.tar.gz tmp/Texo-0.0.4.tar.gz --markdown 20230709/T/Texo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 17:34:32] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:34:32] INFO root fetch - processPackages [dola]: Remove: archive file [/home/abi/fetcher/tmp/dola-0.0.1.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - processPackages [dola]: Remove: archive file [/home/abi/fetcher/tmp/dola-0.0.2.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [dola]: success
+[2023-07-09 17:34:32] INFO root fetch - processPackages [Texo]: Remove: archive file [/home/abi/fetcher/tmp/Texo-0.0.3.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - processPackages [Texo]: Remove: archive file [/home/abi/fetcher/tmp/Texo-0.0.4.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [Texo]: success
+[2023-07-09 17:34:32] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 17:34:32] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.3.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.4.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [actionai]: success
+[2023-07-09 17:34:32] INFO root fetch - processPackages [memphis-py-beta]: Remove: archive file [/home/abi/fetcher/tmp/memphis-py-beta-1.0.6.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - processPackages [memphis-py-beta]: Remove: archive file [/home/abi/fetcher/tmp/memphis-py-beta-1.0.7.tar.gz]
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [memphis-py-beta]: success
+[2023-07-09 17:34:32] INFO root fetch - main [MainThread]: Store serial: [18821451]

@@ -12849,3 +12849,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:47:16] WARNING root fetch - processPackages [qml-element]: Skipping, unable to determine old version
 [2023-07-09 18:47:16] INFO root fetch - main [MainThread]: End processing [qml-element] error
 [2023-07-09 18:47:16] INFO root fetch - main [MainThread]: Store serial: [18821876]
+[2023-07-09 18:52:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821876]
+[2023-07-09 18:52:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actionai
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yanga
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acc-provision
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dup-utils
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deltafi
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cliconfig
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atro-victoria
+[2023-07-09 18:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigsort
+[2023-07-09 18:52:26] INFO root fetch - processPackages [yanga]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-09 18:52:26] INFO root fetch - processPackages [actionai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 18:52:26] INFO root fetch - processPackages [acc-provision]: New version: [5.2.7.1rc5] Old Version: [5.2.7.1rc4]
+[2023-07-09 18:52:26] WARNING root fetch - processPackages [dup-utils]: Skipping, unable to determine old version
+[2023-07-09 18:52:26] WARNING root fetch - processPackages [atro-victoria]: Skipping, unable to determine old version
+[2023-07-09 18:52:26] INFO root fetch - main [MainThread]: End processing [dup-utils] error
+[2023-07-09 18:52:26] INFO root fetch - main [MainThread]: End processing [atro-victoria] error
+[2023-07-09 18:52:26] INFO root fetch - processPackages [cliconfig]: New version: [1.0.0rc1] Old Version: [1.0.0b4]
+[2023-07-09 18:52:26] INFO root fetch - processPackages [bigsort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 18:52:26] INFO root fetch - processPackages [deltafi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 18:52:26] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/d2/79/33e1288ac2437abe604b6539a205c736e9add7c9b3357429fb01e777d335/yanga-0.6.0.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/e0/f2/cc2c8dc02242f468611111899b9e222751a8b49234df6da6f3a2bf5bf526/actionai-0.0.4.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [acc-provision]: Downloading https://files.pythonhosted.org/packages/3d/ef/321608ffc61607a08715d5ef6375ec560faea20675458d22cce7b0172325/acc_provision-5.2.7.1rc4.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/db/99/ce393db9f69a3b96b272123f5151ea6de970088c7738bd466878fa92ed66/cliconfig-1.0.0b4.tar.gz
+[2023-07-09 18:52:26] WARNING root fetch - processPackages [acc-provision]: Skipping package: exceeds size limit 10609530>=10485760
+[2023-07-09 18:52:26] INFO root fetch - main [MainThread]: End processing [acc-provision] error
+[2023-07-09 18:52:26] INFO root fetch - processPackages [bigsort]: Downloading https://files.pythonhosted.org/packages/63/0e/269178f74b4ffe383b855fa41f6d6199d00dace6ad34524be34ebb245ccb/bigsort-0.0.8.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/83/2b/c255d697ac7f15ee65e4169cbff330890061885e19433b553fedf0d4f8cb/deltafi-1.0.3.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/8c/4c/021fd5e840b2b114e67906695cf905a5e075b7c471fdd523748a22793668/actionai-0.0.5.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/a2/a1/8bb8f1fe2a1c4d4d9e90ecb511410b79f06f3d3b03286f7b3afacf80c38f/cliconfig-1.0.0rc1.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [yanga]: Downloading https://files.pythonhosted.org/packages/2b/ee/fea7d5d116e2a37a9e111e4b9f2ce00f13d6074ebdf8f0222e06295f15c6/yanga-0.7.0.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-07-09 18:52:26] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-1.0.0b4.tar.gz tmp/cliconfig-1.0.0rc1.tar.gz --markdown 20230709/c/cliconfig/1.0.0b4-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-09 18:52:26] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/8c/b0/cd28971d8c786cb50ee031042159d0ce1fb56147ad958b9283e0b047d98e/deltafi-1.0.4.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [bigsort]: Downloading https://files.pythonhosted.org/packages/e2/aa/4074788f124d718d45ba0f14f07590779454383cd3b19ea194b7eb516ab1/bigsort-0.0.9.tar.gz
+[2023-07-09 18:52:26] INFO root fetch - processPackages [actionai]: executing diffoscope
+[2023-07-09 18:52:26] INFO root fetch - processPackages [actionai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionai-0.0.4.tar.gz tmp/actionai-0.0.5.tar.gz --markdown 20230709/a/actionai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 18:52:26] INFO root fetch - processPackages [yanga]: executing diffoscope
+[2023-07-09 18:52:26] INFO root fetch - processPackages [yanga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yanga-0.6.0.tar.gz tmp/yanga-0.7.0.tar.gz --markdown 20230709/y/yanga/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-09 18:52:26] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-07-09 18:52:26] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-1.0.3.tar.gz tmp/deltafi-1.0.4.tar.gz --markdown 20230709/d/deltafi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 18:52:26] INFO root fetch - processPackages [bigsort]: executing diffoscope
+[2023-07-09 18:52:26] INFO root fetch - processPackages [bigsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigsort-0.0.8.tar.gz tmp/bigsort-0.0.9.tar.gz --markdown 20230709/b/bigsort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 18:52:27] INFO root fetch - processPackages [bigsort]: Remove: archive file [/home/abi/fetcher/tmp/bigsort-0.0.8.tar.gz]
+[2023-07-09 18:52:27] INFO root fetch - processPackages [bigsort]: Remove: archive file [/home/abi/fetcher/tmp/bigsort-0.0.9.tar.gz]
+[2023-07-09 18:52:27] INFO root fetch - main [MainThread]: End processing [bigsort]: success
+[2023-07-09 18:52:27] INFO root fetch - processPackages [cliconfig]: Remove: archive file [/home/abi/fetcher/tmp/cliconfig-1.0.0b4.tar.gz]
+[2023-07-09 18:52:27] INFO root fetch - processPackages [cliconfig]: Remove: archive file [/home/abi/fetcher/tmp/cliconfig-1.0.0rc1.tar.gz]
+[2023-07-09 18:52:27] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-07-09 18:52:28] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.4.tar.gz]
+[2023-07-09 18:52:28] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.5.tar.gz]
+[2023-07-09 18:52:28] INFO root fetch - main [MainThread]: End processing [actionai]: success
+[2023-07-09 18:52:28] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.6.0.tar.gz]
+[2023-07-09 18:52:28] INFO root fetch - processPackages [yanga]: Remove: archive file [/home/abi/fetcher/tmp/yanga-0.7.0.tar.gz]
+[2023-07-09 18:52:28] INFO root fetch - main [MainThread]: End processing [yanga]: success
+[2023-07-09 18:52:28] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.3.tar.gz]
+[2023-07-09 18:52:28] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.4.tar.gz]
+[2023-07-09 18:52:28] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-07-09 18:52:28] INFO root fetch - main [MainThread]: Store serial: [18821906]

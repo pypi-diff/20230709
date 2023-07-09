@@ -6418,3 +6418,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:09:52] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.1.0b5.zip]
 [2023-07-09 10:09:52] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
 [2023-07-09 10:09:52] INFO root fetch - main [MainThread]: Store serial: [18818919]
+[2023-07-09 10:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818919]
+[2023-07-09 10:15:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power1d
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoMLF
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apisecurityengine-agent
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-shelly-fixgambit
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-screening
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expert-intelligence-toolbox
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoMLF
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoMLF
+[2023-07-09 10:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-07-09 10:15:01] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 10:15:01] INFO root fetch - processPackages [crypto-screening]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-09 10:15:01] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 10:15:01] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixgambit]: Skipping, unable to determine old version
+[2023-07-09 10:15:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixgambit] error
+[2023-07-09 10:15:01] INFO root fetch - processPackages [autoMLF]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 10:15:01] INFO root fetch - processPackages [autoMLF]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 10:15:01] INFO root fetch - processPackages [autoMLF]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 10:15:01] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 10:15:01] INFO root fetch - processPackages [power1d]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-09 10:15:01] WARNING root fetch - processPackages [apisecurityengine-agent]: Skipping, unable to determine old version
+[2023-07-09 10:15:01] INFO root fetch - main [MainThread]: End processing [apisecurityengine-agent] error
+[2023-07-09 10:15:01] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/34/15/2f6e828a4b7f9a1443d0bf373abb034e37a9c1d9f35d82363e74c7f9c97c/crypto-screening-2.3.0.tar.gz
+[2023-07-09 10:15:01] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/b4/02/482250cc554b0216994afb4119505557ea00a78bc01e73e2972edf075ce6/autoMLF-1.0.1.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/b4/02/482250cc554b0216994afb4119505557ea00a78bc01e73e2972edf075ce6/autoMLF-1.0.1.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/b4/02/482250cc554b0216994afb4119505557ea00a78bc01e73e2972edf075ce6/autoMLF-1.0.1.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/5d/ea/44b72458b8cf1168c4d6efe9457b1c33d8962960aa23377ef7b3a1ccca21/power1d-0.1.7.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c6/d0/708f238797ff976ebfde62191055e6c5b8a18803ac10998176623475a573/crypto-screening-2.3.1.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 10:15:02] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.3.0.tar.gz tmp/crypto-screening-2.3.1.tar.gz --markdown 20230709/c/crypto-screening/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-09 10:15:02] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230709/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/f7/41/ba595c0327360d5c4b1e6d685119842f4aa8c1803abe6e26f94ef1a1141c/autoMLF-1.0.2.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/f7/41/ba595c0327360d5c4b1e6d685119842f4aa8c1803abe6e26f94ef1a1141c/autoMLF-1.0.2.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: Downloading https://files.pythonhosted.org/packages/f7/41/ba595c0327360d5c4b1e6d685119842f4aa8c1803abe6e26f94ef1a1141c/autoMLF-1.0.2.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [power1d]: Downloading https://files.pythonhosted.org/packages/d0/5e/4dc0d8f3fb7313b5d29623bc81266c1885335405d4e0ce55ca4631c4c980/power1d-0.1.8.tar.gz
+[2023-07-09 10:15:02] INFO root fetch - processPackages [power1d]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [power1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power1d-0.1.7.tar.gz tmp/power1d-0.1.8.tar.gz --markdown 20230709/p/power1d/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLF-1.0.1.tar.gz tmp/autoMLF-1.0.2.tar.gz --markdown 20230709/a/autoMLF/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLF-1.0.1.tar.gz tmp/autoMLF-1.0.2.tar.gz --markdown 20230709/a/autoMLF/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: executing diffoscope
+[2023-07-09 10:15:02] INFO root fetch - processPackages [autoMLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoMLF-1.0.1.tar.gz tmp/autoMLF-1.0.2.tar.gz --markdown 20230709/a/autoMLF/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 10:15:03] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 10:15:03] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-09 10:15:03] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.3.0.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.3.1.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-09 10:15:03] INFO root fetch - processPackages [autoMLF]: Remove: archive file [/home/abi/fetcher/tmp/autoMLF-1.0.1.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - processPackages [autoMLF]: Remove: archive file [/home/abi/fetcher/tmp/autoMLF-1.0.2.tar.gz]
+[2023-07-09 10:15:03] INFO root fetch - main [MainThread]: End processing [autoMLF]: success
+[2023-07-09 10:15:03] INFO root fetch - main [MainThread]: End processing [autoMLF]: success
+[2023-07-09 10:15:04] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.7.tar.gz]
+[2023-07-09 10:15:04] INFO root fetch - processPackages [power1d]: Remove: archive file [/home/abi/fetcher/tmp/power1d-0.1.8.tar.gz]
+[2023-07-09 10:15:04] INFO root fetch - main [MainThread]: End processing [power1d]: success
+[2023-07-09 10:15:04] INFO root fetch - main [MainThread]: End processing [autoMLF]: success
+[2023-07-09 10:15:04] INFO root fetch - main [MainThread]: Store serial: [18818967]

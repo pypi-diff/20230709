@@ -14355,3 +14355,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:41:57] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.1.tar.gz]
 [2023-07-09 20:41:57] INFO root fetch - main [MainThread]: End processing [pygwidgets]: success
 [2023-07-09 20:41:57] INFO root fetch - main [MainThread]: Store serial: [18822504]
+[2023-07-09 20:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822504]
+[2023-07-09 20:47:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intentify
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygwidgets
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tablarray
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karaoke-generator
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyipp
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylinefinder
+[2023-07-09 20:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataclass-codec
+[2023-07-09 20:47:06] INFO root fetch - processPackages [intentify]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 20:47:06] INFO root fetch - processPackages [dataclass-codec]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-07-09 20:47:06] INFO root fetch - processPackages [pyipp]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-09 20:47:06] INFO root fetch - processPackages [tablarray]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-09 20:47:06] WARNING root fetch - processPackages [pylinefinder]: Skipping, unable to determine old version
+[2023-07-09 20:47:06] INFO root fetch - main [MainThread]: End processing [pylinefinder] error
+[2023-07-09 20:47:06] INFO root fetch - processPackages [pygwidgets]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-09 20:47:06] WARNING root fetch - processPackages [karaoke-generator]: Skipping, unable to determine old version
+[2023-07-09 20:47:06] INFO root fetch - main [MainThread]: End processing [karaoke-generator] error
+[2023-07-09 20:47:06] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/33/b6/f4049ebb01e9a08f9b72b535b9acc4bade42360d4c9e71d8546bff67d66a/dataclass_codec-0.4.1.tar.gz
+[2023-07-09 20:47:06] INFO root fetch - processPackages [pygwidgets]: Downloading https://files.pythonhosted.org/packages/41/86/4115021611b31af6f463a18aca120f285006a737769b1007402a578616cf/pygwidgets-1.1.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [intentify]: Downloading https://files.pythonhosted.org/packages/02/b1/bedae47a9e7df51b7fde798ae9596d5f62cb98d1d300d258d25d5a3f4a82/intentify-0.0.2.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [tablarray]: Downloading https://files.pythonhosted.org/packages/c8/52/2f6e639840b3cc08f31df44eb7f020af04cafdc666829d77192956993d9a/tablarray-0.4.2.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pyipp]: Downloading https://files.pythonhosted.org/packages/6c/d0/232bd2d80f4a5912c5c5c367f7ee9768f01f9053a1f04608c88b65bb2eb5/pyipp-0.9.1.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/65/e8/6c3960327eac9bdf48e726e2d8a38a024b0607eb0201e4c92e668e6f6d93/dataclass_codec-0.5.1.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pygwidgets]: Downloading https://files.pythonhosted.org/packages/c8/fa/24fbfc56c5cad74d8c3b4badbe9ed931d91f06411e21620b14121fa8b229/pygwidgets-1.1.1.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [intentify]: Downloading https://files.pythonhosted.org/packages/76/98/4e2f0361b416c3faa2de447fb42944939703e05a2449f07b6601dd06eb1c/intentify-0.0.3.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [tablarray]: Downloading https://files.pythonhosted.org/packages/53/c6/e84308cf02c8866477ba0f2651a80f0a3dca44a41787e9a395c8011c9a33/tablarray-0.4.3.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pyipp]: Downloading https://files.pythonhosted.org/packages/7c/f3/7c54a2755ba57467e5d583e31cbb092f3a46e374b162ed363edb4dccab45/pyipp-0.9.2.tar.gz
+[2023-07-09 20:47:07] INFO root fetch - processPackages [dataclass-codec]: executing diffoscope
+[2023-07-09 20:47:07] INFO root fetch - processPackages [dataclass-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_codec-0.4.1.tar.gz tmp/dataclass_codec-0.5.1.tar.gz --markdown 20230709/d/dataclass-codec/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-07-09 20:47:07] INFO root fetch - processPackages [intentify]: executing diffoscope
+[2023-07-09 20:47:07] INFO root fetch - processPackages [intentify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intentify-0.0.2.tar.gz tmp/intentify-0.0.3.tar.gz --markdown 20230709/i/intentify/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 20:47:07] INFO root fetch - processPackages [tablarray]: executing diffoscope
+[2023-07-09 20:47:07] INFO root fetch - processPackages [tablarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablarray-0.4.2.tar.gz tmp/tablarray-0.4.3.tar.gz --markdown 20230709/t/tablarray/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pygwidgets]: executing diffoscope
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pygwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwidgets-1.1.tar.gz tmp/pygwidgets-1.1.1.tar.gz --markdown 20230709/p/pygwidgets/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pyipp]: executing diffoscope
+[2023-07-09 20:47:07] INFO root fetch - processPackages [pyipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipp-0.9.1.tar.gz tmp/pyipp-0.9.2.tar.gz --markdown 20230709/p/pyipp/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-09 20:47:08] INFO root fetch - processPackages [intentify]: Remove: archive file [/home/abi/fetcher/tmp/intentify-0.0.2.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - processPackages [intentify]: Remove: archive file [/home/abi/fetcher/tmp/intentify-0.0.3.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - main [MainThread]: End processing [intentify]: success
+[2023-07-09 20:47:08] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.4.1.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.5.1.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - main [MainThread]: End processing [dataclass-codec]: success
+[2023-07-09 20:47:08] INFO root fetch - processPackages [pyipp]: Remove: archive file [/home/abi/fetcher/tmp/pyipp-0.9.1.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - processPackages [pyipp]: Remove: archive file [/home/abi/fetcher/tmp/pyipp-0.9.2.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - main [MainThread]: End processing [pyipp]: success
+[2023-07-09 20:47:08] INFO root fetch - processPackages [tablarray]: Remove: archive file [/home/abi/fetcher/tmp/tablarray-0.4.2.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - processPackages [tablarray]: Remove: archive file [/home/abi/fetcher/tmp/tablarray-0.4.3.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - main [MainThread]: End processing [tablarray]: success
+[2023-07-09 20:47:08] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.1.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.1.1.tar.gz]
+[2023-07-09 20:47:08] INFO root fetch - main [MainThread]: End processing [pygwidgets]: success
+[2023-07-09 20:47:08] INFO root fetch - main [MainThread]: Store serial: [18822528]

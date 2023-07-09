@@ -10525,3 +10525,264 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 16:26:22] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.0.tar.gz]
 [2023-07-09 16:26:22] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
 [2023-07-09 16:26:22] INFO root fetch - main [MainThread]: Store serial: [18820849]
+[2023-07-09 16:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820849]
+[2023-07-09 16:31:31] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaphor
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtstools
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: re-yaml-common
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zein
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runweb
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FedArtML
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tidydata
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apache-airflow-providers-alibaba
+[2023-07-09 16:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apache-airflow-providers-apache-hive
+[2023-07-09 16:31:31] INFO root fetch - processPackages [runweb]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [dtstools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [gaphor]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [tidydata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 16:31:31] WARNING root fetch - processPackages [re-yaml-common]: Skipping, unable to determine old version
+[2023-07-09 16:31:31] INFO root fetch - processPackages [re-yaml-common]: Start processing: apache-airflow-providers-apache-impala
+[2023-07-09 16:31:31] INFO root fetch - main [MainThread]: End processing [re-yaml-common] error
+[2023-07-09 16:31:31] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: New version: [6.1.2rc2] Old Version: [6.1.2]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: New version: [2.5.0rc2] Old Version: [2.5.0rc1]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: New version: [1.1.2rc2] Old Version: [1.1.2]
+[2023-07-09 16:31:31] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 16:31:31] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 16:31:31] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/f2/e0/c2df23cf55a2dc762d772ef2cb885e353d6a7a6311f9377fbc3601775946/FedArtML-0.1.8.tar.gz
+[2023-07-09 16:31:31] INFO root fetch - processPackages [runweb]: Downloading https://files.pythonhosted.org/packages/db/4d/39cc8c6d7df222ff226237e9aab699977eaf58e820a05c6356f3b22a0702/runweb-0.3.1.tar.gz
+[2023-07-09 16:31:31] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/31/8a/84b149e8a2e891aa6bb04a5512b3b6da3b9f24c59327c1cba3f7a1211a76/tidydata-0.1.1.tar.gz
+[2023-07-09 16:31:31] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Downloading https://files.pythonhosted.org/packages/90/e1/171dfab86b0b2f77ab2e0d9b9161c1fed7a34b7ee8cf36613c4208e97662/apache-airflow-providers-apache-hive-6.1.2.tar.gz
+[2023-07-09 16:31:31] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/9c/db/e85147b67451dd40de73cb9fdcd876dad14132a5c03c0bf7a810e8413f65/dtstools-0.0.6.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/e1/05/90c1ad0f606bce93a48d91ddc271ce70e76329a5d75c6db6433a2a1fd963/gaphor-2.9.1.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Downloading https://files.pythonhosted.org/packages/09/fb/5c63a2f1779b297afd255e3a57c52600cecd295dde7144e8c44ec08804d6/apache-airflow-providers-alibaba-2.5.0rc1.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Downloading https://files.pythonhosted.org/packages/fc/ea/6bb9dd5013b77995f8d4e442e159de7337d52d9f50e4938df781486e5200/apache-airflow-providers-apache-impala-1.1.2.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [runweb]: Downloading https://files.pythonhosted.org/packages/58/9d/b72113e5c6c417250117272bc27f6bf167f39501a3c236cf44137fbf9636/runweb-0.4.0.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/de/e6/ab18816cc3c39ef8e82cd3a97ea96688dfc6275ec43dfd5381eda096e0a7/tidydata-0.1.2.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/0a/94/b61ceef3453a40e867bc492d0735715ec87b4c48ca7677590efb92d934cc/dtstools-0.0.7.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Downloading https://files.pythonhosted.org/packages/e5/90/e74618c6b8f6fcae059314ee8a0d764c38dc0ae7df5a8e14a50573304f28/apache-airflow-providers-alibaba-2.5.0rc2.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [tidydata]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [tidydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidydata-0.1.1.tar.gz tmp/tidydata-0.1.2.tar.gz --markdown 20230709/t/tidydata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [runweb]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [runweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runweb-0.3.1.tar.gz tmp/runweb-0.4.0.tar.gz --markdown 20230709/r/runweb/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.6.tar.gz tmp/dtstools-0.0.7.tar.gz --markdown 20230709/d/dtstools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Downloading https://files.pythonhosted.org/packages/bf/30/05ae75950f716139d88ef4a7ce2af6802dc649b7865340a0cbe4a2136780/apache-airflow-providers-apache-hive-6.1.2rc2.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230709/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-alibaba-2.5.0rc1.tar.gz tmp/apache-airflow-providers-alibaba-2.5.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-alibaba/2.5.0rc1-2.5.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/37/ad/c5079ad568ff279c0469364f4ab40d0c37418d6c55c91804896bf551f07d/gaphor-2.9.2.tar.gz
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: executing diffoscope
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-hive-6.1.2.tar.gz tmp/apache-airflow-providers-apache-hive-6.1.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-apache-hive/6.1.2-6.1.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:32] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Downloading https://files.pythonhosted.org/packages/c9/82/26e79b4cf7e9d1482556f000b9dd0e0915849f757c39f04409cd94ae645c/apache-airflow-providers-apache-impala-1.1.2rc2.tar.gz
+[2023-07-09 16:31:33] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: executing diffoscope
+[2023-07-09 16:31:33] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-impala-1.1.2.tar.gz tmp/apache-airflow-providers-apache-impala-1.1.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-apache-impala/1.1.2-1.1.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:33] INFO root fetch - processPackages [gaphor]: executing diffoscope
+[2023-07-09 16:31:33] INFO root fetch - processPackages [gaphor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaphor-2.9.1.tar.gz tmp/gaphor-2.9.2.tar.gz --markdown 20230709/g/gaphor/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-09 16:31:33] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 16:31:33] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 16:31:33] INFO root fetch - processPackages [nwebclient]: Start processing: fastapicord
+[2023-07-09 16:31:33] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 16:31:33] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 16:31:33] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 16:31:33] INFO root fetch - processPackages [zein]: Start processing: apache-airflow-providers-apache-kafka
+[2023-07-09 16:31:33] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 16:31:33] WARNING root fetch - processPackages [fastapicord]: Skipping, unable to determine old version
+[2023-07-09 16:31:33] INFO root fetch - processPackages [fastapicord]: Start processing: apache-airflow-providers-apache-livy
+[2023-07-09 16:31:33] INFO root fetch - main [MainThread]: End processing [fastapicord] error
+[2023-07-09 16:31:33] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: New version: [1.1.2rc2] Old Version: [1.1.2rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: New version: [3.5.2rc2] Old Version: [3.5.2rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.1.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.2.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [tidydata]: Start processing: apache-airflow-providers-apprise
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [tidydata]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [runweb]: Remove: archive file [/home/abi/fetcher/tmp/runweb-0.3.1.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [runweb]: Remove: archive file [/home/abi/fetcher/tmp/runweb-0.4.0.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [runweb]: Start processing: apache-airflow-providers-cncf-kubernetes
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [runweb]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apprise]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: New version: [7.2.0rc2] Old Version: [7.2.0rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.6.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.7.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [dtstools]: Start processing: apache-airflow-providers-common-sql
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [dtstools]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Downloading https://files.pythonhosted.org/packages/d2/95/e6534d7c2156c7427a5fa41c3db71567c59aa3a801bc19b9d1d3de11a844/apache-airflow-providers-apache-kafka-1.1.2rc1.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: New version: [1.6.0rc2] Old Version: [1.6.0rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Downloading https://files.pythonhosted.org/packages/63/63/877522191696f0e6200b662a151d22824c11e36c970ea33a6f9b7ce0f4ed/apache-airflow-providers-apache-livy-3.5.2rc1.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.8.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.9.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-alibaba-2.5.0rc1.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [FedArtML]: Start processing: apache-airflow-providers-databricks
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-alibaba-2.5.0rc2.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Start processing: zein
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-alibaba]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/56/16/a9a2c4e27154395a50f5e6ec90b5d28792fc15e7fdc2460edf66b49b8754/apache-airflow-providers-cncf-kubernetes-7.2.0rc1.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-hive-6.1.2.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-hive-6.1.2rc2.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Start processing: apache-airflow-providers-dbt-cloud
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-hive]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apprise]: Downloading https://files.pythonhosted.org/packages/10/af/91b620436a30847a3d264472afaa4a2ba87650b12b34c31624900493c30d/apache-airflow-providers-apprise-1.0.0rc1.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-databricks]: New version: [4.3.1rc2] Old Version: [4.3.1rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: New version: [3.2.2rc2] Old Version: [3.2.2]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-impala-1.1.2.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-impala-1.1.2rc2.tar.gz]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-impala]: Start processing: apache-airflow-providers-google
+[2023-07-09 16:31:34] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-impala]: success
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Downloading https://files.pythonhosted.org/packages/dd/d7/1f089c1c9dcbf3663da9b76112ceb0511f424128abe1321fb7f965ab6c09/apache-airflow-providers-common-sql-1.6.0rc1.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-google]: New version: [9.0.0rc2] Old Version: [9.0.0rc1]
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/f4/ea/ed808947a8fdb5fc3829dabe2ed7b8226af1bbeead36b2c4c08f458d5fec/apache-airflow-providers-dbt-cloud-3.2.2.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Downloading https://files.pythonhosted.org/packages/e1/2f/4fe9bae4b2f43e39de0632092f0fce5c666f7ac44043a27d398da5057dd6/apache-airflow-providers-apache-kafka-1.1.2rc2.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Downloading https://files.pythonhosted.org/packages/37/e3/43f6e640ecac310312f078a7e5cade1a935fe0deeead65595d91887b30bf/apache-airflow-providers-databricks-4.3.1rc1.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Downloading https://files.pythonhosted.org/packages/f6/d7/1e4141b107211ffe4ca5a7f43b2784dfea9ab7b98ee397d078d4a6fdc04c/apache-airflow-providers-apache-livy-3.5.2rc2.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/c2/c7/36093025684fadc31899784bb0f276ee24a440fba0047ece9d2208229430/apache-airflow-providers-cncf-kubernetes-7.2.0rc2.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: executing diffoscope
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-kafka-1.1.2rc1.tar.gz tmp/apache-airflow-providers-apache-kafka-1.1.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-apache-kafka/1.1.2rc1-1.1.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: executing diffoscope
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-livy-3.5.2rc1.tar.gz tmp/apache-airflow-providers-apache-livy-3.5.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-apache-livy/3.5.2rc1-3.5.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: executing diffoscope
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-cncf-kubernetes-7.2.0rc1.tar.gz tmp/apache-airflow-providers-cncf-kubernetes-7.2.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-cncf-kubernetes/7.2.0rc1-7.2.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:34] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Downloading https://files.pythonhosted.org/packages/0b/69/9e720909d97ab18c14b4188927260efaf1dbc3f3df27563a63914acd16ac/apache-airflow-providers-common-sql-1.6.0rc2.tar.gz
+[2023-07-09 16:31:35] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 16:31:35] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-apprise]: Downloading https://files.pythonhosted.org/packages/af/bc/f347ad76bfae56c045abe0fce643bea68a83357227289863e0589e4a82c7/apache-airflow-providers-apprise-1.0.0rc2.tar.gz
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Downloading https://files.pythonhosted.org/packages/76/f4/abf0359203204eb331bbb51c3005b70c54e3ebc57f73d92361cb2d16f8df/apache-airflow-providers-databricks-4.3.1rc2.tar.gz
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-google]: Downloading https://files.pythonhosted.org/packages/d7/dd/8d2856a3ac1d0826f5dd152fe38a7f0562702f229e4a444c7ea5911e3174/apache-airflow-providers-google-9.0.0rc1.tar.gz
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: executing diffoscope
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-common-sql-1.6.0rc1.tar.gz tmp/apache-airflow-providers-common-sql-1.6.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-common-sql/1.6.0rc1-1.6.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/17/a9/f2631fa6caee070d134420e27ef1eceb5450993b7e10fd6f5f25e908bf09/apache-airflow-providers-dbt-cloud-3.2.2rc2.tar.gz
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-apprise]: executing diffoscope
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-apprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apprise-1.0.0rc1.tar.gz tmp/apache-airflow-providers-apprise-1.0.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-apprise/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-databricks]: executing diffoscope
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-databricks-4.3.1rc1.tar.gz tmp/apache-airflow-providers-databricks-4.3.1rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-databricks/4.3.1rc1-4.3.1rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: executing diffoscope
+[2023-07-09 16:31:35] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-dbt-cloud-3.2.2.tar.gz tmp/apache-airflow-providers-dbt-cloud-3.2.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-dbt-cloud/3.2.2-3.2.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-google]: Downloading https://files.pythonhosted.org/packages/c9/a9/4d2d2be9368e88a481079184119d20b7f5a9d7e3f56f7303b1bf2508169b/apache-airflow-providers-google-9.0.0rc2.tar.gz
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-kafka-1.1.2rc1.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-kafka-1.1.2rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apache-kafka]: Start processing: apache-airflow-providers-hashicorp
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-kafka]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-livy-3.5.2rc1.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-livy-3.5.2rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apache-livy]: Start processing: apache-airflow-providers-microsoft-azure
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-livy]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [zein]: Start processing: apache-airflow-providers-postgres
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: New version: [3.4.2rc2] Old Version: [3.4.2rc1]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-postgres]: New version: [5.5.2rc2] Old Version: [5.5.2]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: New version: [6.2.0rc2] Old Version: [6.2.0rc1]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-cncf-kubernetes-7.2.0rc1.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-cncf-kubernetes-7.2.0rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Start processing: apache-airflow-providers-snowflake
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-cncf-kubernetes]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-google]: executing diffoscope
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-google-9.0.0rc1.tar.gz tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-google/9.0.0rc1-9.0.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-common-sql-1.6.0rc1.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-common-sql-1.6.0rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Start processing: apache-airflow-providers-trino
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-common-sql]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: New version: [4.3.0rc2] Old Version: [4.3.0]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apprise]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apprise-1.0.0rc1.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apprise]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apprise-1.0.0rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-apprise]: Start processing: apache-airflow-providers-vertica
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apprise]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-postgres]: Downloading https://files.pythonhosted.org/packages/e6/03/4c3695eee9f4857024c92777a8ffd070d8c12d59669c2a4e746c3a4123f7/apache-airflow-providers-postgres-5.5.2.tar.gz
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-trino]: New version: [5.2.0rc2] Old Version: [5.2.0rc1]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: Downloading https://files.pythonhosted.org/packages/4e/c7/3a15d188cb63a0cee99e612853ee8db891076aa6bcbf58f3f1bdb97ce549/apache-airflow-providers-hashicorp-3.4.2rc1.tar.gz
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-databricks-4.3.1rc1.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-databricks-4.3.1rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Start processing: checkov
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-databricks]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Downloading https://files.pythonhosted.org/packages/bc/27/70e112dd30ad9c0ab27e6e494da3fe24c95fbab6a55c626d35dc88e78761/apache-airflow-providers-snowflake-4.3.0.tar.gz
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Downloading https://files.pythonhosted.org/packages/da/b1/4aeb9cebb9e97f617cfbb709766cafbbf701aae9b69a000b17bd46c36f51/apache-airflow-providers-microsoft-azure-6.2.0rc1.tar.gz
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-vertica]: New version: [3.5.0rc2] Old Version: [3.5.0rc1]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-dbt-cloud-3.2.2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-dbt-cloud-3.2.2rc2.tar.gz]
+[2023-07-09 16:31:36] INFO root fetch - processPackages [apache-airflow-providers-dbt-cloud]: Start processing: BlaApi
+[2023-07-09 16:31:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-dbt-cloud]: success
+[2023-07-09 16:31:36] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-09 16:31:37] INFO root fetch - processPackages [BlaApi]: New version: [1.6] Old Version: [1.5]
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-trino]: Downloading https://files.pythonhosted.org/packages/3b/e7/df33381b26a328fc9203aa91fb47c753884c473adc2e86e3745a366ee36a/apache-airflow-providers-trino-5.2.0rc1.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-vertica]: Downloading https://files.pythonhosted.org/packages/8c/38/13ebbae2763d6fa0a605ab3132c56bee30aac94d4ba4a4028713b154a68f/apache-airflow-providers-vertica-3.5.0rc1.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [BlaApi]: Downloading https://files.pythonhosted.org/packages/b9/8e/26761f5b5bcb9f21c02606590a0f3413f4bf7e2ddcb4e50716b3216a4263/BlaApi-1.5.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-postgres]: Downloading https://files.pythonhosted.org/packages/01/db/1d39d6671880a848c539e29b4e196d82ab9dfb05c03abe78f6692ac6491d/apache-airflow-providers-postgres-5.5.2rc2.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Downloading https://files.pythonhosted.org/packages/a0/09/91cf9d69ef021ca2f6eaec6be6e96100b804e0d28c2a86cf6ec0906bee9c/apache-airflow-providers-microsoft-azure-6.2.0rc2.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: Downloading https://files.pythonhosted.org/packages/f4/f9/a99f3337700247f59fa9297e35da8e749c745b62c30df2cd0d8bbad71a13/apache-airflow-providers-hashicorp-3.4.2rc2.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Downloading https://files.pythonhosted.org/packages/01/09/ef6bf52c81973efac1ece5fd7881864a01824b8a1628cafd49fc39dcf903/apache-airflow-providers-snowflake-4.3.0rc2.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-trino]: Downloading https://files.pythonhosted.org/packages/7c/d4/14096b27540709fe388b117fe13c6188d58e1b4ebda2293e2649cbe82a1b/apache-airflow-providers-trino-5.2.0rc2.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-postgres]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-postgres-5.5.2.tar.gz tmp/apache-airflow-providers-postgres-5.5.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-postgres/5.5.2-5.5.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-microsoft-azure-6.2.0rc1.tar.gz tmp/apache-airflow-providers-microsoft-azure-6.2.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-microsoft-azure/6.2.0rc1-6.2.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-snowflake-4.3.0.tar.gz tmp/apache-airflow-providers-snowflake-4.3.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-snowflake/4.3.0-4.3.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-vertica]: Downloading https://files.pythonhosted.org/packages/50/e6/14725c8263507f8d2074f8ad6577a23e13f89e1e0e15200b528c65754b9f/apache-airflow-providers-vertica-3.5.0rc2.tar.gz
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-hashicorp-3.4.2rc1.tar.gz tmp/apache-airflow-providers-hashicorp-3.4.2rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-hashicorp/3.4.2rc1-3.4.2rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-trino]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-trino-5.2.0rc1.tar.gz tmp/apache-airflow-providers-trino-5.2.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-trino/5.2.0rc1-5.2.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230709/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-vertica]: executing diffoscope
+[2023-07-09 16:31:37] INFO root fetch - processPackages [apache-airflow-providers-vertica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-vertica-3.5.0rc1.tar.gz tmp/apache-airflow-providers-vertica-3.5.0rc2.tar.gz --markdown 20230709/a/apache-airflow-providers-vertica/3.5.0rc1-3.5.0rc2/diff.md --exclude *.pyd
+[2023-07-09 16:31:37] INFO root fetch - processPackages [BlaApi]: Downloading https://files.pythonhosted.org/packages/32/ba/205fc4a3fce7d075b8d808dbfa7060c139a7db97b7389abe81e237ada1cb/BlaApi-1.6.tar.gz
+[2023-07-09 16:31:38] INFO root fetch - processPackages [BlaApi]: executing diffoscope
+[2023-07-09 16:31:38] INFO root fetch - processPackages [BlaApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlaApi-1.5.tar.gz tmp/BlaApi-1.6.tar.gz --markdown 20230709/B/BlaApi/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-postgres]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-postgres-5.5.2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-postgres]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-postgres-5.5.2rc2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-postgres]: Start processing: omnivorex
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-postgres]: success
+[2023-07-09 16:31:39] INFO root fetch - processPackages [omnivorex]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-hashicorp-3.4.2rc1.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-hashicorp]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-hashicorp-3.4.2rc2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-hashicorp]: success
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-trino]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-trino-5.2.0rc1.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-trino]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-trino-5.2.0rc2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-trino]: success
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-snowflake-4.3.0.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-snowflake-4.3.0rc2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-snowflake]: success
+[2023-07-09 16:31:39] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/c1/b9/74ace9142cfb3928133349ca2c87d6c362d96238481abb71f119330ec6ed/omnivorex-0.0.1.tar.gz
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-vertica]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-vertica-3.5.0rc1.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-vertica]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-vertica-3.5.0rc2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-vertica]: success
+[2023-07-09 16:31:39] INFO root fetch - processPackages [BlaApi]: Remove: archive file [/home/abi/fetcher/tmp/BlaApi-1.5.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [BlaApi]: Remove: archive file [/home/abi/fetcher/tmp/BlaApi-1.6.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [BlaApi]: success
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-microsoft-azure-6.2.0rc1.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-microsoft-azure-6.2.0rc2.tar.gz]
+[2023-07-09 16:31:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-microsoft-azure]: success
+[2023-07-09 16:31:40] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/d1/bb/0d4208fb6aafa19f533d31f3376a15b09e16f3b9473ac178364397b692bc/omnivorex-0.0.2.tar.gz
+[2023-07-09 16:31:40] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 16:31:40] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.1.tar.gz tmp/omnivorex-0.0.2.tar.gz --markdown 20230709/o/omnivorex/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 16:31:41] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.1.tar.gz]
+[2023-07-09 16:31:41] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.2.tar.gz]
+[2023-07-09 16:31:41] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 16:31:41] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.1.tar.gz]
+[2023-07-09 16:31:41] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
+[2023-07-09 16:31:41] INFO root fetch - main [MainThread]: End processing [gaphor]: success
+[2023-07-09 16:31:49] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc1.tar.gz]
+[2023-07-09 16:31:49] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
+[2023-07-09 16:31:49] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
+[2023-07-09 16:31:52] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-09 16:31:52] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-09 16:31:52] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-09 16:31:52] INFO root fetch - main [MainThread]: Store serial: [18820939]

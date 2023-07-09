@@ -15440,3 +15440,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:10:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
 [2023-07-09 22:10:38] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
 [2023-07-09 22:10:38] INFO root fetch - main [MainThread]: Store serial: [18822971]
+[2023-07-09 22:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822971]
+[2023-07-09 22:15:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: make-argocd-fly
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfst
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karaoke-generator
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WifiOrca
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idownload
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystval
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wigglerapi
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-command-line
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: secretbox
+[2023-07-09 22:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpterm-tool
+[2023-07-09 22:15:47] INFO root fetch - processPackages [gpt-command-line]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [kfst]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [karaoke-generator]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [gpterm-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 22:15:47] WARNING root fetch - processPackages [pystval]: Skipping, unable to determine old version
+[2023-07-09 22:15:47] INFO root fetch - processPackages [pystval]: Start processing: revwhox
+[2023-07-09 22:15:47] INFO root fetch - main [MainThread]: End processing [pystval] error
+[2023-07-09 22:15:47] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [wigglerapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [idownload]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [secretbox]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-07-09 22:15:47] WARNING root fetch - processPackages [revwhox]: Skipping, unable to determine old version
+[2023-07-09 22:15:47] INFO root fetch - processPackages [revwhox]: Start processing: karaoke-generator
+[2023-07-09 22:15:47] INFO root fetch - main [MainThread]: End processing [revwhox] error
+[2023-07-09 22:15:47] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/27/11/44f74a81003a2207eb0fbfb609c23a1e9574b11c5a39c066f9b6b7364b1c/idownload-1.0.1-py3-none-any.whl
+[2023-07-09 22:15:47] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 22:15:47] INFO root fetch - processPackages [wigglerapi]: Downloading https://files.pythonhosted.org/packages/33/59/08331b9f8535004c248b09a9ea2d84598f0794903f1ab84090b72eb8d09e/wigglerapi-0.0.6.tar.gz
+[2023-07-09 22:15:47] INFO root fetch - processPackages [karaoke-generator]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-09 22:15:47] INFO root fetch - processPackages [karaoke-generator]: Downloading https://files.pythonhosted.org/packages/47/89/ba14d0e241c998f16029387d07d2334bceeca6e0029b24924e219a56a3b9/karaoke_generator-0.4.2.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [kfst]: Downloading https://files.pythonhosted.org/packages/75/8e/d38e988ebf240b70f81488dfed97ee4cbc57cc75da78c3db18a1e86c1683/kfst-1.1.1.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/f6/46/e34002a12188742dbdc1b4f71bf4228c6863c8f68656dfda1b37edba77cf/gpt-command-line-0.1.0.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/e1/76/b84109271ddeb3ce642fe2b42d7a08bcb6e8dbe243c1883e92a285425d5f/make_argocd_fly-0.0.8.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpterm-tool]: Downloading https://files.pythonhosted.org/packages/53/42/ad90c5d046511ad1411ca4552705791b267916b196b61226d15bea3401c8/gpterm-tool-0.0.1.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [secretbox]: Downloading https://files.pythonhosted.org/packages/b4/b3/fb64f6565490da7323c8a0c0fad48fea15b497d04d821670b3b8457b52af/secretbox-2.7.0.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: Downloading https://files.pythonhosted.org/packages/47/89/ba14d0e241c998f16029387d07d2334bceeca6e0029b24924e219a56a3b9/karaoke_generator-0.4.2.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/69/dc/14d66869be66d0dc3c00c88745c8fb0352b0ac1b9d63c000cd7ca52d04bc/idownload-1.1.0-py3-none-any.whl
+[2023-07-09 22:15:48] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [wigglerapi]: Downloading https://files.pythonhosted.org/packages/90/c3/bf4a929bfc0e9303d6d2fc9ecd8c52744b8bdd0b68dd64c6a1dded600708/wigglerapi-0.0.7.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: Downloading https://files.pythonhosted.org/packages/b4/92/0f97c8a9e3c39128e45bad4dee32871f103ce9e040cbb8fba963c863b71f/karaoke_generator-0.4.3.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: Downloading https://files.pythonhosted.org/packages/b4/92/0f97c8a9e3c39128e45bad4dee32871f103ce9e040cbb8fba963c863b71f/karaoke_generator-0.4.3.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [kfst]: Downloading https://files.pythonhosted.org/packages/6e/1e/168526504c26c61b714aad126b09cbb770fc4035d7b3b05eb5dd2fdfaae5/kfst-1.2.0.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [idownload]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [idownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idownload-1.0.1-py3-none-any.whl.zip tmp/idownload-1.1.0-py3-none-any.whl.zip --markdown 20230709/i/idownload/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/17/f7/c55e82d852dda67abd8d9dafec9ff6adc69734788ff11715d7fa5489256a/make_argocd_fly-0.0.9.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpterm-tool]: Downloading https://files.pythonhosted.org/packages/42/21/45d0028c278b1a5f2811542201568da0a772bf47a093870e7b33a0dc1362/gpterm-tool-0.0.2.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/b4/f3/804954a3fa52e83e877776fa3a155aeaea3902906cb473664d38b2b81243/gpt-command-line-0.1.1.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [secretbox]: Downloading https://files.pythonhosted.org/packages/5b/c7/66d923729c9a20cefb9bbd3aed38f2fa0b8a06c1428f647ff0242642ca9b/secretbox-2.8.0.tar.gz
+[2023-07-09 22:15:48] INFO root fetch - processPackages [wigglerapi]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [wigglerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wigglerapi-0.0.6.tar.gz tmp/wigglerapi-0.0.7.tar.gz --markdown 20230709/w/wigglerapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karaoke_generator-0.4.2.tar.gz tmp/karaoke_generator-0.4.3.tar.gz --markdown 20230709/k/karaoke-generator/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [kfst]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [kfst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfst-1.1.1.tar.gz tmp/kfst-1.2.0.tar.gz --markdown 20230709/k/kfst/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [karaoke-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karaoke_generator-0.4.2.tar.gz tmp/karaoke_generator-0.4.3.tar.gz --markdown 20230709/k/karaoke-generator/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.8.tar.gz tmp/make_argocd_fly-0.0.9.tar.gz --markdown 20230709/m/make-argocd-fly/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpt-command-line]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpt-command-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-command-line-0.1.0.tar.gz tmp/gpt-command-line-0.1.1.tar.gz --markdown 20230709/g/gpt-command-line/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpterm-tool]: executing diffoscope
+[2023-07-09 22:15:48] INFO root fetch - processPackages [gpterm-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpterm-tool-0.0.1.tar.gz tmp/gpterm-tool-0.0.2.tar.gz --markdown 20230709/g/gpterm-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 22:15:49] INFO root fetch - processPackages [secretbox]: executing diffoscope
+[2023-07-09 22:15:49] INFO root fetch - processPackages [secretbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretbox-2.7.0.tar.gz tmp/secretbox-2.8.0.tar.gz --markdown 20230709/s/secretbox/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-07-09 22:15:50] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-1.0.1-py3-none-any.whl.zip]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-1.1.0-py3-none-any.whl.zip]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [idownload]: Start processing: lyrics-transcriber
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [idownload]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/20/da/5c10fac145a8b4673a26fbc36b403f9baa0134b3dfd4646f80286aed3fa2/lyrics_transcriber-0.6.2.tar.gz
+[2023-07-09 22:15:50] INFO root fetch - processPackages [karaoke-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_generator-0.4.2.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [karaoke-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_generator-0.4.3.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [karaoke-generator]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [wigglerapi]: Remove: archive file [/home/abi/fetcher/tmp/wigglerapi-0.0.6.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [wigglerapi]: Remove: archive file [/home/abi/fetcher/tmp/wigglerapi-0.0.7.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [wigglerapi]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [kfst]: Remove: archive file [/home/abi/fetcher/tmp/kfst-1.1.1.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [kfst]: Remove: archive file [/home/abi/fetcher/tmp/kfst-1.2.0.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [kfst]: success
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [karaoke-generator]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/12/39/400ca521afe5c93c5a76b412ebd8260754bd5c252f96cb79c641e7bb88d3/lyrics_transcriber-0.6.3.tar.gz
+[2023-07-09 22:15:50] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.8.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.9.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [secretbox]: Remove: archive file [/home/abi/fetcher/tmp/secretbox-2.7.0.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [secretbox]: Remove: archive file [/home/abi/fetcher/tmp/secretbox-2.8.0.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [secretbox]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [gpterm-tool]: Remove: archive file [/home/abi/fetcher/tmp/gpterm-tool-0.0.1.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [gpterm-tool]: Remove: archive file [/home/abi/fetcher/tmp/gpterm-tool-0.0.2.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [gpterm-tool]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.0.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.1.tar.gz]
+[2023-07-09 22:15:50] INFO root fetch - main [MainThread]: End processing [gpt-command-line]: success
+[2023-07-09 22:15:50] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-09 22:15:50] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.6.2.tar.gz tmp/lyrics_transcriber-0.6.3.tar.gz --markdown 20230709/l/lyrics-transcriber/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-09 22:15:51] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.2.tar.gz]
+[2023-07-09 22:15:51] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.3.tar.gz]
+[2023-07-09 22:15:51] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-09 22:15:51] INFO root fetch - main [MainThread]: Store serial: [18823017]

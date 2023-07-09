@@ -8101,3 +8101,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:01:22] INFO root fetch - processPackages [ngstents]: Remove: archive file [/home/abi/fetcher/tmp/ngstents-0.0.1.post2-cp39-cp39-macosx_10_15_universal2.whl.zip]
 [2023-07-09 13:01:22] INFO root fetch - main [MainThread]: End processing [ngstents]: success
 [2023-07-09 13:01:22] INFO root fetch - main [MainThread]: Store serial: [18819703]
+[2023-07-09 13:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819703]
+[2023-07-09 13:06:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: szh_toolbox
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-magic
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: szh_toolbox
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-func
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iitkgp-erp
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyfi
+[2023-07-09 13:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wcc-timetable-generator
+[2023-07-09 13:06:31] INFO root fetch - processPackages [szh_toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [contact-magic]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [image-func]: New version: [1.0.5] Old Version: [1.0.1]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [iitkgp-erp]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [hyfi]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [szh_toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 13:06:31] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/cb/67/237e4c6ec3369a179923252da175e322bfbd489ca7ce65592c21e16e2223/image_func-1.0.1.tar.gz
+[2023-07-09 13:06:31] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/fe/c9/faccb4efc3a5068f22b0c3dfb03d9a4c4f308f0ae08bb724b9269a0f8d84/szh_toolbox-0.0.8.tar.gz
+[2023-07-09 13:06:31] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/fe/c9/faccb4efc3a5068f22b0c3dfb03d9a4c4f308f0ae08bb724b9269a0f8d84/szh_toolbox-0.0.8.tar.gz
+[2023-07-09 13:06:31] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/bf/5c/9918ab175ae8db799ac6814e2eea49da9c4c56d646874447c18aab0f8262/hyfi-1.2.0.tar.gz
+[2023-07-09 13:06:31] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/b7/c3/437236563bef21aa0fd14aec024328b87b1babac6e66b051ce27f15be476/wcc-timetable-generator-1.1.1.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/af/f3/10ebe3ac013eabae9c731d1a3df088400ac0649475dfe6b92eb21fdc0fa4/contact_magic-0.5.1.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [iitkgp-erp]: Downloading https://files.pythonhosted.org/packages/66/c9/a96d24ac359cd929ef904529b2deb2d761d51813d9f43d5eb8ba7b4231a6/iitkgp-erp-0.1.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/81/fc/b545a4b0669f037c0aad69764307da3f1005598cf076c9d65b157ca61dbd/szh_toolbox-0.0.9.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/81/fc/b545a4b0669f037c0aad69764307da3f1005598cf076c9d65b157ca61dbd/szh_toolbox-0.0.9.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [szh_toolbox]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [szh_toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szh_toolbox-0.0.8.tar.gz tmp/szh_toolbox-0.0.9.tar.gz --markdown 20230709/s/szh_toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:06:32] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/eb/b5/ccea14e162306090389c008b0bb5603f17acc42d935cb3fede292e41eb93/wcc-timetable-generator-1.1.2.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/1c/17/d901f4458571c8b676df26f581c9a7eeb562b03e37f27366701980bc0af0/hyfi-1.2.1.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/42/8b/719474ee8320af6425a27b00a672d2569d498828b7bee093b5f64caa14c2/image_func-1.0.5.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [szh_toolbox]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [szh_toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szh_toolbox-0.0.8.tar.gz tmp/szh_toolbox-0.0.9.tar.gz --markdown 20230709/s/szh_toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:06:32] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/f7/71/5cdc09e73e6a3bbe14f9df3882412999e839e8d612a02144be1660eac3e2/contact_magic-0.5.2.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [iitkgp-erp]: Downloading https://files.pythonhosted.org/packages/a7/41/037f6b07aed6c11b16808c472730f8a5cd83e6d49c3bc3c1f981e5364d96/iitkgp-erp-0.1.1.tar.gz
+[2023-07-09 13:06:32] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.5.1.tar.gz tmp/contact_magic-0.5.2.tar.gz --markdown 20230709/c/contact-magic/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-09 13:06:32] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-1.1.1.tar.gz tmp/wcc-timetable-generator-1.1.2.tar.gz --markdown 20230709/w/wcc-timetable-generator/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-09 13:06:32] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.2.0.tar.gz tmp/hyfi-1.2.1.tar.gz --markdown 20230709/h/hyfi/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-09 13:06:32] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.1.tar.gz tmp/image_func-1.0.5.tar.gz --markdown 20230709/i/image-func/1.0.1-1.0.5/diff.md --exclude *.pyd
+[2023-07-09 13:06:32] INFO root fetch - processPackages [iitkgp-erp]: executing diffoscope
+[2023-07-09 13:06:32] INFO root fetch - processPackages [iitkgp-erp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp-erp-0.1.tar.gz tmp/iitkgp-erp-0.1.1.tar.gz --markdown 20230709/i/iitkgp-erp/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 13:06:33] INFO root fetch - processPackages [szh_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.8.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - processPackages [szh_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.9.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - main [MainThread]: End processing [szh_toolbox]: success
+[2023-07-09 13:06:33] INFO root fetch - main [MainThread]: End processing [szh_toolbox]: success
+[2023-07-09 13:06:33] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.1.1.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.1.2.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-09 13:06:33] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.1.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.5.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-09 13:06:33] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.1.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.2.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-07-09 13:06:33] INFO root fetch - processPackages [iitkgp-erp]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp-erp-0.1.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - processPackages [iitkgp-erp]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp-erp-0.1.1.tar.gz]
+[2023-07-09 13:06:33] INFO root fetch - main [MainThread]: End processing [iitkgp-erp]: success
+[2023-07-09 13:06:34] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.0.tar.gz]
+[2023-07-09 13:06:34] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.1.tar.gz]
+[2023-07-09 13:06:34] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-09 13:06:34] INFO root fetch - main [MainThread]: Store serial: [18819730]

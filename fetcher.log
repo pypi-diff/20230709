@@ -8165,3 +8165,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:06:34] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.1.tar.gz]
 [2023-07-09 13:06:34] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-07-09 13:06:34] INFO root fetch - main [MainThread]: Store serial: [18819730]
+[2023-07-09 13:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819730]
+[2023-07-09 13:11:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqldao-generator
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fhir-kindling
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astrometry-net-client
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prolog-primitives
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-cloudflare-login
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WifiOrca
+[2023-07-09 13:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyNihongo
+[2023-07-09 13:11:43] INFO root fetch - processPackages [prolog-primitives]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 13:11:43] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 13:11:43] INFO root fetch - processPackages [astrometry-net-client]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-09 13:11:43] WARNING root fetch - processPackages [sqldao-generator]: Skipping, unable to determine old version
+[2023-07-09 13:11:43] WARNING root fetch - processPackages [flask-cloudflare-login]: Skipping, unable to determine old version
+[2023-07-09 13:11:43] INFO root fetch - main [MainThread]: End processing [sqldao-generator] error
+[2023-07-09 13:11:43] INFO root fetch - main [MainThread]: End processing [flask-cloudflare-login] error
+[2023-07-09 13:11:43] INFO root fetch - processPackages [fhir-kindling]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-09 13:11:43] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/0b/49/8920c0ceefac32d4f25fd0027932def9113779bb760ee1a201ef4654c673/WifiOrca-0.0.5.tar.gz
+[2023-07-09 13:11:43] INFO root fetch - processPackages [PyNihongo]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev3]
+[2023-07-09 13:11:43] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/0c/a0/ff1a64ba5433666fc5edfb56b16713fcf049f187639e9b07cdcef27620ed/prolog_primitives-1.0.3.tar.gz
+[2023-07-09 13:11:43] INFO root fetch - processPackages [astrometry-net-client]: Downloading https://files.pythonhosted.org/packages/2f/eb/73b6f85a4d1afc92cc8601760bd5ca46135c41ff46717c4a8c60841c6115/astrometry_net_client-0.2.9.tar.gz
+[2023-07-09 13:11:43] INFO root fetch - processPackages [fhir-kindling]: Downloading https://files.pythonhosted.org/packages/04/55/af2585afe99d029a1656331e56292f6a97c099cc58dfbe08ac22530f8209/fhir_kindling-1.0.0a8.tar.gz
+[2023-07-09 13:11:43] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/14/50/c168878e8dd1af8208b4f8f113d5ed1ff592411fadd728373758e1a6dd45/WifiOrca-0.0.6.tar.gz
+[2023-07-09 13:11:43] INFO root fetch - processPackages [PyNihongo]: Downloading https://files.pythonhosted.org/packages/ed/9a/2a2f15f1956edbff64be19d1d6afd124363b6e0c8f577d4aa94d66de3dea/PyNihongo-0.0.1.dev3.tar.gz
+[2023-07-09 13:11:43] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 13:11:43] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.5.tar.gz tmp/WifiOrca-0.0.6.tar.gz --markdown 20230709/W/WifiOrca/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 13:11:43] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/a4/1e/00cefe74ca62d7afe53da5e9e0dbf85359e8033afe46d0c8323d8da21bb5/prolog_primitives-1.0.4.tar.gz
+[2023-07-09 13:11:44] INFO root fetch - processPackages [astrometry-net-client]: Downloading https://files.pythonhosted.org/packages/bd/eb/32417edf3db49909697c4850d9bd522fde7101122be46e250b930afa9d66/astrometry_net_client-0.3.0.tar.gz
+[2023-07-09 13:11:44] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-09 13:11:44] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-1.0.3.tar.gz tmp/prolog_primitives-1.0.4.tar.gz --markdown 20230709/p/prolog-primitives/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 13:11:44] INFO root fetch - processPackages [fhir-kindling]: Downloading https://files.pythonhosted.org/packages/28/c2/e5d5f8570bf83ea609986b43cf8956360b334d9026bc3f7a3dea3fbe9415/fhir_kindling-1.0.0a9.tar.gz
+[2023-07-09 13:11:44] INFO root fetch - processPackages [astrometry-net-client]: executing diffoscope
+[2023-07-09 13:11:44] INFO root fetch - processPackages [astrometry-net-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrometry_net_client-0.2.9.tar.gz tmp/astrometry_net_client-0.3.0.tar.gz --markdown 20230709/a/astrometry-net-client/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 13:11:44] INFO root fetch - processPackages [PyNihongo]: Downloading https://files.pythonhosted.org/packages/cf/3c/29ba17367ca8cde009c8649d8ca9b4fdb7f59d640f301c5a3f84d51cc445/PyNihongo-0.0.1.dev5.tar.gz
+[2023-07-09 13:11:44] INFO root fetch - processPackages [fhir-kindling]: executing diffoscope
+[2023-07-09 13:11:44] INFO root fetch - processPackages [fhir-kindling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_kindling-1.0.0a8.tar.gz tmp/fhir_kindling-1.0.0a9.tar.gz --markdown 20230709/f/fhir-kindling/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-09 13:11:44] INFO root fetch - processPackages [PyNihongo]: executing diffoscope
+[2023-07-09 13:11:44] INFO root fetch - processPackages [PyNihongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNihongo-0.0.1.dev3.tar.gz tmp/PyNihongo-0.0.1.dev5.tar.gz --markdown 20230709/P/PyNihongo/0.0.1.dev3-0.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-09 13:11:44] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.5.tar.gz]
+[2023-07-09 13:11:44] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.6.tar.gz]
+[2023-07-09 13:11:44] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 13:11:45] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.3.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.0.4.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-09 13:11:45] INFO root fetch - processPackages [astrometry-net-client]: Remove: archive file [/home/abi/fetcher/tmp/astrometry_net_client-0.2.9.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - processPackages [astrometry-net-client]: Remove: archive file [/home/abi/fetcher/tmp/astrometry_net_client-0.3.0.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - main [MainThread]: End processing [astrometry-net-client]: success
+[2023-07-09 13:11:45] INFO root fetch - processPackages [PyNihongo]: Remove: archive file [/home/abi/fetcher/tmp/PyNihongo-0.0.1.dev3.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - processPackages [PyNihongo]: Remove: archive file [/home/abi/fetcher/tmp/PyNihongo-0.0.1.dev5.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - main [MainThread]: End processing [PyNihongo]: success
+[2023-07-09 13:11:45] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a8.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a9.tar.gz]
+[2023-07-09 13:11:45] INFO root fetch - main [MainThread]: End processing [fhir-kindling]: success
+[2023-07-09 13:11:45] INFO root fetch - main [MainThread]: Store serial: [18819757]

@@ -8034,3 +8034,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:56:09] INFO root fetch - processPackages [AIMM-simulator]: Remove: archive file [/home/abi/fetcher/tmp/aimm_simulator-2.0.3.tar.gz]
 [2023-07-09 12:56:09] INFO root fetch - main [MainThread]: End processing [AIMM-simulator]: success
 [2023-07-09 12:56:09] INFO root fetch - main [MainThread]: Store serial: [18819678]
+[2023-07-09 13:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819678]
+[2023-07-09 13:01:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indipydriver
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wcc-timetable-generator
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcc-timetable-generator
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngstents
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shero-first-package
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: szh_toolbox
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mplfooty
+[2023-07-09 13:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqle
+[2023-07-09 13:01:18] INFO root fetch - processPackages [indipydriver]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-09 13:01:18] INFO root fetch - processPackages [szh_toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 13:01:18] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-09 13:01:19] INFO root fetch - processPackages [ngstents]: New version: [0.0.1.post2] Old Version: [0.0.1.post1]
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-09 13:01:19] INFO root fetch - processPackages [mplfooty]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-09 13:01:19] INFO root fetch - processPackages [sqle]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2023-07-09 13:01:19] WARNING root fetch - processPackages [shero-first-package]: Skipping, unable to determine old version
+[2023-07-09 13:01:19] INFO root fetch - main [MainThread]: End processing [shero-first-package] error
+[2023-07-09 13:01:19] INFO root fetch - processPackages [sqle]: Downloading https://files.pythonhosted.org/packages/9e/31/75909363816e3c58902958f297ef5c4e73c09fbc35492fb9d35b6def3e1d/sqle-0.0.0a2.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/fe/c9/faccb4efc3a5068f22b0c3dfb03d9a4c4f308f0ae08bb724b9269a0f8d84/szh_toolbox-0.0.8.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/c0/83/e1870d2d98372ae77b66f71409f275066dfaec8ae7b4b9975effd2314a7a/indipydriver-0.0.4.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/1c/66/7b52c6f844c443c10b5166eb784e47387e58dfe389677e60c14987f7e044/wcc-timetable-generator-1.1.0.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/1c/66/7b52c6f844c443c10b5166eb784e47387e58dfe389677e60c14987f7e044/wcc-timetable-generator-1.1.0.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [ngstents]: Downloading https://files.pythonhosted.org/packages/73/da/d0ee9f9b7377674692e6869169fdf5e637f3dcc65e0b4b4231fad5072a51/ngstents-0.0.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-09 13:01:19] INFO root fetch - processPackages [mplfooty]: Downloading https://files.pythonhosted.org/packages/56/9a/4de3b2063bf24929335e60bcdde7e4dcd40900143a875486be86637e2c35/mplfooty-0.0.3.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/81/fc/b545a4b0669f037c0aad69764307da3f1005598cf076c9d65b157ca61dbd/szh_toolbox-0.0.9.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [szh_toolbox]: executing diffoscope
+[2023-07-09 13:01:19] INFO root fetch - processPackages [szh_toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szh_toolbox-0.0.8.tar.gz tmp/szh_toolbox-0.0.9.tar.gz --markdown 20230709/s/szh_toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:01:19] INFO root fetch - processPackages [sqle]: Downloading https://files.pythonhosted.org/packages/6a/67/0ea0146bd61d5aede60a691c0db5f228c71b9936bb476c4505cf96155d02/sqle-0.0.0a3.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/5c/25/727c398dc3765114528b417670c5c4803f94b76f7fa55ca2d2f98628bc84/indipydriver-0.0.6.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/b7/c3/437236563bef21aa0fd14aec024328b87b1babac6e66b051ce27f15be476/wcc-timetable-generator-1.1.1.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/b7/c3/437236563bef21aa0fd14aec024328b87b1babac6e66b051ce27f15be476/wcc-timetable-generator-1.1.1.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [sqle]: executing diffoscope
+[2023-07-09 13:01:19] INFO root fetch - processPackages [sqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqle-0.0.0a2.tar.gz tmp/sqle-0.0.0a3.tar.gz --markdown 20230709/s/sqle/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2023-07-09 13:01:19] INFO root fetch - processPackages [mplfooty]: Downloading https://files.pythonhosted.org/packages/5a/b3/829887aae382aaa2bed332977065ce35e6ad83d6aaae9ac34077cf242149/mplfooty-0.1.0.tar.gz
+[2023-07-09 13:01:19] INFO root fetch - processPackages [indipydriver]: executing diffoscope
+[2023-07-09 13:01:19] INFO root fetch - processPackages [indipydriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipydriver-0.0.4.tar.gz tmp/indipydriver-0.0.6.tar.gz --markdown 20230709/i/indipydriver/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-1.1.0.tar.gz tmp/wcc-timetable-generator-1.1.1.tar.gz --markdown 20230709/w/wcc-timetable-generator/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-09 13:01:19] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-1.1.0.tar.gz tmp/wcc-timetable-generator-1.1.1.tar.gz --markdown 20230709/w/wcc-timetable-generator/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-09 13:01:19] INFO root fetch - processPackages [ngstents]: Downloading https://files.pythonhosted.org/packages/4b/fa/f8926bdc7ba6362645dc1838b69557164e0eecb59ba439eabd6aa9ace5b4/ngstents-0.0.1.post2-cp39-cp39-macosx_10_15_universal2.whl
+[2023-07-09 13:01:20] INFO root fetch - processPackages [mplfooty]: executing diffoscope
+[2023-07-09 13:01:20] INFO root fetch - processPackages [mplfooty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplfooty-0.0.3.tar.gz tmp/mplfooty-0.1.0.tar.gz --markdown 20230709/m/mplfooty/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-09 13:01:20] INFO root fetch - processPackages [ngstents]: executing diffoscope
+[2023-07-09 13:01:20] INFO root fetch - processPackages [ngstents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstents-0.0.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ngstents-0.0.1.post2-cp39-cp39-macosx_10_15_universal2.whl.zip --markdown 20230709/n/ngstents/0.0.1.post1-0.0.1.post2/diff.md --exclude *.pyd
+[2023-07-09 13:01:20] INFO root fetch - processPackages [szh_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.8.tar.gz]
+[2023-07-09 13:01:20] INFO root fetch - processPackages [szh_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.9.tar.gz]
+[2023-07-09 13:01:20] INFO root fetch - main [MainThread]: End processing [szh_toolbox]: success
+[2023-07-09 13:01:20] INFO root fetch - processPackages [sqle]: Remove: archive file [/home/abi/fetcher/tmp/sqle-0.0.0a2.tar.gz]
+[2023-07-09 13:01:20] INFO root fetch - processPackages [sqle]: Remove: archive file [/home/abi/fetcher/tmp/sqle-0.0.0a3.tar.gz]
+[2023-07-09 13:01:20] INFO root fetch - main [MainThread]: End processing [sqle]: success
+[2023-07-09 13:01:21] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.1.0.tar.gz]
+[2023-07-09 13:01:21] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-1.1.1.tar.gz]
+[2023-07-09 13:01:21] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-09 13:01:21] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.4.tar.gz]
+[2023-07-09 13:01:21] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.6.tar.gz]
+[2023-07-09 13:01:21] INFO root fetch - main [MainThread]: End processing [indipydriver]: success
+[2023-07-09 13:01:21] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-09 13:01:21] INFO root fetch - processPackages [mplfooty]: Remove: archive file [/home/abi/fetcher/tmp/mplfooty-0.0.3.tar.gz]
+[2023-07-09 13:01:21] INFO root fetch - processPackages [mplfooty]: Remove: archive file [/home/abi/fetcher/tmp/mplfooty-0.1.0.tar.gz]
+[2023-07-09 13:01:21] INFO root fetch - main [MainThread]: End processing [mplfooty]: success
+[2023-07-09 13:01:22] INFO root fetch - processPackages [ngstents]: Remove: archive file [/home/abi/fetcher/tmp/ngstents-0.0.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-09 13:01:22] INFO root fetch - processPackages [ngstents]: Remove: archive file [/home/abi/fetcher/tmp/ngstents-0.0.1.post2-cp39-cp39-macosx_10_15_universal2.whl.zip]
+[2023-07-09 13:01:22] INFO root fetch - main [MainThread]: End processing [ngstents]: success
+[2023-07-09 13:01:22] INFO root fetch - main [MainThread]: Store serial: [18819703]

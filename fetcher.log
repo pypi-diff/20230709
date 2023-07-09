@@ -13920,3 +13920,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:10:47] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-07-09 20:10:47] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-07-09 20:10:47] INFO root fetch - main [MainThread]: Store serial: [18822335]
+[2023-07-09 20:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822335]
+[2023-07-09 20:15:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 20:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impose-cli
+[2023-07-09 20:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fern-optimizely
+[2023-07-09 20:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metalmaps
+[2023-07-09 20:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sydeploy
+[2023-07-09 20:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyipatcher
+[2023-07-09 20:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyghelpers
+[2023-07-09 20:15:56] INFO root fetch - processPackages [pyghelpers]: New version: [1.1] Old Version: [1.0.43]
+[2023-07-09 20:15:56] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 20:15:56] INFO root fetch - processPackages [sydeploy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-09 20:15:56] INFO root fetch - processPackages [impose-cli]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-09 20:15:56] WARNING root fetch - processPackages [metalmaps]: Skipping, unable to determine old version
+[2023-07-09 20:15:56] INFO root fetch - main [MainThread]: End processing [metalmaps] error
+[2023-07-09 20:15:56] INFO root fetch - processPackages [pyipatcher]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-09 20:15:57] INFO root fetch - processPackages [pyghelpers]: Downloading https://files.pythonhosted.org/packages/70/1e/6b915a887d086664e905690585b1d41e3ecc7d9431ba78c29805ca11bae1/pyghelpers-1.0.43.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ac/5a/08574fd37a3c7f451d239b7ef7d2ecd17370394f7f50b2dc59ff0f1ffeaa/sydeploy-0.2.3-py3-none-any.whl
+[2023-07-09 20:15:57] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/a8/36/f2e93322e977b705d5a8ad9fde03333fcef75452dc8fb2bce3f08f22c869/impose-cli-0.3.2.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/c8/35/feb9c67e2416850477f87e6ce6b2a4777ec1158493073bca0ce223c2889b/fern_optimizely-0.0.7.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/49/ff/f071aa29fb4bfaa0cf66f374b553f15bfd625ca803430f433267ac4d1be7/pyipatcher-1.1.4.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/3b/51/8ad9a374872c69653b88d47c507810977c602609c392e548ae3ba03bfe30/sydeploy-0.2.4-py3-none-any.whl
+[2023-07-09 20:15:57] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/97/ae/369efcd00a717ad75a4c89caf6d6574cdde5097ebd455a31074ca3161000/impose-cli-0.3.3.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/5a/1d/4457be98913ae110762fdec0697f0c074c6b363b8b3ef20bd0c5e19628ab/fern_optimizely-0.0.8.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/1e/e5/837cb7d808cc7c4c7b7ca066a6a6dff98bfc9e2e0484a8fa267fe60815bf/pyipatcher-1.1.5.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [pyghelpers]: Downloading https://files.pythonhosted.org/packages/9e/9e/cbb996876eefc03d1ef4d4427e11feffa4b3316c5e67f6d0235729b08ab9/pyghelpers-1.1.tar.gz
+[2023-07-09 20:15:57] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-09 20:15:57] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.3-py3-none-any.whl.zip tmp/sydeploy-0.2.4-py3-none-any.whl.zip --markdown 20230709/s/sydeploy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-09 20:15:57] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 20:15:57] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.3.2.tar.gz tmp/impose-cli-0.3.3.tar.gz --markdown 20230709/i/impose-cli/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-09 20:15:57] INFO root fetch - processPackages [pyipatcher]: executing diffoscope
+[2023-07-09 20:15:57] INFO root fetch - processPackages [pyipatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipatcher-1.1.4.tar.gz tmp/pyipatcher-1.1.5.tar.gz --markdown 20230709/p/pyipatcher/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-09 20:15:57] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-09 20:15:57] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.7.tar.gz tmp/fern_optimizely-0.0.8.tar.gz --markdown 20230709/f/fern-optimizely/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 20:15:58] INFO root fetch - processPackages [pyghelpers]: executing diffoscope
+[2023-07-09 20:15:58] INFO root fetch - processPackages [pyghelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyghelpers-1.0.43.tar.gz tmp/pyghelpers-1.1.tar.gz --markdown 20230709/p/pyghelpers/1.0.43-1.1/diff.md --exclude *.pyd
+[2023-07-09 20:15:58] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.2.tar.gz]
+[2023-07-09 20:15:58] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.3.tar.gz]
+[2023-07-09 20:15:58] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 20:15:58] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.4.tar.gz]
+[2023-07-09 20:15:58] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.5.tar.gz]
+[2023-07-09 20:15:58] INFO root fetch - main [MainThread]: End processing [pyipatcher]: success
+[2023-07-09 20:15:58] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.3-py3-none-any.whl.zip]
+[2023-07-09 20:15:58] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.4-py3-none-any.whl.zip]
+[2023-07-09 20:15:58] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-09 20:15:58] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.7.tar.gz]
+[2023-07-09 20:15:58] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.8.tar.gz]
+[2023-07-09 20:15:58] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-09 20:15:59] INFO root fetch - processPackages [pyghelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyghelpers-1.0.43.tar.gz]
+[2023-07-09 20:15:59] INFO root fetch - processPackages [pyghelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyghelpers-1.1.tar.gz]
+[2023-07-09 20:15:59] INFO root fetch - main [MainThread]: End processing [pyghelpers]: success
+[2023-07-09 20:15:59] INFO root fetch - main [MainThread]: Store serial: [18822355]

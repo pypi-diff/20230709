@@ -4899,3 +4899,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 07:51:21] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
 [2023-07-09 07:51:21] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
 [2023-07-09 07:51:21] INFO root fetch - main [MainThread]: Store serial: [18818258]
+[2023-07-09 07:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818258]
+[2023-07-09 07:56:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auth-lib-profcomff
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolma
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngmapi
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xfem
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imeta
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.27]
+[2023-07-09 07:56:30] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.27]
+[2023-07-09 07:56:30] INFO root fetch - processPackages [dolma]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-09 07:56:30] INFO root fetch - processPackages [auth-lib-profcomff]: New version: [2023.7.9] Old Version: [2023.5.11]
+[2023-07-09 07:56:30] INFO root fetch - processPackages [imeta]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-09 07:56:30] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post6.dev0]
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/bb/fe/12c9c01acec540141fdbac312a1cdc6e5c115dfcc07df7feaa83e5e43dde/ngmapi-0.0.27.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/bb/fe/12c9c01acec540141fdbac312a1cdc6e5c115dfcc07df7feaa83e5e43dde/ngmapi-0.0.27.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/64/c5/92ac50eadb246c0665744829ed67fb3656c314381d8a45f8939f72d617d3/dolma-0.6.0.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/0d/5d/f1ede44408f3f8eea29ba6ab2ccbd8abe4d4a36af90fbb863fdf00fdce3b/auth_lib_profcomff-2023.5.11.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/f8/ea/29948b88e71188c1ac69eaadc367bb5b788083bf99a1eaecc536e15e13da/xfem-2.1.2303.post6.dev0.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [imeta]: Downloading https://files.pythonhosted.org/packages/b4/86/be7581c5589c494716818373959c0546b090563a6aeb7f553f4b9431512a/imeta-1.1.0-py3-none-any.whl
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.27.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230709/n/ngmapi/0.0.27-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:56:31] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/6d/8e/bc25c5f75297d9ffc2315ffb88e8b6cc9603e07cdebd302ffd5c561e32d6/auth_lib_profcomff-2023.7.9.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [imeta]: Downloading https://files.pythonhosted.org/packages/47/27/679363f287d0095340aa6dbce55fdfaabb90e41116149930f9c276e69c67/imeta-1.1.1-py3-none-any.whl
+[2023-07-09 07:56:31] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/1b/58/0312dbfd1ad65b784350e49b82a2bab453f136435c4112de88f611148de1/xfem-2.1.2303.post8.dev0-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 07:56:31] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.27.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230709/n/ngmapi/0.0.27-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:56:31] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/24/84/a069e5e27f666a84b14a5dc0a26608fdb54a2448fe07ba55ab2155b5fc0b/dolma-0.6.1.tar.gz
+[2023-07-09 07:56:31] INFO root fetch - processPackages [auth-lib-profcomff]: executing diffoscope
+[2023-07-09 07:56:31] INFO root fetch - processPackages [auth-lib-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_lib_profcomff-2023.5.11.tar.gz tmp/auth_lib_profcomff-2023.7.9.tar.gz --markdown 20230709/a/auth-lib-profcomff/2023.5.11-2023.7.9/diff.md --exclude *.pyd
+[2023-07-09 07:56:31] INFO root fetch - processPackages [imeta]: executing diffoscope
+[2023-07-09 07:56:31] INFO root fetch - processPackages [imeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imeta-1.1.0-py3-none-any.whl.zip tmp/imeta-1.1.1-py3-none-any.whl.zip --markdown 20230709/i/imeta/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-09 07:56:32] INFO root fetch - processPackages [dolma]: executing diffoscope
+[2023-07-09 07:56:32] INFO root fetch - processPackages [dolma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolma-0.6.0.tar.gz tmp/dolma-0.6.1.tar.gz --markdown 20230709/d/dolma/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-09 07:56:32] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-09 07:56:32] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post6.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230709/x/xfem/2.1.2303.post6.dev0-2.1.2303.post8.dev0/diff.md --exclude *.pyd
+[2023-07-09 07:56:32] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.27.tar.gz]
+[2023-07-09 07:56:32] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-09 07:56:32] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 07:56:32] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 07:56:32] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2023.5.11.tar.gz]
+[2023-07-09 07:56:32] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2023.7.9.tar.gz]
+[2023-07-09 07:56:32] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
+[2023-07-09 07:56:32] INFO root fetch - processPackages [imeta]: Remove: archive file [/home/abi/fetcher/tmp/imeta-1.1.0-py3-none-any.whl.zip]
+[2023-07-09 07:56:32] INFO root fetch - processPackages [imeta]: Remove: archive file [/home/abi/fetcher/tmp/imeta-1.1.1-py3-none-any.whl.zip]
+[2023-07-09 07:56:32] INFO root fetch - main [MainThread]: End processing [imeta]: success
+[2023-07-09 07:56:33] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post6.dev0.tar.gz]
+[2023-07-09 07:56:33] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-09 07:56:33] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-09 07:56:33] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.0.tar.gz]
+[2023-07-09 07:56:33] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.1.tar.gz]
+[2023-07-09 07:56:33] INFO root fetch - main [MainThread]: End processing [dolma]: success
+[2023-07-09 07:56:33] INFO root fetch - main [MainThread]: Store serial: [18818277]

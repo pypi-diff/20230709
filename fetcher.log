@@ -3693,3 +3693,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:51:38] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl.zip]
 [2023-07-09 05:51:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
 [2023-07-09 05:51:38] INFO root fetch - main [MainThread]: Store serial: [18817780]
+[2023-07-09 05:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817780]
+[2023-07-09 05:56:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 05:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolma
+[2023-07-09 05:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sspeedup
+[2023-07-09 05:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gay
+[2023-07-09 05:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartscoutscrape
+[2023-07-09 05:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imgk
+[2023-07-09 05:56:47] INFO root fetch - processPackages [sspeedup]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-09 05:56:47] WARNING root fetch - processPackages [dolma]: Skipping, unable to determine old version
+[2023-07-09 05:56:47] INFO root fetch - processPackages [gay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-09 05:56:47] INFO root fetch - main [MainThread]: End processing [dolma] error
+[2023-07-09 05:56:47] INFO root fetch - processPackages [smartscoutscrape]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-09 05:56:47] WARNING root fetch - processPackages [imgk]: Skipping, unable to determine old version
+[2023-07-09 05:56:47] INFO root fetch - main [MainThread]: End processing [imgk] error
+[2023-07-09 05:56:47] INFO root fetch - processPackages [sspeedup]: Downloading https://files.pythonhosted.org/packages/53/ff/0d81dc0e4bdd7144254b76a113c03e1a5db1c751baee4770a604532f5abf/sspeedup-0.8.0.tar.gz
+[2023-07-09 05:56:47] INFO root fetch - processPackages [gay]: Downloading https://files.pythonhosted.org/packages/c7/73/78ad8269443d63049fd0b15ef6db198062b3580c9ea0a576c648b26fe4d2/gay-1.2.8.tar.gz
+[2023-07-09 05:56:47] INFO root fetch - processPackages [smartscoutscrape]: Downloading https://files.pythonhosted.org/packages/6f/37/121c40812218ec37b32d1e23ed198acfa92056b0ff2d1b50721114a84c04/smartscoutscrape-0.1.0.tar.gz
+[2023-07-09 05:56:47] INFO root fetch - processPackages [gay]: Downloading https://files.pythonhosted.org/packages/da/af/7c103f7fb73181cb2c5c4ccb2e01797f8cf1dba557e433729544e4900d8b/gay-1.2.9.tar.gz
+[2023-07-09 05:56:47] INFO root fetch - processPackages [sspeedup]: Downloading https://files.pythonhosted.org/packages/b6/b6/5176dcf8bcfbf153891baafef5056d06bfe05dab90687290c389b7884981/sspeedup-0.9.0.tar.gz
+[2023-07-09 05:56:47] INFO root fetch - processPackages [smartscoutscrape]: Downloading https://files.pythonhosted.org/packages/e4/0d/e3941191e0163a37f60fcd0c56500c9b5dc836e863fdb5d91fa437de2663/smartscoutscrape-0.2.0.tar.gz
+[2023-07-09 05:56:48] INFO root fetch - processPackages [gay]: executing diffoscope
+[2023-07-09 05:56:48] INFO root fetch - processPackages [gay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gay-1.2.8.tar.gz tmp/gay-1.2.9.tar.gz --markdown 20230709/g/gay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-09 05:56:48] INFO root fetch - processPackages [sspeedup]: executing diffoscope
+[2023-07-09 05:56:48] INFO root fetch - processPackages [sspeedup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspeedup-0.8.0.tar.gz tmp/sspeedup-0.9.0.tar.gz --markdown 20230709/s/sspeedup/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 05:56:48] INFO root fetch - processPackages [smartscoutscrape]: executing diffoscope
+[2023-07-09 05:56:48] INFO root fetch - processPackages [smartscoutscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartscoutscrape-0.1.0.tar.gz tmp/smartscoutscrape-0.2.0.tar.gz --markdown 20230709/s/smartscoutscrape/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-09 05:56:48] INFO root fetch - processPackages [gay]: Remove: archive file [/home/abi/fetcher/tmp/gay-1.2.8.tar.gz]
+[2023-07-09 05:56:48] INFO root fetch - processPackages [gay]: Remove: archive file [/home/abi/fetcher/tmp/gay-1.2.9.tar.gz]
+[2023-07-09 05:56:48] INFO root fetch - main [MainThread]: End processing [gay]: success
+[2023-07-09 05:56:48] INFO root fetch - processPackages [sspeedup]: Remove: archive file [/home/abi/fetcher/tmp/sspeedup-0.8.0.tar.gz]
+[2023-07-09 05:56:48] INFO root fetch - processPackages [sspeedup]: Remove: archive file [/home/abi/fetcher/tmp/sspeedup-0.9.0.tar.gz]
+[2023-07-09 05:56:48] INFO root fetch - main [MainThread]: End processing [sspeedup]: success
+[2023-07-09 05:56:48] INFO root fetch - processPackages [smartscoutscrape]: Remove: archive file [/home/abi/fetcher/tmp/smartscoutscrape-0.1.0.tar.gz]
+[2023-07-09 05:56:48] INFO root fetch - processPackages [smartscoutscrape]: Remove: archive file [/home/abi/fetcher/tmp/smartscoutscrape-0.2.0.tar.gz]
+[2023-07-09 05:56:48] INFO root fetch - main [MainThread]: End processing [smartscoutscrape]: success
+[2023-07-09 05:56:48] INFO root fetch - main [MainThread]: Store serial: [18817797]

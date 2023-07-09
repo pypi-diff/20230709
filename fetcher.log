@@ -1582,3 +1582,97 @@
 [2023-07-09 02:36:30] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
 [2023-07-09 02:36:30] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
 [2023-07-09 02:36:30] INFO root fetch - main [MainThread]: Store serial: [18816884]
+[2023-07-09 02:41:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816884]
+[2023-07-09 02:41:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweetrpg-web-core
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbolicai
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-proxmox
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-github-actions
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raindrop-io-py
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: message-system
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: everdrop-aws-cdk-constructs
+[2023-07-09 02:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tipytool
+[2023-07-09 02:41:39] INFO root fetch - processPackages [raindrop-io-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [message-system]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-09 02:41:39] WARNING root fetch - processPackages [tipytool]: Skipping, unable to determine old version
+[2023-07-09 02:41:39] INFO root fetch - processPackages [tipytool]: Start processing: symbolicai
+[2023-07-09 02:41:39] INFO root fetch - main [MainThread]: End processing [tipytool] error
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-09 02:41:39] INFO root fetch - processPackages [message-system]: Downloading https://files.pythonhosted.org/packages/de/c5/1e6c741f5c6370c2ccfca81c908b9e017cae856c32efacd55b7d5a27b6cb/message_system-0.1.1.tar.gz
+[2023-07-09 02:41:39] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-09 02:41:39] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-07-09 02:41:39] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/a9/ca/aeb84cd566bb1f059094a5e3cbe0acf53d1ad8c9b296d5bcd1a26a57c600/everdrop-aws-cdk-constructs-0.0.98.tar.gz
+[2023-07-09 02:41:39] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/0d/4c/888b702f86ee5a0c8a9d415dfae53e8140f998a11075e7807b1ae7736034/raindrop_io_py-0.1.1.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-09 02:41:40] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [message-system]: Downloading https://files.pythonhosted.org/packages/69/8a/3804d72d543e6ca184edcd542a30712f7aa5eb3869a68338b6862d7cd345/message_system-0.1.2.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230709/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230709/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/ef/f2/eba9c7c2bf3bba06c767f3fa6c1a325e464c2927548bcc2f8386f8a95d87/raindrop_io_py-0.1.2.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230709/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [message-system]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [message-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message_system-0.1.1.tar.gz tmp/message_system-0.1.2.tar.gz --markdown 20230709/m/message-system/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230709/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/ba/e1/34dff9d00ac2779522d025899f60c8b8d5579695389a50f873ff90fa24fc/everdrop-aws-cdk-constructs-0.0.99.tar.gz
+[2023-07-09 02:41:40] INFO root fetch - processPackages [raindrop-io-py]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [raindrop-io-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindrop_io_py-0.1.1.tar.gz tmp/raindrop_io_py-0.1.2.tar.gz --markdown 20230709/r/raindrop-io-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230709/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:41:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-07-09 02:41:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.98.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz --markdown 20230709/e/everdrop-aws-cdk-constructs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 02:41:41] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-09 02:41:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-09 02:41:41] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-09 02:41:41] INFO root fetch - processPackages [message-system]: Remove: archive file [/home/abi/fetcher/tmp/message_system-0.1.1.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - processPackages [message-system]: Remove: archive file [/home/abi/fetcher/tmp/message_system-0.1.2.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - main [MainThread]: End processing [message-system]: success
+[2023-07-09 02:41:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-09 02:41:41] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-09 02:41:41] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-07-09 02:41:41] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.1.1.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.1.2.tar.gz]
+[2023-07-09 02:41:41] INFO root fetch - main [MainThread]: End processing [raindrop-io-py]: success
+[2023-07-09 02:41:42] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.98.tar.gz]
+[2023-07-09 02:41:42] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz]
+[2023-07-09 02:41:42] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-07-09 02:41:42] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-07-09 02:41:42] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-07-09 02:41:42] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-07-09 02:41:42] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-09 02:41:42] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230709/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 02:41:42] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-09 02:41:42] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230709/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 02:41:43] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-09 02:41:43] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-09 02:41:43] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-09 02:41:43] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-09 02:41:43] INFO root fetch - main [MainThread]: Store serial: [18816924]

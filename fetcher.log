@@ -8593,3 +8593,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:49:09] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.1.tar.gz]
 [2023-07-09 13:49:09] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
 [2023-07-09 13:49:09] INFO root fetch - main [MainThread]: Store serial: [18819925]
+[2023-07-09 13:54:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819925]
+[2023-07-09 13:54:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyakamai
+[2023-07-09 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sailboat-gym
+[2023-07-09 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: configu
+[2023-07-09 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Brian2Cuda
+[2023-07-09 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image-func
+[2023-07-09 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: process-twarc
+[2023-07-09 13:54:18] INFO root fetch - processPackages [image-func]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 13:54:18] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-09 13:54:18] INFO root fetch - processPackages [configu]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-09 13:54:18] INFO root fetch - processPackages [process-twarc]: New version: [0.12.2] Old Version: [0.12.1]
+[2023-07-09 13:54:18] INFO root fetch - processPackages [pyakamai]: New version: [1.21] Old Version: [1.2]
+[2023-07-09 13:54:18] INFO root fetch - processPackages [Brian2Cuda]: New version: [1.0a2] Old Version: [1.0a1]
+[2023-07-09 13:54:18] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-09 13:54:18] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/2e/02/ae21c7a4250b22b1c5978af181a2ddeeb79d0a86821a8896ca3534728405/pyakamai-1.2-py3-none-any.whl
+[2023-07-09 13:54:18] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/99/9d/c23da70d3963b8d167845e037b17d06da3f8dac5c9acb95ebd7ef018d2b8/process-twarc-0.12.1.tar.gz
+[2023-07-09 13:54:18] INFO root fetch - processPackages [configu]: Downloading https://files.pythonhosted.org/packages/9e/ce/d1f0ecad1aeebb6ce97e7aa7e47ccf3688107eb5654a23c30fad66f22ebb/configu-0.3.0.tar.gz
+[2023-07-09 13:54:18] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-07-09 13:54:18] INFO root fetch - processPackages [Brian2Cuda]: Downloading https://files.pythonhosted.org/packages/4a/76/cdad26d683d0540018122e9d2f263f3fa035aaccc61075cf6be51ceaafb7/Brian2CUDA-1.0a1.tar.gz
+[2023-07-09 13:54:19] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/53/19/83648c27e6abc5b7c6ba68f8e2a9472a2c8c3989947d7808334bf8348af7/image_func-1.0.9.tar.gz
+[2023-07-09 13:54:19] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/ca/15/fa1753479b0fd15ee51183af0a8f6c2427c0d2492ca8cf20d61a640edc86/pyakamai-1.21-py3-none-any.whl
+[2023-07-09 13:54:19] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/d4/92/392e917b3d7e6f6a599ef19216983542215f5021e4fff7c8c62ae4a46d84/process-twarc-0.12.2.tar.gz
+[2023-07-09 13:54:19] INFO root fetch - processPackages [configu]: Downloading https://files.pythonhosted.org/packages/02/24/242a2afb76c58f3d52bca03f2c3506ec5b6f766913500582472367bfb1c8/configu-0.4.0.tar.gz
+[2023-07-09 13:54:19] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-09 13:54:19] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.8.tar.gz tmp/image_func-1.0.9.tar.gz --markdown 20230709/i/image-func/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:54:19] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-07-09 13:54:19] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.2-py3-none-any.whl.zip tmp/pyakamai-1.21-py3-none-any.whl.zip --markdown 20230709/p/pyakamai/1.2-1.21/diff.md --exclude *.pyd
+[2023-07-09 13:54:19] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-07-09 13:54:19] INFO root fetch - processPackages [Brian2Cuda]: Downloading https://files.pythonhosted.org/packages/60/44/dce2f725087a5193fd169caa2beda6704a9b0eaf3af5d511fc486358aaee/Brian2Cuda-1.0a2.tar.gz
+[2023-07-09 13:54:19] INFO root fetch - processPackages [process-twarc]: executing diffoscope
+[2023-07-09 13:54:19] INFO root fetch - processPackages [process-twarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process-twarc-0.12.1.tar.gz tmp/process-twarc-0.12.2.tar.gz --markdown 20230709/p/process-twarc/0.12.1-0.12.2/diff.md --exclude *.pyd
+[2023-07-09 13:54:19] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-07-09 13:54:19] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230709/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:54:19] INFO root fetch - processPackages [configu]: executing diffoscope
+[2023-07-09 13:54:19] INFO root fetch - processPackages [configu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configu-0.3.0.tar.gz tmp/configu-0.4.0.tar.gz --markdown 20230709/c/configu/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 13:54:19] INFO root fetch - processPackages [Brian2Cuda]: executing diffoscope
+[2023-07-09 13:54:19] INFO root fetch - processPackages [Brian2Cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Brian2CUDA-1.0a1.tar.gz tmp/Brian2Cuda-1.0a2.tar.gz --markdown 20230709/B/Brian2Cuda/1.0a1-1.0a2/diff.md --exclude *.pyd
+[2023-07-09 13:54:20] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.2-py3-none-any.whl.zip]
+[2023-07-09 13:54:20] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.21-py3-none-any.whl.zip]
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-07-09 13:54:20] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.9.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-09 13:54:20] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.1.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.2.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
+[2023-07-09 13:54:20] INFO root fetch - processPackages [configu]: Remove: archive file [/home/abi/fetcher/tmp/configu-0.3.0.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - processPackages [configu]: Remove: archive file [/home/abi/fetcher/tmp/configu-0.4.0.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [configu]: success
+[2023-07-09 13:54:20] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-07-09 13:54:20] INFO root fetch - processPackages [Brian2Cuda]: Remove: archive file [/home/abi/fetcher/tmp/Brian2CUDA-1.0a1.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - processPackages [Brian2Cuda]: Remove: archive file [/home/abi/fetcher/tmp/Brian2Cuda-1.0a2.tar.gz]
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: End processing [Brian2Cuda]: success
+[2023-07-09 13:54:20] INFO root fetch - main [MainThread]: Store serial: [18819941]

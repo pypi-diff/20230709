@@ -6644,3 +6644,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 10:30:37] INFO root fetch - processPackages [MOBPY]: Remove: archive file [/home/abi/fetcher/tmp/MOBPY-1.0.1.tar.gz]
 [2023-07-09 10:30:37] INFO root fetch - main [MainThread]: End processing [MOBPY]: success
 [2023-07-09 10:30:37] INFO root fetch - main [MainThread]: Store serial: [18819055]
+[2023-07-09 10:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819055]
+[2023-07-09 10:35:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 10:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impose-cli
+[2023-07-09 10:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fnum
+[2023-07-09 10:35:46] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc9] Old Version: [0.1.41rc8]
+[2023-07-09 10:35:46] INFO root fetch - processPackages [fnum]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-09 10:35:46] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/84/8f/c146012c77527d4e1fe6d229449e5629d8150ad6acb3b21a80a23030f967/impose-cli-0.1.41rc8.tar.gz
+[2023-07-09 10:35:46] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/1a/8d/484c1fba46864e4aac019398c5fc57cd5c2c6c5c05fcda09ce8610580889/fnum-1.2.1-py3-none-any.whl
+[2023-07-09 10:35:47] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/5c/04/cab5e234024ebd333c47fb80f0a263c61106ad6b29606f9b64df9264e11c/impose_cli-0.1.41rc9-py3-none-any.whl
+[2023-07-09 10:35:47] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/22/be/ed09d5c408dc59672d6785296c75fbdabd61be5e8175865e8d22da1fb10a/fnum-1.2.2-py3-none-any.whl
+[2023-07-09 10:35:47] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-09 10:35:47] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.2.1-py3-none-any.whl.zip tmp/fnum-1.2.2-py3-none-any.whl.zip --markdown 20230709/f/fnum/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-09 10:35:47] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-09 10:35:47] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.1.41rc8.tar.gz tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip --markdown 20230709/i/impose-cli/0.1.41rc8-0.1.41rc9/diff.md --exclude *.pyd
+[2023-07-09 10:35:47] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.2.1-py3-none-any.whl.zip]
+[2023-07-09 10:35:47] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.2.2-py3-none-any.whl.zip]
+[2023-07-09 10:35:47] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-09 10:35:47] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc8.tar.gz]
+[2023-07-09 10:35:47] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc9-py3-none-any.whl.zip]
+[2023-07-09 10:35:47] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-09 10:35:47] INFO root fetch - main [MainThread]: Store serial: [18819068]

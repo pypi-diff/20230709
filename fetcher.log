@@ -7597,3 +7597,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:19:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
 [2023-07-09 12:19:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-09 12:19:44] INFO root fetch - main [MainThread]: Store serial: [18819494]
+[2023-07-09 12:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819494]
+[2023-07-09 12:24:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 12:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capsula
+[2023-07-09 12:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2023-07-09 12:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2023-07-09 12:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stim
+[2023-07-09 12:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laminci
+[2023-07-09 12:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-nsm
+[2023-07-09 12:24:53] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230709.post1328] Old Version: [1.1.0.20230708.post1214]
+[2023-07-09 12:24:53] INFO root fetch - processPackages [laminci]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-09 12:24:53] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-09 12:24:53] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-09 12:24:53] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-09 12:24:53] INFO root fetch - processPackages [robotframework-nsm]: New version: [0.9] Old Version: [0.8]
+[2023-07-09 12:24:53] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/ea/8d/6897e2c0102d0781ff25c85b9242d291c9541ea09e296db87ddece1cba0a/mct-quantizers-nightly-1.1.0.20230708.post1214.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-09 12:24:53] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/04/94/486aac123594032d7264c2152aa72a3184a2761c14546b77fbca7b25bc6b/laminci-0.7.2.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [robotframework-nsm]: Downloading https://files.pythonhosted.org/packages/bc/8e/bb877a8da6df0ad1c81870e787aa994b3aca542884a3c1868398be513ab5/robotframework-nsm-0.8.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/3c/c0/babfb9f8082016197e09ff66dad176276e4c96c7f6eb7ec156e48f4bb0aa/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-09 12:24:53] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-07-09 12:24:53] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20230709/s/stim/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-09 12:24:53] INFO root fetch - processPackages [laminci]: Downloading https://files.pythonhosted.org/packages/85/4b/eba03223cb5cdd5aebe7157a197cad665885bd21e36a0ab048ee49566eab/laminci-0.7.3.tar.gz
+[2023-07-09 12:24:53] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-09 12:24:53] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230708.post1214.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz --markdown 20230709/m/mct-quantizers-nightly/1.1.0.20230708.post1214-1.1.0.20230709.post1328/diff.md --exclude *.pyd
+[2023-07-09 12:24:53] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-09 12:24:53] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230709/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 12:24:53] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-09 12:24:53] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230709/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-09 12:24:53] INFO root fetch - processPackages [robotframework-nsm]: Downloading https://files.pythonhosted.org/packages/17/68/a6130a67aa1145dd167164c8062a13ab1a445feb46586d879a8df374f7cf/robotframework-nsm-0.9.tar.gz
+[2023-07-09 12:24:54] INFO root fetch - processPackages [laminci]: executing diffoscope
+[2023-07-09 12:24:54] INFO root fetch - processPackages [laminci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laminci-0.7.2.tar.gz tmp/laminci-0.7.3.tar.gz --markdown 20230709/l/laminci/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-09 12:24:54] INFO root fetch - processPackages [robotframework-nsm]: executing diffoscope
+[2023-07-09 12:24:54] INFO root fetch - processPackages [robotframework-nsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-nsm-0.8.tar.gz tmp/robotframework-nsm-0.9.tar.gz --markdown 20230709/r/robotframework-nsm/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-09 12:24:55] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-09 12:24:55] INFO root fetch - processPackages [robotframework-nsm]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-nsm-0.8.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - processPackages [robotframework-nsm]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-nsm-0.9.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - main [MainThread]: End processing [robotframework-nsm]: success
+[2023-07-09 12:24:55] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.7.2.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - processPackages [laminci]: Remove: archive file [/home/abi/fetcher/tmp/laminci-0.7.3.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - main [MainThread]: End processing [laminci]: success
+[2023-07-09 12:24:55] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230708.post1214.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-09 12:24:55] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2023-07-09 12:24:55] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-07-09 12:24:56] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-09 12:24:56] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-09 12:24:56] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-09 12:24:56] INFO root fetch - main [MainThread]: Store serial: [18819535]

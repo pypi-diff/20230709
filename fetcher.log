@@ -2035,3 +2035,34 @@
 [2023-07-09 03:23:42] INFO root fetch - processPackages [kneed]: Remove: archive file [/home/abi/fetcher/tmp/kneed-0.8.4.tar.gz]
 [2023-07-09 03:23:42] INFO root fetch - main [MainThread]: End processing [kneed]: success
 [2023-07-09 03:23:42] INFO root fetch - main [MainThread]: Store serial: [18817053]
+[2023-07-09 03:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817053]
+[2023-07-09 03:28:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 03:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2023-07-09 03:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corankco
+[2023-07-09 03:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-07-09 03:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siliconcompiler
+[2023-07-09 03:28:51] INFO root fetch - processPackages [corankco]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-09 03:28:51] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-09 03:28:51] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 03:28:51] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-09 03:28:51] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-09 03:28:51] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-09 03:28:51] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-09 03:28:51] INFO root fetch - processPackages [siliconcompiler]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-09 03:28:51] INFO root fetch - processPackages [corankco]: Downloading https://files.pythonhosted.org/packages/b7/b5/dde32f0bf243a5ecf79ceb0b1336b3184463802397c993ae9383dc398e1e/corankco-4.0.0.tar.gz
+[2023-07-09 03:28:51] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-09 03:28:51] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-09 03:28:51] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230709/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 03:28:51] INFO root fetch - processPackages [siliconcompiler]: Downloading https://files.pythonhosted.org/packages/a8/9e/5a4bc1cc4a24cd9394b181819bbc3e7094009e594403bc9bc0abb5147ff4/siliconcompiler-0.9.6-cp39-cp39-win_amd64.whl
+[2023-07-09 03:28:52] INFO root fetch - processPackages [corankco]: Downloading https://files.pythonhosted.org/packages/ec/7e/43c6ea53cdaebbcda5d9a3a422e6d633bdd0fbfffcd817d5ebf4dc2a4baf/corankco-4.0.1.tar.gz
+[2023-07-09 03:28:52] INFO root fetch - processPackages [corankco]: executing diffoscope
+[2023-07-09 03:28:52] INFO root fetch - processPackages [corankco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corankco-4.0.0.tar.gz tmp/corankco-4.0.1.tar.gz --markdown 20230709/c/corankco/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-09 03:28:52] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-09 03:28:52] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-09 03:28:52] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-09 03:28:52] WARNING root fetch - processPackages [siliconcompiler]: Skipping package: exceeds size limit 37222537>=10485760
+[2023-07-09 03:28:52] INFO root fetch - main [MainThread]: End processing [siliconcompiler] error
+[2023-07-09 03:28:55] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-4.0.0.tar.gz]
+[2023-07-09 03:28:55] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-4.0.1.tar.gz]
+[2023-07-09 03:28:55] INFO root fetch - main [MainThread]: End processing [corankco]: success
+[2023-07-09 03:28:55] INFO root fetch - main [MainThread]: Store serial: [18817066]

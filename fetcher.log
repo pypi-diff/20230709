@@ -3624,3 +3624,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 05:46:26] WARNING root fetch - processPackages [ziku]: Skipping package: exceeds size limit 16603424>=10485760
 [2023-07-09 05:46:26] INFO root fetch - main [MainThread]: End processing [ziku] error
 [2023-07-09 05:46:26] INFO root fetch - main [MainThread]: Store serial: [18817757]
+[2023-07-09 05:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817757]
+[2023-07-09 05:51:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-it-account-stamp
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-it-reverse-charge
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-template-x
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-intrastat
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectralcluster
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nameattr
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrostrat-database
+[2023-07-09 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perte
+[2023-07-09 05:51:35] WARNING root fetch - processPackages [python-template-x]: Skipping, unable to determine old version
+[2023-07-09 05:51:35] INFO root fetch - main [MainThread]: End processing [python-template-x] error
+[2023-07-09 05:51:35] INFO root fetch - processPackages [nameattr]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: New version: [14.0.1.3.1.dev7] Old Version: [14.0.1.3.1.dev6]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [macrostrat-database]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [perte]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: New version: [14.0.1.2.5.dev2] Old Version: [14.0.1.2.5.dev1]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [spectralcluster]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: New version: [14.0.1.1.3.dev2] Old Version: [14.0.1.1.3.dev1]
+[2023-07-09 05:51:35] INFO root fetch - processPackages [nameattr]: Downloading https://files.pythonhosted.org/packages/d6/b2/e1bad4643c3ddfdd79afa4e3445ff9f9693b56791efcdf4bbc104180422c/nameattr-0.1.0-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/03/6b/cf86e86ddcb909c90b00378964527a633fb58445319bbad874e5c0f9b88f/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.5.dev1-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [perte]: Downloading https://files.pythonhosted.org/packages/f2/86/70b5b2669745448bf9262efb5c19673334188be98fdbbbf0c4feb724e03a/perte-0.1.2.tar.gz
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/90/dc/75b08f651fa613d27f506ff94b687fc5728b2d91ecec5cf820ccbf38e7bb/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev6-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [macrostrat-database]: Downloading https://files.pythonhosted.org/packages/f4/a4/fa178a5523a58f069cd48bd54e1888bf7633526211d9c552f4ff4b7d337d/macrostrat_database-2.1.2.tar.gz
+[2023-07-09 05:51:35] INFO root fetch - processPackages [spectralcluster]: Downloading https://files.pythonhosted.org/packages/75/9f/12db63eb45774c5810862d1d011a76533aed1ca88bfe7e92b75224b93c97/spectralcluster-0.2.8.tar.gz
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Downloading https://files.pythonhosted.org/packages/74/9b/4222077eb966386fd07d75104779267f4907a89a9aa56efd660ac5e1a542/odoo14_addon_l10n_it_account_stamp-14.0.1.1.3.dev1-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [nameattr]: Downloading https://files.pythonhosted.org/packages/99/b3/16ec545224e5f6ed58aacc9d52adceee073487ecb986757cc938497dabac/nameattr-1.0.0-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [perte]: Downloading https://files.pythonhosted.org/packages/3a/9e/f7719c44de0f8d76241a7836c83e80934b30b22d8517f09abcc2977f815e/perte-0.1.3.tar.gz
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/5b/b9/479555bbe9f740ad0888b4c786c503a7f4ba772a437394e6d57f5be18595/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.5.dev2-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [macrostrat-database]: Downloading https://files.pythonhosted.org/packages/25/e0/db6bc6f4ab5320736d31774a6ca50fba3eeaaa962dc00e9423c6222229ea/macrostrat_database-2.1.3.tar.gz
+[2023-07-09 05:51:35] INFO root fetch - processPackages [perte]: executing diffoscope
+[2023-07-09 05:51:35] INFO root fetch - processPackages [perte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perte-0.1.2.tar.gz tmp/perte-0.1.3.tar.gz --markdown 20230709/p/perte/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 05:51:35] INFO root fetch - processPackages [spectralcluster]: Downloading https://files.pythonhosted.org/packages/2f/6c/e4615e672a06ce279c1791a50d56b155bb42d19e8c4b7dd79f808ae9b27a/spectralcluster-0.2.9.tar.gz
+[2023-07-09 05:51:35] INFO root fetch - processPackages [nameattr]: executing diffoscope
+[2023-07-09 05:51:35] INFO root fetch - processPackages [nameattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameattr-0.1.0-py3-none-any.whl.zip tmp/nameattr-1.0.0-py3-none-any.whl.zip --markdown 20230709/n/nameattr/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 05:51:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Downloading https://files.pythonhosted.org/packages/6b/c8/10492f5027da1a55a9cf35ad7c21941845c64b0ebde603a4f070e5fcf23d/odoo14_addon_l10n_it_account_stamp-14.0.1.1.3.dev2-py3-none-any.whl
+[2023-07-09 05:51:35] INFO root fetch - processPackages [macrostrat-database]: executing diffoscope
+[2023-07-09 05:51:35] INFO root fetch - processPackages [macrostrat-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrostrat_database-2.1.2.tar.gz tmp/macrostrat_database-2.1.3.tar.gz --markdown 20230709/m/macrostrat-database/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/96/5a/d1341caf920f85b8dc06c0c365abc7d3b566bf5bac6c7710a5691f374831/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: executing diffoscope
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.5.dev2-py3-none-any.whl.zip --markdown 20230709/o/odoo14-addon-l10n-it-reverse-charge/14.0.1.2.5.dev1-14.0.1.2.5.dev2/diff.md --exclude *.pyd
+[2023-07-09 05:51:36] INFO root fetch - processPackages [spectralcluster]: executing diffoscope
+[2023-07-09 05:51:36] INFO root fetch - processPackages [spectralcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralcluster-0.2.8.tar.gz tmp/spectralcluster-0.2.9.tar.gz --markdown 20230709/s/spectralcluster/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: executing diffoscope
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.3.dev2-py3-none-any.whl.zip --markdown 20230709/o/odoo14-addon-l10n-it-account-stamp/14.0.1.1.3.dev1-14.0.1.1.3.dev2/diff.md --exclude *.pyd
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: executing diffoscope
+[2023-07-09 05:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl.zip --markdown 20230709/o/odoo14-addon-l10n-it-intrastat/14.0.1.3.1.dev6-14.0.1.3.1.dev7/diff.md --exclude *.pyd
+[2023-07-09 05:51:37] INFO root fetch - processPackages [perte]: Remove: archive file [/home/abi/fetcher/tmp/perte-0.1.2.tar.gz]
+[2023-07-09 05:51:37] INFO root fetch - processPackages [perte]: Remove: archive file [/home/abi/fetcher/tmp/perte-0.1.3.tar.gz]
+[2023-07-09 05:51:37] INFO root fetch - main [MainThread]: End processing [perte]: success
+[2023-07-09 05:51:37] INFO root fetch - processPackages [nameattr]: Remove: archive file [/home/abi/fetcher/tmp/nameattr-0.1.0-py3-none-any.whl.zip]
+[2023-07-09 05:51:37] INFO root fetch - processPackages [nameattr]: Remove: archive file [/home/abi/fetcher/tmp/nameattr-1.0.0-py3-none-any.whl.zip]
+[2023-07-09 05:51:37] INFO root fetch - main [MainThread]: End processing [nameattr]: success
+[2023-07-09 05:51:37] INFO root fetch - processPackages [macrostrat-database]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_database-2.1.2.tar.gz]
+[2023-07-09 05:51:37] INFO root fetch - processPackages [macrostrat-database]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_database-2.1.3.tar.gz]
+[2023-07-09 05:51:37] INFO root fetch - main [MainThread]: End processing [macrostrat-database]: success
+[2023-07-09 05:51:37] INFO root fetch - processPackages [spectralcluster]: Remove: archive file [/home/abi/fetcher/tmp/spectralcluster-0.2.8.tar.gz]
+[2023-07-09 05:51:37] INFO root fetch - processPackages [spectralcluster]: Remove: archive file [/home/abi/fetcher/tmp/spectralcluster-0.2.9.tar.gz]
+[2023-07-09 05:51:37] INFO root fetch - main [MainThread]: End processing [spectralcluster]: success
+[2023-07-09 05:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.3.dev1-py3-none-any.whl.zip]
+[2023-07-09 05:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-account-stamp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_account_stamp-14.0.1.1.3.dev2-py3-none-any.whl.zip]
+[2023-07-09 05:51:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-account-stamp]: success
+[2023-07-09 05:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.5.dev1-py3-none-any.whl.zip]
+[2023-07-09 05:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.5.dev2-py3-none-any.whl.zip]
+[2023-07-09 05:51:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-reverse-charge]: success
+[2023-07-09 05:51:38] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev6-py3-none-any.whl.zip]
+[2023-07-09 05:51:38] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl.zip]
+[2023-07-09 05:51:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
+[2023-07-09 05:51:38] INFO root fetch - main [MainThread]: Store serial: [18817780]

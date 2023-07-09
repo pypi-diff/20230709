@@ -4769,3 +4769,133 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 07:46:08] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
 [2023-07-09 07:46:08] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
 [2023-07-09 07:46:08] INFO root fetch - main [MainThread]: Store serial: [18818206]
+[2023-07-09 07:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818206]
+[2023-07-09 07:51:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngmapi
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omneer
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: environmentaltrends
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epson-connect
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyappbundler
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geopix
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awpr
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvat-manifest-builder
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fsai-shared-funcs
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.25]
+[2023-07-09 07:51:17] WARNING root fetch - processPackages [epson-connect]: Skipping, unable to determine old version
+[2023-07-09 07:51:17] INFO root fetch - processPackages [epson-connect]: Start processing: json-file-split
+[2023-07-09 07:51:17] INFO root fetch - main [MainThread]: End processing [epson-connect] error
+[2023-07-09 07:51:17] INFO root fetch - processPackages [omneer]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.25]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [pyappbundler]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [environmentaltrends]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [pyappbundler]: Downloading https://files.pythonhosted.org/packages/8c/cd/08ada6de31fdd5c2067b893b0cb01f78257a87d2acb3b89afe790026daa3/pyappbundler-0.1.5.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [environmentaltrends]: Downloading https://files.pythonhosted.org/packages/d6/6f/e33ec4c74ac078412d6b3d93227d47353d890038e3e5afd4e037e10eb28d/environmentaltrends-0.0.2.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/78/8c/2629e5c6d4e31dd37d908dba03d615bcd0476f1ad52742da87c34e5fb424/ngmapi-0.0.25.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/78/8c/2629e5c6d4e31dd37d908dba03d615bcd0476f1ad52742da87c34e5fb424/ngmapi-0.0.25.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/78/d4/009657ac4a89732157bf653f5c7ce0a221953b9693925589f0673eb91160/omneer-0.1.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-07-09 07:51:17] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [pyappbundler]: Downloading https://files.pythonhosted.org/packages/37/45/b50d150b14cdca53a01ffdd082b956e694f22c27723b1910d7ea27a6e18b/pyappbundler-0.1.6.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [environmentaltrends]: Downloading https://files.pythonhosted.org/packages/f1/da/e199c285befb9a8b5074e976c09e2d305c6eeb843749d4b2290900ee4dbc/environmentaltrends-0.0.3.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/91/aa/fee5fdc4a84c86bd34bd4f1d4d03c0542ceecb340c3eb85fa219740a5f61/omneer-0.1.1.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [pyappbundler]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [pyappbundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappbundler-0.1.5.tar.gz tmp/pyappbundler-0.1.6.tar.gz --markdown 20230709/p/pyappbundler/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.25.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230709/n/ngmapi/0.0.25-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.25.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230709/n/ngmapi/0.0.25-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [environmentaltrends]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [environmentaltrends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/environmentaltrends-0.0.2.tar.gz tmp/environmentaltrends-0.0.3.tar.gz --markdown 20230709/e/environmentaltrends/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [omneer]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [omneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omneer-0.1.tar.gz tmp/omneer-0.1.1.tar.gz --markdown 20230709/o/omneer/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-07-09 07:51:18] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230709/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230709/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230709/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230709/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:18] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-07-09 07:51:18] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230709/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:19] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.25.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [ngmapi]: Start processing: recursive-validator
+[2023-07-09 07:51:19] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 07:51:19] INFO root fetch - processPackages [ngmapi]: Start processing: iwx-manifest-builder
+[2023-07-09 07:51:19] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 07:51:19] INFO root fetch - processPackages [environmentaltrends]: Remove: archive file [/home/abi/fetcher/tmp/environmentaltrends-0.0.2.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [environmentaltrends]: Remove: archive file [/home/abi/fetcher/tmp/environmentaltrends-0.0.3.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [environmentaltrends]: Start processing: fsai-grpc-api
+[2023-07-09 07:51:19] INFO root fetch - main [MainThread]: End processing [environmentaltrends]: success
+[2023-07-09 07:51:19] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.5.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.6.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [pyappbundler]: Start processing: tfads-o-builder
+[2023-07-09 07:51:19] INFO root fetch - main [MainThread]: End processing [pyappbundler]: success
+[2023-07-09 07:51:19] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.1.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.1.1.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - main [MainThread]: End processing [omneer]: success
+[2023-07-09 07:51:19] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-07-09 07:51:19] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-07-09 07:51:19] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.161] Old Version: [0.0.160]
+[2023-07-09 07:51:20] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-07-09 07:51:20] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-07-09 07:51:20] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-07-09 07:51:20] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/d3/86/ee41b5444280a5772a9a14f2b1a412ee0d0a28e18a1871cd6cd5b620d7a9/tfads_o_builder-0.0.160.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-07-09 07:51:20] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-07-09 07:51:20] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/52/52/8671f5ad8bb9290efbee39e14392c7c322090064609c3849896ff38cf88d/tfads_o_builder-0.0.161.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-07-09 07:51:20] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230709/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:20] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-07-09 07:51:20] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230709/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:20] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-07-09 07:51:20] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-07-09 07:51:20] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230709/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-09 07:51:20] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-07-09 07:51:20] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.160.tar.gz tmp/tfads_o_builder-0.0.161.tar.gz --markdown 20230709/t/tfads-o-builder/0.0.160-0.0.161/diff.md --exclude *.pyd
+[2023-07-09 07:51:21] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-07-09 07:51:21] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-07-09 07:51:21] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.160.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.161.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-07-09 07:51:21] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-07-09 07:51:21] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-07-09 07:51:21] INFO root fetch - main [MainThread]: Store serial: [18818258]

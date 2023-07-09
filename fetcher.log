@@ -5359,3 +5359,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 08:43:22] WARNING root fetch - processPackages [logsparsersubsystem]: Skipping package: exceeds size limit 21592457>=10485760
 [2023-07-09 08:43:22] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
 [2023-07-09 08:43:22] INFO root fetch - main [MainThread]: Store serial: [18818421]
+[2023-07-09 08:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18818421]
+[2023-07-09 08:48:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-inference
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blacken-docs
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slipbox
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrostrat-database
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrostrat-dinosaur
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piou
+[2023-07-09 08:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viper-lib
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-dinosaur]: New version: [3.0.0.dev1] Old Version: [1.0.2]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [blacken-docs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-database]: New version: [3.0.0.dev1] Old Version: [2.1.3]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [viper-lib]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [piou]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [slipbox]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-database]: Downloading https://files.pythonhosted.org/packages/25/e0/db6bc6f4ab5320736d31774a6ca50fba3eeaaa962dc00e9423c6222229ea/macrostrat_database-2.1.3.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-dinosaur]: Downloading https://files.pythonhosted.org/packages/03/9d/b1bc5129cd113ed2e2b566c21fb711f0f777d406ec2b57cfb7ad9a299c20/macrostrat_dinosaur-1.0.2-py3-none-any.whl
+[2023-07-09 08:48:31] INFO root fetch - processPackages [blacken-docs]: Downloading https://files.pythonhosted.org/packages/4c/1d/8ed548253d4f95a75ed11ba4931fa3fb97ee2317b023bb251b7f5816d9af/blacken_docs-1.9.1.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [viper-lib]: Downloading https://files.pythonhosted.org/packages/5d/a3/94860f2950a85c2788fd1a5554d469cf8a20509d0ad865788e38b0d9950c/viper_lib-0.5.7.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [slipbox]: Downloading https://files.pythonhosted.org/packages/57/ef/58edfb16be00860cbc5e84fbda7c93e3fff8a74f4777205d3e3586ad9c5f/slipbox-0.8.9.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [piou]: Downloading https://files.pythonhosted.org/packages/f9/4c/1be53b6dc9ee6934094190fe0d9ae5c8c8b571257886c8930af0a9cd7e2a/piou-0.9.7.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/9a/4f/8d620088704249ca8c59786566485bd92a932c680b77a10e2ee0086bab12/qwak_inference-0.1.5.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-database]: Downloading https://files.pythonhosted.org/packages/2a/1c/e1819723198dc553c5c6e34c613f71448dcf99a729e45a32976b7cb6b3af/macrostrat_database-3.0.0.dev1.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-dinosaur]: Downloading https://files.pythonhosted.org/packages/2a/e4/bccde2fdb7a0105ef9c430fdab62a1e0759eff99240758cd84c97675e368/macrostrat_dinosaur-3.0.0.dev1.tar.gz
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-database]: executing diffoscope
+[2023-07-09 08:48:31] INFO root fetch - processPackages [macrostrat-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrostrat_database-2.1.3.tar.gz tmp/macrostrat_database-3.0.0.dev1.tar.gz --markdown 20230709/m/macrostrat-database/2.1.3-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-07-09 08:48:31] INFO root fetch - processPackages [viper-lib]: Downloading https://files.pythonhosted.org/packages/8a/d6/5c5ae7a38db9eb5b62fb38780325ebbc7353c015ee793eb2e421a9181ecf/viper_lib-0.5.8.tar.gz
+[2023-07-09 08:48:32] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/8d/ec/743dbccd89d3f52f03130424d18db6b0e9fc76b32abf48f3b0d9195e02e2/qwak_inference-0.1.6.tar.gz
+[2023-07-09 08:48:32] INFO root fetch - processPackages [blacken-docs]: Downloading https://files.pythonhosted.org/packages/22/30/568cc93193285f5dd15ab59907ea0581d121eba8eb24cd3bd8cd3886d8fb/blacken_docs-1.9.2.tar.gz
+[2023-07-09 08:48:32] INFO root fetch - processPackages [slipbox]: Downloading https://files.pythonhosted.org/packages/8b/7a/6c135bcc3437cce395ef1ef288eef74a61ec45bb9cbe2e8272a9e53d0e98/slipbox-0.9.0.tar.gz
+[2023-07-09 08:48:32] INFO root fetch - processPackages [macrostrat-dinosaur]: executing diffoscope
+[2023-07-09 08:48:32] INFO root fetch - processPackages [macrostrat-dinosaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrostrat_dinosaur-1.0.2-py3-none-any.whl.zip tmp/macrostrat_dinosaur-3.0.0.dev1.tar.gz --markdown 20230709/m/macrostrat-dinosaur/1.0.2-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-07-09 08:48:32] INFO root fetch - processPackages [viper-lib]: executing diffoscope
+[2023-07-09 08:48:32] INFO root fetch - processPackages [viper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viper_lib-0.5.7.tar.gz tmp/viper_lib-0.5.8.tar.gz --markdown 20230709/v/viper-lib/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-09 08:48:32] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-07-09 08:48:32] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.1.5.tar.gz tmp/qwak_inference-0.1.6.tar.gz --markdown 20230709/q/qwak-inference/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 08:48:32] INFO root fetch - processPackages [blacken-docs]: executing diffoscope
+[2023-07-09 08:48:32] INFO root fetch - processPackages [blacken-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacken_docs-1.9.1.tar.gz tmp/blacken_docs-1.9.2.tar.gz --markdown 20230709/b/blacken-docs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-09 08:48:32] INFO root fetch - processPackages [piou]: Downloading https://files.pythonhosted.org/packages/5d/ed/962165aa40510541e5466b9b1d951b706b456509d9c26f8182064244854a/piou-0.9.8.tar.gz
+[2023-07-09 08:48:32] INFO root fetch - processPackages [slipbox]: executing diffoscope
+[2023-07-09 08:48:32] INFO root fetch - processPackages [slipbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slipbox-0.8.9.tar.gz tmp/slipbox-0.9.0.tar.gz --markdown 20230709/s/slipbox/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 08:48:32] INFO root fetch - processPackages [piou]: executing diffoscope
+[2023-07-09 08:48:32] INFO root fetch - processPackages [piou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piou-0.9.7.tar.gz tmp/piou-0.9.8.tar.gz --markdown 20230709/p/piou/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-09 08:48:33] INFO root fetch - processPackages [macrostrat-dinosaur]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_dinosaur-1.0.2-py3-none-any.whl.zip]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [macrostrat-dinosaur]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_dinosaur-3.0.0.dev1.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [macrostrat-dinosaur]: success
+[2023-07-09 08:48:33] INFO root fetch - processPackages [macrostrat-database]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_database-2.1.3.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [macrostrat-database]: Remove: archive file [/home/abi/fetcher/tmp/macrostrat_database-3.0.0.dev1.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [macrostrat-database]: success
+[2023-07-09 08:48:33] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.5.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.6.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-07-09 08:48:33] INFO root fetch - processPackages [viper-lib]: Remove: archive file [/home/abi/fetcher/tmp/viper_lib-0.5.7.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [viper-lib]: Remove: archive file [/home/abi/fetcher/tmp/viper_lib-0.5.8.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [viper-lib]: success
+[2023-07-09 08:48:33] INFO root fetch - processPackages [blacken-docs]: Remove: archive file [/home/abi/fetcher/tmp/blacken_docs-1.9.1.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [blacken-docs]: Remove: archive file [/home/abi/fetcher/tmp/blacken_docs-1.9.2.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [blacken-docs]: success
+[2023-07-09 08:48:33] INFO root fetch - processPackages [piou]: Remove: archive file [/home/abi/fetcher/tmp/piou-0.9.7.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [piou]: Remove: archive file [/home/abi/fetcher/tmp/piou-0.9.8.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [piou]: success
+[2023-07-09 08:48:33] INFO root fetch - processPackages [slipbox]: Remove: archive file [/home/abi/fetcher/tmp/slipbox-0.8.9.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - processPackages [slipbox]: Remove: archive file [/home/abi/fetcher/tmp/slipbox-0.9.0.tar.gz]
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: End processing [slipbox]: success
+[2023-07-09 08:48:33] INFO root fetch - main [MainThread]: Store serial: [18818442]

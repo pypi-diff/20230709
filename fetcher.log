@@ -2703,3 +2703,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:12:27] INFO root fetch - processPackages [pyappbundler]: Remove: archive file [/home/abi/fetcher/tmp/pyappbundler-0.1.5.tar.gz]
 [2023-07-09 04:12:27] INFO root fetch - main [MainThread]: End processing [pyappbundler]: success
 [2023-07-09 04:12:27] INFO root fetch - main [MainThread]: Store serial: [18817380]
+[2023-07-09 04:17:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817380]
+[2023-07-09 04:17:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 04:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NeuroNode
+[2023-07-09 04:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tclab-sdk
+[2023-07-09 04:17:35] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.6]
+[2023-07-09 04:17:35] INFO root fetch - processPackages [tclab-sdk]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-09 04:17:36] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-09 04:17:36] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/30/db/98fa07cc36df9344184255e00d2581cecda732bea63f15681a701d3c1261/tclab-sdk-1.3.1.tar.gz
+[2023-07-09 04:17:36] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-09 04:17:36] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-09 04:17:36] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.6.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230709/N/NeuroNode/3.6-3.9/diff.md --exclude *.pyd
+[2023-07-09 04:17:36] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/56/7d/1e78cb2797bf396ea48afd09e1efb113d3a556b89d35abcb66e0e28fcdaf/tclab-sdk-1.3.2.tar.gz
+[2023-07-09 04:17:36] INFO root fetch - processPackages [tclab-sdk]: executing diffoscope
+[2023-07-09 04:17:36] INFO root fetch - processPackages [tclab-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclab-sdk-1.3.1.tar.gz tmp/tclab-sdk-1.3.2.tar.gz --markdown 20230709/t/tclab-sdk/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-09 04:17:37] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-09 04:17:37] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-09 04:17:37] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-09 04:17:37] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.1.tar.gz]
+[2023-07-09 04:17:37] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.2.tar.gz]
+[2023-07-09 04:17:37] INFO root fetch - main [MainThread]: End processing [tclab-sdk]: success
+[2023-07-09 04:17:37] INFO root fetch - main [MainThread]: Store serial: [18817386]

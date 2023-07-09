@@ -13783,3 +13783,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:00:20] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.9.tar.gz]
 [2023-07-09 20:00:20] INFO root fetch - main [MainThread]: End processing [xcsf]: success
 [2023-07-09 20:00:20] INFO root fetch - main [MainThread]: Store serial: [18822268]
+[2023-07-09 20:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822268]
+[2023-07-09 20:05:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fhir-analyzer
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-spy
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roblox-pyc
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fern-optimizely
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redplanet
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-spy
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: External-User-Local-Python-Package
+[2023-07-09 20:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: damqt6
+[2023-07-09 20:05:30] INFO root fetch - processPackages [External-User-Local-Python-Package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-09 20:05:30] ERROR root fetch - processPackages [aws-spy]: Unable to get metadata: No such project 'aws-spy'
+[2023-07-09 20:05:30] INFO root fetch - main [MainThread]: End processing [aws-spy] error
+[2023-07-09 20:05:30] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.4] Old Version: [1.6.6.3]
+[2023-07-09 20:05:30] INFO root fetch - processPackages [damqt6]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-09 20:05:30] ERROR root fetch - processPackages [aws-spy]: Unable to get metadata: No such project 'aws-spy'
+[2023-07-09 20:05:30] INFO root fetch - main [MainThread]: End processing [aws-spy] error
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fhir-analyzer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fern-optimizely]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 20:05:30] INFO root fetch - processPackages [redplanet]: New version: [1.0.0] Old Version: [0.0.1.dev1]
+[2023-07-09 20:05:30] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/65/64/525dfd6f7ad209d801ffc0004f80cf969685d0100598a3142a8c625a3e00/roblox-pyc-1.6.6.3.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/5f/c4/49c7aadbea52da5ad9d3e7ae38ec2d02dcb5f8b813e8d1f3d796aeacc6d3/fhir_analyzer-0.0.6.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/ed/96/93241d09913a73528fac718bf76415adefa2ce96f60de0d311ca7353c02b/fern_optimizely-0.0.5.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [redplanet]: Downloading https://files.pythonhosted.org/packages/fa/b5/0f3e07ee717bf0af1c8cb69ca3c75f46cee01afb7495b0aaf80403c22600/redplanet-0.0.1.dev1.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [External-User-Local-Python-Package]: Downloading https://files.pythonhosted.org/packages/05/9b/3074152b5625879f567a41633a2219ff1d37d9999f678e0cb710e35e8397/External-User-Local-Python-Package-0.0.1.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [damqt6]: Downloading https://files.pythonhosted.org/packages/ec/ca/dd211c962ea3cd8d042363b4bf074326dae43eb2b12c7111965df275a60d/damqt6-0.7.8.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/bc/86/1981dc7b661b78a552f69a3ed363b085c9e170c3e1102a511c5fe82793a7/roblox-pyc-1.6.6.4.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fern-optimizely]: Downloading https://files.pythonhosted.org/packages/09/c9/a1cff808e0adc11d5b9224290874baf6058bc414db1a543edb3543261cd8/fern_optimizely-0.0.6.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [External-User-Local-Python-Package]: Downloading https://files.pythonhosted.org/packages/ba/2f/00aeb19e63d309c11c19371fa73fe7929f2423f0dbe6f3558e92da46de28/External-User-Local-Python-Package-0.0.2.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [redplanet]: Downloading https://files.pythonhosted.org/packages/28/f7/0fea70b0053447003d56ac2b3bfdf121eba0874b091d0461c7f8311a75b2/redplanet-1.0.0.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [damqt6]: Downloading https://files.pythonhosted.org/packages/e1/e4/42ee3f682bd1e81054d4133df54456810f66bd6d93726bbaa009ce6dd706/damqt6-0.7.9.tar.gz
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fern-optimizely]: executing diffoscope
+[2023-07-09 20:05:30] INFO root fetch - processPackages [fern-optimizely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_optimizely-0.0.5.tar.gz tmp/fern_optimizely-0.0.6.tar.gz --markdown 20230709/f/fern-optimizely/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 20:05:30] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 20:05:30] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.3.tar.gz tmp/roblox-pyc-1.6.6.4.tar.gz --markdown 20230709/r/roblox-pyc/1.6.6.3-1.6.6.4/diff.md --exclude *.pyd
+[2023-07-09 20:05:31] INFO root fetch - processPackages [External-User-Local-Python-Package]: executing diffoscope
+[2023-07-09 20:05:31] INFO root fetch - processPackages [External-User-Local-Python-Package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-Python-Package-0.0.1.tar.gz tmp/External-User-Local-Python-Package-0.0.2.tar.gz --markdown 20230709/E/External-User-Local-Python-Package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-09 20:05:31] INFO root fetch - processPackages [damqt6]: executing diffoscope
+[2023-07-09 20:05:31] INFO root fetch - processPackages [damqt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damqt6-0.7.8.tar.gz tmp/damqt6-0.7.9.tar.gz --markdown 20230709/d/damqt6/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-09 20:05:31] INFO root fetch - processPackages [redplanet]: executing diffoscope
+[2023-07-09 20:05:31] INFO root fetch - processPackages [redplanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redplanet-0.0.1.dev1.tar.gz tmp/redplanet-1.0.0.tar.gz --markdown 20230709/r/redplanet/0.0.1.dev1-1.0.0/diff.md --exclude *.pyd
+[2023-07-09 20:05:31] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/df/7b/140326fc48174cdddfd3da0a7a9a128b7c06a627ee5a061e9be7527b5d86/fhir_analyzer-0.0.7.tar.gz
+[2023-07-09 20:05:31] INFO root fetch - processPackages [fhir-analyzer]: executing diffoscope
+[2023-07-09 20:05:31] INFO root fetch - processPackages [fhir-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_analyzer-0.0.6.tar.gz tmp/fhir_analyzer-0.0.7.tar.gz --markdown 20230709/f/fhir-analyzer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-09 20:05:32] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.3.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.4.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 20:05:32] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.5.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - processPackages [fern-optimizely]: Remove: archive file [/home/abi/fetcher/tmp/fern_optimizely-0.0.6.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - main [MainThread]: End processing [fern-optimizely]: success
+[2023-07-09 20:05:32] INFO root fetch - processPackages [External-User-Local-Python-Package]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-Python-Package-0.0.1.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - processPackages [External-User-Local-Python-Package]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-Python-Package-0.0.2.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - main [MainThread]: End processing [External-User-Local-Python-Package]: success
+[2023-07-09 20:05:32] INFO root fetch - processPackages [damqt6]: Remove: archive file [/home/abi/fetcher/tmp/damqt6-0.7.8.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - processPackages [damqt6]: Remove: archive file [/home/abi/fetcher/tmp/damqt6-0.7.9.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - main [MainThread]: End processing [damqt6]: success
+[2023-07-09 20:05:32] INFO root fetch - processPackages [redplanet]: Remove: archive file [/home/abi/fetcher/tmp/redplanet-0.0.1.dev1.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - processPackages [redplanet]: Remove: archive file [/home/abi/fetcher/tmp/redplanet-1.0.0.tar.gz]
+[2023-07-09 20:05:32] INFO root fetch - main [MainThread]: End processing [redplanet]: success
+[2023-07-09 20:05:34] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.6.tar.gz]
+[2023-07-09 20:05:34] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.7.tar.gz]
+[2023-07-09 20:05:34] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
+[2023-07-09 20:05:34] INFO root fetch - main [MainThread]: Store serial: [18822307]

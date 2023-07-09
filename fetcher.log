@@ -11908,3 +11908,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:34:32] INFO root fetch - processPackages [memphis-py-beta]: Remove: archive file [/home/abi/fetcher/tmp/memphis-py-beta-1.0.7.tar.gz]
 [2023-07-09 17:34:32] INFO root fetch - main [MainThread]: End processing [memphis-py-beta]: success
 [2023-07-09 17:34:32] INFO root fetch - main [MainThread]: Store serial: [18821451]
+[2023-07-09 17:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821451]
+[2023-07-09 17:39:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zein
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BookerDownloadTool
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chrislab
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hermite-function
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zein
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mash-shell
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptkit
+[2023-07-09 17:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: diz
+[2023-07-09 17:39:41] INFO root fetch - processPackages [mash-shell]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-09 17:39:41] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:39:41] INFO root fetch - processPackages [roblox-pyc]: New version: [1.5.6.1] Old Version: [1.5.6]
+[2023-07-09 17:39:41] INFO root fetch - processPackages [hermite-function]: New version: [1.0] Old Version: [0.9.9]
+[2023-07-09 17:39:41] INFO root fetch - processPackages [BookerDownloadTool]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-09 17:39:41] WARNING root fetch - processPackages [diz]: Skipping, unable to determine old version
+[2023-07-09 17:39:41] INFO root fetch - main [MainThread]: End processing [diz] error
+[2023-07-09 17:39:41] WARNING root fetch - processPackages [promptkit]: Skipping, unable to determine old version
+[2023-07-09 17:39:41] INFO root fetch - main [MainThread]: End processing [promptkit] error
+[2023-07-09 17:39:41] INFO root fetch - processPackages [zein]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 17:39:41] INFO root fetch - processPackages [chrislab]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-09 17:39:42] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/f5/f2/782d587050b3175421285be807afd9e4bdcad074b1563b6d6315cda5ef1d/hermite-function-0.9.9.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/e8/c1/dc705577e5f7b3415e61137141584f366c9463823d79ddef99a55b82a35e/roblox-pyc-1.5.6.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [BookerDownloadTool]: Downloading https://files.pythonhosted.org/packages/55/8e/5a3698443970badd98e26bcf26d0696709ed901058d30bed9aa4222f2b6b/BookerDownloadTool-2023.7.9.0.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/c0/ae/0f41b56cc4dc3d67deba9ef34bf81bfe605a220addeb3cb41689b47cbdb1/zein-0.0.8.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/39/e5/5089c8c5df88a75a681b543ed20ff81c7842cd11739abf40df754b620250/mash-shell-0.2.5.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/b9/92/8cc9f8a27145b87c31387881fc456936a2939f223f7577edebc39e9c75c5/chrislab-0.5.4.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/2d/71/fe88167bb787cbbb9a4e5ee3ea8ead1ad21c5091a673721f122bc8a2ec9f/hermite-function-1.0.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/b4/4a/e743d6a29abbb74af4ffb233b9967114a8059e66033b80ed239b941fe6cf/roblox-pyc-1.5.6.1.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: Downloading https://files.pythonhosted.org/packages/ab/e8/698d32cb5c432681d3badf325a455526f311dea351b39b937c17d3b3dcb8/zein-0.0.9.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [hermite-function]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [hermite-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermite-function-0.9.9.tar.gz tmp/hermite-function-1.0.tar.gz --markdown 20230709/h/hermite-function/0.9.9-1.0/diff.md --exclude *.pyd
+[2023-07-09 17:39:42] INFO root fetch - processPackages [BookerDownloadTool]: Downloading https://files.pythonhosted.org/packages/4a/41/fd1ce9589ce28a7ff14c9f7fc980f11842f558a031035b9fe5d495da40e1/BookerDownloadTool-2023.7.9.1.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/02/50/9e0eb9bb7d9fb8dfc370fd20f7ad5be4eb8386b73364b958dd754a6b5bb5/chrislab-0.5.5.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:39:42] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/ac/ee/347f196f9554b286b26ec56cb8a44e1a8ed2941b6ae38e1f0c9b0b7bd0cd/mash-shell-0.2.6.tar.gz
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [zein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zein-0.0.8.tar.gz tmp/zein-0.0.9.tar.gz --markdown 20230709/z/zein/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 17:39:42] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.5.6.tar.gz tmp/roblox-pyc-1.5.6.1.tar.gz --markdown 20230709/r/roblox-pyc/1.5.6-1.5.6.1/diff.md --exclude *.pyd
+[2023-07-09 17:39:42] INFO root fetch - processPackages [BookerDownloadTool]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [BookerDownloadTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BookerDownloadTool-2023.7.9.0.tar.gz tmp/BookerDownloadTool-2023.7.9.1.tar.gz --markdown 20230709/B/BookerDownloadTool/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-09 17:39:42] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.5.4.tar.gz tmp/chrislab-0.5.5.tar.gz --markdown 20230709/c/chrislab/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-09 17:39:42] INFO root fetch - processPackages [mash-shell]: executing diffoscope
+[2023-07-09 17:39:42] INFO root fetch - processPackages [mash-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mash-shell-0.2.5.tar.gz tmp/mash-shell-0.2.6.tar.gz --markdown 20230709/m/mash-shell/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-09 17:39:43] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-0.9.9.tar.gz]
+[2023-07-09 17:39:43] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-1.0.tar.gz]
+[2023-07-09 17:39:43] INFO root fetch - main [MainThread]: End processing [hermite-function]: success
+[2023-07-09 17:39:43] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.8.tar.gz]
+[2023-07-09 17:39:43] INFO root fetch - processPackages [zein]: Remove: archive file [/home/abi/fetcher/tmp/zein-0.0.9.tar.gz]
+[2023-07-09 17:39:43] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:39:44] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.6.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.6.1.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 17:39:44] INFO root fetch - main [MainThread]: End processing [zein]: success
+[2023-07-09 17:39:44] INFO root fetch - processPackages [BookerDownloadTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerDownloadTool-2023.7.9.0.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - processPackages [BookerDownloadTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerDownloadTool-2023.7.9.1.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - main [MainThread]: End processing [BookerDownloadTool]: success
+[2023-07-09 17:39:44] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.4.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.5.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-07-09 17:39:44] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.5.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
+[2023-07-09 17:39:44] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
+[2023-07-09 17:39:44] INFO root fetch - main [MainThread]: Store serial: [18821482]

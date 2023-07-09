@@ -9497,3 +9497,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:18:23] INFO root fetch - processPackages [gpttrace]: Remove: archive file [/home/abi/fetcher/tmp/gpttrace-0.1.2.tar.gz]
 [2023-07-09 15:18:23] INFO root fetch - main [MainThread]: End processing [gpttrace]: success
 [2023-07-09 15:18:23] INFO root fetch - main [MainThread]: Store serial: [18820386]
+[2023-07-09 15:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820386]
+[2023-07-09 15:23:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-apl
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CircuitCalculator
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dassana
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffusechain
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vyxal
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minilsap
+[2023-07-09 15:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freeplane-io
+[2023-07-09 15:23:32] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.884] Old Version: [0.0.883]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [freeplane-io]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [minilsap]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [dassana]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [diffusechain]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [vyxal]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-09 15:23:32] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/d5/9f/51eef948386dbcade0d6ab5204525e3ece4cc80bb149cda4b1c617713d1a/nbdev-apl-0.0.883.tar.gz
+[2023-07-09 15:23:32] INFO root fetch - processPackages [diffusechain]: Downloading https://files.pythonhosted.org/packages/3b/81/2273f94422b5dbf3004d8515cf36458996b50886869ee86306458a2510e3/diffusechain-0.1.4.tar.gz
+[2023-07-09 15:23:32] INFO root fetch - processPackages [freeplane-io]: Downloading https://files.pythonhosted.org/packages/2f/f0/6e3034091776bc8b7c3044067a0435e8e18346d6aac6a47a30c963a7ff7d/freeplane_io-0.7.2-py3-none-any.whl
+[2023-07-09 15:23:32] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-09 15:23:32] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/66/46/b3cdedec31ab008aa3468fa791eb0fcf6bf7ff309fbb9262efa5781dc938/dassana-0.8.8.tar.gz
+[2023-07-09 15:23:32] INFO root fetch - processPackages [minilsap]: Downloading https://files.pythonhosted.org/packages/04/3f/cf8385344732f0bc9286381c5fb3762593bc3bc29da70cd4876df2fce6e6/minilsap-0.2.0.tar.gz
+[2023-07-09 15:23:32] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/df/34/a9313887f0e45965697911af82da491ce6ab3d9b9692419bc9d28e55edae/vyxal-2.9.0.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1c/53/cd0d8b3ce0825602862621b6820c1c980aca6049bb386302481babff1628/nbdev-apl-0.0.884.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [diffusechain]: Downloading https://files.pythonhosted.org/packages/7a/fd/47e8979addea586530a0c6fd57630a395d39d10b8c52def269b77958099b/diffusechain-0.1.5.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.883.tar.gz tmp/nbdev-apl-0.0.884.tar.gz --markdown 20230709/n/nbdev-apl/0.0.883-0.0.884/diff.md --exclude *.pyd
+[2023-07-09 15:23:33] INFO root fetch - processPackages [diffusechain]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [diffusechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusechain-0.1.4.tar.gz tmp/diffusechain-0.1.5.tar.gz --markdown 20230709/d/diffusechain/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-09 15:23:33] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/8e/4e/7d3d50bf262d8a54ecec7caa65b833a09c6836af619fec13826ec58b3f94/dassana-0.8.9.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [minilsap]: Downloading https://files.pythonhosted.org/packages/ed/06/8c2c3c091d4e484b10331dbaa63ff1cbcbca36febd8531c6a20e8d4ca2d5/minilsap-0.2.2.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.8.tar.gz tmp/dassana-0.8.9.tar.gz --markdown 20230709/d/dassana/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-09 15:23:33] INFO root fetch - processPackages [freeplane-io]: Downloading https://files.pythonhosted.org/packages/54/46/f8037f11ad52b97c25c17d1a153cc4c3e7e55809951b9eb9135028d90889/freeplane-io-0.8.0.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/50/63/1746c2cccb187042ae5cc09caa52fd1fb83b4e37b2533d5d7dbcf041841a/vyxal-2.9.1.tar.gz
+[2023-07-09 15:23:33] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230709/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 15:23:33] INFO root fetch - processPackages [minilsap]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [minilsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minilsap-0.2.0.tar.gz tmp/minilsap-0.2.2.tar.gz --markdown 20230709/m/minilsap/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-09 15:23:33] INFO root fetch - processPackages [vyxal]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [vyxal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vyxal-2.9.0.tar.gz tmp/vyxal-2.9.1.tar.gz --markdown 20230709/v/vyxal/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-09 15:23:33] INFO root fetch - processPackages [freeplane-io]: executing diffoscope
+[2023-07-09 15:23:33] INFO root fetch - processPackages [freeplane-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeplane_io-0.7.2-py3-none-any.whl.zip tmp/freeplane-io-0.8.0.tar.gz --markdown 20230709/f/freeplane-io/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-09 15:23:34] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.883.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.884.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-09 15:23:34] INFO root fetch - processPackages [diffusechain]: Remove: archive file [/home/abi/fetcher/tmp/diffusechain-0.1.4.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [diffusechain]: Remove: archive file [/home/abi/fetcher/tmp/diffusechain-0.1.5.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [diffusechain]: success
+[2023-07-09 15:23:34] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.8.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.9.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-07-09 15:23:34] INFO root fetch - processPackages [freeplane-io]: Remove: archive file [/home/abi/fetcher/tmp/freeplane_io-0.7.2-py3-none-any.whl.zip]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [freeplane-io]: Remove: archive file [/home/abi/fetcher/tmp/freeplane-io-0.8.0.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [freeplane-io]: success
+[2023-07-09 15:23:34] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-09 15:23:34] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.0.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.1.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [vyxal]: success
+[2023-07-09 15:23:34] INFO root fetch - processPackages [minilsap]: Remove: archive file [/home/abi/fetcher/tmp/minilsap-0.2.0.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - processPackages [minilsap]: Remove: archive file [/home/abi/fetcher/tmp/minilsap-0.2.2.tar.gz]
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: End processing [minilsap]: success
+[2023-07-09 15:23:34] INFO root fetch - main [MainThread]: Store serial: [18820412]

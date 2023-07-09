@@ -3864,3 +3864,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:07:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_mgmtsystem-9.0.1.0.0.99.dev38-py2-none-any.whl.zip]
 [2023-07-09 06:07:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem]: success
 [2023-07-09 06:07:14] INFO root fetch - main [MainThread]: Store serial: [18817850]
+[2023-07-09 06:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817850]
+[2023-07-09 06:12:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwf-wrangler
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suksas
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataclass-codec
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwf-wrangler
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xklb
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mrp-multi-level
+[2023-07-09 06:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-quality-control-oca
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-07-09 06:12:23] INFO root fetch - processPackages [dataclass-codec]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-07-09 06:12:23] WARNING root fetch - processPackages [suksas]: Skipping, unable to determine old version
+[2023-07-09 06:12:23] INFO root fetch - main [MainThread]: End processing [suksas] error
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2023-07-09 06:12:23] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-09 06:12:23] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/16/46/8d13034ee3b17e2165b8672e45963ae264eb3e4868d41989aa9cd12f6be1/dataclass_codec-0.4.0.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: Downloading https://files.pythonhosted.org/packages/6e/50/87e9dbefa8fb35ad98c34ecf647a04bb1be2bc212fddb3f571902c77e4a7/gwf_wrangler-0.0.2.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: Downloading https://files.pythonhosted.org/packages/6e/50/87e9dbefa8fb35ad98c34ecf647a04bb1be2bc212fddb3f571902c77e4a7/gwf_wrangler-0.0.2.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/d1/45/8951839d646b1f62cde53910befea1e4b974a127f66dd46f4e06a3f5c4c5/odoo_addon_mrp_multi_level-16.0.1.2.0.3-py3-none-any.whl
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/ac/9a/e20a4a4ca39618eb108575de07b27c526e075c982e6c46a445487adb4018/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-09 06:12:23] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: Downloading https://files.pythonhosted.org/packages/a4/e5/5c987308eb2c9d33bac9dc58c22e317036d0d98a6acdfd9df919cdae81e0/gwf_wrangler-0.0.6.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: Downloading https://files.pythonhosted.org/packages/a4/e5/5c987308eb2c9d33bac9dc58c22e317036d0d98a6acdfd9df919cdae81e0/gwf_wrangler-0.0.6.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-09 06:12:23] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230709/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-09 06:12:23] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/33/b6/f4049ebb01e9a08f9b72b535b9acc4bade42360d4c9e71d8546bff67d66a/dataclass_codec-0.4.1.tar.gz
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/3e/0c/d0669197f1df5e7a333fb762b26a621836cffd55e4945b83c2023ac83e3d/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: executing diffoscope
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwf_wrangler-0.0.2.tar.gz tmp/gwf_wrangler-0.0.6.tar.gz --markdown 20230709/g/gwf-wrangler/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: executing diffoscope
+[2023-07-09 06:12:23] INFO root fetch - processPackages [gwf-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwf_wrangler-0.0.2.tar.gz tmp/gwf_wrangler-0.0.6.tar.gz --markdown 20230709/g/gwf-wrangler/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 06:12:23] INFO root fetch - processPackages [dataclass-codec]: executing diffoscope
+[2023-07-09 06:12:23] INFO root fetch - processPackages [dataclass-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_codec-0.4.0.tar.gz tmp/dataclass_codec-0.4.1.tar.gz --markdown 20230709/d/dataclass-codec/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/b7/13/079ced61883dc20aef6e569352f11af1fb76b2abc20344b5484c6ef0584b/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-07-09 06:12:23] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-mrp-multi-level/16.0.1.2.0.3-16.0.1.2.0.4/diff.md --exclude *.pyd
+[2023-07-09 06:12:24] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2023-07-09 06:12:24] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-quality-control-oca/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-09 06:12:24] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.4.0.tar.gz]
+[2023-07-09 06:12:24] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.4.1.tar.gz]
+[2023-07-09 06:12:24] INFO root fetch - main [MainThread]: End processing [dataclass-codec]: success
+[2023-07-09 06:12:24] INFO root fetch - processPackages [gwf-wrangler]: Remove: archive file [/home/abi/fetcher/tmp/gwf_wrangler-0.0.2.tar.gz]
+[2023-07-09 06:12:24] INFO root fetch - processPackages [gwf-wrangler]: Remove: archive file [/home/abi/fetcher/tmp/gwf_wrangler-0.0.6.tar.gz]
+[2023-07-09 06:12:24] INFO root fetch - main [MainThread]: End processing [gwf-wrangler]: success
+[2023-07-09 06:12:25] INFO root fetch - main [MainThread]: End processing [gwf-wrangler]: success
+[2023-07-09 06:12:25] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-09 06:12:25] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-09 06:12:25] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-09 06:12:25] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2023-07-09 06:12:25] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2023-07-09 06:12:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-07-09 06:12:25] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-09 06:12:25] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-09 06:12:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2023-07-09 06:12:25] INFO root fetch - main [MainThread]: Store serial: [18817870]

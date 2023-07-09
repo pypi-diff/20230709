@@ -16440,3 +16440,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 23:06:12] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.68.tar.gz]
 [2023-07-09 23:06:12] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-09 23:06:12] INFO root fetch - main [MainThread]: Store serial: [18823488]
+[2023-07-09 23:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823488]
+[2023-07-09 23:11:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-base
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-sbase
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydomotic
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-seleniumbase
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-logger
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbase
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EDEMDSPTFEB23
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfirebird
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cf2tf
+[2023-07-09 23:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finqual
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [finqual]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 23:11:23] WARNING root fetch - processPackages [EDEMDSPTFEB23]: Skipping, unable to determine old version
+[2023-07-09 23:11:23] WARNING root fetch - processPackages [pydomotic]: Skipping, unable to determine old version
+[2023-07-09 23:11:23] INFO root fetch - main [MainThread]: End processing [EDEMDSPTFEB23] error
+[2023-07-09 23:11:23] INFO root fetch - main [MainThread]: End processing [pydomotic] error
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [cf2tf]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [ml-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/b2/c9/30dd2d317dd81d963f3db2e20b4d98a458e027ce84aa28da4027dfefb870/pyfirebird-0.0.68.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/ec/1b/27ce922215cb6668309725864644ecb6ea7e94953063d450a07eb0a76208/ml_logger-0.9.8.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/7c/a1/4d8e937b84ca7ef95b8c446e80a97780dee43897dcbf9cadf905942682b0/finqual-0.1.95.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/71/fa/2a3744e7bfc9fe11e2c0ea0cc7c886b5b13707706af9134fd7b4d0fe5153/cf2tf-0.5.0.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/5e/73/772ea95da7b25d502cf034bc9d04a1f427674d9ad9fc87e212fccc33c1f0/ml_logger-0.9.9.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-07-09 23:11:23] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/7d/17/aa48f4cab0434627fc449868687eafa07c753703d8c1190953deee7a9403/pyfirebird-0.0.69.tar.gz
+[2023-07-09 23:11:24] INFO root fetch - processPackages [finqual]: Downloading https://files.pythonhosted.org/packages/9d/06/dd2b632d3b8b0a10e746c77f639a2bd59e3446b6eee7fd9ab6b22001e62a/finqual-0.1.96.tar.gz
+[2023-07-09 23:11:24] INFO root fetch - processPackages [ml-logger]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [ml-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logger-0.9.8.tar.gz tmp/ml_logger-0.9.9.tar.gz --markdown 20230709/m/ml-logger/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230709/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/c7/53/2ce2793794e97b5d7898bdae33a30c5f302bf5b9da0cfacb5be9c4f83ff8/cf2tf-0.6.0.tar.gz
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230709/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230709/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230709/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [finqual]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [finqual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finqual-0.1.95.tar.gz tmp/finqual-0.1.96.tar.gz --markdown 20230709/f/finqual/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.5.0.tar.gz tmp/cf2tf-0.6.0.tar.gz --markdown 20230709/c/cf2tf/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-09 23:11:24] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.68.tar.gz tmp/pyfirebird-0.0.69.tar.gz --markdown 20230709/p/pyfirebird/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-07-09 23:11:25] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.8.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.9.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [ml-logger]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.95.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [finqual]: Remove: archive file [/home/abi/fetcher/tmp/finqual-0.1.96.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [finqual]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.5.0.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.6.0.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2023-07-09 23:11:25] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.68.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.69.tar.gz]
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-09 23:11:25] INFO root fetch - main [MainThread]: Store serial: [18823519]

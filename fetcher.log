@@ -8398,3 +8398,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:28:24] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-macosx_11_0_x86_64.whl.zip]
 [2023-07-09 13:28:24] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-09 13:28:24] INFO root fetch - main [MainThread]: Store serial: [18819835]
+[2023-07-09 13:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819835]
+[2023-07-09 13:33:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WifiOrca
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-cloudflare-login
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchserve-nightly
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-func
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WifiOrca
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-nano
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-cloudflare-login
+[2023-07-09 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2023-07-09 13:33:33] INFO root fetch - processPackages [image-func]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230708] Old Version: [2.4.0b20230707]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [flask-cloudflare-login]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [flask-cloudflare-login]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230709] Old Version: [2.4.0b20230708]
+[2023-07-09 13:33:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-09 13:33:34] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/27/3a/ab289e08c1d3931c1ae3dff313f00a83606487ebf608a9f5b9722c268378/image_func-1.0.6.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/78/86/9bfd147f4874d01ee077c2350a689f644812d13aab3b0f81f434ecb432c2/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl
+[2023-07-09 13:33:34] ERROR root fetch - processPackages [flask-cloudflare-login]: Unable to fetch info: No such project/version 'flask-cloudflare-login' 0.7.4
+[2023-07-09 13:33:34] ERROR root fetch - processPackages [flask-cloudflare-login]: Unable to fetch info: No such project/version 'flask-cloudflare-login' 0.7.4
+[2023-07-09 13:33:34] INFO root fetch - processPackages [flask-cloudflare-login]: Start processing: bigdl-chronos
+[2023-07-09 13:33:34] INFO root fetch - main [MainThread]: End processing [flask-cloudflare-login] error
+[2023-07-09 13:33:34] INFO root fetch - processPackages [flask-cloudflare-login]: Start processing: yak-server
+[2023-07-09 13:33:34] INFO root fetch - main [MainThread]: End processing [flask-cloudflare-login] error
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5a/8d/aec2f36efcfb8ece9d38640190528a8f24ee24f21bb32d5490d84c195a7d/torch_workflow_archiver_nightly-2023.7.7-py3-none-any.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [yak-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/e7/ab/dae210c62eb9ea64a21598387c30430eda1b65ace9d885fefd649a65fdac/torchserve_nightly-2023.7.7-py3-none-any.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230708] Old Version: [2.4.0b20230707]
+[2023-07-09 13:33:34] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/70/96/fd8c940a27505073c2aef65c162d2ae3ef06049aa850c8b910dfaaee7fb1/bigdl_nano-2.4.0b20230708-py3-none-win_amd64.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b2/31/7c4b26838cbe79458dca9831cc884fd713347c9504485666f525109c3d21/torch_model_archiver_nightly-2023.7.7-py3-none-any.whl
+[2023-07-09 13:33:34] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750070>=10485760
+[2023-07-09 13:33:34] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-09 13:33:34] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/0d/76/2e5fe6504ef5f417050b6485dac180ad25cecfa80778abe342394e98f9e2/yak_server-0.8.0.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/bc/4a/0d89510ae21801295d9011c23e54677c062ff224e1478e240fc5f2f59ac1/bigdl_chronos-2.4.0b20230707-py3-none-win_amd64.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/a8/9c/2c24e63d8e257166f9c81bccd1fcaeb239352636957a046a3c7edae03504/yak_server-0.9.0.tar.gz
+[2023-07-09 13:33:34] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-09 13:33:34] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.6.tar.gz tmp/image_func-1.0.8.tar.gz --markdown 20230709/i/image-func/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/d5/bc/2296f6b3cbdd39f4fae92419be88e1fb1b3a7e87aca251fe2f6d4b5dc8ea/bigdl_llm-2.4.0b20230708-py3-none-win_amd64.whl
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-09 13:33:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip --markdown 20230709/t/torch-workflow-archiver-nightly/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-09 13:33:34] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230709/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 13:33:34] INFO root fetch - processPackages [yak-server]: executing diffoscope
+[2023-07-09 13:33:34] INFO root fetch - processPackages [yak-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yak_server-0.8.0.tar.gz tmp/yak_server-0.9.0.tar.gz --markdown 20230709/y/yak-server/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/71/b2/8f155e78da99fa618b00de702e61b07ad2766689623ee49e18e9e0f484b0/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl
+[2023-07-09 13:33:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-09 13:33:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip --markdown 20230709/t/torch-model-archiver-nightly/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/0a/e0/264c4280fc52e5b98fd2715034cff43abef5b11bc20bc4388a78b5fb9845/bigdl_chronos-2.4.0b20230708-py3-none-win_amd64.whl
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230708-py3-none-win_amd64.whl.zip --markdown 20230709/b/bigdl-llm/2.4.0b20230707-2.4.0b20230708/diff.md --exclude *.pyd
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230707-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230708-py3-none-win_amd64.whl.zip --markdown 20230709/b/bigdl-chronos/2.4.0b20230707-2.4.0b20230708/diff.md --exclude *.pyd
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-09 13:33:35] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230708-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip --markdown 20230709/b/bigdl-nano/2.4.0b20230708-2.4.0b20230709/diff.md --exclude *.pyd
+[2023-07-09 13:33:36] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.6.tar.gz]
+[2023-07-09 13:33:36] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-09 13:33:36] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.7-py3-none-any.whl.zip]
+[2023-07-09 13:33:36] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-09 13:33:36] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-09 13:33:36] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-09 13:33:36] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.7-py3-none-any.whl.zip]
+[2023-07-09 13:33:36] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-09 13:33:36] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.8.0.tar.gz]
+[2023-07-09 13:33:36] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.9.0.tar.gz]
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [yak-server]: success
+[2023-07-09 13:33:36] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl.zip]
+[2023-07-09 13:33:36] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230708-py3-none-win_amd64.whl.zip]
+[2023-07-09 13:33:36] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-09 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230707-py3-none-win_amd64.whl.zip]
+[2023-07-09 13:33:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230708-py3-none-win_amd64.whl.zip]
+[2023-07-09 13:33:37] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-09 13:33:37] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230708-py3-none-win_amd64.whl.zip]
+[2023-07-09 13:33:37] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip]
+[2023-07-09 13:33:37] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-09 13:33:37] INFO root fetch - main [MainThread]: Store serial: [18819874]

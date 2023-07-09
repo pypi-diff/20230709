@@ -11386,3 +11386,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 17:03:17] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
 [2023-07-09 17:03:17] INFO root fetch - main [MainThread]: End processing [imesh]: success
 [2023-07-09 17:03:17] INFO root fetch - main [MainThread]: Store serial: [18821241]
+[2023-07-09 17:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821241]
+[2023-07-09 17:08:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspace-client
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digquery
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-rds
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soundevent
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculator-MU
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: perfect-numbers
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-09 17:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nwebclient
+[2023-07-09 17:08:26] INFO root fetch - processPackages [soundevent]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-07-09 17:08:26] WARNING root fetch - processPackages [dspace-client]: Skipping, unable to determine old version
+[2023-07-09 17:08:26] INFO root fetch - main [MainThread]: End processing [dspace-client] error
+[2023-07-09 17:08:26] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-09 17:08:26] INFO root fetch - processPackages [roblox-pyc]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-09 17:08:26] INFO root fetch - processPackages [digquery]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-09 17:08:26] WARNING root fetch - processPackages [perfect-numbers]: Skipping, unable to determine old version
+[2023-07-09 17:08:26] INFO root fetch - main [MainThread]: End processing [perfect-numbers] error
+[2023-07-09 17:08:26] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-09 17:08:26] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:08:26] INFO root fetch - processPackages [calculator-MU]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-09 17:08:26] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-09 17:08:27] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/3a/81/5c469a078cba89e8dbc775fdce47fdce6e0ef58497d8a6c11988f7116534/digquery-0.1.1.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/b1/47/46d4ece4a8eb025208d276c26bb45b165e37d8c646d72100da36bbb8447f/calculator_MU-1.0.0.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/70/29/be14fabe0bf22bf9b50ba962205621883d7422f0dc3a646443b7cc11a1c9/roblox-pyc-1.5.5.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [soundevent]: Downloading https://files.pythonhosted.org/packages/85/2c/234967821c4832877f7007ddf11693056bcd15af9817984d130a2a5e7e31/soundevent-0.1.1.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/78/52/ae20c7a91ecbd74942ae823f11bc45f008d229f06106adb40a1df36f61a0/alibabacloud_rds20140815_py2-1.1.9.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [digquery]: Downloading https://files.pythonhosted.org/packages/4f/4b/70157d0a0c18cad88af7cb0fc4c2e901e496c5faa88f874e1711ab6976f3/digquery-0.1.2.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [calculator-MU]: Downloading https://files.pythonhosted.org/packages/5a/8c/b2657773a399783f302d73621d0eb20fccc3ba4d4538ad7307a5088f8cfe/calculator_MU-1.0.1-py3.11.egg
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:08:27] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/e8/c1/dc705577e5f7b3415e61137141584f366c9463823d79ddef99a55b82a35e/roblox-pyc-1.5.6.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230709/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-09 17:08:27] INFO root fetch - processPackages [soundevent]: Downloading https://files.pythonhosted.org/packages/0a/ad/0dc31e4ea0253116ecb73e5bfdc5c0c1f6afe63c39f9daf98e40ccc64b0d/soundevent-0.3.0.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230709/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-09 17:08:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/dd/46/3783d5014e92075505a1a942cd972a1d0cec21aa4ce8dac8c6f78f519ede/alibabacloud_rds20140815_py2-1.2.0.tar.gz
+[2023-07-09 17:08:27] INFO root fetch - processPackages [digquery]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [digquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digquery-0.1.1.tar.gz tmp/digquery-0.1.2.tar.gz --markdown 20230709/d/digquery/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-09 17:08:27] INFO root fetch - processPackages [calculator-MU]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [calculator-MU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_MU-1.0.0.tar.gz tmp/calculator_MU-1.0.1-py3.11.egg --markdown 20230709/c/calculator-MU/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-09 17:08:27] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.5.5.tar.gz tmp/roblox-pyc-1.5.6.tar.gz --markdown 20230709/r/roblox-pyc/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-09 17:08:27] INFO root fetch - processPackages [soundevent]: executing diffoscope
+[2023-07-09 17:08:27] INFO root fetch - processPackages [soundevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundevent-0.1.1.tar.gz tmp/soundevent-0.3.0.tar.gz --markdown 20230709/s/soundevent/0.1.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-09 17:08:28] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-09 17:08:28] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.1.9.tar.gz tmp/alibabacloud_rds20140815_py2-1.2.0.tar.gz --markdown 20230709/a/alibabacloud-rds20140815-py2/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-09 17:08:29] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.1.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [digquery]: Remove: archive file [/home/abi/fetcher/tmp/digquery-0.1.2.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [digquery]: success
+[2023-07-09 17:08:29] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-09 17:08:29] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.5.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.5.6.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-09 17:08:29] INFO root fetch - processPackages [soundevent]: Remove: archive file [/home/abi/fetcher/tmp/soundevent-0.1.1.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [soundevent]: Remove: archive file [/home/abi/fetcher/tmp/soundevent-0.3.0.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [soundevent]: success
+[2023-07-09 17:08:29] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.0.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [calculator-MU]: Remove: archive file [/home/abi/fetcher/tmp/calculator_MU-1.0.1-py3.11.egg]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [calculator-MU]: success
+[2023-07-09 17:08:29] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.9.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.0.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-09 17:08:29] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-09 17:08:29] INFO root fetch - main [MainThread]: Store serial: [18821274]

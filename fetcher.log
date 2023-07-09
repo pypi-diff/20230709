@@ -7071,3 +7071,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 11:07:02] INFO root fetch - processPackages [python-alist-api]: Remove: archive file [/home/abi/fetcher/tmp/python-alist-api-0.0.2.tar.gz]
 [2023-07-09 11:07:02] INFO root fetch - main [MainThread]: End processing [python-alist-api]: success
 [2023-07-09 11:07:02] INFO root fetch - main [MainThread]: Store serial: [18819248]
+[2023-07-09 11:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819248]
+[2023-07-09 11:12:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-09 11:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task2a
+[2023-07-09 11:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-hammer-core
+[2023-07-09 11:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnivoreql
+[2023-07-09 11:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-09 11:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: degiroasync
+[2023-07-09 11:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnivoreql
+[2023-07-09 11:12:12] INFO root fetch - processPackages [omnivoreql]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 11:12:12] INFO root fetch - processPackages [task2a]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 11:12:12] INFO root fetch - processPackages [ngmapi]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-09 11:12:12] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-09 11:12:12] INFO root fetch - processPackages [omnivoreql]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-09 11:12:12] INFO root fetch - processPackages [degiroasync]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-07-09 11:12:12] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/1a/8b/02c263d0374df3698962abed9c102654e4d0b116897f7947d72f4b151c6e/ngmapi-0.0.38.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: Downloading https://files.pythonhosted.org/packages/1a/b5/573a95e4a2f6f4c556db912c44878dc3726749debd65804dd0f355c5bd3d/nonebot-plugin-hammer-core-0.3.1.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/fc/35/ada583f399b52bca2c84dfc752e8d5312253572aac1035fe2b686d882838/task2a-1.0.5.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/af/fe/4b5b9acecb1aeed247b8ac2a879feec0850fc566b23aa3a074e7f6ef70bf/omnivoreql-0.1.5.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/af/fe/4b5b9acecb1aeed247b8ac2a879feec0850fc566b23aa3a074e7f6ef70bf/omnivoreql-0.1.5.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/6c/ff/465deebf91e1574407385be1b1037c35abf998045dd95825eaca72124ad4/degiroasync-0.18.0.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/34/b6/857a148687c1ced2e44d4c96fcb95a2a628fd48be485dd54650b8e22f27d/ngmapi-0.0.39.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-09 11:12:12] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.38.tar.gz tmp/ngmapi-0.0.39.tar.gz --markdown 20230709/n/ngmapi/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-07-09 11:12:12] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: Downloading https://files.pythonhosted.org/packages/06/fe/e047e9ce6774298a6a1e5833ef4737603f733fe91601fdbb0d37e466c4eb/nonebot_plugin_hammer_core-0.3.2.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/62/7a/1c85fe88585d6ccb7ae654ca9e7452779a05d21983dc67448511dfac7f42/task2a-1.0.6.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/8d/a4/417e7b95d2d77b666e5b20362adba0f6c91fc599d71220d13b7a2371a606/omnivoreql-0.1.6.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/8d/a4/417e7b95d2d77b666e5b20362adba0f6c91fc599d71220d13b7a2371a606/omnivoreql-0.1.6.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/77/31/e0b0f97e966009de74639920878cc3eb64f4d59cc61a05b14208b238385e/degiroasync-0.18.1.tar.gz
+[2023-07-09 11:12:12] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: executing diffoscope
+[2023-07-09 11:12:12] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hammer-core-0.3.1.tar.gz tmp/nonebot_plugin_hammer_core-0.3.2.tar.gz --markdown 20230709/n/nonebot-plugin-hammer-core/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-09 11:12:13] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2023-07-09 11:12:13] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.1.5.tar.gz tmp/omnivoreql-0.1.6.tar.gz --markdown 20230709/o/omnivoreql/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 11:12:13] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2023-07-09 11:12:13] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.1.5.tar.gz tmp/omnivoreql-0.1.6.tar.gz --markdown 20230709/o/omnivoreql/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-09 11:12:13] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-09 11:12:13] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.5.tar.gz tmp/task2a-1.0.6.tar.gz --markdown 20230709/t/task2a/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 11:12:13] INFO root fetch - processPackages [degiroasync]: executing diffoscope
+[2023-07-09 11:12:13] INFO root fetch - processPackages [degiroasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degiroasync-0.18.0.tar.gz tmp/degiroasync-0.18.1.tar.gz --markdown 20230709/d/degiroasync/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2023-07-09 11:12:13] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.38.tar.gz]
+[2023-07-09 11:12:13] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.39.tar.gz]
+[2023-07-09 11:12:13] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-09 11:12:13] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hammer-core-0.3.1.tar.gz]
+[2023-07-09 11:12:13] INFO root fetch - processPackages [nonebot-plugin-hammer-core]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_hammer_core-0.3.2.tar.gz]
+[2023-07-09 11:12:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hammer-core]: success
+[2023-07-09 11:12:14] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.1.5.tar.gz]
+[2023-07-09 11:12:14] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.1.6.tar.gz]
+[2023-07-09 11:12:14] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2023-07-09 11:12:14] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2023-07-09 11:12:14] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.5.tar.gz]
+[2023-07-09 11:12:14] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.6.tar.gz]
+[2023-07-09 11:12:14] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-09 11:12:14] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.18.0.tar.gz]
+[2023-07-09 11:12:14] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.18.1.tar.gz]
+[2023-07-09 11:12:14] INFO root fetch - main [MainThread]: End processing [degiroasync]: success
+[2023-07-09 11:12:14] INFO root fetch - main [MainThread]: Store serial: [18819274]

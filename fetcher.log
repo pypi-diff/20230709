@@ -4096,3 +4096,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:38:20] INFO root fetch - processPackages [vgis-office]: Remove: archive file [/home/abi/fetcher/tmp/vgis_office-1.0.2.tar.gz]
 [2023-07-09 06:38:20] INFO root fetch - main [MainThread]: End processing [vgis-office]: success
 [2023-07-09 06:38:20] INFO root fetch - main [MainThread]: Store serial: [18817923]
+[2023-07-09 06:43:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817923]
+[2023-07-09 06:43:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 06:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-type
+[2023-07-09 06:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-project-role
+[2023-07-09 06:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwforecast
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-type]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-07-09 06:43:29] INFO root fetch - processPackages [pwforecast]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-role]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-09 06:43:29] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/75/2d/13aec7535cac7ce4fe9f8b1dbb3d478ae184458044fc5a52513d12241000/pwforecast-1.1.1.tar.gz
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/46/48/7beff60bd0c5ccb7b29083e4a75808fb32854a47bcacc1e62688351a67b2/odoo_addon_project_type-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-role]: Downloading https://files.pythonhosted.org/packages/a7/19/604807b09f4bf34db6694de52f60cc001cca67ec585b2d214b51ee1f4d3c/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-09 06:43:29] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/85/ab/c4f972da2e40aa0f73903805d80f59faf1b27ec576a90dbfda64b84c2f00/pwforecast-1.1.2.tar.gz
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/97/e6/4c82691a8aeef9fa08c83cf95e799f1feca56e808ebbdcb682f4dfca1ed2/odoo_addon_project_type-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-09 06:43:29] INFO root fetch - processPackages [pwforecast]: executing diffoscope
+[2023-07-09 06:43:29] INFO root fetch - processPackages [pwforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwforecast-1.1.1.tar.gz tmp/pwforecast-1.1.2.tar.gz --markdown 20230709/p/pwforecast/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-role]: Downloading https://files.pythonhosted.org/packages/6a/aa/35470178960f56cd4517ff55e3c33463a521e6cf5413c78c6f59f5b908a7/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-type]: executing diffoscope
+[2023-07-09 06:43:29] INFO root fetch - processPackages [odoo-addon-project-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_type-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_project_type-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-project-type/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-role]: executing diffoscope
+[2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230709/o/odoo-addon-project-role/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-09 06:43:30] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.1.tar.gz]
+[2023-07-09 06:43:30] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.2.tar.gz]
+[2023-07-09 06:43:30] INFO root fetch - main [MainThread]: End processing [pwforecast]: success
+[2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-09 06:43:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-type]: success
+[2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-09 06:43:30] INFO root fetch - processPackages [odoo-addon-project-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-09 06:43:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
+[2023-07-09 06:43:30] INFO root fetch - main [MainThread]: Store serial: [18817930]

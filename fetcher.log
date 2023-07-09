@@ -2609,3 +2609,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 03:56:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-09 03:56:53] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-09 03:56:53] INFO root fetch - main [MainThread]: Store serial: [18817334]
+[2023-07-09 04:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817334]
+[2023-07-09 04:02:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-09 04:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-fftconv
+[2023-07-09 04:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langdash
+[2023-07-09 04:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bili-uas
+[2023-07-09 04:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bili-uas
+[2023-07-09 04:02:04] INFO root fetch - processPackages [langdash]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-09 04:02:04] INFO root fetch - processPackages [bili-uas]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-09 04:02:04] INFO root fetch - processPackages [bili-uas]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-09 04:02:04] INFO root fetch - processPackages [torch-fftconv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-09 04:02:04] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/37/1d/8ed1d22aadf23b5f646a6e2e9767ed9d27e2515687a94f88d5159eeca1c9/bili-uas-0.1.6.tar.gz
+[2023-07-09 04:02:04] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/6d/bab0f489805c4df0ac252333259dfb1ac3e90e819167b2a0cb8b0e7cd33d/langdash-1.7.1.tar.gz
+[2023-07-09 04:02:04] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/37/1d/8ed1d22aadf23b5f646a6e2e9767ed9d27e2515687a94f88d5159eeca1c9/bili-uas-0.1.6.tar.gz
+[2023-07-09 04:02:04] INFO root fetch - processPackages [torch-fftconv]: Downloading https://files.pythonhosted.org/packages/4a/67/08a4260d177525b7003ddc499015b817c213519093710722c4e4cd7791b9/torch_fftconv-0.1.2.tar.gz
+[2023-07-09 04:02:04] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/84/31/c1401fdcdde10cd372aa702d22b75f351764f11b14a4e5aa97c5b7aa748e/langdash-1.7.2.tar.gz
+[2023-07-09 04:02:04] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/70/29/20402a19752438062784d72bb2efb248547f9cc63fb44898a0ef7a1a4094/bili-uas-0.1.7.tar.gz
+[2023-07-09 04:02:04] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/70/29/20402a19752438062784d72bb2efb248547f9cc63fb44898a0ef7a1a4094/bili-uas-0.1.7.tar.gz
+[2023-07-09 04:02:05] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-09 04:02:05] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.7.1.tar.gz tmp/langdash-1.7.2.tar.gz --markdown 20230709/l/langdash/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-09 04:02:05] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-09 04:02:05] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.6.tar.gz tmp/bili-uas-0.1.7.tar.gz --markdown 20230709/b/bili-uas/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-09 04:02:05] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-09 04:02:05] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.6.tar.gz tmp/bili-uas-0.1.7.tar.gz --markdown 20230709/b/bili-uas/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-09 04:02:05] INFO root fetch - processPackages [torch-fftconv]: Downloading https://files.pythonhosted.org/packages/a5/96/02582907088d2f448834e88325d8e3789fd135fbbb847cb5c896dbfd1ee1/torch_fftconv-0.1.3.tar.gz
+[2023-07-09 04:02:05] INFO root fetch - processPackages [torch-fftconv]: executing diffoscope
+[2023-07-09 04:02:05] INFO root fetch - processPackages [torch-fftconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_fftconv-0.1.2.tar.gz tmp/torch_fftconv-0.1.3.tar.gz --markdown 20230709/t/torch-fftconv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-09 04:02:06] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.6.tar.gz]
+[2023-07-09 04:02:06] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.7.tar.gz]
+[2023-07-09 04:02:06] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-09 04:02:06] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.1.tar.gz]
+[2023-07-09 04:02:06] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.2.tar.gz]
+[2023-07-09 04:02:06] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-09 04:02:06] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-09 04:02:06] INFO root fetch - processPackages [torch-fftconv]: Remove: archive file [/home/abi/fetcher/tmp/torch_fftconv-0.1.2.tar.gz]
+[2023-07-09 04:02:06] INFO root fetch - processPackages [torch-fftconv]: Remove: archive file [/home/abi/fetcher/tmp/torch_fftconv-0.1.3.tar.gz]
+[2023-07-09 04:02:06] INFO root fetch - main [MainThread]: End processing [torch-fftconv]: success
+[2023-07-09 04:02:06] INFO root fetch - main [MainThread]: Store serial: [18817345]

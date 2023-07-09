@@ -16246,3 +16246,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 22:55:43] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-07-09 22:55:43] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-07-09 22:55:43] INFO root fetch - main [MainThread]: Store serial: [18823407]
+[2023-07-09 23:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823407]
+[2023-07-09 23:00:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-separator
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbn
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pons
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-ext-helper
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PhilSfancywallet
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supermark
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygrab
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linuxnet-iptables
+[2023-07-09 23:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napatrackmater
+[2023-07-09 23:00:52] INFO root fetch - processPackages [audio-separator]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-07-09 23:00:52] INFO root fetch - processPackages [web-ext-helper]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-09 23:00:52] WARNING root fetch - processPackages [PhilSfancywallet]: Skipping, unable to determine old version
+[2023-07-09 23:00:52] INFO root fetch - main [MainThread]: End processing [PhilSfancywallet] error
+[2023-07-09 23:00:52] INFO root fetch - processPackages [fbn]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 23:00:52] INFO root fetch - processPackages [pons]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-09 23:00:52] INFO root fetch - processPackages [supermark]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-09 23:00:52] INFO root fetch - processPackages [napatrackmater]: New version: [3.8.7] Old Version: [3.8.6]
+[2023-07-09 23:00:53] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/41/9d/ed3173286ea1ca277464c7feb95e8a08137f8226667a7406227891ecd72e/web_ext_helper-1.1.7.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pygrab]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-09 23:00:53] INFO root fetch - processPackages [linuxnet-iptables]: New version: [6.1.0] Old Version: [5.4.0]
+[2023-07-09 23:00:53] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/e3/5e/c02cfdfcfd0b75b45f613fc0f7f482af0bfc86cd665d690c36bd2392beef/napatrackmater-3.8.6.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/45/3f/53991ab0bb0a33f640508bf74a3b7440d7c5f284c3ecf878574c11de7c51/fbn-0.1.0-py3-none-any.whl
+[2023-07-09 23:00:53] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/85/4d/2a6809ddf6ba61d7221c488c40b6ff19867a08ff0a53dd701e0eabb94413/audio_separator-0.4.1.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [supermark]: Downloading https://files.pythonhosted.org/packages/8c/e6/8a83738e9f34e3eb27da702c6c4668a39ccacedb6382780724b2c568145f/supermark-0.3.8.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pons]: Downloading https://files.pythonhosted.org/packages/fd/13/248a753f7ab52795f05b607f6e0e0ff48801e1a63dfc167879d48e3482af/pons-0.6.0.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [linuxnet-iptables]: Downloading https://files.pythonhosted.org/packages/f0/a2/6b609fade6e7011ce6a18f0319e9b533fae9741578cce19d982d8009f7b8/linuxnet-iptables-5.4.0.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/08/77/c5091ca4e43ee43cd65191cbb18dbd24fc34998cbd3ae2e03a530a7577eb/pygrab-1.1.1.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/d8/61/e0e1076e2573b7e33a3f2d1cc6aa8d2efdef57323a5b5ba650fa330ff6e2/web_ext_helper-1.1.8.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/b4/28/255289a9b629061b3c0dbc5958480a76bf420c2106932aa14bdbca4597d4/napatrackmater-3.8.7.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-09 23:00:53] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.8.6.tar.gz tmp/napatrackmater-3.8.7.tar.gz --markdown 20230709/n/napatrackmater/3.8.6-3.8.7/diff.md --exclude *.pyd
+[2023-07-09 23:00:53] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/a5/e0/fc2ef8345b16eada08e58b9af2a9a042d7280ce989e1eedee2877a6d4d5d/audio_separator-0.5.1.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/2c/c7/9284f848b4522aa779576476c1adc7ecf5c0a3d4d4ebeadc16c79d9f164b/fbn-0.1.1-py3-none-any.whl
+[2023-07-09 23:00:53] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-07-09 23:00:53] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.1.7.tar.gz tmp/web_ext_helper-1.1.8.tar.gz --markdown 20230709/w/web-ext-helper/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pons]: Downloading https://files.pythonhosted.org/packages/71/31/a9252f6e1e130a151f74e90e9621c716c849a3acbf697dd22350379dfaea/pons-0.7.0.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/81/00/680cfd2e53b47efb24a474078a28dd3605886f144e41ff66a05b804f9e0d/pygrab-1.1.2.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [supermark]: Downloading https://files.pythonhosted.org/packages/ad/f7/55ff543f2ecf87348eab22020ecaec5683e0d1eed74ce29bf341594ed24d/supermark-0.3.9.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [linuxnet-iptables]: Downloading https://files.pythonhosted.org/packages/97/c6/a5ecbda2b564c0a2ec95d9ad78fb04a71527b3d383b00bf092d2277be05f/linuxnet-iptables-6.1.0.tar.gz
+[2023-07-09 23:00:53] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-07-09 23:00:53] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.4.1.tar.gz tmp/audio_separator-0.5.1.tar.gz --markdown 20230709/a/audio-separator/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-07-09 23:00:53] INFO root fetch - processPackages [fbn]: executing diffoscope
+[2023-07-09 23:00:53] INFO root fetch - processPackages [fbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbn-0.1.0-py3-none-any.whl.zip tmp/fbn-0.1.1-py3-none-any.whl.zip --markdown 20230709/f/fbn/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pons]: executing diffoscope
+[2023-07-09 23:00:53] INFO root fetch - processPackages [pons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pons-0.6.0.tar.gz tmp/pons-0.7.0.tar.gz --markdown 20230709/p/pons/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-09 23:00:54] INFO root fetch - processPackages [pygrab]: executing diffoscope
+[2023-07-09 23:00:54] INFO root fetch - processPackages [pygrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrab-1.1.1.tar.gz tmp/pygrab-1.1.2.tar.gz --markdown 20230709/p/pygrab/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-09 23:00:54] INFO root fetch - processPackages [supermark]: executing diffoscope
+[2023-07-09 23:00:54] INFO root fetch - processPackages [supermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supermark-0.3.8.tar.gz tmp/supermark-0.3.9.tar.gz --markdown 20230709/s/supermark/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-09 23:00:54] INFO root fetch - processPackages [linuxnet-iptables]: executing diffoscope
+[2023-07-09 23:00:54] INFO root fetch - processPackages [linuxnet-iptables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linuxnet-iptables-5.4.0.tar.gz tmp/linuxnet-iptables-6.1.0.tar.gz --markdown 20230709/l/linuxnet-iptables/5.4.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-09 23:00:54] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.6.tar.gz]
+[2023-07-09 23:00:54] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.7.tar.gz]
+[2023-07-09 23:00:54] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-09 23:00:54] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.1.7.tar.gz]
+[2023-07-09 23:00:54] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.1.8.tar.gz]
+[2023-07-09 23:00:54] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-07-09 23:00:55] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.4.1.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.5.1.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-07-09 23:00:55] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.1.0-py3-none-any.whl.zip]
+[2023-07-09 23:00:55] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.1.1-py3-none-any.whl.zip]
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [fbn]: success
+[2023-07-09 23:00:55] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-1.1.1.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-1.1.2.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [pygrab]: success
+[2023-07-09 23:00:55] INFO root fetch - processPackages [pons]: Remove: archive file [/home/abi/fetcher/tmp/pons-0.6.0.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - processPackages [pons]: Remove: archive file [/home/abi/fetcher/tmp/pons-0.7.0.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [pons]: success
+[2023-07-09 23:00:55] INFO root fetch - processPackages [supermark]: Remove: archive file [/home/abi/fetcher/tmp/supermark-0.3.8.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - processPackages [supermark]: Remove: archive file [/home/abi/fetcher/tmp/supermark-0.3.9.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [supermark]: success
+[2023-07-09 23:00:55] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-5.4.0.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-6.1.0.tar.gz]
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: End processing [linuxnet-iptables]: success
+[2023-07-09 23:00:55] INFO root fetch - main [MainThread]: Store serial: [18823439]

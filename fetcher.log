@@ -9650,3 +9650,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 15:28:47] INFO root fetch - processPackages [pyvrp]: Remove: archive file [/home/abi/fetcher/tmp/pyvrp-0.4.4.tar.gz]
 [2023-07-09 15:28:47] INFO root fetch - main [MainThread]: End processing [pyvrp]: success
 [2023-07-09 15:28:47] INFO root fetch - main [MainThread]: Store serial: [18820454]
+[2023-07-09 15:33:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18820454]
+[2023-07-09 15:33:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 15:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roxbot
+[2023-07-09 15:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsapp
+[2023-07-09 15:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anaouder
+[2023-07-09 15:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-09 15:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parrot-api-core
+[2023-07-09 15:33:56] INFO root fetch - processPackages [anaouder]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-09 15:33:56] INFO root fetch - processPackages [parrot-api-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-09 15:33:56] INFO root fetch - processPackages [fsapp]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-09 15:33:56] INFO root fetch - processPackages [roxbot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-09 15:33:56] INFO root fetch - processPackages [crypto-screening]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-09 15:33:57] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/cb/e4/d9006da1623b91c818477303668483e0d0b09509c4ef092a8b46054a1615/crypto-screening-2.6.0.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/44/e6/fab25b638f58f1bc9da1f7793559737246f0ed9a923a5d8b52360926c083/roxbot-0.9.0.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/8f/dd/4b49d62aebe3ec972e6e73be33c591537770fdd779ac8b07c0ea19a68d3b/anaouder-0.8.0.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [fsapp]: Downloading https://files.pythonhosted.org/packages/de/68/75cadad743d0f02878061321334630b5689df665b819bfe2218b13af1a48/fsapp-1.0.3.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [parrot-api-core]: Downloading https://files.pythonhosted.org/packages/56/37/d60ddf9ff870748246b4b67ff93746b6aaf1cfbd2a95a72d5e5576a48b86/parrot-api-core-0.1.8.tar.gz
+[2023-07-09 15:33:57] WARNING root fetch - processPackages [anaouder]: Skipping package: exceeds size limit 81438976>=10485760
+[2023-07-09 15:33:57] INFO root fetch - main [MainThread]: End processing [anaouder] error
+[2023-07-09 15:33:57] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/e3/3c/3148e805a07a05e6b50a8afeaaeb51d5e164f7e320700b3b3efa63692d73/roxbot-0.9.1.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/12/3a/77f8f314bb354ac888030d71ddc8434aeab23d9db2240260649d264afbbc/crypto-screening-2.6.1.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-09 15:33:57] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.9.0.tar.gz tmp/roxbot-0.9.1.tar.gz --markdown 20230709/r/roxbot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-09 15:33:57] INFO root fetch - processPackages [parrot-api-core]: Downloading https://files.pythonhosted.org/packages/8c/20/72cbe602298f9a73e8761bd58f2c9f31b79b1c4dc2fa69dee34ae9969d80/parrot-api-core-0.1.9.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [fsapp]: Downloading https://files.pythonhosted.org/packages/21/8f/3ba64c314f902d5fbd75ce6402e67e35c6079f9ae29df5b23f834c2bf44a/fsapp-1.0.4.tar.gz
+[2023-07-09 15:33:57] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-09 15:33:57] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.6.0.tar.gz tmp/crypto-screening-2.6.1.tar.gz --markdown 20230709/c/crypto-screening/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-07-09 15:33:57] INFO root fetch - processPackages [parrot-api-core]: executing diffoscope
+[2023-07-09 15:33:57] INFO root fetch - processPackages [parrot-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parrot-api-core-0.1.8.tar.gz tmp/parrot-api-core-0.1.9.tar.gz --markdown 20230709/p/parrot-api-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-09 15:33:57] INFO root fetch - processPackages [fsapp]: executing diffoscope
+[2023-07-09 15:33:57] INFO root fetch - processPackages [fsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsapp-1.0.3.tar.gz tmp/fsapp-1.0.4.tar.gz --markdown 20230709/f/fsapp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-09 15:33:58] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.9.0.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.9.1.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-09 15:33:58] INFO root fetch - processPackages [parrot-api-core]: Remove: archive file [/home/abi/fetcher/tmp/parrot-api-core-0.1.8.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - processPackages [parrot-api-core]: Remove: archive file [/home/abi/fetcher/tmp/parrot-api-core-0.1.9.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - main [MainThread]: End processing [parrot-api-core]: success
+[2023-07-09 15:33:58] INFO root fetch - processPackages [fsapp]: Remove: archive file [/home/abi/fetcher/tmp/fsapp-1.0.3.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - processPackages [fsapp]: Remove: archive file [/home/abi/fetcher/tmp/fsapp-1.0.4.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - main [MainThread]: End processing [fsapp]: success
+[2023-07-09 15:33:58] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.6.0.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.6.1.tar.gz]
+[2023-07-09 15:33:58] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-09 15:33:58] INFO root fetch - main [MainThread]: Store serial: [18820467]

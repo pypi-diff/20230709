@@ -4138,3 +4138,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:48:40] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
 [2023-07-09 06:48:40] INFO root fetch - main [MainThread]: End processing [xtrack]: success
 [2023-07-09 06:48:40] INFO root fetch - main [MainThread]: Store serial: [18817932]
+[2023-07-09 06:53:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817932]
+[2023-07-09 06:53:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 06:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgk
+[2023-07-09 06:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matplotlib-ai
+[2023-07-09 06:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imgk
+[2023-07-09 06:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wxdat
+[2023-07-09 06:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamic-links
+[2023-07-09 06:53:49] INFO root fetch - processPackages [imgk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 06:53:49] INFO root fetch - processPackages [matplotlib-ai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-09 06:53:49] INFO root fetch - processPackages [dynamic-links]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 06:53:49] INFO root fetch - processPackages [imgk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-09 06:53:49] INFO root fetch - processPackages [wxdat]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/af/23/e47f1e8efe91df9605d4ed08863622c2cec126a58015436922d526d18314/imgk-1.0.2.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [matplotlib-ai]: Downloading https://files.pythonhosted.org/packages/19/d4/6a94488ba2cf89bba75b8659fbe7f6410491917145934a69968117c53d50/matplotlib_ai-1.0.1.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/af/23/e47f1e8efe91df9605d4ed08863622c2cec126a58015436922d526d18314/imgk-1.0.2.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/d7/79/7c93a75ac9aff624094181708428c5e9571b5e973e460d97db27ef56f3d8/dynamic-links-0.0.4.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [wxdat]: Downloading https://files.pythonhosted.org/packages/fb/1e/10a85d20fed41854e0feb5012726a365c917796968ec7c46f69db0a29c82/wxdat-1.3.2.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/10/df/464d88d97e6a168b7445e2008b6e49f99c97911809a3706986403670f692/imgk-1.0.3.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: Downloading https://files.pythonhosted.org/packages/10/df/464d88d97e6a168b7445e2008b6e49f99c97911809a3706986403670f692/imgk-1.0.3.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [matplotlib-ai]: Downloading https://files.pythonhosted.org/packages/3d/73/afe587bb192915dfa493c1531993dbd8119c1a12ce5e0d61c3f2b4a50041/matplotlib_ai-1.0.2.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [wxdat]: Downloading https://files.pythonhosted.org/packages/14/72/bdcf54035e92d006713cb1f29e3a281cb7f12b5ce4071d9ae816ae33a2f2/wxdat-1.3.3.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [dynamic-links]: Downloading https://files.pythonhosted.org/packages/17/74/697b148a9336f9ccdead12ee53138e0890e4db01be313c8c45bc83e1f2ba/dynamic-links-0.0.5.tar.gz
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: executing diffoscope
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgk-1.0.2.tar.gz tmp/imgk-1.0.3.tar.gz --markdown 20230709/i/imgk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: executing diffoscope
+[2023-07-09 06:53:50] INFO root fetch - processPackages [imgk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgk-1.0.2.tar.gz tmp/imgk-1.0.3.tar.gz --markdown 20230709/i/imgk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-09 06:53:50] INFO root fetch - processPackages [matplotlib-ai]: executing diffoscope
+[2023-07-09 06:53:50] INFO root fetch - processPackages [matplotlib-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib_ai-1.0.1.tar.gz tmp/matplotlib_ai-1.0.2.tar.gz --markdown 20230709/m/matplotlib-ai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-09 06:53:50] INFO root fetch - processPackages [wxdat]: executing diffoscope
+[2023-07-09 06:53:50] INFO root fetch - processPackages [wxdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxdat-1.3.2.tar.gz tmp/wxdat-1.3.3.tar.gz --markdown 20230709/w/wxdat/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-09 06:53:50] INFO root fetch - processPackages [dynamic-links]: executing diffoscope
+[2023-07-09 06:53:50] INFO root fetch - processPackages [dynamic-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-links-0.0.4.tar.gz tmp/dynamic-links-0.0.5.tar.gz --markdown 20230709/d/dynamic-links/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 06:53:51] INFO root fetch - processPackages [imgk]: Remove: archive file [/home/abi/fetcher/tmp/imgk-1.0.2.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - processPackages [imgk]: Remove: archive file [/home/abi/fetcher/tmp/imgk-1.0.3.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - main [MainThread]: End processing [imgk]: success
+[2023-07-09 06:53:51] INFO root fetch - processPackages [matplotlib-ai]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_ai-1.0.1.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - processPackages [matplotlib-ai]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_ai-1.0.2.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - main [MainThread]: End processing [matplotlib-ai]: success
+[2023-07-09 06:53:51] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.4.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - processPackages [dynamic-links]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-links-0.0.5.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - main [MainThread]: End processing [dynamic-links]: success
+[2023-07-09 06:53:51] INFO root fetch - main [MainThread]: End processing [imgk]: success
+[2023-07-09 06:53:51] INFO root fetch - processPackages [wxdat]: Remove: archive file [/home/abi/fetcher/tmp/wxdat-1.3.2.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - processPackages [wxdat]: Remove: archive file [/home/abi/fetcher/tmp/wxdat-1.3.3.tar.gz]
+[2023-07-09 06:53:51] INFO root fetch - main [MainThread]: End processing [wxdat]: success
+[2023-07-09 06:53:51] INFO root fetch - main [MainThread]: Store serial: [18817947]

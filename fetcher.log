@@ -14538,3 +14538,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 20:57:32] INFO root fetch - processPackages [pyhard]: Remove: archive file [/home/abi/fetcher/tmp/pyhard-2.2.1.tar.gz]
 [2023-07-09 20:57:32] INFO root fetch - main [MainThread]: End processing [pyhard]: success
 [2023-07-09 20:57:32] INFO root fetch - main [MainThread]: Store serial: [18822585]
+[2023-07-09 21:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18822585]
+[2023-07-09 21:02:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylinefinder
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orso
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EDEMDSPTFEB23
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threads-net
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnivorex
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataclass-codec
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asyncpg-stubs
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: External-User-Local
+[2023-07-09 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: searchenginepy
+[2023-07-09 21:02:41] WARNING root fetch - processPackages [EDEMDSPTFEB23]: Skipping, unable to determine old version
+[2023-07-09 21:02:41] INFO root fetch - main [MainThread]: End processing [EDEMDSPTFEB23] error
+[2023-07-09 21:02:41] INFO root fetch - processPackages [asyncpg-stubs]: New version: [0.27.1] Old Version: [0.27.0]
+[2023-07-09 21:02:41] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-09 21:02:41] INFO root fetch - processPackages [omnivorex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-09 21:02:41] WARNING root fetch - processPackages [pylinefinder]: Skipping, unable to determine old version
+[2023-07-09 21:02:41] INFO root fetch - main [MainThread]: End processing [pylinefinder] error
+[2023-07-09 21:02:41] WARNING root fetch - processPackages [External-User-Local]: Skipping, unable to determine old version
+[2023-07-09 21:02:41] INFO root fetch - main [MainThread]: End processing [External-User-Local] error
+[2023-07-09 21:02:41] INFO root fetch - processPackages [dataclass-codec]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-09 21:02:41] INFO root fetch - processPackages [searchenginepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-09 21:02:41] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 21:02:41] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/87/b5/24f4189eff246a710740b32c293f59a2b4c14309c2220605cf0c10c52a7a/omnivorex-0.0.5.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/57/c4/2228c8842ca38c636723a4e3e47c0bec6d5698f04ec3a44228013326237f/dataclass_codec-0.5.2.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [asyncpg-stubs]: Downloading https://files.pythonhosted.org/packages/db/40/a820485a2473c36c1440991db42934d667051c279f915c9d7e0217ca0d36/asyncpg_stubs-0.27.0.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/7f/0a/39d1b3d11bae85da83fd2b3191d45446aa0ca57aa29ffaa569fd2af1b1a9/searchenginepy-0.1.0.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/1c/66/5aad0089df0da0e221630da2c585677459a251fa6db22921c5846de42924/orso-0.0.8.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [omnivorex]: Downloading https://files.pythonhosted.org/packages/b6/e2/88d79c0a6e0be260fc2fbf5926c5446d39bf02e7719bab401c126fb23d96/omnivorex-0.0.6.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/99/b4/1e2816f3c14ce5a2382a3102a26dc92ce7a8296f570f84403a74aa758920/dataclass_codec-0.5.3.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-09 21:02:41] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230709/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-09 21:02:41] INFO root fetch - processPackages [dataclass-codec]: executing diffoscope
+[2023-07-09 21:02:41] INFO root fetch - processPackages [dataclass-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_codec-0.5.2.tar.gz tmp/dataclass_codec-0.5.3.tar.gz --markdown 20230709/d/dataclass-codec/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-09 21:02:41] INFO root fetch - processPackages [searchenginepy]: Downloading https://files.pythonhosted.org/packages/8d/9c/ea881c5e50a7533c1155115b613fb0943d0b3468fb2f8ae76bfe852a278a/searchenginepy-0.1.1.tar.gz
+[2023-07-09 21:02:41] INFO root fetch - processPackages [omnivorex]: executing diffoscope
+[2023-07-09 21:02:41] INFO root fetch - processPackages [omnivorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivorex-0.0.5.tar.gz tmp/omnivorex-0.0.6.tar.gz --markdown 20230709/o/omnivorex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-09 21:02:41] INFO root fetch - processPackages [asyncpg-stubs]: Downloading https://files.pythonhosted.org/packages/83/6f/dc5f6862ffeabb4a09ebf4f985246896ef4a5c540a1e2dba1e756b13d005/asyncpg_stubs-0.27.1.tar.gz
+[2023-07-09 21:02:42] INFO root fetch - processPackages [searchenginepy]: executing diffoscope
+[2023-07-09 21:02:42] INFO root fetch - processPackages [searchenginepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchenginepy-0.1.0.tar.gz tmp/searchenginepy-0.1.1.tar.gz --markdown 20230709/s/searchenginepy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-09 21:02:42] INFO root fetch - processPackages [asyncpg-stubs]: executing diffoscope
+[2023-07-09 21:02:42] INFO root fetch - processPackages [asyncpg-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpg_stubs-0.27.0.tar.gz tmp/asyncpg_stubs-0.27.1.tar.gz --markdown 20230709/a/asyncpg-stubs/0.27.0-0.27.1/diff.md --exclude *.pyd
+[2023-07-09 21:02:42] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-09 21:02:42] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-09 21:02:42] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.8.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230709/o/orso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 21:02:42] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.5.2.tar.gz]
+[2023-07-09 21:02:42] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.5.3.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [dataclass-codec]: success
+[2023-07-09 21:02:43] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-09 21:02:43] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.5.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - processPackages [omnivorex]: Remove: archive file [/home/abi/fetcher/tmp/omnivorex-0.0.6.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [omnivorex]: success
+[2023-07-09 21:02:43] INFO root fetch - processPackages [searchenginepy]: Remove: archive file [/home/abi/fetcher/tmp/searchenginepy-0.1.0.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - processPackages [searchenginepy]: Remove: archive file [/home/abi/fetcher/tmp/searchenginepy-0.1.1.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [searchenginepy]: success
+[2023-07-09 21:02:43] INFO root fetch - processPackages [asyncpg-stubs]: Remove: archive file [/home/abi/fetcher/tmp/asyncpg_stubs-0.27.0.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - processPackages [asyncpg-stubs]: Remove: archive file [/home/abi/fetcher/tmp/asyncpg_stubs-0.27.1.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [asyncpg-stubs]: success
+[2023-07-09 21:02:43] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.8.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-09 21:02:43] INFO root fetch - main [MainThread]: Store serial: [18822631]

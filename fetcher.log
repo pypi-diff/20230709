@@ -2739,3 +2739,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 04:22:47] INFO root fetch - processPackages [ReplayTables-andnp]: Remove: archive file [/home/abi/fetcher/tmp/ReplayTables-andnp-4.0.1.tar.gz]
 [2023-07-09 04:22:47] INFO root fetch - main [MainThread]: End processing [ReplayTables-andnp]: success
 [2023-07-09 04:22:47] INFO root fetch - main [MainThread]: Store serial: [18817394]
+[2023-07-09 04:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817394]
+[2023-07-09 04:27:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 04:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airtouch2
+[2023-07-09 04:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-07-09 04:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assamer
+[2023-07-09 04:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-norgatedata
+[2023-07-09 04:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-mermaid
+[2023-07-09 04:27:56] WARNING root fetch - processPackages [assamer]: Skipping, unable to determine old version
+[2023-07-09 04:27:56] INFO root fetch - main [MainThread]: End processing [assamer] error
+[2023-07-09 04:27:56] WARNING root fetch - processPackages [streamlit-mermaid]: Skipping, unable to determine old version
+[2023-07-09 04:27:56] INFO root fetch - main [MainThread]: End processing [streamlit-mermaid] error
+[2023-07-09 04:27:56] INFO root fetch - processPackages [airtouch2]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-09 04:27:56] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-09 04:27:56] INFO root fetch - processPackages [zipline-norgatedata]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-07-09 04:27:57] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-09 04:27:57] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/b5/e2/3295af00fc280ca93de37bebbbeaa0eadc99ced3634321778be1529c7a07/airtouch2-0.7.1.tar.gz
+[2023-07-09 04:27:57] INFO root fetch - processPackages [zipline-norgatedata]: Downloading https://files.pythonhosted.org/packages/b5/4a/563ada8b2597d8ef00a0929e80e2467f6c08933e3f449aa571653bf08202/zipline_norgatedata-2.4.3-py3-none-any.whl
+[2023-07-09 04:27:57] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-09 04:27:57] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-09 04:27:57] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230709/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-09 04:27:57] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/4b/a3/2ec10ff2bd046fee483f103b6b4fdcbf48263f56bfbd7ee51063c1f35505/airtouch2-0.7.2.tar.gz
+[2023-07-09 04:27:57] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-07-09 04:27:57] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.1.tar.gz tmp/airtouch2-0.7.2.tar.gz --markdown 20230709/a/airtouch2/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-09 04:27:57] INFO root fetch - processPackages [zipline-norgatedata]: Downloading https://files.pythonhosted.org/packages/65/8e/ebd281d2990d1eeadc1bdd88a581fb246979103c626e6b4ab72fc6fee2f6/zipline_norgatedata-2.4.4-py3-none-any.whl
+[2023-07-09 04:27:57] INFO root fetch - processPackages [zipline-norgatedata]: executing diffoscope
+[2023-07-09 04:27:57] INFO root fetch - processPackages [zipline-norgatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline_norgatedata-2.4.3-py3-none-any.whl.zip tmp/zipline_norgatedata-2.4.4-py3-none-any.whl.zip --markdown 20230709/z/zipline-norgatedata/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-07-09 04:27:58] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-09 04:27:58] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-09 04:27:58] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-09 04:27:58] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.1.tar.gz]
+[2023-07-09 04:27:58] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.2.tar.gz]
+[2023-07-09 04:27:58] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-07-09 04:27:58] INFO root fetch - processPackages [zipline-norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/zipline_norgatedata-2.4.3-py3-none-any.whl.zip]
+[2023-07-09 04:27:58] INFO root fetch - processPackages [zipline-norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/zipline_norgatedata-2.4.4-py3-none-any.whl.zip]
+[2023-07-09 04:27:58] INFO root fetch - main [MainThread]: End processing [zipline-norgatedata]: success
+[2023-07-09 04:27:58] INFO root fetch - main [MainThread]: Store serial: [18817409]

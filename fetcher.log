@@ -4003,3 +4003,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:22:48] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
 [2023-07-09 06:22:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-09 06:22:48] INFO root fetch - main [MainThread]: Store serial: [18817896]
+[2023-07-09 06:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817896]
+[2023-07-09 06:27:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 06:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2023-07-09 06:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shubhlipi
+[2023-07-09 06:27:56] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.925333283.dev12147] Old Version: [0.2.924349638.dev12134]
+[2023-07-09 06:27:56] INFO root fetch - processPackages [shubhlipi]: New version: [0.0.0.18] Old Version: [0.0.0.17]
+[2023-07-09 06:27:57] INFO root fetch - processPackages [shubhlipi]: Downloading https://files.pythonhosted.org/packages/8d/af/d5a8e934e47b3456b08c0a2bab6a010518e5088de1db1cf4ae50e7297507/shubhlipi-0.0.0.17.tar.gz
+[2023-07-09 06:27:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/78/ab/c84a6ec20628b204803f065aa5b6998c5a9d303fb9a50316e286881e75a2/quickstart-vdk-0.2.924349638.dev12134.tar.gz
+[2023-07-09 06:27:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/67/86/ab32a4ac09c1f0def13e7636a56fb95698bec238f85701c88594a85ad7a3/quickstart-vdk-0.2.925333283.dev12147.tar.gz
+[2023-07-09 06:27:57] INFO root fetch - processPackages [shubhlipi]: Downloading https://files.pythonhosted.org/packages/2a/df/a2602473a86bb230d32b3049d7aeceb16028e7a1e21ca4396278fe262337/shubhlipi-0.0.0.18.tar.gz
+[2023-07-09 06:27:57] INFO root fetch - processPackages [shubhlipi]: executing diffoscope
+[2023-07-09 06:27:57] INFO root fetch - processPackages [shubhlipi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shubhlipi-0.0.0.17.tar.gz tmp/shubhlipi-0.0.0.18.tar.gz --markdown 20230709/s/shubhlipi/0.0.0.17-0.0.0.18/diff.md --exclude *.pyd
+[2023-07-09 06:27:57] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-09 06:27:57] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.924349638.dev12134.tar.gz tmp/quickstart-vdk-0.2.925333283.dev12147.tar.gz --markdown 20230709/q/quickstart-vdk/0.2.924349638.dev12134-0.2.925333283.dev12147/diff.md --exclude *.pyd
+[2023-07-09 06:27:58] INFO root fetch - processPackages [shubhlipi]: Remove: archive file [/home/abi/fetcher/tmp/shubhlipi-0.0.0.17.tar.gz]
+[2023-07-09 06:27:58] INFO root fetch - processPackages [shubhlipi]: Remove: archive file [/home/abi/fetcher/tmp/shubhlipi-0.0.0.18.tar.gz]
+[2023-07-09 06:27:58] INFO root fetch - main [MainThread]: End processing [shubhlipi]: success
+[2023-07-09 06:27:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.924349638.dev12134.tar.gz]
+[2023-07-09 06:27:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.925333283.dev12147.tar.gz]
+[2023-07-09 06:27:58] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-09 06:27:58] INFO root fetch - main [MainThread]: Store serial: [18817900]

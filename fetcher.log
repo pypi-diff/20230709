@@ -12840,3 +12840,12 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:42:08] INFO root fetch - processPackages [aivp]: Remove: archive file [/home/abi/fetcher/tmp/aivp-0.2.1.tar.gz]
 [2023-07-09 18:42:08] INFO root fetch - main [MainThread]: End processing [aivp]: success
 [2023-07-09 18:42:08] INFO root fetch - main [MainThread]: Store serial: [18821863]
+[2023-07-09 18:47:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821863]
+[2023-07-09 18:47:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-09 18:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytickertick
+[2023-07-09 18:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qml-element
+[2023-07-09 18:47:16] WARNING root fetch - processPackages [pytickertick]: Skipping, unable to determine old version
+[2023-07-09 18:47:16] INFO root fetch - main [MainThread]: End processing [pytickertick] error
+[2023-07-09 18:47:16] WARNING root fetch - processPackages [qml-element]: Skipping, unable to determine old version
+[2023-07-09 18:47:16] INFO root fetch - main [MainThread]: End processing [qml-element] error
+[2023-07-09 18:47:16] INFO root fetch - main [MainThread]: Store serial: [18821876]

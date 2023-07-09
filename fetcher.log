@@ -4024,3 +4024,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 06:27:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.925333283.dev12147.tar.gz]
 [2023-07-09 06:27:58] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
 [2023-07-09 06:27:58] INFO root fetch - main [MainThread]: Store serial: [18817900]
+[2023-07-09 06:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18817900]
+[2023-07-09 06:33:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-09 06:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmdsky-debug-py
+[2023-07-09 06:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockery
+[2023-07-09 06:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypermea
+[2023-07-09 06:33:07] INFO root fetch - processPackages [dockery]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-09 06:33:07] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-07-09 06:33:07] INFO root fetch - processPackages [hypermea]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-09 06:33:07] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/c6/65/5200704bfae1cfde8d86052ad1f3d002238ebeab7b532cecc0a3effc662f/pmdsky_debug_py-7.0.0-py3-none-any.whl
+[2023-07-09 06:33:07] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/4f/84/91b2cdddb04bebe02ffe36377dbe06177c41a5c45c4fe229d2fbc06874ce/dockery-0.6.0.tar.gz
+[2023-07-09 06:33:07] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/7e/4e/fd8ffb4ba1ffedbab81dc20ee70244f7b2fd95553d6e0df5ff6312210daf/pmdsky_debug_py-7.0.1-py3-none-any.whl
+[2023-07-09 06:33:07] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/16/07/469db2d96fc522c81bda14ad4eeb5f822c4281b805e8de4eace5b0e8aa23/dockery-0.6.1.tar.gz
+[2023-07-09 06:33:07] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/20/5b/2564b6dce1eedfef7069f5695d232032c437079ae6c553b2c5ed8349d3f2/hypermea-0.9.7-py3-none-any.whl
+[2023-07-09 06:33:07] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-07-09 06:33:07] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-7.0.0-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.1-py3-none-any.whl.zip --markdown 20230709/p/pmdsky-debug-py/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-07-09 06:33:07] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-07-09 06:33:07] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.6.0.tar.gz tmp/dockery-0.6.1.tar.gz --markdown 20230709/d/dockery/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-09 06:33:08] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/99/7e/cf6e6a1c9f576e7f34df531dda089047c00a693551f273d25607b425b2ac/hypermea-0.9.9-py3-none-any.whl
+[2023-07-09 06:33:08] INFO root fetch - processPackages [hypermea]: executing diffoscope
+[2023-07-09 06:33:08] INFO root fetch - processPackages [hypermea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypermea-0.9.7-py3-none-any.whl.zip tmp/hypermea-0.9.9-py3-none-any.whl.zip --markdown 20230709/h/hypermea/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-09 06:33:08] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.6.0.tar.gz]
+[2023-07-09 06:33:08] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.6.1.tar.gz]
+[2023-07-09 06:33:08] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-07-09 06:33:09] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.7-py3-none-any.whl.zip]
+[2023-07-09 06:33:09] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.9-py3-none-any.whl.zip]
+[2023-07-09 06:33:09] INFO root fetch - main [MainThread]: End processing [hypermea]: success
+[2023-07-09 06:33:09] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.0-py3-none-any.whl.zip]
+[2023-07-09 06:33:09] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.1-py3-none-any.whl.zip]
+[2023-07-09 06:33:09] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-07-09 06:33:09] INFO root fetch - main [MainThread]: Store serial: [18817907]

@@ -8344,3 +8344,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 13:23:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-09 13:23:11] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-09 13:23:11] INFO root fetch - main [MainThread]: Store serial: [18819807]
+[2023-07-09 13:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819807]
+[2023-07-09 13:28:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gouge
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchtnt-nightly
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-func
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microtorch
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meshtastic
+[2023-07-09 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dockrizer
+[2023-07-09 13:28:20] INFO root fetch - processPackages [gouge]: New version: [2.0] Old Version: [1.5.0.post2]
+[2023-07-09 13:28:20] INFO root fetch - processPackages [image-func]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-09 13:28:20] WARNING root fetch - processPackages [microtorch]: Skipping, unable to determine old version
+[2023-07-09 13:28:20] INFO root fetch - main [MainThread]: End processing [microtorch] error
+[2023-07-09 13:28:20] INFO root fetch - processPackages [meshtastic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-09 13:28:20] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-09 13:28:20] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/42/8b/719474ee8320af6425a27b00a672d2569d498828b7bee093b5f64caa14c2/image_func-1.0.5.tar.gz
+[2023-07-09 13:28:20] WARNING root fetch - processPackages [dockrizer]: Skipping, unable to determine old version
+[2023-07-09 13:28:20] INFO root fetch - main [MainThread]: End processing [dockrizer] error
+[2023-07-09 13:28:20] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/06/e5/1390d3946a205643c84b0b64da16c59ac208e1e18189fe6a9debdbf3247d/torchtnt-nightly-2023.7.7.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-09 13:28:21] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/c0/c7/9025ff4d47fd70d3512693e569fe8bf50b4177a38b7d6272ab4e892064ca/gouge-1.5.0.post2.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/e1/89/ecff2b65c35f31a05d99ff77dc401de9b8bca995c1a65a261914b8eab8d9/meshtastic-2.1.8.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/9f/79/f3303a54f128f4eecb836fdf0c187d81761ae9bbadacfdef7f14d5d3688f/gouge-2.0.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-09 13:28:21] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/27/3a/ab289e08c1d3931c1ae3dff313f00a83606487ebf608a9f5b9722c268378/image_func-1.0.6.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [gouge]: executing diffoscope
+[2023-07-09 13:28:21] INFO root fetch - processPackages [gouge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gouge-1.5.0.post2.tar.gz tmp/gouge-2.0.tar.gz --markdown 20230709/g/gouge/1.5.0.post2-2.0/diff.md --exclude *.pyd
+[2023-07-09 13:28:21] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-09 13:28:21] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.5.tar.gz tmp/image_func-1.0.6.tar.gz --markdown 20230709/i/image-func/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-09 13:28:21] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-09 13:28:21] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.7.tar.gz tmp/torchtnt-nightly-2023.7.8.tar.gz --markdown 20230709/t/torchtnt-nightly/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-09 13:28:21] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/99/aa/332dba441d65feb0bc1b61bb50bcb84297c7d69d6dd71db2b67d54963b47/meshtastic-2.1.9.tar.gz
+[2023-07-09 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/ea/e4/93a9e33caea73b6b89f651f367980533db5601ae20ce22a1dc0399033be7/torchrl_nightly-2023.7.9-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-09 13:28:21] INFO root fetch - processPackages [meshtastic]: executing diffoscope
+[2023-07-09 13:28:21] INFO root fetch - processPackages [meshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic-2.1.8.tar.gz tmp/meshtastic-2.1.9.tar.gz --markdown 20230709/m/meshtastic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-09 13:28:22] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-09 13:28:22] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230709/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-09 13:28:22] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.5.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.6.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-09 13:28:22] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-1.5.0.post2.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.0.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - main [MainThread]: End processing [gouge]: success
+[2023-07-09 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.7.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-09 13:28:22] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.1.8.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.1.9.tar.gz]
+[2023-07-09 13:28:22] INFO root fetch - main [MainThread]: End processing [meshtastic]: success
+[2023-07-09 13:28:24] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-09 13:28:24] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-09 13:28:24] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-09 13:28:24] INFO root fetch - main [MainThread]: Store serial: [18819835]

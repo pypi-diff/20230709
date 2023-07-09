@@ -12665,3 +12665,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 18:26:33] INFO root fetch - processPackages [sdss-lvmpwi]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmpwi-0.0.36.tar.gz]
 [2023-07-09 18:26:33] INFO root fetch - main [MainThread]: End processing [sdss-lvmpwi]: success
 [2023-07-09 18:26:33] INFO root fetch - main [MainThread]: Store serial: [18821801]
+[2023-07-09 18:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18821801]
+[2023-07-09 18:31:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-09 18:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneweaver-core
+[2023-07-09 18:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdss-lvmtan
+[2023-07-09 18:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textology
+[2023-07-09 18:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curriculumagent
+[2023-07-09 18:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: curriculumagent
+[2023-07-09 18:31:42] INFO root fetch - processPackages [geneweaver-core]: New version: [0.2.0a0] Old Version: [0.1.0a1]
+[2023-07-09 18:31:42] INFO root fetch - processPackages [textology]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-09 18:31:42] INFO root fetch - processPackages [sdss-lvmtan]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-09 18:31:42] INFO root fetch - processPackages [curriculumagent]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 18:31:42] INFO root fetch - processPackages [curriculumagent]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 18:31:42] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/44/23/92a9d23efe35e538983a9aa6910d2e1b4c602712b2f5ba765506da1d2d15/textology-0.0.4.tar.gz
+[2023-07-09 18:31:42] INFO root fetch - processPackages [sdss-lvmtan]: Downloading https://files.pythonhosted.org/packages/51/4e/5d97c1c13ab6ef8f646402e86bc6b5f8d995b66f6a49f6f450343ff88b59/sdss_lvmtan-0.2.3.tar.gz
+[2023-07-09 18:31:42] INFO root fetch - processPackages [geneweaver-core]: Downloading https://files.pythonhosted.org/packages/29/66/d8bcbea26d782010aa9000b894bfff8731659592da8d9aa415cd229f8457/geneweaver_core-0.1.0a1.tar.gz
+[2023-07-09 18:31:42] INFO root fetch - processPackages [curriculumagent]: Downloading https://files.pythonhosted.org/packages/6e/aa/a92f624ee954f8c98e745229620675b9d7f88338bc122019200e57f0498c/curriculumagent-0.0.3.tar.gz
+[2023-07-09 18:31:42] INFO root fetch - processPackages [curriculumagent]: Downloading https://files.pythonhosted.org/packages/6e/aa/a92f624ee954f8c98e745229620675b9d7f88338bc122019200e57f0498c/curriculumagent-0.0.3.tar.gz
+[2023-07-09 18:31:43] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/6c/cb/a2bfd9419eb44bbd0bade05886fe8fe62bec5dc1c9b13d1701f5d863a5f1/textology-0.0.5.tar.gz
+[2023-07-09 18:31:43] INFO root fetch - processPackages [textology]: executing diffoscope
+[2023-07-09 18:31:43] INFO root fetch - processPackages [textology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textology-0.0.4.tar.gz tmp/textology-0.0.5.tar.gz --markdown 20230709/t/textology/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-09 18:31:43] INFO root fetch - processPackages [sdss-lvmtan]: Downloading https://files.pythonhosted.org/packages/fa/ad/a5415d849a335a8ae93e7fe07f2cfafd85d557f1cbc55d530fc713faa8e7/sdss_lvmtan-0.2.4.tar.gz
+[2023-07-09 18:31:43] INFO root fetch - processPackages [geneweaver-core]: Downloading https://files.pythonhosted.org/packages/37/73/77d80bd339c0b1e417ddef1e367f8b3a58541edc6a1db0f1cb9b329afcf4/geneweaver_core-0.2.0a0.tar.gz
+[2023-07-09 18:31:43] INFO root fetch - processPackages [sdss-lvmtan]: executing diffoscope
+[2023-07-09 18:31:43] INFO root fetch - processPackages [sdss-lvmtan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_lvmtan-0.2.3.tar.gz tmp/sdss_lvmtan-0.2.4.tar.gz --markdown 20230709/s/sdss-lvmtan/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-09 18:31:43] INFO root fetch - processPackages [geneweaver-core]: executing diffoscope
+[2023-07-09 18:31:43] INFO root fetch - processPackages [geneweaver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneweaver_core-0.1.0a1.tar.gz tmp/geneweaver_core-0.2.0a0.tar.gz --markdown 20230709/g/geneweaver-core/0.1.0a1-0.2.0a0/diff.md --exclude *.pyd
+[2023-07-09 18:31:43] WARNING root fetch - processPackages [curriculumagent]: Skipping package: exceeds size limit 101202646>=10485760
+[2023-07-09 18:31:43] WARNING root fetch - processPackages [curriculumagent]: Skipping package: exceeds size limit 101202646>=10485760
+[2023-07-09 18:31:43] INFO root fetch - main [MainThread]: End processing [curriculumagent] error
+[2023-07-09 18:31:43] INFO root fetch - main [MainThread]: End processing [curriculumagent] error
+[2023-07-09 18:31:44] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.0.4.tar.gz]
+[2023-07-09 18:31:44] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.0.5.tar.gz]
+[2023-07-09 18:31:44] INFO root fetch - main [MainThread]: End processing [textology]: success
+[2023-07-09 18:31:44] INFO root fetch - processPackages [geneweaver-core]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_core-0.1.0a1.tar.gz]
+[2023-07-09 18:31:44] INFO root fetch - processPackages [geneweaver-core]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_core-0.2.0a0.tar.gz]
+[2023-07-09 18:31:44] INFO root fetch - main [MainThread]: End processing [geneweaver-core]: success
+[2023-07-09 18:31:44] INFO root fetch - processPackages [sdss-lvmtan]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmtan-0.2.3.tar.gz]
+[2023-07-09 18:31:44] INFO root fetch - processPackages [sdss-lvmtan]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmtan-0.2.4.tar.gz]
+[2023-07-09 18:31:44] INFO root fetch - main [MainThread]: End processing [sdss-lvmtan]: success
+[2023-07-09 18:31:44] INFO root fetch - main [MainThread]: Store serial: [18821813]

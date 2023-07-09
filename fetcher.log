@@ -7944,3 +7944,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-09 12:50:56] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
 [2023-07-09 12:50:56] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-09 12:50:56] INFO root fetch - main [MainThread]: Store serial: [18819643]
+[2023-07-09 12:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18819643]
+[2023-07-09 12:56:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capsula
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypostalwin
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AIMM-simulator
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iitkgp-erp
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqldao-generator
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bibleit
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2023-07-09 12:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RobustGaussianFittingLibrary
+[2023-07-09 12:56:05] INFO root fetch - processPackages [bibleit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.476.0] Old Version: [0.475.5]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [crypto-screening]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [AIMM-simulator]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-09 12:56:05] WARNING root fetch - processPackages [sqldao-generator]: Skipping, unable to determine old version
+[2023-07-09 12:56:05] INFO root fetch - processPackages [sqldao-generator]: Start processing: hyperelastic
+[2023-07-09 12:56:05] INFO root fetch - main [MainThread]: End processing [sqldao-generator] error
+[2023-07-09 12:56:05] INFO root fetch - processPackages [pypostalwin]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: New version: [v0.1.9] Old Version: [v0.1.8]
+[2023-07-09 12:56:05] WARNING root fetch - processPackages [iitkgp-erp]: Skipping, unable to determine old version
+[2023-07-09 12:56:05] INFO root fetch - main [MainThread]: End processing [iitkgp-erp] error
+[2023-07-09 12:56:05] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.476.0]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/49/b4/b94e94d47f9ba1175440978a1e5b1405600e553b5c942da86c1748827629/crypto-screening-2.4.0.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [hyperelastic]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-09 12:56:05] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/46/67/1c4081b5ffc00608bcf294305b347654cc44bf04151037a6b5f06cd5ba25/bibleit-0.0.8.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: Downloading https://files.pythonhosted.org/packages/9f/ba/eb28aa099f0274d9496a6161718fc220511c71db8ecff6792759de482683/RobustGaussianFittingLibrary-v0.1.8.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/40/7a/2efcc635881fa14688c88cf644c00542fe86627e87cdebd5b2d019828a63/stigg_api_client-0.476.0.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/50/35/7fc2987a799d26b7a225f5e5f2d757caf1a3ac60bd33e92fd17452f87a6f/stigg_api_client_v2-0.475.5.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [AIMM-simulator]: Downloading https://files.pythonhosted.org/packages/4b/73/b9b31424063f6693a4d36bf1199aff73dce18a11ebabdbbf4dec308dd2ca/aimm_simulator-2.0.2.tar.gz
+[2023-07-09 12:56:05] INFO root fetch - processPackages [pypostalwin]: Downloading https://files.pythonhosted.org/packages/a0/fb/cdf3f97ec6a67874805e612e53036762cb426a8a2d7306dd623715789777/pypostalwin-0.0.3.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/fb/81/d443ee1525abaa7981bfba0671e976b43d9dbf52f43c82d52cc139d52029/hyperelastic-0.3.0.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c2/10/19d60ca77e782ba2ac92dcbde944e82b72708e052c03c93a64135f342f03/crypto-screening-2.5.0.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230709/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: Downloading https://files.pythonhosted.org/packages/24/66/4c2798c930b77001dbb729bdd0323045b120fe3bd76ddfaef9b9ba3f5e9c/RobustGaussianFittingLibrary-v0.1.9.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/af/0f/ff1257567d4fdcd73119b2dc6935d513d1d44bf04b057fbe0f4285d97c23/stigg_api_client_v2-0.476.0.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [pypostalwin]: Downloading https://files.pythonhosted.org/packages/2b/06/4d5cdbbdc169c90905cd6bea529f27998d9b8474e5ee952898b691ce4254/pypostalwin-0.0.4.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.4.0.tar.gz tmp/crypto-screening-2.5.0.tar.gz --markdown 20230709/c/crypto-screening/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobustGaussianFittingLibrary-v0.1.8.tar.gz tmp/RobustGaussianFittingLibrary-v0.1.9.tar.gz --markdown 20230709/R/RobustGaussianFittingLibrary/v0.1.8-v0.1.9/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [hyperelastic]: Downloading https://files.pythonhosted.org/packages/b5/a9/c1a763ee9a37b444a754bac264d5215725d4b4e85bd0edc83dbf0dbe9a08/hyperelastic-0.4.0.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [pypostalwin]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [pypostalwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypostalwin-0.0.3.tar.gz tmp/pypostalwin-0.0.4.tar.gz --markdown 20230709/p/pypostalwin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.475.5.tar.gz tmp/stigg_api_client_v2-0.476.0.tar.gz --markdown 20230709/s/stigg-api-client-v2/0.475.5-0.476.0/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [AIMM-simulator]: Downloading https://files.pythonhosted.org/packages/3a/b8/fb4d3bf40661422e03f27028f7a1e4ae4363b7b3dae420a08451b3145533/aimm_simulator-2.0.3.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.476.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230709/s/stigg-api-client/0.476.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [hyperelastic]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [hyperelastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperelastic-0.3.0.tar.gz tmp/hyperelastic-0.4.0.tar.gz --markdown 20230709/h/hyperelastic/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-09 12:56:06] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/48/a2/403182399a047ed6f5ea0175511bae62c223f1efb278739f73b2f82272fa/bibleit-0.0.9.tar.gz
+[2023-07-09 12:56:06] INFO root fetch - processPackages [AIMM-simulator]: executing diffoscope
+[2023-07-09 12:56:06] INFO root fetch - processPackages [AIMM-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimm_simulator-2.0.2.tar.gz tmp/aimm_simulator-2.0.3.tar.gz --markdown 20230709/A/AIMM-simulator/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-09 12:56:07] INFO root fetch - processPackages [bibleit]: executing diffoscope
+[2023-07-09 12:56:07] INFO root fetch - processPackages [bibleit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230709:/home/abi/fetcher/20230709:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibleit-0.0.8.tar.gz tmp/bibleit-0.0.9.tar.gz --markdown 20230709/b/bibleit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-09 12:56:07] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-09 12:56:07] INFO root fetch - processPackages [pypostalwin]: Remove: archive file [/home/abi/fetcher/tmp/pypostalwin-0.0.3.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - processPackages [pypostalwin]: Remove: archive file [/home/abi/fetcher/tmp/pypostalwin-0.0.4.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - main [MainThread]: End processing [pypostalwin]: success
+[2023-07-09 12:56:07] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: Remove: archive file [/home/abi/fetcher/tmp/RobustGaussianFittingLibrary-v0.1.8.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - processPackages [RobustGaussianFittingLibrary]: Remove: archive file [/home/abi/fetcher/tmp/RobustGaussianFittingLibrary-v0.1.9.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - main [MainThread]: End processing [RobustGaussianFittingLibrary]: success
+[2023-07-09 12:56:07] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.4.0.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.5.0.tar.gz]
+[2023-07-09 12:56:07] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-09 12:56:08] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.475.5.tar.gz]
+[2023-07-09 12:56:08] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.476.0.tar.gz]
+[2023-07-09 12:56:08] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-09 12:56:08] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.476.0.tar.gz]
+[2023-07-09 12:56:08] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-09 12:56:08] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-09 12:56:08] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.3.0.tar.gz]
+[2023-07-09 12:56:08] INFO root fetch - processPackages [hyperelastic]: Remove: archive file [/home/abi/fetcher/tmp/hyperelastic-0.4.0.tar.gz]
+[2023-07-09 12:56:08] INFO root fetch - main [MainThread]: End processing [hyperelastic]: success
+[2023-07-09 12:56:09] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.8.tar.gz]
+[2023-07-09 12:56:09] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.9.tar.gz]
+[2023-07-09 12:56:09] INFO root fetch - main [MainThread]: End processing [bibleit]: success
+[2023-07-09 12:56:09] INFO root fetch - processPackages [AIMM-simulator]: Remove: archive file [/home/abi/fetcher/tmp/aimm_simulator-2.0.2.tar.gz]
+[2023-07-09 12:56:09] INFO root fetch - processPackages [AIMM-simulator]: Remove: archive file [/home/abi/fetcher/tmp/aimm_simulator-2.0.3.tar.gz]
+[2023-07-09 12:56:09] INFO root fetch - main [MainThread]: End processing [AIMM-simulator]: success
+[2023-07-09 12:56:09] INFO root fetch - main [MainThread]: Store serial: [18819678]
